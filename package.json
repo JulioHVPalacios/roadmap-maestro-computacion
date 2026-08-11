@@ -1,9 +1,9 @@
 {
   "name": "roadmap-maestro-computacion",
-  "version": "3.2.1",
+  "version": "6.0.0",
   "private": false,
   "type": "module",
-  "description": "Campus digital autodidacta open-source v3.2: motor académico trazable, auditoría mundial lazy-loaded, PWA base y diseño dinámico.",
+  "description": "Campus Maestro v6.0 RC: plataforma universitaria digital unificada, optimizada y local-first con escenas interactivas en tiempo real, PDF.js, vídeo manipulable, simulaciones, PWA, sincronización configurable y auditoría curricular mundial.",
   "author": "Julio Humberto Vera Palacios",
   "license": "MIT",
   "engines": {
@@ -13,7 +13,9 @@
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
     "preview": "vite preview",
-    "check": "npm run build"
+    "check": "npm run build",
+    "qa": "npm run build && node scripts/qa-platform.mjs",
+    "qa:static": "node scripts/qa-platform.mjs"
   },
   "dependencies": {
     "react": "19.2.6",

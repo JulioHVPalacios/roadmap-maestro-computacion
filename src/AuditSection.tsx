@@ -1,7 +1,8 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { auditCourses, auditRoutes, auditSources } from "./audit-world-data";
 import { auditSummary } from "./audit-meta";
 import Icon from "./Icon";
+import { auditIntegrity } from "./audit-integrity";
 
 function normalized(value: string) { return value.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase(); }
 
@@ -14,6 +15,7 @@ function resolveSources(raw: string) {
 export default function AuditSection(){
   const [query,setQuery]=useState("");
   const [route,setRoute]=useState("todas");
+  const [visibleCount,setVisibleCount]=useState(18);
   const filtered=useMemo(()=>{
     const q=normalized(query.trim());
     return auditCourses.filter(item=>{
@@ -22,10 +24,12 @@ export default function AuditSection(){
       return routeOk&&queryOk;
     });
   },[query,route]);
+  useEffect(()=>setVisibleCount(18),[query,route]);
 
   return <section id="auditoria" className="audit-section page-section reveal-section">
     <div className="audit-ambient" aria-hidden="true"><i/><i/><i/></div>
     <div className="section-head"><span>06 · AUDITORÍA CURRICULAR MUNDIAL</span><h2>No basta con decir “completo”.<br/><em>Hay que poder demostrarlo.</em></h2><p>La auditoría se carga solo cuando llegas a esta sección para mantener rápido el campus. Conserva el catálogo mundial sin obligarte a cursar literalmente los 533 módulos: se usa como control de pérdidas al normalizar la ruta principal.</p></div>
+    <div className="integrity-banner"><Icon name={auditIntegrity.structuralOk?"check":"shield"}/><div><span>CONTROL AUTOMÁTICO DE INTEGRIDAD ESTRUCTURAL</span><b>{auditIntegrity.structuralOk?"Sin inconsistencias estructurales detectadas":"Revisión estructural requerida"}</b><p>Comprueba IDs duplicados, horas, prerrequisitos, referencias de fuentes y totales por ruta. No sustituye la revisión semántica de cada competencia.</p></div><code>{auditIntegrity.structuralOk?"PASS":"CHECK"}</code></div>
     <div className="audit-kpis">
       <article><span>MÓDULOS NORMALIZADOS</span><strong>{auditSummary.modules}</strong><small>catálogo maestro</small></article>
       <article><span>HORAS CATALOGADAS</span><strong>{auditSummary.hours.toLocaleString("es-PE")}</strong><small>teoría + laboratorio + proyecto</small></article>
@@ -45,14 +49,14 @@ export default function AuditSection(){
           <div className="audit-result"><strong>{filtered.length}</strong><span>resultados</span></div>
         </div>
         <div className="audit-courses">
-          {filtered.slice(0,36).map(item=><article key={item.id} className="audit-course">
+          {filtered.slice(0,visibleCount).map(item=><article key={item.id} className="audit-course">
             <header><code>{item.id}</code><span>{item.fase}</span><b>P{item.prioridad}</b></header>
             <h3>{item.materia}</h3><p>{item.temas}</p>
             <div className="audit-tags"><span>{item.ruta}</span><span>{item.area}</span><span>{item.horas} h</span><span>{item.radar2026}</span></div>
             <details><summary>Ver trazabilidad</summary><div className="trace-details"><b>Prerrequisitos</b><p>{item.prerrequisitos||"No especificados en el catálogo."}</p><b>Evidencia mínima</b><p>{item.evidencia}</p><b>Vigencia / horizonte</b><p>{item.vigencia2026} · {item.horizonte}</p><b>Señal futura</b><p>{item.senalFutura}</p><b>Fuentes registradas</b><div className="trace-sources">{resolveSources(item.fuentes).map(({id,source})=>source?<a key={id} href={source.url} target="_blank" rel="noreferrer"><span><code>{id}</code><small>{source.tipo}</small></span><strong>{source.entidad}</strong><p>{source.documento}</p><em>{source.cobertura}</em><footer><span>Snapshot: {auditSummary.snapshot}</span><span>Licencia/ubicación exacta: por verificar antes de incorporar</span><b>Abrir fuente <Icon name="link"/></b></footer></a>:<div className="trace-source-missing" key={id}><code>{id}</code><span>ID conservado, ficha humana pendiente de resolver.</span></div>)}</div></div></details>
           </article>)}
         </div>
-        {filtered.length>36&&<p className="audit-more">Mostrando 36 de {filtered.length}. Usa la búsqueda o una ruta para acotar sin perder ningún registro.</p>}
+        {filtered.length>visibleCount&&<div className="audit-more"><p>Mostrando {visibleCount} de {filtered.length}. Ningún registro se elimina.</p><button onClick={()=>setVisibleCount(v=>Math.min(filtered.length,v+18))}>Mostrar 18 más</button></div>}
       </div>
     </div>
     <div className="source-registry">

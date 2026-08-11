@@ -1,13 +1,18 @@
 {
-  "name": "Campus Maestro de Computación",
-  "short_name": "Campus Maestro",
-  "description": "Universidad digital autodidacta open-source de computación, español primero y costo obligatorio S/0.",
-  "start_url": "./",
-  "scope": "./",
-  "display": "standalone",
-  "background_color": "#07101f",
-  "theme_color": "#2e63ff",
-  "icons": [
-    {"src":"./favicon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}
+  "name":"Campus Maestro de Computación",
+  "short_name":"Campus Maestro",
+  "description":"Universidad digital autodidacta open-source de computación, español primero y costo obligatorio S/0.",
+  "start_url":"./",
+  "scope":"./",
+  "display":"standalone",
+  "orientation":"any",
+  "background_color":"#07101f",
+  "theme_color":"#2e63ff",
+  "categories":["education","productivity","developer"],
+  "icons":[{"src":"./favicon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}],
+  "shortcuts":[
+    {"name":"Campus","url":"./#campus","icons":[{"src":"./favicon.svg","sizes":"any","type":"image/svg+xml"}]},
+    {"name":"Plan","url":"./#ruta","icons":[{"src":"./favicon.svg","sizes":"any","type":"image/svg+xml"}]},
+    {"name":"Biblioteca","url":"./#biblioteca","icons":[{"src":"./favicon.svg","sizes":"any","type":"image/svg+xml"}]}
   ]
 }

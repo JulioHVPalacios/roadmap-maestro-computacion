@@ -1,7 +1,10 @@
 
-## Campus v3.2
 
-La v3.2 añade motor académico con estados de verificación, trazabilidad humana de fuentes, auditoría mundial cargada bajo demanda, modo claro/oscuro, animaciones accesibles y una base PWA. Esto no significa que todas las aulas estén completas: el contenido pendiente permanece marcado como tal hasta ser construido y verificado.
+> **Estado actual:** v6.0 RC congela la arquitectura de plataforma para dejar de rediseñar por partes. El siguiente trabajo es poblar/verificar contenido, no volver a reconstruir la interfaz.
+
+## Campus v6.0 RC
+
+La v6.0 RC añade motor académico con estados de verificación, trazabilidad humana de fuentes, auditoría mundial cargada bajo demanda, modo claro/oscuro, animaciones accesibles y una base PWA. Esto no significa que todas las aulas estén completas: el contenido pendiente permanece marcado como tal hasta ser construido y verificado.
 
 # Campus Maestro de Computación v3.0
 
@@ -101,6 +104,23 @@ Proyecto impulsado por **Julio Humberto Vera Palacios**. Código bajo licencia M
 
 La v3 transforma el roadmap en un campus: dashboard, aulas por materia, biblioteca central, notas locales, laboratorios, evaluaciones y una experiencia visual dinámica. La incorporación de teoría, PDFs, clases y material multimedia será progresiva y respetará las licencias de cada fuente.
 
-## Auditoría mundial v3.2
+## Auditoría mundial v6.0 RC
 
-La v3.2 incorpora una base consultable de 533 módulos normalizados, 49.828 horas catalogadas, 17 rutas y 76 referencias del estudio mundial previo. Esta capa no obliga a cursar 533 asignaturas duplicadas: sirve para demostrar que la normalización S0–S19/T01–T12 no pierda conocimiento único. Véase `docs/AUDITORIA_CAMPUS_V3_1.md`.
+La v6.0 RC incorpora una base consultable de 533 módulos normalizados, 49.828 horas catalogadas, 17 rutas y 76 referencias del estudio mundial previo. Esta capa no obliga a cursar 533 asignaturas duplicadas: sirve para demostrar que la normalización S0–S19/T01–T12 no pierda conocimiento único. Véase `docs/AUDITORIA_CAMPUS_V3_1.md`.
+
+
+## v6.0 RC
+
+La fase v6.0 RC incorpora el motor cinematográfico por scroll y la jerarquía académica definitiva. Véase `docs/CAMPUS_V3_3.md`.
+
+
+## Diseño v6.0 RC
+
+La v6.0 RC aplica un sistema visual único a todo el campus: movimiento automático controlable, fotografía documental real con procedencia visible, iconografía SVG, fondos con profundidad, transiciones coherentes y diseño responsive. Consulta `docs/DISENO_Y_MEDIOS_V4.md` para las fuentes y licencias de las fotografías.
+
+
+## Plataforma unificada v6.0 RC
+
+La v6.0 RC incorpora en una sola base: vídeo HTML5 manipulable (seek, velocidad, PiP, fullscreen, zoom y pan), simulaciones educativas SVG manipulables, visor PDF funcional mediante el visor nativo del navegador, fondo ambiental dinámico con fotografía documental trazable, navegación móvil, IndexedDB para copias locales, exportación/importación JSON, adaptador de sincronización cloud configurable y PWA/offline mejorada.
+
+La infraestructura no convierte automáticamente los contenidos pendientes en enseñanza verificada. Las aulas siguen mostrando el estado académico real: una materia no se declara completa hasta que teoría, prácticas, evaluación y fuentes estén auditadas.

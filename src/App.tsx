@@ -4,6 +4,16 @@ import { careerFamilies, masteryTracks, type MasteryTrack } from "./mastery-data
 import { auditSummary } from "./audit-meta";
 import { contentArchitectureRules } from "./academic-content";
 import Icon, { type IconName } from "./Icon";
+import CinematicMap from "./CinematicMap";
+import MediaShowcase from "./MediaShowcase";
+import { definitiveAcademicHierarchy } from "./campus-schema";
+import AmbientBackdrop from "./AmbientBackdrop";
+import InteractiveVideo from "./InteractiveVideo";
+import DocumentViewer from "./DocumentViewer";
+import EducationalViz from "./EducationalViz";
+import SyncCenter from "./SyncCenter";
+import PerformanceRuntime from "./PerformanceRuntime";
+import RealtimeUniverse from "./RealtimeUniverse";
 
 const AuditSection = lazy(() => import("./AuditSection"));
 
@@ -29,6 +39,13 @@ function phaseFor(index: number) {
 function normalized(value: string) { return value.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase(); }
 function subjectKey(stage: Stage, index: number) { return `${stage.code}-m${index}`; }
 function trackUnitKey(track: MasteryTrack, index: number) { return `${track.code}-u${index}`; }
+function trackIconName(code: string): IconName {
+  const map: Record<string, IconName> = {
+    T01:"code", T02:"shield", T03:"database", T04:"cloud", T05:"settings", T06:"brain",
+    T07:"robot", T08:"cpu", T09:"network", T10:"palette", T11:"flask", T12:"spark",
+  };
+  return map[code] ?? "layers";
+}
 
 export default function App() {
   const [completed, setCompleted] = useState<Set<string>>(new Set());
@@ -39,7 +56,6 @@ export default function App() {
   const [classroom, setClassroom] = useState<Classroom | null>(null);
   const [tab, setTab] = useState<ClassroomTab>("resumen");
   const [notes, setNotes] = useState<Record<string, string>>({});
-  const [scrollPercent, setScrollPercent] = useState(0);
   const [mobileMenu, setMobileMenu] = useState(false);
   const [theme, setTheme] = useState<"light"|"dark">(() => {
     try { return localStorage.getItem("campus-maestro-theme") === "dark" ? "dark" : "light"; } catch { return "light"; }
@@ -56,14 +72,6 @@ export default function App() {
 
   useEffect(() => { try { localStorage.setItem("roadmap-maestro-progreso-v3", JSON.stringify([...completed])); } catch {} }, [completed]);
   useEffect(() => { try { localStorage.setItem("roadmap-maestro-notas-v3", JSON.stringify(notes)); } catch {} }, [notes]);
-  useEffect(() => {
-    const onScroll = () => {
-      const h = document.documentElement.scrollHeight - window.innerHeight;
-      setScrollPercent(h > 0 ? Math.min(100, Math.round(window.scrollY / h * 100)) : 0);
-      document.documentElement.style.setProperty("--page-scroll", String(window.scrollY));
-    };
-    onScroll(); window.addEventListener("scroll", onScroll, { passive: true }); return () => window.removeEventListener("scroll", onScroll);
-  }, []);
   useEffect(() => {
     document.body.style.overflow = classroom ? "hidden" : "";
     return () => { document.body.style.overflow = ""; };
@@ -147,9 +155,11 @@ export default function App() {
   }
 
   return <main>
-    <div className="scroll-progress"><i style={{ width: `${scrollPercent}%` }} /></div>
+    <PerformanceRuntime/>
+    <AmbientBackdrop/>
+    <div className="scroll-progress"><i /></div>
     <header className="topbar">
-      <button className="brand" onClick={() => jump("inicio")}><span className="brand-mark">CM</span><span><b>Campus Maestro</b><small>Computación · v3.2.1</small></span></button>
+      <button className="brand" onClick={() => jump("inicio")}><span className="brand-mark">CM</span><span><b>Campus Maestro</b><small>Computación · v6.0 RC</small></span></button>
       <nav className={mobileMenu ? "open" : ""}>
         <button onClick={() => jump("campus")}>Campus</button><button onClick={() => jump("ruta")}>Plan</button><button onClick={() => jump("biblioteca")}>Biblioteca</button><button onClick={() => jump("maestrias")}>Maestrías</button><button onClick={() => jump("cobertura")}>Cobertura</button><button onClick={() => jump("auditoria")}>Auditoría</button>
       </nav>
@@ -157,6 +167,12 @@ export default function App() {
       <button className="menu-btn" onClick={() => setMobileMenu(v => !v)} aria-label="Abrir menú"><Icon name="menu"/></button>
       <button className="progress-pill" onClick={() => jump("campus")}><span>{percent}%</span><i style={{ "--p": `${percent}%` } as CSSProperties} /></button>
     </header>
+    <nav className="mobile-dock" aria-label="Navegación móvil">
+      <button onClick={()=>jump("campus")}><Icon name="home"/><span>Campus</span></button>
+      <button onClick={()=>jump("ruta")}><Icon name="map"/><span>Plan</span></button>
+      <button onClick={()=>jump("biblioteca")}><Icon name="library"/><span>Biblioteca</span></button>
+      <button onClick={()=>jump("sincronizacion")}><Icon name="cloud"/><span>Sync</span></button>
+    </nav>
 
     <section id="inicio" className="hero cinematic reveal-section">
       <div className="aurora a1"/><div className="aurora a2"/><div className="grid-noise"/>
@@ -167,10 +183,15 @@ export default function App() {
         <div className="hero-actions"><button className="primary" onClick={() => jump("campus")}>Entrar al campus <span>→</span></button><button className="ghost" onClick={() => jump("ruta")}>Explorar el plan</button></div>
         <div className="hero-badges"><span>20 etapas</span><span>{coreUnits} materias</span><span>12 maestrías</span><span>{rootSources.length} ecosistemas auditados</span></div>
       </div>
-      <div className="knowledge-orbit" aria-hidden="true">
-        <div className="core-orb"><span>∞</span><b>COMPUTACIÓN</b></div>
-        {["Algoritmos","Software","Datos","IA","Redes","Seguridad","Hardware","Robótica"].map((x,i)=><span key={x} className={`orbit-node n${i+1}`}>{x}</span>)}
-      </div>
+      <RealtimeUniverse />
+    </section>
+
+    <CinematicMap />
+    <MediaShowcase />
+
+    <section className="immersive-studio page-section reveal-section" id="laboratorio-interactivo">
+      <div className="section-head"><span>EXPERIENCIA INTERACTIVA · AUTOPLAY + CONTROL MANUAL</span><h2>No solo mirar.<br/><em>Manipular para entender.</em></h2><p>La misma lógica dinámica del mapa se extiende a medios y simulaciones educativas: reproduce automáticamente, pausa, arrastra, cambia velocidad, reorganiza nodos y explora el sistema.</p></div>
+      <div className="immersive-grid"><InteractiveVideo title="Vídeo dinámico y manipulable"/><EducationalViz/></div>
     </section>
 
     <section id="campus" className="campus-section page-section reveal-section">
@@ -203,15 +224,17 @@ export default function App() {
     </section>
 
     <section className="architecture-section page-section reveal-section" id="arquitectura-academica">
-      <div className="section-head"><span>02 · MOTOR ACADÉMICO</span><h2>Contenido con estados.<br/><em>Nada se finge terminado.</em></h2><p>La v3.2 fija el esquema con el que se llenará cada aula: facultad → ruta → etapa → materia → unidad → lección → activo educativo → evaluación → evidencia.</p></div>
-      <div className="architecture-flow">{["Facultad","Ruta","Etapa","Materia","Unidad","Lección","Evidencia"].map((item,index)=><div key={item}><span>{String(index+1).padStart(2,"0")}</span><b>{item}</b>{index<6&&<i>→</i>}</div>)}</div>
+      <div className="section-head"><span>02 · MOTOR ACADÉMICO</span><h2>Contenido con estados.<br/><em>Nada se finge terminado.</em></h2><p>La v6.0 RC conserva el esquema definitivo con el que se llenará cada aula. Cada nivel hereda trazabilidad, estados de verificación, prerrequisitos y evidencia.</p></div>
+      <div className="architecture-flow">{definitiveAcademicHierarchy.map((item,index)=><div key={item}><span>{String(index+1).padStart(2,"0")}</span><b>{item}</b>{index<definitiveAcademicHierarchy.length-1&&<i>→</i>}</div>)}</div>
       <div className="architecture-rules">{contentArchitectureRules.map((rule,index)=><article key={rule}><Icon name={index%2===0?"check":"shield"}/><span>{rule}</span></article>)}</div>
       <div className="status-legend"><span className="status verified">VERIFICADO</span><span className="status partial">PARCIAL</span><span className="status pending">PENDIENTE</span><span className="status frontier">FRONTERA</span><p>Estos estados se usarán para teoría, clases, documentos, laboratorios, ejercicios, exámenes y proyectos.</p></div>
     </section>
 
+    <SyncCenter/>
+
     <section id="ruta" className="page-section roadmap-section reveal-section">
       <div className="section-head"><span>03 · PLAN INTEGRADO</span><h2>{stages.length} etapas.<br/><em>Un solo camino navegable.</em></h2><p>Haz clic en “Entrar al aula” para estudiar una materia dentro del campus.</p></div>
-      <div className="toolbar"><label className="search"><span>⌕</span><input value={query} onChange={(e)=>setQuery(e.target.value)} placeholder="Buscar algoritmos, redes, IA, física…"/></label><div className="phase-chips"><button className={phase==="todas"?"active":""} onClick={()=>setPhase("todas")}>Todas</button>{phaseMeta.map(p=><button className={phase===p.id?"active":""} onClick={()=>setPhase(p.id)} key={p.id}>{p.label}</button>)}</div></div>
+      <div className="toolbar"><label className="search"><Icon name="search"/><input value={query} onChange={(e)=>setQuery(e.target.value)} placeholder="Buscar algoritmos, redes, IA, física…"/></label><div className="phase-chips"><button className={phase==="todas"?"active":""} onClick={()=>setPhase("todas")}>Todas</button>{phaseMeta.map(p=><button className={phase===p.id?"active":""} onClick={()=>setPhase(p.id)} key={p.id}>{p.label}</button>)}</div></div>
       <div className="stage-list">
         {stages.filter(s=>phase==="todas"||phaseFor(s.index).id===phase).map(stage=>{
           const meta=phaseFor(stage.index); const stageSubjects=filteredSubjects.filter(x=>x.stage.code===stage.code); if(query&&stageSubjects.length===0)return null;
@@ -228,16 +251,16 @@ export default function App() {
     </section>
 
     <section id="biblioteca" className="library-section page-section dark-section reveal-section">
-      <div className="section-head light"><span>04 · BIBLIOTECA</span><h2>Todo el material,<br/><em>desde un solo lugar.</em></h2><p>La v3 centraliza los recursos. La siguiente fase sustituirá progresivamente enlaces por contenido propio o legalmente redistribuible dentro del aula.</p></div>
-      <label className="search dark-search"><span>⌕</span><input value={libraryQuery} onChange={e=>setLibraryQuery(e.target.value)} placeholder="Buscar libro, clase, fuente, materia…"/></label>
-      <div className="library-grid">{filteredLibrary.slice(0,24).map((item,i)=><article key={`${item.url}-${i}`}><span className="file-icon">{item.label.toLowerCase().includes("youtube")||item.where.toLowerCase().includes("clase")?"▶":"▤"}</span><small>{item.stage.code} · {item.subject.name}</small><h3>{item.label}</h3><p>{item.where}</p><div><button onClick={()=>openClassroom(item.stage,item.subject,item.index)}>Ver en aula</button><a href={item.url} target="_blank" rel="noreferrer">Fuente ↗</a></div></article>)}</div>
+      <div className="section-head light"><span>04 · BIBLIOTECA</span><h2>Todo el material,<br/><em>desde un solo lugar.</em></h2><p>La biblioteca centraliza recursos, materiales internos y fuentes externas verificadas. El contenido redistribuible puede vivir dentro del aula; lo demás conserva su enlace canónico y trazabilidad.</p></div>
+      <label className="search dark-search"><Icon name="search"/><input value={libraryQuery} onChange={e=>setLibraryQuery(e.target.value)} placeholder="Buscar libro, clase, fuente, materia…"/></label>
+      <div className="library-grid">{filteredLibrary.slice(0,24).map((item,i)=><article key={`${item.url}-${i}`}><span className="file-icon"><Icon name={item.label.toLowerCase().includes("youtube")||item.where.toLowerCase().includes("clase")?"play":"file"}/></span><small>{item.stage.code} · {item.subject.name}</small><h3>{item.label}</h3><p>{item.where}</p><div><button onClick={()=>openClassroom(item.stage,item.subject,item.index)}>Ver en aula</button><a href={item.url} target="_blank" rel="noreferrer">Fuente ↗</a></div></article>)}</div>
       {filteredLibrary.length>24&&<p className="library-more">Mostrando 24 de {filteredLibrary.length} recursos. Usa el buscador para encontrar el resto.</p>}
     </section>
 
     <section id="maestrias" className="page-section mastery-section reveal-section">
       <div className="section-head"><span>05 · RUTAS DE MAESTRÍA</span><h2>Profundiza hasta<br/><em>nivel especialista.</em></h2></div>
-      <label className="search"><span>⌕</span><input value={trackQuery} onChange={e=>setTrackQuery(e.target.value)} placeholder="Buscar cloud, DFIR, robótica, quantum…"/></label>
-      <div className="track-grid">{filteredTracks.map(track=>{const done=track.units.filter((_,i)=>completed.has(trackUnitKey(track,i))).length;return <article className="track-card" key={track.code}><div className="track-icon">{track.icon}</div><small>{track.code} · {track.family}</small><h3>{track.title}</h3><p>{track.goal}</p><div className="track-meter"><i style={{width:`${done/track.units.length*100}%`}}/></div><div className="track-units">{track.units.map((unit,i)=><label key={unit.name}><input type="checkbox" checked={completed.has(trackUnitKey(track,i))} onChange={()=>toggle(trackUnitKey(track,i))}/><span><b>{unit.name}</b><small>{unit.focus}</small></span></label>)}</div><div className="track-gate"><b>Examen final</b><p>{track.gate}</p><label><input type="checkbox" checked={completed.has(`${track.code}-gate`)} onChange={()=>toggle(`${track.code}-gate`)}/> Track dominado</label></div></article>})}</div>
+      <label className="search"><Icon name="search"/><input value={trackQuery} onChange={e=>setTrackQuery(e.target.value)} placeholder="Buscar cloud, DFIR, robótica, quantum…"/></label>
+      <div className="track-grid">{filteredTracks.map(track=>{const done=track.units.filter((_,i)=>completed.has(trackUnitKey(track,i))).length;return <article className="track-card" key={track.code}><div className="track-icon"><Icon name={trackIconName(track.code)}/></div><small>{track.code} · {track.family}</small><h3>{track.title}</h3><p>{track.goal}</p><div className="track-meter"><i style={{width:`${done/track.units.length*100}%`}}/></div><div className="track-units">{track.units.map((unit,i)=><label key={unit.name}><input type="checkbox" checked={completed.has(trackUnitKey(track,i))} onChange={()=>toggle(trackUnitKey(track,i))}/><span><b>{unit.name}</b><small>{unit.focus}</small></span></label>)}</div><div className="track-gate"><b>Examen final</b><p>{track.gate}</p><label><input type="checkbox" checked={completed.has(`${track.code}-gate`)} onChange={()=>toggle(`${track.code}-gate`)}/> Track dominado</label></div></article>})}</div>
     </section>
 
     <section id="cobertura" className="page-section coverage-section reveal-section">
@@ -254,7 +277,7 @@ export default function App() {
       <div className="sources-grid">{rootSources.map(s=><a href={s.url} target="_blank" rel="noreferrer" key={s.n}><span>{String(s.n).padStart(2,"0")}</span><small>{s.kind}</small><h3>{s.name}</h3><p>{s.use}</p><b>Abrir ↗</b></a>)}</div>
     </section>
 
-    <footer><div><span className="brand-mark">CM</span><div><b>Campus Maestro de Computación v3.2</b><small>Universidad digital autodidacta open-source · 2026</small></div></div><p>El campus prioriza acceso gratuito, español y evidencia práctica. Materiales externos conservan sus licencias; el contenido interno crecerá solo con material propio, abierto o redistribuible.</p></footer>
+    <footer><div><span className="brand-mark">CM</span><div><b>Campus Maestro de Computación v6.0 RC</b><small>Universidad digital autodidacta open-source · 2026</small></div></div><p>El campus prioriza acceso gratuito, español y evidencia práctica. Materiales externos conservan sus licencias; el contenido interno crecerá solo con material propio, abierto o redistribuible.</p></footer>
 
     {classroom && <div className="classroom-overlay" role="dialog" aria-modal="true">
       <div className="classroom-shell">
@@ -262,16 +285,16 @@ export default function App() {
         <nav className="classroom-tabs">{classroomTabs.map(([id,label])=><button key={id} className={tab===id?"active":""} onClick={()=>setTab(id)}>{label}</button>)}</nav>
         <div className="classroom-body">
           {tab==="resumen"&&<div className="classroom-grid"><article><span>OBJETIVO</span><h3>Qué vas a dominar</h3><p>{classroom.subject.study}</p></article><article><span>EVIDENCIA</span><h3>Qué debes producir</h3><p>{classroom.subject.evidence}</p></article><article className="wide"><span>RUTA DEL AULA</span><div className="learning-path">{["Teoría","Clase","PDF","Laboratorio","Ejercicios","Examen","Proyecto"].map((x,i)=><div key={x}><b>{i+1}</b><span>{x}</span></div>)}</div></article></div>}
-          {tab==="teoria"&&<article className="reader"><span>TEORÍA INTERNA · EN CONSTRUCCIÓN AUDITADA</span><h3>{classroom.subject.name}</h3><p>{classroom.subject.study}</p><p>Esta aula forma parte del motor v3.2. El contenido completo se incorporará únicamente cuando tenga trazabilidad académica y licencia compatible: capítulos propios, fórmulas, ejemplos, diagramas, código, práctica y evaluación. Mientras falte una pieza, el aula no se declarará completa.</p><div className="reader-callout"><b>Resultado esperado</b><p>{classroom.stage.outcome}</p></div></article>}
-          {tab==="clases"&&<div className="media-panel"><div className="video-placeholder"><span>▶</span><b>Reproductor de clases</b><small>Preparado para vídeo embebido y subtítulos</small></div><h3>Clases y fuentes disponibles</h3>{classroom.subject.sources.map(s=><a href={s.url} target="_blank" rel="noreferrer" key={s.url}><span>▶</span><div><b>{s.label}</b><small>{s.where}</small></div></a>)}</div>}
-          {tab==="pdf"&&<div className="media-panel"><div className="pdf-placeholder"><span>PDF</span><b>Visor documental integrado</b><small>La estructura está lista para PDF.js en la fase de contenido.</small></div>{classroom.subject.sources.map(s=><a href={s.url} target="_blank" rel="noreferrer" key={s.url}><span>▤</span><div><b>{s.label}</b><small>{s.where}</small></div></a>)}</div>}
-          {tab==="lab"&&<article className="reader"><span>LABORATORIO</span><h3>Práctica reproducible</h3><p>{classroom.subject.evidence}</p><ol><li>Prepara un entorno aislado y documenta versiones.</li><li>Realiza la práctica sin copiar una solución final.</li><li>Captura resultados, errores y decisiones.</li><li>Repite desde cero hasta obtener el mismo resultado.</li></ol></article>}
-          {tab==="ejercicios"&&<article className="reader"><span>EJERCICIOS</span><h3>Banco de práctica</h3><p>Banco todavía pendiente de poblar. La v3.2 no inventa ejercicios para aparentar cobertura: cada problema se añadirá con objetivo, dificultad, competencia, criterio de corrección y relación con la evidencia obligatoria.</p></article>}
+          {tab==="teoria"&&<article className="reader"><span>TEORÍA INTERNA · EN CONSTRUCCIÓN AUDITADA</span><h3>{classroom.subject.name}</h3><p>{classroom.subject.study}</p><p>Esta aula forma parte del motor académico v6.0 RC. El contenido completo se incorporará únicamente cuando tenga trazabilidad académica y licencia compatible: capítulos propios, fórmulas, ejemplos, diagramas, código, práctica y evaluación. Mientras falte una pieza, el aula no se declarará completa.</p><div className="reader-callout"><b>Resultado esperado</b><p>{classroom.stage.outcome}</p></div></article>}
+          {tab==="clases"&&<InteractiveVideo title={classroom.subject.name} sources={classroom.subject.sources}/>}
+          {tab==="pdf"&&<DocumentViewer sources={classroom.subject.sources}/>}
+          {tab==="lab"&&<div className="lab-studio"><EducationalViz compact/><article className="reader"><span>LABORATORIO REPRODUCIBLE</span><h3>Evidencia obligatoria</h3><p>{classroom.subject.evidence}</p><ol><li>Prepara un entorno aislado y documenta versiones.</li><li>Realiza la práctica sin copiar una solución final.</li><li>Captura resultados, errores y decisiones.</li><li>Repite desde cero hasta obtener el mismo resultado.</li></ol></article></div>}
+          {tab==="ejercicios"&&<article className="reader"><span>EJERCICIOS</span><h3>Banco de práctica</h3><p>Banco todavía pendiente de poblar. La v6.0 RC no inventa ejercicios para aparentar cobertura: cada problema se añadirá con objetivo, dificultad, competencia, criterio de corrección y relación con la evidencia obligatoria.</p></article>}
           {tab==="examen"&&<article className="reader exam"><span>MODO EXAMEN</span><h3>Puerta de dominio</h3><p>{classroom.stage.gate}</p><div className="exam-rule"><b>Criterio</b><p>No marques la materia como dominada por haber visto contenido. Debes explicar, resolver y defender el trabajo sin tutorial paso a paso.</p></div></article>}
           {tab==="proyecto"&&<article className="reader"><span>PROYECTO</span><h3>Proyecto de etapa</h3><p>{classroom.stage.capstone}</p><div className="reader-callout"><b>Entregables mínimos</b><p>Repositorio, README técnico, pruebas, evidencia reproducible, decisiones de diseño y breve defensa oral.</p></div></article>}
-          {tab==="notas"&&<div className="notes-panel"><h3>Mis notas</h3><p>Se guardan localmente en este navegador. La sincronización multidispositivo aún no se presenta como terminada.</p><textarea value={notes[subjectKey(classroom.stage,classroom.index)]??""} onChange={e=>setNotes(n=>({...n,[subjectKey(classroom.stage,classroom.index)]:e.target.value}))} placeholder="Escribe tus apuntes, dudas, fórmulas, comandos, errores y aprendizajes…"/></div>}
+          {tab==="notas"&&<div className="notes-panel"><h3>Mis notas</h3><p>Se guardan localmente. Usa el Centro de sincronización para crear copia IndexedDB, exportar/importar o conectar un endpoint de nube real.</p><textarea value={notes[subjectKey(classroom.stage,classroom.index)]??""} onChange={e=>setNotes(n=>({...n,[subjectKey(classroom.stage,classroom.index)]:e.target.value}))} placeholder="Escribe tus apuntes, dudas, fórmulas, comandos, errores y aprendizajes…"/></div>}
         </div>
-        <footer className="classroom-footer"><label><input type="checkbox" checked={completed.has(subjectKey(classroom.stage,classroom.index))} onChange={()=>toggle(subjectKey(classroom.stage,classroom.index))}/> {completed.has(subjectKey(classroom.stage,classroom.index))?"Materia dominada ✓":"Marcar como dominada"}</label><span>Local-first · sincronización pendiente de implementación</span></footer>
+        <footer className="classroom-footer"><label><input type="checkbox" checked={completed.has(subjectKey(classroom.stage,classroom.index))} onChange={()=>toggle(subjectKey(classroom.stage,classroom.index))}/> {completed.has(subjectKey(classroom.stage,classroom.index))?"Materia dominada ✓":"Marcar como dominada"}</label><span>Local-first · IndexedDB + respaldo portable · nube configurable</span></footer>
       </div>
     </div>}
   </main>;
