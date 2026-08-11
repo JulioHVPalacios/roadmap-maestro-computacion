@@ -14,3 +14,10 @@ createRoot(root).render(
     <App />
   </StrictMode>,
 );
+
+
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("./sw.js", { scope: "./" }).catch(() => { /* El campus sigue funcionando sin PWA. */ });
+  });
+}

@@ -1,10 +1,13 @@
 {
-  "name": "Roadmap Maestro de Computación",
-  "short_name": "Roadmap RM",
-  "description": "Ruta abierta y gratuita en español para estudiar computación.",
+  "name": "Campus Maestro de Computación",
+  "short_name": "Campus Maestro",
+  "description": "Universidad digital autodidacta open-source de computación, español primero y costo obligatorio S/0.",
   "start_url": "./",
+  "scope": "./",
   "display": "standalone",
-  "background_color": "#f7f8fc",
-  "theme_color": "#2457ff",
-  "icons": []
+  "background_color": "#07101f",
+  "theme_color": "#2e63ff",
+  "icons": [
+    {"src":"./favicon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}
+  ]
 }

@@ -1,253 +1,278 @@
-import { useEffect, useMemo, useState, type CSSProperties } from "react";
-import { rootSources, stages, type Stage } from "./roadmap-data";
+import { lazy, Suspense, useEffect, useMemo, useState, type CSSProperties } from "react";
+import { rootSources, stages, type Stage, type Subject } from "./roadmap-data";
 import { careerFamilies, masteryTracks, type MasteryTrack } from "./mastery-data";
+import { auditSummary } from "./audit-meta";
+import { contentArchitectureRules } from "./academic-content";
+import Icon, { type IconName } from "./Icon";
+
+const AuditSection = lazy(() => import("./AuditSection"));
 
 const phaseMeta = [
-  { id: "inicio", label: "Inicio", range: [0, 0], color: "#f59e0b", icon: "◉" },
-  { id: "tronco", label: "Tronco universitario", range: [1, 6], color: "#2563eb", icon: "◆" },
-  { id: "profesional", label: "Ingeniería aplicada", range: [7, 10], color: "#7c3aed", icon: "⬢" },
-  { id: "datos", label: "Datos e IA", range: [11, 15], color: "#0891b2", icon: "✦" },
-  { id: "frontera", label: "Hardware y frontera", range: [16, 19], color: "#e11d48", icon: "▲" },
+  { id: "inicio", label: "Inicio", range: [0, 0], color: "#ffb000" },
+  { id: "tronco", label: "Tronco universitario", range: [1, 6], color: "#4f7cff" },
+  { id: "profesional", label: "Ingeniería aplicada", range: [7, 10], color: "#9a66ff" },
+  { id: "datos", label: "Datos e IA", range: [11, 15], color: "#11b6d7" },
+  { id: "frontera", label: "Hardware y frontera", range: [16, 19], color: "#ff496d" },
 ];
 
-const stageIcons = [
-  "🧭", "∑", "λ", "⚙", "▣", "⌘", "⛓", "◫", "↯", "☁",
-  "◎", "▥", "⇄", "◈", "✦", "⌁", "▦", "⌁", "◉", "∞",
-];
+const classroomTabs = [
+  ["resumen", "Resumen"], ["teoria", "Teoría"], ["clases", "Clases"], ["pdf", "PDF"],
+  ["lab", "Laboratorio"], ["ejercicios", "Ejercicios"], ["examen", "Examen"], ["proyecto", "Proyecto"], ["notas", "Notas"],
+] as const;
+
+type ClassroomTab = typeof classroomTabs[number][0];
+type Classroom = { stage: Stage; subject: Subject; index: number };
 
 function phaseFor(index: number) {
   return phaseMeta.find((phase) => index >= phase.range[0] && index <= phase.range[1]) ?? phaseMeta[0];
 }
-
-function normalized(value: string) {
-  return value.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
-}
-
-function stageMatches(stage: Stage, query: string) {
-  if (!query) return true;
-  const haystack = [stage.code, stage.title, stage.outcome, ...stage.subjects.flatMap((subject) => [subject.name, subject.study, subject.evidence])].join(" ");
-  return normalized(haystack).includes(normalized(query));
-}
-
-function trackMatches(track: MasteryTrack, query: string) {
-  if (!query) return true;
-  const haystack = [track.code, track.title, track.family, track.goal, ...track.units.flatMap((unit) => [unit.name, unit.focus, unit.evidence])].join(" ");
-  return normalized(haystack).includes(normalized(query));
-}
-
-function subjectKey(stage: Stage, subjectIndex: number) { return `${stage.code}-m${subjectIndex}`; }
-function trackUnitKey(track: MasteryTrack, unitIndex: number) { return `${track.code}-u${unitIndex}`; }
+function normalized(value: string) { return value.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase(); }
+function subjectKey(stage: Stage, index: number) { return `${stage.code}-m${index}`; }
+function trackUnitKey(track: MasteryTrack, index: number) { return `${track.code}-u${index}`; }
 
 export default function App() {
   const [completed, setCompleted] = useState<Set<string>>(new Set());
-  const [openStages, setOpenStages] = useState<Set<string>>(new Set(["S0"]));
-  const [openTracks, setOpenTracks] = useState<Set<string>>(new Set(["T01"]));
   const [query, setQuery] = useState("");
+  const [libraryQuery, setLibraryQuery] = useState("");
   const [trackQuery, setTrackQuery] = useState("");
   const [phase, setPhase] = useState("todas");
-  const [showIntro, setShowIntro] = useState(true);
+  const [classroom, setClassroom] = useState<Classroom | null>(null);
+  const [tab, setTab] = useState<ClassroomTab>("resumen");
+  const [notes, setNotes] = useState<Record<string, string>>({});
+  const [scrollPercent, setScrollPercent] = useState(0);
+  const [mobileMenu, setMobileMenu] = useState(false);
+  const [theme, setTheme] = useState<"light"|"dark">(() => {
+    try { return localStorage.getItem("campus-maestro-theme") === "dark" ? "dark" : "light"; } catch { return "light"; }
+  });
 
   useEffect(() => {
     try {
-      const savedV2 = window.localStorage.getItem("roadmap-maestro-progreso-v2");
-      const savedV1 = window.localStorage.getItem("roadmap-maestro-progreso-v1");
-      const saved = savedV2 ?? savedV1;
+      const saved = localStorage.getItem("roadmap-maestro-progreso-v3") ?? localStorage.getItem("roadmap-maestro-progreso-v2");
+      const savedNotes = localStorage.getItem("roadmap-maestro-notas-v3");
       if (saved) setCompleted(new Set(JSON.parse(saved)));
-    } catch { /* Funciona aunque el navegador bloquee localStorage. */ }
+      if (savedNotes) setNotes(JSON.parse(savedNotes));
+    } catch { /* funciona sin persistencia */ }
   }, []);
 
+  useEffect(() => { try { localStorage.setItem("roadmap-maestro-progreso-v3", JSON.stringify([...completed])); } catch {} }, [completed]);
+  useEffect(() => { try { localStorage.setItem("roadmap-maestro-notas-v3", JSON.stringify(notes)); } catch {} }, [notes]);
   useEffect(() => {
-    try { window.localStorage.setItem("roadmap-maestro-progreso-v2", JSON.stringify([...completed])); }
-    catch { /* Progreso de sesión si no hay almacenamiento persistente. */ }
-  }, [completed]);
+    const onScroll = () => {
+      const h = document.documentElement.scrollHeight - window.innerHeight;
+      setScrollPercent(h > 0 ? Math.min(100, Math.round(window.scrollY / h * 100)) : 0);
+      document.documentElement.style.setProperty("--page-scroll", String(window.scrollY));
+    };
+    onScroll(); window.addEventListener("scroll", onScroll, { passive: true }); return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+  useEffect(() => {
+    document.body.style.overflow = classroom ? "hidden" : "";
+    return () => { document.body.style.overflow = ""; };
+  }, [classroom]);
+  useEffect(() => {
+    document.documentElement.dataset.theme = theme;
+    try { localStorage.setItem("campus-maestro-theme", theme); } catch {}
+  }, [theme]);
+  useEffect(() => {
+    const selector = ".reveal-section, .story-steps article, .stage-card";
+    const seen = new WeakSet<Element>();
 
-  const filteredStages = useMemo(() => stages.filter((stage) => {
-    const currentPhase = phaseFor(stage.index);
-    return (phase === "todas" || currentPhase.id === phase) && stageMatches(stage, query);
-  }), [phase, query]);
+    if (!("IntersectionObserver" in window)) {
+      document.querySelectorAll<HTMLElement>(selector).forEach(node => node.classList.add("is-visible"));
+      return;
+    }
 
-  const filteredTracks = useMemo(() => masteryTracks.filter((track) => trackMatches(track, trackQuery)), [trackQuery]);
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("is-visible");
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: .01, rootMargin: "0px 0px -24px 0px" });
 
-  const coreUnits = stages.reduce((sum, stage) => sum + stage.subjects.length, 0);
-  const trackUnits = masteryTracks.reduce((sum, track) => sum + track.units.length, 0);
-  const allTasks = coreUnits + stages.length + trackUnits + masteryTracks.length;
-  const doneCount = [...completed].filter((key) => /^S\d+-m\d+$|^S\d+-gate$|^T\d+-u\d+$|^T\d+-gate$/.test(key)).length;
-  const percent = Math.min(100, Math.round((doneCount / allTasks) * 100));
+    const observeNewNodes = () => {
+      document.querySelectorAll<HTMLElement>(selector).forEach((node) => {
+        if (!seen.has(node)) {
+          seen.add(node);
+          observer.observe(node);
+        }
+      });
+    };
 
-  function toggleTask(key: string) {
-    setCompleted((current) => {
-      const next = new Set(current);
-      if (next.has(key)) next.delete(key); else next.add(key);
-      return next;
-    });
+    observeNewNodes();
+    const mutationObserver = new MutationObserver(observeNewNodes);
+    mutationObserver.observe(document.body, { childList: true, subtree: true });
+
+    return () => {
+      mutationObserver.disconnect();
+      observer.disconnect();
+    };
+  }, []);
+
+  const coreUnits = stages.reduce((n, s) => n + s.subjects.length, 0);
+  const trackUnits = masteryTracks.reduce((n, t) => n + t.units.length, 0);
+  const totalTasks = coreUnits + stages.length + trackUnits + masteryTracks.length;
+  const doneCount = [...completed].filter(k => /^S\d+-m\d+$|^S\d+-gate$|^T\d+-u\d+$|^T\d+-gate$/.test(k)).length;
+  const percent = totalTasks ? Math.round(doneCount / totalTasks * 100) : 0;
+
+  const allSubjects = useMemo(() => stages.flatMap(stage => stage.subjects.map((subject, index) => ({ stage, subject, index }))), []);
+  const filteredSubjects = useMemo(() => {
+    const q = normalized(query.trim());
+    if (!q) return allSubjects;
+    return allSubjects.filter(item => normalized(`${item.stage.code} ${item.stage.title} ${item.subject.name} ${item.subject.study} ${item.subject.evidence}`).includes(q));
+  }, [query, allSubjects]);
+  const libraryItems = useMemo(() => allSubjects.flatMap(item => item.subject.sources.map(source => ({ ...source, ...item }))), [allSubjects]);
+  const filteredLibrary = useMemo(() => {
+    const q = normalized(libraryQuery.trim());
+    if (!q) return libraryItems;
+    return libraryItems.filter(item => normalized(`${item.label} ${item.where} ${item.subject.name} ${item.stage.code}`).includes(q));
+  }, [libraryItems, libraryQuery]);
+  const filteredTracks = useMemo(() => {
+    const q = normalized(trackQuery.trim());
+    if (!q) return masteryTracks;
+    return masteryTracks.filter(track => normalized(`${track.code} ${track.title} ${track.family} ${track.goal} ${track.units.map(u => `${u.name} ${u.focus}`).join(" ")}`).includes(q));
+  }, [trackQuery]);
+  const currentStage = stages.find(stage => !stage.subjects.every((_, i) => completed.has(subjectKey(stage, i)))) ?? stages[stages.length - 1];
+
+  function toggle(key: string) {
+    setCompleted(current => { const next = new Set(current); next.has(key) ? next.delete(key) : next.add(key); return next; });
+  }
+  function openClassroom(stage: Stage, subject: Subject, index: number) { setClassroom({ stage, subject, index }); setTab("resumen"); }
+  function jump(id: string) {
+    setMobileMenu(false);
+    const target = document.getElementById(id);
+    if (!target) return;
+    target.classList.add("is-visible");
+    target.scrollIntoView({ behavior: "smooth", block: "start" });
   }
 
-  function toggleSetValue(value: string, setter: typeof setOpenStages) {
-    setter((current) => {
-      const next = new Set(current);
-      if (next.has(value)) next.delete(value); else next.add(value);
-      return next;
-    });
-  }
+  return <main>
+    <div className="scroll-progress"><i style={{ width: `${scrollPercent}%` }} /></div>
+    <header className="topbar">
+      <button className="brand" onClick={() => jump("inicio")}><span className="brand-mark">CM</span><span><b>Campus Maestro</b><small>Computación · v3.2.1</small></span></button>
+      <nav className={mobileMenu ? "open" : ""}>
+        <button onClick={() => jump("campus")}>Campus</button><button onClick={() => jump("ruta")}>Plan</button><button onClick={() => jump("biblioteca")}>Biblioteca</button><button onClick={() => jump("maestrias")}>Maestrías</button><button onClick={() => jump("cobertura")}>Cobertura</button><button onClick={() => jump("auditoria")}>Auditoría</button>
+      </nav>
+      <button className="theme-btn" onClick={() => setTheme(t => t === "light" ? "dark" : "light")} aria-label={theme === "light" ? "Activar modo oscuro" : "Activar modo claro"}><Icon name={theme === "light" ? "moon" : "sun"}/></button>
+      <button className="menu-btn" onClick={() => setMobileMenu(v => !v)} aria-label="Abrir menú"><Icon name="menu"/></button>
+      <button className="progress-pill" onClick={() => jump("campus")}><span>{percent}%</span><i style={{ "--p": `${percent}%` } as CSSProperties} /></button>
+    </header>
 
-  function scrollToRoadmap() { document.getElementById("ruta")?.scrollIntoView({ behavior: "smooth", block: "start" }); }
+    <section id="inicio" className="hero cinematic reveal-section">
+      <div className="aurora a1"/><div className="aurora a2"/><div className="grid-noise"/>
+      <div className="hero-copy reveal">
+        <span className="eyebrow">OPEN SOURCE · ESPAÑOL PRIMERO · COSTO OBLIGATORIO S/0</span>
+        <h1>Una universidad digital<br/><em>para dominar computación.</em></h1>
+        <p>Del primer concepto a investigación avanzada. Un solo campus para estudiar el tronco universitario, abrir aulas, guardar notas, practicar, rendir evaluaciones y recorrer doce rutas de maestría.</p>
+        <div className="hero-actions"><button className="primary" onClick={() => jump("campus")}>Entrar al campus <span>→</span></button><button className="ghost" onClick={() => jump("ruta")}>Explorar el plan</button></div>
+        <div className="hero-badges"><span>20 etapas</span><span>{coreUnits} materias</span><span>12 maestrías</span><span>{rootSources.length} ecosistemas auditados</span></div>
+      </div>
+      <div className="knowledge-orbit" aria-hidden="true">
+        <div className="core-orb"><span>∞</span><b>COMPUTACIÓN</b></div>
+        {["Algoritmos","Software","Datos","IA","Redes","Seguridad","Hardware","Robótica"].map((x,i)=><span key={x} className={`orbit-node n${i+1}`}>{x}</span>)}
+      </div>
+    </section>
 
-  return (
-    <main>
-      <header className="topbar">
-        <a className="brand" href="#inicio" aria-label="Ir al inicio">
-          <span className="brand-mark">RM</span>
-          <span><b>Roadmap Maestro</b><small>Computación · v2.0 · 2026</small></span>
-        </a>
-        <nav aria-label="Navegación principal">
-          <a href="#metodo">Método</a><a href="#ruta">Tronco</a><a href="#especialidades">Maestría</a><a href="#cobertura">Cobertura</a><a href="#fuentes">Fuentes</a>
-        </nav>
-        <button className="print-btn" onClick={() => window.print()}>Guardar / imprimir PDF</button>
-        <button className="progress-pill" onClick={scrollToRoadmap} aria-label={`Progreso total ${percent} por ciento`}>
-          <span>{percent}%</span><i style={{ "--progress": `${percent}%` } as CSSProperties} />
-        </button>
-      </header>
+    <section id="campus" className="campus-section page-section reveal-section">
+      <div className="section-head"><span>01 · TU CAMPUS</span><h2>Continúa exactamente<br/><em>donde te quedaste.</em></h2></div>
+      <div className="dashboard-grid">
+        <article className="dashboard-main glass-card">
+          <div className="dashboard-kicker">PROGRESO ACADÉMICO</div><div className="big-percent">{percent}<small>%</small></div>
+          <div className="big-progress"><i style={{ width: `${percent}%` }}/></div><p>{doneCount} de {totalTasks} comprobaciones de dominio completadas.</p>
+        </article>
+        <article className="continue-card glass-card"><span>CONTINUAR</span><h3>{currentStage.code} · {currentStage.title}</h3><p>{currentStage.outcome}</p><button onClick={() => jump("ruta")}>Abrir etapa →</button></article>
+        <article className="metric-card glass-card"><span>MATERIAS</span><strong>{coreUnits}</strong><small>tronco integrado</small></article>
+        <article className="metric-card glass-card"><span>TRACKS</span><strong>12</strong><small>rutas de maestría</small></article><article className="metric-card glass-card audit-metric"><span>BASE MUNDIAL</span><strong>{auditSummary.modules}</strong><small>módulos trazados</small></article><article className="metric-card glass-card audit-metric"><span>CARGA AUDITADA</span><strong>{auditSummary.hours.toLocaleString("es-PE")}</strong><small>horas catalogadas</small></article>
+      </div>
+      <div className="campus-tools">
+        {[
+          ["search","Buscador global","Encuentra cualquier tema del tronco."],
+          ["layers","Aulas","Teoría, clase, PDF, laboratorio, examen y proyecto."],
+          ["note","Notas local-first","Tus apuntes permanecen en este dispositivo y la arquitectura queda lista para sincronización futura."],
+          ["shield","Auditoría mundial",`${auditSummary.modules} módulos y ${auditSummary.sources} fuentes trazadas.`],
+          ["cloud","Sincronización","Capa multidispositivo pendiente: no se presenta como terminada hasta implementarla y probarla."]
+        ].map(([icon,title,text])=><article key={title}><span><Icon name={icon as IconName}/></span><h3>{title}</h3><p>{text}</p></article>)}
+      </div>
+    </section>
 
-      <section className="hero" id="inicio">
-        <div className="hero-grid">
-          <div className="hero-copy">
-            <span className="eyebrow"><i /> DESDE CERO · ESPAÑOL PRIMERO · COSTO OBLIGATORIO S/0</span>
-            <h1>Una base universitaria.<br /><em>Doce rutas de maestría.</em></h1>
-            <p>Un programa abierto para estudiar computación con orden: primero el tronco que comparten las grandes carreras; después las especialidades que cubren software, sistemas, datos, IA, seguridad, redes, hardware, robótica, infraestructura, gráficos, ciencia aplicada y frontera.</p>
-            <div className="hero-actions">
-              <button className="primary-btn" onClick={scrollToRoadmap}>Comenzar por S0 <span>→</span></button>
-              <a className="secondary-btn" href="#especialidades">Ver rutas de maestría</a>
+    <section className="story-section reveal-section">
+      <div className="story-sticky"><span>ARQUITECTURA DE APRENDIZAJE</span><h2>Primero fundamentos.<br/>Después ingeniería.<br/><em>Luego frontera.</em></h2></div>
+      <div className="story-steps">
+        {phaseMeta.map((item,i)=><article key={item.id} style={{"--accent":item.color} as CSSProperties}><span>0{i+1}</span><h3>{item.label}</h3><p>{i===0?"Método, herramientas y nivelación.":i===1?"Matemática, algoritmos, arquitectura, SO, redes, teoría y software.":i===2?"Producto, web, cloud, DevOps, sistemas de información y operación.":i===3?"Analítica, ingeniería de datos, ML, deep learning y sistemas de IA.":"Embebidos, telecom, HPC, gráficos, computación científica y frontera."}</p></article>)}
+      </div>
+    </section>
+
+    <section className="architecture-section page-section reveal-section" id="arquitectura-academica">
+      <div className="section-head"><span>02 · MOTOR ACADÉMICO</span><h2>Contenido con estados.<br/><em>Nada se finge terminado.</em></h2><p>La v3.2 fija el esquema con el que se llenará cada aula: facultad → ruta → etapa → materia → unidad → lección → activo educativo → evaluación → evidencia.</p></div>
+      <div className="architecture-flow">{["Facultad","Ruta","Etapa","Materia","Unidad","Lección","Evidencia"].map((item,index)=><div key={item}><span>{String(index+1).padStart(2,"0")}</span><b>{item}</b>{index<6&&<i>→</i>}</div>)}</div>
+      <div className="architecture-rules">{contentArchitectureRules.map((rule,index)=><article key={rule}><Icon name={index%2===0?"check":"shield"}/><span>{rule}</span></article>)}</div>
+      <div className="status-legend"><span className="status verified">VERIFICADO</span><span className="status partial">PARCIAL</span><span className="status pending">PENDIENTE</span><span className="status frontier">FRONTERA</span><p>Estos estados se usarán para teoría, clases, documentos, laboratorios, ejercicios, exámenes y proyectos.</p></div>
+    </section>
+
+    <section id="ruta" className="page-section roadmap-section reveal-section">
+      <div className="section-head"><span>03 · PLAN INTEGRADO</span><h2>{stages.length} etapas.<br/><em>Un solo camino navegable.</em></h2><p>Haz clic en “Entrar al aula” para estudiar una materia dentro del campus.</p></div>
+      <div className="toolbar"><label className="search"><span>⌕</span><input value={query} onChange={(e)=>setQuery(e.target.value)} placeholder="Buscar algoritmos, redes, IA, física…"/></label><div className="phase-chips"><button className={phase==="todas"?"active":""} onClick={()=>setPhase("todas")}>Todas</button>{phaseMeta.map(p=><button className={phase===p.id?"active":""} onClick={()=>setPhase(p.id)} key={p.id}>{p.label}</button>)}</div></div>
+      <div className="stage-list">
+        {stages.filter(s=>phase==="todas"||phaseFor(s.index).id===phase).map(stage=>{
+          const meta=phaseFor(stage.index); const stageSubjects=filteredSubjects.filter(x=>x.stage.code===stage.code); if(query&&stageSubjects.length===0)return null;
+          const done=stage.subjects.filter((_,i)=>completed.has(subjectKey(stage,i))).length;
+          return <article className="stage-card" key={stage.code} style={{"--accent":meta.color} as CSSProperties}>
+            <div className="stage-side"><span>{stage.code}</span><small>{stage.year}</small><i style={{height:`${stage.subjects.length?done/stage.subjects.length*100:0}%`}}/></div>
+            <div className="stage-content"><div className="stage-heading"><div><small>{meta.label}</small><h3>{stage.title}</h3><p>{stage.duration} · {done}/{stage.subjects.length} materias dominadas</p></div><span className="stage-outcome">{stage.outcome}</span></div>
+              <div className="subject-grid">{stageSubjects.map(({subject,index})=>{const key=subjectKey(stage,index),isDone=completed.has(key); return <article className={`subject-card ${isDone?"done":""}`} key={key}><div className="subject-num">{String(index+1).padStart(2,"0")}</div><h4>{subject.name}</h4><p>{subject.study}</p><div className="subject-actions"><button className="classroom-btn" onClick={()=>openClassroom(stage,subject,index)}>Entrar al aula <span>→</span></button><label><input type="checkbox" checked={isDone} onChange={()=>toggle(key)}/>{isDone?"Dominada":"Marcar"}</label></div></article>})}</div>
+              <div className="stage-footer"><div><b>Proyecto de etapa</b><p>{stage.capstone}</p></div><label><input type="checkbox" checked={completed.has(`${stage.code}-gate`)} onChange={()=>toggle(`${stage.code}-gate`)}/><span><b>Puerta de aprobación</b><small>{stage.gate}</small></span></label></div>
             </div>
-            <div className="hero-notes"><span>✓ Teoría + práctica + evaluación</span><span>✓ Proyectos reproducibles</span><span>✓ Progreso local y editable</span></div>
-          </div>
+          </article>
+        })}
+      </div>
+    </section>
 
-          <div className="route-poster" aria-label="Resumen visual de la ruta">
-            <div className="poster-label">ARQUITECTURA DE APRENDIZAJE</div><div className="poster-road" />
-            {phaseMeta.map((item, index) => (
-              <div className={`poster-stop stop-${index + 1}`} key={item.id} style={{ "--phase": item.color } as CSSProperties}>
-                <span>{item.icon}</span><div><b>{String(index + 1).padStart(2, "0")}</b><small>{item.label}</small></div>
-              </div>
-            ))}
-            <div className="poster-finish"><span>∞</span><b>12 tracks<br />+ investigación</b></div>
-          </div>
+    <section id="biblioteca" className="library-section page-section dark-section reveal-section">
+      <div className="section-head light"><span>04 · BIBLIOTECA</span><h2>Todo el material,<br/><em>desde un solo lugar.</em></h2><p>La v3 centraliza los recursos. La siguiente fase sustituirá progresivamente enlaces por contenido propio o legalmente redistribuible dentro del aula.</p></div>
+      <label className="search dark-search"><span>⌕</span><input value={libraryQuery} onChange={e=>setLibraryQuery(e.target.value)} placeholder="Buscar libro, clase, fuente, materia…"/></label>
+      <div className="library-grid">{filteredLibrary.slice(0,24).map((item,i)=><article key={`${item.url}-${i}`}><span className="file-icon">{item.label.toLowerCase().includes("youtube")||item.where.toLowerCase().includes("clase")?"▶":"▤"}</span><small>{item.stage.code} · {item.subject.name}</small><h3>{item.label}</h3><p>{item.where}</p><div><button onClick={()=>openClassroom(item.stage,item.subject,item.index)}>Ver en aula</button><a href={item.url} target="_blank" rel="noreferrer">Fuente ↗</a></div></article>)}</div>
+      {filteredLibrary.length>24&&<p className="library-more">Mostrando 24 de {filteredLibrary.length} recursos. Usa el buscador para encontrar el resto.</p>}
+    </section>
+
+    <section id="maestrias" className="page-section mastery-section reveal-section">
+      <div className="section-head"><span>05 · RUTAS DE MAESTRÍA</span><h2>Profundiza hasta<br/><em>nivel especialista.</em></h2></div>
+      <label className="search"><span>⌕</span><input value={trackQuery} onChange={e=>setTrackQuery(e.target.value)} placeholder="Buscar cloud, DFIR, robótica, quantum…"/></label>
+      <div className="track-grid">{filteredTracks.map(track=>{const done=track.units.filter((_,i)=>completed.has(trackUnitKey(track,i))).length;return <article className="track-card" key={track.code}><div className="track-icon">{track.icon}</div><small>{track.code} · {track.family}</small><h3>{track.title}</h3><p>{track.goal}</p><div className="track-meter"><i style={{width:`${done/track.units.length*100}%`}}/></div><div className="track-units">{track.units.map((unit,i)=><label key={unit.name}><input type="checkbox" checked={completed.has(trackUnitKey(track,i))} onChange={()=>toggle(trackUnitKey(track,i))}/><span><b>{unit.name}</b><small>{unit.focus}</small></span></label>)}</div><div className="track-gate"><b>Examen final</b><p>{track.gate}</p><label><input type="checkbox" checked={completed.has(`${track.code}-gate`)} onChange={()=>toggle(`${track.code}-gate`)}/> Track dominado</label></div></article>})}</div>
+    </section>
+
+    <section id="cobertura" className="page-section coverage-section reveal-section">
+      <div className="section-head"><span>06 · COBERTURA PROFESIONAL</span><h2>Cientos de títulos,<br/><em>14 familias reales.</em></h2></div>
+      <div className="family-grid">{careerFamilies.map(f=><article key={f.id}><span>{f.id}</span><h3>{f.title}</h3><p>{f.examples}</p><div><b>Tronco</b><code>{f.core}</code></div><div><b>Tracks</b><code>{f.tracks}</code></div></article>)}</div>
+    </section>
+
+    <Suspense fallback={<section id="auditoria" className="audit-section page-section audit-loading"><div className="audit-loader"><Icon name="spark"/><span>Cargando auditoría mundial bajo demanda…</span></div></section>}>
+      <AuditSection/>
+    </Suspense>
+
+    <section className="sources-section dark-section page-section">
+      <div className="section-head light"><span>08 · FUENTES DEL ROADMAP</span><h2>{rootSources.length} ecosistemas<br/><em>para verificar rigor.</em></h2></div>
+      <div className="sources-grid">{rootSources.map(s=><a href={s.url} target="_blank" rel="noreferrer" key={s.n}><span>{String(s.n).padStart(2,"0")}</span><small>{s.kind}</small><h3>{s.name}</h3><p>{s.use}</p><b>Abrir ↗</b></a>)}</div>
+    </section>
+
+    <footer><div><span className="brand-mark">CM</span><div><b>Campus Maestro de Computación v3.2</b><small>Universidad digital autodidacta open-source · 2026</small></div></div><p>El campus prioriza acceso gratuito, español y evidencia práctica. Materiales externos conservan sus licencias; el contenido interno crecerá solo con material propio, abierto o redistribuible.</p></footer>
+
+    {classroom && <div className="classroom-overlay" role="dialog" aria-modal="true">
+      <div className="classroom-shell">
+        <header className="classroom-header"><div><small>{classroom.stage.code} · {classroom.stage.title}</small><h2>{classroom.subject.name}</h2><span className="classroom-status"><i/> CONTENIDO EN CONSTRUCCIÓN AUDITADA</span></div><button onClick={()=>setClassroom(null)} aria-label="Cerrar aula"><Icon name="close"/></button></header>
+        <nav className="classroom-tabs">{classroomTabs.map(([id,label])=><button key={id} className={tab===id?"active":""} onClick={()=>setTab(id)}>{label}</button>)}</nav>
+        <div className="classroom-body">
+          {tab==="resumen"&&<div className="classroom-grid"><article><span>OBJETIVO</span><h3>Qué vas a dominar</h3><p>{classroom.subject.study}</p></article><article><span>EVIDENCIA</span><h3>Qué debes producir</h3><p>{classroom.subject.evidence}</p></article><article className="wide"><span>RUTA DEL AULA</span><div className="learning-path">{["Teoría","Clase","PDF","Laboratorio","Ejercicios","Examen","Proyecto"].map((x,i)=><div key={x}><b>{i+1}</b><span>{x}</span></div>)}</div></article></div>}
+          {tab==="teoria"&&<article className="reader"><span>TEORÍA INTERNA · EN CONSTRUCCIÓN AUDITADA</span><h3>{classroom.subject.name}</h3><p>{classroom.subject.study}</p><p>Esta aula forma parte del motor v3.2. El contenido completo se incorporará únicamente cuando tenga trazabilidad académica y licencia compatible: capítulos propios, fórmulas, ejemplos, diagramas, código, práctica y evaluación. Mientras falte una pieza, el aula no se declarará completa.</p><div className="reader-callout"><b>Resultado esperado</b><p>{classroom.stage.outcome}</p></div></article>}
+          {tab==="clases"&&<div className="media-panel"><div className="video-placeholder"><span>▶</span><b>Reproductor de clases</b><small>Preparado para vídeo embebido y subtítulos</small></div><h3>Clases y fuentes disponibles</h3>{classroom.subject.sources.map(s=><a href={s.url} target="_blank" rel="noreferrer" key={s.url}><span>▶</span><div><b>{s.label}</b><small>{s.where}</small></div></a>)}</div>}
+          {tab==="pdf"&&<div className="media-panel"><div className="pdf-placeholder"><span>PDF</span><b>Visor documental integrado</b><small>La estructura está lista para PDF.js en la fase de contenido.</small></div>{classroom.subject.sources.map(s=><a href={s.url} target="_blank" rel="noreferrer" key={s.url}><span>▤</span><div><b>{s.label}</b><small>{s.where}</small></div></a>)}</div>}
+          {tab==="lab"&&<article className="reader"><span>LABORATORIO</span><h3>Práctica reproducible</h3><p>{classroom.subject.evidence}</p><ol><li>Prepara un entorno aislado y documenta versiones.</li><li>Realiza la práctica sin copiar una solución final.</li><li>Captura resultados, errores y decisiones.</li><li>Repite desde cero hasta obtener el mismo resultado.</li></ol></article>}
+          {tab==="ejercicios"&&<article className="reader"><span>EJERCICIOS</span><h3>Banco de práctica</h3><p>Banco todavía pendiente de poblar. La v3.2 no inventa ejercicios para aparentar cobertura: cada problema se añadirá con objetivo, dificultad, competencia, criterio de corrección y relación con la evidencia obligatoria.</p></article>}
+          {tab==="examen"&&<article className="reader exam"><span>MODO EXAMEN</span><h3>Puerta de dominio</h3><p>{classroom.stage.gate}</p><div className="exam-rule"><b>Criterio</b><p>No marques la materia como dominada por haber visto contenido. Debes explicar, resolver y defender el trabajo sin tutorial paso a paso.</p></div></article>}
+          {tab==="proyecto"&&<article className="reader"><span>PROYECTO</span><h3>Proyecto de etapa</h3><p>{classroom.stage.capstone}</p><div className="reader-callout"><b>Entregables mínimos</b><p>Repositorio, README técnico, pruebas, evidencia reproducible, decisiones de diseño y breve defensa oral.</p></div></article>}
+          {tab==="notas"&&<div className="notes-panel"><h3>Mis notas</h3><p>Se guardan localmente en este navegador. La sincronización multidispositivo aún no se presenta como terminada.</p><textarea value={notes[subjectKey(classroom.stage,classroom.index)]??""} onChange={e=>setNotes(n=>({...n,[subjectKey(classroom.stage,classroom.index)]:e.target.value}))} placeholder="Escribe tus apuntes, dudas, fórmulas, comandos, errores y aprendizajes…"/></div>}
         </div>
-
-        <div className="stats-strip">
-          <div><strong>{stages.length}</strong><span>etapas del tronco</span></div>
-          <div><strong>{coreUnits}</strong><span>materias/bloques base</span></div>
-          <div><strong>{masteryTracks.length}</strong><span>rutas de maestría</span></div>
-          <div><strong>{rootSources.length}</strong><span>ecosistemas auditados</span></div>
-        </div>
-      </section>
-
-      <section className="method-section" id="metodo">
-        <div className="section-heading"><span className="section-number">01</span><div><p>MÉTODO DE ESTUDIO</p><h2>No colecciones cursos: <em>demuestra dominio.</em></h2></div></div>
-        <div className="method-grid">
-          {[
-            ["1", "Estudia", "Abre la fuente exacta, completa la teoría indicada y toma apuntes propios. Usa una segunda fuente solo si un concepto sigue oscuro."],
-            ["2", "Resuelve", "Haz problemas, código y laboratorios sin tutorial paso a paso. La práctica debe poder repetirse desde cero."],
-            ["3", "Evalúate", "Rinde la puerta de aprobación sin ayuda. Si no alcanzas 70–80 %, corrige el hueco y vuelve a intentarlo."],
-            ["4", "Construye", "Cierra cada etapa con un proyecto independiente, pruebas, documentación, mediciones y defensa oral."],
-          ].map(([n, title, text]) => <article className="method-card" key={n}><span>{n}</span><h3>{title}</h3><p>{text}</p></article>)}
-        </div>
-        <button className="intro-toggle" onClick={() => setShowIntro(!showIntro)} aria-expanded={showIntro}>{showIntro ? "Ocultar" : "Mostrar"} reglas de uso <span>{showIntro ? "−" : "+"}</span></button>
-        {showIntro && <div className="rules-panel">
-          <div><b>Orden</b><p>El tronco S0→S19 es secuencial. Las rutas T01→T12 se abren cuando hayas cumplido sus prerrequisitos.</p></div>
-          <div><b>Costo cero</b><p>Certificados, hardware, nube y software comercial nunca son requisitos de aprobación. Usa simuladores, local, open source y modalidad gratuita.</p></div>
-          <div><b>Español primero</b><p>La columna vertebral prioriza español. En frontera, un recurso en inglés se marca EN→ES y debe estudiarse con traducción, sin reemplazar el aprendizaje técnico.</p></div>
-        </div>}
-      </section>
-
-      <section className="roadmap-section" id="ruta">
-        <div className="section-heading"><span className="section-number">02</span><div><p>TRONCO UNIVERSITARIO INTEGRADO</p><h2>De cero a frontera, <em>en orden.</em></h2></div></div>
-        <p className="section-lead">Estas 20 etapas son la base común. No pretenden convertir cada título profesional en una asignatura distinta: concentran los conocimientos que se repiten entre Computer Science, Ingeniería Informática, Sistemas, Software, Datos, IA, Redes y Computación.</p>
-
-        <div className="roadmap-toolbar">
-          <label className="search-box"><span>⌕</span><input value={query} onChange={(event: { target: { value: string } }) => setQuery(event.target.value)} placeholder="Buscar: algoritmos, redes, IA, física…" /></label>
-          <div className="phase-filters" role="group" aria-label="Filtrar por fase"><button className={phase === "todas" ? "active" : ""} onClick={() => setPhase("todas")}>Todas</button>{phaseMeta.map((item) => <button className={phase === item.id ? "active" : ""} onClick={() => setPhase(item.id)} key={item.id}>{item.label}</button>)}</div>
-        </div>
-
-        <div className="progress-overview"><div><span>PROGRESO GLOBAL</span><b>{doneCount} de {allTasks} comprobaciones</b></div><div className="progress-track"><i style={{ width: `${percent}%` }} /></div><strong>{percent}%</strong></div>
-
-        <div className="timeline">
-          {filteredStages.map((stage) => {
-            const meta = phaseFor(stage.index);
-            const stageKeys = stage.subjects.map((_, index) => subjectKey(stage, index));
-            const gateKey = `${stage.code}-gate`;
-            const stageDone = [...stageKeys, gateKey].filter((key) => completed.has(key)).length;
-            const stageTotal = stageKeys.length + 1;
-            const isOpen = openStages.has(stage.code) || Boolean(query);
-            return (
-              <article className={`stage ${isOpen ? "open" : ""}`} key={stage.code} style={{ "--accent": meta.color } as CSSProperties}>
-                <div className="timeline-dot"><span>{stageIcons[stage.index]}</span></div>
-                <button className="stage-header" onClick={() => toggleSetValue(stage.code, setOpenStages)} aria-expanded={isOpen}>
-                  <div className="stage-code"><span>{stage.code}</span><small>{stage.year}</small></div>
-                  <div className="stage-title"><span>{meta.label}</span><h3>{stage.title}</h3><p>{stage.duration} · {stageDone}/{stageTotal} aprobaciones</p></div>
-                  <div className="stage-meter"><i style={{ width: `${Math.round((stageDone / stageTotal) * 100)}%` }} /></div><span className="expand-icon">{isOpen ? "−" : "+"}</span>
-                </button>
-                <div className="stage-body">
-                  <div className="stage-context"><div><span>PRERREQUISITOS</span><p>{stage.prerequisites}</p></div><div><span>RESULTADO</span><p>{stage.outcome}</p></div></div>
-                  <div className="subjects">{stage.subjects.map((subject, subjectIndex) => {
-                    const key = subjectKey(stage, subjectIndex); const done = completed.has(key);
-                    return <article className={`subject ${done ? "done" : ""}`} key={key}>
-                      <div className="subject-top"><span className="subject-number">{String(subjectIndex + 1).padStart(2, "0")}</span><h4>{subject.name}</h4><label className="check-label"><input type="checkbox" checked={done} onChange={() => toggleTask(key)} /><span>{done ? "Completada" : "Marcar"}</span></label></div>
-                      <div className="subject-columns"><div className="learn-block"><b>QUÉ ESTUDIAR</b><p>{subject.study}</p></div><div className="practice-block"><b>PRÁCTICA OBLIGATORIA</b><p>{subject.evidence}</p></div></div>
-                      <div className="source-links">{subject.sources.map((source) => <a href={source.url} target="_blank" rel="noreferrer" key={`${source.url}-${source.where}`}><span>↗</span><div><b>{source.label}</b><small>Ir a: {source.where}</small></div></a>)}</div>
-                    </article>;
-                  })}</div>
-                  <div className="stage-finish"><div className="capstone-box"><span>PROYECTO DE ETAPA</span><p>{stage.capstone}</p></div><label className={`gate-box ${completed.has(gateKey) ? "done" : ""}`}><input type="checkbox" checked={completed.has(gateKey)} onChange={() => toggleTask(gateKey)} /><div><span>PUERTA DE APROBACIÓN</span><p>{stage.gate}</p><b>{completed.has(gateKey) ? "APROBADA ✓" : "NO AVANCES HASTA CUMPLIRLA"}</b></div></label></div>
-                </div>
-              </article>
-            );
-          })}
-          {filteredStages.length === 0 && <p className="empty-state">No encontré esa materia en esta fase. Prueba otra palabra o selecciona “Todas”.</p>}
-        </div>
-      </section>
-
-      <section className="mastery-section" id="especialidades">
-        <div className="section-heading"><span className="section-number">03</span><div><p>RUTAS DE MAESTRÍA</p><h2>La amplitud que una sola carrera <em>no puede contener.</em></h2></div></div>
-        <p className="section-lead">Si tu objetivo es cubrir todas las familias profesionales, estas 12 rutas pasan a ser obligatorias después del tronco. Si buscas una carrera concreta, usa solo las rutas asociadas en la matriz de cobertura.</p>
-        <label className="search-box mastery-search"><span>⌕</span><input value={trackQuery} onChange={(event: { target: { value: string } }) => setTrackQuery(event.target.value)} placeholder="Buscar especialidad: cloud, DFIR, robótica, quantum…" /></label>
-        <div className="track-grid">
-          {filteredTracks.map((track) => {
-            const unitKeys = track.units.map((_, i) => trackUnitKey(track, i)); const gateKey = `${track.code}-gate`;
-            const done = [...unitKeys, gateKey].filter((key) => completed.has(key)).length; const total = unitKeys.length + 1;
-            const isOpen = openTracks.has(track.code) || Boolean(trackQuery);
-            return <article className={`track-card ${isOpen ? "open" : ""}`} key={track.code}>
-              <button className="track-head" onClick={() => toggleSetValue(track.code, setOpenTracks)} aria-expanded={isOpen}>
-                <span className="track-icon">{track.icon}</span><div><small>{track.code} · {track.family}</small><h3>{track.title}</h3><p>{track.duration} · {done}/{total} aprobaciones</p></div><b>{isOpen ? "−" : "+"}</b>
-              </button>
-              <div className="track-body"><div className="track-meta"><div><span>PRERREQUISITOS</span><p>{track.prerequisites}</p></div><div><span>META</span><p>{track.goal}</p></div></div>
-                <div className="track-units">{track.units.map((unit, i) => {
-                  const key = trackUnitKey(track, i); const checked = completed.has(key);
-                  return <article className={`track-unit ${checked ? "done" : ""}`} key={key}>
-                    <header><span>{String(i + 1).padStart(2, "0")}</span><h4>{unit.name}</h4><label><input type="checkbox" checked={checked} onChange={() => toggleTask(key)} />{checked ? "Dominada" : "Marcar"}</label></header>
-                    <div className="track-unit-grid"><div><b>DOMINIO</b><p>{unit.focus}</p></div><div><b>EVIDENCIA</b><p>{unit.evidence}</p></div></div>
-                    <div className="track-sources">{unit.sources.map((source) => <a key={`${source.url}-${source.label}`} href={source.url} target="_blank" rel="noreferrer"><span>{source.lang}</span><div><b>{source.label}</b><small>{source.note}</small></div></a>)}</div>
-                  </article>;
-                })}</div>
-                <label className={`track-gate ${completed.has(gateKey) ? "done" : ""}`}><input type="checkbox" checked={completed.has(gateKey)} onChange={() => toggleTask(gateKey)} /><div><span>EXAMEN / PUERTA DEL TRACK</span><p>{track.gate}</p></div></label>
-              </div>
-            </article>;
-          })}
-        </div>
-      </section>
-
-      <section className="coverage-section" id="cobertura">
-        <div className="section-heading"><span className="section-number">04</span><div><p>MAPA DE CARRERAS Y ROLES</p><h2>Miles de nombres, <em>14 familias de conocimiento.</em></h2></div></div>
-        <p className="section-lead">Un nombre laboral no equivale siempre a una carrera independiente. Esta matriz agrupa títulos, especialidades y roles por conocimiento compartido para evitar estudiar lo mismo decenas de veces.</p>
-        <div className="coverage-table-wrap"><table className="coverage-table"><thead><tr><th>Familia</th><th>Ejemplos incluidos</th><th>Tronco</th><th>Tracks</th><th>Criterio</th></tr></thead><tbody>{careerFamilies.map((family) => <tr key={family.id}><td><b>{family.title}</b></td><td>{family.examples}</td><td><code>{family.core}</code></td><td><code>{family.tracks}</code></td><td>{family.note}</td></tr>)}</tbody></table></div>
-        <div className="coverage-note"><b>Importante</b><p>Roles como “black-hat hacker”, operador de ransomware o actividades no autorizadas aparecen en taxonomías históricas/laborales, pero no constituyen objetivos formativos de esta ruta. La ciberseguridad se estudia con ética, legalidad, laboratorios propios y autorización explícita.</p></div>
-      </section>
-
-      <section className="sources-section" id="fuentes">
-        <div className="section-heading light"><span className="section-number">05</span><div><p>DIRECTORIO AUDITADO</p><h2>{rootSources.length} ecosistemas, <em>cada uno con una función.</em></h2></div></div>
-        <p className="sources-intro">No todas las fuentes tienen el mismo peso: unas validan la malla, otras enseñan el tronco, otras aportan exámenes/laboratorios y otras sirven solo para detectar huecos. El roadmap evita depender de una sola plataforma.</p>
-        <div className="source-grid">{rootSources.map((source) => <a href={source.url} target="_blank" rel="noreferrer" className="source-card" key={source.n}><span>{String(source.n).padStart(2, "0")}</span><div><small>{source.kind}</small><h3>{source.name}</h3><p>{source.use}</p><b>Abrir fuente ↗</b></div></a>)}</div>
-        <div className="minimum-box"><div><span>VALIDACIÓN</span><b>FING + CS2023</b><p>Dicen qué áreas no deberían faltar.</p></div><div><span>TRONCO MÍNIMO</span><b>OpenFING + FAMAF + UBA/UTN</b><p>Teoría, problemas, prácticas y exámenes universitarios.</p></div><div className="recommended"><span>COBERTURA TOTAL</span><b>Tronco + 12 tracks</b><p>Solo esta arquitectura intenta cubrir todas las familias sin duplicar carreras enteras.</p></div></div>
-      </section>
-
-      <footer><div><span className="brand-mark">RM</span><p><b>Roadmap Maestro de Computación v2.0</b><br />Proyecto abierto y editable · edición 2026</p></div><p>Gratis significa que completar la ruta no obliga a pagar. Certificaciones, hardware, cuentas cloud o software comercial son opcionales. Para investigación de frontera, aprender lectura técnica en inglés seguirá siendo una competencia necesaria.</p></footer>
-    </main>
-  );
+        <footer className="classroom-footer"><label><input type="checkbox" checked={completed.has(subjectKey(classroom.stage,classroom.index))} onChange={()=>toggle(subjectKey(classroom.stage,classroom.index))}/> {completed.has(subjectKey(classroom.stage,classroom.index))?"Materia dominada ✓":"Marcar como dominada"}</label><span>Local-first · sincronización pendiente de implementación</span></footer>
+      </div>
+    </div>}
+  </main>;
 }

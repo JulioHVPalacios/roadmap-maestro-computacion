@@ -1,9 +1,9 @@
 {
   "name": "roadmap-maestro-computacion",
-  "version": "2.0.0",
+  "version": "3.2.1",
   "private": false,
   "type": "module",
-  "description": "Roadmap abierto en español: 20 etapas troncales, 12 rutas de maestría y cobertura integral de computación.",
+  "description": "Campus digital autodidacta open-source v3.2: motor académico trazable, auditoría mundial lazy-loaded, PWA base y diseño dinámico.",
   "author": "Julio Humberto Vera Palacios",
   "license": "MIT",
   "engines": {

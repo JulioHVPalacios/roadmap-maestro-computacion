@@ -1,6 +1,11 @@
-# Roadmap Maestro de Computación v2.0
 
-**Ruta autodidacta abierta, gratuita y español-primero para estudiar computación desde cero hasta especialización e investigación.**
+## Campus v3.2
+
+La v3.2 añade motor académico con estados de verificación, trazabilidad humana de fuentes, auditoría mundial cargada bajo demanda, modo claro/oscuro, animaciones accesibles y una base PWA. Esto no significa que todas las aulas estén completas: el contenido pendiente permanece marcado como tal hasta ser construido y verificado.
+
+# Campus Maestro de Computación v3.0
+
+**Universidad digital autodidacta, open-source, gratuita y español-primero para estudiar computación desde cero hasta especialización e investigación.**
 
 > Objetivo: organizar en un solo sistema académico los conocimientos compartidos y especializados de Ciencias de la Computación, Ingeniería Informática, Ingeniería de Sistemas, Ingeniería de Software, Computación e Informática, TI, Datos, IA, Redes/Telecom, Ciberseguridad, Cloud/DevOps/SRE, Hardware, IoT/Robótica, HCI/Gráficos/Juegos/XR y Computación Científica.
 
@@ -90,3 +95,12 @@ Ciberseguridad ofensiva se practica únicamente en sistemas propios, laboratorio
 ## Autor y licencia
 
 Proyecto impulsado por **Julio Humberto Vera Palacios**. Código bajo licencia MIT. Los recursos enlazados mantienen sus licencias y condiciones originales.
+
+
+## Campus v3.0
+
+La v3 transforma el roadmap en un campus: dashboard, aulas por materia, biblioteca central, notas locales, laboratorios, evaluaciones y una experiencia visual dinámica. La incorporación de teoría, PDFs, clases y material multimedia será progresiva y respetará las licencias de cada fuente.
+
+## Auditoría mundial v3.2
+
+La v3.2 incorpora una base consultable de 533 módulos normalizados, 49.828 horas catalogadas, 17 rutas y 76 referencias del estudio mundial previo. Esta capa no obliga a cursar 533 asignaturas duplicadas: sirve para demostrar que la normalización S0–S19/T01–T12 no pierda conocimiento único. Véase `docs/AUDITORIA_CAMPUS_V3_1.md`.
