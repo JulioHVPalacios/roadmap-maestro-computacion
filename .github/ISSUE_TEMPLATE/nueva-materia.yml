@@ -1,0 +1,37 @@
+name: Proponer una materia o mejora curricular
+description: Propón contenido con prerrequisitos, fuente, práctica y evaluación.
+title: "[Currículo] "
+labels: ["currículo", "propuesta"]
+body:
+  - type: input
+    id: etapa
+    attributes:
+      label: Etapa propuesta
+      placeholder: "S0–S19 o T01–T12"
+    validations:
+      required: true
+  - type: input
+    id: nombre
+    attributes:
+      label: Nombre de la materia o mejora
+    validations:
+      required: true
+  - type: textarea
+    id: justificacion
+    attributes:
+      label: Hueco curricular que resuelve
+    validations:
+      required: true
+  - type: textarea
+    id: fuentes
+    attributes:
+      label: Fuentes exactas y gratuitas
+      description: Incluye URL, idioma y ubicación concreta dentro del recurso.
+    validations:
+      required: true
+  - type: textarea
+    id: evidencia
+    attributes:
+      label: Práctica y forma de evaluación
+    validations:
+      required: true

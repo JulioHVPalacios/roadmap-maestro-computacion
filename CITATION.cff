@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Si este proyecto te resulta útil, puedes citarlo con estos datos."
+title: "Roadmap Maestro de Computación"
+type: software
+version: 2.0.0
+date-released: 2026-08-11
+license: MIT
+authors:
+  - family-names: "Vera Palacios"
+    given-names: "Julio Humberto"
+abstract: "Ruta abierta en español para estudiar computación desde cero hasta investigación avanzada."

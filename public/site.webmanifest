@@ -1,0 +1,10 @@
+{
+  "name": "Roadmap Maestro de Computación",
+  "short_name": "Roadmap RM",
+  "description": "Ruta abierta y gratuita en español para estudiar computación.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f7f8fc",
+  "theme_color": "#2457ff",
+  "icons": []
+}
