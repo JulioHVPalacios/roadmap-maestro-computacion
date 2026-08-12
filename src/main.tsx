@@ -1,16 +1,14 @@
-import { StrictMode } from "react";
-import { createRoot } from "react-dom/client";
-import App from "./App";
-import "./styles.css";
+import { StrictMode } from "react"
+import { createRoot } from "react-dom/client"
 
-const root = document.getElementById("root");
+import "./index.css"
+import App from "./App.tsx"
+import { ThemeProvider } from "@/components/theme-provider.tsx"
 
-if (!root) {
-  throw new Error("No se encontró el contenedor principal de la aplicación.");
-}
-
-createRoot(root).render(
+createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <App />
-  </StrictMode>,
-);
+    <ThemeProvider>
+      <App />
+    </ThemeProvider>
+  </StrictMode>
+)
