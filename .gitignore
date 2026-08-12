@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Backups locales del rediseño
+backup_v12_*/
+backup_v13_*/
