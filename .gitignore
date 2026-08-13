@@ -1,4 +1,4 @@
-node_modules/
+﻿node_modules/
 dist/
 .DS_Store
 *.local
@@ -8,3 +8,5 @@ dist/
 !.env.example
 .vscode/*
 !.vscode/extensions.json
+backup_*/
+
