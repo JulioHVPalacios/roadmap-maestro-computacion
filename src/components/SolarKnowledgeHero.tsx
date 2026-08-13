@@ -1,6 +1,6 @@
-import { Suspense, useEffect, useRef, useState } from "react"
+import { Suspense, useEffect, useMemo, useRef, useState } from "react"
 import { Canvas, useFrame, type ThreeEvent } from "@react-three/fiber"
-import { Html, OrbitControls, Stars, useTexture } from "@react-three/drei"
+import { Html, OrbitControls, useTexture } from "@react-three/drei"
 import { AnimatePresence, motion } from "motion/react"
 import * as THREE from "three"
 
@@ -8,6 +8,7 @@ export type PlanetSpec = {
   planet: string
   domain: string
   texture: string
+  portrait?: string
   orbitRadius: number
   size: number
   orbitSpeed: number
@@ -27,6 +28,7 @@ const PLANETS: PlanetSpec[] = [
     planet: "Mercurio",
     domain: "Fundamentos",
     texture: asset("/planets/mercury.jpg"),
+    portrait: asset("/planets/mercury-portrait.jpg"),
     orbitRadius: 3.0,
     size: 0.27,
     orbitSpeed: 0.19,
@@ -71,7 +73,7 @@ const PLANETS: PlanetSpec[] = [
     texture: asset("/planets/mars.jpg"),
     orbitRadius: 6.2,
     size: 0.35,
-    orbitSpeed: 0.10,
+    orbitSpeed: 0.1,
     rotationSpeed: 0.29,
     phase: 3.2,
     axialTilt: 25.2,
@@ -112,10 +114,11 @@ const PLANETS: PlanetSpec[] = [
     planet: "Urano",
     domain: "Ciberseguridad",
     texture: asset("/planets/uranus.jpg"),
+    portrait: asset("/planets/uranus-portrait.png"),
     orbitRadius: 10.7,
     size: 0.57,
     orbitSpeed: 0.038,
-    rotationSpeed: -0.30,
+    rotationSpeed: -0.3,
     phase: 0.9,
     axialTilt: 97.8,
     code: "S5",
@@ -148,11 +151,11 @@ function configureTexture(texture: THREE.Texture) {
 function OrbitRing({ radius }: { radius: number }) {
   return (
     <mesh rotation={[-Math.PI / 2, 0, 0]}>
-      <ringGeometry args={[radius - 0.006, radius + 0.006, 256]} />
+      <ringGeometry args={[radius - 0.013, radius + 0.013, 256]} />
       <meshBasicMaterial
-        color="#a6b6d1"
+        color="#087a68"
         transparent
-        opacity={0.12}
+        opacity={0.46}
         side={THREE.DoubleSide}
         depthWrite={false}
       />
@@ -160,18 +163,63 @@ function OrbitRing({ radius }: { radius: number }) {
   )
 }
 
-function Planet({ spec, onSelect }: { spec: PlanetSpec; onSelect: (spec: PlanetSpec) => void }) {
+function createUranusBands() {
+  const canvas = document.createElement("canvas")
+  canvas.width = 1024
+  canvas.height = 512
+  const ctx = canvas.getContext("2d")!
+  const gradient = ctx.createLinearGradient(0, 0, 0, canvas.height)
+  gradient.addColorStop(0, "rgba(110,215,230,0)")
+  gradient.addColorStop(0.18, "rgba(185,245,246,.18)")
+  gradient.addColorStop(0.35, "rgba(65,176,208,.22)")
+  gradient.addColorStop(0.52, "rgba(225,255,250,.16)")
+  gradient.addColorStop(0.68, "rgba(49,151,190,.20)")
+  gradient.addColorStop(0.86, "rgba(182,241,244,.16)")
+  gradient.addColorStop(1, "rgba(88,192,215,0)")
+  ctx.fillStyle = gradient
+  ctx.fillRect(0, 0, canvas.width, canvas.height)
+
+  for (let y = 45; y < canvas.height; y += 42) {
+    ctx.fillStyle = `rgba(255,255,255,${y % 84 === 0 ? 0.055 : 0.028})`
+    ctx.fillRect(0, y, canvas.width, 3)
+  }
+
+  const texture = new THREE.CanvasTexture(canvas)
+  texture.colorSpace = THREE.SRGBColorSpace
+  texture.wrapS = THREE.RepeatWrapping
+  texture.needsUpdate = true
+  return texture
+}
+
+function Planet({
+  spec,
+  selected,
+  onSelect,
+}: {
+  spec: PlanetSpec
+  selected: boolean
+  onSelect: (spec: PlanetSpec) => void
+}) {
   const orbitRef = useRef<THREE.Group>(null!)
+  const visualRef = useRef<THREE.Group>(null!)
   const planetRef = useRef<THREE.Mesh>(null!)
   const texture = useTexture(spec.texture)
+  const uranusBands = useMemo(() => createUranusBands(), [])
 
   useEffect(() => {
     configureTexture(texture)
   }, [texture])
 
+  useEffect(() => () => uranusBands.dispose(), [uranusBands])
+
   useFrame((_, delta) => {
-    if (orbitRef.current) orbitRef.current.rotation.y += delta * spec.orbitSpeed
+    if (orbitRef.current && !selected) orbitRef.current.rotation.y += delta * spec.orbitSpeed
     if (planetRef.current) planetRef.current.rotation.y += delta * spec.rotationSpeed
+    if (visualRef.current) {
+      const target = selected ? 1.8 : 1
+      const next = THREE.MathUtils.damp(visualRef.current.scale.x, target, 6.5, delta)
+      visualRef.current.scale.setScalar(next)
+    }
   })
 
   const select = (event: ThreeEvent<MouseEvent>) => {
@@ -185,41 +233,69 @@ function Planet({ spec, onSelect }: { spec: PlanetSpec; onSelect: (spec: PlanetS
         position={[spec.orbitRadius, 0, 0]}
         rotation={[0, 0, THREE.MathUtils.degToRad(spec.axialTilt)]}
       >
-        <mesh
-          ref={planetRef}
-          castShadow
-          receiveShadow
-          onClick={select}
-          onPointerOver={() => { document.body.style.cursor = "pointer" }}
-          onPointerOut={() => { document.body.style.cursor = "default" }}
-        >
-          <sphereGeometry args={[spec.size, 96, 96]} />
-          <meshStandardMaterial map={texture} roughness={0.94} metalness={0} />
-        </mesh>
+        <group ref={visualRef}>
+          {selected && (
+            <mesh scale={1.22}>
+              <sphereGeometry args={[spec.size, 64, 64]} />
+              <meshBasicMaterial
+                color="#d8ff4f"
+                transparent
+                opacity={0.18}
+                side={THREE.BackSide}
+                depthWrite={false}
+              />
+            </mesh>
+          )}
 
-        {spec.rings && (
-          <mesh rotation={[-Math.PI / 2, 0, 0]} onClick={select}>
-            <ringGeometry args={[spec.size * 1.28, spec.size * 2.15, 192]} />
-            <meshStandardMaterial
-              color="#c5b690"
-              transparent
-              opacity={0.74}
-              roughness={1}
-              side={THREE.DoubleSide}
-              depthWrite={false}
-            />
+          <mesh
+            ref={planetRef}
+            castShadow
+            receiveShadow
+            onClick={select}
+            onPointerOver={() => { document.body.style.cursor = "pointer" }}
+            onPointerOut={() => { document.body.style.cursor = "default" }}
+          >
+            <sphereGeometry args={[spec.size, 96, 96]} />
+            <meshStandardMaterial map={texture} roughness={0.92} metalness={0} />
           </mesh>
-        )}
+
+          {spec.planet === "Urano" && (
+            <mesh scale={1.008}>
+              <sphereGeometry args={[spec.size, 96, 96]} />
+              <meshBasicMaterial
+                map={uranusBands}
+                transparent
+                opacity={0.68}
+                depthWrite={false}
+                blending={THREE.NormalBlending}
+              />
+            </mesh>
+          )}
+
+          {spec.rings && (
+            <mesh rotation={[-Math.PI / 2, 0, 0]} onClick={select}>
+              <ringGeometry args={[spec.size * 1.28, spec.size * 2.15, 192]} />
+              <meshStandardMaterial
+                color="#c5b690"
+                transparent
+                opacity={0.82}
+                roughness={1}
+                side={THREE.DoubleSide}
+                depthWrite={false}
+              />
+            </mesh>
+          )}
+        </group>
 
         <Html
-          position={[0, spec.size + 0.45, 0]}
+          position={[0, spec.size + (selected ? 0.8 : 0.48), 0]}
           center
           distanceFactor={11}
           style={{ pointerEvents: "none", whiteSpace: "nowrap" }}
         >
-          <div className="select-none text-center">
-            <div className="font-mono text-[7px] uppercase tracking-[0.28em] text-white/35">{spec.planet}</div>
-            <div className="mt-1 text-[10px] font-semibold text-white/80 drop-shadow-[0_2px_10px_rgba(0,0,0,1)]">{spec.domain}</div>
+          <div className={`planet-label-v15 ${selected ? "is-selected" : ""}`}>
+            <small>{spec.planet}</small>
+            <b>{spec.domain}</b>
           </div>
         </Html>
       </group>
@@ -245,40 +321,50 @@ function Sun() {
         <sphereGeometry args={[1.45, 128, 128]} />
         <meshBasicMaterial map={texture} />
       </mesh>
-      <mesh scale={1.12}>
+      <mesh scale={1.11}>
         <sphereGeometry args={[1.45, 96, 96]} />
         <meshBasicMaterial
-          color="#ffc85e"
+          color="#fff0a0"
           transparent
-          opacity={0.07}
+          opacity={0.12}
           side={THREE.BackSide}
           blending={THREE.AdditiveBlending}
           depthWrite={false}
         />
       </mesh>
-      <pointLight color="#fff0cb" intensity={145} distance={48} decay={1.65} />
+      <pointLight color="#fff0cb" intensity={95} distance={48} decay={1.65} />
       <Html position={[0, -2.0, 0]} center distanceFactor={11} style={{ pointerEvents: "none", whiteSpace: "nowrap" }}>
-        <div className="select-none text-center">
-          <div className="font-mono text-[7px] uppercase tracking-[0.30em] text-amber-200/55">Núcleo</div>
-          <div className="mt-1 text-xs font-black tracking-tight text-white">COMPUTACIÓN</div>
+        <div className="solar-sun-label-v15">
+          <small>Núcleo</small>
+          <b>COMPUTACIÓN</b>
         </div>
       </Html>
     </group>
   )
 }
 
-function SolarScene({ onSelect }: { onSelect: (spec: PlanetSpec) => void }) {
+function SolarScene({
+  selected,
+  onSelect,
+}: {
+  selected: PlanetSpec | null
+  onSelect: (spec: PlanetSpec) => void
+}) {
   return (
     <>
-      <color attach="background" args={["#020610"]} />
-      <fog attach="fog" args={["#020610", 22, 58]} />
-      <ambientLight intensity={0.12} />
-      <Stars radius={90} depth={50} count={3000} factor={3.2} saturation={0} fade speed={0.16} />
+      <ambientLight intensity={0.62} />
 
       <group rotation={[THREE.MathUtils.degToRad(-7), 0, THREE.MathUtils.degToRad(2)]}>
         <Sun />
         {PLANETS.map((planet) => <OrbitRing key={`orbit-${planet.planet}`} radius={planet.orbitRadius} />)}
-        {PLANETS.map((planet) => <Planet key={planet.planet} spec={planet} onSelect={onSelect} />)}
+        {PLANETS.map((planet) => (
+          <Planet
+            key={planet.planet}
+            spec={planet}
+            selected={selected?.planet === planet.planet}
+            onSelect={onSelect}
+          />
+        ))}
       </group>
 
       <OrbitControls
@@ -290,8 +376,8 @@ function SolarScene({ onSelect }: { onSelect: (spec: PlanetSpec) => void }) {
         maxDistance={30}
         minPolarAngle={0.35}
         maxPolarAngle={Math.PI - 0.35}
-        autoRotate
-        autoRotateSpeed={0.12}
+        autoRotate={!selected}
+        autoRotateSpeed={0.1}
       />
     </>
   )
@@ -300,65 +386,60 @@ function SolarScene({ onSelect }: { onSelect: (spec: PlanetSpec) => void }) {
 export default function SolarKnowledgeHero() {
   const [selected, setSelected] = useState<PlanetSpec | null>(null)
 
-  const goDown = () => document.querySelector("#campus")?.scrollIntoView({ behavior: "smooth", block: "start" })
-
   return (
     <section className="hero-shell">
-      <div className="hero-copy">
-        <div className="hero-eyebrow"><span /> Arquitectura del conocimiento</div>
-        <h1 className="hero-v13-title">
-          Domina<br />
-          computación
-          <em>como un sistema.</em>
-        </h1>
-        <p className="hero-lead">
-          Matemática, programación, sistemas, software, redes, datos, inteligencia artificial,
-          seguridad, hardware e investigación conectados en una sola arquitectura de aprendizaje.
-        </p>
-        <div className="hero-actions">
-          <button type="button" onClick={goDown} className="hero-primary">Entrar al campus <span>↘</span></button>
-          <div className="hero-meta">20 etapas · 89 materias · 12 maestrías · 2.247 profesiones</div>
-        </div>
-      </div>
+      <div className="hero-copy" aria-hidden="true" />
 
       <div className="solar-stage" aria-label="Mapa orbital interactivo de áreas de computación">
         <div className="solar-stage-top">
-          <span>MAPA VIVO / 3D · V14</span>
-          <span>Haz clic en un planeta</span>
+          <span>MAPA VIVO / 3D · V15</span>
+          <span>{selected ? `${selected.planet} seleccionado` : "Haz clic en un planeta"}</span>
         </div>
+
         <Canvas
           className="solar-canvas"
           dpr={[1, 1.65]}
-          camera={{ position: [0, 8.4, 20.5], fov: 40, near: 0.1, far: 160 }}
-          gl={{ antialias: true, alpha: false, powerPreference: "high-performance" }}
+          camera={{ position: [0, 8.1, 20.5], fov: 40, near: 0.1, far: 160 }}
+          gl={{ antialias: true, alpha: true, powerPreference: "high-performance" }}
           onCreated={({ gl }) => {
             gl.outputColorSpace = THREE.SRGBColorSpace
             gl.toneMapping = THREE.ACESFilmicToneMapping
-            gl.toneMappingExposure = 1.03
+            gl.toneMappingExposure = 1.04
+            gl.setClearColor(0x000000, 0)
           }}
         >
           <Suspense fallback={null}>
-            <SolarScene onSelect={setSelected} />
+            <SolarScene selected={selected} onSelect={setSelected} />
           </Suspense>
         </Canvas>
-        <div className="solar-hint">Arrastra · zoom · selecciona</div>
+
+        <div className="solar-hint">
+          {selected ? "Planeta fijado · selecciona otro o cierra la ficha" : "Arrastra · zoom · selecciona"}
+        </div>
 
         <AnimatePresence>
           {selected && (
             <motion.aside
-              initial={{ opacity: 0, x: 30 }}
-              animate={{ opacity: 1, x: 0 }}
-              exit={{ opacity: 0, x: 30 }}
-              transition={{ duration: 0.28 }}
+              initial={{ opacity: 0, scale: 0.96, y: 10 }}
+              animate={{ opacity: 1, scale: 1, y: 0 }}
+              exit={{ opacity: 0, scale: 0.97, y: 8 }}
+              transition={{ duration: 0.24 }}
               className="planet-panel"
             >
               <button type="button" className="planet-close" onClick={() => setSelected(null)} aria-label="Cerrar">×</button>
+
+              <div className="planet-panel-orb">
+                <img src={selected.portrait ?? selected.texture} alt={`Vista de ${selected.planet}`} />
+              </div>
+
               <div className="planet-code">{selected.code} / {selected.planet}</div>
               <h2>{selected.domain}</h2>
               <p>{selected.summary}</p>
+
               <div className="planet-learn-title">Lo que vas a aprender</div>
               <ul>{selected.learn.map((item) => <li key={item}>{item}</li>)}</ul>
-              <a href="#plan" onClick={() => setSelected(null)}>Explorar esta ruta <span>→</span></a>
+
+              <a href="#roadmap" onClick={() => setSelected(null)}>Explorar esta ruta <span>→</span></a>
             </motion.aside>
           )}
         </AnimatePresence>
