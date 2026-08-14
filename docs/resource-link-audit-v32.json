@@ -1,0 +1,5740 @@
+{
+  "generatedAt": "2026-08-14T05:34:53.957Z",
+  "total": 643,
+  "report": [
+    {
+      "url": "http://97cosas.com/programador/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "http://97cosas.com/programador/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 723
+    },
+    {
+      "url": "http://antares.sip.ucm.es/cpareja/libroCPP/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://antares.sip.ucm.es/cpareja/libroCPP/",
+      "contentType": "text/html",
+      "ms": 1321
+    },
+    {
+      "url": "http://aprendehaskell.es/main.html",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "http://aprendehaskell.es/main.html",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1363
+    },
+    {
+      "url": "http://code.google.com/p/swfk-es/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://code.google.com/archive/p/swfk-es",
+      "contentType": "text/html",
+      "ms": 1196
+    },
+    {
+      "url": "http://codeontherocks.fm",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.spreaker.com/podcast/code-on-the-rocks--1917879",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 2811
+    },
+    {
+      "url": "http://cran.r-project.org/doc/contrib/curso-R.Diaz-Uriarte.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "http://cran.r-project.org/doc/contrib/curso-R.Diaz-Uriarte.pdf",
+      "contentType": "application/pdf",
+      "ms": 386
+    },
+    {
+      "url": "http://cran.r-project.org/doc/contrib/grafi3.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "http://cran.r-project.org/doc/contrib/grafi3.pdf",
+      "contentType": "application/pdf",
+      "ms": 543
+    },
+    {
+      "url": "http://cran.r-project.org/doc/contrib/Optimizacion_Matematica_con_R_Volumen_I.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "http://cran.r-project.org/doc/contrib/Optimizacion_Matematica_con_R_Volumen_I.pdf",
+      "contentType": "application/pdf",
+      "ms": 387
+    },
+    {
+      "url": "http://cran.r-project.org/doc/contrib/R-intro-1.1.0-espanol.1.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "http://cran.r-project.org/doc/contrib/R-intro-1.1.0-espanol.1.pdf",
+      "contentType": "application/pdf",
+      "ms": 406
+    },
+    {
+      "url": "http://cran.r-project.org/doc/contrib/rdebuts_es.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "http://cran.r-project.org/doc/contrib/rdebuts_es.pdf",
+      "contentType": "application/pdf",
+      "ms": 389
+    },
+    {
+      "url": "http://cran.r-project.org/doc/contrib/Risk-Cartas-sobre-Estadistica.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "http://cran.r-project.org/doc/contrib/Risk-Cartas-sobre-Estadistica.pdf",
+      "contentType": "application/pdf",
+      "ms": 570
+    },
+    {
+      "url": "http://cran.r-project.org/doc/contrib/Rivera-Tutorial_Sweave.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "http://cran.r-project.org/doc/contrib/Rivera-Tutorial_Sweave.pdf",
+      "contentType": "application/pdf",
+      "ms": 568
+    },
+    {
+      "url": "http://cran.r-project.org/doc/contrib/Saez-Castillo-RRCmdrv21.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "http://cran.r-project.org/doc/contrib/Saez-Castillo-RRCmdrv21.pdf",
+      "contentType": "application/pdf",
+      "ms": 386
+    },
+    {
+      "url": "http://elvex.ugr.es",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "http://elvex.ugr.es/",
+      "contentType": "text/html",
+      "ms": 826
+    },
+    {
+      "url": "http://elvex.ugr.es/decsai/java/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://programming.ikor.org/java/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1763
+    },
+    {
+      "url": "http://emanchado.github.io/camino-mejor-programador/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "http://emanchado.github.io/camino-mejor-programador/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 139
+    },
+    {
+      "url": "http://emanchado.github.io/camino-mejor-programador/downloads/camino_2013-01-19_0688b6e.html",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "http://emanchado.github.io/camino-mejor-programador/downloads/camino_2013-01-19_0688b6e.html",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1104
+    },
+    {
+      "url": "http://es.learnlayout.com",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://es.learnlayout.com/",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 4788
+    },
+    {
+      "url": "http://es.tldp.org/Tutoriales/PERL/tutoperl-print.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "http://es.tldp.org/Tutoriales/PERL/tutoperl-print.pdf",
+      "contentType": "application/pdf",
+      "ms": 1220
+    },
+    {
+      "url": "http://fcasua.contad.unam.mx/apuntes/interiores/docs/20181/informatica/1/LI_1164_06097_A_Analisis_Diseno_Implantacion_Algoritmos_Plan2016.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "http://fcasua.contad.unam.mx/apuntes/interiores/docs/20181/informatica/1/LI_1164_06097_A_Analisis_Diseno_Implantacion_Algoritmos_Plan2016.pdf",
+      "contentType": "application/pdf",
+      "ms": 872
+    },
+    {
+      "url": "http://gcoch.github.io/D3-tutorial/index.html",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "http://gcoch.github.io/D3-tutorial/index.html",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 160
+    },
+    {
+      "url": "http://git-scm.com/book/es/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://git-scm.com/book/es/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 450
+    },
+    {
+      "url": "http://interfacesweb.github.io/unidades/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "http://interfacesweb.github.io/unidades/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 4055
+    },
+    {
+      "url": "http://isa.uniovi.es/docencia/iea/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "http://isa.uniovi.es/docencia/iea/",
+      "contentType": "text/html",
+      "ms": 1093
+    },
+    {
+      "url": "http://jorgesanchez.net",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "http://jorgesanchez.net/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 843
+    },
+    {
+      "url": "http://jorgesanchez.net/manuales/sql/intro-sql-sql2016.html",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "http://jorgesanchez.net/manuales/sql/intro-sql-sql2016.html",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 400
+    },
+    {
+      "url": "http://kataix.umag.cl/~ruribe/Utilidades/Tutorial%20de%20Perl.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://kataix.umag.cl/~ruribe/Utilidades/Tutorial%20de%20Perl.pdf",
+      "contentType": "application/pdf",
+      "ms": 726
+    },
+    {
+      "url": "http://mundosica.github.io/tutorial_hispano_jQuery/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "http://mundosica.github.io/tutorial_hispano_jQuery/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 149
+    },
+    {
+      "url": "http://nodejskoans.com",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "http://nodejskoans.com/",
+      "contentType": "text/html",
+      "ms": 878
+    },
+    {
+      "url": "http://ns2.elhacker.net/timofonica/manuales/Manual_Programacion_Android_v2.0.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://ns2.elhacker.net/timofonica/manuales/Manual_Programacion_Android_v2.0.pdf",
+      "contentType": "application/pdf",
+      "ms": 1438
+    },
+    {
+      "url": "http://ocw.bib.upct.es/course/view.php?id=100",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://ocw.bib.upct.es/course/view.php?id=100",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1518
+    },
+    {
+      "url": "http://ocw.bib.upct.es/course/view.php?id=101",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://ocw.bib.upct.es/course/view.php?id=101",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1299
+    },
+    {
+      "url": "http://ocw.bib.upct.es/course/view.php?id=102",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://ocw.bib.upct.es/course/view.php?id=102",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1325
+    },
+    {
+      "url": "http://ocw.bib.upct.es/course/view.php?id=112",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://ocw.bib.upct.es/course/view.php?id=112",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1552
+    },
+    {
+      "url": "http://ocw.bib.upct.es/course/view.php?id=129",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://ocw.bib.upct.es/course/view.php?id=129",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1547
+    },
+    {
+      "url": "http://ocw.bib.upct.es/course/view.php?id=136",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://ocw.bib.upct.es/course/view.php?id=136",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1314
+    },
+    {
+      "url": "http://ocw.bib.upct.es/course/view.php?id=137",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://ocw.bib.upct.es/course/view.php?id=137",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1955
+    },
+    {
+      "url": "http://ocw.bib.upct.es/course/view.php?id=5",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://ocw.bib.upct.es/course/view.php?id=5",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1621
+    },
+    {
+      "url": "http://ocw.bib.upct.es/course/view.php?id=80",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://ocw.bib.upct.es/course/view.php?id=80",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1497
+    },
+    {
+      "url": "http://ocw.bib.upct.es/course/view.php?id=94",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://ocw.bib.upct.es/course/view.php?id=94",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1372
+    },
+    {
+      "url": "http://ocw.bib.upct.es/course/view.php?id=99&topic=1",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://ocw.bib.upct.es/course/view.php?id=99&topic=1",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1263
+    },
+    {
+      "url": "http://opentechschool.github.io/python-beginners/es_CL/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "http://opentechschool.github.io/python-beginners/es_CL/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 142
+    },
+    {
+      "url": "http://osl.ugr.es/CTAN/info/lshort/spanish/lshort-a4.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://osl.ugr.es/CTAN/info/lshort/spanish/lshort-a4.pdf",
+      "contentType": "application/pdf",
+      "ms": 1592
+    },
+    {
+      "url": "http://perlenespanol.com/tutoriales/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "http://perlenespanol.com/tutoriales/",
+      "contentType": "text/html",
+      "ms": 646
+    },
+    {
+      "url": "http://repositori.uji.es/xmlui/bitstream/handle/10234/24305/s23.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://repositori.uji.es/xmlui/bitstream/handle/10234/24305/s23.pdf",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 991
+    },
+    {
+      "url": "http://rua.ua.es/dspace/bitstream/10045/13176/9/04-ajaxphp.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://rua.ua.es/bitstream/10045/13176/9/04-ajaxphp.pdf",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 2599
+    },
+    {
+      "url": "http://rua.ua.es/dspace/bitstream/10045/2990/1/ApuntesBD1.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://rua.ua.es/bitstream/10045/2990/1/ApuntesBD1.pdf",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 5346
+    },
+    {
+      "url": "http://rubysur.org/aprende.a.programar",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "http://rubysur.org/aprende.a.programar/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 707
+    },
+    {
+      "url": "http://rubysur.org/introduccion.a.rails/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "http://rubysur.org/introduccion.a.rails/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 294
+    },
+    {
+      "url": "http://rubytutorial.wikidot.com/introduccion",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "http://rubytutorial.wikidot.com/introduccion",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 332
+    },
+    {
+      "url": "http://savannah.nongnu.org/git/?group=elisp-es",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "http://savannah.nongnu.org/git/?group=elisp-es",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 276
+    },
+    {
+      "url": "http://sistop.gwolf.org/html/biblio/Sistemas_Operativos_-_Luis_La_Red_Martinez.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "http://sistop.gwolf.org/html/biblio/Sistemas_Operativos_-_Luis_La_Red_Martinez.pdf",
+      "contentType": "application/pdf",
+      "ms": 435
+    },
+    {
+      "url": "http://sistop.org/pdf/sistemas_operativos.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "http://sistop.org/pdf/sistemas_operativos.pdf",
+      "contentType": "application/pdf",
+      "ms": 710
+    },
+    {
+      "url": "http://static1.1.sqspcdn.com/static/f/923743/14770633/1416082087870/JavaEE.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "http://static1.1.sqspcdn.com/static/f/923743/14770633/1416082087870/JavaEE.pdf",
+      "contentType": "application/pdf",
+      "ms": 959
+    },
+    {
+      "url": "http://static1.1.sqspcdn.com/static/f/923743/15025126/1320942755733/Tutorial_de_Maven_3_Erick_Camacho.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "http://static1.1.sqspcdn.com/static/f/923743/15025126/1320942755733/Tutorial_de_Maven_3_Erick_Camacho.pdf",
+      "contentType": "application/pdf",
+      "ms": 1331
+    },
+    {
+      "url": "http://svnbook.red-bean.com/nightly/es/index.html",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://svnbook.red-bean.com/nightly/es/index.html",
+      "contentType": "text/html",
+      "ms": 1248
+    },
+    {
+      "url": "http://www-cs-students.stanford.edu/~blynn/gitmagic/intl/es",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "http://www-cs-students.stanford.edu/~blynn/gitmagic/intl/es/",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 1297
+    },
+    {
+      "url": "http://www-cs-students.stanford.edu/~blynn/gitmagic/intl/es/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "http://www-cs-students.stanford.edu/~blynn/gitmagic/intl/es/",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 299
+    },
+    {
+      "url": "http://www.cs.us.es/~jalonso/publicaciones/Piensa_en_Haskell.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.cs.us.es/~jalonso/publicaciones/Piensa_en_Haskell.pdf",
+      "contentType": "application/pdf",
+      "ms": 5259
+    },
+    {
+      "url": "http://www.datalatam.com",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.datalatam.com/",
+      "contentType": "text/html",
+      "ms": 551
+    },
+    {
+      "url": "http://www.desarrolloweb.com/manuales/9/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://desarrolloweb.com/manuales/tutorial-sql.html",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 2848
+    },
+    {
+      "url": "http://www.eduteka.org/pdfdir/AlgoritmosProgramacion.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://eduteka.icesi.edu.co/pdfdir/AlgoritmosProgramacion.pdf",
+      "contentType": "application/pdf",
+      "ms": 5423
+    },
+    {
+      "url": "http://www.libroblockchain.com/satoshi/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://libroblockchain.com/satoshi/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 5121
+    },
+    {
+      "url": "http://www.proyectalis.com/wp-content/uploads/2008/02/scrum-y-xp-desde-las-trincheras.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "http://www.proyectalis.com/wp-content/uploads/2008/02/scrum-y-xp-desde-las-trincheras.pdf",
+      "contentType": "application/pdf",
+      "ms": 1055
+    },
+    {
+      "url": "http://www.sage-para-estudiantes.com",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "http://www.sage-para-estudiantes.com/",
+      "contentType": "text/html",
+      "ms": 571
+    },
+    {
+      "url": "http://www.scala-lang.org/docu/files/ScalaTutorial-es_ES.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.scala-lang.org/docu/files/ScalaTutorial-es_ES.pdf",
+      "contentType": "application/pdf",
+      "ms": 2190
+    },
+    {
+      "url": "http://www.uoc.edu/masters/oficiales/img/913.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.uoc.edu/pdf/masters/oficiales/img/913.pdf",
+      "contentType": "application/pdf",
+      "ms": 5362
+    },
+    {
+      "url": "https://100cosas.dev/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://100cosas.dev/",
+      "contentType": "text/html",
+      "ms": 226
+    },
+    {
+      "url": "https://97cosas.com/programador/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://97cosas.com/programador/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 154
+    },
+    {
+      "url": "https://agilemanifesto.org/iso/es/manifesto.html",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://agilemanifesto.org/iso/es/manifesto.html",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 616
+    },
+    {
+      "url": "https://aluzardo.github.io/trabajo-fin-de-grado/Tutoriales/Manual%20Programacion%20Android.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://aluzardo.github.io/trabajo-fin-de-grado/Tutoriales/Manual%20Programacion%20Android.pdf",
+      "contentType": "application/pdf",
+      "ms": 1228
+    },
+    {
+      "url": "https://anchor.fm/bel-rey",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://creators.spotify.com/pod/profile/bel-rey/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1584
+    },
+    {
+      "url": "https://anchor.fm/carlosazaustre",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://creators.spotify.com/pod/profile/carlosazaustre/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1041
+    },
+    {
+      "url": "https://anchor.fm/codalot",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://creators.spotify.com/pod/profile/codalot/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1207
+    },
+    {
+      "url": "https://anchor.fm/drupalizate",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://creators.spotify.com/pod/profile/drupalizate/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1128
+    },
+    {
+      "url": "https://anchor.fm/khriztianmoreno",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://creators.spotify.com/pod/profile/khriztianmoreno/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1844
+    },
+    {
+      "url": "https://anchor.fm/maestriajs",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://creators.spotify.com/pod/show/maestriajs",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 779
+    },
+    {
+      "url": "https://anchor.fm/mimacom",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://creators.spotify.com/pod/profile/mimacom/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 2916
+    },
+    {
+      "url": "https://anchor.fm/techladies",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://creators.spotify.com/pod/profile/techladies/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 837
+    },
+    {
+      "url": "https://anchor.fm/the-web-is-the-platform",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://creators.spotify.com/pod/profile/the-web-is-the-platform/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1094
+    },
+    {
+      "url": "https://aprendeaprogramar.com/course/view.php?id=10",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://aprendeaprogramar.com/course/view.php?id=10",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 923
+    },
+    {
+      "url": "https://aprendejavascript.org",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://aprendejavascript.org/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 619
+    },
+    {
+      "url": "https://aprendepython.es",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://aprendepython.es/",
+      "contentType": "text/html",
+      "ms": 1380
+    },
+    {
+      "url": "https://arc42.org/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://arc42.org/",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 739
+    },
+    {
+      "url": "https://argentinaenpython.com/quiero-aprender-python/aprenda-a-pensar-como-un-programador-con-python.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://argentinaenpython.com/quiero-aprender-python/aprenda-a-pensar-como-un-programador-con-python.pdf",
+      "contentType": "application/pdf",
+      "ms": 416
+    },
+    {
+      "url": "https://argentinaprograma.com",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://argentinaprograma.com/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 428
+    },
+    {
+      "url": "https://arxiv.org/archive/cs",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://arxiv.org/archive/cs",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 718
+    },
+    {
+      "url": "https://arxiv.org/pdf/2106.11342",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://arxiv.org/pdf/2106.11342",
+      "contentType": "application/pdf",
+      "ms": 115
+    },
+    {
+      "url": "https://atareao.es/podcast",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://atareao.es/podcast/",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 2714
+    },
+    {
+      "url": "https://attack.mitre.org/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://attack.mitre.org/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 339
+    },
+    {
+      "url": "https://bibliotecafacet.com.ar/wp-content/uploads/2014/12/eugeniabahitpooymvcenphp.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://bibliotecafacet.com.ar/wp-content/uploads/2014/12/eugeniabahitpooymvcenphp.pdf",
+      "contentType": "application/pdf",
+      "ms": 390
+    },
+    {
+      "url": "https://bitcoin.org/files/bitcoin-paper/bitcoin_es.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://bitcoin.org/files/bitcoin-paper/bitcoin_es.pdf",
+      "contentType": "application/pdf",
+      "ms": 645
+    },
+    {
+      "url": "https://blogs.msdn.microsoft.com/cesardelatorre/2010/03/11/nuestro-nuevo-libro-guia-de-arquitectura-n-capas-ddd-net-4-0-y-aplicacion-ejemplo-en-disponibles-para-download-en-msdn-y-codeplex",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://devblogs.microsoft.com/cesardelatorre/nuestro-nuevo-libro-guia-de-arquitectura-n-capas-ddd-net-4-0-y-aplicacion-ejemplo-en-disponibles-para-download-en-msdn-y-codeplex/",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 4412
+    },
+    {
+      "url": "https://c4model.com/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://c4model.com/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 886
+    },
+    {
+      "url": "https://campusvirtual.ull.es/ocw/course/view.php?id=104",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://campusvirtual.ull.es/ocw/course/view.php?id=104",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 822
+    },
+    {
+      "url": "https://campusvirtual.ull.es/ocw/course/view.php?id=105",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://campusvirtual.ull.es/ocw/course/view.php?id=105",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 896
+    },
+    {
+      "url": "https://campusvirtual.ull.es/ocw/course/view.php?id=112",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://campusvirtual.ull.es/ocw/course/view.php?id=112",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 777
+    },
+    {
+      "url": "https://campusvirtual.ull.es/ocw/course/view.php?id=119",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://campusvirtual.ull.es/ocw/course/view.php?id=119",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 939
+    },
+    {
+      "url": "https://campusvirtual.ull.es/ocw/course/view.php?id=128",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://campusvirtual.ull.es/ocw/course/view.php?id=128",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 806
+    },
+    {
+      "url": "https://campusvirtual.ull.es/ocw/course/view.php?id=130",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://campusvirtual.ull.es/ocw/course/view.php?id=130",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1031
+    },
+    {
+      "url": "https://campusvirtual.ull.es/ocw/course/view.php?id=132",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://campusvirtual.ull.es/ocw/course/view.php?id=132",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 951
+    },
+    {
+      "url": "https://campusvirtual.ull.es/ocw/course/view.php?id=43",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://campusvirtual.ull.es/ocw/course/view.php?id=43",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 803
+    },
+    {
+      "url": "https://campusvirtual.ull.es/ocw/course/view.php?id=44",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://campusvirtual.ull.es/ocw/course/view.php?id=44",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 863
+    },
+    {
+      "url": "https://campusvirtual.ull.es/ocw/course/view.php?id=45",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://campusvirtual.ull.es/ocw/course/view.php?id=45",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 849
+    },
+    {
+      "url": "https://capacitateparaelempleo.org/pages.php?r=.tema&tagID=11663",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://capacitateparaelempleo.org/pages.php?r=.tema&tagID=11663",
+      "contentType": "text/html",
+      "ms": 1524
+    },
+    {
+      "url": "https://capacitateparaelempleo.org/pages.php?r=.tema&tagID=12989",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://capacitateparaelempleo.org/pages.php?r=.tema&tagID=12989",
+      "contentType": "text/html",
+      "ms": 713
+    },
+    {
+      "url": "https://capacitateparaelempleo.org/pages.php?r=.tema&tagID=4244",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://capacitateparaelempleo.org/pages.php?r=.tema&tagID=4244",
+      "contentType": "text/html",
+      "ms": 571
+    },
+    {
+      "url": "https://capacitateparaelempleo.org/pages.php?r=.tema&tagID=6226",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://capacitateparaelempleo.org/pages.php?r=.tema&tagID=6226",
+      "contentType": "text/html",
+      "ms": 551
+    },
+    {
+      "url": "https://capacitateparaelempleo.org/pages.php?r=.tema&tagID=7929",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://capacitateparaelempleo.org/pages.php?r=.tema&tagID=7929",
+      "contentType": "text/html",
+      "ms": 545
+    },
+    {
+      "url": "https://certmundo.com/es-mx/curso/git-y-control-de-versiones",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://certmundo.com/es-mx/curso/git-y-control-de-versiones",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 740
+    },
+    {
+      "url": "https://certmundo.com/es-mx/curso/javascript-para-principiantes",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://certmundo.com/es-mx/curso/javascript-para-principiantes",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 676
+    },
+    {
+      "url": "https://certmundo.com/es-mx/curso/python-basico",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://certmundo.com/es-mx/curso/python-basico",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 707
+    },
+    {
+      "url": "https://certmundo.com/es-mx/curso/sql-y-bases-de-datos",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://certmundo.com/es-mx/curso/sql-y-bases-de-datos",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1705
+    },
+    {
+      "url": "https://cheatsheetseries.owasp.org/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://cheatsheetseries.owasp.org/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 407
+    },
+    {
+      "url": "https://cloud.google.com/learn/training",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://cloud.google.com/learn/training",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1265
+    },
+    {
+      "url": "https://code.google.com/archive/p/inmersionenpython3/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://code.google.com/archive/p/inmersionenpython3/",
+      "contentType": "text/html",
+      "ms": 584
+    },
+    {
+      "url": "https://codely.com/blog/category/screencasts",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://codely.com/blog/categoria/screencasts",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1823
+    },
+    {
+      "url": "https://core.ac.uk/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://core.ac.uk/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1274
+    },
+    {
+      "url": "https://course.fast.ai/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://course.fast.ai/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 799
+    },
+    {
+      "url": "https://courses.csail.mit.edu/6.042/spring18/mcs.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://courses.csail.mit.edu/6.042/spring18/mcs.pdf",
+      "contentType": "application/pdf",
+      "ms": 816
+    },
+    {
+      "url": "https://cryptohack.org/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://cryptohack.org/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 891
+    },
+    {
+      "url": "https://cs50.harvard.edu/x/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://cs50.harvard.edu/x/",
+      "contentType": "text/html",
+      "ms": 1004
+    },
+    {
+      "url": "https://cursokotlin.com/curso-programacion-kotlin-android/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://cursokotlin.com/curso-programacion-kotlin-android/",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 764
+    },
+    {
+      "url": "https://d2l.ai/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://d2l.ai/",
+      "contentType": "text/html",
+      "ms": 316
+    },
+    {
+      "url": "https://debian-handbook.info/browse/es-ES/stable/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://debian-handbook.info/browse/es-ES/stable/",
+      "contentType": "text/html",
+      "ms": 1024
+    },
+    {
+      "url": "https://desarrolloweb.com/manuales/manual-angularjs.html",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://desarrolloweb.com/manuales/manual-angularjs.html",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 652
+    },
+    {
+      "url": "https://desarrolloweb.com/manuales/manual-javascript.html#capitulos20",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://desarrolloweb.com/manuales/manual-javascript.html",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 1090
+    },
+    {
+      "url": "https://developer.android.com/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://developer.android.com/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1522
+    },
+    {
+      "url": "https://developer.android.com/courses/android-basics-compose/course?hl=es-419",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://developer.android.com/courses/android-basics-compose/course?hl=es-419",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1041
+    },
+    {
+      "url": "https://developer.hashicorp.com/terraform/tutorials",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://developer.hashicorp.com/terraform/tutorials",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 808
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API",
+      "contentType": "text/html",
+      "ms": 290
+    },
+    {
+      "url": "https://developer.mozilla.org/es/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://developer.mozilla.org/es/",
+      "contentType": "text/html",
+      "ms": 255
+    },
+    {
+      "url": "https://developer.mozilla.org/es/docs/Web/CSS",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://developer.mozilla.org/es/docs/Web/CSS",
+      "contentType": "text/html",
+      "ms": 73
+    },
+    {
+      "url": "https://developer.mozilla.org/es/docs/Web/HTML",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://developer.mozilla.org/es/docs/Web/HTML",
+      "contentType": "text/html",
+      "ms": 219
+    },
+    {
+      "url": "https://developer.mozilla.org/es/docs/Web/JavaScript/Guide",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://developer.mozilla.org/es/docs/Web/JavaScript/Guide",
+      "contentType": "text/html",
+      "ms": 193
+    },
+    {
+      "url": "https://developer.mozilla.org/es/docs/WebAssembly",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://developer.mozilla.org/es/docs/WebAssembly",
+      "contentType": "text/html",
+      "ms": 343
+    },
+    {
+      "url": "https://developers.google.com/machine-learning/crash-course",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://developers.google.com/machine-learning/crash-course?hl=pl",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 2216
+    },
+    {
+      "url": "https://diogenesdigital.es/podcasts/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://diogenesdigital.es/podcasts/",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 4787
+    },
+    {
+      "url": "https://distill.pub/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://distill.pub/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 311
+    },
+    {
+      "url": "https://doaj.org/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://doaj.org/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 750
+    },
+    {
+      "url": "https://doc.rust-lang.org/book/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://doc.rust-lang.org/book/",
+      "contentType": "text/html",
+      "ms": 512
+    },
+    {
+      "url": "https://docs.arduino.cc/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://docs.arduino.cc/",
+      "contentType": "text/html",
+      "ms": 809
+    },
+    {
+      "url": "https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html",
+      "contentType": "text/html",
+      "ms": 615
+    },
+    {
+      "url": "https://docs.djangoproject.com/es/3.2/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://docs.djangoproject.com/es/3.2/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 367
+    },
+    {
+      "url": "https://docs.djangoproject.com/es/stable/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://docs.djangoproject.com/es/6.1/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 450
+    },
+    {
+      "url": "https://docs.docker.com/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://docs.docker.com/",
+      "contentType": "text/html",
+      "ms": 286
+    },
+    {
+      "url": "https://docs.flutter.dev/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://docs.flutter.dev/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 331
+    },
+    {
+      "url": "https://docs.godotengine.org/es/stable/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://docs.godotengine.org/es/4.x/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 837
+    },
+    {
+      "url": "https://docs.python.org/es/3/tutorial/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://docs.python.org/es/3/tutorial/",
+      "contentType": "text/html",
+      "ms": 172
+    },
+    {
+      "url": "https://docs.quantum.ibm.com/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://quantum.cloud.ibm.com/docs/en/guides",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1295
+    },
+    {
+      "url": "https://docs.ros.org/en/rolling/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://docs.ros.org/en/rolling/",
+      "contentType": "text/html",
+      "ms": 1238
+    },
+    {
+      "url": "https://docs.zephyrproject.org/latest/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://docs.zephyrproject.org/latest/",
+      "contentType": "text/html",
+      "ms": 1196
+    },
+    {
+      "url": "https://dpdc.gitbooks.io/mongodb-en-espanol-tomo-1/content",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://dpdc.gitbooks.io/mongodb-en-espanol-tomo-1/content/",
+      "contentType": "text/html",
+      "ms": 1175
+    },
+    {
+      "url": "https://duckdb.org/docs/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://duckdb.org/docs/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 440
+    },
+    {
+      "url": "https://ebookfoundation.github.io/free-programming-books-search/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://ebookfoundation.github.io/free-programming-books-search/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 237
+    },
+    {
+      "url": "https://educandogeek.github.io",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://educandogeek.github.io/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 217
+    },
+    {
+      "url": "https://edutin.com/curso-de-javascript-4284",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://edutin.com/curso-de-javascript",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 1055
+    },
+    {
+      "url": "https://edutin.com/curso-de-python-4276",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://edutin.com/curso-de-python",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 980
+    },
+    {
+      "url": "https://eladrodriguez.gitbooks.io/angularjs",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://eladrodriguez.gitbooks.io/angularjs/content/",
+      "contentType": "text/html",
+      "ms": 882
+    },
+    {
+      "url": "https://eloquentjavascript.net/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://eloquentjavascript.net/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1121
+    },
+    {
+      "url": "https://eloquentjavascript.net/Eloquent_JavaScript.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://eloquentjavascript.net/Eloquent_JavaScript.pdf",
+      "contentType": "application/pdf",
+      "ms": 946
+    },
+    {
+      "url": "https://eng.libretexts.org/Bookshelves/Computer_Science",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://eng.libretexts.org/Bookshelves/Computer_Science",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 876
+    },
+    {
+      "url": "https://es.javascript.info",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://es.javascript.info/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1128
+    },
+    {
+      "url": "https://es.javascript.info/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://es.javascript.info/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1436
+    },
+    {
+      "url": "https://es.khanacademy.org/computing/computer-programming#programming",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://es.khanacademy.org/computing/computer-programming",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 63
+    },
+    {
+      "url": "https://es.khanacademy.org/math",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://es.khanacademy.org/math",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 56
+    },
+    {
+      "url": "https://es.learnlayout.com/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://es.learnlayout.com/",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 338
+    },
+    {
+      "url": "https://es.r4ds.hadley.nz/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://es.r4ds.hadley.nz/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 454
+    },
+    {
+      "url": "https://es.slideshare.net/slideshow/java-fundamentos/23333338",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://es.slideshare.net/slideshow/java-fundamentos/23333338",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1011
+    },
+    {
+      "url": "https://es.wikibooks.org/wiki/El_Manual_de_BASH_Scripting_B%C3%A1sico_para_Principiantes",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://es.wikibooks.org/wiki/El_Manual_de_BASH_Scripting_B%C3%A1sico_para_Principiantes",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 577
+    },
+    {
+      "url": "https://es.wikibooks.org/wiki/Fundamentos_de_programaci%C3%B3n",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://es.wikibooks.org/wiki/Fundamentos_de_programaci%C3%B3n",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 4190
+    },
+    {
+      "url": "https://es.wikibooks.org/wiki/Introducci%C3%B3n_a_la_Programaci%C3%B3n",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://es.wikibooks.org/wiki/Introducci%C3%B3n_a_la_Programaci%C3%B3n",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 4263
+    },
+    {
+      "url": "https://es.wikibooks.org/wiki/Programaci%C3%B3n_en_Erlang",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://es.wikibooks.org/wiki/Programaci%C3%B3n_en_Erlang",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 899
+    },
+    {
+      "url": "https://esparta.github.io/gitimmersion-spanish",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://esparta.github.io/gitimmersion-spanish/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 427
+    },
+    {
+      "url": "https://esparta.github.io/gitimmersion-spanish/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://esparta.github.io/gitimmersion-spanish/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 160
+    },
+    {
+      "url": "https://fmontes.gumroad.com/l/99tips",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://fmontes.gumroad.com/l/99tips",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 432
+    },
+    {
+      "url": "https://freeditorial.com/es/books/el-gran-libro-del-diseno-web",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://freeditorial.com/es/books/el-gran-libro-del-diseno-web",
+      "contentType": "text/html",
+      "ms": 4395
+    },
+    {
+      "url": "https://fullstackopen.com/es/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://fullstackopen.com/es/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 344
+    },
+    {
+      "url": "https://gazebosim.org/docs",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://gazebosim.org/docs/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 939
+    },
+    {
+      "url": "https://git-scm.com/book/es/v2",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://git-scm.com/book/es/v2",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 180
+    },
+    {
+      "url": "https://github.com/afuggini/javascript-definitivo-vol1",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://github.com/afuggini/javascript-definitivo-vol1",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1030
+    },
+    {
+      "url": "https://github.com/alemohamad/ruby-style-guide/blob/master/README-esLA.md#preludio",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://github.com/alemohamad/ruby-style-guide/blob/master/README-esLA.md",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1371
+    },
+    {
+      "url": "https://github.com/andersontr15/clean-code-javascript-es",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://github.com/andersontr15/clean-code-javascript-es",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 769
+    },
+    {
+      "url": "https://github.com/brunocascio/docker-espanol",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://github.com/brunocascio/docker-espanol",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 637
+    },
+    {
+      "url": "https://github.com/brunocascio/docker-espanol#docker",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://github.com/brunocascio/docker-espanol",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1563
+    },
+    {
+      "url": "https://github.com/codecrafters-io/build-your-own-x",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://github.com/codecrafters-io/build-your-own-x",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1180
+    },
+    {
+      "url": "https://github.com/DataTalksClub/data-engineering-zoomcamp",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://github.com/DataTalksClub/data-engineering-zoomcamp",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 781
+    },
+    {
+      "url": "https://github.com/ddd-espanol/asombroso-ddd",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://github.com/ddd-espanol/asombroso-ddd",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1166
+    },
+    {
+      "url": "https://github.com/Developer-Y/cs-video-courses",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://github.com/Developer-Y/cs-video-courses",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1151
+    },
+    {
+      "url": "https://github.com/donnemartin/system-design-primer",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://github.com/donnemartin/system-design-primer",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 844
+    },
+    {
+      "url": "https://github.com/EbookFoundation/free-programming-books",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://github.com/EbookFoundation/free-programming-books",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 899
+    },
+    {
+      "url": "https://github.com/EbookFoundation/free-programming-books/blob/main/books/free-programming-books-es.md",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://github.com/EbookFoundation/free-programming-books/blob/main/books/free-programming-books-es.md",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 669
+    },
+    {
+      "url": "https://github.com/EbookFoundation/free-programming-books/blob/main/courses/free-courses-es.md",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://github.com/EbookFoundation/free-programming-books/blob/main/courses/free-courses-es.md",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 667
+    },
+    {
+      "url": "https://github.com/ErunamoJAZZ/ScalaByExample-es",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://github.com/ErunamoJAZZ/ScalaByExample-es",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 774
+    },
+    {
+      "url": "https://github.com/johnpapa/angular-styleguide/blob/master/a1/i18n/es-ES.md",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://github.com/johnpapa/angular-styleguide/blob/main/a1/i18n/es-ES.md",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1591
+    },
+    {
+      "url": "https://github.com/jwasham/coding-interview-university",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://github.com/jwasham/coding-interview-university",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1129
+    },
+    {
+      "url": "https://github.com/melissarofman/typescript-book",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://github.com/melissarofman/typescript-book",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 914
+    },
+    {
+      "url": "https://github.com/mgaitan/curso-python-cientifico#curso-de-python-para-ciencias-e-ingenierías",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://github.com/mgaitan/curso-python-cientifico",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 937
+    },
+    {
+      "url": "https://github.com/microsoft/Generative-AI-for-beginners-dotnet/tree/main/translations/es",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://github.com/microsoft/Generative-AI-for-beginners-dotnet/tree/main/translations/es",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 798
+    },
+    {
+      "url": "https://github.com/midudev/libros-programacion-gratis",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://github.com/midudev/libros-programacion-gratis",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 663
+    },
+    {
+      "url": "https://github.com/open5gs/open5gs",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://github.com/open5gs/open5gs",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1022
+    },
+    {
+      "url": "https://github.com/ossu/computer-science",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://github.com/ossu/computer-science",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 923
+    },
+    {
+      "url": "https://github.com/PabloReyes/ocpjp-resumen-espanol/blob/master/OCPJP6%20Resumen.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://github.com/PabloReyes/ocpjp-resumen-espanol/blob/master/OCPJP6%20Resumen.pdf",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 686
+    },
+    {
+      "url": "https://github.com/PabloReyes/ocpjp-resumen-espanol#ocpjp6-resumen-español",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://github.com/PabloReyes/ocpjp-resumen-espanol",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 968
+    },
+    {
+      "url": "https://github.com/picodotdev/blog-ejemplos/tree/HEAD/PlugInTapestry",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://github.com/picodotdev/blog-ejemplos/tree/HEAD/PlugInTapestry",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 885
+    },
+    {
+      "url": "https://github.com/practical-tutorials/project-based-learning",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://github.com/practical-tutorials/project-based-learning",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 880
+    },
+    {
+      "url": "https://github.com/programamos/GuiaScratch",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://github.com/programamos/GuiaScratch",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1041
+    },
+    {
+      "url": "https://github.com/rosepac/biblioteca-espanol-gratis",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://github.com/rosepac/biblioteca-espanol-gratis",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 876
+    },
+    {
+      "url": "https://github.com/rosepac/gitbook-biblioteca-impresionante-en-espanol#gitbook---gu%C3%ADas-creadas-en-gitbook-en-espa%C3%B1ol",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://github.com/rosepac/gitbook-biblioteca-impresionante-en-espanol",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1066
+    },
+    {
+      "url": "https://github.com/sindresorhus/awesome",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://github.com/sindresorhus/awesome",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1023
+    },
+    {
+      "url": "https://github.com/srsran/srsRAN_Project",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://github.com/srsran/srsRAN_Project",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 936
+    },
+    {
+      "url": "https://github.com/statickidz/TemarioDAW#temario-daw",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://github.com/statickidz/TemarioDAW",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 901
+    },
+    {
+      "url": "https://github.com/uokesita/the-little-mongodb-book",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://github.com/uokesita/the-little-mongodb-book",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 814
+    },
+    {
+      "url": "https://github.com/You-Dont-Know-JS-ES/Traduccion",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://github.com/You-Dont-Know-JS-ES/Traduccion",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 831
+    },
+    {
+      "url": "https://gitlab.com/agus.req/vision-por-computadoras-2022-utn-frc",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://gitlab.com/agus.req/vision-por-computadoras-2022-utn-frc",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 524
+    },
+    {
+      "url": "https://gitlab.com/fcen-uba/Probabilidad-y-Estadistica-C-UBA",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://gitlab.com/fcen-uba/Probabilidad-y-Estadistica-C-UBA",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 474
+    },
+    {
+      "url": "https://gitlab.com/MateStudio.Dev/FilesUNMSM/-/tree/f76bf772642d7c4826db60d86b800781aa84d929/Ciclo%20I/Introduccion%20a%20la%20Computaci%C3%B3n%20e%20Ingenieria%20de%20Software",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://gitlab.com/MateStudio.Dev/FilesUNMSM/-/tree/f76bf772642d7c4826db60d86b800781aa84d929/Ciclo%20I/Introduccion%20a%20la%20Computaci%C3%B3n%20e%20Ingenieria%20de%20Software",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 517
+    },
+    {
+      "url": "https://gitlab.com/oer/cs",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://gitlab.com/oer/cs",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 652
+    },
+    {
+      "url": "https://gitlab.com/senati7912512/programacion_orientado_objetos",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://gitlab.com/senati7912512/programacion_orientado_objetos",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 394
+    },
+    {
+      "url": "https://gitlab.com/UltiRequiem/Programacion-Estructurada",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://gitlab.com/UltiRequiem/Programacion-Estructurada",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 558
+    },
+    {
+      "url": "https://gitlab.com/valn/uba",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://gitlab.com/valn/uba",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 839
+    },
+    {
+      "url": "https://gitlab.com/wdavilav/apidjangotest",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://gitlab.com/wdavilav/apidjangotest",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 491
+    },
+    {
+      "url": "https://go.dev/tour/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://go.dev/tour/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 658
+    },
+    {
+      "url": "https://google.github.io/comprehensive-rust/es/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://google.github.io/comprehensive-rust/es/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 153
+    },
+    {
+      "url": "https://goyox86.github.io/elpr/README.html",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://goyox86.github.io/elpr/README.html",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 174
+    },
+    {
+      "url": "https://greenteapress.com/thinkpython2/thinkpython2.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://greenteapress.com/thinkpython2/thinkpython2.pdf",
+      "contentType": "application/pdf",
+      "ms": 549
+    },
+    {
+      "url": "https://greenteapress.com/wp/think-python-2e/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://greenteapress.com/wp/think-python-2e/",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 728
+    },
+    {
+      "url": "https://huggingface.co/learn",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://huggingface.co/learn",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 512
+    },
+    {
+      "url": "https://ia601504.us.archive.org/21/items/DesarrollandoConJava8Poker/DesarrollandoConJava8Poker.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://ia800101.us.archive.org/22/items/DesarrollandoConJava8Poker/DesarrollandoConJava8Poker.pdf",
+      "contentType": "application/pdf",
+      "ms": 1998
+    },
+    {
+      "url": "https://iaarbook.github.io",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://iaarbook.github.io/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 162
+    },
+    {
+      "url": "https://iaarbook.github.io/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://iaarbook.github.io/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 148
+    },
+    {
+      "url": "https://informatica.uv.es/docencia/fguia/TI/Libro/Libro_Fundamentos_Inform_Program.htm",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://informatica.uv.es/docencia/fguia/TI/Libro/Libro_Fundamentos_Inform_Program.htm",
+      "contentType": "text/html",
+      "ms": 4361
+    },
+    {
+      "url": "https://javascript.sumankunwar.com.np/es",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://javascript.sumankunwar.com.np/es",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 659
+    },
+    {
+      "url": "https://javiergarciaescobedo.es",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://javiergarciaescobedo.es/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1489
+    },
+    {
+      "url": "https://jorgeucano.gitbook.io/entendiendo-angular/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://jorgeucano.gitbook.io/entendiendo-angular",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1555
+    },
+    {
+      "url": "https://khru.gitbooks.io/typescript/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://khru.gitbooks.io/typescript/content/",
+      "contentType": "text/html",
+      "ms": 1456
+    },
+    {
+      "url": "https://kubernetes.io/docs/home/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://kubernetes.io/docs/home/",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 455
+    },
+    {
+      "url": "https://landscape.cncf.io/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://landscape.cncf.io/",
+      "contentType": "text/html",
+      "ms": 846
+    },
+    {
+      "url": "https://launchpadlibrarian.net/18980633/Python%20para%20todos.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://launchpadlibrarian.net/18980633/Python%20para%20todos.pdf",
+      "contentType": "application/pdf",
+      "ms": 877
+    },
+    {
+      "url": "https://leanpub.com/javascript-inspirate",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://leanpub.com/javascript-inspirate",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 585
+    },
+    {
+      "url": "https://leanpub.com/react-redux/read",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://leanpub.com/read/react-redux",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1061
+    },
+    {
+      "url": "https://leanpub.com/read/react-redux",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://leanpub.com/read/react-redux",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1327
+    },
+    {
+      "url": "https://learn.microsoft.com/es-es/azure/well-architected/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://learn.microsoft.com/es-es/azure/well-architected/",
+      "contentType": "text/html",
+      "ms": 445
+    },
+    {
+      "url": "https://learn.microsoft.com/es-es/training/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://learn.microsoft.com/es-es/training/",
+      "contentType": "text/html",
+      "ms": 254
+    },
+    {
+      "url": "https://learn.microsoft.com/es-es/training/paths/rust-first-steps",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://learn.microsoft.com/es-es/training/paths/rust-first-steps",
+      "contentType": "text/html",
+      "ms": 442
+    },
+    {
+      "url": "https://learning.quantum.ibm.com/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://quantum.cloud.ibm.com/learning/en",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1103
+    },
+    {
+      "url": "https://learningportal.juniper.net/juniper/user_activity_info.aspx?id=11478",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://learningportal.juniper.net/juniper/user_activity_info.aspx?id=11478",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 2389
+    },
+    {
+      "url": "https://learnopengl.com/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://learnopengl.com/",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 656
+    },
+    {
+      "url": "https://librosgratis.dev",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://librosgratis.dev/",
+      "contentType": "text/html",
+      "ms": 237
+    },
+    {
+      "url": "https://librosgratis.dev/books/algoritmos-pseudocodigo-ordinogramas.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://librosgratis.dev/books/algoritmos-pseudocodigo-ordinogramas.pdf",
+      "contentType": "application/pdf",
+      "ms": 171
+    },
+    {
+      "url": "https://librosgratis.dev/books/apuntes-estructuras-datos-algoritmos.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://librosgratis.dev/books/apuntes-estructuras-datos-algoritmos.pdf",
+      "contentType": "application/pdf",
+      "ms": 162
+    },
+    {
+      "url": "https://librosgratis.dev/books/aspnet-core-pequeno-libro.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://librosgratis.dev/books/aspnet-core-pequeno-libro.pdf",
+      "contentType": "application/pdf",
+      "ms": 160
+    },
+    {
+      "url": "https://librosgratis.dev/books/bases-conceptuales-programacion.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://librosgratis.dev/books/bases-conceptuales-programacion.pdf",
+      "contentType": "application/pdf",
+      "ms": 1089
+    },
+    {
+      "url": "https://librosgratis.dev/books/bases-datos-diseno-introduccion.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://librosgratis.dev/books/bases-datos-diseno-introduccion.pdf",
+      "contentType": "application/pdf",
+      "ms": 157
+    },
+    {
+      "url": "https://librosgratis.dev/books/c-introduccion-programacion.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://librosgratis.dev/books/c-introduccion-programacion.pdf",
+      "contentType": "application/pdf",
+      "ms": 234
+    },
+    {
+      "url": "https://librosgratis.dev/books/cpp-estandar.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://librosgratis.dev/books/cpp-estandar.pdf",
+      "contentType": "application/pdf",
+      "ms": 195
+    },
+    {
+      "url": "https://librosgratis.dev/books/cpp-fundamentos-basicos.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://librosgratis.dev/books/cpp-fundamentos-basicos.pdf",
+      "contentType": "application/pdf",
+      "ms": 180
+    },
+    {
+      "url": "https://librosgratis.dev/books/cpp-poo-ejercicios.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://librosgratis.dev/books/cpp-poo-ejercicios.pdf",
+      "contentType": "application/pdf",
+      "ms": 375
+    },
+    {
+      "url": "https://librosgratis.dev/books/csharp-introduccion-programacion.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://librosgratis.dev/books/csharp-introduccion-programacion.pdf",
+      "contentType": "application/pdf",
+      "ms": 177
+    },
+    {
+      "url": "https://librosgratis.dev/books/css3-javascript-avanzado.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://librosgratis.dev/books/css3-javascript-avanzado.pdf",
+      "contentType": "application/pdf",
+      "ms": 437
+    },
+    {
+      "url": "https://librosgratis.dev/books/docker-introduccion.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://librosgratis.dev/books/docker-introduccion.pdf",
+      "contentType": "application/pdf",
+      "ms": 568
+    },
+    {
+      "url": "https://librosgratis.dev/books/estructuras-de-datos.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://librosgratis.dev/books/estructuras-de-datos.pdf",
+      "contentType": "application/pdf",
+      "ms": 747
+    },
+    {
+      "url": "https://librosgratis.dev/books/fundamentos-programacion.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://librosgratis.dev/books/fundamentos-programacion.pdf",
+      "contentType": "application/pdf",
+      "ms": 1299
+    },
+    {
+      "url": "https://librosgratis.dev/books/git-pro.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://librosgratis.dev/books/git-pro.pdf",
+      "contentType": "application/pdf",
+      "ms": 234
+    },
+    {
+      "url": "https://librosgratis.dev/books/go-pequeno-libro.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://librosgratis.dev/books/go-pequeno-libro.pdf",
+      "contentType": "application/pdf",
+      "ms": 485
+    },
+    {
+      "url": "https://librosgratis.dev/books/guia-scrum-european.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://librosgratis.dev/books/guia-scrum-european.pdf",
+      "contentType": "application/pdf",
+      "ms": 693
+    },
+    {
+      "url": "https://librosgratis.dev/books/haskell-piensa.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://librosgratis.dev/books/haskell-piensa.pdf",
+      "contentType": "application/pdf",
+      "ms": 811
+    },
+    {
+      "url": "https://librosgratis.dev/books/haskell-python-ejercicios.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://librosgratis.dev/books/haskell-python-ejercicios.pdf",
+      "contentType": "application/pdf",
+      "ms": 275
+    },
+    {
+      "url": "https://librosgratis.dev/books/introduccion-poo.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://librosgratis.dev/books/introduccion-poo.pdf",
+      "contentType": "application/pdf",
+      "ms": 157
+    },
+    {
+      "url": "https://librosgratis.dev/books/java-apuntes-basicos.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://librosgratis.dev/books/java-apuntes-basicos.pdf",
+      "contentType": "application/pdf",
+      "ms": 756
+    },
+    {
+      "url": "https://librosgratis.dev/books/java-basico-aprendices.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://librosgratis.dev/books/java-basico-aprendices.pdf",
+      "contentType": "application/pdf",
+      "ms": 188
+    },
+    {
+      "url": "https://librosgratis.dev/books/java-ejercicios-programacion.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://librosgratis.dev/books/java-ejercicios-programacion.pdf",
+      "contentType": "application/pdf",
+      "ms": 580
+    },
+    {
+      "url": "https://librosgratis.dev/books/java-iniciando-programacion.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://librosgratis.dev/books/java-iniciando-programacion.pdf",
+      "contentType": "application/pdf",
+      "ms": 183
+    },
+    {
+      "url": "https://librosgratis.dev/books/java-introduccion-poo.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://librosgratis.dev/books/java-introduccion-poo.pdf",
+      "contentType": "application/pdf",
+      "ms": 178
+    },
+    {
+      "url": "https://librosgratis.dev/books/javascript-asincronismo.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://librosgratis.dev/books/javascript-asincronismo.pdf",
+      "contentType": "application/pdf",
+      "ms": 1065
+    },
+    {
+      "url": "https://librosgratis.dev/books/javascript-elocuente-cuarta-edicion.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://librosgratis.dev/books/javascript-elocuente-cuarta-edicion.pdf",
+      "contentType": "application/pdf",
+      "ms": 186
+    },
+    {
+      "url": "https://librosgratis.dev/books/javascript-introduccion-eguiluz.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://librosgratis.dev/books/javascript-introduccion-eguiluz.pdf",
+      "contentType": "application/pdf",
+      "ms": 567
+    },
+    {
+      "url": "https://librosgratis.dev/books/javascript-uoc.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://librosgratis.dev/books/javascript-uoc.pdf",
+      "contentType": "application/pdf",
+      "ms": 169
+    },
+    {
+      "url": "https://librosgratis.dev/books/jquery-fundamentos.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://librosgratis.dev/books/jquery-fundamentos.pdf",
+      "contentType": "application/pdf",
+      "ms": 318
+    },
+    {
+      "url": "https://librosgratis.dev/books/kotlin-stackoverflow-docs.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://librosgratis.dev/books/kotlin-stackoverflow-docs.pdf",
+      "contentType": "application/pdf",
+      "ms": 169
+    },
+    {
+      "url": "https://librosgratis.dev/books/logica-de-programacion.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://librosgratis.dev/books/logica-de-programacion.pdf",
+      "contentType": "application/pdf",
+      "ms": 456
+    },
+    {
+      "url": "https://librosgratis.dev/books/php-poo-mvc.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://librosgratis.dev/books/php-poo-mvc.pdf",
+      "contentType": "application/pdf",
+      "ms": 175
+    },
+    {
+      "url": "https://librosgratis.dev/books/php-programacion-ejemplos.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://librosgratis.dev/books/php-programacion-ejemplos.pdf",
+      "contentType": "application/pdf",
+      "ms": 165
+    },
+    {
+      "url": "https://librosgratis.dev/books/problemas-y-algoritmos.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://librosgratis.dev/books/problemas-y-algoritmos.pdf",
+      "contentType": "application/pdf",
+      "ms": 324
+    },
+    {
+      "url": "https://librosgratis.dev/books/python-apuntes.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://librosgratis.dev/books/python-apuntes.pdf",
+      "contentType": "application/pdf",
+      "ms": 450
+    },
+    {
+      "url": "https://librosgratis.dev/books/python-calculo-cientifico.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://librosgratis.dev/books/python-calculo-cientifico.pdf",
+      "contentType": "application/pdf",
+      "ms": 450
+    },
+    {
+      "url": "https://librosgratis.dev/books/python-ejercicios-basicos.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://librosgratis.dev/books/python-ejercicios-basicos.pdf",
+      "contentType": "application/pdf",
+      "ms": 182
+    },
+    {
+      "url": "https://librosgratis.dev/books/python-explorando-informacion.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://librosgratis.dev/books/python-explorando-informacion.pdf",
+      "contentType": "application/pdf",
+      "ms": 166
+    },
+    {
+      "url": "https://librosgratis.dev/books/python-inmersion.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://librosgratis.dev/books/python-inmersion.pdf",
+      "contentType": "application/pdf",
+      "ms": 193
+    },
+    {
+      "url": "https://librosgratis.dev/books/python-intermedio.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://librosgratis.dev/books/python-intermedio.pdf",
+      "contentType": "application/pdf",
+      "ms": 165
+    },
+    {
+      "url": "https://librosgratis.dev/books/python-introduccion-programacion-3.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://librosgratis.dev/books/python-introduccion-programacion-3.pdf",
+      "contentType": "application/pdf",
+      "ms": 223
+    },
+    {
+      "url": "https://librosgratis.dev/books/python-inventa-juegos.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://librosgratis.dev/books/python-inventa-juegos.pdf",
+      "contentType": "application/pdf",
+      "ms": 191
+    },
+    {
+      "url": "https://librosgratis.dev/books/python-manual-basico.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://librosgratis.dev/books/python-manual-basico.pdf",
+      "contentType": "application/pdf",
+      "ms": 160
+    },
+    {
+      "url": "https://librosgratis.dev/books/python-para-todos.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://librosgratis.dev/books/python-para-todos.pdf",
+      "contentType": "application/pdf",
+      "ms": 169
+    },
+    {
+      "url": "https://librosgratis.dev/books/python-pensar-programador.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://librosgratis.dev/books/python-pensar-programador.pdf",
+      "contentType": "application/pdf",
+      "ms": 183
+    },
+    {
+      "url": "https://librosgratis.dev/books/r-introduccion.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://librosgratis.dev/books/r-introduccion.pdf",
+      "contentType": "application/pdf",
+      "ms": 165
+    },
+    {
+      "url": "https://librosgratis.dev/books/react-aprendiz-maestro.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://librosgratis.dev/books/react-aprendiz-maestro.pdf",
+      "contentType": "application/pdf",
+      "ms": 413
+    },
+    {
+      "url": "https://librosgratis.dev/books/react-stackoverflow-docs.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://librosgratis.dev/books/react-stackoverflow-docs.pdf",
+      "contentType": "application/pdf",
+      "ms": 324
+    },
+    {
+      "url": "https://librosgratis.dev/books/rust-aprendizaje.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://librosgratis.dev/books/rust-aprendizaje.pdf",
+      "contentType": "application/pdf",
+      "ms": 645
+    },
+    {
+      "url": "https://librosgratis.dev/books/scrum-y-xp-desde-las-trincheras.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://librosgratis.dev/books/scrum-y-xp-desde-las-trincheras.pdf",
+      "contentType": "application/pdf",
+      "ms": 355
+    },
+    {
+      "url": "https://librosgratis.dev/books/sistemas-operativos-wolf.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://librosgratis.dev/books/sistemas-operativos-wolf.pdf",
+      "contentType": "application/pdf",
+      "ms": 243
+    },
+    {
+      "url": "https://librosgratis.dev/books/sql-apuntes-basicos.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://librosgratis.dev/books/sql-apuntes-basicos.pdf",
+      "contentType": "application/pdf",
+      "ms": 322
+    },
+    {
+      "url": "https://librosgratis.dev/books/typescript-aprendizaje.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://librosgratis.dev/books/typescript-aprendizaje.pdf",
+      "contentType": "application/pdf",
+      "ms": 357
+    },
+    {
+      "url": "https://linuxcommand.org/tlcl.php",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://linuxcommand.org/tlcl.php",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 743
+    },
+    {
+      "url": "https://losapuntesdemajo.vercel.app",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://losapuntesdemajo.vercel.app/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 879
+    },
+    {
+      "url": "https://losapuntesdemajo.vercel.app/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://losapuntesdemajo.vercel.app/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 324
+    },
+    {
+      "url": "https://masalladelainnovacion.com/todos-los-podcasts/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://masalladelainnovacion.com/todos-los-podcasts/",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 1039
+    },
+    {
+      "url": "https://midu.dev/podcast",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://midu.dev/podcast",
+      "contentType": "text/html",
+      "ms": 498
+    },
+    {
+      "url": "https://missing.csail.mit.edu/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://missing.csail.mit.edu/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 492
+    },
+    {
+      "url": "https://mixx.io/podcasts",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://mixx.io/podcasts/",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 1898
+    },
+    {
+      "url": "https://mml-book.github.io/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://mml-book.github.io/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 161
+    },
+    {
+      "url": "https://mml-book.github.io/book/mml-book.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://mml-book.github.io/book/mml-book.pdf",
+      "contentType": "application/pdf",
+      "ms": 141
+    },
+    {
+      "url": "https://nachopacheco.gitbooks.io/go-es/content/doc",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://nachopacheco.gitbooks.io/go-es/content/doc/",
+      "contentType": "text/html",
+      "ms": 1686
+    },
+    {
+      "url": "https://nachopacheco.gitbooks.io/go-es/content/doc/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://nachopacheco.gitbooks.io/go-es/content/doc/",
+      "contentType": "text/html",
+      "ms": 268
+    },
+    {
+      "url": "https://neliosoftware.com/es/blog/uso-avanzado-de-typescript/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://neliosoftware.com/es/blog/uso-avanzado-de-typescript-parte-1/",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 3248
+    },
+    {
+      "url": "https://ocw.mit.edu/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://ocw.mit.edu/",
+      "contentType": "text/html",
+      "ms": 118
+    },
+    {
+      "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/",
+      "contentType": "text/html",
+      "ms": 385
+    },
+    {
+      "url": "https://ocw.mit.edu/resource_collections/open-textbooks/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://ocw.mit.edu/resource_collections/open-textbooks/",
+      "contentType": "text/html",
+      "ms": 245
+    },
+    {
+      "url": "https://ocw.ua.es/es/ingenieria-y-arquitectura/fundamentos-de-las-bases-de-datos-2011.html",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://ocw.ua.es/es/ingenieria-y-arquitectura/fundamentos-de-las-bases-de-datos-2011.html",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 1067
+    },
+    {
+      "url": "https://ocw.ua.es/es/ingenieria-y-arquitectura/introduccion-a-xampp-y-mysql-2012.html",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://ocw.ua.es/es/ingenieria-y-arquitectura/introduccion-a-xampp-y-mysql-2012.html",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 634
+    },
+    {
+      "url": "https://ocw.ua.es/es/ingenieria-y-arquitectura/procesadores-de-lenguaje-2006.html",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://ocw.ua.es/es/ingenieria-y-arquitectura/procesadores-de-lenguaje-2006.html",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 703
+    },
+    {
+      "url": "https://ocw.ua.es/es/ingenieria-y-arquitectura/programacion-3-2011.html",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://ocw.ua.es/es/ingenieria-y-arquitectura/programacion-3-2011.html",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 690
+    },
+    {
+      "url": "https://ocw.ua.es/es/ingenieria-y-arquitectura/programacion-en-entornos-interactivos-2010.html",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://ocw.ua.es/es/ingenieria-y-arquitectura/programacion-en-entornos-interactivos-2010.html",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 709
+    },
+    {
+      "url": "https://ocw.ua.es/es/ingenieria-y-arquitectura/robots-autonomos-2006.html",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://ocw.ua.es/es/ingenieria-y-arquitectura/robots-autonomos-2006.html",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 660
+    },
+    {
+      "url": "https://ocw.ua.es/es/ingenieria-y-arquitectura/tecnicas-informaticas-para-estudios-de-gestion-y-administracion-publica-2012.html",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://ocw.ua.es/es/ingenieria-y-arquitectura/tecnicas-informaticas-para-estudios-de-gestion-y-administracion-publica-2012.html",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 652
+    },
+    {
+      "url": "https://ocw.ua.es/es/ingenieria-y-arquitectura/tecnologias-web-2010.html",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://ocw.ua.es/es/ingenieria-y-arquitectura/tecnologias-web-2010.html",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 687
+    },
+    {
+      "url": "https://ocw.ua.es/es/ingenieria-y-arquitectura/xml-marcado-de-textos-y-bibliotecas-digitales-2007.html",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://ocw.ua.es/es/ingenieria-y-arquitectura/xml-marcado-de-textos-y-bibliotecas-digitales-2007.html",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 610
+    },
+    {
+      "url": "https://ocw.uca.es/course/view.php?id=11",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://ocw.uca.es/course/view.php?id=11",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 939
+    },
+    {
+      "url": "https://ocw.uca.es/course/view.php?id=31",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://ocw.uca.es/course/view.php?id=31",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 678
+    },
+    {
+      "url": "https://ocw.uca.es/course/view.php?id=55",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://ocw.uca.es/course/view.php?id=55",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1030
+    },
+    {
+      "url": "https://ocw.uca.es/course/view.php?id=56",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://ocw.uca.es/course/view.php?id=56",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 670
+    },
+    {
+      "url": "https://ocw.uca.es/course/view.php?id=62",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://ocw.uca.es/course/view.php?id=62",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1035
+    },
+    {
+      "url": "https://ocw.uca.es/course/view.php?id=74",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://ocw.uca.es/course/view.php?id=74",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 723
+    },
+    {
+      "url": "https://ocw.unican.es/course/view.php?id=13",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://ocw.unican.es/course/view.php?id=13",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 705
+    },
+    {
+      "url": "https://ocw.unican.es/course/view.php?id=148",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://ocw.unican.es/course/view.php?id=148",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 686
+    },
+    {
+      "url": "https://ocw.unican.es/course/view.php?id=159",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://ocw.unican.es/course/view.php?id=159",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 688
+    },
+    {
+      "url": "https://ocw.unican.es/course/view.php?id=16",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://ocw.unican.es/course/view.php?id=16",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 713
+    },
+    {
+      "url": "https://ocw.unican.es/course/view.php?id=162",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://ocw.unican.es/course/view.php?id=162",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 670
+    },
+    {
+      "url": "https://ocw.unican.es/course/view.php?id=163",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://ocw.unican.es/course/view.php?id=163",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 693
+    },
+    {
+      "url": "https://ocw.unican.es/course/view.php?id=169",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://ocw.unican.es/course/view.php?id=169",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 682
+    },
+    {
+      "url": "https://ocw.unican.es/course/view.php?id=170",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://ocw.unican.es/course/view.php?id=170",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 676
+    },
+    {
+      "url": "https://ocw.unican.es/course/view.php?id=185",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://ocw.unican.es/course/view.php?id=185",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 871
+    },
+    {
+      "url": "https://ocw.unican.es/course/view.php?id=188",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://ocw.unican.es/course/view.php?id=188",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 680
+    },
+    {
+      "url": "https://ocw.unican.es/course/view.php?id=19",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://ocw.unican.es/course/view.php?id=19",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 724
+    },
+    {
+      "url": "https://ocw.unican.es/course/view.php?id=194",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://ocw.unican.es/course/view.php?id=194",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 959
+    },
+    {
+      "url": "https://ocw.unican.es/course/view.php?id=206",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://ocw.unican.es/course/view.php?id=206",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 698
+    },
+    {
+      "url": "https://ocw.unican.es/course/view.php?id=207",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://ocw.unican.es/course/view.php?id=207",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 730
+    },
+    {
+      "url": "https://ocw.unican.es/course/view.php?id=211",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://ocw.unican.es/course/view.php?id=211",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 730
+    },
+    {
+      "url": "https://ocw.unican.es/course/view.php?id=217",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://ocw.unican.es/course/view.php?id=217",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 654
+    },
+    {
+      "url": "https://ocw.unican.es/course/view.php?id=22",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://ocw.unican.es/course/view.php?id=22",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 815
+    },
+    {
+      "url": "https://ocw.unican.es/course/view.php?id=231",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://ocw.unican.es/course/view.php?id=231",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1053
+    },
+    {
+      "url": "https://ocw.unican.es/course/view.php?id=238",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://ocw.unican.es/course/view.php?id=238",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 656
+    },
+    {
+      "url": "https://ocw.unican.es/course/view.php?id=240",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://ocw.unican.es/course/view.php?id=240",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 682
+    },
+    {
+      "url": "https://ocw.unican.es/course/view.php?id=27",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://ocw.unican.es/course/view.php?id=27",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 997
+    },
+    {
+      "url": "https://ocw.unican.es/course/view.php?id=28",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://ocw.unican.es/course/view.php?id=28",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 801
+    },
+    {
+      "url": "https://ocw.unican.es/course/view.php?id=61",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://ocw.unican.es/course/view.php?id=61",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 704
+    },
+    {
+      "url": "https://ocw.unican.es/course/view.php?id=99",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://ocw.unican.es/course/view.php?id=99",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 824
+    },
+    {
+      "url": "https://ondiz.github.io/cursoLatex/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://ondiz.github.io/cursoLatex/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 166
+    },
+    {
+      "url": "https://open.fing.edu.uy/courses/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://open.fing.edu.uy/courses/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 688
+    },
+    {
+      "url": "https://open.spotify.com/show/0aikWOJmQMglEmbmbHqv4q",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://open.spotify.com/show/0aikWOJmQMglEmbmbHqv4q",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 552
+    },
+    {
+      "url": "https://open.spotify.com/show/0jrfxcnCrD7N9tlA0BGJp5",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://open.spotify.com/show/0jrfxcnCrD7N9tlA0BGJp5",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1037
+    },
+    {
+      "url": "https://open.spotify.com/show/6efO7Lp5LENT3jqR0sYIG5",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://open.spotify.com/show/6efO7Lp5LENT3jqR0sYIG5",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 507
+    },
+    {
+      "url": "https://open.spotify.com/show/6iuwL4j3oyaMZyBThzv7Hq",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://open.spotify.com/show/6iuwL4j3oyaMZyBThzv7Hq",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 509
+    },
+    {
+      "url": "https://open.umn.edu/opentextbooks",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://open.umn.edu/opentextbooks",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 844
+    },
+    {
+      "url": "https://openaccess.uoc.edu/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://openaccess.uoc.edu/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1182
+    },
+    {
+      "url": "https://openalex.org/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://openalex.org/",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 312
+    },
+    {
+      "url": "https://openlibro.com/wp-content/uploads/2026/03/laboratorio-php-mysql.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://openlibro.com/wp-content/uploads/2026/03/laboratorio-php-mysql.pdf",
+      "contentType": "application/pdf",
+      "ms": 867
+    },
+    {
+      "url": "https://openstax.org/subjects/computer-science",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://openstax.org/subjects/computer-science",
+      "contentType": "text/html",
+      "ms": 750
+    },
+    {
+      "url": "https://overthewire.org/wargames/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://overthewire.org/wargames/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 387
+    },
+    {
+      "url": "https://owasp.org/www-project-top-ten/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://owasp.org/www-project-top-ten/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 489
+    },
+    {
+      "url": "https://owasp.org/www-project-web-security-testing-guide/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://owasp.org/www-project-web-security-testing-guide/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 426
+    },
+    {
+      "url": "https://pacman128.github.io/static/pcasm-book-spanish.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://pacman128.github.io/static/pcasm-book-spanish.pdf",
+      "contentType": "application/pdf",
+      "ms": 650
+    },
+    {
+      "url": "https://pampua.es/podcast",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://pampua.es/podcast",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1389
+    },
+    {
+      "url": "https://paperswithcode.com/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://huggingface.co/papers/trending",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 656
+    },
+    {
+      "url": "https://pennylane.ai/qml/demonstrations",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://pennylane.ai/demonstrations",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 883
+    },
+    {
+      "url": "https://phpdevenezuela.github.io/php-the-right-way/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://phpdevenezuela.github.io/php-the-right-way/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 373
+    },
+    {
+      "url": "https://picoctf.org/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://picoctf.org/",
+      "contentType": "text/html",
+      "ms": 219
+    },
+    {
+      "url": "https://picodotdev.github.io/blog-bitix/assets/custom/PlugInTapestry.epub",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://picodotdev.github.io/blog-bitix/assets/custom/PlugInTapestry.epub",
+      "contentType": "application/epub+zip",
+      "ms": 728
+    },
+    {
+      "url": "https://picodotdev.github.io/blog-bitix/assets/custom/PlugInTapestry.mobi",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://picodotdev.github.io/blog-bitix/assets/custom/PlugInTapestry.mobi",
+      "contentType": "application/x-mobipocket-ebook",
+      "ms": 721
+    },
+    {
+      "url": "https://picodotdev.github.io/blog-bitix/assets/custom/PlugInTapestry.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://picodotdev.github.io/blog-bitix/assets/custom/PlugInTapestry.pdf",
+      "contentType": "application/pdf",
+      "ms": 760
+    },
+    {
+      "url": "https://podcastlinux.com",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://podcastlinux.com/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1530
+    },
+    {
+      "url": "https://podcasts.apple.com/co/podcast/webificando-el-podcast-de-side-projects/id1547290552",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://podcasts.apple.com/co/podcast/webificando-el-podcast-de-side-projects/id1547290552",
+      "contentType": "text/html",
+      "ms": 673
+    },
+    {
+      "url": "https://podcasts.apple.com/es/podcast/compilando-podcast/id1215384401",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://podcasts.apple.com/es/podcast/compilando-podcast/id1215384401",
+      "contentType": "text/html",
+      "ms": 722
+    },
+    {
+      "url": "https://podcasts.apple.com/es/podcast/data-futurology-espa%C3%B1ol/id1523527265",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://podcasts.apple.com/es/podcast/data-futurology-espa%C3%B1ol/id1523527265",
+      "contentType": "text/html",
+      "ms": 604
+    },
+    {
+      "url": "https://poliformat.upv.es/portal/tool/f682ea53-3e5c-411c-0097-a0a16d5fb6a9?panel=Main",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://poliformat.upv.es/portal/tool/f682ea53-3e5c-411c-0097-a0a16d5fb6a9?panel=Main",
+      "contentType": "text/html;charset=UTF-8",
+      "ms": 938
+    },
+    {
+      "url": "https://programadorwebvalencia.com/cursos/clojure/introducci%C3%B3n/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://andros.dev/cursos/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1111
+    },
+    {
+      "url": "https://programadorwebvalencia.com/cursos/css/introducci%C3%B3n/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://andros.dev/cursos/766a97bf/css/1/introduccion/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1819
+    },
+    {
+      "url": "https://programadorwebvalencia.com/cursos/django-rest-framework/introducci%C3%B3n/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://andros.dev/cursos/34b809b2/django-rest-framework/1/introduccion/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1759
+    },
+    {
+      "url": "https://programadorwebvalencia.com/cursos/html/introducci%C3%B3n/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://andros.dev/cursos/bd45ce00/html/1/introduccion/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1819
+    },
+    {
+      "url": "https://programadorwebvalencia.com/cursos/php/base/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://andros.dev/cursos/daf42619/php/1/base/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1782
+    },
+    {
+      "url": "https://programadorwebvalencia.com/cursos/sql/introducci%C3%B3n/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://andros.dev/cursos/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1886
+    },
+    {
+      "url": "https://pwn.college/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://pwn.college/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1304
+    },
+    {
+      "url": "https://qwik-book-spanish.netlify.app/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://qwik-book-spanish.netlify.app/",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 1166
+    },
+    {
+      "url": "https://raulexposito.com/the-little-go-book-en-castellano.html",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://raulexposito.com/the-little-go-book-en-castellano.html",
+      "contentType": "text/html",
+      "ms": 1341
+    },
+    {
+      "url": "https://raulexposito.com/the-little-redis-book-en-castellano.html",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://raulexposito.com/the-little-redis-book-en-castellano.html",
+      "contentType": "text/html",
+      "ms": 515
+    },
+    {
+      "url": "https://react.dev/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://react.dev/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 503
+    },
+    {
+      "url": "https://refactoring.guru/es",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://refactoring.guru/es",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 299
+    },
+    {
+      "url": "https://refactoring.guru/es/design-patterns",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://refactoring.guru/es/design-patterns",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 158
+    },
+    {
+      "url": "https://republicaweb.es",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://republicaweb.es/",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 947
+    },
+    {
+      "url": "https://riptutorial.com/Download/amazon-dynamodb-es.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://riptutorial.com/Download/amazon-dynamodb-es.pdf",
+      "contentType": "application/pdf",
+      "ms": 986
+    },
+    {
+      "url": "https://riptutorial.com/Download/angular-2-es.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://riptutorial.com/Download/angular-2-es.pdf",
+      "contentType": "application/pdf",
+      "ms": 787
+    },
+    {
+      "url": "https://riptutorial.com/Download/angular-es.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://riptutorial.com/Download/angular-es.pdf",
+      "contentType": "application/pdf",
+      "ms": 155
+    },
+    {
+      "url": "https://riptutorial.com/Download/typescript-es.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://riptutorial.com/Download/typescript-es.pdf",
+      "contentType": "application/pdf",
+      "ms": 1261
+    },
+    {
+      "url": "https://riscv.org/technical/specifications/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://riscv.org/specifications/ratified/",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 2667
+    },
+    {
+      "url": "https://rogerdudler.github.io/git-guide/index.es.html",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://rogerdudler.github.io/git-guide/index.es.html",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 158
+    },
+    {
+      "url": "https://savvily.es/podcasts/ni-cero-ni-uno/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://savvily.es/podcasts/ni-cero-ni-uno/",
+      "contentType": "text/html",
+      "ms": 1340
+    },
+    {
+      "url": "https://scrumguides.org/download.html",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://scrumguides.org/download.html",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 422
+    },
+    {
+      "url": "https://scrumlevel.com/files/scrumlevel.epub",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://agilevel.com/",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 2015
+    },
+    {
+      "url": "https://scrumlevel.com/files/scrumlevel.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://agilevel.com/",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 3027
+    },
+    {
+      "url": "https://scrummanager.net/files/scrum_master.epub",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.scrummanager.com/files/scrum_master.epub",
+      "contentType": "application/epub+zip",
+      "ms": 1521
+    },
+    {
+      "url": "https://scrummanager.net/files/scrum_master.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.scrummanager.com/files/scrum_master.pdf",
+      "contentType": "application/pdf",
+      "ms": 3844
+    },
+    {
+      "url": "https://skillbuilder.aws/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://skillbuilder.aws/",
+      "contentType": "text/html",
+      "ms": 692
+    },
+    {
+      "url": "https://solidity-es.readthedocs.io/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://solidity-es.readthedocs.io/es/latest/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 616
+    },
+    {
+      "url": "https://sre.google/books/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://sre.google/books/",
+      "contentType": "text/html",
+      "ms": 1533
+    },
+    {
+      "url": "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/inmersionenpython3/inmersionEnPython3.0.11.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/inmersionenpython3/inmersionEnPython3.0.11.pdf",
+      "contentType": "application/octet-stream",
+      "ms": 661
+    },
+    {
+      "url": "https://styde.net/php-y-programacion-orientada-a-objetos/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://styde.net/php-y-programacion-orientada-a-objetos/",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 862
+    },
+    {
+      "url": "https://teachyourselfcs.com/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://teachyourselfcs.com/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 893
+    },
+    {
+      "url": "https://tecnologeria.com",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://tecnologeria.com/",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 2178
+    },
+    {
+      "url": "https://the-algorithms.com/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://the-algorithms.com/",
+      "contentType": "text/html",
+      "ms": 1246
+    },
+    {
+      "url": "https://theopenroadproject.org/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://theopenroadproject.org/",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 1352
+    },
+    {
+      "url": "https://threejs.org/docs/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://threejs.org/docs/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 318
+    },
+    {
+      "url": "https://tutorial.djangogirls.org/es/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://tutorial.djangogirls.org/es/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 230
+    },
+    {
+      "url": "https://ugeek.github.io",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://ugeek.github.io/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 207
+    },
+    {
+      "url": "https://uneweb.edu.ve/tuto-docs/libro-python.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://uneweb.edu.ve/tuto-docs/libro-python.pdf",
+      "contentType": "application/pdf",
+      "ms": 508
+    },
+    {
+      "url": "https://uzluisf.gitlab.io/piensaperl6/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://uzluisf.gitlab.io/piensaperl6/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 795
+    },
+    {
+      "url": "https://web.archive.org/web/20100701020025/http://www.tecnun.es/asignaturas/Informat1/AyudaInf/aprendainf/cpp/basico/cppbasico.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://web.archive.org/web/20100701020025/http://www.tecnun.es/asignaturas/Informat1/AyudaInf/aprendainf/cpp/basico/cppbasico.pdf",
+      "contentType": "application/pdf",
+      "ms": 1094
+    },
+    {
+      "url": "https://web.archive.org/web/20100701020037/http://www.tecnun.es/asignaturas/Informat1/AyudaInf/aprendainf/cpp/avanzado/cppavan.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://web.archive.org/web/20100701020037/http://www.tecnun.es/asignaturas/Informat1/AyudaInf/aprendainf/cpp/avanzado/cppavan.pdf",
+      "contentType": "application/pdf",
+      "ms": 891
+    },
+    {
+      "url": "https://web.archive.org/web/20130524191858/http://ocw.uji.es/curso/5180",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://web.archive.org/web/20130524191858/http://ocw.uji.es/curso/5180",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 727
+    },
+    {
+      "url": "https://web.archive.org/web/20130613211947/http://ocw.uji.es/curso/4949",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://web.archive.org/web/20130613211947/http://ocw.uji.es/curso/4949",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 849
+    },
+    {
+      "url": "https://web.archive.org/web/20140209203630/http://www.cursosdeprogramacionadistancia.com/static/pdf/material-sin-personalizar-php.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://web.archive.org/web/20140209203630/http://www.cursosdeprogramacionadistancia.com/static/pdf/material-sin-personalizar-php.pdf",
+      "contentType": "application/pdf",
+      "ms": 897
+    },
+    {
+      "url": "https://web.archive.org/web/20140209204645/http://www.cursosdeprogramacionadistancia.com/static/pdf/material-sin-personalizar-agile.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://web.archive.org/web/20140209204645/http://www.cursosdeprogramacionadistancia.com/static/pdf/material-sin-personalizar-agile.pdf",
+      "contentType": "application/pdf",
+      "ms": 1051
+    },
+    {
+      "url": "https://web.archive.org/web/20150307181233/http://library.originalhacker.org:80/biblioteca/articulo/ver/123",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://web.archive.org/web/20150307181233/http://library.originalhacker.org:80/biblioteca/articulo/ver/123",
+      "contentType": "application/pdf",
+      "ms": 955
+    },
+    {
+      "url": "https://web.archive.org/web/20150421012120/http://www.cursosdeprogramacionadistancia.com/static/pdf/material-sin-personalizar-python.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://web.archive.org/web/20150421012120/http://www.cursosdeprogramacionadistancia.com/static/pdf/material-sin-personalizar-python.pdf",
+      "contentType": "application/pdf",
+      "ms": 774
+    },
+    {
+      "url": "https://web.archive.org/web/20150824055042/http://www.wolnm.org/apa/articulos/Ingenieria_Software.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://web.archive.org/web/20150824055042/http://www.wolnm.org/apa/articulos/Ingenieria_Software.pdf",
+      "contentType": "application/pdf",
+      "ms": 747
+    },
+    {
+      "url": "https://web.archive.org/web/20210805141343/https://symfony.com/doc/current/the-fast-track/es/index.html",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://web.archive.org/web/20210805141343/https://symfony.com/doc/current/the-fast-track/es/index.html",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 760
+    },
+    {
+      "url": "https://web.dev/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://web.dev/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1205
+    },
+    {
+      "url": "https://wiki.python.org.ar/aprendiendopython/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://wiki.python.org.ar/aprendiendopython/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 290
+    },
+    {
+      "url": "https://wokwi.com/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://wokwi.com/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1113
+    },
+    {
+      "url": "https://www.3gpp.org/specifications-technologies/specifications-by-series",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.3gpp.org/specifications-technologies/specifications-by-series",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 899
+    },
+    {
+      "url": "https://www.a11yproject.com/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.a11yproject.com/",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 1210
+    },
+    {
+      "url": "https://www.aprendejavascript.dev",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.aprendejavascript.dev/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 513
+    },
+    {
+      "url": "https://www.aulaclic.es/html/index.htm",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.aulaclic.es/html/index.htm",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 1306
+    },
+    {
+      "url": "https://www.computer.org/education/bodies-of-knowledge/software-engineering",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.computer.org/education/bodies-of-knowledge/software-engineering",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 475
+    },
+    {
+      "url": "https://www.coursera.org/learn/a-programar",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.coursera.org/learn/a-programar",
+      "contentType": "text/html",
+      "ms": 1083
+    },
+    {
+      "url": "https://www.coursera.org/learn/aprendiendo-programar-python",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.coursera.org/learn/aprendiendo-programar-python",
+      "contentType": "text/html",
+      "ms": 1357
+    },
+    {
+      "url": "https://www.coursera.org/learn/arduino-aplicaciones",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.coursera.org/learn/arduino-aplicaciones",
+      "contentType": "text/html",
+      "ms": 1419
+    },
+    {
+      "url": "https://www.coursera.org/learn/intro-data-science-programacion-estadistica-r",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.coursera.org/learn/intro-data-science-programacion-estadistica-r",
+      "contentType": "text/html",
+      "ms": 700
+    },
+    {
+      "url": "https://www.coursera.org/learn/introduccion-programacion-java",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.coursera.org/learn/introduccion-programacion-java",
+      "contentType": "text/html",
+      "ms": 1254
+    },
+    {
+      "url": "https://www.deeplearningbook.org/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.deeplearningbook.org/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 362
+    },
+    {
+      "url": "https://www.dia30.mx",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.dia30.mx/",
+      "contentType": "text/html",
+      "ms": 1294
+    },
+    {
+      "url": "https://www.edx.org/course/bases-matematicas-algebra-upvalenciax-bma101x-2",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.edx.org/learn/algebra/universitat-politecnica-de-valencia-bases-matematicas-algebra",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1196
+    },
+    {
+      "url": "https://www.edx.org/course/como-implantar-grupos-de-mejora-de-upvalenciax-gm201x-0",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.edx.org/learn/business-administration/universitat-politecnica-de-valencia-como-implantar-grupos-de-mejora-de-procesos",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 521
+    },
+    {
+      "url": "https://www.edx.org/course/disena-fabrica-y-programa-tu-propio-upvalenciax-dyor101x",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.edx.org/learn/robotics/universitat-politecnica-de-valencia-disena-fabrica-y-programa-tu-propio-robot",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 603
+    },
+    {
+      "url": "https://www.edx.org/course/dispositivos-moviles-para-la-gestion-del-upvalenciax-dmt201x-1",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.edx.org/learn/gis-geographic-information-systems/universitat-politecnica-de-valencia-dispositivos-moviles-para-la-gestion-del-territorio",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1000
+    },
+    {
+      "url": "https://www.edx.org/course/excel-2-gestion-de-datos-upvalenciax-xls201x",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.edx.org/learn/excel/universitat-politecnica-de-valencia-excel-gestion-de-datos",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 428
+    },
+    {
+      "url": "https://www.edx.org/course/excel-upvalenciax-xls101x-1",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.edx.org/learn/excel/universitat-politecnica-de-valencia-excel-fundamentos-y-herramientas",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 471
+    },
+    {
+      "url": "https://www.edx.org/course/fundamentos-de-comunicaciones-opticas-upvalenciax-fco201x-1",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.edx.org/learn/optics/universitat-politecnica-de-valencia-fundamentos-de-comunicaciones-opticas",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 613
+    },
+    {
+      "url": "https://www.edx.org/course/gestion-participativa-high-involvement-upvalenciax-gp201x-0",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.edx.org/learn/leadership/universitat-politecnica-de-valencia-gestion-participativa-motivacion-y-liderazgo-organizacional",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 504
+    },
+    {
+      "url": "https://www.edx.org/course/introduccion-al-desarrollo-de-upvalenciax-uny201-x-1",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.edx.org/learn/game-development/universitat-politecnica-de-valencia-introduccion-al-desarrollo-de-videojuegos-con-unity",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 708
+    },
+    {
+      "url": "https://www.edx.org/course/introduccion-la-gestion-de-proyectos-upvalenciax-igp101-x",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.edx.org/learn/project-management/universitat-politecnica-de-valencia-introduccion-a-la-gestion-de-proyectos",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 464
+    },
+    {
+      "url": "https://www.edx.org/course/sistemas-de-informacion-y-ordenadores-upvalenciax-sic101-1x",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.edx.org/learn/information-systems/universitat-politecnica-de-valencia-fundamentos-tic-para-profesionales-de-negocios-aplicaciones-empresariales",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 484
+    },
+    {
+      "url": "https://www.edx.org/course/sistemas-de-informacion-y-ordenadores-upvalenciax-sic101-2x",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.edx.org/learn/computer-programming/universitat-politecnica-de-valencia-fundamentos-tic-para-profesionales-de-negocios-hardware",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1045
+    },
+    {
+      "url": "https://www.edx.org/course/sistemas-de-informacion-y-ordenadores-upvalenciax-sic101-3x",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.edx.org/learn/software-development/universitat-politecnica-de-valencia-fundamentos-tic-para-profesionales-de-negocios-desarrollo-de-software",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 430
+    },
+    {
+      "url": "https://www.edx.org/course/sistemas-de-informacion-y-ordenadores-upvalenciax-sic101-4x",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.edx.org/learn/computer-programming/universitat-politecnica-de-valencia-fundamentos-tic-para-profesionales-de-negocios-programacion",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 891
+    },
+    {
+      "url": "https://www.eloquentjavascript.es",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.eloquentjavascript.es/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 471
+    },
+    {
+      "url": "https://www.entredevyops.es",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.entredevyops.es/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 432
+    },
+    {
+      "url": "https://www.freecodecamp.org/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.freecodecamp.org/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 525
+    },
+    {
+      "url": "https://www.freecodecamp.org/espanol/news/aprende-javascript-curso-completo-desde-cero/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.freecodecamp.org/espanol/news/aprende-javascript-curso-completo-desde-cero/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 462
+    },
+    {
+      "url": "https://www.freertos.org/Documentation/RTOS_book.html",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.freertos.org/Documentation/02-Kernel/07-Books-and-manual/01-RTOS_book",
+      "contentType": "text/html",
+      "ms": 1415
+    },
+    {
+      "url": "https://www.ivoox.com/podcast-buhardilla-geek_sq_f1465450_1.html",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.ivoox.com/podcast-buhardilla-geek_sq_f1465450_1.html",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1742
+    },
+    {
+      "url": "https://www.ivoox.com/podcast-descargas-mi-mente_sq_f1584288_1.html",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.ivoox.com/podcast-descargas-mi-mente_sq_f1584288_1.html",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1637
+    },
+    {
+      "url": "https://www.ivoox.com/podcast-frikismo-puro_sq_f1268809_1.html",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.ivoox.com/podcast-frikismo-puro_sq_f1268809_1.html",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1333
+    },
+    {
+      "url": "https://www.ivoox.com/podcast-hijos-web_sq_f1588708_1.html",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.ivoox.com/podcast-hijos-web_sq_f1588708_1.html",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1265
+    },
+    {
+      "url": "https://www.ivoox.com/podcast-icharlas-podcast_sq_f155400_1.html",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.ivoox.com/podcast-icharlas-podcast_sq_f155400_1.html",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1236
+    },
+    {
+      "url": "https://www.ivoox.com/podcast-nosolotech-podcast_sq_f1851397_1.html",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.ivoox.com/podcast-nosolotech-podcast_sq_f1851397_1.html",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1155
+    },
+    {
+      "url": "https://www.ivoox.com/podcast-red-sospechosos-habituales_sq_f1564393_1.html",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.ivoox.com/podcast-red-sospechosos-habituales_sq_f1564393_1.html",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 2031
+    },
+    {
+      "url": "https://www.ivoox.com/podcast-soydata-ciencia-datos-a-tu_sq_f1414925_1.html",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.ivoox.com/podcast-soydata-ciencia-datos-a-tu_sq_f1414925_1.html",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1238
+    },
+    {
+      "url": "https://www.lawebdelprogramador.com/cursos/archivos/ManualPracticoSQL.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.lawebdelprogramador.com/cursos/archivos/ManualPracticoSQL.pdf",
+      "contentType": "application/pdf",
+      "ms": 1048
+    },
+    {
+      "url": "https://www.mangocast.net",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.mangocast.net/",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 1869
+    },
+    {
+      "url": "https://www.markdowntutorial.com/es/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.markdowntutorial.com/es/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 595
+    },
+    {
+      "url": "https://www.nand2tetris.org/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.nand2tetris.org/",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 705
+    },
+    {
+      "url": "https://www.netacad.com/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.netacad.com/",
+      "contentType": "text/html",
+      "ms": 499
+    },
+    {
+      "url": "https://www.nist.gov/cyberframework",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.nist.gov/cyberframework",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 261
+    },
+    {
+      "url": "https://www.nodebeginner.org/index-es.html",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.nodebeginner.org/index-es.html",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1017
+    },
+    {
+      "url": "https://www.pildorasinformaticas.es/course/access-2010-avanzado",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.pildorasinformaticas.es/course/access-2010-avanzado/",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 2845
+    },
+    {
+      "url": "https://www.pildorasinformaticas.es/course/android-con-android-studio",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.pildorasinformaticas.es/course/android-con-android-studio/",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 3627
+    },
+    {
+      "url": "https://www.pildorasinformaticas.es/course/android-modulo-2",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.pildorasinformaticas.es/course/android-modulo-2/",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 3507
+    },
+    {
+      "url": "https://www.pildorasinformaticas.es/course/android-modulo-3",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.pildorasinformaticas.es/course/android-modulo-3/",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 3236
+    },
+    {
+      "url": "https://www.pildorasinformaticas.es/course/css-avanzado-desde-0",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.pildorasinformaticas.es/course/css-avanzado-desde-0/",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 3118
+    },
+    {
+      "url": "https://www.pildorasinformaticas.es/course/curso-access-2010-basico",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.pildorasinformaticas.es/course/curso-access-2010-basico/",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 3436
+    },
+    {
+      "url": "https://www.pildorasinformaticas.es/course/curso-c",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.pildorasinformaticas.es/course/curso-c/",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 3557
+    },
+    {
+      "url": "https://www.pildorasinformaticas.es/course/curso-de-git-github",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.pildorasinformaticas.es/course/curso-de-git-github/",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 3266
+    },
+    {
+      "url": "https://www.pildorasinformaticas.es/course/curso-python",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.pildorasinformaticas.es/course/curso-python/",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 3514
+    },
+    {
+      "url": "https://www.pildorasinformaticas.es/course/curso-python/curso-python-modulo-2",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.pildorasinformaticas.es/course/curso-python-modulo-2/",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 2906
+    },
+    {
+      "url": "https://www.pildorasinformaticas.es/course/curso-spring",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.pildorasinformaticas.es/course/curso-spring/",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 2820
+    },
+    {
+      "url": "https://www.pildorasinformaticas.es/course/curso-sql",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.pildorasinformaticas.es/course/curso-sql/",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 3090
+    },
+    {
+      "url": "https://www.pildorasinformaticas.es/course/django",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.pildorasinformaticas.es/course/django/",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 2862
+    },
+    {
+      "url": "https://www.pildorasinformaticas.es/course/excel-2019-basico-medio-avanzado",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.pildorasinformaticas.es/course/excel-2019-basico-medio-avanzado/",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 3205
+    },
+    {
+      "url": "https://www.pildorasinformaticas.es/course/excel-avanzado-2010",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.pildorasinformaticas.es/course/excel-avanzado-2010/",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 3068
+    },
+    {
+      "url": "https://www.pildorasinformaticas.es/course/excel-basico",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.pildorasinformaticas.es/course/excel-basico/",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 3205
+    },
+    {
+      "url": "https://www.pildorasinformaticas.es/course/html-5",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.pildorasinformaticas.es/course/html-5/",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 3320
+    },
+    {
+      "url": "https://www.pildorasinformaticas.es/course/java-desde-0",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.pildorasinformaticas.es/course/java-desde-0/",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 4420
+    },
+    {
+      "url": "https://www.pildorasinformaticas.es/course/java-desde-0/java-desde-0-modulo-2",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.pildorasinformaticas.es/course/java-desde-0/java-desde-0-modulo-2/",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 3823
+    },
+    {
+      "url": "https://www.pildorasinformaticas.es/course/java-desde-0/java-desde-0-modulo-3",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.pildorasinformaticas.es/course/java-desde-0/java-desde-0-modulo-3/",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 2760
+    },
+    {
+      "url": "https://www.pildorasinformaticas.es/course/java-desde-0/java-desde-0-modulo-4",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.pildorasinformaticas.es/course/java-desde-0/java-desde-0-modulo-4/",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 3080
+    },
+    {
+      "url": "https://www.pildorasinformaticas.es/course/java-ee-modulo-1",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.pildorasinformaticas.es/course/java-ee-modulo-1/",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 3217
+    },
+    {
+      "url": "https://www.pildorasinformaticas.es/course/java-ee-modulo-1/java-ee-modulo-2",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.pildorasinformaticas.es/course/java-ee-modulo-1/java-ee-modulo-2/",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 3325
+    },
+    {
+      "url": "https://www.pildorasinformaticas.es/course/javascript-desde-0",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.pildorasinformaticas.es/course/javascript-desde-0/",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 3244
+    },
+    {
+      "url": "https://www.pildorasinformaticas.es/course/laravel",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.pildorasinformaticas.es/course/laravel/",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 2817
+    },
+    {
+      "url": "https://www.pildorasinformaticas.es/course/php-mysql",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.pildorasinformaticas.es/course/php-mysql/",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 3093
+    },
+    {
+      "url": "https://www.pildorasinformaticas.es/course/php-mysql/php-mysql-modulo-2",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.pildorasinformaticas.es/course/php-mysql/php-mysql-modulo-2/",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 2876
+    },
+    {
+      "url": "https://www.pildorasinformaticas.es/course/powerpoint-2013",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.pildorasinformaticas.es/course/powerpoint-2013/",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 2946
+    },
+    {
+      "url": "https://www.pildorasinformaticas.es/course/vba-access",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.pildorasinformaticas.es/course/vba-access/",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 3087
+    },
+    {
+      "url": "https://www.pildorasinformaticas.es/course/vba-excel",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.pildorasinformaticas.es/course/vba-excel/",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 3003
+    },
+    {
+      "url": "https://www.pildorasinformaticas.es/course/word-avanzado-2010",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.pildorasinformaticas.es/course/word-avanzado-2010/",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 2908
+    },
+    {
+      "url": "https://www.programaresunamierda.com",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.programaresunamierda.com/",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 1080
+    },
+    {
+      "url": "https://www.reactjs.wiki/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.reactjs.wiki/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 505
+    },
+    {
+      "url": "https://www.rediris.es/tecniris/archie/doc/TECNIRIS47-1b.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.rediris.es/tecniris/archie/doc/TECNIRIS47-1b.pdf",
+      "contentType": "application/pdf",
+      "ms": 1365
+    },
+    {
+      "url": "https://www.rfc-editor.org/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.rfc-editor.org/",
+      "contentType": "text/html;charset=utf-8",
+      "ms": 1045
+    },
+    {
+      "url": "https://www.ruby-lang.org/es/documentation/quickstart",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.ruby-lang.org/es/documentation/quickstart/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 481
+    },
+    {
+      "url": "https://www.ruby-lang.org/es/documentation/quickstart/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.ruby-lang.org/es/documentation/quickstart/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 149
+    },
+    {
+      "url": "https://www.secmca.org/wp-content/uploads/2019/12/Blockchain.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.secmca.org/wp-content/uploads/2019/12/Blockchain.pdf",
+      "contentType": "application/pdf",
+      "ms": 2725
+    },
+    {
+      "url": "https://www.semanticscholar.org/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.semanticscholar.org/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 612
+    },
+    {
+      "url": "https://www.swift.org/documentation/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.swift.org/documentation/",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 1321
+    },
+    {
+      "url": "https://www.theodinproject.com/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.theodinproject.com/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1001
+    },
+    {
+      "url": "https://www.typescriptlang.org/docs/handbook/intro.html",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.typescriptlang.org/docs/handbook/intro.html",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 714
+    },
+    {
+      "url": "https://www.webreactiva.com/podcast",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.webreactiva.com/podcast",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 731
+    },
+    {
+      "url": "https://www.wireshark.org/docs/wsug_html_chunked/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.wireshark.org/docs/wsug_html_chunked/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 659
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/download/yii-guide-2.0-es.pdf",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.yiiframework.com/doc/download/yii-guide-2.0-es.pdf",
+      "contentType": "application/pdf",
+      "ms": 1159
+    },
+    {
+      "url": "https://www.youtube.com/@BenEater",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/@BenEater",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 945
+    },
+    {
+      "url": "https://www.youtube.com/embed/videoseries?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/embed/videoseries?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 390
+    },
+    {
+      "url": "https://www.youtube.com/playlist?list=PL42UNLc8e48RPqUVsZzedg5bCYfKg4xee",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/playlist?list=PL42UNLc8e48RPqUVsZzedg5bCYfKg4xee",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 259
+    },
+    {
+      "url": "https://www.youtube.com/playlist?list=PLEtcGQaT56ch37mnavd8p5cbnkDvXLGsX",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/playlist?list=PLEtcGQaT56ch37mnavd8p5cbnkDvXLGsX",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 262
+    },
+    {
+      "url": "https://www.youtube.com/playlist?list=PLeUTAd8xaJJlW8xHQn000F2vg6OSQlH9i",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/playlist?list=PLeUTAd8xaJJlW8xHQn000F2vg6OSQlH9i",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 432
+    },
+    {
+      "url": "https://www.youtube.com/playlist?list=PLfeFnTZNTVDO5UwcIvWherSLxuBuK6ve4",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/playlist?list=PLfeFnTZNTVDO5UwcIvWherSLxuBuK6ve4",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 881
+    },
+    {
+      "url": "https://www.youtube.com/playlist?list=PLfgj7DYkKH3DjmXTOxIMs-5fcOgDg_Dd2",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/playlist?list=PLfgj7DYkKH3DjmXTOxIMs-5fcOgDg_Dd2",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 248
+    },
+    {
+      "url": "https://www.youtube.com/playlist?list=PLkjnQ3NFTPnY1eNyLDGi547gkVui1vyn2",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/playlist?list=PLkjnQ3NFTPnY1eNyLDGi547gkVui1vyn2",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 305
+    },
+    {
+      "url": "https://www.youtube.com/playlist?list=PLM4HZoZrNapsQ_f6a9275n15riyr-2AnQ",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/playlist?list=PLM4HZoZrNapsQ_f6a9275n15riyr-2AnQ",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 308
+    },
+    {
+      "url": "https://www.youtube.com/playlist?list=PLNdFk2_brsRcrVO-C915sjog0WclPgxHb",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/playlist?list=PLNdFk2_brsRcrVO-C915sjog0WclPgxHb",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 244
+    },
+    {
+      "url": "https://www.youtube.com/playlist?list=PLPl81lqbj-4I8i-x2b5_MG58tZfgKmJls",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/playlist?list=PLPl81lqbj-4I8i-x2b5_MG58tZfgKmJls",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 251
+    },
+    {
+      "url": "https://www.youtube.com/playlist?list=PLrDTf5qnZdEAiHO19QB9hq5QXAef1h8oY",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/playlist?list=PLrDTf5qnZdEAiHO19QB9hq5QXAef1h8oY",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 482
+    },
+    {
+      "url": "https://www.youtube.com/playlist?list=PLs-v5LWbw7JnwF9RquAuuxLi-Ha1rths6",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/playlist?list=PLs-v5LWbw7JnwF9RquAuuxLi-Ha1rths6",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 267
+    },
+    {
+      "url": "https://www.youtube.com/playlist?list=PLU8oAlHdN5BkinrODGXToK9oPAlnJxmW_",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/playlist?list=PLU8oAlHdN5BkinrODGXToK9oPAlnJxmW_",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 346
+    },
+    {
+      "url": "https://www.youtube.com/playlist?list=PLV8x_i1fqBw0B008sQn79YxCjkHJU84pC",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/playlist?list=PLV8x_i1fqBw0B008sQn79YxCjkHJU84pC",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 301
+    },
+    {
+      "url": "https://www.youtube.com/playlist?list=PLV8x_i1fqBw0Kn_fBIZTa3wS_VZAqddX7",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/playlist?list=PLV8x_i1fqBw0Kn_fBIZTa3wS_VZAqddX7",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 335
+    },
+    {
+      "url": "https://www.youtube.com/playlist?list=PLV8x_i1fqBw1VR86y4C72xMGJ8ifjBwJ6",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/playlist?list=PLV8x_i1fqBw1VR86y4C72xMGJ8ifjBwJ6",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 439
+    },
+    {
+      "url": "https://www.youtube.com/playlist?list=PLyahFOLd43YRLaaoDKMUWS09xE8HqZAbE",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/playlist?list=PLyahFOLd43YRLaaoDKMUWS09xE8HqZAbE",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 268
+    },
+    {
+      "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 250
+    },
+    {
+      "url": "https://www.youtube.com/playlist?list=PLzSFZWTjelbJ01UciHPAWTqUFWesoGr9A",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/playlist?list=PLzSFZWTjelbJ01UciHPAWTqUFWesoGr9A",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 254
+    },
+    {
+      "url": "https://www.youtube.com/playlist?list=PLZVwXPbHD1KMsiA7ahRSbIwS3QMsQ0SbL",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/playlist?list=PLZVwXPbHD1KMsiA7ahRSbIwS3QMsQ0SbL",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 486
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=3GymExBkKjE",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/watch?v=3GymExBkKjE",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 608
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Ei1y51K8jQk",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/watch?v=Ei1y51K8jQk",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 643
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=qi87b6VcIHY&t=1004s",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/watch?v=qi87b6VcIHY&t=1004s",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 634
+    },
+    {
+      "url": "https://zenodo.org/",
+      "ok": true,
+      "blocked": false,
+      "status": 200,
+      "finalUrl": "https://zenodo.org/",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 678
+    },
+    {
+      "url": "http://ciencias.bogota.unal.edu.co/fileadmin/Facultad_de_Ciencias/Publicaciones/Archivos_Libros/Libros_Matematicas/_Teoria_de_la_Computacion___lenguajes__automatas__gramaticas._/teoriacomputacion.pdf",
+      "ok": false,
+      "blocked": false,
+      "status": 404,
+      "finalUrl": "https://ciencias.bogota.unal.edu.co/fileadmin/Facultad_de_Ciencias/Publicaciones/Archivos_Libros/Libros_Matematicas/_Teoria_de_la_Computacion___lenguajes__automatas__gramaticas._/teoriacomputacion.pdf",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 840
+    },
+    {
+      "url": "http://dis.um.es/~bmoros/privado/bibliografia/LibroCsharp.pdf",
+      "ok": false,
+      "blocked": false,
+      "status": 404,
+      "finalUrl": "https://www.um.es/web/dis~bmoros/privado/bibliografia/LibroCsharp.pdf",
+      "contentType": "text/html",
+      "ms": 2242
+    },
+    {
+      "url": "http://fcasua.contad.unam.mx/apuntes/interiores/plan2016_1.php",
+      "ok": false,
+      "blocked": false,
+      "status": 404,
+      "finalUrl": "http://fcasua.contad.unam.mx/apuntes/interiores/plan2016_1.php",
+      "contentType": "text/html; charset=iso-8859-1",
+      "ms": 922
+    },
+    {
+      "url": "http://librosweb.es/libro/ajax",
+      "ok": false,
+      "blocked": false,
+      "status": 0,
+      "error": "This operation was aborted",
+      "ms": 12008
+    },
+    {
+      "url": "http://librosweb.es/libro/css_avanzado",
+      "ok": false,
+      "blocked": false,
+      "status": 0,
+      "error": "This operation was aborted",
+      "ms": 12014
+    },
+    {
+      "url": "http://librosweb.es/libro/css/",
+      "ok": false,
+      "blocked": false,
+      "status": 0,
+      "error": "This operation was aborted",
+      "ms": 12015
+    },
+    {
+      "url": "http://librosweb.es/libro/javascript",
+      "ok": false,
+      "blocked": false,
+      "status": 0,
+      "error": "This operation was aborted",
+      "ms": 12010
+    },
+    {
+      "url": "http://librosweb.es/libro/python",
+      "ok": false,
+      "blocked": false,
+      "status": 0,
+      "error": "This operation was aborted",
+      "ms": 12006
+    },
+    {
+      "url": "http://librosweb.es/libro/silex",
+      "ok": false,
+      "blocked": false,
+      "status": 0,
+      "error": "This operation was aborted",
+      "ms": 12008
+    },
+    {
+      "url": "http://librosweb.es/libro/symfony_1_4",
+      "ok": false,
+      "blocked": false,
+      "status": 0,
+      "error": "This operation was aborted",
+      "ms": 12013
+    },
+    {
+      "url": "http://librosweb.es/libro/symfony_2_4/",
+      "ok": false,
+      "blocked": false,
+      "status": 0,
+      "error": "This operation was aborted",
+      "ms": 12013
+    },
+    {
+      "url": "http://lsi.vc.ehu.es/pablogn/docencia/FdI/Scratch/Aprenda%20a%20programar%20con%20Scratch%20en%20un%20par%20de%20tardes.pdf",
+      "ok": false,
+      "blocked": false,
+      "status": 0,
+      "error": "fetch failed",
+      "ms": 728
+    },
+    {
+      "url": "http://ocw.uc3m.es/historico/programacion-java",
+      "ok": false,
+      "blocked": false,
+      "status": 404,
+      "finalUrl": "https://ocw.uc3m.es/historico/programacion-java",
+      "contentType": "text/html",
+      "ms": 972
+    },
+    {
+      "url": "http://ocw.uv.es/ciencias-sociales-y-juridicas/plant/Course_listing",
+      "ok": false,
+      "blocked": false,
+      "status": 0,
+      "error": "This operation was aborted",
+      "ms": 12008
+    },
+    {
+      "url": "http://ocw.uv.es/ciencias-sociales-y-juridicas/seguridad-privacidad-y-proteccion-de-datos-i/Course_listing",
+      "ok": false,
+      "blocked": false,
+      "status": 0,
+      "error": "This operation was aborted",
+      "ms": 12004
+    },
+    {
+      "url": "http://ocw.uv.es/ciencias/informatica-1/Course_listing",
+      "ok": false,
+      "blocked": false,
+      "status": 0,
+      "error": "This operation was aborted",
+      "ms": 12002
+    },
+    {
+      "url": "http://ocw.uv.es/ingenieria-y-arquitectura/1-4/Course_listing",
+      "ok": false,
+      "blocked": false,
+      "status": 0,
+      "error": "This operation was aborted",
+      "ms": 12003
+    },
+    {
+      "url": "http://ocw.uv.es/ingenieria-y-arquitectura/aplicaciones-web-avanzadas/Course_listing",
+      "ok": false,
+      "blocked": false,
+      "status": 0,
+      "error": "This operation was aborted",
+      "ms": 12008
+    },
+    {
+      "url": "http://ocw.uv.es/ingenieria-y-arquitectura/programacionmultimedia/Course_listing",
+      "ok": false,
+      "blocked": false,
+      "status": 0,
+      "error": "This operation was aborted",
+      "ms": 12008
+    },
+    {
+      "url": "http://ocw.uv.es/ingenieria-y-arquitectura/seguridad/Course_listing",
+      "ok": false,
+      "blocked": false,
+      "status": 0,
+      "error": "This operation was aborted",
+      "ms": 12000
+    },
+    {
+      "url": "http://redeya.bytemaniacos.com/electronica/cursos/aesoft.htm",
+      "ok": false,
+      "blocked": false,
+      "status": 0,
+      "error": "fetch failed",
+      "ms": 7231
+    },
+    {
+      "url": "http://www.uhu.es/publicaciones/?q=libros&code=1252",
+      "ok": false,
+      "blocked": false,
+      "status": 0,
+      "error": "This operation was aborted",
+      "ms": 12000
+    },
+    {
+      "url": "http://www.ungs.edu.ar/cm/uploaded_files/publicaciones/476_cid03-Pensar%20la%20computacion.pdf",
+      "ok": false,
+      "blocked": false,
+      "status": 404,
+      "finalUrl": "https://www.ungs.edu.ar/cm/uploaded_files/publicaciones/476_cid03-Pensar%20la%20computacion.pdf",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 1512
+    },
+    {
+      "url": "http://www.web2py.com/books/default/chapter/41",
+      "ok": false,
+      "blocked": false,
+      "status": 0,
+      "error": "fetch failed",
+      "ms": 1118
+    },
+    {
+      "url": "http://www3.uji.es/~belfern/libroJava.pdf",
+      "ok": false,
+      "blocked": false,
+      "status": 404,
+      "finalUrl": "https://www3.uji.es/~belfern/libroJava.pdf",
+      "contentType": "text/html; charset=iso-8859-1",
+      "ms": 1243
+    },
+    {
+      "url": "https://conclase.net/c/curso",
+      "ok": false,
+      "blocked": false,
+      "status": 404,
+      "finalUrl": "https://conclase.net/c/curso",
+      "contentType": "application/json; charset=UTF-8",
+      "ms": 1531
+    },
+    {
+      "url": "https://cosasdeinternet.fm/episodios",
+      "ok": false,
+      "blocked": false,
+      "status": 404,
+      "finalUrl": "https://www.cosasdeinternet.fm/episodios",
+      "contentType": "text/html;charset=utf-8",
+      "ms": 2690
+    },
+    {
+      "url": "https://danielme.com/curso-jakarta-ee-indice/",
+      "ok": false,
+      "blocked": false,
+      "status": 404,
+      "finalUrl": "https://danielme.com/curso-jakarta-ee-indice/",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 869
+    },
+    {
+      "url": "https://eloquentjs-es.thedojo.mx",
+      "ok": false,
+      "blocked": false,
+      "status": 0,
+      "error": "fetch failed",
+      "ms": 266
+    },
+    {
+      "url": "https://es.survivejs.com",
+      "ok": false,
+      "blocked": false,
+      "status": 404,
+      "finalUrl": "https://es.survivejs.com/",
+      "contentType": "text/plain; charset=utf-8",
+      "ms": 630
+    },
+    {
+      "url": "https://jsparagatos.com",
+      "ok": false,
+      "blocked": false,
+      "status": 0,
+      "error": "This operation was aborted",
+      "ms": 12004
+    },
+    {
+      "url": "https://librosweb.es/libro/fundamentos_jquery",
+      "ok": false,
+      "blocked": false,
+      "status": 0,
+      "error": "This operation was aborted",
+      "ms": 12006
+    },
+    {
+      "url": "https://lya.fciencias.unam.mx/jloa/publicaciones/analisisdeAlgoritmos.pdf",
+      "ok": false,
+      "blocked": false,
+      "status": 0,
+      "error": "This operation was aborted",
+      "ms": 12015
+    },
+    {
+      "url": "https://lya.fciencias.unam.mx/jloa/publicaciones/automatasyLenguajes.pdf",
+      "ok": false,
+      "blocked": false,
+      "status": 0,
+      "error": "This operation was aborted",
+      "ms": 12014
+    },
+    {
+      "url": "https://lya.fciencias.unam.mx/jloa/publicaciones/complejidad.pdf",
+      "ok": false,
+      "blocked": false,
+      "status": 0,
+      "error": "This operation was aborted",
+      "ms": 12014
+    },
+    {
+      "url": "https://lya.fciencias.unam.mx/jloa/publicaciones/estructurasdeDatos.pdf",
+      "ok": false,
+      "blocked": false,
+      "status": 0,
+      "error": "This operation was aborted",
+      "ms": 12012
+    },
+    {
+      "url": "https://lya.fciencias.unam.mx/jloa/publicaciones/introduccionJava.pdf",
+      "ok": false,
+      "blocked": false,
+      "status": 0,
+      "error": "This operation was aborted",
+      "ms": 12000
+    },
+    {
+      "url": "https://lya.fciencias.unam.mx/jloa/publicaciones/teoria.pdf",
+      "ok": false,
+      "blocked": false,
+      "status": 0,
+      "error": "This operation was aborted",
+      "ms": 12014
+    },
+    {
+      "url": "https://mega.nz/#!qwcFDZ7a!ggLXIZ4c-O1Do0OEuvK0Mz8k39LvYQwdaJ2LtKKxgsE",
+      "ok": false,
+      "blocked": false,
+      "status": 0,
+      "error": "This operation was aborted",
+      "ms": 12009
+    },
+    {
+      "url": "https://mega.nz/file/7hdwEY6b#ESsixH9wCUFhUugkRq8BEa1uZlzFXCJX6QxHdL5Yz9Q",
+      "ok": false,
+      "blocked": false,
+      "status": 0,
+      "error": "This operation was aborted",
+      "ms": 12007
+    },
+    {
+      "url": "https://mega.nz/file/TldlTZID#1A90Wn8xYloDvekX8rQewI3Yh8HMJXlufRUEWEcOzNU",
+      "ok": false,
+      "blocked": false,
+      "status": 0,
+      "error": "This operation was aborted",
+      "ms": 12001
+    },
+    {
+      "url": "https://miriadax.net/curso/agilidad-y-lean-gestionando-los-proyectos-y-negocios-del-s-xxi-16-a-edicion",
+      "ok": false,
+      "blocked": false,
+      "status": 0,
+      "error": "fetch failed",
+      "ms": 700
+    },
+    {
+      "url": "https://mooc.tecnm.mx/courses/course-v1:TecNM+CCACM-003+2022-3/about",
+      "ok": false,
+      "blocked": false,
+      "status": 404,
+      "finalUrl": "https://mooc.tecnm.mx/courses/course-v1:TecNM+CCACM-003+2022-3/about",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 574
+    },
+    {
+      "url": "https://ocw.upv.es/",
+      "ok": false,
+      "blocked": false,
+      "status": 0,
+      "error": "This operation was aborted",
+      "ms": 12003
+    },
+    {
+      "url": "https://open-bootcamp.com/cursos/angular",
+      "ok": false,
+      "blocked": false,
+      "status": 404,
+      "finalUrl": "https://ultracamp.es/cursos/angular",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1273
+    },
+    {
+      "url": "https://openlibra.com/en/book/download/aprendiendo-a-programar-en-python-con-mi-computador",
+      "ok": false,
+      "blocked": false,
+      "status": 0,
+      "error": "fetch failed",
+      "ms": 2
+    },
+    {
+      "url": "https://openlibra.com/en/book/download/apuntes-de-algoritmos-y-estructuras-de-datos",
+      "ok": false,
+      "blocked": false,
+      "status": 0,
+      "error": "fetch failed",
+      "ms": 4242
+    },
+    {
+      "url": "https://openlibra.com/es/book/download/aprendiendo-java-y-poo",
+      "ok": false,
+      "blocked": false,
+      "status": 0,
+      "error": "fetch failed",
+      "ms": 3
+    },
+    {
+      "url": "https://openlibra.com/es/book/download/bases-de-datos-2",
+      "ok": false,
+      "blocked": false,
+      "status": 0,
+      "error": "fetch failed",
+      "ms": 3210
+    },
+    {
+      "url": "https://openlibra.com/es/book/download/bases-de-datos-avanzadas",
+      "ok": false,
+      "blocked": false,
+      "status": 0,
+      "error": "fetch failed",
+      "ms": 1623
+    },
+    {
+      "url": "https://openlibra.com/es/book/download/css-avanzado",
+      "ok": false,
+      "blocked": false,
+      "status": 0,
+      "error": "fetch failed",
+      "ms": 4410
+    },
+    {
+      "url": "https://openlibra.com/es/book/download/css3-y-javascript-avanzado",
+      "ok": false,
+      "blocked": false,
+      "status": 0,
+      "error": "fetch failed",
+      "ms": 4290
+    },
+    {
+      "url": "https://openlibra.com/es/book/download/diseno-conceptual-de-bases-de-datos",
+      "ok": false,
+      "blocked": false,
+      "status": 0,
+      "error": "fetch failed",
+      "ms": 4
+    },
+    {
+      "url": "https://openlibra.com/es/book/download/fundamentos-de-jquery",
+      "ok": false,
+      "blocked": false,
+      "status": 0,
+      "error": "fetch failed",
+      "ms": 3
+    },
+    {
+      "url": "https://openlibra.com/es/book/download/guia-completa-de-css3",
+      "ok": false,
+      "blocked": false,
+      "status": 0,
+      "error": "fetch failed",
+      "ms": 151
+    },
+    {
+      "url": "https://openlibra.com/es/book/download/introduccion-a-css",
+      "ok": false,
+      "blocked": false,
+      "status": 0,
+      "error": "fetch failed",
+      "ms": 3
+    },
+    {
+      "url": "https://openlibra.com/es/book/download/introduccion-a-javascript",
+      "ok": false,
+      "blocked": false,
+      "status": 0,
+      "error": "fetch failed",
+      "ms": 83
+    },
+    {
+      "url": "https://openlibra.com/es/book/download/introduccion-ajax",
+      "ok": false,
+      "blocked": false,
+      "status": 0,
+      "error": "fetch failed",
+      "ms": 3
+    },
+    {
+      "url": "https://openlibra.com/es/book/download/manual-de-symfony2-ver-2-0-12",
+      "ok": false,
+      "blocked": false,
+      "status": 0,
+      "error": "fetch failed",
+      "ms": 2
+    },
+    {
+      "url": "https://openlibra.com/es/book/download/practicas-de-java",
+      "ok": false,
+      "blocked": false,
+      "status": 0,
+      "error": "fetch failed",
+      "ms": 28
+    },
+    {
+      "url": "https://openlibra.com/es/book/download/symfony-la-guia-definitiva",
+      "ok": false,
+      "blocked": false,
+      "status": 0,
+      "error": "fetch failed",
+      "ms": 1611
+    },
+    {
+      "url": "https://openlibra.com/es/book/html5",
+      "ok": false,
+      "blocked": false,
+      "status": 0,
+      "error": "fetch failed",
+      "ms": 4
+    },
+    {
+      "url": "https://openlibra.com/es/book/programacion-en-php-a-traves-de-ejemplos",
+      "ok": false,
+      "blocked": false,
+      "status": 0,
+      "error": "fetch failed",
+      "ms": 2022
+    },
+    {
+      "url": "https://openlibra.com/es/collection",
+      "ok": false,
+      "blocked": false,
+      "status": 0,
+      "error": "fetch failed",
+      "ms": 4809
+    },
+    {
+      "url": "https://portswigger.net/web-security",
+      "ok": false,
+      "blocked": false,
+      "status": 404,
+      "finalUrl": "https://portswigger.net/web-security",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 437
+    },
+    {
+      "url": "https://raulexposito.com/assets/epub/go.epub",
+      "ok": false,
+      "blocked": false,
+      "status": 404,
+      "finalUrl": "https://raulexposito.com/assets/epub/go.epub",
+      "contentType": "text/html",
+      "ms": 503
+    },
+    {
+      "url": "https://raulexposito.com/assets/pdf/go.pdf",
+      "ok": false,
+      "blocked": false,
+      "status": 404,
+      "finalUrl": "https://raulexposito.com/assets/pdf/go.pdf",
+      "contentType": "text/html",
+      "ms": 1212
+    },
+    {
+      "url": "https://sebokwiki.org/wiki/Guide_to_the_Systems_Engineering_Body_of_Knowledge_(SEBoK",
+      "ok": false,
+      "blocked": false,
+      "status": 404,
+      "finalUrl": "https://sebokwiki.org/wiki/Guide_to_the_Systems_Engineering_Body_of_Knowledge_(SEBoK",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 2802
+    },
+    {
+      "url": "https://tecdigital.tec.ac.cr/servicios/revistamatematica/Libros/LaTeX/MoraW_BorbonA_LibroLaTeX.pdf",
+      "ok": false,
+      "blocked": false,
+      "status": 404,
+      "finalUrl": "https://tecdigital.tec.ac.cr/404.html",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1144
+    },
+    {
+      "url": "https://www.arkaitzgarro.com/java/",
+      "ok": false,
+      "blocked": false,
+      "status": 0,
+      "error": "fetch failed",
+      "ms": 829
+    },
+    {
+      "url": "https://www.coursera.org/learn/deteccion-objetos",
+      "ok": false,
+      "blocked": false,
+      "status": 404,
+      "finalUrl": "https://www.coursera.org/learn/deteccion-objetos",
+      "contentType": "text/html",
+      "ms": 973
+    },
+    {
+      "url": "https://www.develou.com/android/",
+      "ok": false,
+      "blocked": false,
+      "status": 404,
+      "finalUrl": "https://www.develou.com/android/",
+      "contentType": "text/html; charset=iso-8859-1",
+      "ms": 928
+    },
+    {
+      "url": "https://www.edx.org/es/course/android-introduccion-la-programacion-upvalenciax-aip201x-1",
+      "ok": false,
+      "blocked": false,
+      "status": 404,
+      "finalUrl": "https://www.edx.org/es/course/android-introduccion-la-programacion-upvalenciax-aip201x-1",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 728
+    },
+    {
+      "url": "https://www.edx.org/es/course/codificacion-de-audio-mas-alla-del-mp3-upvalenciax-mp3201x-0",
+      "ok": false,
+      "blocked": false,
+      "status": 404,
+      "finalUrl": "https://www.edx.org/es/course/codificacion-de-audio-mas-alla-del-mp3-upvalenciax-mp3201x-0",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 426
+    },
+    {
+      "url": "https://www.edx.org/es/course/disena-presentaciones-eficaces-con-upvalenciax-ppt101x-0",
+      "ok": false,
+      "blocked": false,
+      "status": 404,
+      "finalUrl": "https://www.edx.org/es/course/disena-presentaciones-eficaces-con-upvalenciax-ppt101x-0",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 423
+    },
+    {
+      "url": "https://www.edx.org/es/course/jugando-con-android-aprende-programar-tu-uamx-android301x-4",
+      "ok": false,
+      "blocked": false,
+      "status": 404,
+      "finalUrl": "https://www.edx.org/es/course/jugando-con-android-aprende-programar-tu-uamx-android301x-4",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 554
+    },
+    {
+      "url": "https://www.kaggle.com/learn",
+      "ok": false,
+      "blocked": false,
+      "status": 404,
+      "finalUrl": "https://www.kaggle.com/learn",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 730
+    },
+    {
+      "url": "http://libros.metabiblioteca.org/bitstream/001/271/8/Programacion_Videojuegos_SDL.pdf",
+      "ok": false,
+      "blocked": true,
+      "status": 403,
+      "finalUrl": "https://libros.metabiblioteca.org/challenge",
+      "contentType": "text/html; charset=utf-8",
+      "ms": 1887
+    },
+    {
+      "url": "https://book.rustlang-es.org",
+      "ok": false,
+      "blocked": true,
+      "status": 403,
+      "finalUrl": "https://book.rustlang-es.org/",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 423
+    },
+    {
+      "url": "https://codigofacilito.com/cursos/javascript",
+      "ok": false,
+      "blocked": true,
+      "status": 403,
+      "finalUrl": "https://codigofacilito.com/cursos/javascript",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 517
+    },
+    {
+      "url": "https://codigofacilito.com/cursos/ruby-2",
+      "ok": false,
+      "blocked": true,
+      "status": 403,
+      "finalUrl": "https://codigofacilito.com/cursos/ruby-2",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 317
+    },
+    {
+      "url": "https://dotnet-book.rustlang-es.org",
+      "ok": false,
+      "blocked": true,
+      "status": 403,
+      "finalUrl": "https://dotnet-book.rustlang-es.org/",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 362
+    },
+    {
+      "url": "https://exercism.org/",
+      "ok": false,
+      "blocked": true,
+      "status": 403,
+      "finalUrl": "https://exercism.org/",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 67
+    },
+    {
+      "url": "https://platzi.com/clases/programacion-basica/",
+      "ok": false,
+      "blocked": true,
+      "status": 403,
+      "finalUrl": "https://platzi.com/clases/programacion-basica/",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 176
+    },
+    {
+      "url": "https://www.raspberrypi.com/documentation/",
+      "ok": false,
+      "blocked": true,
+      "status": 403,
+      "finalUrl": "https://www.raspberrypi.com/documentation/",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 928
+    },
+    {
+      "url": "https://www.udemy.com/course/html-hacia-angular/",
+      "ok": false,
+      "blocked": true,
+      "status": 403,
+      "finalUrl": "https://www.udemy.com/course/html-hacia-angular/",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 63
+    },
+    {
+      "url": "https://www.udemy.com/course/probar-django-construir-una-aplicacion-web-en-python",
+      "ok": false,
+      "blocked": true,
+      "status": 403,
+      "finalUrl": "https://www.udemy.com/course/probar-django-construir-una-aplicacion-web-en-python",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 51
+    },
+    {
+      "url": "https://www.udemy.com/course/sap-abap-iniciacion-a-la-programacion/",
+      "ok": false,
+      "blocked": true,
+      "status": 403,
+      "finalUrl": "https://www.udemy.com/course/sap-abap-iniciacion-a-la-programacion/",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 79
+    },
+    {
+      "url": "https://www.udemy.com/course/vscode-mejora-tu-velocidad-para-codificar/",
+      "ok": false,
+      "blocked": true,
+      "status": 403,
+      "finalUrl": "https://www.udemy.com/course/vscode-mejora-tu-velocidad-para-codificar/",
+      "contentType": "text/html; charset=UTF-8",
+      "ms": 66
+    }
+  ]
+}

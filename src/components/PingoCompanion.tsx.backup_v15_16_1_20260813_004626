@@ -1,0 +1,1646 @@
+import {
+  useCallback,
+  useEffect,
+  useRef,
+  useState,
+  type PointerEvent as ReactPointerEvent,
+} from "react"
+import "./PingoCompanion.css"
+
+type PingoMode =
+  | "idle"
+  | "walk"
+  | "run"
+  | "crouch"
+  | "jump"
+  | "land"
+  | "wave"
+  | "think"
+  | "read"
+  | "teach"
+  | "point"
+  | "play"
+  | "sleep"
+  | "celebrate"
+  | "drag"
+  | "fall"
+
+type TargetKind =
+  | "card"
+  | "button"
+  | "link"
+  | "input"
+  | "section"
+  | "heading"
+  | "news"
+  | "other"
+
+type Point = { x: number; y: number }
+type Velocity = { x: number; y: number }
+
+type TargetContext = {
+  element: HTMLElement
+  kind: TargetKind
+  label: string
+  summary: string
+  sectionTitle: string
+  meta: string
+  href: string
+  text: string
+}
+
+type TutorLesson = {
+  eyebrow: string
+  title: string
+  what: string
+  why: string
+  study: string
+  action: string
+  tone: string
+}
+
+type TutorPopover = {
+  lesson: TutorLesson
+  left: number
+  top: number
+  width: number
+  target: HTMLElement
+  reason: "hover" | "explicit" | "guide"
+}
+
+const STORAGE_KEY = "campus-maestro:pingo-enabled"
+const GUIDE_KEY = "campus-maestro:pingo-guide"
+
+const CARD_HINTS = [
+  "stage-card",
+  "method-card",
+  "universe-card",
+  "track-card",
+  "news-carousel",
+  "proof-card",
+  "profile-card",
+  "standard",
+  "ecosystem",
+  "career",
+  "card",
+  "tile",
+]
+
+const READING_SELECTOR = [
+  "p",
+  "li",
+  "blockquote",
+  "pre",
+  "code",
+  "article",
+  "section",
+  ".v15-news-slide",
+  ".v15-track-detail",
+  ".v15-stage-card",
+  ".v15-universe-card",
+  ".v15-method-card",
+].join(",")
+
+const genericTips = [
+  "No memorices una herramienta: comprende el problema que resuelve.",
+  "Practica hasta poder explicar el tema sin mirar un tutorial.",
+  "Convierte cada tema en evidencia: código, laboratorio, informe o proyecto.",
+  "Cuando algo falla, reduce el problema a una prueba más pequeña y observable.",
+  "Los fundamentos duran más que las modas tecnológicas.",
+  "Antes de optimizar, mide. Antes de medir, define qué importa.",
+  "Una buena pregunta técnica puede ahorrarte horas de ensayo y error.",
+  "Aprender de verdad es conectar conceptos, práctica, evidencia y contexto.",
+]
+
+const domainLessons: Array<{
+  match: RegExp
+  tone: string
+  why: string
+  study: string
+  action: string
+}> = [
+  {
+    match: /\b(inteligencia artificial|machine learning|aprendizaje autom[aá]tico|deep learning|modelo generativo|nlp|visi[oó]n|mlops|\bia\b)/i,
+    tone: "violet",
+    why: "La IA depende de fundamentos: datos, programación, matemática, evaluación y criterio experimental. Sin ellos es fácil confundir una demostración llamativa con un sistema realmente fiable.",
+    study: "Domina primero Python/programación, álgebra lineal, probabilidad, estadística, estructuras de datos y evaluación. Luego avanza a ML clásico, redes neuronales, modelos fundacionales, agentes y MLOps.",
+    action: "Intenta explicar qué entra al modelo, qué sale, cómo se mide el error, qué datos usa y en qué casos podría fallar.",
+  },
+  {
+    match: /\b(datos|data science|data engineering|bi\b|anal[ií]tica|estad[ií]stica|etl|geodatos|calidad de datos)/i,
+    tone: "blue",
+    why: "Los datos sostienen decisiones, modelos y sistemas. Una conclusión puede ser técnicamente correcta y aun así ser equivocada si los datos están mal definidos, sesgados o incompletos.",
+    study: "Trabaja modelado de datos, SQL, estadística, limpieza, visualización, pipelines, calidad, gobierno y trazabilidad antes de depender de herramientas automáticas.",
+    action: "Pregunta siempre: ¿qué representa cada variable, de dónde salió, qué falta y qué evidencia respalda la conclusión?",
+  },
+  {
+    match: /\b(programaci[oó]n|software|web|api|full stack|arquitectura de software|qa|testing|desarrollo)/i,
+    tone: "pink",
+    why: "El software profesional no termina cuando el código 'funciona'. Debe ser comprensible, comprobable, mantenible, seguro y desplegable.",
+    study: "Combina algoritmos, estructuras de datos, diseño, Git, pruebas, arquitectura, bases de datos, APIs, seguridad, observabilidad y despliegue.",
+    action: "Para esta parte crea algo pequeño pero completo: requisitos → código → pruebas → documentación → despliegue.",
+  },
+  {
+    match: /\b(ciberseguridad|seguridad|dfir|criptograf[ií]a|appsec|pentest|ofensiva)/i,
+    tone: "orange",
+    why: "La seguridad exige entender cómo está construido el sistema y cómo puede fallar. Las herramientas sin fundamentos producen resultados difíciles de interpretar.",
+    study: "Refuerza redes, sistemas operativos, programación, web, identidad, criptografía, amenazas, defensa, respuesta a incidentes y práctica exclusivamente autorizada.",
+    action: "Describe activo, amenaza, vulnerabilidad, control, evidencia y riesgo residual. Esa estructura convierte una opinión en análisis.",
+  },
+  {
+    match: /\b(redes|telecom|routing|wireless|5g|6g|internet|tcp|ip|dns|network)/i,
+    tone: "cyan",
+    why: "Redes conecta dispositivos, servicios, nubes y usuarios. Muchos fallos aparentemente 'de aplicación' nacen realmente en conectividad, nombres, rutas o transporte.",
+    study: "Razona por capas: medio físico/enlace → IP → transporte → DNS/servicios → aplicación. Aprende a medir latencia, pérdida, rutas y estados.",
+    action: "Cuando diagnostiques algo, formula una hipótesis por capa y verifica cada una con una prueba observable.",
+  },
+  {
+    match: /\b(hardware|electr[oó]nica|embebido|fpga|asic|cpu|gpu|microcontrolador|arquitectura de computadores|alto rendimiento|hpc)/i,
+    tone: "sand",
+    why: "Todo software termina ejecutándose sobre hardware real. Comprender memoria, CPU, E/S y restricciones físicas explica rendimiento y límites que el código por sí solo no muestra.",
+    study: "Estudia lógica digital, arquitectura, CPU, memoria, buses, E/S, sistemas embebidos, concurrencia y medición de rendimiento.",
+    action: "Relaciona una decisión de software con su costo físico: tiempo de CPU, memoria, almacenamiento, energía o transferencia.",
+  },
+  {
+    match: /\b(base de datos|sql|relacional|nosql|transacci[oó]n|índice|indice)/i,
+    tone: "blue",
+    why: "Una base de datos no es solo un lugar donde guardar información: modela reglas, relaciones, consistencia y acceso concurrente.",
+    study: "Empieza por modelado conceptual y relacional; después SQL, normalización, índices, transacciones, concurrencia, respaldo y sistemas distribuidos.",
+    action: "Diseña primero las entidades y restricciones. Luego justifica cada índice y consulta con una necesidad concreta.",
+  },
+  {
+    match: /\b(sistema operativo|sistemas operativos|linux|windows|proceso|memoria|concurrencia|filesystem|archivo)/i,
+    tone: "green",
+    why: "El sistema operativo conecta programas con CPU, memoria, archivos, dispositivos y seguridad. Entenderlo mejora programación, redes, cloud y ciberseguridad.",
+    study: "Trabaja procesos/hilos, planificación, memoria virtual, sistemas de archivos, E/S, permisos, sincronización y virtualización.",
+    action: "No te quedes en comandos: explica qué recurso administra cada comando y qué estado del sistema estás observando.",
+  },
+  {
+    match: /\b(cloud|nube|devops|sre|contenedor|docker|kubernetes|observabilidad|resiliencia)/i,
+    tone: "green",
+    why: "Cloud y DevOps convierten software en un servicio operable. La dificultad real está en automatizar cambios sin perder seguridad, disponibilidad ni capacidad de diagnóstico.",
+    study: "Conecta Linux, redes, Git, CI/CD, contenedores, infraestructura como código, observabilidad, SRE, seguridad y recuperación.",
+    action: "Define SLO, fallo esperado, señal observable y procedimiento de recuperación antes de llamar 'producción' a un sistema.",
+  },
+  {
+    match: /\b(matem[aá]tica|[aá]lgebra|c[aá]lculo|discreta|probabilidad|l[oó]gica)/i,
+    tone: "lime",
+    why: "La matemática permite razonar con precisión sobre algoritmos, modelos, complejidad, datos, gráficos, criptografía e IA.",
+    study: "Prioriza comprensión, demostraciones, ejercicios y traducción entre lenguaje natural, símbolos y problemas computacionales.",
+    action: "Resuelve un problema sin mirar la solución y después explica por qué cada paso es válido.",
+  },
+  {
+    match: /\b(investigaci[oó]n|paper|m[eé]todo cient[ií]fico|frontera|cu[aá]ntica|bioinform[aá]tica)/i,
+    tone: "violet",
+    why: "La frontera tecnológica exige distinguir evidencia, hipótesis, resultados reproducibles y afirmaciones todavía inciertas.",
+    study: "Aprende búsqueda bibliográfica, lectura crítica, diseño experimental, estadística, reproducibilidad, escritura técnica y ética de investigación.",
+    action: "Separa en una fuente: problema, método, datos, resultado, limitaciones y qué faltaría para replicarlo.",
+  },
+]
+
+function normalizeText(value: string) {
+  return value.replace(/\s+/g, " ").trim()
+}
+
+function classText(el: HTMLElement) {
+  return typeof el.className === "string" ? el.className.toLowerCase() : ""
+}
+
+function hasCardHint(el: HTMLElement) {
+  const cls = classText(el)
+  return (
+    el.tagName === "ARTICLE" ||
+    CARD_HINTS.some((hint) => cls.includes(hint)) ||
+    el.getAttribute("role") === "article"
+  )
+}
+
+function ownLabel(el: HTMLElement) {
+  const aria = el.getAttribute("aria-label")
+  const title = el.getAttribute("title")
+  if (aria) return normalizeText(aria)
+  if (title) return normalizeText(title)
+
+  const heading = el.querySelector<HTMLElement>("h1,h2,h3,h4,h5,h6")
+  if (heading) return normalizeText(heading.innerText)
+
+  if (el.matches("button,a")) {
+    const clone = el.cloneNode(true) as HTMLElement
+    clone.querySelectorAll("svg,img,small,kbd").forEach((node) => node.remove())
+    return normalizeText(clone.innerText).slice(0, 120)
+  }
+
+  return normalizeText(el.innerText).slice(0, 120)
+}
+
+function firstSummary(el: HTMLElement) {
+  const paragraph = el.querySelector<HTMLElement>("p")
+  if (paragraph) return normalizeText(paragraph.innerText).slice(0, 280)
+
+  const text = normalizeText(el.innerText)
+  return text.slice(0, 280)
+}
+
+function findSemanticTarget(source: HTMLElement | null): HTMLElement | null {
+  if (!source || source.closest(".pingo-ui")) return null
+
+  let node: HTMLElement | null = source
+  let fallbackInteractive: HTMLElement | null = null
+  let depth = 0
+
+  while (node && node !== document.body && depth < 9) {
+    if (!fallbackInteractive && node.matches("button,a[href],input,select,textarea,[role='button']")) {
+      fallbackInteractive = node
+    }
+
+    if (hasCardHint(node)) return node
+
+    if (node.matches("[role='dialog'],dialog")) return node
+
+    node = node.parentElement
+    depth += 1
+  }
+
+  if (fallbackInteractive) return fallbackInteractive
+
+  const heading = source.closest("h1,h2,h3,h4,h5,h6") as HTMLElement | null
+  if (heading) return heading
+
+  const section = source.closest("section") as HTMLElement | null
+  if (section) return section
+
+  return null
+}
+
+function buildContext(element: HTMLElement): TargetContext {
+  let kind: TargetKind = "other"
+
+  if (hasCardHint(element)) {
+    kind = classText(element).includes("news") ? "news" : "card"
+  } else if (element.matches("button,[role='button']")) {
+    kind = "button"
+  } else if (element.matches("a[href]")) {
+    kind = "link"
+  } else if (element.matches("input,select,textarea")) {
+    kind = "input"
+  } else if (element.matches("section")) {
+    kind = "section"
+  } else if (element.matches("h1,h2,h3,h4,h5,h6")) {
+    kind = "heading"
+  }
+
+  const section = element.closest("section")
+  const sectionHeading = section?.querySelector<HTMLElement>("h1,h2,h3")
+  const metaNodes = Array.from(element.querySelectorAll<HTMLElement>("small,strong,span"))
+    .map((node) => normalizeText(node.innerText))
+    .filter((value) => value && value.length < 90)
+    .slice(0, 4)
+
+  const label = ownLabel(element) || "Elemento del Campus"
+  const summary = firstSummary(element)
+  const sectionTitle = sectionHeading ? normalizeText(sectionHeading.innerText) : ""
+  const href = element.matches("a[href]") ? element.getAttribute("href") ?? "" : ""
+  const text = normalizeText(`${label} ${summary} ${sectionTitle} ${element.innerText}`).slice(0, 1800)
+
+  return {
+    element,
+    kind,
+    label,
+    summary,
+    sectionTitle,
+    meta: metaNodes.join(" · "),
+    href,
+    text,
+  }
+}
+
+function matchingDomain(text: string) {
+  return domainLessons.find((item) => item.match.test(text))
+}
+
+function buildLesson(context: TargetContext): TutorLesson {
+  const text = context.text
+  const domain = matchingDomain(text)
+
+  const stageMatch = text.match(/\bS(?:0|[1-9]|1\d)\b/i)
+  const standardMatch = text.match(/\b(CS2023|CC2020|CSEC2017|DS2021|OpenFING|FAMAF)\b/i)
+
+  if (context.kind === "button") {
+    const lower = text.toLowerCase()
+
+    let actionMeaning = `Este control ejecuta “${context.label}”.`
+    if (lower.includes("buscar")) {
+      actionMeaning = "Este botón abre la búsqueda global del Campus para localizar etapas, materias, maestrías y profesiones."
+    } else if (lower.includes("roadmap")) {
+      actionMeaning = "Este botón te lleva al roadmap, donde importa el orden de aprendizaje y no solo la cantidad de temas."
+    } else if (lower.includes("campus")) {
+      actionMeaning = "Este botón te lleva a la zona de estudio del Campus y a la ruta académica."
+    } else if (lower.includes("noticia anterior")) {
+      actionMeaning = "Este botón muestra la noticia anterior de este carrusel."
+    } else if (lower.includes("noticia siguiente")) {
+      actionMeaning = "Este botón muestra la siguiente noticia de este carrusel."
+    } else if (lower.includes("ir a noticia")) {
+      actionMeaning = "Este punto selecciona directamente una noticia concreta del carrusel."
+    }
+
+    return {
+      eyebrow: "PINGO · INTERFAZ",
+      title: context.label || "Botón",
+      what: actionMeaning,
+      why: "Pingo identifica primero la función del control para que no tengas que probar botones a ciegas.",
+      study: "Si el control cambia de sección, observa qué información aparece y cómo se conecta con tu ruta de estudio.",
+      action: "Puedes activarlo cuando quieras. Si prefieres, mantén el cursor aquí y revisa esta explicación antes de hacer clic.",
+      tone: "lime",
+    }
+  }
+
+  if (context.kind === "input") {
+    return {
+      eyebrow: "PINGO · HERRAMIENTA",
+      title: context.label || "Campo de entrada",
+      what: "Este campo sirve para introducir información o una búsqueda dentro del Campus.",
+      why: "Una consulta específica reduce ruido y te ayuda a encontrar exactamente la materia, profesión o ruta que necesitas.",
+      study: "Escribe términos concretos: por ejemplo “sistemas operativos”, “IA”, “ciberseguridad” o una profesión.",
+      action: "Prueba con el concepto que quieres dominar y compara los resultados antes de elegir una ruta.",
+      tone: "blue",
+    }
+  }
+
+  if (context.kind === "news") {
+    return {
+      eyebrow: "PINGO · LECTURA CRÍTICA",
+      title: context.label || "Noticia tecnológica",
+      what: context.summary
+        ? `Esta tarjeta presenta: ${context.summary}`
+        : "Esta tarjeta forma parte del radar de noticias tecnológicas del Campus.",
+      why: "Una noticia sirve para detectar cambios recientes, pero no reemplaza documentación oficial, estándares ni conocimiento fundamental.",
+      study: "Separa hechos de interpretación: revisa fuente, fecha, producto o tecnología afectada, evidencia y consecuencias reales.",
+      action: "Después de leerla, responde: ¿qué cambió?, ¿qué fundamento sigue igual? y ¿debo actualizar algo de mi roadmap?",
+      tone: "sand",
+    }
+  }
+
+  if (standardMatch) {
+    const standard = standardMatch[1]
+    return {
+      eyebrow: "PINGO · AUDITORÍA",
+      title: context.label || standard,
+      what: context.summary || `${standard} funciona como referencia para contrastar la cobertura académica del Campus.`,
+      why: "Usar estándares y mallas de referencia reduce el riesgo de construir un roadmap basado solo en opiniones o en una única universidad.",
+      study: "No necesitas memorizar el estándar. Úsalo como lista de control: áreas, competencias, profundidad y vacíos de cobertura.",
+      action: "Compara esta referencia con las etapas y materias del Campus y detecta qué competencia valida.",
+      tone: domain?.tone ?? "lime",
+    }
+  }
+
+  if (stageMatch && context.kind === "card") {
+    const stage = stageMatch[0].toUpperCase()
+    return {
+      eyebrow: `PINGO · ETAPA ${stage}`,
+      title: context.label.replace(new RegExp(`^${stage}\\s*[·:-]?\\s*`, "i"), "") || context.label,
+      what: context.summary || `Esta es la etapa ${stage} del roadmap y agrupa competencias que deben trabajarse de forma integrada.`,
+      why: domain?.why ?? "Esta etapa existe porque el roadmap intenta construir dependencias en orden: fundamentos antes de especialización y evidencia antes de dar una competencia por dominada.",
+      study: domain?.study ?? "Lee el objetivo de la etapa, identifica sus materias y estudia primero los prerrequisitos. Después alterna teoría, ejercicios, laboratorio y proyecto.",
+      action: domain?.action ?? "Antes de marcarla como completada, produce una evidencia: solución explicada, laboratorio reproducible, código, examen o proyecto.",
+      tone: domain?.tone ?? "green",
+    }
+  }
+
+  if (context.kind === "link") {
+    return {
+      eyebrow: "PINGO · RECURSO",
+      title: context.label || "Enlace",
+      what: context.summary || `Este enlace abre un recurso relacionado con “${context.label}”.`,
+      why: domain?.why ?? "Los enlaces externos sirven para profundizar o contrastar el contenido del Campus con una fuente adicional.",
+      study: domain?.study ?? "Ábrelo con una pregunta concreta. Evita saltar entre recursos sin saber qué competencia estás intentando adquirir.",
+      action: context.href.startsWith("http")
+        ? "Al abrirlo, identifica autor/fuente, objetivo, fecha y qué parte de tu roadmap valida."
+        : "Úsalo para navegar a esa sección del Campus y continúa desde allí.",
+      tone: domain?.tone ?? "blue",
+    }
+  }
+
+  return {
+    eyebrow: context.kind === "section" ? "PINGO · SECCIÓN" : "PINGO · TUTOR",
+    title: context.label || context.sectionTitle || "Campus Maestro",
+    what: context.summary || `Este elemento pertenece a ${context.sectionTitle || "Campus Maestro"} y organiza una parte de la ruta de aprendizaje.`,
+    why: domain?.why ?? "La idea no es memorizar la tarjeta: debes comprender qué competencia representa, con qué temas se conecta y cómo demostrarla.",
+    study: domain?.study ?? "Empieza por conceptos y prerrequisitos; después practica con problemas o laboratorios y termina construyendo una evidencia verificable.",
+    action: domain?.action ?? "Explica este contenido con tus propias palabras y decide qué evidencia concreta demostraría que realmente lo dominas.",
+    tone: domain?.tone ?? "lime",
+  }
+}
+
+function isVisibleTarget(el: HTMLElement) {
+  const rect = el.getBoundingClientRect()
+  const style = window.getComputedStyle(el)
+
+  return (
+    style.display !== "none" &&
+    style.visibility !== "hidden" &&
+    Number(style.opacity || "1") > 0.02 &&
+    rect.width >= 44 &&
+    rect.height >= 24 &&
+    rect.bottom > 72 &&
+    rect.top < window.innerHeight - 24 &&
+    rect.right > 14 &&
+    rect.left < window.innerWidth - 14
+  )
+}
+
+function getAllSemanticTargets() {
+  const candidates = Array.from(
+    document.querySelectorAll<HTMLElement>(
+      "article,button,a[href],input,select,textarea,[role='button'],[role='dialog'],section,h1,h2,h3,[class*='card'],[class*='tile']",
+    ),
+  )
+
+  const unique: HTMLElement[] = []
+  const seen = new Set<HTMLElement>()
+
+  for (const candidate of candidates) {
+    if (candidate.closest(".pingo-ui")) continue
+
+    const semantic = findSemanticTarget(candidate)
+    if (!semantic || seen.has(semantic)) continue
+    if (semantic.offsetParent === null) continue
+
+    seen.add(semantic)
+    unique.push(semantic)
+  }
+
+  return unique
+}
+
+function getVisibleSemanticTargets() {
+  return getAllSemanticTargets().filter(isVisibleTarget)
+}
+
+function clamp(value: number, min: number, max: number) {
+  return Math.max(min, Math.min(max, value))
+}
+
+function clampPoint(point: Point) {
+  const mobile = window.innerWidth <= 760
+  const width = mobile ? 50 : 72
+  const floor = window.innerHeight - (mobile ? 78 : 94)
+
+  return {
+    x: clamp(point.x, 7, window.innerWidth - width - 7),
+    y: clamp(point.y, 66, floor),
+  }
+}
+
+function groundPoint(x?: number) {
+  const mobile = window.innerWidth <= 760
+  const width = mobile ? 50 : 72
+
+  return clampPoint({
+    x:
+      x ??
+      clamp(window.innerWidth * 0.16, 22, window.innerWidth - width - 22),
+    y: window.innerHeight - (mobile ? 78 : 94),
+  })
+}
+
+function platformPoint(el: HTMLElement) {
+  const rect = el.getBoundingClientRect()
+  const mobile = window.innerWidth <= 760
+  const width = mobile ? 50 : 72
+  const height = mobile ? 56 : 80
+
+  const leftCandidate = rect.left + 10
+  const rightCandidate = rect.right - width - 10
+  const viewportCenter = window.innerWidth / 2
+  let x =
+    rect.left + rect.width / 2 > viewportCenter
+      ? leftCandidate
+      : rightCandidate
+
+  x = clamp(x, 8, window.innerWidth - width - 8)
+
+  let y = rect.top - height + 7
+  if (y < 74) {
+    y = clamp(rect.bottom - height - 10, 76, window.innerHeight - height - 22)
+  }
+
+  return clampPoint({ x, y })
+}
+
+function companionNearTarget(el: HTMLElement) {
+  const rect = el.getBoundingClientRect()
+  const mobile = window.innerWidth <= 760
+  const width = mobile ? 50 : 72
+  const floorY = window.innerHeight - (mobile ? 78 : 94)
+
+  const leftSpace = rect.left
+  const rightSpace = window.innerWidth - rect.right
+
+  if (leftSpace > width + 24) {
+    return clampPoint({
+      x: rect.left - width - 14,
+      y: clamp(rect.top + Math.min(54, rect.height * 0.22), 76, floorY),
+    })
+  }
+
+  if (rightSpace > width + 24) {
+    return clampPoint({
+      x: rect.right + 14,
+      y: clamp(rect.top + Math.min(54, rect.height * 0.22), 76, floorY),
+    })
+  }
+
+  return groundPoint(
+    clamp(rect.left + rect.width / 2 - width / 2, 12, window.innerWidth - width - 12),
+  )
+}
+
+function popoverPosition(rect: DOMRect) {
+  const margin = 14
+  const width = Math.min(390, window.innerWidth - margin * 2)
+  const estimatedHeight = window.innerWidth <= 760 ? 245 : 260
+
+  const rightSpace = window.innerWidth - rect.right
+  const leftSpace = rect.left
+
+  let left = rect.left + rect.width / 2 - width / 2
+  let top = rect.bottom + 12
+
+  if (rightSpace >= width + 18) {
+    left = rect.right + 12
+    top = rect.top + Math.min(12, Math.max(0, rect.height / 4))
+  } else if (leftSpace >= width + 18) {
+    left = rect.left - width - 12
+    top = rect.top + Math.min(12, Math.max(0, rect.height / 4))
+  } else if (rect.top >= estimatedHeight + 86) {
+    top = rect.top - estimatedHeight - 12
+  } else if (window.innerHeight - rect.bottom >= estimatedHeight + 18) {
+    top = rect.bottom + 12
+  } else {
+    top = window.innerHeight - estimatedHeight - 16
+  }
+
+  left = clamp(left, margin, window.innerWidth - width - margin)
+  top = clamp(top, 82, Math.max(82, window.innerHeight - estimatedHeight - 12))
+
+  return { left, top, width }
+}
+
+export default function PingoCompanion() {
+  const [enabled, setEnabled] = useState(() => {
+    try {
+      return localStorage.getItem(STORAGE_KEY) !== "off"
+    } catch {
+      return true
+    }
+  })
+  const [guided, setGuided] = useState(() => {
+    try {
+      return localStorage.getItem(GUIDE_KEY) === "on"
+    } catch {
+      return false
+    }
+  })
+  const [mode, setMode] = useState<PingoMode>("idle")
+  const [readerSafe, setReaderSafe] = useState(false)
+  const [menuOpen, setMenuOpen] = useState(false)
+  const [popover, setPopover] = useState<TutorPopover | null>(null)
+
+  const layerRef = useRef<HTMLDivElement | null>(null)
+  const positionRef = useRef<Point>({ x: 24, y: 520 })
+  const facingRef = useRef<1 | -1>(1)
+  const phaseRef = useRef(0)
+  const locomotionFrameRef = useRef<number | null>(null)
+  const behaviorTimerRef = useRef<number | null>(null)
+  const guideTimerRef = useRef<number | null>(null)
+  const modeTimerRef = useRef<number | null>(null)
+  const readerTimerRef = useRef<number | null>(null)
+  const hoverTimerRef = useRef<number | null>(null)
+  const popoverTimerRef = useRef<number | null>(null)
+  const currentTargetRef = useRef<HTMLElement | null>(null)
+  const hoverTargetRef = useRef<HTMLElement | null>(null)
+  const currentGuideIndexRef = useRef(-1)
+  const lastHoverSpokenRef = useRef(new WeakMap<HTMLElement, number>())
+  const draggingRef = useRef(false)
+  const suppressClickRef = useRef(false)
+  const dragPointerRef = useRef<number | null>(null)
+  const lastPointerRef = useRef({ x: 0, y: 0, time: 0 })
+  const velocityRef = useRef<Velocity>({ x: 0, y: 0 })
+
+  const setPoseVariables = useCallback(
+    (
+      phase: number,
+      speed: number,
+      lean = 0,
+      jumpVy = 0,
+      jumpProgress = 0,
+    ) => {
+      const node = layerRef.current
+      if (!node) return
+
+      const normalizedSpeed = clamp(speed / 215, 0, 1)
+      const stride = 12 + normalizedSpeed * 30
+      const gait = Math.sin(phase)
+      const opposite = Math.sin(phase + Math.PI)
+
+      const liftL = Math.max(0, Math.sin(phase)) * (2 + normalizedSpeed * 5)
+      const liftR = Math.max(0, Math.sin(phase + Math.PI)) * (2 + normalizedSpeed * 5)
+      const bob = -Math.abs(Math.sin(phase * 0.5)) * (1.2 + normalizedSpeed * 3.4)
+
+      const ascending = jumpVy < -70
+      const descending = jumpVy > 80
+      const apex = !ascending && !descending && mode === "jump"
+
+      const jumpArm =
+        mode === "jump"
+          ? ascending
+            ? -46
+            : apex
+              ? -22
+              : 18
+          : 0
+
+      const jumpKnee =
+        mode === "jump"
+          ? ascending
+            ? 34
+            : apex
+              ? 42
+              : 8
+          : 0
+
+      node.style.setProperty("--pingo-facing", String(facingRef.current))
+      node.style.setProperty("--pingo-leg-l", `${gait * stride + jumpKnee}deg`)
+      node.style.setProperty("--pingo-leg-r", `${opposite * stride - jumpKnee * 0.72}deg`)
+      node.style.setProperty("--pingo-arm-l", `${opposite * stride * 0.62 + jumpArm}deg`)
+      node.style.setProperty("--pingo-arm-r", `${gait * stride * 0.62 - jumpArm}deg`)
+      node.style.setProperty("--pingo-lift-l", `${-liftL}px`)
+      node.style.setProperty("--pingo-lift-r", `${-liftR}px`)
+      node.style.setProperty("--pingo-bob", `${mode === "jump" ? 0 : bob}px`)
+      node.style.setProperty("--pingo-lean", `${lean}deg`)
+      node.style.setProperty("--pingo-speed", String(normalizedSpeed))
+      node.style.setProperty("--pingo-jump", String(jumpProgress))
+    },
+    [mode],
+  )
+
+  const applyPosition = useCallback(
+    (
+      point: Point,
+      speed = 0,
+      lean = 0,
+      jumpVy = 0,
+      jumpProgress = 0,
+    ) => {
+      const next = clampPoint(point)
+      positionRef.current = next
+
+      if (layerRef.current) {
+        layerRef.current.style.transform = `translate3d(${next.x}px, ${next.y}px, 0)`
+      }
+
+      setPoseVariables(
+        phaseRef.current,
+        speed,
+        lean,
+        jumpVy,
+        jumpProgress,
+      )
+    },
+    [setPoseVariables],
+  )
+
+  const cancelLocomotion = useCallback(() => {
+    if (locomotionFrameRef.current !== null) {
+      cancelAnimationFrame(locomotionFrameRef.current)
+      locomotionFrameRef.current = null
+    }
+  }, [])
+
+  const clearHighlight = useCallback(() => {
+    currentTargetRef.current?.classList.remove("pingo-target-highlight")
+    currentTargetRef.current = null
+  }, [])
+
+  const highlightTarget = useCallback(
+    (target: HTMLElement | null) => {
+      clearHighlight()
+      if (!target) return
+      currentTargetRef.current = target
+      target.classList.add("pingo-target-highlight")
+    },
+    [clearHighlight],
+  )
+
+  const hidePopoverLater = useCallback((delay = 8200) => {
+    if (popoverTimerRef.current) window.clearTimeout(popoverTimerRef.current)
+    popoverTimerRef.current = window.setTimeout(() => {
+      setPopover(null)
+    }, delay)
+  }, [])
+
+  const explainTarget = useCallback(
+    (
+      target: HTMLElement,
+      reason: "hover" | "explicit" | "guide",
+    ) => {
+      const context = buildContext(target)
+      const lesson = buildLesson(context)
+      const rect = target.getBoundingClientRect()
+      const placement = popoverPosition(rect)
+
+      setPopover({
+        lesson,
+        left: placement.left,
+        top: placement.top,
+        width: placement.width,
+        target,
+        reason,
+      })
+
+      highlightTarget(target)
+
+      if (reason === "hover") {
+        applyPosition(companionNearTarget(target), 0)
+        setMode(context.kind === "button" ? "point" : "teach")
+        hidePopoverLater(7200)
+      } else {
+        hidePopoverLater(11000)
+      }
+    },
+    [applyPosition, hidePopoverLater, highlightTarget],
+  )
+
+  const setTemporaryMode = useCallback((next: PingoMode, duration: number) => {
+    if (modeTimerRef.current) window.clearTimeout(modeTimerRef.current)
+    setMode(next)
+    modeTimerRef.current = window.setTimeout(() => setMode("idle"), duration)
+  }, [])
+
+  const enterReaderSafe = useCallback((duration = 1900) => {
+    setReaderSafe(true)
+    if (readerTimerRef.current) window.clearTimeout(readerTimerRef.current)
+
+    readerTimerRef.current = window.setTimeout(() => {
+      const selection = window.getSelection()?.toString().trim()
+      if (!selection) setReaderSafe(false)
+    }, duration)
+  }, [])
+
+  const walkTo = useCallback(
+    (
+      targetX: number,
+      preferRun = false,
+      onDone?: () => void,
+    ) => {
+      cancelLocomotion()
+
+      const start = positionRef.current
+      const target = groundPoint(targetX)
+      const direction: 1 | -1 = target.x >= start.x ? 1 : -1
+      facingRef.current = direction
+      setMode(preferRun ? "run" : "walk")
+
+      let velocity = 0
+      let last = performance.now()
+      const maxSpeed = preferRun ? 232 : 126
+      const acceleration = preferRun ? 690 : 455
+
+      const tick = (now: number) => {
+        const dt = Math.min(0.032, (now - last) / 1000)
+        last = now
+
+        const current = positionRef.current
+        const remaining = target.x - current.x
+        const distance = Math.abs(remaining)
+
+        const brakingDistance = (velocity * velocity) / (2 * acceleration)
+
+        if (distance <= brakingDistance + 18) {
+          velocity = Math.max(28, velocity - acceleration * dt)
+        } else {
+          velocity = Math.min(maxSpeed, velocity + acceleration * dt)
+        }
+
+        const step = Math.min(distance, velocity * dt)
+        const dx = Math.sign(remaining || direction) * step
+
+        phaseRef.current += Math.abs(dx) * (preferRun ? 0.27 : 0.19)
+
+        const lean = direction * clamp(velocity / maxSpeed * 5, 0, 5)
+        applyPosition(
+          { x: current.x + dx, y: target.y },
+          velocity,
+          lean,
+        )
+
+        if (distance <= 2.2) {
+          applyPosition(target, 0, 0)
+          setMode("idle")
+          locomotionFrameRef.current = null
+          onDone?.()
+          return
+        }
+
+        locomotionFrameRef.current = requestAnimationFrame(tick)
+      }
+
+      locomotionFrameRef.current = requestAnimationFrame(tick)
+    },
+    [applyPosition, cancelLocomotion],
+  )
+
+  const physicsJumpTo = useCallback(
+    (
+      target: HTMLElement,
+      explainAfter = true,
+      reason: "explicit" | "guide" = "guide",
+    ) => {
+      if (!enabled || window.innerWidth <= 760) {
+        explainTarget(target, reason)
+        return
+      }
+
+      cancelLocomotion()
+      highlightTarget(target)
+      setPopover(null)
+
+      const from = positionRef.current
+      const to = platformPoint(target)
+      const dx = to.x - from.x
+      const dy = to.y - from.y
+      const duration = clamp(0.82 + Math.abs(dx) / 700, 0.82, 1.42)
+      const gravity = 1120
+      const vx = dx / duration
+      let vy = (dy - 0.5 * gravity * duration * duration) / duration
+
+      facingRef.current = dx >= 0 ? 1 : -1
+      setMode("crouch")
+
+      if (modeTimerRef.current) window.clearTimeout(modeTimerRef.current)
+
+      modeTimerRef.current = window.setTimeout(() => {
+        setMode("jump")
+
+        let x = from.x
+        let y = from.y
+        let elapsed = 0
+        let last = performance.now()
+
+        const tick = (now: number) => {
+          const dt = Math.min(0.028, (now - last) / 1000)
+          last = now
+          elapsed += dt
+
+          x += vx * dt
+          y += vy * dt
+          vy += gravity * dt
+
+          const progress = clamp(elapsed / duration, 0, 1)
+          phaseRef.current += Math.abs(vx) * dt * 0.02
+
+          applyPosition(
+            { x, y },
+            Math.abs(vx),
+            facingRef.current * clamp(vx / 90, -7, 7),
+            vy,
+            progress,
+          )
+
+          if (elapsed >= duration || (progress > 0.72 && y >= to.y)) {
+            applyPosition(to, 0, 0, 0, 1)
+            locomotionFrameRef.current = null
+            setMode("land")
+
+            window.setTimeout(() => {
+              setMode(explainAfter ? "teach" : "idle")
+              if (explainAfter) explainTarget(target, reason)
+            }, 230)
+
+            return
+          }
+
+          locomotionFrameRef.current = requestAnimationFrame(tick)
+        }
+
+        locomotionFrameRef.current = requestAnimationFrame(tick)
+      }, 180)
+    },
+    [
+      applyPosition,
+      cancelLocomotion,
+      enabled,
+      explainTarget,
+      highlightTarget,
+    ],
+  )
+
+  const startThrowPhysics = useCallback(
+    (initial: Velocity) => {
+      cancelLocomotion()
+      velocityRef.current = initial
+      setMode("fall")
+
+      let last = performance.now()
+
+      const tick = (now: number) => {
+        const dt = Math.min(0.032, (now - last) / 1000)
+        last = now
+
+        const mobile = window.innerWidth <= 760
+        const floorY = window.innerHeight - (mobile ? 78 : 94)
+        const maxX = window.innerWidth - (mobile ? 56 : 78)
+
+        const p = positionRef.current
+        const v = velocityRef.current
+
+        let x = p.x + v.x * dt
+        let y = p.y + v.y * dt
+
+        v.y += 1080 * dt
+        v.x *= Math.pow(0.22, dt)
+        v.y *= Math.pow(0.84, dt)
+
+        if (x < 7) {
+          x = 7
+          v.x = Math.abs(v.x) * 0.48
+        } else if (x > maxX) {
+          x = maxX
+          v.x = -Math.abs(v.x) * 0.48
+        }
+
+        if (y > floorY) {
+          y = floorY
+          if (Math.abs(v.y) > 125) {
+            v.y = -Math.abs(v.y) * 0.31
+          } else {
+            v.y = 0
+          }
+        }
+
+        facingRef.current = v.x >= 0 ? 1 : -1
+        phaseRef.current += Math.min(0.35, Math.abs(v.x) * dt * 0.002)
+        velocityRef.current = v
+
+        applyPosition(
+          { x, y },
+          Math.abs(v.x),
+          v.x * 0.004,
+          v.y,
+          0,
+        )
+
+        const moving =
+          Math.abs(v.x) > 18 ||
+          Math.abs(v.y) > 24 ||
+          y < floorY - 1
+
+        if (moving) {
+          locomotionFrameRef.current = requestAnimationFrame(tick)
+        } else {
+          locomotionFrameRef.current = null
+          setMode("land")
+          applyPosition({ x, y }, 0)
+          window.setTimeout(() => setMode("idle"), 190)
+        }
+      }
+
+      locomotionFrameRef.current = requestAnimationFrame(tick)
+    },
+    [applyPosition, cancelLocomotion],
+  )
+
+  const guideStep = useCallback(() => {
+    if (!enabled) return
+
+    const targets = getAllSemanticTargets()
+    if (!targets.length) return
+
+    let nextIndex = currentGuideIndexRef.current + 1
+    if (nextIndex >= targets.length) nextIndex = 0
+    currentGuideIndexRef.current = nextIndex
+
+    const target = targets[nextIndex]
+    const rect = target.getBoundingClientRect()
+
+    const run = () => physicsJumpTo(target, true, "guide")
+
+    if (rect.top < 88 || rect.bottom > window.innerHeight - 88) {
+      target.scrollIntoView({ behavior: "smooth", block: "center" })
+      window.setTimeout(run, 760)
+    } else {
+      run()
+    }
+  }, [enabled, physicsJumpTo])
+
+  const scheduleBehavior = useCallback(() => {
+    if (behaviorTimerRef.current) window.clearTimeout(behaviorTimerRef.current)
+
+    behaviorTimerRef.current = window.setTimeout(() => {
+      if (!enabled || guided || draggingRef.current) {
+        scheduleBehavior()
+        return
+      }
+
+      if (readerSafe) {
+        setMode("read")
+        const edgeX =
+          positionRef.current.x > window.innerWidth / 2
+            ? window.innerWidth - (window.innerWidth <= 760 ? 61 : 86)
+            : 14
+
+        walkTo(edgeX, false, () => setMode("read"))
+        scheduleBehavior()
+        return
+      }
+
+      const mobile = window.innerWidth <= 760
+      const roll = Math.random()
+
+      if (!mobile && roll < 0.34) {
+        const candidates = getVisibleSemanticTargets().filter(
+          (el) => el !== hoverTargetRef.current && el.getBoundingClientRect().height >= 60,
+        )
+
+        if (candidates.length) {
+          physicsJumpTo(
+            candidates[Math.floor(Math.random() * candidates.length)],
+            Math.random() < 0.54,
+            "guide",
+          )
+        }
+      } else if (roll < 0.72) {
+        const maxX = Math.max(100, window.innerWidth - (mobile ? 105 : 145))
+        walkTo(
+          22 + Math.random() * maxX,
+          Math.random() < 0.34,
+        )
+      } else if (roll < 0.82) {
+        setTemporaryMode("wave", 1650)
+      } else if (roll < 0.91) {
+        setTemporaryMode("play", 1900)
+      } else if (roll < 0.97) {
+        setTemporaryMode("think", 1700)
+      } else {
+        setTemporaryMode("sleep", 3300)
+      }
+
+      scheduleBehavior()
+    }, 2800 + Math.random() * 3300)
+  }, [
+    enabled,
+    guided,
+    physicsJumpTo,
+    readerSafe,
+    setTemporaryMode,
+    walkTo,
+  ])
+
+  useEffect(() => {
+    const initial = groundPoint(20)
+    applyPosition(initial, 0)
+
+    // Demostración inicial visible: Pingo realmente camina al cargar.
+    const firstWalk = window.setTimeout(() => {
+      if (!enabled) return
+      const targetX = clamp(window.innerWidth * 0.23, 120, 310)
+      walkTo(targetX, false, () => {
+        setTemporaryMode("wave", 1500)
+      })
+    }, 850)
+
+    const onResize = () => {
+      applyPosition(positionRef.current, 0)
+      if (popover) {
+        const placement = popoverPosition(popover.target.getBoundingClientRect())
+        setPopover((current) =>
+          current
+            ? { ...current, left: placement.left, top: placement.top, width: placement.width }
+            : current,
+        )
+      }
+    }
+
+    window.addEventListener("resize", onResize)
+
+    return () => {
+      window.clearTimeout(firstWalk)
+      window.removeEventListener("resize", onResize)
+    }
+  }, [
+    applyPosition,
+    enabled,
+    popover,
+    setTemporaryMode,
+    walkTo,
+  ])
+
+  useEffect(() => {
+    try {
+      localStorage.setItem(STORAGE_KEY, enabled ? "on" : "off")
+    } catch {}
+
+    if (!enabled) {
+      clearHighlight()
+      setPopover(null)
+      cancelLocomotion()
+    }
+  }, [cancelLocomotion, clearHighlight, enabled])
+
+  useEffect(() => {
+    try {
+      localStorage.setItem(GUIDE_KEY, guided ? "on" : "off")
+    } catch {}
+
+    if (guideTimerRef.current) window.clearInterval(guideTimerRef.current)
+
+    if (guided && enabled) {
+      guideStep()
+      guideTimerRef.current = window.setInterval(guideStep, 8600)
+    }
+
+    return () => {
+      if (guideTimerRef.current) window.clearInterval(guideTimerRef.current)
+    }
+  }, [enabled, guideStep, guided])
+
+  useEffect(() => {
+    scheduleBehavior()
+    return () => {
+      if (behaviorTimerRef.current) window.clearTimeout(behaviorTimerRef.current)
+    }
+  }, [scheduleBehavior])
+
+  useEffect(() => {
+    const onPointerMove = (event: PointerEvent) => {
+      const source = event.target as HTMLElement | null
+      if (!source || source.closest(".pingo-ui")) return
+
+      const semantic = findSemanticTarget(source)
+      const reading = source.closest(READING_SELECTOR) as HTMLElement | null
+
+      if (reading && !semantic?.matches("button,a[href],input,select,textarea")) {
+        enterReaderSafe(1650)
+      }
+
+      if (semantic === hoverTargetRef.current) return
+
+      if (hoverTimerRef.current) window.clearTimeout(hoverTimerRef.current)
+
+      hoverTargetRef.current = semantic
+
+      if (!semantic) return
+
+      const now = Date.now()
+      const last = lastHoverSpokenRef.current.get(semantic) ?? 0
+      if (now - last < 12000) return
+
+      const context = buildContext(semantic)
+      const delay =
+        context.kind === "button" || context.kind === "input"
+          ? 560
+          : context.kind === "card" || context.kind === "news"
+            ? 780
+            : 1050
+
+      hoverTimerRef.current = window.setTimeout(() => {
+        if (hoverTargetRef.current !== semantic) return
+
+        lastHoverSpokenRef.current.set(semantic, Date.now())
+        setReaderSafe(false)
+        explainTarget(semantic, "hover")
+      }, delay)
+    }
+
+    const onPointerOut = (event: PointerEvent) => {
+      const source = event.target as HTMLElement | null
+      if (!source) return
+
+      const from = findSemanticTarget(source)
+      const related = event.relatedTarget as HTMLElement | null
+      const to = findSemanticTarget(related)
+
+      if (from && from !== to && from === hoverTargetRef.current) {
+        hoverTargetRef.current = to
+
+        if (hoverTimerRef.current) window.clearTimeout(hoverTimerRef.current)
+      }
+    }
+
+    const onScroll = () => {
+      enterReaderSafe(1850)
+      setPopover(null)
+      clearHighlight()
+    }
+
+    const onSelection = () => {
+      const selection = window.getSelection()?.toString().trim()
+      if (selection) {
+        enterReaderSafe(4200)
+        setMode("read")
+        setPopover(null)
+        clearHighlight()
+      }
+    }
+
+    const onClick = (event: MouseEvent) => {
+      const source = event.target as HTMLElement | null
+      if (!source || source.closest(".pingo-ui")) return
+
+      const semantic = findSemanticTarget(source)
+      if (!semantic) return
+
+      const context = buildContext(semantic)
+
+      if (
+        context.kind === "button" ||
+        context.kind === "input" ||
+        semantic.matches("[aria-pressed='true'],input[type='checkbox']")
+      ) {
+        setTemporaryMode("celebrate", 1150)
+      }
+    }
+
+    document.addEventListener("pointermove", onPointerMove, { passive: true })
+    document.addEventListener("pointerout", onPointerOut, { passive: true })
+    window.addEventListener("scroll", onScroll, { passive: true })
+    document.addEventListener("selectionchange", onSelection)
+    document.addEventListener("click", onClick)
+
+    return () => {
+      document.removeEventListener("pointermove", onPointerMove)
+      document.removeEventListener("pointerout", onPointerOut)
+      window.removeEventListener("scroll", onScroll)
+      document.removeEventListener("selectionchange", onSelection)
+      document.removeEventListener("click", onClick)
+
+      if (hoverTimerRef.current) window.clearTimeout(hoverTimerRef.current)
+    }
+  }, [
+    clearHighlight,
+    enterReaderSafe,
+    explainTarget,
+    setTemporaryMode,
+  ])
+
+  useEffect(() => {
+    return () => {
+      cancelLocomotion()
+      clearHighlight()
+
+      if (behaviorTimerRef.current) window.clearTimeout(behaviorTimerRef.current)
+      if (guideTimerRef.current) window.clearInterval(guideTimerRef.current)
+      if (modeTimerRef.current) window.clearTimeout(modeTimerRef.current)
+      if (readerTimerRef.current) window.clearTimeout(readerTimerRef.current)
+      if (hoverTimerRef.current) window.clearTimeout(hoverTimerRef.current)
+      if (popoverTimerRef.current) window.clearTimeout(popoverTimerRef.current)
+    }
+  }, [cancelLocomotion, clearHighlight])
+
+  const handlePointerDown = (event: ReactPointerEvent<HTMLButtonElement>) => {
+    if (!enabled || event.button !== 0) return
+
+    cancelLocomotion()
+    draggingRef.current = true
+    suppressClickRef.current = false
+    dragPointerRef.current = event.pointerId
+    lastPointerRef.current = {
+      x: event.clientX,
+      y: event.clientY,
+      time: performance.now(),
+    }
+    velocityRef.current = { x: 0, y: 0 }
+    setMode("drag")
+    setPopover(null)
+    clearHighlight()
+
+    try {
+      event.currentTarget.setPointerCapture(event.pointerId)
+    } catch {}
+  }
+
+  const handlePointerMove = (event: ReactPointerEvent<HTMLButtonElement>) => {
+    if (!draggingRef.current || dragPointerRef.current !== event.pointerId) return
+
+    event.preventDefault()
+
+    const now = performance.now()
+    const last = lastPointerRef.current
+    const dt = Math.max(8, now - last.time)
+    const dx = event.clientX - last.x
+    const dy = event.clientY - last.y
+
+    if (Math.abs(dx) + Math.abs(dy) > 4) suppressClickRef.current = true
+
+    velocityRef.current = {
+      x: (dx / dt) * 1000,
+      y: (dy / dt) * 1000,
+    }
+
+    lastPointerRef.current = {
+      x: event.clientX,
+      y: event.clientY,
+      time: now,
+    }
+
+    facingRef.current = dx >= 0 ? 1 : -1
+    phaseRef.current += Math.abs(dx) * 0.08
+
+    applyPosition(
+      {
+        x: positionRef.current.x + dx,
+        y: positionRef.current.y + dy,
+      },
+      Math.abs(velocityRef.current.x),
+    )
+  }
+
+  const handlePointerUp = (event: ReactPointerEvent<HTMLButtonElement>) => {
+    if (!draggingRef.current || dragPointerRef.current !== event.pointerId) return
+
+    draggingRef.current = false
+    dragPointerRef.current = null
+
+    try {
+      event.currentTarget.releasePointerCapture(event.pointerId)
+    } catch {}
+
+    const velocity = velocityRef.current
+    const speed = Math.hypot(velocity.x, velocity.y)
+
+    if (speed > 260) {
+      startThrowPhysics(velocity)
+    } else {
+      setMode("land")
+      applyPosition(positionRef.current, 0)
+      window.setTimeout(() => setMode("idle"), 170)
+    }
+  }
+
+  const explainCurrent = () => {
+    setMenuOpen(false)
+
+    const target =
+      hoverTargetRef.current ??
+      currentTargetRef.current ??
+      getVisibleSemanticTargets()[0] ??
+      null
+
+    if (!target) {
+      const lesson: TutorLesson = {
+        eyebrow: "PINGO · CONSEJO",
+        title: "Cómo estudiar mejor",
+        what: genericTips[Math.floor(Math.random() * genericTips.length)],
+        why: "El Campus está pensado para que avances por competencias demostradas y no por cantidad de contenido consumido.",
+        study: "Combina teoría, práctica, proyecto, evaluación y actualización.",
+        action: "Elige una card o sección y vuelve a pulsar Explícame para recibir una orientación contextual.",
+        tone: "lime",
+      }
+
+      setPopover({
+        lesson,
+        left: clamp(window.innerWidth / 2 - 195, 14, window.innerWidth - 404),
+        top: 100,
+        width: Math.min(390, window.innerWidth - 28),
+        target: document.body,
+        reason: "explicit",
+      })
+
+      return
+    }
+
+    if (window.innerWidth > 760 && hasCardHint(target)) {
+      physicsJumpTo(target, true, "explicit")
+    } else {
+      explainTarget(target, "explicit")
+    }
+  }
+
+  return (
+    <div className={`pingo-ui ${readerSafe ? "is-reader-safe" : ""}`}>
+      <div className="pingo-menu-shell">
+        <button
+          type="button"
+          className={`pingo-menu-trigger ${enabled ? "is-on" : "is-off"}`}
+          onClick={() => setMenuOpen((value) => !value)}
+          aria-expanded={menuOpen}
+          aria-label="Abrir controles de Pingo"
+          title="Pingo"
+        >
+          <span aria-hidden="true">🐧</span>
+          <i aria-hidden="true" />
+        </button>
+
+        {menuOpen && (
+          <div className="pingo-menu-panel">
+            <button
+              type="button"
+              className={`pingo-menu-action ${guided ? "is-active" : ""}`}
+              onClick={() => {
+                setGuided((value) => !value)
+                setMenuOpen(false)
+              }}
+            >
+              <span>🧭</span>
+              {guided ? "Detener guía" : "Guíame"}
+            </button>
+
+            <button
+              type="button"
+              className="pingo-menu-action"
+              onClick={explainCurrent}
+            >
+              <span>💡</span>
+              Explícame
+            </button>
+
+            <button
+              type="button"
+              className="pingo-menu-action"
+              onClick={() => {
+                setTemporaryMode("wave", 1650)
+                setMenuOpen(false)
+              }}
+            >
+              <span>👋</span>
+              Salúdame
+            </button>
+
+            <button
+              type="button"
+              className="pingo-menu-action"
+              onClick={() => {
+                setEnabled((value) => !value)
+                setMenuOpen(false)
+              }}
+            >
+              <span>{enabled ? "🌙" : "☀️"}</span>
+              {enabled ? "Ocultar Pingo" : "Mostrar Pingo"}
+            </button>
+          </div>
+        )}
+      </div>
+
+      {popover && (
+        <aside
+          className={`pingo-tutor-popover tone-${popover.lesson.tone}`}
+          style={{
+            left: popover.left,
+            top: popover.top,
+            width: popover.width,
+          }}
+          aria-live="polite"
+        >
+          <button
+            type="button"
+            className="pingo-tutor-close"
+            aria-label="Cerrar explicación"
+            onClick={() => {
+              setPopover(null)
+              clearHighlight()
+            }}
+          >
+            ×
+          </button>
+
+          <small>{popover.lesson.eyebrow}</small>
+          <h4>{popover.lesson.title}</h4>
+
+          <div className="pingo-tutor-grid">
+            <section>
+              <b>QUÉ ES</b>
+              <p>{popover.lesson.what}</p>
+            </section>
+            <section>
+              <b>POR QUÉ IMPORTA</b>
+              <p>{popover.lesson.why}</p>
+            </section>
+            <section>
+              <b>CÓMO DOMINARLO</b>
+              <p>{popover.lesson.study}</p>
+            </section>
+            <section>
+              <b>QUÉ HACER AHORA</b>
+              <p>{popover.lesson.action}</p>
+            </section>
+          </div>
+        </aside>
+      )}
+
+      {enabled && (
+        <div
+          ref={layerRef}
+          className={[
+            "pingo-layer",
+            `mode-${mode}`,
+            readerSafe ? "reader-safe" : "",
+          ].join(" ")}
+          data-mode={mode}
+        >
+          <button
+            type="button"
+            className="pingo-hitbox"
+            onPointerDown={handlePointerDown}
+            onPointerMove={handlePointerMove}
+            onPointerUp={handlePointerUp}
+            onPointerCancel={handlePointerUp}
+            onClick={() => {
+              if (suppressClickRef.current) {
+                suppressClickRef.current = false
+                return
+              }
+              explainCurrent()
+            }}
+            onDoubleClick={() => {
+              setTemporaryMode("celebrate", 1900)
+            }}
+            aria-label="Pingo, tutor interactivo. Arrastra, lanza o haz clic para recibir orientación."
+            title="Arrastra · lanza · clic: explicación"
+          >
+            <span className="pingo-shadow" aria-hidden="true" />
+
+            <svg
+              className="pingo-pixel"
+              viewBox="0 0 72 76"
+              role="img"
+              aria-label="Pingo, pingüino tutor de Campus Maestro"
+              shapeRendering="crispEdges"
+            >
+              <g className="pingo-body">
+                <rect x="23" y="7" width="26" height="4" className="px-black" />
+                <rect x="17" y="11" width="38" height="10" className="px-black" />
+                <rect x="13" y="21" width="46" height="34" className="px-black" />
+                <rect x="18" y="55" width="36" height="7" className="px-black" />
+
+                <rect x="23" y="13" width="26" height="12" className="px-white" />
+                <rect x="22" y="30" width="28" height="24" className="px-white" />
+                <rect x="27" y="54" width="18" height="4" className="px-white" />
+
+                <g className="pingo-face">
+                  <rect x="27" y="16" width="3" height="3" className="px-eye" />
+                  <rect x="42" y="16" width="3" height="3" className="px-eye" />
+                  <rect x="32" y="22" width="8" height="3" className="px-beak" />
+                  <rect x="35" y="25" width="5" height="2" className="px-beak-dark" />
+                </g>
+
+                <g className="pingo-arm pingo-arm-left">
+                  <rect x="5" y="26" width="10" height="22" className="px-black" />
+                  <rect x="3" y="33" width="6" height="13" className="px-black" />
+                  <rect x="2" y="45" width="7" height="5" className="px-black" />
+                </g>
+
+                <g className="pingo-arm pingo-arm-right">
+                  <rect x="57" y="26" width="10" height="22" className="px-black" />
+                  <rect x="63" y="33" width="6" height="13" className="px-black" />
+                  <rect x="63" y="45" width="7" height="5" className="px-black" />
+                </g>
+
+                <g className="pingo-leg pingo-leg-left">
+                  <rect x="20" y="59" width="10" height="7" className="px-black" />
+                  <rect x="16" y="66" width="18" height="4" className="px-foot" />
+                  <rect x="13" y="70" width="18" height="3" className="px-foot" />
+                </g>
+
+                <g className="pingo-leg pingo-leg-right">
+                  <rect x="42" y="59" width="10" height="7" className="px-black" />
+                  <rect x="38" y="66" width="18" height="4" className="px-foot" />
+                  <rect x="41" y="70" width="18" height="3" className="px-foot" />
+                </g>
+
+                <g className="pingo-pack">
+                  <rect x="53" y="33" width="8" height="16" className="px-lime" />
+                  <rect x="58" y="36" width="5" height="10" className="px-lime-dark" />
+                </g>
+
+                <g className="pingo-book">
+                  <rect x="19" y="39" width="15" height="17" className="px-book" />
+                  <rect x="38" y="39" width="15" height="17" className="px-book" />
+                  <rect x="34" y="38" width="4" height="19" className="px-book-dark" />
+                  <rect x="22" y="43" width="9" height="2" className="px-book-line" />
+                  <rect x="41" y="43" width="9" height="2" className="px-book-line" />
+                </g>
+
+                <g className="pingo-pointer">
+                  <rect x="61" y="17" width="3" height="22" className="px-pointer" />
+                  <rect x="60" y="14" width="5" height="5" className="px-pointer-tip" />
+                </g>
+
+                <g className="pingo-z">
+                  <rect x="54" y="8" width="9" height="2" className="px-lime" />
+                  <rect x="61" y="10" width="2" height="3" className="px-lime" />
+                  <rect x="56" y="13" width="7" height="2" className="px-lime" />
+                </g>
+
+                <g className="pingo-sparkles">
+                  <rect x="5" y="10" width="3" height="3" className="px-lime" />
+                  <rect x="63" y="17" width="3" height="3" className="px-lime" />
+                  <rect x="7" y="55" width="3" height="3" className="px-lime" />
+                </g>
+              </g>
+            </svg>
+          </button>
+        </div>
+      )}
+    </div>
+  )
+}

@@ -150,16 +150,28 @@ function configureTexture(texture: THREE.Texture) {
 
 function OrbitRing({ radius }: { radius: number }) {
   return (
-    <mesh rotation={[-Math.PI / 2, 0, 0]}>
-      <ringGeometry args={[radius - 0.013, radius + 0.013, 256]} />
-      <meshBasicMaterial
-        color="#087a68"
-        transparent
-        opacity={0.46}
-        side={THREE.DoubleSide}
-        depthWrite={false}
-      />
-    </mesh>
+    <group rotation={[-Math.PI / 2, 0, 0]}>
+      <mesh>
+        <ringGeometry args={[radius - 0.036, radius + 0.036, 320]} />
+        <meshBasicMaterial
+          color="#dcfff0"
+          transparent
+          opacity={0.88}
+          side={THREE.DoubleSide}
+          depthWrite={false}
+        />
+      </mesh>
+      <mesh>
+        <ringGeometry args={[radius - 0.012, radius + 0.012, 320]} />
+        <meshBasicMaterial
+          color="#f5fff9"
+          transparent
+          opacity={0.42}
+          side={THREE.DoubleSide}
+          depthWrite={false}
+        />
+      </mesh>
+    </group>
   )
 }
 
@@ -236,7 +248,7 @@ function Planet({
         <group ref={visualRef}>
           {selected && (
             <mesh scale={1.22}>
-              <sphereGeometry args={[spec.size, 64, 64]} />
+              <sphereGeometry args={[spec.size, 80, 80]} />
               <meshBasicMaterial
                 color="#d8ff4f"
                 transparent
@@ -255,13 +267,13 @@ function Planet({
             onPointerOver={() => { document.body.style.cursor = "pointer" }}
             onPointerOut={() => { document.body.style.cursor = "default" }}
           >
-            <sphereGeometry args={[spec.size, 96, 96]} />
+            <sphereGeometry args={[spec.size, 80, 80]} />
             <meshStandardMaterial map={texture} roughness={0.92} metalness={0} />
           </mesh>
 
           {spec.planet === "Urano" && (
             <mesh scale={1.008}>
-              <sphereGeometry args={[spec.size, 96, 96]} />
+              <sphereGeometry args={[spec.size, 80, 80]} />
               <meshBasicMaterial
                 map={uranusBands}
                 transparent
@@ -318,7 +330,7 @@ function Sun() {
   return (
     <group>
       <mesh ref={sunRef}>
-        <sphereGeometry args={[1.45, 128, 128]} />
+        <sphereGeometry args={[1.45, 96, 96]} />
         <meshBasicMaterial map={texture} />
       </mesh>
       <mesh scale={1.11}>
@@ -332,7 +344,7 @@ function Sun() {
           depthWrite={false}
         />
       </mesh>
-      <pointLight color="#fff0cb" intensity={95} distance={48} decay={1.65} />
+      <pointLight color="#fff0cb" intensity={110} distance={52} decay={1.55} />
       <Html position={[0, -2.0, 0]} center distanceFactor={11} style={{ pointerEvents: "none", whiteSpace: "nowrap" }}>
         <div className="solar-sun-label-v15">
           <small>Núcleo</small>
@@ -352,7 +364,7 @@ function SolarScene({
 }) {
   return (
     <>
-      <ambientLight intensity={0.62} />
+      <ambientLight intensity={0.72} />
 
       <group rotation={[THREE.MathUtils.degToRad(-7), 0, THREE.MathUtils.degToRad(2)]}>
         <Sun />
@@ -372,8 +384,9 @@ function SolarScene({
         enableDamping
         dampingFactor={0.055}
         enablePan={false}
-        minDistance={8}
-        maxDistance={30}
+        minDistance={12.5}
+        maxDistance={34}
+        zoomSpeed={0.78}
         minPolarAngle={0.35}
         maxPolarAngle={Math.PI - 0.35}
         autoRotate={!selected}
@@ -385,12 +398,41 @@ function SolarScene({
 
 export default function SolarKnowledgeHero() {
   const [selected, setSelected] = useState<PlanetSpec | null>(null)
+  const shellRef = useRef<HTMLElement | null>(null)
+  const stageRef = useRef<HTMLDivElement | null>(null)
+  const [isVisible, setIsVisible] = useState(true)
+
+  useEffect(() => {
+    const element = shellRef.current
+    if (!element || typeof IntersectionObserver === "undefined") return
+    const observer = new IntersectionObserver(([entry]) => setIsVisible(Boolean(entry?.isIntersecting)), { rootMargin: "180px 0px 180px 0px", threshold: 0.01 })
+    observer.observe(element)
+    return () => observer.disconnect()
+  }, [])
+
+  useEffect(() => {
+    const stage = stageRef.current
+    if (!stage) return
+    const keepWheelInSolar = (event: WheelEvent) => {
+      const target = event.target as Element | null
+      if (target?.closest?.(".planet-panel")) return
+      event.preventDefault()
+    }
+    stage.addEventListener("wheel", keepWheelInSolar, { passive: false, capture: true })
+    return () => stage.removeEventListener("wheel", keepWheelInSolar, true)
+  }, [])
 
   return (
-    <section className="hero-shell">
+    <section ref={shellRef} className="hero-shell">
       <div className="hero-copy" aria-hidden="true" />
 
-      <div className="solar-stage" aria-label="Mapa orbital interactivo de áreas de computación">
+      <div
+        ref={stageRef}
+        className="solar-stage"
+        data-lenis-prevent
+        data-lenis-prevent-wheel
+        aria-label="Mapa orbital interactivo de áreas de computación"
+      >
         <div className="solar-stage-top">
           <span>MAPA VIVO / 3D · V15</span>
           <span>{selected ? `${selected.planet} seleccionado` : "Haz clic en un planeta"}</span>
@@ -398,13 +440,14 @@ export default function SolarKnowledgeHero() {
 
         <Canvas
           className="solar-canvas"
-          dpr={[1, 1.65]}
-          camera={{ position: [0, 8.1, 20.5], fov: 40, near: 0.1, far: 160 }}
+          frameloop={isVisible ? "always" : "demand"}
+          dpr={[1, 1.5]}
+          camera={{ position: [0, 8.4, 24], fov: 42, near: 0.1, far: 160 }}
           gl={{ antialias: true, alpha: true, powerPreference: "high-performance" }}
           onCreated={({ gl }) => {
             gl.outputColorSpace = THREE.SRGBColorSpace
             gl.toneMapping = THREE.ACESFilmicToneMapping
-            gl.toneMappingExposure = 1.04
+            gl.toneMappingExposure = 1.12
             gl.setClearColor(0x000000, 0)
           }}
         >
@@ -447,3 +490,4 @@ export default function SolarKnowledgeHero() {
     </section>
   )
 }
+

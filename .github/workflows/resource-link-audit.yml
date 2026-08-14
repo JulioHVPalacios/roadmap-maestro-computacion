@@ -1,0 +1,47 @@
+name: Resource link audit
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 6 * * 1"
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Download curated upstream catalogs
+        shell: bash
+        run: |
+          mkdir -p .resource-audit
+          curl -fsSL --retry 3 https://raw.githubusercontent.com/EbookFoundation/free-programming-books/main/books/free-programming-books-es.md -o .resource-audit/fpb-books-es.md
+          curl -fsSL --retry 3 https://raw.githubusercontent.com/EbookFoundation/free-programming-books/main/courses/free-courses-es.md -o .resource-audit/fpb-courses-es.md
+          curl -fsSL --retry 3 https://raw.githubusercontent.com/EbookFoundation/free-programming-books/main/casts/free-podcasts-screencasts-es.md -o .resource-audit/fpb-casts-es.md
+          curl -fsSL --retry 3 https://raw.githubusercontent.com/midudev/libros-programacion-gratis/main/README.md -o .resource-audit/librodev.md
+
+      - name: Check links with lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --verbose
+            --no-progress
+            --max-concurrency 12
+            --timeout 20
+            --retry-wait-time 2
+            --exclude-mail
+            '.resource-audit/**/*.md'
+            'src/**/*.{ts,tsx,md}'
+          fail: false
+
+      - name: Upload link report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: resource-link-audit
+          path: lychee/out.md
+          if-no-files-found: ignore

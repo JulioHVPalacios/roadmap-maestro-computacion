@@ -1,0 +1,228 @@
+/* Campus Maestro V26 — prioridad: fluidez de alta frecuencia sin degradar el diseño ni el video. */
+html.v27-enabled{scroll-behavior:auto}
+html.v27-enabled body{overscroll-behavior-y:none}
+
+/* Sustituye los blobs con blur animado de V25 por una atmósfera estática de coste mucho menor. */
+html.v27-enabled .v25-atmosphere{display:none!important}
+.v27-atmosphere{
+  position:fixed;inset:0;z-index:0;pointer-events:none;opacity:.31;
+  background:
+    radial-gradient(38vw 38vw at 2% 20%,rgba(85,223,255,.12),transparent 72%),
+    radial-gradient(34vw 34vw at 102% 48%,rgba(120,107,255,.10),transparent 72%),
+    radial-gradient(30vw 30vw at 52% 105%,rgba(217,255,79,.09),transparent 72%);
+  contain:strict;
+}
+
+/* Barra superior multicolor: CSS Scroll-Driven Animation nativa, sin React render por frame. */
+.v27-scroll-progress{
+  position:fixed;z-index:9999;left:0;top:0;width:100%;height:3px;transform-origin:0 50%;transform:scaleX(0);
+  background:linear-gradient(90deg,#62dcff 0%,#6b7cff 22%,#a477ff 44%,#ff71c5 64%,#ffc85f 82%,#d9ff4f 100%);
+  box-shadow:0 0 14px rgba(102,126,255,.30);pointer-events:none;
+  animation:v26ScrollProgress linear both;animation-timeline:scroll(root block);
+}
+@keyframes v26ScrollProgress{to{transform:scaleX(1)}}
+
+/* Reveals compuestos: una sola observación por elemento, sin ScrollTrigger masivo ni scrub continuo. */
+html.v27-enabled .v27-reveal{opacity:.001;transform:translate3d(0,16px,0);transition:opacity .52s ease,transform .62s cubic-bezier(.2,.76,.22,1)}
+html.v27-enabled .v27-reveal.v27-visible{opacity:1;transform:translate3d(0,0,0)}
+
+/* No usar grandes filtros/backdrop-filter en superficies que se desplazan: mismo aspecto, menos repaints. */
+html.v27-enabled .v15-stage-card,
+html.v27-enabled .v15-profile-card,
+html.v27-enabled .v15-proof-card,
+html.v27-enabled .v15-track-detail{backdrop-filter:none!important;-webkit-backdrop-filter:none!important}
+
+html.v27-enabled .v15-stage-card{background:rgba(255,255,252,.97)!important}
+html.v27-enabled .v15-profile-card{background:rgba(255,255,252,.96)}
+html.v27-enabled .v15-proof-card{background:rgba(255,254,249,.97)!important}
+
+/* Cards aisladas para que hover/paint no invalide el resto de la página. */
+html.v27-enabled .v15-method-card,
+html.v27-enabled .v15-universe-card,
+html.v27-enabled .v15-stage-card,
+html.v27-enabled .v15-standard-grid a,
+html.v27-enabled .v15-ecosystem-grid article,
+html.v27-enabled .v15-news-carousel,
+html.v27-enabled .v15-profile-card{contain:layout paint style}
+
+/* Se elimina el spotlight que recalculaba getBoundingClientRect en cada pointermove. */
+html.v27-enabled .v25-surface::after,
+html.v27-enabled .v15-hero::before{display:none!important}
+html.v27-enabled .v25-surface{isolation:isolate}
+
+/* Profundidad visual intacta mediante hover compositor-only. */
+html.v27-enabled .v15-universe-card,
+html.v27-enabled .v15-stage-card,
+html.v27-enabled .v15-news-slide{
+  backface-visibility:hidden;transform:translate3d(0,0,0);
+}
+html.v27-enabled .v15-universe-card:hover,
+html.v27-enabled .v15-stage-card:hover,
+html.v27-enabled .v15-news-slide:hover{transform:translate3d(0,-5px,0)}
+
+/* Quita will-change permanente; el navegador lo promociona solo durante transición. */
+html.v27-enabled .v15-news-slide-image,
+html.v27-enabled .v15-universe-card>img{will-change:auto!important}
+
+/* Evita sensación de contenido que aparece tarde al hacer scroll rápido. */
+html.v27-enabled .v15-section:not(.v15-orbit-section),
+html.v27-enabled .v15-news-section,
+html.v27-enabled .v15-profile-section{content-visibility:visible!important;contain-intrinsic-size:none!important}
+
+/* Video: no toca resolución, bitrate ni filtros visuales. Solo favorece composición de GPU. */
+html.v27-enabled .v15-profile-video{transform:translateZ(0);backface-visibility:hidden;will-change:auto}
+
+/* Crédito obligatorio de la pista, integrado discretamente en el footer. */
+.v27-music-credit{margin-top:8px!important;font-size:10px!important;line-height:1.45!important;opacity:.44!important}
+.v27-music-credit a{color:inherit;text-decoration:underline;text-underline-offset:2px}
+
+/* Tonalidad de fondo por capítulo, sin animar filtros. */
+html[data-v27-section="roadmap"] .v27-atmosphere{background:radial-gradient(40vw 40vw at 102% 44%,rgba(95,124,255,.12),transparent 72%),radial-gradient(35vw 35vw at -2% 18%,rgba(85,223,255,.10),transparent 72%)}
+html[data-v27-section="maestrias"] .v27-atmosphere{background:radial-gradient(40vw 40vw at 102% 44%,rgba(161,108,255,.11),transparent 72%),radial-gradient(35vw 35vw at -2% 18%,rgba(85,223,255,.09),transparent 72%)}
+html[data-v27-section="atlas"] .v27-atmosphere{background:radial-gradient(40vw 40vw at -2% 35%,rgba(84,228,192,.11),transparent 72%),radial-gradient(34vw 34vw at 102% 54%,rgba(120,107,255,.08),transparent 72%)}
+html[data-v27-section="radar"] .v27-atmosphere{background:radial-gradient(40vw 40vw at 102% 42%,rgba(255,211,95,.10),transparent 72%),radial-gradient(34vw 34vw at -2% 22%,rgba(85,223,255,.08),transparent 72%)}
+html[data-v27-section="perfil"] .v27-atmosphere{background:radial-gradient(40vw 40vw at 102% 40%,rgba(89,215,255,.11),transparent 72%),radial-gradient(34vw 34vw at -2% 28%,rgba(157,123,255,.08),transparent 72%)}
+
+@media(max-width:820px){
+  .v27-atmosphere{opacity:.18}
+  html.v27-enabled .v27-reveal{transform:translate3d(0,10px,0);transition-duration:.4s,.48s}
+  html.v27-enabled .v15-universe-card:hover,html.v27-enabled .v15-stage-card:hover,html.v27-enabled .v15-news-slide:hover{transform:none}
+}
+@media(prefers-reduced-motion:reduce){
+  .v27-scroll-progress{animation:none;display:none}
+  html.v27-enabled .v27-reveal{opacity:1!important;transform:none!important;transition:none!important}
+}
+
+/* V27 — tipografía editorial profesional, sin UI monospace decorativa. */
+html.v27-enabled .v15-site,
+html.v27-enabled .v15-site button,
+html.v27-enabled .v15-site input,
+html.v27-enabled .v15-site textarea,
+html.v27-enabled .v15-site select{
+  font-family:"Plus Jakarta Sans Variable","Segoe UI",Arial,sans-serif!important;
+  font-optical-sizing:auto;font-synthesis:none;text-rendering:optimizeLegibility;
+}
+html.v27-enabled .v15-kicker,
+html.v27-enabled .v15-proof-card>p,
+html.v27-enabled .v15-center-head span,
+html.v27-enabled .v15-section-head span,
+html.v27-enabled .v15-method-grid article>span,
+html.v27-enabled .v15-method-card>span,
+html.v27-enabled .v15-universe-card small,
+html.v27-enabled .v15-stage-top b,
+html.v27-enabled .v15-track-tabs button span,
+html.v27-enabled .v15-track-detail>div:first-child>span,
+html.v27-enabled .v15-track-units article>b,
+html.v27-enabled .v15-profile-map>span,
+html.v27-enabled .v15-profile-copy>span,
+html.v27-enabled .v15-modal-head>span,
+html.v27-enabled .v15-modal-gate span,
+html.v27-enabled .v15-search-results button>span,
+html.v27-enabled .v15-hero-solar-head span,
+html.v27-enabled .v15-method-detail-head span,
+html.v27-enabled .v15-method-detail small,
+html.v27-enabled .v15-subject-method span b{
+  font-family:"Plus Jakarta Sans Variable","Segoe UI",Arial,sans-serif!important;
+  letter-spacing:.10em!important;
+}
+html.v27-enabled .v15-hero h1 em{font-family:"Plus Jakarta Sans Variable","Segoe UI",Arial,sans-serif!important;font-style:italic;font-weight:600;letter-spacing:-.055em}
+html.v27-enabled .v15-center-head h2,
+html.v27-enabled .v15-section-head h2,
+html.v27-enabled .v15-profile-copy h2,
+html.v27-enabled .v15-track-detail h3,
+html.v27-enabled .v15-profile-map h3{font-weight:650;letter-spacing:-.055em}
+html.v27-enabled kbd{font-family:"Plus Jakarta Sans Variable","Segoe UI",Arial,sans-serif!important;font-size:.88em;letter-spacing:.01em}
+
+/* Mayor definición visual sin filtros costosos ni animaciones permanentes. */
+html.v27-enabled .v15-proof-card,
+html.v27-enabled .v15-method-card,
+html.v27-enabled .v15-universe-card,
+html.v27-enabled .v15-stage-card,
+html.v27-enabled .v15-standard-grid a,
+html.v27-enabled .v15-track-tabs button,
+html.v27-enabled .v15-track-detail,
+html.v27-enabled .v15-atlas-search,
+html.v27-enabled .v15-profile-map,
+html.v27-enabled .v15-news-carousel,
+html.v27-enabled .v15-ecosystem-grid article,
+html.v27-enabled .v15-profile-card{
+  border-color:rgba(12,24,19,.105)!important;
+  box-shadow:0 15px 42px rgba(14,27,21,.055),inset 0 1px 0 rgba(255,255,255,.62);
+}
+
+@media(hover:hover){
+  html.v27-enabled .v15-method-card,
+  html.v27-enabled .v15-universe-card,
+  html.v27-enabled .v15-stage-card,
+  html.v27-enabled .v15-standard-grid a,
+  html.v27-enabled .v15-track-tabs button,
+  html.v27-enabled .v15-ecosystem-grid article,
+  html.v27-enabled .v15-news-carousel,
+  html.v27-enabled .v15-white-button,
+  html.v27-enabled .v15-lime-button,
+  html.v27-enabled .v15-black-button,
+  html.v27-enabled .v15-socials a,
+  html.v27-enabled .v15-source-cloud a{
+    transition:transform .22s cubic-bezier(.2,.75,.2,1),box-shadow .22s ease,border-color .22s ease,background-color .22s ease!important;
+  }
+  html.v27-enabled .v15-method-card:hover,
+  html.v27-enabled .v15-universe-card:hover,
+  html.v27-enabled .v15-stage-card:hover,
+  html.v27-enabled .v15-standard-grid a:hover,
+  html.v27-enabled .v15-track-tabs button:hover,
+  html.v27-enabled .v15-ecosystem-grid article:hover,
+  html.v27-enabled .v15-news-carousel:hover{
+    transform:translate3d(0,-6px,0) scale(1.003)!important;
+    box-shadow:0 26px 62px rgba(14,27,21,.11),inset 0 1px 0 rgba(255,255,255,.72)!important;
+  }
+  html.v27-enabled .v15-white-button:hover,
+  html.v27-enabled .v15-lime-button:hover,
+  html.v27-enabled .v15-black-button:hover,
+  html.v27-enabled .v15-socials a:hover,
+  html.v27-enabled .v15-source-cloud a:hover{transform:translate3d(0,-2px,0) scale(1.01)!important}
+}
+html.v27-enabled .v15-method-card:active,
+html.v27-enabled .v15-stage-card:active,
+html.v27-enabled .v15-track-tabs button:active,
+html.v27-enabled .v15-white-button:active,
+html.v27-enabled .v15-lime-button:active,
+html.v27-enabled .v15-black-button:active{transform:translate3d(0,0,0) scale(.985)!important;transition-duration:.08s!important}
+
+/* Brillo fino solo al interactuar: CSS compositor, sin JS de seguimiento del cursor. */
+html.v27-enabled .v15-universe-card::after,
+html.v27-enabled .v15-stage-card::after,
+html.v27-enabled .v15-standard-grid a::after,
+html.v27-enabled .v15-ecosystem-grid article::after{
+  content:"";position:absolute;inset:0;pointer-events:none;border-radius:inherit;opacity:0;
+  background:linear-gradient(115deg,transparent 18%,rgba(255,255,255,.23) 46%,transparent 72%);
+  transform:translate3d(-68%,0,0);transition:transform .55s cubic-bezier(.2,.75,.2,1),opacity .2s ease;
+}
+@media(hover:hover){
+  html.v27-enabled .v15-universe-card:hover::after,
+  html.v27-enabled .v15-stage-card:hover::after,
+  html.v27-enabled .v15-standard-grid a:hover::after,
+  html.v27-enabled .v15-ecosystem-grid article:hover::after{opacity:.8;transform:translate3d(68%,0,0)}
+}
+
+/* Mantiene y refina el carrusel horizontal de auditoría/ecosistema. */
+html.v27-enabled .v15-standard-grid a{outline:1px solid rgba(255,255,255,.14);outline-offset:-1px}
+html.v27-enabled .v15-standard-grid b{font-weight:720;letter-spacing:-.035em}
+html.v27-enabled .v15-standard-grid p{font-size:13px;line-height:1.6}
+html.v27-enabled .v15-source-cloud a{border-color:rgba(12,24,19,.10);box-shadow:0 8px 22px rgba(14,27,21,.035)}
+
+/* Imágenes más nítidas sin filtros artificiales. */
+html.v27-enabled .v15-universe-card>img,
+html.v27-enabled .v15-news-slide-image,
+html.v27-enabled .v15-profile-video{image-rendering:auto;filter:none!important}
+html.v27-enabled .v15-universe-card>img{box-shadow:0 28px 68px rgba(8,36,27,.22)}
+html.v27-enabled .v15-profile-video{object-fit:cover}
+
+/* Recursos debe quedar por encima de la atmósfera y mantener navegación premium. */
+html.v27-enabled .v27-resources-page{position:relative;z-index:1}
+html[data-v27-section="recursos"] .v27-atmosphere{background:radial-gradient(38vw 38vw at 3% 16%,rgba(80,220,255,.12),transparent 72%),radial-gradient(36vw 36vw at 100% 28%,rgba(216,255,79,.10),transparent 72%)}
+
+@media(max-width:760px){
+  html.v27-enabled .v15-kicker,
+  html.v27-enabled .v15-center-head span,
+  html.v27-enabled .v15-section-head span{letter-spacing:.075em!important}
+}
