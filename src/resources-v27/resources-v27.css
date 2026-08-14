@@ -310,3 +310,47 @@
   .v32-resource-card,.v32-resource-cover-image,.v32-resource-cover-backdrop,.v32-resource-cover-credit{transition:none!important}
   .v32-cover-loader{animation:none!important}
 }
+
+/* === Campus Maestro V39 · RESOURCE MOBILE HARDENING === */
+@media(max-width:900px){
+  .v27-resources-page{width:100%;max-width:100%;overflow-x:clip}
+  .v27-resources-hero,
+  .v27-resources-layout{width:calc(100% - 20px)!important;max-width:100%!important}
+  .v27-resources-hero{padding-left:20px!important;padding-right:20px!important;overflow:hidden}
+  .v27-resources-hero>div,
+  .v27-resources-main,
+  .v27-resource-card,
+  .v27-resource-card-body{min-width:0!important;max-width:100%!important}
+  .v27-resources-toolbar{flex-wrap:wrap;align-items:flex-start!important}
+  .v27-resources-toolbar>div{min-width:0;max-width:100%}
+  .v27-mobile-filter-button{flex:0 0 auto}
+  .v27-resource-modal,
+  .v27-resource-modal-info,
+  .v27-resource-preview{min-width:0;max-width:100%}
+}
+@media(max-width:620px){
+  .v27-resources-page{padding-top:78px!important}
+  .v27-resources-hero{padding:26px 18px!important;border-radius:22px!important}
+  .v27-resources-hero h1{
+    max-width:100%!important;
+    font-size:clamp(38px,11.2vw,49px)!important;
+    line-height:.94!important;
+    letter-spacing:-.055em!important;
+    overflow-wrap:anywhere!important;
+    word-break:normal!important;
+    text-wrap:balance;
+  }
+  .v27-resources-hero p{max-width:100%!important;font-size:13px!important;line-height:1.58!important}
+  .v27-resources-hero-stats{gap:7px!important}
+  .v27-resources-hero-stats article{min-width:0!important;padding:13px!important}
+  .v27-resource-grid{width:100%;min-width:0}
+  .v27-resource-card h3{overflow-wrap:anywhere}
+  .v27-resource-modal-backdrop{padding:6px!important;align-items:stretch!important}
+  .v27-resource-modal{height:calc(100dvh - 12px)!important;border-radius:18px!important}
+  .v27-mobile-filters-backdrop>aside{max-height:92dvh!important}
+}
+@media(max-width:380px){
+  .v27-resources-hero h1{font-size:38px!important}
+  .v27-resources-hero-stats{grid-template-columns:1fr 1fr!important}
+  .v27-resources-toolbar h2{font-size:25px!important}
+}

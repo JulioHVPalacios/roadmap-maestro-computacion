@@ -1,4 +1,4 @@
-import { useEffect } from "react"
+﻿import { useEffect } from "react"
 import Lenis from "lenis"
 import { gsap } from "gsap"
 import { Howl, Howler } from "howler"
@@ -88,28 +88,66 @@ function useCampusAudioV27() {
 
 function useHighRefreshScroll() {
   useEffect(() => {
-    const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches
-    const coarse = window.matchMedia("(pointer: coarse)").matches
-    if (reduce || coarse) return
+    let lenis: Lenis | null = null
 
-    const lenis = new Lenis({
-      autoRaf: false,
-      lerp: 0.145,
-      wheelMultiplier: 1,
-      smoothWheel: true,
-      syncTouch: false,
-      touchMultiplier: 1,
-      anchors: true,
-      prevent: (node) => Boolean(node.closest?.("[data-lenis-prevent]")),
-    })
+    const finePointer = window.matchMedia("(hover: hover) and (pointer: fine)")
+    const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)")
+    const mobileViewport = window.matchMedia("(max-width: 900px)")
 
-    const tick = (time: number) => lenis.raf(time * 1000)
-    gsap.ticker.add(tick)
-    gsap.ticker.lagSmoothing(0)
+    const tick = (time: number) => lenis?.raf(time * 1000)
 
-    return () => {
+    const stopLenis = () => {
+      if (!lenis) return
       gsap.ticker.remove(tick)
       lenis.destroy()
+      lenis = null
+      document.documentElement.classList.remove("lenis", "lenis-smooth", "lenis-scrolling", "lenis-stopped")
+    }
+
+    const startLenis = () => {
+      if (lenis) return
+      lenis = new Lenis({
+        autoRaf: false,
+        lerp: 0.145,
+        wheelMultiplier: 1,
+        smoothWheel: true,
+        syncTouch: false,
+        touchMultiplier: 1,
+        anchors: true,
+        allowNestedScroll: true,
+        prevent: (node) => Boolean(node.closest?.("[data-lenis-prevent]")),
+      })
+      gsap.ticker.add(tick)
+      gsap.ticker.lagSmoothing(0)
+    }
+
+    const syncScrollEngine = () => {
+      const desktopFinePointer =
+        !reducedMotion.matches &&
+        !mobileViewport.matches &&
+        window.innerWidth > 900 &&
+        finePointer.matches
+
+      if (desktopFinePointer) startLenis()
+      else stopLenis()
+    }
+
+    syncScrollEngine()
+
+    const onChange = () => syncScrollEngine()
+    finePointer.addEventListener?.("change", onChange)
+    reducedMotion.addEventListener?.("change", onChange)
+    mobileViewport.addEventListener?.("change", onChange)
+    window.addEventListener("resize", onChange, { passive: true })
+    window.addEventListener("orientationchange", onChange, { passive: true })
+
+    return () => {
+      finePointer.removeEventListener?.("change", onChange)
+      reducedMotion.removeEventListener?.("change", onChange)
+      mobileViewport.removeEventListener?.("change", onChange)
+      window.removeEventListener("resize", onChange)
+      window.removeEventListener("orientationchange", onChange)
+      stopLenis()
     }
   }, [])
 }
@@ -195,3 +233,4 @@ export default function VisualEngineV27() {
     </>
   )
 }
+

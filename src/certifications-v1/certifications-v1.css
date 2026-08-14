@@ -10,3 +10,41 @@
 @media(max-width:1280px){.cert-v1-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.cert-v1-hero{grid-template-columns:1fr}.cert-v1-stats{max-width:760px}}
 @media(max-width:880px){.cert-v1-page{padding-top:72px}.cert-v1-hero{padding:38px 20px 28px}.cert-v1-layout{display:block;padding:24px 18px 60px}.cert-v1-sidebar{display:none}.cert-v1-mobile-filter{display:flex;align-items:center;gap:7px}.cert-v1-toolbar{align-items:flex-start}.cert-v1-grid{grid-template-columns:1fr}.cert-v1-cover{height:230px}.cert-v1-stats article{min-height:110px;padding:18px}.cert-v1-stats b{font-size:29px}}
 @media(max-width:520px){.cert-v1-hero h1{font-size:44px}.cert-v1-stats{grid-template-columns:1fr 1fr}.cert-v1-toolbar h2{font-size:28px}.cert-v1-card h3{font-size:19px}}
+
+/* === Campus Maestro V39 · CERT MOBILE HARDENING === */
+@media(max-width:900px){
+  .cert-v1-page{width:100%;max-width:100%;overflow-x:clip}
+  .cert-v1-hero,
+  .cert-v1-layout,
+  .cert-v1-main,
+  .cert-v1-grid,
+  .cert-v1-card,
+  .cert-v1-card-body{min-width:0!important;max-width:100%!important}
+  .cert-v1-hero{grid-template-columns:minmax(0,1fr)!important}
+  .cert-v1-toolbar{flex-wrap:wrap!important}
+  .cert-v1-mobile-backdrop>aside{touch-action:pan-y!important;-webkit-overflow-scrolling:touch!important}
+}
+@media(max-width:520px){
+  .cert-v1-page{padding-top:70px!important}
+  .cert-v1-hero{padding:32px 18px 24px!important}
+  .cert-v1-hero h1{
+    max-width:100%!important;
+    font-size:clamp(39px,11.5vw,48px)!important;
+    line-height:.94!important;
+    letter-spacing:-.055em!important;
+    overflow-wrap:anywhere!important;
+    word-break:normal!important;
+    text-wrap:balance;
+  }
+  .cert-v1-hero p{font-size:15px!important;line-height:1.5!important}
+  .cert-v1-layout{padding:20px 10px 52px!important}
+  .cert-v1-cover{height:clamp(188px,57vw,220px)!important}
+  .cert-v1-card-body{padding:18px 16px 18px!important}
+  .cert-v1-card h3{overflow-wrap:anywhere!important}
+  .cert-v1-stats article{padding:14px!important;min-width:0!important}
+  .cert-v1-mobile-backdrop>aside{max-height:92dvh!important}
+}
+@media(max-width:380px){
+  .cert-v1-hero h1{font-size:39px!important}
+  .cert-v1-toolbar h2{font-size:25px!important}
+}
