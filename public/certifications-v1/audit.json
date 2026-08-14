@@ -1,0 +1,2766 @@
+{
+  "generatedAt": "2026-08-14T08:24:46.621Z",
+  "seed": 54,
+  "officialDiscoveredRaw": 101,
+  "officialValidated": 94,
+  "communityCandidates": 137,
+  "communityValidated": 75,
+  "published": 189,
+  "audit": [
+    {
+      "id": "ibm-digital-credentials",
+      "sourceType": "seed",
+      "url": "https://skillsbuild.org/es/digital-credentials",
+      "httpStatus": 200,
+      "finalUrl": "https://skillsbuild.org/es/digital-credentials",
+      "status": "active"
+    },
+    {
+      "id": "ibm-emerging-tech",
+      "sourceType": "seed",
+      "url": "https://skillsbuild.org/es/digital-credentials",
+      "httpStatus": 200,
+      "finalUrl": "https://skillsbuild.org/es/digital-credentials",
+      "status": "active"
+    },
+    {
+      "id": "ibm-data-fundamentals",
+      "sourceType": "seed",
+      "url": "https://skillsbuild.org/es/students/digital-credentials",
+      "httpStatus": 200,
+      "finalUrl": "https://skillsbuild.org/es/high-school",
+      "status": "active"
+    },
+    {
+      "id": "ibm-data-literacy",
+      "sourceType": "seed",
+      "url": "https://skillsbuild.org/es/students/digital-credentials",
+      "httpStatus": 200,
+      "finalUrl": "https://skillsbuild.org/es/high-school",
+      "status": "active"
+    },
+    {
+      "id": "ibm-cyber-fundamentals",
+      "sourceType": "seed",
+      "url": "https://skillsbuild.org/es/digital-credentials",
+      "httpStatus": 200,
+      "finalUrl": "https://skillsbuild.org/es/digital-credentials",
+      "status": "active"
+    },
+    {
+      "id": "ibm-agile-explorer",
+      "sourceType": "seed",
+      "url": "https://skillsbuild.org/es/adult-learners/digital-credentials",
+      "httpStatus": 200,
+      "finalUrl": "https://skillsbuild.org/es/learning-catalog",
+      "status": "active"
+    },
+    {
+      "id": "hp-ai-beginners",
+      "sourceType": "seed",
+      "url": "https://www.life-global.org/es/course/402-ia-para-principiantes",
+      "httpStatus": 200,
+      "finalUrl": "https://www.life-global.org/es/course/402-ia-para-principiantes",
+      "status": "active"
+    },
+    {
+      "id": "hp-ai-business",
+      "sourceType": "seed",
+      "url": "https://www.life-global.org/es/course/431-ia-para-profesionales-de-negocios",
+      "httpStatus": 200,
+      "finalUrl": "https://www.life-global.org/es/course/431-ia-para-profesionales-de-negocios",
+      "status": "active"
+    },
+    {
+      "id": "hp-cybersecurity",
+      "sourceType": "seed",
+      "url": "https://www.life-global.org/es/course/375-introducci%C3%B3n-al-conocimiento-de-la-ciberseguridad",
+      "httpStatus": 200,
+      "finalUrl": "https://www.life-global.org/es/course/375-introducci%C3%B3n-al-conocimiento-de-la-ciberseguridad",
+      "status": "active"
+    },
+    {
+      "id": "hp-data-science",
+      "sourceType": "seed",
+      "url": "https://www.life-global.org/es/course/355-ciencia-y-an%C3%A1lisis-de-datos",
+      "httpStatus": 200,
+      "finalUrl": "https://www.life-global.org/es/course/355-ciencia-y-an%C3%A1lisis-de-datos",
+      "status": "active"
+    },
+    {
+      "id": "hp-digital-business",
+      "sourceType": "seed",
+      "url": "https://www.life-global.org/es/course/348-introducci%C3%B3n-a-destrezas-empresariales-digitales",
+      "httpStatus": 200,
+      "finalUrl": "https://www.life-global.org/es/course/348-introducci%C3%B3n-a-destrezas-empresariales-digitales",
+      "status": "active"
+    },
+    {
+      "id": "hp-it-business",
+      "sourceType": "seed",
+      "url": "https://www.life-global.org/es/course/159-tecnolog%C3%ADa-de-la-informaci%C3%B3n-para-el-%C3%A9xito-en-los-negocios",
+      "httpStatus": 200,
+      "finalUrl": "https://www.life-global.org/es/course/159-tecnolog%C3%ADa-de-la-informaci%C3%B3n-para-el-%C3%A9xito-en-los-negocios",
+      "status": "active"
+    },
+    {
+      "id": "santander-python-2026",
+      "sourceType": "seed",
+      "url": "https://www.santanderopenacademy.com/es/courses/introduction_to_python_programming.html/index.html",
+      "httpStatus": 200,
+      "finalUrl": "https://www.santanderopenacademy.com/es/courses/introduction_to_python_programming.html/index.html",
+      "status": "active"
+    },
+    {
+      "id": "santander-marketing-automation-2026",
+      "sourceType": "seed",
+      "url": "https://www.santanderopenacademy.com/es/courses/marketing-automation.html/index.html",
+      "httpStatus": 200,
+      "finalUrl": "https://www.santanderopenacademy.com/es/courses/marketing-automation.html/index.html",
+      "status": "active"
+    },
+    {
+      "id": "santander-tech-catalog",
+      "sourceType": "seed",
+      "url": "https://www.santanderopenacademy.com/es/sites/courses/tech.html",
+      "httpStatus": 200,
+      "finalUrl": "https://www.santanderopenacademy.com/es/sites/courses/tech.html",
+      "status": "active"
+    },
+    {
+      "id": "santander-tools-catalog",
+      "sourceType": "seed",
+      "url": "https://www.santanderopenacademy.com/es/sites/courses/tools.html",
+      "httpStatus": 200,
+      "finalUrl": "https://www.santanderopenacademy.com/es/sites/courses/tools.html",
+      "status": "active"
+    },
+    {
+      "id": "hubspot-digital-marketing",
+      "sourceType": "seed",
+      "url": "https://academy.hubspot.com/es/courses/digital-marketing",
+      "httpStatus": 200,
+      "finalUrl": "https://academy.hubspot.com/es/courses/digital-marketing",
+      "status": "active"
+    },
+    {
+      "id": "hubspot-social-media",
+      "sourceType": "seed",
+      "url": "https://academy.hubspot.com/es/courses/social-media",
+      "httpStatus": 200,
+      "finalUrl": "https://academy.hubspot.com/es/courses/social-media",
+      "status": "active"
+    },
+    {
+      "id": "hubspot-content-marketing",
+      "sourceType": "seed",
+      "url": "https://academy.hubspot.com/es/courses/content-marketing",
+      "httpStatus": 200,
+      "finalUrl": "https://academy.hubspot.com/es/courses/content-marketing",
+      "status": "active"
+    },
+    {
+      "id": "hubspot-certifications-live",
+      "sourceType": "seed",
+      "url": "https://academy.hubspot.com/es/certification-overview",
+      "httpStatus": 200,
+      "finalUrl": "https://academy.hubspot.com/es/certification-overview",
+      "status": "active"
+    },
+    {
+      "id": "google-ads-certifications",
+      "sourceType": "seed",
+      "url": "https://skillshop.withgoogle.com/intl/es-419_ALL/googleads/",
+      "httpStatus": 200,
+      "finalUrl": "https://skillshop.withgoogle.com/intl/es-419_ALL/googleads/",
+      "status": "active"
+    },
+    {
+      "id": "google-developer-badges",
+      "sourceType": "seed",
+      "url": "https://developers.google.com/profile/badges?hl=es-419",
+      "httpStatus": 200,
+      "finalUrl": "https://developers.google.com/profile/badges?hl=es-419",
+      "status": "active"
+    },
+    {
+      "id": "microsoft-ai-agent-applied-skill",
+      "sourceType": "seed",
+      "url": "https://learn.microsoft.com/en-us/credentials/applied-skills/create-an-ai-agent/",
+      "httpStatus": 200,
+      "finalUrl": "https://learn.microsoft.com/en-us/credentials/applied-skills/create-an-ai-agent/",
+      "status": "active"
+    },
+    {
+      "id": "microsoft-agents-foundry-applied-skill",
+      "sourceType": "seed",
+      "url": "https://learn.microsoft.com/en-us/credentials/applied-skills/get-started-developing-agents-in-microsoft-foundry/",
+      "httpStatus": 200,
+      "finalUrl": "https://learn.microsoft.com/en-us/credentials/applied-skills/get-started-developing-agents-in-microsoft-foundry/",
+      "status": "active"
+    },
+    {
+      "id": "microsoft-powerapps-applied-skill",
+      "sourceType": "seed",
+      "url": "https://learn.microsoft.com/en-us/credentials/applied-skills/create-manage-canvas-apps-power-apps/",
+      "httpStatus": 200,
+      "finalUrl": "https://learn.microsoft.com/en-us/credentials/applied-skills/create-manage-canvas-apps-power-apps/",
+      "status": "active"
+    },
+    {
+      "id": "microsoft-learn-free",
+      "sourceType": "seed",
+      "url": "https://learn.microsoft.com/es-es/training/",
+      "httpStatus": 200,
+      "finalUrl": "https://learn.microsoft.com/es-es/training/",
+      "status": "active"
+    },
+    {
+      "id": "cisco-netacad",
+      "sourceType": "seed",
+      "url": "https://www.netacad.com/es/",
+      "httpStatus": 200,
+      "finalUrl": "https://www.netacad.com/es/",
+      "status": "active"
+    },
+    {
+      "id": "cisco-intro-cyber",
+      "sourceType": "seed",
+      "url": "https://www.netacad.com/es/",
+      "httpStatus": 200,
+      "finalUrl": "https://www.netacad.com/es/",
+      "status": "active"
+    },
+    {
+      "id": "aws-skill-builder-free",
+      "sourceType": "seed",
+      "url": "https://aws.amazon.com/es/training/digital/",
+      "httpStatus": 200,
+      "finalUrl": "https://aws.amazon.com/es/training/digital/",
+      "status": "active"
+    },
+    {
+      "id": "aws-training-badges",
+      "sourceType": "seed",
+      "url": "https://aws.amazon.com/training/badges/",
+      "httpStatus": 200,
+      "finalUrl": "https://aws.amazon.com/es/training/badges/",
+      "status": "active"
+    },
+    {
+      "id": "mtpe-capacita-t",
+      "sourceType": "seed",
+      "url": "https://capacitacionlaboral.trabajo.gob.pe/",
+      "httpStatus": 200,
+      "finalUrl": "https://capacitacionlaboral.trabajo.gob.pe/",
+      "status": "active"
+    },
+    {
+      "id": "empleos-peru-certifica",
+      "sourceType": "seed",
+      "url": "https://www.gob.pe/23794-obtener-capacitacion-y-certificacion-en-empleos-peru",
+      "httpStatus": 200,
+      "finalUrl": "https://www.gob.pe/23794-obtener-capacitacion-y-certificacion-en-empleos-peru",
+      "status": "active"
+    },
+    {
+      "id": "carlos-slim-capacitate",
+      "sourceType": "seed",
+      "url": "https://capacitateparaelempleo.org/",
+      "httpStatus": 200,
+      "finalUrl": "https://capacitateparaelempleo.org/",
+      "status": "active"
+    },
+    {
+      "id": "openlearn-digital-skills",
+      "sourceType": "seed",
+      "url": "https://www.open.edu/openlearn/mod/oucontent/view.php?id=105151",
+      "httpStatus": 403,
+      "finalUrl": "https://www.open.edu/openlearn/mod/oucontent/view.php?id=105151",
+      "status": "active"
+    },
+    {
+      "id": "openlearn-catalog",
+      "sourceType": "seed",
+      "url": "https://www.open.edu/openlearn/",
+      "httpStatus": 403,
+      "finalUrl": "https://www.open.edu/openlearn/",
+      "status": "active"
+    },
+    {
+      "id": "mongodb-university-free",
+      "sourceType": "seed",
+      "url": "https://learn.mongodb.com/catalog?labels=%5B%22Free%2FPaid%22%5D&values=%5B%22Free%22%5D",
+      "httpStatus": 200,
+      "finalUrl": "https://learn.mongodb.com/catalog?labels=%5B%22Free%2FPaid%22%5D&values=%5B%22Free%22%5D",
+      "status": "active"
+    },
+    {
+      "id": "saylor-free-certificates",
+      "sourceType": "seed",
+      "url": "https://www.saylor.org/certificates/",
+      "httpStatus": 200,
+      "finalUrl": "https://www.saylor.org/certificates/",
+      "status": "active"
+    },
+    {
+      "id": "fortinet-free-training",
+      "sourceType": "seed",
+      "url": "https://training.fortinet.com/",
+      "httpStatus": 200,
+      "finalUrl": "https://training.fortinet.com/",
+      "status": "active"
+    },
+    {
+      "id": "sap-learning-free",
+      "sourceType": "seed",
+      "url": "https://learning.sap.com/",
+      "httpStatus": 200,
+      "finalUrl": "https://learning.sap.com/",
+      "status": "active"
+    },
+    {
+      "id": "freecodecamp-spanish",
+      "sourceType": "seed",
+      "url": "https://www.freecodecamp.org/espanol/learn/",
+      "httpStatus": 200,
+      "finalUrl": "https://www.freecodecamp.org/espanol/learn",
+      "status": "active"
+    },
+    {
+      "id": "microsoft-applied-skills",
+      "sourceType": "seed",
+      "url": "https://learn.microsoft.com/es-es/credentials/applied-skills/",
+      "httpStatus": 200,
+      "finalUrl": "https://learn.microsoft.com/es-es/credentials/applied-skills/",
+      "status": "active"
+    },
+    {
+      "id": "google-skillshop-live",
+      "sourceType": "seed",
+      "url": "https://skillshop.withgoogle.com/intl/es-419_ALL/?hl=es",
+      "httpStatus": 200,
+      "finalUrl": "https://skillshop.withgoogle.com/intl/es-419_ALL/?hl=es",
+      "status": "active"
+    },
+    {
+      "id": "platzi-free-certificates",
+      "sourceType": "seed",
+      "url": "https://platzi.com/blog/cursos-gratis/",
+      "httpStatus": 200,
+      "finalUrl": "https://platzi.com/blog/cursos-gratis/",
+      "status": "active"
+    },
+    {
+      "id": "neo4j-graphacademy-certifications",
+      "sourceType": "seed",
+      "url": "https://graphacademy.neo4j.com/certifications",
+      "httpStatus": 200,
+      "finalUrl": "https://graphacademy.neo4j.com/certifications",
+      "status": "active"
+    },
+    {
+      "id": "hackerrank-skillup-certify",
+      "sourceType": "seed",
+      "url": "https://www.hackerrank.com/skills-verification",
+      "httpStatus": 403,
+      "finalUrl": "https://www.hackerrank.com/skills-verification",
+      "status": "active"
+    },
+    {
+      "id": "kaggle-learn-certificates",
+      "sourceType": "seed",
+      "url": "https://www.kaggle.com/learn",
+      "httpStatus": 200,
+      "finalUrl": "https://www.kaggle.com/learn",
+      "status": "active"
+    },
+    {
+      "id": "github-skills-free",
+      "sourceType": "seed",
+      "url": "https://skills.github.com/",
+      "httpStatus": 200,
+      "finalUrl": "https://learn.github.com/skills",
+      "status": "active"
+    },
+    {
+      "id": "gitlab-university-free",
+      "sourceType": "seed",
+      "url": "https://university.gitlab.com/",
+      "httpStatus": 200,
+      "finalUrl": "https://university.gitlab.com/",
+      "status": "active"
+    },
+    {
+      "id": "the-odin-project",
+      "sourceType": "seed",
+      "url": "https://www.theodinproject.com/",
+      "httpStatus": 200,
+      "finalUrl": "https://www.theodinproject.com/",
+      "status": "active"
+    },
+    {
+      "id": "mouredev-free-courses",
+      "sourceType": "seed",
+      "url": "https://github.com/mouredev",
+      "httpStatus": 200,
+      "finalUrl": "https://github.com/mouredev",
+      "status": "active"
+    },
+    {
+      "id": "midudev-free-courses",
+      "sourceType": "seed",
+      "url": "https://github.com/midudev",
+      "httpStatus": 200,
+      "finalUrl": "https://github.com/midudev",
+      "status": "active"
+    },
+    {
+      "id": "fazt-free-courses",
+      "sourceType": "seed",
+      "url": "https://fazt.dev/",
+      "httpStatus": 200,
+      "finalUrl": "https://fazt.dev/",
+      "status": "active"
+    },
+    {
+      "id": "holamundo-open-content",
+      "sourceType": "seed",
+      "url": "https://www.youtube.com/@HolaMundoDev",
+      "httpStatus": 200,
+      "finalUrl": "https://www.youtube.com/@HolaMundoDev",
+      "status": "active"
+    },
+    {
+      "id": "meta-blueprint-free-learning",
+      "sourceType": "seed",
+      "url": "https://www.facebook.com/business/learn",
+      "httpStatus": 200,
+      "finalUrl": "https://www.facebook.com/business/learn",
+      "status": "active"
+    },
+    {
+      "id": "live-hubspot-inbound-nuevo-certificacion-3-horas-marketing-ventas-service",
+      "sourceType": "discovered",
+      "url": "https://academy.hubspot.com/es/courses/inbound",
+      "finalUrl": "https://academy.hubspot.com/es/courses/inbound",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-hubspot-curso-de-certificacion-de-marketing-en-redes-sociales-certificacion-6-horas-marketing",
+      "sourceType": "discovered",
+      "url": "https://academy.hubspot.com/es/courses/social-media",
+      "finalUrl": "https://academy.hubspot.com/es/courses/social-media",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-hubspot-marketing-digital-certificacion-6-horas-marketing",
+      "sourceType": "discovered",
+      "url": "https://academy.hubspot.com/es/courses/digital-marketing",
+      "finalUrl": "https://academy.hubspot.com/es/courses/digital-marketing",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-hubspot-inbound-marketing-certificacion-5-horas-marketing",
+      "sourceType": "discovered",
+      "url": "https://academy.hubspot.com/es/courses/inbound-marketing",
+      "finalUrl": "https://academy.hubspot.com/es/courses/inbound-marketing",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-hubspot-marketing-de-contenidos-certificacion-9-horas-marketing",
+      "sourceType": "discovered",
+      "url": "https://academy.hubspot.com/es/courses/content-marketing",
+      "finalUrl": "https://academy.hubspot.com/es/courses/content-marketing",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-hubspot-ventas-inbound-certificacion-3-horas-ventas",
+      "sourceType": "discovered",
+      "url": "https://academy.hubspot.com/es/courses/inbound-sales",
+      "finalUrl": "https://academy.hubspot.com/es/courses/inbound-sales",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-hubspot-ventas-sin-friccion-certificacion-2-horas-ventas",
+      "sourceType": "discovered",
+      "url": "https://academy.hubspot.com/es/courses/frictionless-sales",
+      "finalUrl": "https://academy.hubspot.com/es/courses/frictionless-sales",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-hubspot-habilitacion-de-ventas-certificacion-5-horas-ventas",
+      "sourceType": "discovered",
+      "url": "https://academy.hubspot.com/es/courses/sales-enablement",
+      "finalUrl": "https://academy.hubspot.com/es/courses/sales-enablement",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-hubspot-optimizacion-del-inbound-marketing-certificacion-5-horas-marketing",
+      "sourceType": "discovered",
+      "url": "https://academy.hubspot.com/es/courses/inbound-marketing-optimization",
+      "finalUrl": "https://academy.hubspot.com/es/courses/inbound-marketing-optimization",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-hubspot-certificacion-de-content-hub-para-marketers-certificacion-3-horas-marketing",
+      "sourceType": "discovered",
+      "url": "https://academy.hubspot.com/es/courses/hubspot-content-hub-software-es",
+      "finalUrl": "https://academy.hubspot.com/es/courses/hubspot-content-hub-software-es",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-hubspot-certificacion-en-optimizacion-para-motores-de-respuesta-aeo-certificacion-4-horas-marketing",
+      "sourceType": "discovered",
+      "url": "https://academy.hubspot.com/es/courses/aeo-fundamentals-certification",
+      "finalUrl": "https://academy.hubspot.com/es/courses/aeo-fundamentals-certification",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-hubspot-certificacion-en-implementacion-de-aeo-con-hubspot-certificacion-3-horas",
+      "sourceType": "discovered",
+      "url": "https://academy.hubspot.com/es/courses/implementing-aeo-with-hubspot-certification",
+      "finalUrl": "https://academy.hubspot.com/es/courses/implementing-aeo-with-hubspot-certification",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-mtpe-competencias-digita",
+      "sourceType": "discovered",
+      "url": "https://capacitacionlaboral.trabajo.gob.pe/rutas/competencias-digitales-basicas-para-el-empleo",
+      "finalUrl": "https://capacitacionlaboral.trabajo.gob.pe/rutas/competencias-digitales-basicas-para-el-empleo",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-mtpe-abc-digital",
+      "sourceType": "discovered",
+      "url": "https://capacitacionlaboral.trabajo.gob.pe/cursos/abc-digital",
+      "finalUrl": "https://capacitacionlaboral.trabajo.gob.pe/cursos/abc-digital",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-mtpe-analista-junior-en",
+      "sourceType": "discovered",
+      "url": "https://capacitacionlaboral.trabajo.gob.pe/rutas/analista-junior-en-ciberseguridad",
+      "finalUrl": "https://capacitacionlaboral.trabajo.gob.pe/rutas/analista-junior-en-ciberseguridad",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-mtpe-administracion-de-amenazas-ciberneticas",
+      "sourceType": "discovered",
+      "url": "https://capacitacionlaboral.trabajo.gob.pe/cursos/administracion-de-amenazas-ciberneticas",
+      "finalUrl": "https://capacitacionlaboral.trabajo.gob.pe/cursos/administracion-de-amenazas-ciberneticas",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-mtpe-habilidades-digital",
+      "sourceType": "discovered",
+      "url": "https://capacitacionlaboral.trabajo.gob.pe/rutas/habilidades-digitales-nivel-intermedio",
+      "finalUrl": "https://capacitacionlaboral.trabajo.gob.pe/rutas/habilidades-digitales-nivel-intermedio",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-mtpe-analisis-de-datos-con-power-bi",
+      "sourceType": "discovered",
+      "url": "https://capacitacionlaboral.trabajo.gob.pe/cursos/analisis-de-datos-con-power-bi",
+      "finalUrl": "https://capacitacionlaboral.trabajo.gob.pe/cursos/analisis-de-datos-con-power-bi",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-ibm-ir-al-contenido-principal",
+      "sourceType": "discovered",
+      "url": "https://skillsbuild.org/es/digital-credentials",
+      "finalUrl": "https://skillsbuild.org/es/digital-credentials",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-mongodb-skip-to-main-content",
+      "sourceType": "discovered",
+      "url": "https://learn.mongodb.com/catalog?labels=%5B%22Free%2FPaid%22%5D&values=%5B%22Free%22%5D",
+      "finalUrl": "https://learn.mongodb.com/catalog?labels=%5B%22Free%2FPaid%22%5D&values=%5B%22Free%22%5D",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-saylor-courses-programs",
+      "sourceType": "discovered",
+      "url": "https://learn.saylor.org/course/index.php?categoryid=9",
+      "finalUrl": "https://learn.saylor.org/course/index.php?categoryid=9",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-saylor-specialization-programs",
+      "sourceType": "discovered",
+      "url": "https://learn.saylor.org/enrol/programs/catalogue/index.php",
+      "finalUrl": "https://learn.saylor.org/enrol/programs/catalogue/index.php",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-saylor-degree-programs",
+      "sourceType": "discovered",
+      "url": "https://degrees.saylor.org",
+      "finalUrl": "https://degrees.saylor.org",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-saylor-verify-certificate",
+      "sourceType": "discovered",
+      "url": "https://learn.saylor.org/mod/page/view.php?id=101601",
+      "finalUrl": "https://learn.saylor.org/mod/page/view.php?id=101601",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-saylor-cs101-introduction-to-programming-i",
+      "sourceType": "discovered",
+      "url": "https://learn.saylor.org/course/view.php?id=1146",
+      "finalUrl": "https://learn.saylor.org/course/view.php?id=1146",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-saylor-cs102-introduction-to-programming-ii",
+      "sourceType": "discovered",
+      "url": "https://learn.saylor.org/course/view.php?id=1364",
+      "finalUrl": "https://learn.saylor.org/course/view.php?id=1364",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-saylor-cs107-c-programming",
+      "sourceType": "discovered",
+      "url": "https://learn.saylor.org/course/view.php?id=65",
+      "finalUrl": "https://learn.saylor.org/course/view.php?id=65",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-saylor-cs201-elementary-data-structures",
+      "sourceType": "discovered",
+      "url": "https://learn.saylor.org/course/view.php?id=1307",
+      "finalUrl": "https://learn.saylor.org/course/view.php?id=1307",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-saylor-cs250-python-for-data-science",
+      "sourceType": "discovered",
+      "url": "https://learn.saylor.org/course/view.php?id=504",
+      "finalUrl": "https://learn.saylor.org/course/view.php?id=504",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-saylor-cs260-introduction-to-cryptography-and-network-security",
+      "sourceType": "discovered",
+      "url": "https://learn.saylor.org/course/view.php?id=805",
+      "finalUrl": "https://learn.saylor.org/course/view.php?id=805",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-saylor-cs301-computer-architecture",
+      "sourceType": "discovered",
+      "url": "https://learn.saylor.org/course/view.php?id=71",
+      "finalUrl": "https://learn.saylor.org/course/view.php?id=71",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-saylor-cs302-software-engineering",
+      "sourceType": "discovered",
+      "url": "https://learn.saylor.org/course/view.php?id=788",
+      "finalUrl": "https://learn.saylor.org/course/view.php?id=788",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-saylor-cs402-computer-communications-and-networks",
+      "sourceType": "discovered",
+      "url": "https://learn.saylor.org/course/view.php?id=790",
+      "finalUrl": "https://learn.saylor.org/course/view.php?id=790",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-saylor-cs403-introduction-to-modern-database-systems",
+      "sourceType": "discovered",
+      "url": "https://learn.saylor.org/course/view.php?id=863",
+      "finalUrl": "https://learn.saylor.org/course/view.php?id=863",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-saylor-cs406-information-security",
+      "sourceType": "discovered",
+      "url": "https://learn.saylor.org/course/view.php?id=453",
+      "finalUrl": "https://learn.saylor.org/course/view.php?id=453",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-saylor-detailed-licensing-information",
+      "sourceType": "discovered",
+      "url": "https://www.saylor.org/open/licensinginformation",
+      "status": "inactive",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-fortinet-training-institute",
+      "sourceType": "discovered",
+      "url": "https://training.fortinet.com",
+      "finalUrl": "https://training.fortinet.com",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-fortinet-certifications",
+      "sourceType": "discovered",
+      "url": "https://training.fortinet.com/local/staticpage/view.php?page=certifications",
+      "finalUrl": "https://www.fortinet.com/training-certification",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-sap-learning-journey-developing-a-universe-using-sap-businessobjects-information-design-tool",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/learning-journeys/developing-a-universe-using-sap-businessobjects-information-design-tool",
+      "finalUrl": "https://learning.sap.com/learning-journeys/developing-a-universe-using-sap-businessobjects-information-design-tool",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-sap-course-positioning-sap-solutions-for-business-network-solutions",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/courses/positioning-sap-solutions-for-business-network-solutions",
+      "finalUrl": "https://learning.sap.com/courses/positioning-sap-solutions-for-business-network-solutions",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-sap-course-positioning-sap-solutions-for-business-network-solutions-for-partners",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/courses/positioning-sap-solutions-for-business-network-solutions-for-partners",
+      "finalUrl": "https://learning.sap.com/courses/positioning-sap-solutions-for-business-network-solutions-for-partners",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-sap-course-commerce-and-s-4hana-end-to-end-integration",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/courses/commerce-and-s-4hana-end-to-end-integration",
+      "finalUrl": "https://learning.sap.com/courses/commerce-and-s-4hana-end-to-end-integration",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-sap-course-discovering-procurement-solutions",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/courses/discovering-procurement-solutions",
+      "finalUrl": "https://learning.sap.com/courses/discovering-procurement-solutions",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-sap-learning-journey-administering-and-using-responsible-design-and-production-for-the-circular-economy",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/learning-journeys/administering-and-using-responsible-design-and-production-for-the-circular-economy",
+      "finalUrl": "https://learning.sap.com/learning-journeys/administering-and-using-responsible-design-and-production-for-the-circular-economy",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-sap-course-explore-sap-successfactors-solutions",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/courses/explore-sap-successfactors-solutions",
+      "finalUrl": "https://learning.sap.com/courses/explore-sap-successfactors-solutions",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-sap-artificial-intelligence-develop-practical-ai-skills-with-guided-learning-and-recognized-certifications",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/artificial-intelligence",
+      "status": "inactive",
+      "httpStatus": 404
+    },
+    {
+      "id": "live-sap-technology-platform-learn-integration-data-and-app-development-with-sap-btp",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/products/business-technology-platform",
+      "finalUrl": "https://learning.sap.com/products/business-technology-platform",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-sap-sap-business-data-cloud-gain-data-and-analytics-skills-for-modern-enterprises",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/products/business-data-cloud",
+      "finalUrl": "https://learning.sap.com/products/business-data-cloud",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-sap-autonomous-enterprise-build-skills-for-ai-driven-transformations",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/autonomous-enterprise",
+      "status": "inactive",
+      "httpStatus": 404
+    },
+    {
+      "id": "live-sap-learning-journeys",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/learning-journeys",
+      "finalUrl": "https://learning.sap.com/learning-journeys",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-sap-self-paced-courses",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/courses",
+      "finalUrl": "https://learning.sap.com/courses",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-sap-videos",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com",
+      "finalUrl": "https://learning.sap.com",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-sap-learning-managers-enable-effective-sap-skills-development-empower-teams-with-smarter-sap-learning",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/learning-managers",
+      "finalUrl": "https://learning.sap.com/learning-managers",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-sap-watch-now",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/onboarding-videos",
+      "finalUrl": "https://learning.sap.com/onboarding-videos",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-sap-json",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/service/catalog-download/json",
+      "status": "unreachable",
+      "httpStatus": 0
+    },
+    {
+      "id": "live-sap-xlsx",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/service/catalog-download/xlsx",
+      "status": "unreachable",
+      "httpStatus": 0
+    },
+    {
+      "id": "live-sap-get-support",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/helpcenter",
+      "finalUrl": "https://learning.sap.com/helpcenter",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-sap-release-notes",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/release-notes",
+      "finalUrl": "https://learning.sap.com/release-notes",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-sap-sap-s-4hana-cloud-public-edition",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/products/s4hana-cloud",
+      "finalUrl": "https://learning.sap.com/products/s4hana-cloud",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-sap-sap-s-4hana-cloud-private-edition",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/products/s4hana-cloud-private",
+      "finalUrl": "https://learning.sap.com/products/s4hana-cloud-private",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-sap-supply-chain-management",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/products/supply-chain-management",
+      "finalUrl": "https://learning.sap.com/products/supply-chain-management",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-sap-financial-management",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/products/financial-management",
+      "finalUrl": "https://learning.sap.com/products/financial-management",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-sap-human-capital-management",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/products/human-capital-management",
+      "finalUrl": "https://learning.sap.com/products/human-capital-management",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-microsoft-applied-ir-al-contenido-principal",
+      "sourceType": "discovered",
+      "url": "https://learn.microsoft.com/es-es/credentials/applied-skills",
+      "finalUrl": "https://learn.microsoft.com/es-es/credentials/applied-skills",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-platzi-free-toma-las-primeras-clases-gratis",
+      "sourceType": "discovered",
+      "url": "https://platzi.com/cursos/basico-programacion",
+      "finalUrl": "https://platzi.com/cursos/basico-programacion",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-platzi-free-curso-gratis-de-programacion-basica",
+      "sourceType": "discovered",
+      "url": "https://platzi.com/cursos/programacion-basica",
+      "finalUrl": "https://platzi.com/cursos/programacion-basica",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-platzi-free-curso-gratis-de-marca-personal",
+      "sourceType": "discovered",
+      "url": "https://platzi.com/cursos/marca-personal",
+      "finalUrl": "https://platzi.com/cursos/marca-personal",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-platzi-free-curso-gratis-de-estrategias-para-aprender-ingles-en-linea",
+      "sourceType": "discovered",
+      "url": "https://platzi.com/cursos/estrategias-ingles",
+      "finalUrl": "https://platzi.com/cursos/estrategias-ingles",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-platzi-free-curso-gratis-de-introduccion-a-la-inteligencia-artificial",
+      "sourceType": "discovered",
+      "url": "https://platzi.com/cursos/introduccion-ai",
+      "finalUrl": "https://platzi.com/cursos/intro-ai",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-platzi-free-curso-gratis-de-lovable",
+      "sourceType": "discovered",
+      "url": "https://platzi.com/cursos/lovable",
+      "finalUrl": "https://platzi.com/cursos/lovable",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-platzi-free-curso-gratis-para-crear-agentes-de-ai-con-copilot-studio",
+      "sourceType": "discovered",
+      "url": "https://platzi.com/cursos/copilot-studio",
+      "finalUrl": "https://platzi.com/cursos/copilot-studio",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-platzi-free-curso-de-pagos-abiertos-con-interledger",
+      "sourceType": "discovered",
+      "url": "https://platzi.com/cursos/interledger-openpayments",
+      "finalUrl": "https://platzi.com/cursos/interledger-openpayments",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-neo4j-neo4j-certified-professional-1h-80-questions-80-to-pass-prove-your-neo4j-credentials-with-an-accredited-certif",
+      "sourceType": "discovered",
+      "url": "https://graphacademy.neo4j.com/certifications/neo4j-certification",
+      "finalUrl": "https://graphacademy.neo4j.com/certifications/neo4j-certification",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-neo4j-neo4j-graph-data-science-certification-1h-50-questions-80-to-pass-prove-your-graph-data-science-credentials-wi",
+      "sourceType": "discovered",
+      "url": "https://graphacademy.neo4j.com/certifications/gds-certification",
+      "finalUrl": "https://graphacademy.neo4j.com/certifications/gds-certification",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-kaggle-intro-to-programming-get-started-with-python-if-you-have-no-coding-experience",
+      "sourceType": "discovered",
+      "url": "https://www.kaggle.com/learn/intro-to-programming",
+      "finalUrl": "https://www.kaggle.com/learn/intro-to-programming",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-kaggle-python-learn-the-most-important-language-for-data-science",
+      "sourceType": "discovered",
+      "url": "https://www.kaggle.com/learn/python",
+      "finalUrl": "https://www.kaggle.com/learn/python",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-kaggle-intro-to-machine-learning-learn-the-core-ideas-in-machine-learning-and-build-your-first-models",
+      "sourceType": "discovered",
+      "url": "https://www.kaggle.com/learn/intro-to-machine-learning",
+      "finalUrl": "https://www.kaggle.com/learn/intro-to-machine-learning",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-kaggle-pandas-solve-short-hands-on-challenges-to-perfect-your-data-manipulation-skills",
+      "sourceType": "discovered",
+      "url": "https://www.kaggle.com/learn/pandas",
+      "finalUrl": "https://www.kaggle.com/learn/pandas",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-kaggle-intermediate-machine-learning-handle-missing-values-non-numeric-values-data-leakage-and-more",
+      "sourceType": "discovered",
+      "url": "https://www.kaggle.com/learn/intermediate-machine-learning",
+      "finalUrl": "https://www.kaggle.com/learn/intermediate-machine-learning",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-kaggle-data-visualization-make-great-data-visualizations-a-great-way-to-see-the-power-of-coding",
+      "sourceType": "discovered",
+      "url": "https://www.kaggle.com/learn/data-visualization",
+      "finalUrl": "https://www.kaggle.com/learn/data-visualization",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-kaggle-feature-engineering-better-features-make-better-models-discover-how-to-get-the-most-out-of-your-data",
+      "sourceType": "discovered",
+      "url": "https://www.kaggle.com/learn/feature-engineering",
+      "finalUrl": "https://www.kaggle.com/learn/feature-engineering",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-kaggle-intro-to-sql-learn-sql-for-working-with-databases-using-google-bigquery",
+      "sourceType": "discovered",
+      "url": "https://www.kaggle.com/learn/intro-to-sql",
+      "finalUrl": "https://www.kaggle.com/learn/intro-to-sql",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-kaggle-advanced-sql-take-your-sql-skills-to-the-next-level",
+      "sourceType": "discovered",
+      "url": "https://www.kaggle.com/learn/advanced-sql",
+      "finalUrl": "https://www.kaggle.com/learn/advanced-sql",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-kaggle-intro-to-deep-learning-use-tensorflow-and-keras-to-build-and-train-neural-networks-for-structured-data",
+      "sourceType": "discovered",
+      "url": "https://www.kaggle.com/learn/intro-to-deep-learning",
+      "finalUrl": "https://www.kaggle.com/learn/intro-to-deep-learning",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-kaggle-time-series-apply-machine-learning-to-real-world-forecasting-tasks",
+      "sourceType": "discovered",
+      "url": "https://www.kaggle.com/learn/time-series",
+      "finalUrl": "https://www.kaggle.com/learn/time-series",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-kaggle-data-cleaning-master-efficient-workflows-for-cleaning-real-world-messy-data",
+      "sourceType": "discovered",
+      "url": "https://www.kaggle.com/learn/data-cleaning",
+      "finalUrl": "https://www.kaggle.com/learn/data-cleaning",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-kaggle-intro-to-ai-ethics-explore-practical-tools-to-guide-the-moral-design-of-ai-systems",
+      "sourceType": "discovered",
+      "url": "https://www.kaggle.com/learn/intro-to-ai-ethics",
+      "finalUrl": "https://www.kaggle.com/learn/intro-to-ai-ethics",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-kaggle-geospatial-analysis-create-interactive-maps-and-discover-patterns-in-geospatial-data",
+      "sourceType": "discovered",
+      "url": "https://www.kaggle.com/learn/geospatial-analysis",
+      "finalUrl": "https://www.kaggle.com/learn/geospatial-analysis",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-kaggle-machine-learning-explainability-extract-human-understandable-insights-from-any-model",
+      "sourceType": "discovered",
+      "url": "https://www.kaggle.com/learn/machine-learning-explainability",
+      "finalUrl": "https://www.kaggle.com/learn/machine-learning-explainability",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-kaggle-intro-to-game-ai-and-reinforcement-learning-build-your-own-video-game-bots-using-classic-and-cutting-edge-algo",
+      "sourceType": "discovered",
+      "url": "https://www.kaggle.com/learn/intro-to-game-ai-and-reinforcement-learning",
+      "finalUrl": "https://www.kaggle.com/learn/intro-to-game-ai-and-reinforcement-learning",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-gitlab-university-skip-to-main-content",
+      "sourceType": "discovered",
+      "url": "https://university.gitlab.com",
+      "finalUrl": "https://university.gitlab.com",
+      "status": "rejected",
+      "reason": "no-learning-evidence",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-fazt-explorar-cursos",
+      "sourceType": "discovered",
+      "url": "https://fazt.dev/contenido",
+      "finalUrl": "https://fazt.dev/contenido",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-fazt-1-a-1-asesorias-en-vivo-sesiones-por-videollamada-para-construir-con-ia-y-agentes-sobre-tu-proyecto-real",
+      "sourceType": "discovered",
+      "url": "https://fazt.dev/asesorias",
+      "finalUrl": "https://fazt.dev/asesorias",
+      "status": "rejected",
+      "reason": "no-learning-evidence",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-fazt-course-claude-code-curso-practico-crea-proyectos-reales-con-skills-mcps-y-plan-mode",
+      "sourceType": "discovered",
+      "url": "https://fazt.dev/contenido/claude-code-curso-completo-skills-mcp-subagentes",
+      "finalUrl": "https://fazt.dev/contenido/claude-code-curso-completo-skills-mcp-subagentes",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-fazt-course-curso-de-opencode-2026-v1",
+      "sourceType": "discovered",
+      "url": "https://fazt.dev/contenido/opencode-programar-con-ia-terminal",
+      "finalUrl": "https://fazt.dev/contenido/opencode-programar-con-ia-terminal",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-fazt-course-curso-de-claude-code-2026",
+      "sourceType": "discovered",
+      "url": "https://fazt.dev/contenido/curso-practico-claude-code-hooks-mcp-skills-plugins",
+      "finalUrl": "https://fazt.dev/contenido/curso-practico-claude-code-hooks-mcp-skills-plugins",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-fazt-course-mis-agent-skills-mas-usados",
+      "sourceType": "discovered",
+      "url": "https://fazt.dev/contenido/mis-agent-skills-m%c3%a1s-usados",
+      "finalUrl": "https://fazt.dev/contenido/mis-agent-skills-m%c3%a1s-usados",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-fazt-course-vs-code-con-ia-guia-completa-para-programadores",
+      "sourceType": "discovered",
+      "url": "https://fazt.dev/contenido/vscode-ia-agentes-mcp-skills",
+      "finalUrl": "https://fazt.dev/contenido/vscode-ia-agentes-mcp-skills",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-fazt-course-curso-de-react",
+      "sourceType": "discovered",
+      "url": "https://fazt.dev/contenido/react",
+      "finalUrl": "https://fazt.dev/contenido/react",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-fazt-course-curso-de-nestjs-framework-backend-de-nodejs",
+      "sourceType": "discovered",
+      "url": "https://fazt.dev/contenido/nestjs",
+      "finalUrl": "https://fazt.dev/contenido/nestjs",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-fazt-course-nextjs-full-ecommerce-project",
+      "sourceType": "discovered",
+      "url": "https://fazt.dev/contenido/nextjs-full-ecommerce-project",
+      "finalUrl": "https://fazt.dev/contenido/nextjs-full-ecommerce-project",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Intro to AI Ethics",
+      "url": "https://www.kaggle.com/learn/intro-to-ai-ethics",
+      "status": "accepted",
+      "provider": "Kaggle",
+      "kind": "Curso con certificado",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://www.kaggle.com/learn/intro-to-ai-ethics"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Intro to Game AI and Reinforcement Learning",
+      "url": "https://www.kaggle.com/learn/intro-to-game-ai-and-reinforcement-learning",
+      "status": "accepted",
+      "provider": "Kaggle",
+      "kind": "Curso con certificado",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://www.kaggle.com/learn/intro-to-game-ai-and-reinforcement-learning"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Introduction to Generative AI",
+      "url": "https://www.cloudskillsboost.google/course_templates/536",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
+      "httpStatus": 200,
+      "finalUrl": "https://www.skills.google/course_templates/536"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Foundations of Prompt Engineering",
+      "url": "https://explore.skillbuilder.aws/learn/course/external/view/elearning/17763/foundations-of-prompt-engineering",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
+      "httpStatus": 200,
+      "finalUrl": "https://skillbuilder.aws/search?searchText=foundations-of-prompt-engineering&showRedirectNotFoundBanner=true"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Generative AI for Decision Makers",
+      "url": "https://explore.skillbuilder.aws/learn/public/learning_plan/view/1909/generative-ai-learning-plan-for-decision-makers",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
+      "httpStatus": 200,
+      "finalUrl": "https://skillbuilder.aws/search?searchText=generative-ai-learning-plan-for-decision-makers&showRedirectNotFoundBanner=true"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "AI for Business Professionals",
+      "url": "https://www.life-global.org/course/423-ai-for-business-professionals",
+      "status": "accepted",
+      "provider": "HP LIFE",
+      "kind": "Certificación",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://www.life-global.org/course/423-ai-for-business-professionals"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "AI for Beginners",
+      "url": "https://www.life-global.org/course/391-ai-for-beginners",
+      "status": "accepted",
+      "provider": "HP LIFE",
+      "kind": "Certificación",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://www.life-global.org/course/391-ai-for-beginners"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Back End Development and APIs Certification",
+      "url": "https://www.freecodecamp.org/learn/back-end-development-and-apis",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
+      "httpStatus": 200,
+      "finalUrl": "https://www.freecodecamp.org/learn/back-end-development-and-apis"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Postman API Fundamentals Student Expert",
+      "url": "https://academy.postman.com/path/postman-api-fundamentals-student-expert",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
+      "httpStatus": 403,
+      "finalUrl": "https://academy.postman.com/path/postman-api-fundamentals-student-expert"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "CS403: Introduction to Modern Database Systems",
+      "url": "https://learn.saylor.org/course/view.php?id=93",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
+      "httpStatus": 200,
+      "finalUrl": "https://learn.saylor.org/course/view.php?id=93"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "REST API",
+      "url": "https://www.hackerrank.com/skills-verification/rest_api_intermediate",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
+      "httpStatus": 403,
+      "finalUrl": "https://www.hackerrank.com/skills-verification/rest_api_intermediate"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Intro to SQL",
+      "url": "https://www.kaggle.com/learn/intro-to-sql",
+      "status": "accepted",
+      "provider": "Kaggle",
+      "kind": "Curso con certificado",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://www.kaggle.com/learn/intro-to-sql"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Advanced SQL",
+      "url": "https://www.kaggle.com/learn/advanced-sql",
+      "status": "accepted",
+      "provider": "Kaggle",
+      "kind": "Curso con certificado",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://www.kaggle.com/learn/advanced-sql"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Big Data Foundations - Level 1",
+      "url": "https://cognitiveclass.ai/courses/what-is-big-data",
+      "status": "accepted",
+      "provider": "Cognitive Class",
+      "kind": "Insignia",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://cognitiveclass.ai/courses/what-is-big-data"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Hadoop Foundations - Level 1",
+      "url": "https://cognitiveclass.ai/courses/course-v1:BigDataUniversity+BD0111EN+2016",
+      "status": "accepted",
+      "provider": "Cognitive Class",
+      "kind": "Insignia",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://cognitiveclass.ai/courses"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Spark Fundamentals I",
+      "url": "https://cognitiveclass.ai/courses/what-is-spark",
+      "status": "accepted",
+      "provider": "Cognitive Class",
+      "kind": "Insignia",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://cognitiveclass.ai/courses/what-is-spark"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Bitcoin for Developers",
+      "url": "https://learn.saylor.org/course/view.php?id=500",
+      "status": "accepted",
+      "provider": "Saylor University",
+      "kind": "Curso con certificado",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://learn.saylor.org/course/view.php?id=500"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Starting a Small Business",
+      "url": "https://www.life-global.org/course/17-starting-a-small-business",
+      "status": "accepted",
+      "provider": "HP LIFE",
+      "kind": "Certificación",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://www.life-global.org/course/17-starting-a-small-business"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Selling Online",
+      "url": "https://www.life-global.org/course/28-selling-online",
+      "status": "accepted",
+      "provider": "HP LIFE",
+      "kind": "Certificación",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://www.life-global.org/course/28-selling-online"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Social Entrepreneurship",
+      "url": "https://www.life-global.org/course/318-social-entrepreneurship",
+      "status": "accepted",
+      "provider": "HP LIFE",
+      "kind": "Certificación",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://www.life-global.org/course/318-social-entrepreneurship"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Growth Engine for Your Business",
+      "url": "https://www.life-global.org/course/19-growth-engine-for-your-business",
+      "status": "accepted",
+      "provider": "HP LIFE",
+      "kind": "Certificación",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://www.life-global.org/course/19-growth-engine-for-your-business"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Circular Economy",
+      "url": "https://www.life-global.org/course/333-circular-economy",
+      "status": "accepted",
+      "provider": "HP LIFE",
+      "kind": "Certificación",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://www.life-global.org/course/333-circular-economy"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Cash Flow",
+      "url": "https://www.life-global.org/course/24-cash-flow",
+      "status": "accepted",
+      "provider": "HP LIFE",
+      "kind": "Certificación",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://www.life-global.org/course/24-cash-flow"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Basics of Finance",
+      "url": "https://www.life-global.org/course/21-basics-of-finance",
+      "status": "accepted",
+      "provider": "HP LIFE",
+      "kind": "Certificación",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://www.life-global.org/course/21-basics-of-finance"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Profit and Loss",
+      "url": "https://www.life-global.org/course/20-profit-and-loss",
+      "status": "accepted",
+      "provider": "HP LIFE",
+      "kind": "Certificación",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://www.life-global.org/course/20-profit-and-loss"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Unique Value Proposition",
+      "url": "https://www.life-global.org/course/26-unique-value-proposition",
+      "status": "accepted",
+      "provider": "HP LIFE",
+      "kind": "Certificación",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://www.life-global.org/course/26-unique-value-proposition"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Your Target Audience",
+      "url": "https://www.life-global.org/course/27-your-target-audience",
+      "status": "accepted",
+      "provider": "HP LIFE",
+      "kind": "Certificación",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://www.life-global.org/course/27-your-target-audience"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Effective Business Websites",
+      "url": "https://www.life-global.org/course/30-effective-business-websites",
+      "status": "accepted",
+      "provider": "HP LIFE",
+      "kind": "Certificación",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://www.life-global.org/course/30-effective-business-websites"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Business Email",
+      "url": "https://www.life-global.org/course/414-business-email",
+      "status": "accepted",
+      "provider": "HP LIFE",
+      "kind": "Certificación",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://www.life-global.org/course/414-business-email"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Introduction to Digital Business Skills",
+      "url": "https://www.life-global.org/course/343-introduction-to-digital-business-skills",
+      "status": "accepted",
+      "provider": "HP LIFE",
+      "kind": "Certificación",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://www.life-global.org/course/343-introduction-to-digital-business-skills"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Professional Networking for Career Growth",
+      "url": "https://www.life-global.org/course/427-professional-networking-for-career-growth",
+      "status": "accepted",
+      "provider": "HP LIFE",
+      "kind": "Certificación",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://www.life-global.org/course/427-professional-networking-for-career-growth"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Resume Writing and Job Interviewing",
+      "url": "https://www.life-global.org/course/362-resume-writing-and-job-interviewing",
+      "status": "accepted",
+      "provider": "HP LIFE",
+      "kind": "Certificación",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://www.life-global.org/course/362-resume-writing-and-job-interviewing"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Effective Leadership",
+      "url": "https://www.life-global.org/course/13-effective-leadership",
+      "status": "accepted",
+      "provider": "HP LIFE",
+      "kind": "Certificación",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://www.life-global.org/course/13-effective-leadership"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Effective Presentations",
+      "url": "https://www.life-global.org/course/12-effective-presentations",
+      "status": "accepted",
+      "provider": "HP LIFE",
+      "kind": "Certificación",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://www.life-global.org/course/12-effective-presentations"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Agile Project Management",
+      "url": "https://www.life-global.org/course/380-agile-project-management",
+      "status": "accepted",
+      "provider": "HP LIFE",
+      "kind": "Certificación",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://www.life-global.org/course/380-agile-project-management"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Service Hub Software Certification",
+      "url": "https://academy.hubspot.com/courses/hubspot-service-software",
+      "status": "accepted",
+      "provider": "HubSpot Academy",
+      "kind": "Certificación",
+      "language": "ES",
+      "httpStatus": 200,
+      "finalUrl": "https://academy.hubspot.com/courses/hubspot-service-software"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Customer Engagement Fundamentals",
+      "url": "https://skillsbuild.org/adult-learners/explore-learning/customer-service-representative",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
+      "httpStatus": 200,
+      "finalUrl": "https://skillsbuild.org/learning-catalog"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Customer Relationship Management",
+      "url": "https://www.life-global.org/course/35-customer-relationship-management",
+      "status": "accepted",
+      "provider": "HP LIFE",
+      "kind": "Certificación",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://www.life-global.org/course/35-customer-relationship-management"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Customer Experience (CX) for Business Success",
+      "url": "https://www.life-global.org/course/390-customer-experience-(cx)-for-business-success",
+      "status": "accepted",
+      "provider": "HP LIFE",
+      "kind": "Certificación",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://www.life-global.org/course/390-customer-experience-(cx)-for-business-success"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "How to Build Chatbots",
+      "url": "https://cognitiveclass.ai/courses/chatbot-course",
+      "status": "accepted",
+      "provider": "Cognitive Class",
+      "kind": "Insignia",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://cognitiveclass.ai/courses/chatbot-course"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "IBM Cloud Essentials",
+      "url": "https://cognitiveclass.ai/courses/ibm-cloud-essentials",
+      "status": "accepted",
+      "provider": "Cognitive Class",
+      "kind": "Insignia",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://cognitiveclass.ai/courses"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Cloud Essentials Knowledge",
+      "url": "https://explore.skillbuilder.aws/learn/public/learning_plan/view/82/cloud-essentials-knowledge-badge-readiness-path",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
+      "httpStatus": 200,
+      "finalUrl": "https://skillbuilder.aws/search?searchText=cloud-essentials-knowledge-badge-readiness-path&showRedirectNotFoundBanner=true"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Quality Assurance Certification",
+      "url": "https://www.freecodecamp.org/learn/quality-assurance",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
+      "httpStatus": 200,
+      "finalUrl": "https://www.freecodecamp.org/learn/quality-assurance"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "CS102: Introduction to Computer Science II",
+      "url": "https://learn.saylor.org/course/view.php?id=64",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
+      "httpStatus": 200,
+      "finalUrl": "https://learn.saylor.org/course/view.php?id=64"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "CS201: Elementary Data Structures",
+      "url": "https://learn.saylor.org/course/view.php?id=66",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
+      "httpStatus": 200,
+      "finalUrl": "https://learn.saylor.org/course/view.php?id=66"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "CS202: Discrete Structures",
+      "url": "https://learn.saylor.org/course/view.php?id=67",
+      "status": "accepted",
+      "provider": "Saylor University",
+      "kind": "Curso con certificado",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://learn.saylor.org/course/view.php?id=67"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "CS301: Computer Architecture",
+      "url": "https://learn.saylor.org/course/view.php?id=71",
+      "status": "accepted",
+      "provider": "Saylor University",
+      "kind": "Curso con certificado",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://learn.saylor.org/course/view.php?id=71"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Problem Solving",
+      "url": "https://www.hackerrank.com/skills-verification/problem_solving_basic",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
+      "httpStatus": 403,
+      "finalUrl": "https://www.hackerrank.com/skills-verification/problem_solving_basic"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Problem Solving",
+      "url": "https://www.hackerrank.com/skills-verification/problem_solving_intermediate",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
+      "httpStatus": 403,
+      "finalUrl": "https://www.hackerrank.com/skills-verification/problem_solving_intermediate"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Geospatial Analysis",
+      "url": "https://www.kaggle.com/learn/geospatial-analysis",
+      "status": "accepted",
+      "provider": "Kaggle",
+      "kind": "Curso con certificado",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://www.kaggle.com/learn/geospatial-analysis"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Data Analysis with Python",
+      "url": "https://cognitiveclass.ai/courses/data-analysis-python",
+      "status": "accepted",
+      "provider": "Cognitive Class",
+      "kind": "Insignia",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://cognitiveclass.ai/courses/data-analysis-python"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Data Analysis with Python Certification",
+      "url": "https://www.freecodecamp.org/learn/data-analysis-with-python",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
+      "httpStatus": 200,
+      "finalUrl": "https://www.freecodecamp.org/learn/data-analysis-with-python"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Data Visualization with Python",
+      "url": "https://cognitiveclass.ai/courses/data-visualization-with-python",
+      "status": "accepted",
+      "provider": "Cognitive Class",
+      "kind": "Insignia",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://cognitiveclass.ai/courses"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Data Visualization with R",
+      "url": "https://cognitiveclass.ai/courses/data-visualization-with-r",
+      "status": "accepted",
+      "provider": "Cognitive Class",
+      "kind": "Insignia",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://cognitiveclass.ai/courses/data-visualization-with-r"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Data Visualization Certification",
+      "url": "https://www.freecodecamp.org/learn/data-visualization",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
+      "httpStatus": 200,
+      "finalUrl": "https://www.freecodecamp.org/learn/data-visualization"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Data Visualization",
+      "url": "https://www.kaggle.com/learn/data-visualization",
+      "status": "accepted",
+      "provider": "Kaggle",
+      "kind": "Curso con certificado",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://www.kaggle.com/learn/data-visualization"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Data Cleaning",
+      "url": "https://www.kaggle.com/learn/data-cleaning",
+      "status": "accepted",
+      "provider": "Kaggle",
+      "kind": "Curso con certificado",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://www.kaggle.com/learn/data-cleaning"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Data Science & Analytics",
+      "url": "https://www.life-global.org/course/344-data-science-and-analytics",
+      "status": "accepted",
+      "provider": "HP LIFE",
+      "kind": "Certificación",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://www.life-global.org/course/344-data-science-and-analytics"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Data Science Methodologies",
+      "url": "https://cognitiveclass.ai/courses/data-science-methodology-2",
+      "status": "accepted",
+      "provider": "Cognitive Class",
+      "kind": "Insignia",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://cognitiveclass.ai/courses/data-science-methodology-2"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Data Science 101",
+      "url": "https://cognitiveclass.ai/courses/data-science-101",
+      "status": "accepted",
+      "provider": "Cognitive Class",
+      "kind": "Insignia",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://cognitiveclass.ai/courses/data-science-101"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Data Science Tools",
+      "url": "https://cognitiveclass.ai/courses/data-science-hands-open-source-tools-2",
+      "status": "accepted",
+      "provider": "Cognitive Class",
+      "kind": "Insignia",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://cognitiveclass.ai/courses/data-science-hands-open-source-tools-2"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Python for Data Science",
+      "url": "https://cognitiveclass.ai/courses/python-for-data-science",
+      "status": "accepted",
+      "provider": "Cognitive Class",
+      "kind": "Insignia",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://cognitiveclass.ai/courses/python-for-data-science"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Containers, K8s and Istio on IBM cloud",
+      "url": "https://cognitiveclass.ai/learn/containers-k8s-and-istio-on-ibm-cloud",
+      "status": "accepted",
+      "provider": "Cognitive Class",
+      "kind": "Insignia",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://cognitiveclass.ai/learn/containers-k8s-and-istio-on-ibm-cloud"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Docker Essentials",
+      "url": "https://cognitiveclass.ai/courses/docker-essentials",
+      "status": "accepted",
+      "provider": "Cognitive Class",
+      "kind": "Insignia",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://cognitiveclass.ai/courses/docker-essentials"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Introduction to Containers, Kubernetes, and OpenShift",
+      "url": "https://cognitiveclass.ai/courses/kubernetes-course",
+      "status": "accepted",
+      "provider": "Cognitive Class",
+      "kind": "Insignia",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://cognitiveclass.ai/courses/kubernetes-course"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Introduction to Electronics",
+      "url": "https://www.open.edu/openlearn/science-maths-technology/an-introduction-electronics",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
+      "httpStatus": 403,
+      "finalUrl": "https://www.open.edu/openlearn/science-maths-technology/an-introduction-electronics"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Electronic Applications",
+      "url": "https://www.open.edu/openlearn/science-maths-technology/electronic-applications",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
+      "httpStatus": 403,
+      "finalUrl": "https://www.open.edu/openlearn/science-maths-technology/electronic-applications"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Responsive Web Design Certification",
+      "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
+      "httpStatus": 200,
+      "finalUrl": "https://www.freecodecamp.org/learn/2022/responsive-web-design"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Front-End Libraries Certification",
+      "url": "https://www.freecodecamp.org/learn/front-end-development-libraries",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
+      "httpStatus": 200,
+      "finalUrl": "https://www.freecodecamp.org/learn/front-end-development-libraries"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Angular",
+      "url": "https://www.hackerrank.com/skills-verification/angular_basic",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
+      "httpStatus": 403,
+      "finalUrl": "https://www.hackerrank.com/skills-verification/angular_basic"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "React",
+      "url": "https://www.hackerrank.com/skills-verification/react_basic",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
+      "httpStatus": 403,
+      "finalUrl": "https://www.hackerrank.com/skills-verification/react_basic"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Node.js",
+      "url": "https://www.hackerrank.com/skills-verification/nodejs_intermediate",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
+      "httpStatus": 403,
+      "finalUrl": "https://www.hackerrank.com/skills-verification/nodejs_intermediate"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Deep Learning Fundamentals",
+      "url": "https://cognitiveclass.ai/courses/introduction-deep-learning",
+      "status": "accepted",
+      "provider": "Cognitive Class",
+      "kind": "Insignia",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://cognitiveclass.ai/courses/introduction-deep-learning"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Deep Learning with TensorFlow",
+      "url": "https://cognitiveclass.ai/courses/deep-learning-tensorflow",
+      "status": "accepted",
+      "provider": "Cognitive Class",
+      "kind": "Insignia",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://cognitiveclass.ai/courses"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Machine Learning with Python",
+      "url": "https://cognitiveclass.ai/courses/machine-learning-with-python",
+      "status": "accepted",
+      "provider": "Cognitive Class",
+      "kind": "Insignia",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://cognitiveclass.ai/courses/machine-learning-with-python"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Machine Learning with Python Certification",
+      "url": "https://www.freecodecamp.org/learn/machine-learning-with-python",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
+      "httpStatus": 200,
+      "finalUrl": "https://www.freecodecamp.org/learn/machine-learning-with-python"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Intro to Machine Learning",
+      "url": "https://www.kaggle.com/learn/intro-to-machine-learning",
+      "status": "accepted",
+      "provider": "Kaggle",
+      "kind": "Curso con certificado",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://www.kaggle.com/learn/intro-to-machine-learning"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Intermediate Machine Learning",
+      "url": "https://www.kaggle.com/learn/intermediate-machine-learning",
+      "status": "accepted",
+      "provider": "Kaggle",
+      "kind": "Curso con certificado",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://www.kaggle.com/learn/intermediate-machine-learning"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Machine Learning Explainability",
+      "url": "https://www.kaggle.com/learn/machine-learning-explainability",
+      "status": "accepted",
+      "provider": "Kaggle",
+      "kind": "Curso con certificado",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://www.kaggle.com/learn/machine-learning-explainability"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Intro to Deep Learning",
+      "url": "https://www.kaggle.com/learn/intro-to-deep-learning",
+      "status": "accepted",
+      "provider": "Kaggle",
+      "kind": "Curso con certificado",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://www.kaggle.com/learn/intro-to-deep-learning"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Time Series",
+      "url": "https://www.kaggle.com/learn/time-series",
+      "status": "accepted",
+      "provider": "Kaggle",
+      "kind": "Curso con certificado",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://www.kaggle.com/learn/time-series"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Feature Engineering",
+      "url": "https://www.kaggle.com/learn/feature-engineering",
+      "status": "accepted",
+      "provider": "Kaggle",
+      "kind": "Curso con certificado",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://www.kaggle.com/learn/feature-engineering"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Computer Vision",
+      "url": "https://www.kaggle.com/learn/computer-vision",
+      "status": "accepted",
+      "provider": "Kaggle",
+      "kind": "Curso con certificado",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://www.kaggle.com/learn/computer-vision"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Networking Essentials",
+      "url": "https://www.netacad.com/courses/networking/networking-essentials",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
+      "httpStatus": 200,
+      "finalUrl": "https://www.netacad.com/courses/networking-essentials"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "CS402: Computer Communications and Networks",
+      "url": "https://learn.saylor.org/course/view.php?id=790",
+      "status": "accepted",
+      "provider": "Saylor University",
+      "kind": "Curso con certificado",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://learn.saylor.org/course/view.php?id=790"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "NDG Linux Unhatched",
+      "url": "https://www.netacad.com/courses/os-it/ndg-linux-unhatched",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
+      "httpStatus": 200,
+      "finalUrl": "https://www.netacad.com/courses/linux-unhatched"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "NDG Linux Essentials",
+      "url": "https://www.netacad.com/courses/os-it/ndg-linux-essentials",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
+      "httpStatus": 200,
+      "finalUrl": "https://www.netacad.com/courses/linux-essentials"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "CS401: Operating Systems",
+      "url": "https://learn.saylor.org/course/view.php?id=94",
+      "status": "accepted",
+      "provider": "Saylor University",
+      "kind": "Curso con certificado",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://learn.saylor.org/course/view.php?id=94"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "CS107: C++ Programming",
+      "url": "https://learn.saylor.org/course/view.php?id=65",
+      "status": "accepted",
+      "provider": "Saylor University",
+      "kind": "Curso con certificado",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://learn.saylor.org/course/view.php?id=65"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Foundational C# with Microsoft",
+      "url": "https://www.freecodecamp.org/learn/foundational-c-sharp-with-microsoft",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
+      "httpStatus": 200,
+      "finalUrl": "https://www.freecodecamp.org/learn/foundational-c-sharp-with-microsoft"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Java",
+      "url": "https://www.hackerrank.com/skills-verification/java_basic",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
+      "httpStatus": 403,
+      "finalUrl": "https://www.hackerrank.com/skills-verification/java_basic"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "JavaScript Algorithms and Data Structures Certification",
+      "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
+      "httpStatus": 200,
+      "finalUrl": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "JavaScript",
+      "url": "https://www.hackerrank.com/skills-verification/javascript_basic",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
+      "httpStatus": 403,
+      "finalUrl": "https://www.hackerrank.com/skills-verification/javascript_basic"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Programming Essentials In Python",
+      "url": "https://www.netacad.com/courses/programming/pcap-programming-essentials-python",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
+      "httpStatus": 200,
+      "finalUrl": "https://www.netacad.com/courses/python-essentials-1"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Scientific Computing with Python Certification",
+      "url": "https://www.freecodecamp.org/learn/scientific-computing-with-python",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
+      "httpStatus": 200,
+      "finalUrl": "https://www.freecodecamp.org/learn/scientific-computing-with-python"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Python",
+      "url": "https://www.hackerrank.com/skills-verification/python_basic",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
+      "httpStatus": 403,
+      "finalUrl": "https://www.hackerrank.com/skills-verification/python_basic"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Python",
+      "url": "https://www.kaggle.com/learn/python",
+      "status": "accepted",
+      "provider": "Kaggle",
+      "kind": "Curso con certificado",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://www.kaggle.com/learn/python"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Pandas",
+      "url": "https://www.kaggle.com/learn/pandas",
+      "status": "accepted",
+      "provider": "Kaggle",
+      "kind": "Curso con certificado",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://www.kaggle.com/learn/pandas"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Intro to Programming",
+      "url": "https://www.kaggle.com/learn/intro-to-programming",
+      "status": "accepted",
+      "provider": "Kaggle",
+      "kind": "Curso con certificado",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://www.kaggle.com/learn/intro-to-programming"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "R 101",
+      "url": "https://cognitiveclass.ai/courses/r-101",
+      "status": "accepted",
+      "provider": "Cognitive Class",
+      "kind": "Insignia",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://cognitiveclass.ai/courses/r-101"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Using R with Databases",
+      "url": "https://cognitiveclass.ai/courses/using-r-with-databases",
+      "status": "accepted",
+      "provider": "Cognitive Class",
+      "kind": "Insignia",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://cognitiveclass.ai/courses/using-r-with-databases"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Introduction to IoT",
+      "url": "https://www.netacad.com/courses/iot/introduction-iot",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
+      "httpStatus": 200,
+      "finalUrl": "https://www.netacad.com/courses/introduction-iot"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Building Robots with TJBot",
+      "url": "https://cognitiveclass.ai/courses/build-robots-with-tjbot",
+      "status": "accepted",
+      "provider": "Cognitive Class",
+      "kind": "Insignia",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://cognitiveclass.ai/courses/build-robots-with-tjbot"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Intro to Cybersecurity",
+      "url": "https://www.netacad.com/courses/cybersecurity/introduction-cybersecurity",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
+      "httpStatus": 200,
+      "finalUrl": "https://www.netacad.com/courses/introduction-to-cybersecurity"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Cybersecurity Essentials",
+      "url": "https://www.netacad.com/courses/cybersecurity/cybersecurity-essentials",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
+      "httpStatus": 200,
+      "finalUrl": "https://www.netacad.com/courses/cybersecurity-essentials"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Ethical Hacker",
+      "url": "https://www.netacad.com/courses/ethical-hacker",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
+      "httpStatus": 200,
+      "finalUrl": "https://www.netacad.com/courses/ethical-hacker"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Intro to Packet Tracer",
+      "url": "https://www.netacad.com/courses/packet-tracer",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
+      "httpStatus": 200,
+      "finalUrl": "https://www.netacad.com/cisco-packet-tracer"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Information Security Certification",
+      "url": "https://www.freecodecamp.org/learn/information-security",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
+      "httpStatus": 200,
+      "finalUrl": "https://www.freecodecamp.org/learn/information-security"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Fortinet Certified Fundamentals in Cybersecurity",
+      "url": "https://training.fortinet.com/local/staticpage/view.php?page=fcf_cybersecurity",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
+      "httpStatus": 200,
+      "finalUrl": "https://training.fortinet.com/local/staticpage/view.php?page=nse_1"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Fortinet Certified Associate in Cybersecurity",
+      "url": "https://training.fortinet.com/local/staticpage/view.php?page=fca_cybersecurity",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
+      "httpStatus": 200,
+      "finalUrl": "https://training.fortinet.com/local/staticpage/view.php?page=nse_3"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Introduction to Cybersecurity Awareness",
+      "url": "https://www.life-global.org/course/346-introduction-to-cybersecurity-awareness",
+      "status": "accepted",
+      "provider": "HP LIFE",
+      "kind": "Certificación",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://www.life-global.org/course/346-introduction-to-cybersecurity-awareness"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Statistics 101",
+      "url": "https://cognitiveclass.ai/courses/statistics-101",
+      "status": "accepted",
+      "provider": "Cognitive Class",
+      "kind": "Insignia",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://cognitiveclass.ai/courses/statistics-101"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Free-Certifications",
+      "title": "Link",
+      "url": "https://testautomationu.applitools.com",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
+      "httpStatus": 200,
+      "finalUrl": "https://testautomationu.applitools.com/"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Free-Certifications",
+      "title": "Link",
+      "url": "https://www.freecodecamp.org",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
+      "httpStatus": 200,
+      "finalUrl": "https://www.freecodecamp.org/"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Free-Certifications",
+      "title": "Link",
+      "url": "https://cognitiveclass.ai",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
+      "httpStatus": 200,
+      "finalUrl": "https://cognitiveclass.ai/"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Free-Certifications",
+      "title": "Link",
+      "url": "https://aws.amazon.com/training/restart",
+      "status": "accepted",
+      "provider": "AWS",
+      "kind": "Certificación",
+      "language": "ES",
+      "httpStatus": 200,
+      "finalUrl": "https://aws.amazon.com/es/training/restart/"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Free-Certifications",
+      "title": "Link",
+      "url": "https://explore.skillbuilder.aws/learn/course/11458/aws-cloud-quest-cloud-practitioner",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
+      "httpStatus": 200,
+      "finalUrl": "https://skillbuilder.aws/search?searchText=aws-cloud-quest-cloud-practitioner&showRedirectNotFoundBanner=true"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Free-Certifications",
+      "title": "Link",
+      "url": "https://academy.tigera.io/course/certified-calico-operator-level-1",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
+      "httpStatus": 200,
+      "finalUrl": "https://academy.tigera.io/course/certified-calico-operator-level-1/"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Free-Certifications",
+      "title": "Link",
+      "url": "https://academy.tigera.io/course/certified-calico-operator-aws-expert",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
+      "httpStatus": 200,
+      "finalUrl": "https://academy.tigera.io/course/certified-calico-operator-aws-expert/"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Free-Certifications",
+      "title": "Link",
+      "url": "https://academy.tigera.io/course/certified-calico-operator-azure-expert",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
+      "httpStatus": 200,
+      "finalUrl": "https://academy.tigera.io/course/certified-calico-operator-azure-expert/"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Free-Certifications",
+      "title": "Link",
+      "url": "https://academy.tigera.io/course/certified-calico-operator-ebpf",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
+      "httpStatus": 200,
+      "finalUrl": "https://academy.tigera.io/course/certified-calico-operator-ebpf/"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Free-Certifications",
+      "title": "Link",
+      "url": "https://stepik.org/catalog/search?cert=true&free=true",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
+      "httpStatus": 200,
+      "finalUrl": "https://stepik.org/catalog/search?cert=true&free=true"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Free-Certifications",
+      "title": "Link",
+      "url": "https://university.atlassian.com/student/path/861302-confluence-fundamentals",
+      "status": "accepted",
+      "provider": "Atlassian University",
+      "kind": "Credencial",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://community.atlassian.com/learning"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Free-Certifications",
+      "title": "Link",
+      "url": "https://academy.gatling.io",
+      "status": "rejected",
+      "reason": "unreachable",
+      "httpStatus": 0
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Free-Certifications",
+      "title": "Link",
+      "url": "https://odyssey.apollographql.com/certifications/apollo-graph-associate",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
+      "httpStatus": 200,
+      "finalUrl": "https://www.apollographql.com/tutorials/certifications/apollo-graph-associate/"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Free-Certifications",
+      "title": "Link",
+      "url": "https://codefresh.io/codefresh-news/get-gitops-certified-with-argo",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
+      "httpStatus": 200,
+      "finalUrl": "https://octopus.com/devops/argo-cd/"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Free-Certifications",
+      "title": "Link",
+      "url": "https://learn.microsoft.com/en-us/training/challenges?id=909beffb-ac11-414a-9287-a4158b5d6cf9&WT.mc_id=cloudskillschallenge_909beffb-ac11-414a-9287-a4158b5d6cf9&ocid=ignite22_CSCLinkedIn_organicsocial_wwl?wt.mc_id=studentamb_24964",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
+      "httpStatus": 200,
+      "finalUrl": "https://learn.microsoft.com/en-us/training/challenges?id=909beffb-ac11-414a-9287-a4158b5d6cf9&WT.mc_id=cloudskillschallenge_909beffb-ac11-414a-9287-a4158b5d6cf9&ocid=ignite22_CSCLinkedIn_organicsocial_wwl?wt.mc_id=studentamb_24964"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Free-Certifications",
+      "title": "Link",
+      "url": "https://learn.microsoft.com/en-us/training/challenges?id=8db0f3ef-c6eb-4b6f-9db2-ce5c8c7e2ecc&WT.mc_id=cloudskillschallenge_8db0f3ef-c6eb-4b6f-9db2-ce5c8c7e2ecc&ocid=ignite22_CSCLinkedIn_organicsocial_wwl&s=09?wt.mc_id=studentamb_24964",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
+      "httpStatus": 200,
+      "finalUrl": "https://learn.microsoft.com/en-us/training/challenges?id=8db0f3ef-c6eb-4b6f-9db2-ce5c8c7e2ecc&WT.mc_id=cloudskillschallenge_8db0f3ef-c6eb-4b6f-9db2-ce5c8c7e2ecc&ocid=ignite22_CSCLinkedIn_organicsocial_wwl&s=09?wt.mc_id=studentamb_24964"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Free-Certifications",
+      "title": "Link",
+      "url": "https://learn.microsoft.com/en-us/training/challenges?id=8aee1e58-eeb8-409f-b0d0-d15afcc8045c&WT.mc_id=cloudskillschallenge_8aee1e58-eeb8-409f-b0d0-d15afcc8045c&ocid=ignite22_CSCLinkedIn_organicsocial_wwl&s=09?wt.mc_id=studentamb_24964",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
+      "httpStatus": 200,
+      "finalUrl": "https://learn.microsoft.com/en-us/training/challenges?id=8aee1e58-eeb8-409f-b0d0-d15afcc8045c&WT.mc_id=cloudskillschallenge_8aee1e58-eeb8-409f-b0d0-d15afcc8045c&ocid=ignite22_CSCLinkedIn_organicsocial_wwl&s=09?wt.mc_id=studentamb_24964"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Free-Certifications",
+      "title": "Link",
+      "url": "https://explore.skillbuilder.aws/learn/catalog",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
+      "httpStatus": 200,
+      "finalUrl": "https://skillbuilder.aws/?showRedirectNotFoundBanner=true"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Free-Certifications",
+      "title": "Link",
+      "url": "https://www.kaggle.com/learn",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
+      "httpStatus": 200,
+      "finalUrl": "https://www.kaggle.com/learn"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Free-Certifications",
+      "title": "Link",
+      "url": "https://academy.hubspot.com/courses?page=1",
+      "status": "accepted",
+      "provider": "HubSpot Academy",
+      "kind": "Certificación",
+      "language": "ES",
+      "httpStatus": 200,
+      "finalUrl": "https://academy.hubspot.com/courses?page=1"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Free-Certifications",
+      "title": "Link",
+      "url": "https://learn.microsoft.com/en-us/training/challenges?id=c20e4b59-b572-4f35-b00c-0316b71a0a5e&WT.mc_id=cloudskillschallenge_c20e4b59-b572-4f35-b00c-0316b71a0a5e&ocid=ignite22_CSCLinkedIn_organicsocial_wwl&s=09?wt.mc_id=studentamb_24964",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
+      "httpStatus": 200,
+      "finalUrl": "https://learn.microsoft.com/en-us/training/challenges?id=c20e4b59-b572-4f35-b00c-0316b71a0a5e&WT.mc_id=cloudskillschallenge_c20e4b59-b572-4f35-b00c-0316b71a0a5e&ocid=ignite22_CSCLinkedIn_organicsocial_wwl&s=09?wt.mc_id=studentamb_24964"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · FreeDevCertifications",
+      "title": "Basic Proficiency in KNIME Analytics Platform (L1)",
+      "url": "https://www.knime.com/certification-program",
+      "status": "accepted",
+      "provider": "KNIME",
+      "kind": "Insignia",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://www.knime.com/certification-program"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · FreeDevCertifications",
+      "title": "HackerRank Certifications",
+      "url": "https://www.hackerrank.com/skills-verification",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
+      "httpStatus": 403,
+      "finalUrl": "https://www.hackerrank.com/skills-verification"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · FreeDevCertifications",
+      "title": "Microsoft free certifications for students",
+      "url": "https://learn.microsoft.com/en-us/certifications/student-training-and-certification",
+      "status": "rejected",
+      "reason": "inactive",
+      "httpStatus": 404
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · FreeDevCertifications",
+      "title": "KNIME 90-Day Data Skills Certification Challenge",
+      "url": "https://www.knime.com/blog/the-90-day-certification-challenge",
+      "status": "accepted",
+      "provider": "KNIME",
+      "kind": "Certificación",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://www.knime.com/blog/the-90-day-certification-challenge"
+    }
+  ]
+}

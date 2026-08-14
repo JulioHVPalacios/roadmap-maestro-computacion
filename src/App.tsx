@@ -1,4 +1,4 @@
-﻿import { useEffect, useMemo, useState } from "react"
+import { lazy, Suspense, useEffect, useMemo, useRef, useState } from "react"
 import { AnimatePresence, motion } from "motion/react"
 import {
   ArrowRight,
@@ -28,7 +28,11 @@ import SolarKnowledgeHero from "./components/SolarKnowledgeHero"
 import { rootSources, stages, type Stage, type Subject } from "./roadmap-data"
 import { masteryTracks, type MasteryTrack } from "./mastery-data"
 import { inferProfessionProfile, professionTitles } from "./profession-atlas"
+import { initPremiumMotion } from "./premium-motion"
 import "./v15.css"
+
+const ResourcesHub = lazy(() => import("./resources-v27/ResourcesHub"))
+const CertificationsHub = lazy(() => import("./certifications-v1/CertificationsHub"))
 
 const totalSubjects = stages.reduce((sum, stage) => sum + stage.subjects.length, 0)
 const totalTrackUnits = masteryTracks.reduce((sum, track) => sum + track.units.length, 0)
@@ -150,6 +154,65 @@ function readProgress() {
 }
 
 
+/* V15.7 TYPEWRITER COMPONENT START */
+function TypewriterWord({
+  word,
+  typeMs = 105,
+  deleteMs = 62,
+  holdMs = 1750,
+}: {
+  word: string
+  typeMs?: number
+  deleteMs?: number
+  holdMs?: number
+}) {
+  const reduceMotion =
+    typeof window !== "undefined" &&
+    window.matchMedia?.("(prefers-reduced-motion: reduce)").matches
+
+  const [text, setText] = useState(reduceMotion ? word : "")
+  const [deleting, setDeleting] = useState(false)
+
+  useEffect(() => {
+    if (reduceMotion) {
+      setText(word)
+      return
+    }
+
+    let delay = deleting ? deleteMs : typeMs
+
+    if (!deleting && text === word) delay = holdMs
+    if (deleting && text === "") delay = 460
+
+    const timer = window.setTimeout(() => {
+      if (!deleting && text === word) {
+        setDeleting(true)
+        return
+      }
+      if (deleting && text === "") {
+        setDeleting(false)
+        return
+      }
+
+      setText((current) =>
+        deleting
+          ? word.slice(0, Math.max(0, current.length - 1))
+          : word.slice(0, Math.min(word.length, current.length + 1)),
+      )
+    }, delay)
+
+    return () => window.clearTimeout(timer)
+  }, [deleteMs, deleting, holdMs, reduceMotion, text, typeMs, word])
+
+  return (
+    <span className="v15-typeword" aria-label={word}>
+      <span aria-hidden="true">{text}</span>
+      {!reduceMotion && <i aria-hidden="true" />}
+    </span>
+  )
+}
+/* V15.7 TYPEWRITER COMPONENT END */
+
 function NewsCarouselCard({
   title,
   items,
@@ -163,16 +226,26 @@ function NewsCarouselCard({
 }) {
   const [index, setIndex] = useState(0)
   const [paused, setPaused] = useState(false)
+  const [visible, setVisible] = useState(false)
+  const cardRef = useRef<HTMLElement | null>(null)
   const safeItems = items.length ? items : fallbackNews
   const current = safeItems[index % safeItems.length]
 
   useEffect(() => {
-    if (paused || safeItems.length <= 1) return
+    const card = cardRef.current
+    if (!card || typeof IntersectionObserver === "undefined") { setVisible(true); return }
+    const observer = new IntersectionObserver(([entry]) => setVisible(Boolean(entry?.isIntersecting)), { rootMargin: "180px 0px", threshold: 0.01 })
+    observer.observe(card)
+    return () => observer.disconnect()
+  }, [])
+
+  useEffect(() => {
+    if (paused || !visible || document.hidden || safeItems.length <= 1) return
     const timer = window.setInterval(() => {
       setIndex((value) => (value + 1) % safeItems.length)
     }, 6200)
     return () => window.clearInterval(timer)
-  }, [paused, safeItems.length])
+  }, [paused, safeItems.length, visible])
 
   useEffect(() => {
     setIndex(0)
@@ -187,6 +260,7 @@ function NewsCarouselCard({
 
   return (
     <article
+      ref={cardRef}
       className={`v15-news-carousel ${featured ? "featured" : ""} tone-${tone}`}
       onMouseEnter={() => setPaused(true)}
       onMouseLeave={() => setPaused(false)}
@@ -262,6 +336,36 @@ function NewsCarouselCard({
   )
 }
 
+function LazyProfileVideo() {
+  const ref = useRef<HTMLVideoElement | null>(null)
+  const [active, setActive] = useState(false)
+
+  useEffect(() => {
+    const video = ref.current
+    if (!video || typeof IntersectionObserver === "undefined") { setActive(true); return }
+    const observer = new IntersectionObserver(([entry]) => {
+      if (entry?.isIntersecting) { setActive(true); observer.disconnect() }
+    }, { rootMargin: "1600px 0px", threshold: 0.01 })
+    observer.observe(video)
+    return () => observer.disconnect()
+  }, [])
+
+  useEffect(() => {
+    const video = ref.current
+    if (!video || !active) return
+    video.muted = true
+    video.defaultMuted = true
+    video.playbackRate = 1
+    void video.play().catch(() => undefined)
+  }, [active])
+
+  return (
+    <video ref={ref} className="v15-profile-video" autoPlay={active} muted loop playsInline preload={active ? "auto" : "none"} aria-hidden="true">
+      {active && <source src={`${import.meta.env.BASE_URL}media/profile-tech.mp4`} type="video/mp4" />}
+    </video>
+  )
+}
+
 export default function App() {
   const [menuOpen, setMenuOpen] = useState(false)
   const [selectedStage, setSelectedStage] = useState<Stage | null>(null)
@@ -273,6 +377,29 @@ export default function App() {
   const [completed, setCompleted] = useState<Set<string>>(readProgress)
   const [radar, setRadar] = useState<RadarItem[]>(fallbackNews)
   const [activeMethod, setActiveMethod] = useState(0)
+  const [resourceView, setResourceView] = useState(() => typeof window !== "undefined" && window.location.hash === "#recursos")
+  const [certificationView, setCertificationView] = useState(() => typeof window !== "undefined" && window.location.hash === "#certificaciones")
+
+  useEffect(() => initPremiumMotion(), [])
+
+  useEffect(() => {
+    const syncRoute = () => {
+      const isResources = window.location.hash === "#recursos"
+      const isCertifications = window.location.hash === "#certificaciones"
+      setResourceView(isResources)
+      setCertificationView(isCertifications)
+      setMenuOpen(false)
+      if (isResources || isCertifications) {
+        window.scrollTo({ top: 0, behavior: "auto" })
+      } else {
+        const targetId = window.location.hash.slice(1)
+        if (targetId) requestAnimationFrame(() => requestAnimationFrame(() => document.getElementById(targetId)?.scrollIntoView({ behavior: "auto" })))
+      }
+    }
+    syncRoute()
+    window.addEventListener("hashchange", syncRoute)
+    return () => window.removeEventListener("hashchange", syncRoute)
+  }, [])
 
   const newsLanes = useMemo(() => {
     // Primero limpiamos duplicados del feed completo. No basta con deduplicar
@@ -341,7 +468,13 @@ export default function App() {
     const handler = (event: KeyboardEvent) => {
       if ((event.ctrlKey || event.metaKey) && event.key.toLowerCase() === "k") {
         event.preventDefault()
-        setSearchOpen(true)
+        if (resourceView) {
+          document.querySelector<HTMLInputElement>(".v27-resource-search input")?.focus()
+        } else if (certificationView) {
+          document.querySelector<HTMLInputElement>(".cert-v1-search input")?.focus()
+        } else {
+          setSearchOpen(true)
+        }
       }
       if (event.key === "Escape") {
         setSearchOpen(false)
@@ -350,7 +483,7 @@ export default function App() {
     }
     window.addEventListener("keydown", handler)
     return () => window.removeEventListener("keydown", handler)
-  }, [])
+  }, [certificationView, resourceView])
 
   useEffect(() => {
     let cancelled = false
@@ -435,18 +568,19 @@ export default function App() {
         <div className="v15-nav">
           <a className="v15-brand" href="#inicio"><span>CM</span><b>Campus Maestro</b></a>
           <nav>
-            <a href="#campus">Campus</a><a href="#roadmap">Roadmap</a><a href="#maestrias">Maestrías</a><a href="#atlas">Atlas</a><a href="#noticias">Noticias</a><a href="#perfil">Perfil</a>
+            <a href="#campus">Campus</a><a href="#roadmap">Roadmap</a><a href="#maestrias">Maestrías</a><a href="#atlas">Atlas</a><a href="#recursos">Recursos</a><a href="#certificaciones">Certificaciones</a><a href="#noticias">Noticias</a><a href="#perfil">Perfil</a>
           </nav>
           <div className="v15-nav-actions">
-            <button onClick={() => setSearchOpen(true)}><Search size={17} /> Buscar <kbd>Ctrl K</kbd></button>
-            <a className="v15-black-button" href="#roadmap">Entrar al campus <ArrowRight size={17} /></a>
+            <button onClick={() => resourceView ? document.querySelector<HTMLInputElement>(".v27-resource-search input")?.focus() : certificationView ? document.querySelector<HTMLInputElement>(".cert-v1-search input")?.focus() : setSearchOpen(true)}><Search size={17} /> Buscar <kbd>Ctrl K</kbd></button>
+            <a className="v15-black-button" href={(resourceView || certificationView) ? "#inicio" : "#roadmap"}>{(resourceView || certificationView) ? "Volver al campus" : "Entrar al campus"} <ArrowRight size={17} /></a>
           </div>
           <button className="v15-menu" onClick={() => setMenuOpen((value) => !value)} aria-label="Abrir menú">{menuOpen ? <X /> : <Menu />}</button>
         </div>
-        {menuOpen && <div className="v15-mobile-menu"><a href="#campus" onClick={() => setMenuOpen(false)}>Campus</a><a href="#roadmap" onClick={() => setMenuOpen(false)}>Roadmap</a><a href="#maestrias" onClick={() => setMenuOpen(false)}>Maestrías</a><a href="#atlas" onClick={() => setMenuOpen(false)}>Atlas</a><a href="#noticias" onClick={() => setMenuOpen(false)}>Noticias</a><a href="#perfil" onClick={() => setMenuOpen(false)}>Perfil</a></div>}
+        {menuOpen && <div className="v15-mobile-menu"><a href="#campus" onClick={() => setMenuOpen(false)}>Campus</a><a href="#roadmap" onClick={() => setMenuOpen(false)}>Roadmap</a><a href="#maestrias" onClick={() => setMenuOpen(false)}>Maestrías</a><a href="#atlas" onClick={() => setMenuOpen(false)}>Atlas</a><a href="#recursos" onClick={() => setMenuOpen(false)}>Recursos</a><a href="#certificaciones" onClick={() => setMenuOpen(false)}>Certificaciones</a><a href="#noticias" onClick={() => setMenuOpen(false)}>Noticias</a><a href="#perfil" onClick={() => setMenuOpen(false)}>Perfil</a></div>}
         <div className="v15-progress" aria-label={`Progreso ${progress}%`}><i style={{ width: `${progress}%` }} /></div>
       </header>
 
+      {resourceView ? <Suspense fallback={<div className="v15-page-loader">Cargando recursos…</div>}><ResourcesHub /></Suspense> : certificationView ? <Suspense fallback={<div className="v15-page-loader">Cargando certificaciones…</div>}><CertificationsHub /></Suspense> : (
       <main>
         <section className="v15-hero">
           <div className="v15-sky" />
@@ -454,7 +588,7 @@ export default function App() {
           <div className="v15-hero-grid">
             <div className="v15-hero-copy">
               <p className="v15-kicker">UNIVERSIDAD ABIERTA · COMPUTACIÓN INTEGRAL · S/0</p>
-              <h1>Construye conocimiento<br /><em>para dominar computación.</em></h1>
+              <h1>Construye <TypewriterWord word="conocimiento" /><br /><em>para dominar computación.</em></h1>
               <p>Una arquitectura autodidacta en español que conecta fundamentos universitarios, práctica profesional, investigación y especialización en una sola ruta.</p>
               <div className="v15-hero-actions"><a href="#roadmap" className="v15-white-button">Ver el roadmap <ArrowRight size={17} /></a><a href="#campus" className="v15-lime-button">Explorar campus</a></div>
               <div className="v15-hero-badges"><span><GraduationCap />Fundamentos</span><span><Code2 />Software</span><span><BrainCircuit />IA</span><span><ShieldCheck />Seguridad</span></div>
@@ -530,7 +664,7 @@ export default function App() {
 
         <section className="v15-section v15-universes">
           <div className="v15-section-head"><div><span>08 UNIVERSOS CONECTADOS</span><h2>Una base.<br />Muchos mundos.</h2></div><p>Las disciplinas se cruzan. El roadmap evita estudiar cada carrera como una isla y utiliza un tronco común antes de abrir especializaciones.</p></div>
-          <div className="v15-universe-grid">{universes.map((item) => { const Icon = item.icon; return <article key={item.code} className={`v15-universe-card tone-${item.tone}`}><div className="v15-universe-copy"><small>{item.code}</small><Icon /><h3>{item.title}</h3><p>{item.text}</p></div><img src={item.image} alt={item.alt} loading="lazy" /></article> })}</div>
+          <div className="v15-universe-grid">{universes.map((item) => { const Icon = item.icon; return <article key={item.code} className={`v15-universe-card tone-${item.tone}`}><div className="v15-universe-copy"><small>{item.code}</small><Icon /><h3>{item.title}</h3><p>{item.text}</p></div><img src={item.image} alt={item.alt} loading="lazy" decoding="async" fetchPriority="low" /></article> })}</div>
         </section>
 
         <section className="v15-section" id="roadmap">
@@ -594,38 +728,7 @@ export default function App() {
 
         <section className="v15-profile-section" id="perfil">
           <div className="v15-profile-landscape">
-            <video
-              className="v15-profile-video"
-              autoPlay
-              muted
-              loop
-              playsInline
-              preload="auto"
-              aria-hidden="true"
-              ref={(video) => {
-                if (!video) return
-                video.muted = true
-                video.defaultMuted = true
-                video.playbackRate = 0.9
-                void video.play().catch(() => undefined)
-              }}
-              onLoadedData={(event) => {
-                event.currentTarget.muted = true
-                event.currentTarget.playbackRate = 0.9
-                void event.currentTarget.play().catch(() => undefined)
-              }}
-              onCanPlay={(event) => {
-                event.currentTarget.muted = true
-                void event.currentTarget.play().catch(() => undefined)
-              }}
-              onPause={(event) => {
-                if (document.visibilityState === "visible") {
-                  void event.currentTarget.play().catch(() => undefined)
-                }
-              }}
-            >
-              <source src={`${import.meta.env.BASE_URL}media/profile-tech.mp4`} type="video/mp4" />
-            </video>
+            <LazyProfileVideo />
             <div className="v15-profile-video-overlay" aria-hidden="true" />
 
             <div className="v15-profile-copy">
@@ -649,8 +752,9 @@ export default function App() {
           </div>
         </section>
       </main>
+      )}
 
-      <footer className="v15-footer"><div><a className="v15-brand" href="#inicio"><span>CM</span><b>Campus Maestro</b></a><p>Computación integral · español primero · costo obligatorio S/0</p></div><div><a href="#roadmap">Roadmap</a><a href="#maestrias">Maestrías</a><a href="#atlas">Atlas</a><a href="#noticias">Noticias</a><a href="#perfil">Perfil</a></div><small>V15 · aprendizaje abierto, verificable y actualizable.</small></footer>
+      <footer className="v15-footer"><div><a className="v15-brand" href="#inicio"><span>CM</span><b>Campus Maestro</b></a><p>Computación integral · español primero · costo obligatorio S/0</p><p className="v27-music-credit">Track: Spirit of Fire · Music by <a href="https://www.fiftysounds.com" target="_blank" rel="noreferrer">FiftySounds</a></p></div><div><a href="#roadmap">Roadmap</a><a href="#maestrias">Maestrías</a><a href="#atlas">Atlas</a><a href="#recursos">Recursos</a><a href="#certificaciones">Certificaciones</a><a href="#noticias">Noticias</a><a href="#perfil">Perfil</a></div><small>V15 · aprendizaje abierto, verificable y actualizable.</small></footer>
 
       <AnimatePresence>
         {selectedStage && <motion.div className="v15-modal-backdrop" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} onClick={() => setSelectedStage(null)}><motion.div className="v15-stage-modal" initial={{ opacity: 0, y: 30, scale: .98 }} animate={{ opacity: 1, y: 0, scale: 1 }} exit={{ opacity: 0, y: 20 }} onClick={(event) => event.stopPropagation()}><button className="v15-modal-close" onClick={() => setSelectedStage(null)}><X /></button><div className="v15-modal-head"><span>{selectedStage.code} · {selectedStage.year}</span><h2>{selectedStage.title}</h2><p>{selectedStage.outcome}</p><div><b>{selectedStage.duration}</b><b>Prerequisito: {selectedStage.prerequisites}</b></div></div><div className="v15-subject-list">{selectedStage.subjects.map((subject, index) => { const id = `${selectedStage.code}::${subject.name}`; const done = completed.has(id); return <article key={subject.name}><button className={done ? "v15-check done" : "v15-check"} onClick={() => toggleSubject(selectedStage, subject)}>{done ? <CheckCircle2 /> : <span>{String(index + 1).padStart(2,"0")}</span>}</button><div><h3>{subject.name}</h3><p>{subject.study}</p><small><b>Evidencia:</b> {subject.evidence}</small><div className="v15-subject-method" aria-label="Método Maestro aplicado a esta materia">{method.map((phase) => <span key={phase.code}><b>{phase.code}</b>{phase.title}</span>)}</div><div className="v15-subject-sources">{subject.sources.map((source) => <a key={source.url} href={source.url} target="_blank" rel="noreferrer">{source.label}<span>{source.where}</span><ExternalLink size={14} /></a>)}</div></div></article> })}</div><div className="v15-modal-gate"><span>GATE</span><p>{selectedStage.gate}</p><span>PROYECTO</span><p>{selectedStage.capstone}</p></div></motion.div></motion.div>}
@@ -664,3 +768,5 @@ export default function App() {
 }
 
 function Chevron() { return <ArrowRight size={15} /> }
+
+

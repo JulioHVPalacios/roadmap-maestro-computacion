@@ -1,0 +1,70 @@
+/* V25 — mejora transversal, sin alterar la identidad ni el sistema solar. */
+html.v25-enabled{scroll-behavior:auto}
+html.v25-enabled body{overscroll-behavior-y:none}
+.v25-atmosphere{position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden;opacity:.34}
+.v25-atmosphere i{position:absolute;border-radius:50%;filter:blur(110px);opacity:.11;will-change:transform}
+.v25-atmosphere i:nth-child(1){width:34vw;height:34vw;left:-12vw;top:12vh;background:#55dfff;animation:v25float1 24s ease-in-out infinite alternate}
+.v25-atmosphere i:nth-child(2){width:30vw;height:30vw;right:-8vw;top:42vh;background:#786bff;animation:v25float2 30s ease-in-out infinite alternate}
+.v25-atmosphere i:nth-child(3){width:26vw;height:26vw;left:38vw;bottom:-12vw;background:#d9ff4f;animation:v25float3 28s ease-in-out infinite alternate}
+@keyframes v25float1{to{transform:translate3d(8vw,8vh,0) scale(1.08)}}
+@keyframes v25float2{to{transform:translate3d(-7vw,-7vh,0) scale(.92)}}
+@keyframes v25float3{to{transform:translate3d(5vw,-8vh,0) scale(1.1)}}
+
+html.v25-enabled .v15-section:not(.v15-orbit-section),
+html.v25-enabled .v15-news-section,
+html.v25-enabled .v15-profile-section{content-visibility:auto;contain-intrinsic-size:900px}
+
+html.v25-enabled .v25-surface{position:relative;isolation:isolate}
+html.v25-enabled .v25-surface::after{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;opacity:0;z-index:12;background:radial-gradient(320px circle at var(--v25-x,50%) var(--v25-y,50%),rgba(255,255,255,.20),transparent 66%);mix-blend-mode:soft-light;transition:opacity .22s ease}
+html.v25-enabled .v25-surface:hover::after{opacity:.75}
+
+html.v25-enabled .v15-universe-card,html.v25-enabled .v15-stage-card,html.v25-enabled .v15-news-slide{transform:translateZ(0);backface-visibility:hidden}
+html.v25-enabled .v15-universe-card:hover,html.v25-enabled .v15-stage-card:hover{transition-duration:.24s!important}
+html.v25-enabled .v15-news-media,html.v25-enabled .v15-universe-card{overflow:hidden}
+html.v25-enabled .v15-news-slide-image,html.v25-enabled .v15-universe-card>img{will-change:transform}
+
+html.v25-enabled .v15-section::after{content:"";position:absolute;left:50%;bottom:0;width:min(1240px,calc(100vw - 64px));height:1px;transform:translateX(-50%);background:linear-gradient(90deg,transparent,rgba(93,112,255,.11),rgba(217,255,79,.13),transparent);pointer-events:none}
+html.v25-enabled .v15-center-head h2,html.v25-enabled .v15-section-head h2{text-wrap:balance}
+html.v25-enabled .v15-center-head h2::selection,html.v25-enabled .v15-section-head h2::selection{background:#d9ff4f;color:#0a1714}
+
+html.v25-enabled .v15-universe-card{box-shadow:0 22px 58px rgba(21,31,26,.075),inset 0 1px rgba(255,255,255,.5)}
+html.v25-enabled .v15-stage-card{box-shadow:0 18px 50px rgba(20,29,25,.065),inset 0 1px rgba(255,255,255,.72)}
+html.v25-enabled .v15-news-slide{box-shadow:0 20px 54px rgba(20,29,25,.085)}
+html.v25-enabled .v15-profile-card{box-shadow:0 28px 80px rgba(20,29,25,.1)}
+
+html.v25-enabled .v15-hero-solar::before{opacity:1!important;filter:blur(.5px)!important}
+html.v25-enabled .solar-stage{filter:drop-shadow(0 28px 45px rgba(3,51,42,.08))}
+
+@media(max-width:820px){
+ .v25-atmosphere{opacity:.18}.v25-atmosphere i{animation:none;filter:blur(80px)}
+ html.v25-enabled .v15-section:not(.v15-orbit-section),html.v25-enabled .v15-news-section,html.v25-enabled .v15-profile-section{contain-intrinsic-size:760px}
+ html.v25-enabled .v25-surface::after{display:none}
+}
+@media(prefers-reduced-motion:reduce){.v25-atmosphere i{animation:none!important}}
+
+/* Atmósfera por capítulo: cambia muy suavemente sin tocar el diseño base. */
+html[data-v25-section="roadmap"] .v25-atmosphere i:nth-child(2){background:#5f7cff}
+html[data-v25-section="maestrias"] .v25-atmosphere i:nth-child(2){background:#a16cff}
+html[data-v25-section="atlas"] .v25-atmosphere i:nth-child(1){background:#54e4c0}
+html[data-v25-section="radar"] .v25-atmosphere i:nth-child(3){background:#ffd35f}
+html[data-v25-section="perfil"] .v25-atmosphere i:nth-child(2){background:#59d7ff}
+
+html.v25-enabled .v15-hero::before{
+  content:"";position:absolute;inset:0;z-index:2;pointer-events:none;opacity:.34;
+  background:radial-gradient(520px circle at var(--v25-page-x,74vw) var(--v25-page-y,22vh),rgba(255,255,255,.28),transparent 64%);
+  mix-blend-mode:soft-light;
+}
+
+/* Background-grid fino al estilo de las mejores bibliotecas de UI creativa, pero local y sin dependencia adicional. */
+html.v25-enabled .v15-prompt-section::before,
+html.v25-enabled .v15-atlas::before,
+html.v25-enabled .v15-news-section::before{
+  content:"";position:absolute;inset:0;pointer-events:none;opacity:.14;
+  background-image:linear-gradient(rgba(10,23,20,.10) 1px,transparent 1px),linear-gradient(90deg,rgba(10,23,20,.08) 1px,transparent 1px);
+  background-size:38px 38px;mask-image:radial-gradient(ellipse at center,#000 0%,transparent 74%);
+}
+
+/* Menos loops perpetuos: más fluidez y una estética más sobria. */
+html.v25-enabled .v15-standard-grid a,html.v25-enabled .v15-ecosystem-grid article{animation:none!important;will-change:auto!important}
+
+@media(max-width:820px){html.v25-enabled .v15-hero::before{display:none}html.v25-enabled .v15-prompt-section::before,html.v25-enabled .v15-atlas::before,html.v25-enabled .v15-news-section::before{opacity:.08;background-size:32px 32px}}

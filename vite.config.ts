@@ -13,12 +13,17 @@ export default defineConfig({
 
   resolve: {
     alias: {
-      "@": path.resolve(__dirname, "./src"),
+      "@": path.resolve(import.meta.dirname, "./src"),
     },
+  },
+
+  optimizeDeps: {
+    include: ["gsap", "lenis", "howler"],
   },
 
   build: {
     outDir: "dist",
-    sourcemap: true,
+    sourcemap: false,
+    reportCompressedSize: false,
   },
 })

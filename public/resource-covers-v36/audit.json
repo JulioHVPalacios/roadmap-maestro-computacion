@@ -1,0 +1,4681 @@
+[
+  {
+    "id": "live-librodev-es-introduccion-a-javascript-javier-eguiluz-perez-pdf",
+    "title": "Introducción a JavaScript",
+    "provider": "Javier Eguíluz Pérez · PDF",
+    "url": "https://librosgratis.dev/books/javascript-introduccion-eguiluz.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-librodev-es-css3-y-javascript-avanzado-jordi-collell-puig-pdf",
+    "title": "CSS3 y Javascript avanzado",
+    "provider": "Jordi Collell Puig · PDF",
+    "url": "https://librosgratis.dev/books/css3-javascript-avanzado.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-librodev-es-poo-y-mvc-en-php-eugenia-bahit-pdf",
+    "title": "POO y MVC en PHP",
+    "provider": "Eugenia Bahit · PDF",
+    "url": "https://librosgratis.dev/books/php-poo-mvc.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-librodev-es-programacion-en-php-a-traves-de-ejemplos-manuel-palomo-duarte-ildefonso-m",
+    "title": "Programación en PHP a través de ejemplos",
+    "provider": "Manuel Palomo Duarte, Ildefonso Montero Pérez · PDF",
+    "url": "https://librosgratis.dev/books/php-programacion-ejemplos.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-librodev-es-python-para-todos-raul-gonzalez-duque-pdf",
+    "title": "Python para todos",
+    "provider": "Raúl González Duque · PDF",
+    "url": "https://librosgratis.dev/books/python-para-todos.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-courses-es-aplicaciones-y-servicios-en-redes-free-courses-espanol",
+    "title": "Aplicaciones y servicios en redes",
+    "provider": "Free Courses · Español",
+    "url": "https://ocw.unican.es/course/view.php?id=148",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-courses-es-aprende-mongodb-nosql-desde-cero-hasta-nivel-experto-luis-angel-monge-ingenioteka",
+    "title": "Aprende MongoDB NoSQL desde cero hasta nivel experto",
+    "provider": "Luis Angel Monge (Ingenioteka)",
+    "url": "https://www.youtube.com/playlist?list=PLyahFOLd43YRLaaoDKMUWS09xE8HqZAbE",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-casts-es-aprende-de-los-expertos-en-the-dojo-mx-hector-ivan-patricio-moreno-scre",
+    "title": "Aprende de los expertos en The Dojo MX",
+    "provider": "Héctor Iván Patricio Moreno (screencast)",
+    "url": "https://www.youtube.com/playlist?list=PLfeFnTZNTVDO5UwcIvWherSLxuBuK6ve4",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-courses-es-aprende-vs-code-ahora-curso-completo-de-vscode-desde-cero-holamundo",
+    "title": "Aprende VS Code ahora! \\| curso completo de VSCode desde CERO",
+    "provider": "HolaMundo",
+    "url": "https://www.youtube.com/watch?v=Ei1y51K8jQk",
+    "ok": true,
+    "source": "Miniatura oficial de YouTube"
+  },
+  {
+    "id": "live-fpb-casts-es-aquelarre-of-games-screencast",
+    "title": "Aquelarre of Games",
+    "provider": "(screencast)",
+    "url": "https://www.youtube.com/playlist?list=PLeUTAd8xaJJlW8xHQn000F2vg6OSQlH9i",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-courses-es-arquitectura-e-ingenieria-de-computadores-free-courses-espanol",
+    "title": "Arquitéctura e ingeniería de computadores",
+    "provider": "Free Courses · Español",
+    "url": "https://ocw.unican.es/course/view.php?id=162",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-casts-es-atareao-con-linux-lorenzo-carbonell-podcast",
+    "title": "Atareao con Linux",
+    "provider": "Lorenzo Carbonell (podcast)",
+    "url": "https://atareao.es/podcast",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-courses-es-bases-de-datos-2011-free-courses-espanol",
+    "title": "Bases de Datos (2011)",
+    "provider": "Free Courses · Español",
+    "url": "https://ocw.unican.es/course/view.php?id=163",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-casts-es-bigdateame-iker-gomez-garcia-podcast",
+    "title": "BigDateame",
+    "provider": "Iker Gómez García (podcast)",
+    "url": "https://open.spotify.com/show/0aikWOJmQMglEmbmbHqv4q",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-casts-es-codalot-podcast-armando-picon-podcast",
+    "title": "Codalot Podcast",
+    "provider": "Armando Picón (podcast)",
+    "url": "https://anchor.fm/codalot",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-casts-es-commit-fm-cristian-moreno-podcast-ultima-a",
+    "title": "Commit.fm",
+    "provider": "Cristian Moreno (podcast) (Última Actualización: Julio 2020)",
+    "url": "https://anchor.fm/khriztianmoreno",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-casts-es-codely-tv-screencasts-codely-tv-screencasts",
+    "title": "Codely.TV screencasts",
+    "provider": "Codely.TV (screencasts)",
+    "url": "https://codely.com/blog/category/screencasts",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-casts-es-code-on-the-rocks-jorge-barroso-jorge-leria-davide",
+    "title": "Code on the Rocks",
+    "provider": "Jorge Barroso, Jorge Lería, Davide Mendolia (podcast)",
+    "url": "http://codeontherocks.fm",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-casts-es-compilando-podcast-paco-estrada-podcast-ultima-actu",
+    "title": "Compilando Podcast",
+    "provider": "Paco Estrada (podcast) (Última Actualización: Septiembre 2023)",
+    "url": "https://podcasts.apple.com/es/podcast/compilando-podcast/id1215384401",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-courses-es-compresion-de-video-2017-univ-de-cantabria",
+    "title": "Compresión de vídeo (2017)",
+    "provider": "Univ. de Cantabria",
+    "url": "https://ocw.unican.es/course/view.php?id=13",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-casts-es-conceptos-fundamentales-bases-de-datos-relacionales-programacion-y-mas-screencast",
+    "title": "Conceptos fundamentales: Bases de datos relacionales",
+    "provider": "Programación y más (screencast)",
+    "url": "https://www.youtube.com/playlist?list=PLzSFZWTjelbJ01UciHPAWTqUFWesoGr9A",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-courses-es-comunicaciones-espaciales-2010-free-courses-espanol",
+    "title": "Comunicaciones Espaciales (2010)",
+    "provider": "Free Courses · Español",
+    "url": "http://ocw.bib.upct.es/course/view.php?id=94",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-courses-es-conmutacion-2012-free-courses-espanol",
+    "title": "Conmutación (2012)",
+    "provider": "Free Courses · Español",
+    "url": "http://ocw.bib.upct.es/course/view.php?id=129",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-casts-es-cosas-de-internet-santiago-espinosa-laura-rojas-ap",
+    "title": "Cosas de Internet",
+    "provider": "Santiago Espinosa, Laura Rojas Aponte (podcast)",
+    "url": "https://cosasdeinternet.fm/episodios",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-courses-es-curso-arduino-desde-cero-en-espanol-facil-y-didactico-bitwise-ar",
+    "title": "Curso Arduino desde cero en Español fácil y didáctico",
+    "provider": "Bitwise Ar",
+    "url": "https://www.youtube.com/playlist?list=PLkjnQ3NFTPnY1eNyLDGi547gkVui1vyn2",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-courses-es-curso-de-markdown-programatutos",
+    "title": "Curso de Markdown",
+    "provider": "ProgramaTutos",
+    "url": "https://www.youtube.com/playlist?list=PLM4HZoZrNapsQ_f6a9275n15riyr-2AnQ",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-courses-es-curso-de-php-mysql-juan-diaz-pildoras-informaticas",
+    "title": "Curso de PHP/MySQL",
+    "provider": "Juan Díaz (Píldoras informáticas)",
+    "url": "https://www.youtube.com/playlist?list=PLU8oAlHdN5BkinrODGXToK9oPAlnJxmW_",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-courses-es-curso-de-python-brias-moure-mouredev",
+    "title": "Curso de Python",
+    "provider": "Brias Moure \"MoureDev\"",
+    "url": "https://www.youtube.com/playlist?list=PLNdFk2_brsRcrVO-C915sjog0WclPgxHb",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-courses-es-curso-de-wordpress-desde-cero-2020-academia-coder",
+    "title": "CURSO de WORDPRESS (Desde Cero) - 2020",
+    "provider": "Academia Coder",
+    "url": "https://www.youtube.com/playlist?list=PLs-v5LWbw7JnwF9RquAuuxLi-Ha1rths6",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-courses-es-curso-json-de-novato-a-experto-camilo-martinez-equimancho",
+    "title": "Curso JSON. De Novato a Experto",
+    "provider": "Camilo Martínez \"Equimancho\"",
+    "url": "https://www.youtube.com/playlist?list=PLrDTf5qnZdEAiHO19QB9hq5QXAef1h8oY",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-courses-es-curso-gratuito-de-next-js-y-firebase-miguel-angel-duran-midudev",
+    "title": "Curso gratuito de Next.js y Firebase",
+    "provider": "Miguel Ángel Durán «midudev»",
+    "url": "https://www.youtube.com/playlist?list=PLV8x_i1fqBw1VR86y4C72xMGJ8ifjBwJ6",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-courses-es-curso-react-native-desde-cero-miguel-angel-duran-midudev",
+    "title": "Curso React Native desde cero",
+    "provider": "Miguel Ángel Durán \"midudev\"",
+    "url": "https://www.youtube.com/watch?v=qi87b6VcIHY&t=1004s",
+    "ok": true,
+    "source": "Miniatura oficial de YouTube"
+  },
+  {
+    "id": "live-fpb-courses-es-curso-react-js-desde-cero-crea-una-aplicacion-paso-a-paso-miguel-angel-duran-midudev",
+    "title": "Curso React.js desde cero - Crea una aplicación paso a paso",
+    "provider": "Miguel Ángel Durán «midudev»",
+    "url": "https://www.youtube.com/playlist?list=PLV8x_i1fqBw0B008sQn79YxCjkHJU84pC",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-casts-es-datafuturologyespanol-felipe-flores-podcast",
+    "title": "DataFuturologyEspanol",
+    "provider": "Felipe Flores (podcast)",
+    "url": "https://podcasts.apple.com/es/podcast/data-futurology-espa%C3%B1ol/id1523527265",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-casts-es-datalatam-diego-may-frans-van-dunne-podcas",
+    "title": "DataLatam",
+    "provider": "Diego May, Frans van Dunné (podcast)",
+    "url": "http://www.datalatam.com",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-courses-es-desarrollo-de-apps-sin-saber-programacion-free-courses-espanol",
+    "title": "Desarrollo de Apps sin saber programación",
+    "provider": "Free Courses · Español",
+    "url": "https://campusvirtual.ull.es/ocw/course/view.php?id=128",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-librodev-es-desarrollo-de-aplicaciones-web-con-react-js-y-redux-js-sergio-daniel-xalambri-html",
+    "title": "Desarrollo de Aplicaciones Web con React.js y Redux.js",
+    "provider": "Sergio Daniel Xalambrí · HTML",
+    "url": "https://leanpub.com/read/react-redux",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-courses-es-desarrollador-de-videojuegos-capacitate-para-el-empleo-carlos-slim-foundation-cuenta-re",
+    "title": "Desarrollador de videojuegos - Capacitate para el empleo",
+    "provider": "Carlos Slim Foundation (cuenta requerida)",
+    "url": "https://capacitateparaelempleo.org/pages.php?r=.tema&tagID=6226",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-courses-es-desarrollo-de-sistemas-de-informacion-2013-free-courses-espanol",
+    "title": "Desarrollo de sistemas de información (2013)",
+    "provider": "Free Courses · Español",
+    "url": "https://ocw.unican.es/course/view.php?id=99",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-casts-es-devtalles-fernando-herrera-podcast",
+    "title": "DevTalles",
+    "provider": "Fernando Herrera (podcast)",
+    "url": "https://open.spotify.com/show/0jrfxcnCrD7N9tlA0BGJp5",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-casts-es-descargas-de-mi-mente-juan-angel-podcast",
+    "title": "Descargas de mi mente",
+    "provider": "Juan Ángel (podcast)",
+    "url": "https://www.ivoox.com/podcast-descargas-mi-mente_sq_f1584288_1.html",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-courses-es-dimensionamiento-y-planificacion-de-redes-2015-free-courses-espanol",
+    "title": "Dimensionamiento y planificación de redes (2015)",
+    "provider": "Free Courses · Español",
+    "url": "https://ocw.unican.es/course/view.php?id=19",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-casts-es-digital-innovation-engineers-mimacom-podcast",
+    "title": "Digital. Innovation. Engineers.",
+    "provider": "Mimacom (podcast)",
+    "url": "https://anchor.fm/mimacom",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-casts-es-diseno-web-ramon-prats-podcast",
+    "title": "Diseño Web",
+    "provider": "Ramón Prats (podcast)",
+    "url": "https://pampua.es/podcast",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-courses-es-diseno-y-operacion-de-redes-telematicas-2015-free-courses-espanol",
+    "title": "Diseño y operación de redes telemáticas (2015)",
+    "provider": "Free Courses · Español",
+    "url": "https://ocw.unican.es/course/view.php?id=22",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-casts-es-diogenes-digital-sergio-pascual-micropakito-carlo",
+    "title": "Diógenes Digital",
+    "provider": "Sergio Pascual \"Micropakito\", Carlos del Pozo, Israel Alvarez \"Borrachuzo\" (podcast) (Última Actualización: Octubre 2019)",
+    "url": "https://diogenesdigital.es/podcasts/",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-books-es-domain-driven-design-with-php-diseno-guiado-por-dominio-con-php-carlos-buenosvinos-zamora",
+    "title": "Domain Driven Design with PHP (Diseño guiado por Dominio con PHP)",
+    "provider": "Carlos Buenosvinos Zamora",
+    "url": "https://www.youtube.com/playlist?list=PLfgj7DYkKH3DjmXTOxIMs-5fcOgDg_Dd2",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-casts-es-domain-driven-design-codely-tv-screencast",
+    "title": "Domain-Driven Design",
+    "provider": "Codely.TV (screencast)",
+    "url": "https://www.youtube.com/playlist?list=PLZVwXPbHD1KMsiA7ahRSbIwS3QMsQ0SbL",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-casts-es-doomling-chill-bel-rey-podcast-ultima-actualiza",
+    "title": "Doomling & Chill",
+    "provider": "Bel Rey (podcast) (Última Actualización: Marzo 2021)",
+    "url": "https://anchor.fm/bel-rey",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-casts-es-drupalizate-robert-menetray-podcast",
+    "title": "Drupalízate",
+    "provider": "Robert Menetray (podcast)",
+    "url": "https://anchor.fm/drupalizate",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-casts-es-educando-geek-juanjo-gurillo-podcast-ultima-ac",
+    "title": "Educando Geek",
+    "provider": "Juanjo Gurillo (podcast) (Última Actualización: Diciembre 2021)",
+    "url": "https://educandogeek.github.io",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-casts-es-dia30-victor-velazquez-mariana-ruiz-po",
+    "title": "Día30",
+    "provider": "Víctor Velázquez, Mariana Ruiz (podcast) (Última Actualización: Noviembre 2021)",
+    "url": "https://www.dia30.mx",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-casts-es-entre-dev-y-ops-ignasi-fosch-javier-avellano-edu",
+    "title": "Entre Dev y Ops",
+    "provider": "Ignasi Fosch, Javier Avellano, Eduardo Bellido, David Acacio (podcast)",
+    "url": "https://www.entredevyops.es",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-courses-es-fullstack-javascript-bootcamp-javascript-react-js-graphql-node-js-typescript-y-miguel-angel-duran-midudev",
+    "title": "FullStack JavaScript Bootcamp \\| JavaScript, React.js, GraphQL, Node.js, TypeScript y +",
+    "provider": "Miguel Ángel Durán «midudev»",
+    "url": "https://www.youtube.com/playlist?list=PLV8x_i1fqBw0Kn_fBIZTa3wS_VZAqddX7",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-casts-es-frikismo-puro-francisco-javier-garate-soto-jua",
+    "title": "Frikismo Puro",
+    "provider": "Francisco Javier Gárate Soto, Juan Leiva (podcast)",
+    "url": "https://www.ivoox.com/podcast-frikismo-puro_sq_f1268809_1.html",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-courses-es-estadistica-basica-con-r-y-r-commander-free-courses-espanol",
+    "title": "Estadística básica con R y R-Commander",
+    "provider": "Free Courses · Español",
+    "url": "https://ocw.uca.es/course/view.php?id=11",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-courses-es-fundamentos-de-computacion-2010-free-courses-espanol",
+    "title": "Fundamentos de Computación (2010)",
+    "provider": "Free Courses · Español",
+    "url": "https://ocw.unican.es/course/view.php?id=194",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-courses-es-fundamentos-de-informatica-2008-free-courses-espanol",
+    "title": "Fundamentos de Informática (2008)",
+    "provider": "Free Courses · Español",
+    "url": "http://ocw.bib.upct.es/course/view.php?id=112",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-courses-es-fundamentos-de-informatica-en-lenguaje-c-i-free-courses-espanol",
+    "title": "Fundamentos de informática en lenguaje C - I",
+    "provider": "Free Courses · Español",
+    "url": "https://ocw.uca.es/course/view.php?id=31",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-courses-es-garantia-y-seguridad-en-sistemas-y-redes-2016-free-courses-espanol",
+    "title": "Garantía y seguridad en sistemas y redes (2016)",
+    "provider": "Free Courses · Español",
+    "url": "https://ocw.unican.es/course/view.php?id=16",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-courses-es-gestion-de-proyectos-software-2015-free-courses-espanol",
+    "title": "Gestión de proyectos software (2015)",
+    "provider": "Free Courses · Español",
+    "url": "https://ocw.unican.es/course/view.php?id=206",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-courses-es-fundamentos-de-informatica-en-lenguaje-c-y-arduino-ii-free-courses-espanol",
+    "title": "Fundamentos de informática en lenguaje C y Arduino - II",
+    "provider": "Free Courses · Español",
+    "url": "https://ocw.uca.es/course/view.php?id=74",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-casts-es-hablando-js-carlos-azaustre-podcast",
+    "title": "Hablando.js",
+    "provider": "Carlos Azaustre (podcast)",
+    "url": "https://anchor.fm/carlosazaustre",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-courses-es-git-github-ignacio-gutierrez-blueweb",
+    "title": "Git & GitHub",
+    "provider": "Ignacio Gutiérrez, BlueWeb",
+    "url": "https://www.youtube.com/playlist?list=PLPl81lqbj-4I8i-x2b5_MG58tZfgKmJls",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-casts-es-hijos-de-la-web-hector-trejo-juan-jose-gutierrez",
+    "title": "Hijos de la Web",
+    "provider": "Hector Trejo, Juan José Gutierrez, Óscar Miranda (podcast) (Última Actualización: Marzo 2020)",
+    "url": "https://www.ivoox.com/podcast-hijos-web_sq_f1588708_1.html",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-courses-es-ingenieria-del-software-i-2011-free-courses-espanol",
+    "title": "Ingeniería del Software I (2011)",
+    "provider": "Free Courses · Español",
+    "url": "https://ocw.unican.es/course/view.php?id=169",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-courses-es-ingenieria-del-software-ii-2011-free-courses-espanol",
+    "title": "Ingeniería del Software II (2011)",
+    "provider": "Free Courses · Español",
+    "url": "https://ocw.unican.es/course/view.php?id=170",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-courses-es-inteligencia-artificial-clips-2015-free-courses-espanol",
+    "title": "Inteligencia artificial: Clips (2015)",
+    "provider": "Free Courses · Español",
+    "url": "https://campusvirtual.ull.es/ocw/course/view.php?id=112",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-casts-es-icharlas-manuel-terron-philippe-rochette-",
+    "title": "iCharlas",
+    "provider": "Manuel Terrón, Philippe Rochette (podcast) (Última Actualización: Enero 2020)",
+    "url": "https://www.ivoox.com/podcast-icharlas-podcast_sq_f155400_1.html",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-courses-es-inteligencia-artificial-prolog-2011-free-courses-espanol",
+    "title": "Inteligencia artificial: Prolog (2011)",
+    "provider": "Free Courses · Español",
+    "url": "https://campusvirtual.ull.es/ocw/course/view.php?id=104",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-courses-es-introduccion-a-perl-2012-free-courses-espanol",
+    "title": "Introducción a Perl(2012)",
+    "provider": "Free Courses · Español",
+    "url": "https://campusvirtual.ull.es/ocw/course/view.php?id=43",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-casts-es-la-buhardilla-geek-juan-angel-romero-luis-miguel-lo",
+    "title": "La Buhardilla Geek",
+    "provider": "Juan Ángel Romero, Luis Miguel López (podcast)",
+    "url": "https://www.ivoox.com/podcast-buhardilla-geek_sq_f1465450_1.html",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-casts-es-la-web-es-la-plataforma-diego-de-granda-jorge-del-casar-",
+    "title": "La Web es la Plataforma",
+    "provider": "Diego de Granda, Jorge del Casar (podcast)",
+    "url": "https://anchor.fm/the-web-is-the-platform",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-casts-es-la-tecnologeria-pablo-trinidad-frank-blanco-clar",
+    "title": "La Tecnologería",
+    "provider": "Pablo Trinidad, Frank Blanco, Clarisa Guerra, Adrián Mesa, Jorge Cantón, José María García, Manuel Fernández, Iñigo Sendino (podcast)",
+    "url": "https://tecnologeria.com",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-courses-es-laboratorio-de-arquitectura-de-redes-de-comunicaciones-2011-free-courses-espanol",
+    "title": "Laboratorio de arquitectura de redes de comunicaciones (2011)",
+    "provider": "Free Courses · Español",
+    "url": "http://ocw.bib.upct.es/course/view.php?id=100",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-courses-es-laboratorio-de-comunicaciones-2008-free-courses-espanol",
+    "title": "Laboratorio de Comunicaciones (2008)",
+    "provider": "Free Courses · Español",
+    "url": "http://ocw.bib.upct.es/course/view.php?id=80",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-courses-es-lenguajes-unificado-de-modelado-uml-2016-free-courses-espanol",
+    "title": "Lenguajes unificado de modelado: UML (2016)",
+    "provider": "Free Courses · Español",
+    "url": "https://campusvirtual.ull.es/ocw/course/view.php?id=132",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-courses-es-laboratorio-de-redes-y-servicios-de-telecomunicaciones-2011-free-courses-espanol",
+    "title": "Laboratorio de redes y servicios de telecomunicaciones (2011)",
+    "provider": "Free Courses · Español",
+    "url": "http://ocw.bib.upct.es/course/view.php?id=5",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-casts-es-maestria-js-carlos-rojas-podcast-ultima-actu",
+    "title": "Maestría JS",
+    "provider": "Carlos Rojas (podcast) (Última Actualización: Mayo 2020)",
+    "url": "https://anchor.fm/maestriajs",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-courses-es-logica-de-programacion-carlos-slim-foundation-cuenta-re",
+    "title": "Lógica de programación",
+    "provider": "Carlos Slim Foundation (cuenta requerida)",
+    "url": "https://capacitateparaelempleo.org/pages.php?r=.tema&tagID=7929",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-casts-es-mangocast-lucho-benitez-pablo-santa-cruz-m",
+    "title": "Mangocast",
+    "provider": "Lucho Benitez, Pablo Santa Cruz, Miguel Balsevich, Luis Corvalán, Rolando Natalizia (podcast)",
+    "url": "https://www.mangocast.net",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-courses-es-material-design-con-android-studio-jesus-conde",
+    "title": "Material Design con Android Studio",
+    "provider": "Jesús Conde",
+    "url": "https://www.youtube.com/playlist?list=PLEtcGQaT56ch37mnavd8p5cbnkDvXLGsX",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-casts-es-midu-dev-miguel-angel-duran-podcast-ultim",
+    "title": "Midu Dev",
+    "provider": "Miguel Ángel Durán (podcast) (Última Actualización: Marzo 2020)",
+    "url": "https://midu.dev/podcast",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-casts-es-mas-alla-de-la-innovacion-philippe-lardy-rosa-cano-jose-mi",
+    "title": "Más allá de la innovación",
+    "provider": "Philippe Lardy, Rosa Cano, Jose Miguel Parella, Paco Estrada, Mónica del Valle, Beatriz Ferrolasa (podcast) (Última Actualización: Julio 2021)",
+    "url": "https://masalladelainnovacion.com/todos-los-podcasts/",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-librodev-es-midudev-libros-programacion-gratis-librosgratis-dev-midudev",
+    "title": "midudev/libros-programacion-gratis",
+    "provider": "librosgratis.dev / midudev",
+    "url": "https://github.com/midudev/libros-programacion-gratis",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-casts-es-mixx-io-alex-barredo-matias-s-zavia-podc",
+    "title": "Mixx.io",
+    "provider": "Álex Barredo, Matías S. Zavia (podcast)",
+    "url": "https://mixx.io/podcasts",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-courses-es-nextjs-13-desde-0-con-de-tuti-gentleman-programming",
+    "title": "NextJs 13: desde 0 Con de Tuti",
+    "provider": "Gentleman Programming",
+    "url": "https://www.youtube.com/playlist?list=PL42UNLc8e48RPqUVsZzedg5bCYfKg4xee",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-casts-es-nosolotech-diana-aceves-felix-lopez-katia-a",
+    "title": "NoSoloTech",
+    "provider": "Diana Aceves, Félix López, Katia Aresti, Jorge Barrachina (podcast) (Última Actualización: Octubre 2021)",
+    "url": "https://www.ivoox.com/podcast-nosolotech-podcast_sq_f1851397_1.html",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-casts-es-ni-cero-ni-uno-habilidades-esenciales-en-un-mundo-tecnologico-carlos-ble-jurado-podcast",
+    "title": "Ni cero, ni uno - Habilidades esenciales en un mundo tecnológico",
+    "provider": "Carlos Blé Jurado (podcast)",
+    "url": "https://savvily.es/podcasts/ni-cero-ni-uno/",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-courses-es-ondas-electromagneticas-2014-free-courses-espanol",
+    "title": "Ondas Electromagnéticas (2014)",
+    "provider": "Free Courses · Español",
+    "url": "http://ocw.bib.upct.es/course/view.php?id=136",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-courses-es-openoffice-calc-gestion-de-datos-sobre-hojas-de-calculo-2014-free-courses-espanol",
+    "title": "OpenOffice Calc. Gestión de datos sobre hojas de cálculo (2014)",
+    "provider": "Free Courses · Español",
+    "url": "https://ocw.unican.es/course/view.php?id=61",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-courses-es-organizacion-y-gestion-del-proyecto-2009-free-courses-espanol",
+    "title": "Organización y gestión del proyecto (2009)",
+    "provider": "Free Courses · Español",
+    "url": "https://ocw.unican.es/course/view.php?id=207",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-courses-es-presentaciones-eficaces-2012-free-courses-espanol",
+    "title": "Presentaciones eficaces (2012)",
+    "provider": "Free Courses · Español",
+    "url": "https://ocw.unican.es/course/view.php?id=188",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-courses-es-procesadores-de-lenguaje-2012-free-courses-espanol",
+    "title": "Procesadores de Lenguaje (2012)",
+    "provider": "Free Courses · Español",
+    "url": "https://ocw.unican.es/course/view.php?id=238",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-casts-es-podcast-linux-juan-febles-podcast",
+    "title": "Podcast Linux",
+    "provider": "Juan Febles (podcast)",
+    "url": "https://podcastlinux.com",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-courses-es-procesadores-de-lenguajes-enfocado-en-perl-free-courses-espanol",
+    "title": "Procesadores de lenguajes -enfocado en Perl-",
+    "provider": "Free Courses · Español",
+    "url": "https://campusvirtual.ull.es/ocw/course/view.php?id=45",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-courses-es-programacion-en-lenguaje-java-2009-free-courses-espanol",
+    "title": "Programación en lenguaje Java (2009)",
+    "provider": "Free Courses · Español",
+    "url": "https://ocw.unican.es/course/view.php?id=217",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-courses-es-programacion-en-lenguaje-ada-2010-free-courses-espanol",
+    "title": "Programación en lenguaje ADA (2010)",
+    "provider": "Free Courses · Español",
+    "url": "https://ocw.unican.es/course/view.php?id=185",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-courses-es-procesadores-de-lenguajes-ii-free-courses-espanol",
+    "title": "Procesadores de lenguajes II",
+    "provider": "Free Courses · Español",
+    "url": "https://ocw.uca.es/course/view.php?id=56",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-courses-es-programacion-en-lenguaje-java-2015-free-courses-espanol",
+    "title": "Programación en lenguaje Java (2015)",
+    "provider": "Free Courses · Español",
+    "url": "https://ocw.unican.es/course/view.php?id=240",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-courses-es-programacion-en-paralelo-perl-2012-free-courses-espanol",
+    "title": "Programación en paralelo -Perl- (2012)",
+    "provider": "Free Courses · Español",
+    "url": "https://campusvirtual.ull.es/ocw/course/view.php?id=44",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-courses-es-programador-en-c-carlos-slim-foundation-cuenta-re",
+    "title": "Programador en C#",
+    "provider": "Carlos Slim Foundation (cuenta requerida)",
+    "url": "https://capacitateparaelempleo.org/pages.php?r=.tema&tagID=12989",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-casts-es-programador-x-xavier-reyes-ochoa-podcast",
+    "title": "Programador X",
+    "provider": "Xavier Reyes Ochoa (podcast)",
+    "url": "https://open.spotify.com/show/6iuwL4j3oyaMZyBThzv7Hq",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-courses-es-protocolos-de-interconexion-de-redes-2012-free-courses-espanol",
+    "title": "Protocolos de interconexión de redes (2012)",
+    "provider": "Free Courses · Español",
+    "url": "https://ocw.unican.es/course/view.php?id=159",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-courses-es-programador-orientado-a-objetos-carlos-slim-foundation-cuenta-re",
+    "title": "Programador orientado a objetos",
+    "provider": "Carlos Slim Foundation (cuenta requerida)",
+    "url": "https://capacitateparaelempleo.org/pages.php?r=.tema&tagID=4244",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-casts-es-programar-es-una-mierda-juan-jose-merono-sanchez-alexand",
+    "title": "Programar es una Mierda",
+    "provider": "Juan José Meroño Sanchez, Alexandre Ballesté Crevillén (podcast) (Última Actualización: Junio 2020)",
+    "url": "https://www.programaresunamierda.com",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-courses-es-redes-telefonicas-2009-free-courses-espanol",
+    "title": "Redes telefónicas (2009)",
+    "provider": "Free Courses · Español",
+    "url": "https://ocw.unican.es/course/view.php?id=211",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-casts-es-red-de-sospechosos-habituales-javier-fernandez-podcast",
+    "title": "Red de Sospechosos Habituales",
+    "provider": "Javier Fernández (podcast)",
+    "url": "https://www.ivoox.com/podcast-red-sospechosos-habituales_sq_f1564393_1.html",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-courses-es-redes-de-comunicaciones-2015-free-courses-espanol",
+    "title": "Redes de comunicaciones (2015)",
+    "provider": "Free Courses · Español",
+    "url": "https://ocw.unican.es/course/view.php?id=27",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-courses-es-seguridad-en-redes-de-comunicacion-2015-free-courses-espanol",
+    "title": "Seguridad en Redes de Comunicación (2015)",
+    "provider": "Free Courses · Español",
+    "url": "https://ocw.unican.es/course/view.php?id=28",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-casts-es-reescribiendo-el-codigo-catalina-arismendi-julia-calvo-j",
+    "title": "Reescribiendo el Código",
+    "provider": "Catalina Arismendi, Julia Calvo, Jesica Checa, Florencia Risolo (podcast)",
+    "url": "https://open.spotify.com/show/6efO7Lp5LENT3jqR0sYIG5",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-casts-es-republica-web-javier-archeni-andros-fenollosa-",
+    "title": "República Web",
+    "provider": "Javier Archeni, Andros Fenollosa, David Vaquero, Antony Goetzschel, Néstor Angulo de Ugarte (podcast)",
+    "url": "https://republicaweb.es",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-courses-es-seguridad-informatica-y-competencias-profesionales-free-courses-espanol",
+    "title": "Seguridad informática y competencias profesionales",
+    "provider": "Free Courses · Español",
+    "url": "https://ocw.uca.es/course/view.php?id=55",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-courses-es-seguridad-en-redes-de-comunicaciones-2011-free-courses-espanol",
+    "title": "Seguridad en Redes de Comunicaciones (2011)",
+    "provider": "Free Courses · Español",
+    "url": "http://ocw.bib.upct.es/course/view.php?id=102",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-courses-es-sistemas-de-telecomunicacion-2011-free-courses-espanol",
+    "title": "Sistemas de Telecomunicación (2011)",
+    "provider": "Free Courses · Español",
+    "url": "http://ocw.bib.upct.es/course/view.php?id=99&topic=1",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-courses-es-sistemas-operativos-chmod-bash-2014-free-courses-espanol",
+    "title": "Sistemas Operativos 'chmod - bash' (2014)",
+    "provider": "Free Courses · Español",
+    "url": "https://campusvirtual.ull.es/ocw/course/view.php?id=105",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-courses-es-sistemas-operativos-avanzados-scrum-bsd-qt-2015-free-courses-espanol",
+    "title": "Sistemas operativos avanzados - 'scrum - bsd- Qt' (2015)",
+    "provider": "Free Courses · Español",
+    "url": "https://campusvirtual.ull.es/ocw/course/view.php?id=119",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-casts-es-soydata-podcast",
+    "title": "SoyData",
+    "provider": "(podcast)",
+    "url": "https://www.ivoox.com/podcast-soydata-ciencia-datos-a-tu_sq_f1414925_1.html",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-casts-es-techandladies-silvia-morillo-cristina-pampin-s",
+    "title": "TechAndLadies",
+    "provider": "Silvia Morillo, Cristina Pampín, Silvia García (podcast)",
+    "url": "https://anchor.fm/techladies",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-courses-es-telematica-2011-free-courses-espanol",
+    "title": "Telemática (2011)",
+    "provider": "Free Courses · Español",
+    "url": "http://ocw.bib.upct.es/course/view.php?id=101",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-casts-es-ugeek-angel-jimenez-de-luis-podcast",
+    "title": "UGeek",
+    "provider": "Ángel Jiménez de Luis (podcast)",
+    "url": "https://ugeek.github.io",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-casts-es-webificando-el-podcast-de-side-projects-abel-fernandez-robert-menetray-p",
+    "title": "Webificando - El podcast de side projects",
+    "provider": "Abel Fernandez, Robert Menetray (podcast) (Última Actualización: Junio 2021)",
+    "url": "https://podcasts.apple.com/co/podcast/webificando-el-podcast-de-side-projects/id1547290552",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-casts-es-web-reactiva-daniel-primo-podcast",
+    "title": "Web Reactiva",
+    "provider": "Daniel Primo (podcast)",
+    "url": "https://www.webreactiva.com/podcast",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-a-brief-introduction-to-machine-learning-for-engineers-osvaldo-simeone",
+    "title": "A Brief Introduction to Machine Learning for Engineers",
+    "provider": "Osvaldo Simeone",
+    "url": "https://arxiv.org/pdf/1709.02840.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-10-keys-to-great-landing-pages-ithemes-media",
+    "title": "10 Keys to Great Landing Pages",
+    "provider": "iThemes Media",
+    "url": "https://ithemes.com/wp-content/uploads/downloads/2012/09/10-keys-to-great-landing-pages-eBook.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-a-common-sense-guide-to-data-structures-algorithms-jay-wengrow",
+    "title": "A Common-Sense Guide to Data Structures & Algorithms",
+    "provider": "Jay Wengrow",
+    "url": "https://github.com/GauravWalia19/Free-Algorithms-Books/blob/main/Library/src/JAVASCRIPT/A-Common-Sense-Guide-to-Data-Structures-and-Algorithms-Level-Up-Your-Core-Programming-Skills.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-a-comprehensive-guide-to-machine-learning-soroush-nasiriany-garrett-thomas",
+    "title": "A Comprehensive Guide to Machine Learning",
+    "provider": "Soroush Nasiriany, Garrett Thomas, William Wang, Alex Yang",
+    "url": "https://www.eecs189.org/static/resources/comprehensive-guide.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-a-computational-logic-1979-robert-s-boyer-j-strother-moore",
+    "title": "A Computational Logic (1979)",
+    "provider": "Robert S. Boyer, J Strother Moore",
+    "url": "https://www.cs.utexas.edu/users/boyer/acl.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-a-cool-brisk-walk-through-discrete-mathematics-stephen-davies",
+    "title": "A Cool Brisk Walk Through Discrete Mathematics",
+    "provider": "Stephen Davies",
+    "url": "http://stephendavies.org/brisk.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-a-first-course-in-complex-analysis-matthias-beck-gerald-marchesi-de",
+    "title": "A First Course in Complex Analysis",
+    "provider": "Matthias Beck, Gerald Marchesi, Dennis Pixton, Lucas Sabalka",
+    "url": "https://matthbeck.github.io/papers/complexorth.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-a-field-guide-to-genetic-programming-riccardo-poli-william-b-langdon-",
+    "title": "A Field Guide To Genetic Programming",
+    "provider": "Riccardo Poli, William B. Langdon, Nicholas F. McPhee",
+    "url": "https://web.archive.org/web/20191020195105/http://www0.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/poli08_fieldguide.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-a-first-encounter-with-machine-learning-max-welling",
+    "title": "A First Encounter with Machine Learning",
+    "provider": "Max Welling",
+    "url": "https://web.archive.org/web/20210420163002/https://www.ics.uci.edu/~welling/teaching/ICS273Afall11/IntroMLBook.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-a-machine-made-this-book-ten-sketches-of-computer-science-john-whitington",
+    "title": "A MACHINE MADE THIS BOOK ten sketches of computer science",
+    "provider": "JOHN WHITINGTON",
+    "url": "https://ocaml-book.com/s/popbook.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-a-short-introduction-to-operating-systems-2001-mark-burgess",
+    "title": "A short introduction to operating systems (2001)",
+    "provider": "Mark Burgess",
+    "url": "https://markburgess.org/os/os.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-advanced-algebra-anthony-w-knapp",
+    "title": "Advanced Algebra",
+    "provider": "Anthony W. Knapp",
+    "url": "https://www.math.stonybrook.edu/~aknapp/download/a2-alg-inside.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-a-quick-steep-climb-up-linear-algebra-stephen-davies",
+    "title": "A Quick Steep Climb Up Linear Algebra",
+    "provider": "Stephen Davies",
+    "url": "http://stephendavies.org/quick.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-a-course-in-machine-learning-free-programming-books-subjects",
+    "title": "A Course in Machine Learning",
+    "provider": "Free Programming Books · Subjects",
+    "url": "http://ciml.info/dl/v0_9/ciml-v0_9-all.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-algebra-an-elementary-text-book-part-ii-1900-g-chrystal",
+    "title": "Algebra: An Elementary Text-Book, Part II (1900)",
+    "provider": "G. Chrystal",
+    "url": "http://djm.cc/library/Algebra_Elementary_Text-Book_Part_II_Chrystal_edited02.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-algorithms-and-complexity-herbert-s-wilf",
+    "title": "Algorithms and Complexity",
+    "provider": "Herbert S. Wilf",
+    "url": "https://www.math.upenn.edu/~wilf/AlgoComp.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-algorithms-and-data-structures-jurg-nievergelt-klaus-hinrichs",
+    "title": "Algorithms and Data Structures",
+    "provider": "Jürg Nievergelt, Klaus Hinrichs",
+    "url": "https://textbookequity.org/Textbooks/Nievergelt_Algorithms%20and%20Data%20Structures08.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-algorithms-jeff-erickson",
+    "title": "Algorithms",
+    "provider": "Jeff Erickson",
+    "url": "https://jeffe.cs.illinois.edu/teaching/algorithms/book/Algorithms-JeffE.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-algebra-an-elementary-text-book-part-i-1904-g-chrystal",
+    "title": "Algebra: An Elementary Text-Book, Part I (1904)",
+    "provider": "G. Chrystal",
+    "url": "http://djm.cc/library/Algebra_Elementary_Text-Book_Part_I_Chrystal_edited.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-an-infinite-descent-into-pure-mathematics-clive-newstead",
+    "title": "An Infinite Descent into Pure Mathematics",
+    "provider": "Clive Newstead",
+    "url": "https://infinitedescent.xyz/dl/infdesc.pdf",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-algorithms-for-reinforcement-learning-csaba-szepesvari",
+    "title": "Algorithms for Reinforcement Learning",
+    "provider": "Csaba Szepesvári",
+    "url": "https://sites.ualberta.ca/~szepesva/papers/RLAlgsInMDPs.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-an-introduction-to-cellular-automata-helene-vivien",
+    "title": "An Introduction to Cellular Automata",
+    "provider": "Hélène Vivien",
+    "url": "https://ia801004.us.archive.org/26/items/viviencellularautomata/vivien%20cellular%20automata.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-analytic-geometry-1922-lewis-parker-siceloff-george-wen",
+    "title": "Analytic Geometry (1922)",
+    "provider": "Lewis Parker Siceloff, George Wentworth, David Eugene Smith",
+    "url": "http://djm.cc/library/Analytic_Geometry_Siceloff_Wentworth_Smith_edited.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-artificial-intelligence-and-the-future-for-teaching-and-learning-office-of-educational-technology",
+    "title": "Artificial Intelligence and the Future for Teaching and Learning",
+    "provider": "Office of Educational Technology",
+    "url": "https://www2.ed.gov/documents/ai-report/ai-report.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-basic-algebra-anthony-w-knapp",
+    "title": "Basic Algebra",
+    "provider": "Anthony W. Knapp",
+    "url": "https://www.math.stonybrook.edu/~aknapp/download/b2-alg-inside.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-barcode-overview-free-programming-books-subjects",
+    "title": "Barcode Overview",
+    "provider": "Free Programming Books · Subjects",
+    "url": "https://www.tec-it.com/download/PDF/Barcode_Reference_EN.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-artificial-intelligence-3rd-edition-1993-patrick-henry-winston",
+    "title": "Artificial Intelligence, 3rd Edition (1993)",
+    "provider": "Patrick Henry Winston",
+    "url": "https://courses.csail.mit.edu/6.034f/ai3/rest.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-binary-trees-nick-parlante",
+    "title": "Binary Trees",
+    "provider": "Nick Parlante",
+    "url": "http://cslibrary.stanford.edu/110/BinaryTrees.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-building-secure-reliable-systems-heather-adkins-betsy-beyer-paul-",
+    "title": "Building Secure & Reliable Systems",
+    "provider": "Heather Adkins, Betsy Beyer, Paul Blankinship, Piotr Lewandowski, Ana Oprea, Adam Stubblefield",
+    "url": "https://static.googleusercontent.com/media/landing.google.com/en//sre/static/pdf/Building_Secure_and_Reliable_Systems.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-basics-of-algebra-topology-and-differential-calculus-free-programming-books-subjects",
+    "title": "Basics of Algebra, Topology, and Differential Calculus",
+    "provider": "Free Programming Books · Subjects",
+    "url": "https://www.cis.upenn.edu/~jean/math-basics.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-category-theory-for-computing-science-free-programming-books-subjects",
+    "title": "Category Theory for Computing Science",
+    "provider": "Free Programming Books · Subjects",
+    "url": "http://www.tac.mta.ca/tac/reprints/articles/22/tr22.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-clever-algorithms-nature-inspired-programming-recipes-jason-brownlee",
+    "title": "Clever Algorithms Nature-Inspired Programming Recipes",
+    "provider": "Jason Brownlee",
+    "url": "https://bjpcjp.github.io/pdfs/ruby/Clever-Algorithms.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-category-theory-for-the-sciences-david-i-spivak",
+    "title": "Category Theory for the Sciences",
+    "provider": "David I. Spivak",
+    "url": "https://math.mit.edu/~dspivak/CT4S.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-code-simplicity-the-fundamentals-of-software-max-kanat-alexander",
+    "title": "Code Simplicity: The Fundamentals of Software",
+    "provider": "Max Kanat-Alexander",
+    "url": "https://www.codesimplicity.com/book.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-communicating-sequential-processes-tony-hoare",
+    "title": "Communicating Sequential Processes",
+    "provider": "Tony Hoare",
+    "url": "http://www.usingcsp.com/cspbook.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-cellular-automata-machines-norman-margolus-tommaso-toffoli",
+    "title": "Cellular Automata Machines",
+    "provider": "Norman Margolus, Tommaso Toffoli",
+    "url": "https://people.csail.mit.edu/nhm/cam-book.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-competitive-programmer-s-handbook-antti-laaksonen",
+    "title": "Competitive Programmer's Handbook",
+    "provider": "Antti Laaksonen",
+    "url": "https://cses.fi/book/book.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-code-connected-vol-1-free-programming-books-subjects",
+    "title": "Code Connected vol.1",
+    "provider": "Free Programming Books · Subjects",
+    "url": "https://hintjens.wdfiles.com/local--files/main%3Afiles/cc1pe.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-compiler-construction-using-c-slangfor-net-praseed-pai",
+    "title": "Compiler Construction using C# (SLANGFOR.NET)",
+    "provider": "Praseed Pai",
+    "url": "https://github.com/mmj-the-fighter/slang_for_dot_net_revision/blob/main/bookA4Desk.pdf",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-compiler-design-theory-tools-and-examples-java-edition-seth-d-bergmann",
+    "title": "Compiler Design: Theory, Tools, and Examples, Java Edition",
+    "provider": "Seth D. Bergmann",
+    "url": "https://web.archive.org/web/20230816024714/http://elvis.rowan.edu/~bergmann/books/Compiler_Design/java/CompilerDesignBook.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-compiler-design-theory-tools-and-examples-c-c-edition-seth-d-bergmann",
+    "title": "Compiler Design: Theory, Tools, and Examples, C/C++ Edition",
+    "provider": "Seth D. Bergmann",
+    "url": "https://web.archive.org/web/20230816024714/http://elvis.rowan.edu/~bergmann/books/Compiler_Design/c_cpp/Text/C_CppEd.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-compiler-design-in-c-1990-allen-holub-prentice-hall",
+    "title": "Compiler Design in C (1990)",
+    "provider": "Allen Holub, Prentice Hall",
+    "url": "https://holub.com/goodies/compiler/compilerDesignInC.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-computational-thinking-jeannette-wing-carnegie-mellon-u",
+    "title": "Computational Thinking",
+    "provider": "Jeannette Wing, Carnegie-Mellon University",
+    "url": "https://www.cs.cmu.edu/~15110-s13/Wing06-ct.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-computer-science-class-xi-cbse",
+    "title": "Computer Science Class XI",
+    "provider": "CBSE",
+    "url": "https://cbseacademic.nic.in/web_material/doc/cs/1_Computer-Science-Python-Book-Class-XI.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-computer-science-class-xii-cbse",
+    "title": "Computer Science Class XII",
+    "provider": "CBSE",
+    "url": "https://cbseacademic.nic.in/web_material/doc/cs/2_Computer_Science_Python_ClassXII.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-compiling-scala-for-the-java-virtual-machine-michel-schinz",
+    "title": "Compiling Scala for the Java Virtual Machine",
+    "provider": "Michel Schinz",
+    "url": "https://lampwww.epfl.ch/~schinz/thesis-final-A4.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-computer-science-i-chris-bourke",
+    "title": "Computer Science I",
+    "provider": "Chris Bourke",
+    "url": "https://cse.unl.edu/~cbourke/ComputerScienceOne.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-computer-science-ii-chris-bourke",
+    "title": "Computer Science II",
+    "provider": "Chris Bourke",
+    "url": "https://cse.unl.edu/~cbourke/ComputerScienceTwo.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-confessions-of-an-it-manager-phil-factor",
+    "title": "Confessions of an IT Manager",
+    "provider": "Phil Factor",
+    "url": "https://assets.red-gate.com/community/books/confessions-of-an-it-manager-ebook.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-coordinate-geometry-1911-henry-buchard-fine-henry-dallas-",
+    "title": "Coordinate Geometry (1911)",
+    "provider": "Henry Buchard Fine, Henry Dallas Thompson",
+    "url": "http://djm.cc/library/Coordinate_Geometry_Fine_Thompson_edited03.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-creative-commons-a-user-guide-simone-aliprandi",
+    "title": "Creative Commons: a user guide",
+    "provider": "Simone Aliprandi",
+    "url": "https://archive.org/download/CreativeCommonsUserGuide/CreativeCommonsUserGuide.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-dalle-e-2-prompt-book-dallery-gallery-guy-parson",
+    "title": "DALLE-E 2 prompt book",
+    "provider": "Dallery.Gallery, Guy Parson",
+    "url": "https://dallery.gallery/wp-content/uploads/2022/07/The-DALL%C2%B7E-2-prompt-book.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-data-structures-aditya-cse",
+    "title": "Data Structures",
+    "provider": "Aditya CSE",
+    "url": "https://adityacse.weebly.com/uploads/2/4/0/7/24078687/data-structures.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-data-structures-and-algorithm-analysis-in-c-clifford-a-shaffer",
+    "title": "Data Structures and Algorithm Analysis in C++",
+    "provider": "Clifford A. Shaffer",
+    "url": "https://people.cs.vt.edu/~shaffer/Book/C++3elatest.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-data-structures-and-algorithm-analysis-in-java-clifford-a-shaffer",
+    "title": "Data Structures and Algorithm Analysis in Java",
+    "provider": "Clifford A. Shaffer",
+    "url": "https://people.cs.vt.edu/~shaffer/Book/JAVA3elatest.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-data-mining-concepts-and-techniques-jiawei-han-micheline-kamber-jian",
+    "title": "Data Mining Concepts and Techniques",
+    "provider": "Jiawei Han, Micheline Kamber, Jian Pei",
+    "url": "https://ia800702.us.archive.org/7/items/datamining_201811/DS-book%20u5.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-computer-vision-foundations-and-applications-ranjay-krishna",
+    "title": "Computer Vision: Foundations and Applications",
+    "provider": "Ranjay Krishna",
+    "url": "http://vision.stanford.edu/teaching/cs131_fall1718/files/cs131-class-notes.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-database-management-systems-solutions-manual-third-edition-raghu-ramakrishnan-johannes-gehr",
+    "title": "Database Management Systems Solutions Manual Third Edition",
+    "provider": "Raghu Ramakrishnan, Johannes Gehrke, Jeff Derstadt, Scott Selikof, and Lin Zhu",
+    "url": "https://pages.cs.wisc.edu/~dbbook/openAccess/thirdEdition/solutions/ans3ed-oddonly.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-database-fundamentals-neeraj-sharma-et-al",
+    "title": "Database Fundamentals",
+    "provider": "Neeraj Sharma et al.",
+    "url": "https://public.dhe.ibm.com/software/dw/db2/express-c/wiki/Database_fundamentals.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-database-explorations-c-j-date-hugh-darwen",
+    "title": "Database Explorations",
+    "provider": "C.J. Date, Hugh Darwen",
+    "url": "https://www.dcs.warwick.ac.uk/~hugh/TTM/Database-Explorations-revision-2.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-designing-event-driven-systems-concepts-and-patterns-for-streaming-services-with-apache-kafka-ben-stopford",
+    "title": "Designing Event-Driven Systems. Concepts and Patterns for Streaming Services with Apache Kafka",
+    "provider": "Ben Stopford",
+    "url": "https://assets.confluent.io/m/7a91acf41502a75e/original/20180328-EB-Confluent_Designing_Event_Driven_Systems.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-databases-types-and-the-relational-model-the-third-manifesto-c-j-date-hugh-darwen",
+    "title": "Databases, Types, and The Relational Model: The Third Manifesto",
+    "provider": "C.J. Date, Hugh Darwen",
+    "url": "https://www.dcs.warwick.ac.uk/~hugh/TTM/DTATRM.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-differential-equations-1922-h-b-phillips",
+    "title": "Differential Equations (1922)",
+    "provider": "H. B. Phillips",
+    "url": "http://djm.cc/library/Differential_Equations_Phillips_edited.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-designing-virtual-worlds-richard-a-bartle",
+    "title": "Designing Virtual Worlds",
+    "provider": "Richard A. Bartle",
+    "url": "https://mud.co.uk/richard/DesigningVirtualWorlds.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-don-t-just-roll-the-dice-neil-davidson",
+    "title": "Don't Just Roll the Dice",
+    "provider": "Neil Davidson",
+    "url": "https://assets.red-gate.com/community/books/DJRTD_eBook.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-docker-tutorial-anthony-baire",
+    "title": "Docker Tutorial",
+    "provider": "Anthony Baire",
+    "url": "https://people.irisa.fr/Anthony.Baire/docker-tutorial.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-elementary-differential-equations-william-f-trench",
+    "title": "Elementary Differential Equations",
+    "provider": "William F. Trench",
+    "url": "http://ramanujan.math.trinity.edu/wtrench/texts/TRENCH_DIFF_EQNS_I.PDF",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-elements-of-differential-and-integral-calculus-1911-william-anthony-granville",
+    "title": "Elements of Differential and Integral Calculus (1911)",
+    "provider": "William Anthony Granville",
+    "url": "http://djm.cc/library/Elements_Differential_Integral_Calculus_Granville_edited_2.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-first-course-in-algebra-1910-herbert-e-hawkes-william-a-luby-",
+    "title": "First Course in Algebra (1910)",
+    "provider": "Herbert E. Hawkes, William A. Luby, Frank C. Touton",
+    "url": "http://djm.cc/library/First_Algebra_Hawkes_Luby_Touton_edited.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-foundations-of-constructive-probability-theory-yuen-kwok-chan",
+    "title": "Foundations of Constructive Probability Theory",
+    "provider": "Yuen-Kwok Chan",
+    "url": "https://arxiv.org/pdf/1906.01803.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-first-steps-with-embedded-systems-byte-craft-limited",
+    "title": "First Steps with Embedded Systems",
+    "provider": "Byte Craft Limited",
+    "url": "https://www.phaedsys.com/principals/bytecraft/bytecraftdata/bcfirststeps.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-foundations-of-data-science-avrim-blum-john-hopcroft-ravindr",
+    "title": "Foundations of Data Science",
+    "provider": "Avrim Blum, John Hopcroft, Ravindran Kannan",
+    "url": "https://www.cs.cornell.edu/jeh/book.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-getting-started-with-open-source-development-free-programming-books-subjects",
+    "title": "Getting started with Open source development",
+    "provider": "Free Programming Books · Subjects",
+    "url": "https://public.dhe.ibm.com/software/dw/db2/express-c/wiki/Getting_started_with_open_source_development_p2.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-foundations-of-programming-karl-seguin",
+    "title": "Foundations of Programming",
+    "provider": "Karl Seguin",
+    "url": "https://openmymind.net/FoundationsOfProgramming.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-git-internals-scott-chacon",
+    "title": "Git internals",
+    "provider": "Scott Chacon",
+    "url": "https://github.com/pluralsight/git-internals-pdf/raw/master/drafts/peepcode-git.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-gray-hat-hacking-the-ethical-hacker-s-handbook-allen-harper-jonathan-ness-chris",
+    "title": "Gray Hat Hacking: The Ethical Hacker's Handbook",
+    "provider": "Allen Harper, Jonathan Ness, Chris Eagle, Shon Harris, Gideon Lenkey, Terron Williams",
+    "url": "https://pages.cs.wisc.edu/~ace/media/gray-hat-hacking.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-guide-to-discrete-mathematics-david-gries-fred-b-schneider",
+    "title": "Guide to Discrete Mathematics",
+    "provider": "David Gries, Fred B. Schneider",
+    "url": "https://core.ac.uk/download/pdf/326762636.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-how-to-become-a-programmer-rob-walling",
+    "title": "How to Become a Programmer",
+    "provider": "Rob Walling",
+    "url": "http://softwarebyrob.wpengine.netdna-cdn.com/assets/Software_by_Rob%20_How_to_Become_a%20_Programmer_1.0.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-high-dimensional-data-analysis-with-low-dimensional-models-principles-computation-and-applications-john-wright-yi-ma",
+    "title": "High-Dimensional Data Analysis with Low-Dimensional Models: Principles, Computation, and Applications",
+    "provider": "John Wright, Yi Ma",
+    "url": "https://book-wright-ma.github.io/Book-WM-20210422.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-how-to-stand-out-as-a-software-engineer-landry-monga",
+    "title": "How to Stand Out as a Software Engineer",
+    "provider": "Landry Monga",
+    "url": "https://github.com/lvndry/how-to-stand-out-as-a-software-engineer/blob/main/how_to_stand_out_as_a_software_engineer.pdf",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-information-retrieval-a-survey-free-programming-books-subjects",
+    "title": "Information Retrieval: A Survey",
+    "provider": "Free Programming Books · Subjects",
+    "url": "http://www.csee.umbc.edu/csee/research/cadip/readings/IR.report.120600.book.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-information-retrieval-implementing-and-evaluating-search-engines-stefan-bottcher-charles-l-a-clar",
+    "title": "Information Retrieval: Implementing and Evaluating Search Engines",
+    "provider": "Stefan Böttcher, Charles L. A. Clarke, Gordon V. Cormack",
+    "url": "https://mitmecsept.files.wordpress.com/2018/05/stefan-bc3bcttcher-charles-l-a-clarke-gordon-v-cormack-information-retrieval-implementing-and-evaluating-search-engines-2010-mit.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-discovering-the-stm32-microcontroller-free-programming-books-subjects",
+    "title": "Discovering the STM32 Microcontroller",
+    "provider": "Free Programming Books · Subjects",
+    "url": "https://web.archive.org/web/20250112021837/https://legacy.cs.indiana.edu/~geobrown/book.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-internet-advertising-an-interplay-among-advertisers-online-publishers-ad-exchanges-and-web-users-free-programming-books-subjects",
+    "title": "Internet Advertising: An Interplay among Advertisers, Online Publishers, Ad Exchanges and Web Users",
+    "provider": "Free Programming Books · Subjects",
+    "url": "https://arxiv.org/pdf/1206.1754v2.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-introduction-to-classical-and-quantum-computing-thomas-g-wong",
+    "title": "Introduction to Classical and Quantum Computing",
+    "provider": "Thomas G. Wong",
+    "url": "https://www.thomaswong.net/introduction-to-classical-and-quantum-computing-1e3p.pdf",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-introduction-to-compilers-and-language-design-douglas-thain",
+    "title": "Introduction to Compilers and Language Design",
+    "provider": "Douglas Thain",
+    "url": "https://www3.nd.edu/~dthain/compilerbook/compilerbook.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-introduction-to-git-and-github-tutorial-chris-bourke",
+    "title": "Introduction to Git and Github - Tutorial",
+    "provider": "Chris Bourke",
+    "url": "https://cse.unl.edu/~cbourke/gitTutorial.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-information-technology-and-the-networked-economy-patrick-mckeown",
+    "title": "Information Technology and the Networked Economy",
+    "provider": "Patrick McKeown",
+    "url": "https://web.archive.org/web/20200731035935/https://florida.theorangegrove.org/og/file/49843a6a-9a9d-4bad-b4d4-d053f9cdf73e/1/InfoTechNetworkedEconomy.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-introduction-to-machine-learning-systems-vijay-janapa-reddi",
+    "title": "Introduction to Machine Learning Systems",
+    "provider": "Vijay Janapa Reddi",
+    "url": "https://www.mlsysbook.ai/assets/downloads/Machine-Learning-Systems.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-introduction-to-networking-charles-severance",
+    "title": "Introduction to Networking",
+    "provider": "Charles Severance",
+    "url": "https://do1.dr-chuck.net/net-intro/EN_us/net-intro.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-introduction-to-probability-charles-m-grinstead-j-laurie-sne",
+    "title": "Introduction to Probability",
+    "provider": "Charles M. Grinstead, J. Laurie Snell",
+    "url": "https://math.dartmouth.edu/~prob/prob/prob.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-introduction-to-scientific-programming-in-c-and-fortran-victor-eijkhout",
+    "title": "Introduction to Scientific Programming in C++ and Fortran",
+    "provider": "Victor Eijkhout",
+    "url": "https://web.corral.tacc.utexas.edu/CompEdu/pdf/isp/EijkhoutIntroSciProgramming-book.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-introduction-to-quantum-information-stephen-m-barnett",
+    "title": "Introduction to Quantum Information",
+    "provider": "Stephen M. Barnett",
+    "url": "https://www.gla.ac.uk/media/Media_344957_smxx.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-intrusion-detection-systems-with-snort-free-programming-books-subjects",
+    "title": "Intrusion Detection Systems with Snort",
+    "provider": "Free Programming Books · Subjects",
+    "url": "https://ptgmedia.pearsoncmg.com/images/0131407333/downloads/0131407333.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-introduction-to-embedded-systems-second-edition-edward-ashford-lee-sanjit-arunku",
+    "title": "Introduction to Embedded Systems, Second Edition",
+    "provider": "Edward Ashford Lee, Sanjit Arunkumar Seshia",
+    "url": "https://ptolemy.berkeley.edu/books/leeseshia/releases/LeeSeshia_DigitalV2_2.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-introduction-to-theoretical-computer-science-boaz-barak",
+    "title": "Introduction to Theoretical Computer Science",
+    "provider": "Boaz Barak",
+    "url": "https://files.boazbarak.org/introtcs/lnotes_book.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-kafka-the-definitive-guide-neha-narkhede",
+    "title": "Kafka, The definitive Guide",
+    "provider": "Neha Narkhede",
+    "url": "https://assets.confluent.io/m/1b509accf21490f0/original/20170707-EB-Confluent_Kafka_Definitive-Guide_Complete.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-kubernetes-hardening-guidance-nsa-cisa",
+    "title": "Kubernetes Hardening Guidance",
+    "provider": "NSA, CISA",
+    "url": "https://media.defense.gov/2022/Aug/29/2003066362/-1/-1/0/CTR_KUBERNETES_HARDENING_GUIDANCE_1.2_20220829.PDF",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-kubernetes-deployment-security-patterns-alex-williams",
+    "title": "Kubernetes Deployment & Security Patterns",
+    "provider": "Alex Williams",
+    "url": "https://resources.linuxfoundation.org/LF+Projects/CNCF/TheNewStack_Book2_KubernetesDeploymentAndSecurityPatterns.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-learning-deep-architectures-for-ai-yoshua-bengio",
+    "title": "Learning Deep Architectures for AI",
+    "provider": "Yoshua Bengio",
+    "url": "https://mila.quebec/wp-content/uploads/2019/08/TR1312.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-learning-algorithm-compiled-from-stackoverflow-docu",
+    "title": "Learning Algorithm",
+    "provider": "Compiled from StackOverflow documentation",
+    "url": "https://riptutorial.com/Download/algorithm.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-lecture-notes-on-linear-algebra-dr-arbind-k-lal-sukant-pati",
+    "title": "Lecture Notes on Linear Algebra",
+    "provider": "Dr. Arbind K Lal, Sukant Pati",
+    "url": "https://home.iitk.ac.in/~arlal/book/LA_Solution_Dec20.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-linear-algebra-david-cherney-et-al",
+    "title": "Linear Algebra",
+    "provider": "David Cherney et al.",
+    "url": "https://www.math.ucdavis.edu/~linear/linear-guest.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-let-s-build-a-compiler-jack-w-crenshaw",
+    "title": "Let's Build a Compiler",
+    "provider": "Jack W. Crenshaw",
+    "url": "https://www.stack.nl/~marcov/compiler.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-lies-damned-lies-or-statistics-how-to-tell-the-truth-with-statistics-jonathan-a-poritz",
+    "title": "Lies, Damned Lies, or Statistics: How to Tell the Truth with Statistics",
+    "provider": "Jonathan A. Poritz",
+    "url": "https://www.poritz.net/jonathan/share/ldlos.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-linked-list-problems-nick-parlante",
+    "title": "Linked List Problems",
+    "provider": "Nick Parlante",
+    "url": "http://cslibrary.stanford.edu/105/LinkedListProblems.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-linked-list-basics-nick-parlante",
+    "title": "Linked List Basics",
+    "provider": "Nick Parlante",
+    "url": "http://cslibrary.stanford.edu/103/LinkedListBasics.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-linux-networking-paul-cobbaut",
+    "title": "Linux Networking",
+    "provider": "Paul Cobbaut",
+    "url": "https://linux-training.be/linuxnet.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-making-sense-of-stream-processing-martin-kleppmann",
+    "title": "Making Sense of Stream Processing",
+    "provider": "Martin Kleppmann",
+    "url": "https://assets.confluent.io/m/2a60fabedb2dfbb1/original/20190307-EB-Making_Sense_of_Stream_Processing_Confluent.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-mastering-generative-ai-and-prompt-engineering-a-practical-guide-for-data-scientists-data-science-horizons",
+    "title": "Mastering Generative AI and Prompt Engineering: A Practical Guide for Data Scientists",
+    "provider": "Data Science Horizons",
+    "url": "https://datasciencehorizons.com/pub/Mastering_Generative_AI_Prompt_Engineering_Data_Science_Horizons_v2.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-mathematics-for-machine-learning-garrett-thomas",
+    "title": "Mathematics for Machine Learning",
+    "provider": "Garrett Thomas",
+    "url": "https://gwthomas.github.io/docs/math4ml.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-magic-squares-and-cubes-1917-w-s-anderson",
+    "title": "Magic Squares and Cubes (1917)",
+    "provider": "W. S. Anderson",
+    "url": "http://djm.cc/library/Magic_Squares_Cubes_Andrews_edited.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-matters-computational-ideas-algorithms-source-code-jorg-arndt",
+    "title": "Matters Computational: Ideas, Algorithms, Source Code",
+    "provider": "Jörg Arndt",
+    "url": "https://www.jjj.de/fxt/fxtbook.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-mathematical-logic-an-introduction-free-programming-books-subjects",
+    "title": "Mathematical Logic - an Introduction",
+    "provider": "Free Programming Books · Subjects",
+    "url": "https://www.ii.uib.no/~michal/und/i227/book/book.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-microsoft-technologies-3-devops-for-asp-net-core-developers-cam-soper-scott-addie-colin-demb",
+    "title": "Microsoft Technologies 3, DevOps for ASP.NET Core Developers",
+    "provider": "Cam Soper, Scott Addie, Colin Dembovsky",
+    "url": "https://raw.githubusercontent.com/dotnet-architecture/eBooks/main/current/devops-aspnet-core/DevOps-for-ASP.NET-Core-Developers.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-mature-optimization-carlos-bueno",
+    "title": "Mature Optimization",
+    "provider": "Carlos Bueno",
+    "url": "https://carlos.bueno.org/optimization/mature-optimization.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-naked-objects-richard-pawson",
+    "title": "Naked objects",
+    "provider": "Richard Pawson",
+    "url": "http://downloads.nakedobjects.net/resources/Pawson%20thesis.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-microservices-antipatterns-and-pitfalls-mark-richards",
+    "title": "Microservices AntiPatterns and Pitfalls",
+    "provider": "Mark Richards",
+    "url": "http://web.archive.org/web/20210205164251/https://www.oreilly.com/programming/free/files/microservices-antipatterns-and-pitfalls.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-object-oriented-programming-robert-harle",
+    "title": "Object Oriented Programming",
+    "provider": "Robert Harle",
+    "url": "https://www.cl.cam.ac.uk/teaching/0910/OOProg/OOP.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-mining-of-massive-datasets-jure-leskovec-anand-rajaraman-je",
+    "title": "Mining of Massive Datasets",
+    "provider": "Jure Leskovec, Anand Rajaraman, Jeffrey D. Ullman",
+    "url": "http://infolab.stanford.edu/~ullman/mmds/book.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-pattern-recognition-and-machine-learning-christopher-m-bishop",
+    "title": "Pattern Recognition and Machine Learning",
+    "provider": "Christopher M. Bishop",
+    "url": "https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-oop-learn-object-oriented-thinking-and-programming-rudolf-pecinovsky",
+    "title": "OOP – Learn Object Oriented Thinking and Programming",
+    "provider": "Rudolf Pecinovsky",
+    "url": "https://files.bruckner.cz/be2a5b2104bf393da7092a4200903cc0/PecinovskyOOP.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-patterns-predictions-and-actions-a-story-about-machine-learning-moritz-hardt-benjamin-recht",
+    "title": "Patterns, Predictions, And Actions: A story about machine learning",
+    "provider": "Moritz Hardt, Benjamin Recht",
+    "url": "https://mlstory.org/pdf/patterns.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-philosophy-of-computer-science-free-programming-books-subjects",
+    "title": "Philosophy of Computer Science",
+    "provider": "Free Programming Books · Subjects",
+    "url": "https://www.cse.buffalo.edu/~rapaport/Papers/phics.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-plane-geometry-1913-george-wentworth-david-eugene-sm",
+    "title": "Plane Geometry (1913)",
+    "provider": "George Wentworth, David Eugene Smith",
+    "url": "http://djm.cc/library/Plane_Geometry_Wentworth_Smith_edited.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-pointers-and-memory-nick-parlante",
+    "title": "Pointers And Memory",
+    "provider": "Nick Parlante",
+    "url": "http://cslibrary.stanford.edu/102/PointersAndMemory.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-planes-and-spherical-trigonometry-1915-george-wentworth-david-eugene-sm",
+    "title": "Planes and Spherical Trigonometry (1915)",
+    "provider": "George Wentworth, David Eugene Smith",
+    "url": "http://djm.cc/library/Plane_Spherical_Trigonometry_Wentworth_Smith_edited_2.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-practitioners-guide-to-mlops-khalid-samala-jarek-kazmierczak-",
+    "title": "Practitioners guide to MLOps",
+    "provider": "Khalid Samala, Jarek Kazmierczak, Donna Schut",
+    "url": "https://services.google.com/fh/files/misc/practitioners_guide_to_mlops_whitepaper.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-practical-file-system-design-the-be-file-system-dominic-giampaolo",
+    "title": "Practical File System Design: The Be File System",
+    "provider": "Dominic Giampaolo",
+    "url": "https://www.nobius.org/~dbg/practical-file-system-design.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-principles-of-algorithmic-problem-solving-johan-sannemo",
+    "title": "Principles of Algorithmic Problem Solving",
+    "provider": "Johan Sannemo",
+    "url": "https://www.csc.kth.se/~jsannemo/slask/main.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-neural-network-design-2nd-edition-martin-t-hagan-howard-b-demuth-m",
+    "title": "Neural Network Design (2nd Edition)",
+    "provider": "Martin T. Hagan, Howard B. Demuth, Mark H. Beale, Orlando De Jesús",
+    "url": "https://hagan.okstate.edu/NNDesign.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-probabilistic-machine-learning-an-introduction-kevin-p-murphy",
+    "title": "Probabilistic Machine Learning - An Introduction",
+    "provider": "Kevin P. Murphy",
+    "url": "https://github.com/probml/pml-book/releases/latest/download/book1.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-program-proof-samuel-mimram",
+    "title": "PROGRAM = PROOF",
+    "provider": "Samuel Mimram",
+    "url": "https://www.lix.polytechnique.fr/Labo/Samuel.Mimram/teaching/INF551/course.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-programming-languages-theory-and-practice-robert-harper",
+    "title": "Programming Languages: Theory and Practice",
+    "provider": "Robert Harper",
+    "url": "http://people.cs.uchicago.edu/~blume/classes/aut2008/proglang/text/offline.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-programming-languages-application-and-interpretation-3rd-edition-shiriram-krishnamurthi",
+    "title": "Programming Languages: Application and Interpretation (3rd Edition)",
+    "provider": "Shiriram Krishnamurthi",
+    "url": "https://www.plai.org/3/5/plai-v325.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-prompt-engineering-lee-boonstra",
+    "title": "Prompt Engineering",
+    "provider": "Lee Boonstra",
+    "url": "https://www.innopreneur.io/wp-content/uploads/2025/04/22365_3_Prompt-Engineering_v7-1.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-purely-functional-data-structures-chris-okasaki",
+    "title": "Purely Functional Data Structures",
+    "provider": "Chris Okasaki",
+    "url": "https://www.cs.cmu.edu/~rwh/students/okasaki.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-quantum-information-theory-mark-m-wilde",
+    "title": "Quantum Information Theory",
+    "provider": "Mark M. Wilde",
+    "url": "https://markwilde.com/qit-notes.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-recreations-in-math-h-e-licks",
+    "title": "Recreations in Math",
+    "provider": "H. E. Licks",
+    "url": "http://djm.cc/library/Recreations_in_Mathematics_Licks_edited.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-restful-web-services-free-programming-books-subjects",
+    "title": "RESTful Web Services",
+    "provider": "Free Programming Books · Subjects",
+    "url": "http://restfulwebapis.org/RESTful_Web_Services.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-principles-of-object-oriented-programming-stephen-wong-dung-nguyen-mark-hu",
+    "title": "Principles of Object-Oriented Programming",
+    "provider": "Stephen Wong, Dung Nguyen, Mark Husband",
+    "url": "https://www.opentextbooks.org.hk/system/files/export/8/8163/pdf/Principles_of_ObjectOriented_Programming_8163_r.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-second-course-in-algebra-herbert-e-hawkes-william-a-luby-",
+    "title": "Second Course in Algebra",
+    "provider": "Herbert E. Hawkes, William A. Luby, Frank C. Touton",
+    "url": "http://djm.cc/library/Second_Algebra_Hawkes_Luby_Touton_edited.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-seven-sketches-in-compositionality-an-invitation-to-applied-category-theory-brendan-fong-david-i-spivak",
+    "title": "Seven Sketches in Compositionality: An Invitation to Applied Category Theory",
+    "provider": "Brendan Fong, David I. Spivak",
+    "url": "https://arxiv.org/pdf/1803.05316.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-semantics-with-applications-a-formal-introduction-hanne-riis-nielson-flemming-niel",
+    "title": "Semantics with Applications: A Formal Introduction",
+    "provider": "Hanne Riis Nielson, Flemming Nielson",
+    "url": "https://www.cs.ru.nl/~herman/onderwijs/semantics2019/wiley.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-signal-computing-digital-signals-in-the-software-domain-michael-stiber-bilin-zhang-stibe",
+    "title": "Signal Computing: Digital Signals in the Software Domain",
+    "provider": "Michael Stiber, Bilin Zhang Stiber, Eric C. Larson",
+    "url": "http://faculty.washington.edu/stiber/pubs/Signal-Computing/Signal%20Computing.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-software-defined-radio-for-engineers-travis-collins-et-al",
+    "title": "Software-Defined Radio for Engineers",
+    "provider": "Travis Collins, et al.",
+    "url": "https://www.analog.com/media/en/training-seminars/design-handbooks/Software-Defined-Radio-for-Engineers-2018/SDR4Engineers.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-reinforcement-learning-an-introduction-richard-s-sutton-andrew-g-barto",
+    "title": "Reinforcement Learning: An Introduction",
+    "provider": "Richard S. Sutton, Andrew G. Barto",
+    "url": "http://incompleteideas.net/book/RLbook2020.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-structure-and-interpretation-of-computer-programs-harold-abelson-gerald-jay-sussma",
+    "title": "Structure and Interpretation of Computer Programs",
+    "provider": "Harold Abelson, Gerald Jay Sussman, Julie Sussman",
+    "url": "https://web.mit.edu/6.001/6.037/sicp.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-software-technical-writing-a-guidebook-james-gallagher",
+    "title": "Software Technical Writing: A Guidebook",
+    "provider": "James Gallagher",
+    "url": "https://jamesg.blog/book.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-text-algorithms-maxime-crochemore-wojciech-rytte",
+    "title": "Text Algorithms",
+    "provider": "Maxime Crochemore, Wojciech Rytter",
+    "url": "http://igm.univ-mlv.fr/~mac/REC/text-algorithms.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-subversion-version-control-william-nagel",
+    "title": "Subversion Version Control",
+    "provider": "William Nagel",
+    "url": "https://ptgmedia.pearsoncmg.com/images/0131855182/downloads/Nagel_book.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-the-art-of-community-jono-bacon",
+    "title": "The Art of Community",
+    "provider": "Jono Bacon",
+    "url": "https://artofcommunityonline.org/Art_of_Community_Second_Edition.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-the-art-of-high-perfomance-computing-volume-3-introduction-to-scientific-programming-victor-eijkhout",
+    "title": "The Art of High Perfomance Computing - Volume 3: Introduction to Scientific Programming",
+    "provider": "Victor Eijkhout",
+    "url": "https://github.com/VictorEijkhout/TheArtofHPC_pdfs/blob/main/vol3/EijkhoutIntroSciProgramming-book.pdf",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-the-art-of-high-perfomance-computing-volume-4-hpc-carpentry-victor-eijkhout",
+    "title": "The Art of High Perfomance Computing - Volume 4: HPC Carpentry",
+    "provider": "Victor Eijkhout",
+    "url": "https://github.com/VictorEijkhout/TheArtofHPC_pdfs/blob/main/vol4/EijkhoutHPCtutorials.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-the-great-tree-list-recursion-problem-nick-parlante",
+    "title": "The Great Tree List Recursion Problem",
+    "provider": "Nick Parlante",
+    "url": "http://cslibrary.stanford.edu/109/TreeListRecursion.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-the-design-of-approximation-algorithms-david-p-williamson-david-b-shmoy",
+    "title": "The Design of Approximation Algorithms",
+    "provider": "David P. Williamson, David B. Shmoys",
+    "url": "https://www.designofapproxalgs.com/book.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-the-history-of-artificial-intelligence-chris-smith-brian-mcguire-ting-h",
+    "title": "The History of Artificial Intelligence",
+    "provider": "Chris Smith, Brian McGuire, Ting Huang, Gary Yang",
+    "url": "https://courses.cs.washington.edu/courses/csep590/06au/projects/history-ai.pdf",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-the-joy-of-cryptography-2021-mike-rosulek",
+    "title": "The Joy of Cryptography (2021)",
+    "provider": "Mike Rosulek",
+    "url": "https://joyofcryptography.com/pdf/book.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-the-little-book-of-deep-learning-francois-fleuret",
+    "title": "The Little Book of Deep Learning",
+    "provider": "François Fleuret",
+    "url": "https://fleuret.org/public/lbdl.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-the-lion-way-machine-learning-plus-intelligent-optimization-roberto-battiti-mauro-brunato",
+    "title": "The LION Way: Machine Learning plus Intelligent Optimization",
+    "provider": "Roberto Battiti, Mauro Brunato",
+    "url": "https://intelligent-optimization.org/LIONbook/lionbook_3v0.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-speech-and-language-processing-3rd-edition-draft-daniel-jurafsky-james-h-martin",
+    "title": "Speech and Language Processing (3rd Edition Draft)",
+    "provider": "Daniel Jurafsky, James H. Martin",
+    "url": "https://web.stanford.edu/~jurafsky/slp3/ed3book.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-the-open-logic-text-open-logic-project",
+    "title": "The Open Logic Text",
+    "provider": "Open Logic Project",
+    "url": "https://builds.openlogicproject.org/open-logic-complete.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-using-z-specification-refinement-and-proof-jim-woodcock-jim-davies",
+    "title": "Using Z Specification, Refinement, and Proof",
+    "provider": "Jim Woodcock, Jim Davies",
+    "url": "http://www.usingz.com/usingz.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-understanding-ip-addressing-everything-you-ever-wanted-to-know-free-programming-books-subjects",
+    "title": "Understanding IP Addressing: Everything you ever wanted to know",
+    "provider": "Free Programming Books · Subjects",
+    "url": "http://pages.di.unipi.it/ricci/501302.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-vi-improved-vim-steve-oualline",
+    "title": "Vi Improved -- Vim",
+    "provider": "Steve Oualline",
+    "url": "https://www.truth.sk/vim/vimbook-OPL.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-web-almanac-free-programming-books-subjects",
+    "title": "Web Almanac",
+    "provider": "Free Programming Books · Subjects",
+    "url": "https://almanac.httparchive.org/static/pdfs/web_almanac_2019_en.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-web-api-design-brian-mulloy",
+    "title": "Web API Design",
+    "provider": "Brian Mulloy",
+    "url": "https://pages.apigee.com/rs/apigee/images/api-design-ebook-2012-03.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-vim-recipes-run-paint-run-run-run-paint-pres",
+    "title": "Vim Recipes",
+    "provider": "Run Paint Run Run, Run Paint Press",
+    "url": "https://web.archive.org/web/20130302172911/http://vim.runpaint.org/vim-recipes.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-writing-a-simple-operating-system-from-scratch-nick-blundell",
+    "title": "Writing a Simple Operating System from Scratch",
+    "provider": "Nick Blundell",
+    "url": "https://www.cs.bham.ac.uk/~exr/lectures/opsys/10_11/lectures/os-dev.pdf",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-yet-another-introductory-number-theory-textbook-jonathan-a-poritz",
+    "title": "Yet Another Introductory Number Theory Textbook",
+    "provider": "Jonathan A. Poritz",
+    "url": "https://www.poritz.net/jonathan/share/yaintt.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-the-quest-for-artificial-intelligence-a-history-of-ideas-and-achievements-nils-j-nilsson",
+    "title": "The Quest for Artificial Intelligence: A History of Ideas and Achievements",
+    "provider": "Nils J. Nilsson",
+    "url": "https://ai.stanford.edu/~nilsson/QAI/qai.pdf",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-dynamic-linked-libraries-paradigms-of-the-gpl-license-in-contemporary-software-luis-a-enriquez",
+    "title": "\"DYNAMIC LINKED LIBRARIES\": Paradigms of the GPL license in contemporary software",
+    "provider": "Luis A. Enríquez",
+    "url": "https://www.lulu.com/shop/http://www.lulu.com/shop/luis-enr%C3%ADquez-a/dynamic-linked-libraries-paradigms-of-the-gpl-license-in-contemporary-software/ebook/product-21419788.html",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-2016-european-software-development-salary-survey-andy-oram-john-king",
+    "title": "2016 European Software Development Salary Survey",
+    "provider": "Andy Oram, John King",
+    "url": "https://www.oreilly.com/radar/2016-european-software-development-salary-survey/",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-2016-software-development-salary-survey-john-king-roger-magoulas",
+    "title": "2016 Software Development Salary Survey",
+    "provider": "John King, Roger Magoulas",
+    "url": "https://www.oreilly.com/radar/2016-software-development-salary-survey-report/",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-2d-game-development-from-zero-to-hero-daniele-penazzo",
+    "title": "2D Game Development: From Zero To Hero",
+    "provider": "Daniele Penazzo",
+    "url": "https://github.com/Penaz91/2DGD_F0TH",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-3d-game-shaders-for-beginners-david-lettier-git",
+    "title": "3D Game Shaders For Beginners",
+    "provider": "David Lettier (Git) [",
+    "url": "https://github.com/lettier/3d-game-shaders-for-beginners",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-3d-math-primer-for-graphics-and-game-development-fletcher-dunn",
+    "title": "3D Math Primer for Graphics and Game Development",
+    "provider": "Fletcher Dunn",
+    "url": "https://gamemath.com/book/intro.html",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-500-lines-or-less-build-from-source-code",
+    "title": "500 lines or less",
+    "provider": "Build from Source Code",
+    "url": "https://github.com/aosabook/500lines",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-a-byte-of-vim-swaroop-chitlur-nofrak-fuzzymonk",
+    "title": "A Byte of Vim",
+    "provider": "Swaroop Chitlur, Nofrak, Fuzzymonk, Karmadude, Yesyo, Hbvit7, Leochingkwake",
+    "url": "https://vim.swaroopch.com",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-a-brief-introduction-to-neural-networks-free-programming-books-subjects",
+    "title": "A Brief Introduction to Neural Networks",
+    "provider": "Free Programming Books · Subjects",
+    "url": "https://www.dkriesel.com/en/science/neural_networks",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-a-data-centric-introduction-to-computing-kathi-fisler-shriram-krishnamurt",
+    "title": "A Data-Centric Introduction to Computing",
+    "provider": "Kathi Fisler, Shriram Krishnamurthi, Benjamin S. Lerner, Joe Gibbs Politz",
+    "url": "https://dcic-world.org",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-a-computational-introduction-to-number-theory-and-algebra-victor-shoup",
+    "title": "A Computational Introduction to Number Theory and Algebra",
+    "provider": "Victor Shoup",
+    "url": "https://shoup.net/ntb/",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-a-first-course-in-linear-algebra-rob-beezer",
+    "title": "A First Course in Linear Algebra",
+    "provider": "Rob Beezer",
+    "url": "http://linear.ups.edu",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-a-gentle-introduction-to-the-art-of-mathematics-joseph-e-fields",
+    "title": "A Gentle Introduction to the Art of Mathematics",
+    "provider": "Joseph E. Fields",
+    "url": "https://osj1961.github.io/giam/",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-a-graduate-course-in-applied-cryptography-free-programming-books-subjects",
+    "title": "A Graduate Course in Applied Cryptography",
+    "provider": "Free Programming Books · Subjects",
+    "url": "https://toc.cryptobook.us",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-a-git-primer-daniel-miessler",
+    "title": "A git Primer",
+    "provider": "Daniel Miessler",
+    "url": "https://danielmiessler.com/study/git/",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-a-friendly-introduction-to-mathematical-logic-christopher-c-leary-lars-kristia",
+    "title": "A Friendly Introduction to Mathematical Logic",
+    "provider": "Christopher C. Leary, Lars Kristiansen",
+    "url": "https://milneopentextbooks.org/a-friendly-introduction-to-mathematical-logic/",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-a-programmer-s-guide-to-data-mining-ron-zacharski-draft",
+    "title": "A Programmer's Guide to Data Mining",
+    "provider": "Ron Zacharski (Draft)",
+    "url": "http://guidetodatamining.com",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-a-mathematical-theory-of-communication-claude-e-shannon",
+    "title": "A Mathematical Theory of Communication",
+    "provider": "Claude E.Shannon",
+    "url": "https://archive.org/details/bstj27-4-623",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-a-new-kind-of-science-stephen-wolfram",
+    "title": "A New Kind of Science",
+    "provider": "Stephen Wolfram",
+    "url": "https://www.wolframscience.com/nksonline/toc.html",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-a-programmer-s-introduction-to-mathematics-jeremy-kun",
+    "title": "A Programmer's Introduction to Mathematics",
+    "provider": "Jeremy Kun",
+    "url": "https://pimbook.org",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-a-selective-overview-of-deep-learning-fan-ma-zhong",
+    "title": "A Selective Overview of Deep Learning",
+    "provider": "Fan, Ma, Zhong",
+    "url": "https://arxiv.org/abs/1904.05526",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-abstract-algebra-theory-and-applications-tom-judson",
+    "title": "Abstract Algebra: Theory and Applications",
+    "provider": "Tom Judson",
+    "url": "http://abstract.ups.edu",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-a-visual-git-reference-mark-lodato",
+    "title": "A Visual Git Reference",
+    "provider": "Mark Lodato",
+    "url": "https://marklodato.github.io/visual-git-guide/index-en.html",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-a-short-introduction-to-the-art-of-programming-1971-edsger-w-dijkstra",
+    "title": "A Short Introduction to the Art of Programming (1971)",
+    "provider": "Edsger W. Dijkstra",
+    "url": "https://www.cs.utexas.edu/users/EWD/transcriptions/EWD03xx/EWD316.html",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-ai-safety-for-fleshy-humans-nicky-case-and-hack-club-constru",
+    "title": "AI Safety for Fleshy Humans",
+    "provider": "Nicky Case and Hack Club ( :construction: in process) (CC BY-NC)",
+    "url": "https://aisafety.dance",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-agile-planning-from-ideas-to-story-cards-launch-school",
+    "title": "Agile Planning: From Ideas to Story Cards",
+    "provider": "Launch School",
+    "url": "https://launchschool.com/books/agile_planning",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-active-calculus-matt-boelkins",
+    "title": "Active Calculus",
+    "provider": "Matt Boelkins",
+    "url": "https://scholarworks.gvsu.edu/books/20/",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-ai-workflow-for-game-designers-minsoo-lee",
+    "title": "AI Workflow for Game Designers",
+    "provider": "Minsoo Lee",
+    "url": "https://github.com/eremes81/game-design-ai-practice-en",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-algebraic-topology-allen-hatcher",
+    "title": "Algebraic Topology",
+    "provider": "Allen Hatcher",
+    "url": "https://pi.math.cornell.edu/~hatcher/AT/ATpage.html",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-algebra-abstract-and-concrete-frederick-goodman",
+    "title": "Algebra: Abstract and Concrete",
+    "provider": "Frederick Goodman",
+    "url": "https://homepage.divms.uiowa.edu/~goodman/algebrabook.dir/algebrabook.html",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-algorithm-design-jon-kleinberg-eva-tardos",
+    "title": "Algorithm Design",
+    "provider": "Jon Kleinberg, Éva Tardos",
+    "url": "https://archive.org/details/AlgorithmDesign1stEditionByJonKleinbergAndEvaTardos2005PDF",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-algorithmic-graph-theory-david-joyner-minh-van-nguyen-dav",
+    "title": "Algorithmic Graph Theory",
+    "provider": "David Joyner, Minh Van Nguyen, David Phillips",
+    "url": "https://code.google.com/p/graphbook/",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-algorithms-wikibooks",
+    "title": "Algorithms",
+    "provider": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Algorithms",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-algorithmic-thinking-donglai-fu",
+    "title": "Algorithmic Thinking",
+    "provider": "Donglai Fu",
+    "url": "https://labuladong.gitbook.io/algo-en",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-algorithms-course-materials-jeff-erickson",
+    "title": "Algorithms Course Materials",
+    "provider": "Jeff Erickson",
+    "url": "https://jeffe.cs.illinois.edu/teaching/algorithms/",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-algorithms-for-decision-making-mykel-j-kochenderfer-tim-a-wheel",
+    "title": "Algorithms for Decision Making",
+    "provider": "Mykel J. Kochenderfer, Tim A. Wheeler, Kyle H. Wray",
+    "url": "https://algorithmsbook.com/decisionmaking/",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-algorithms-and-automatic-computing-machines-1963-b-a-trakhtenbrot",
+    "title": "Algorithms and Automatic Computing Machines (1963)",
+    "provider": "B. A. Trakhtenbrot",
+    "url": "https://archive.org/details/Algorithms_And_Automatic_Computing_Machines",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-algorithms-notes-for-professionals-compiled-from-stackoverflow-docu",
+    "title": "Algorithms Notes for Professionals",
+    "provider": "Compiled from StackOverflow Documentation",
+    "url": "https://goalkicker.com/AlgorithmsBook",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-an-introduction-to-computer-networks-free-programming-books-subjects",
+    "title": "An Introduction to Computer Networks",
+    "provider": "Free Programming Books · Subjects",
+    "url": "https://intronetworks.cs.luc.edu",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-algorithms-4th-edition-robert-sedgewick-kevin-wayne",
+    "title": "Algorithms, 4th Edition",
+    "provider": "Robert Sedgewick, Kevin Wayne",
+    "url": "https://algs4.cs.princeton.edu/home/",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-an-introduction-to-gcc-brian-gough-card-file-box-archiv",
+    "title": "An Introduction to GCC",
+    "provider": "Brian Gough ( :card_file_box: archived)",
+    "url": "https://web.archive.org/web/20170326232435/http://www.network-theory.co.uk/docs/gccintro/index.html",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-an-introduction-to-statistical-learning-gareth-james-daniela-witten-trev",
+    "title": "An Introduction to Statistical Learning",
+    "provider": "Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani",
+    "url": "https://www.statlearning.com",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-an-introduction-to-the-theory-of-numbers-leo-moser",
+    "title": "An Introduction to the Theory of Numbers",
+    "provider": "Leo Moser",
+    "url": "http://www.trillia.com/moser-number.html",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-annotated-algorithms-in-python-applications-in-physics-biology-and-finance-massimo-di-pierro",
+    "title": "Annotated Algorithms in Python: Applications in Physics, Biology, and Finance",
+    "provider": "Massimo Di Pierro",
+    "url": "https://github.com/mdipierro/nlib",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-an-open-guide-to-data-structures-and-algorithms-paul-w-bible-lucas-moser",
+    "title": "An Open Guide to Data Structures and Algorithms",
+    "provider": "Paul W. Bible, Lucas Moser",
+    "url": "https://open.umn.edu/opentextbooks/textbooks/an-open-guide-to-data-structures-and-algorithms",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-ansible-up-running-first-three-chapters-account-required",
+    "title": "Ansible Up & Running (first three chapters)",
+    "provider": "(account required)",
+    "url": "https://www.ansible.com/ebooks",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-apex-calculus-gregory-hartman-brian-heinold-tr",
+    "title": "APEX Calculus",
+    "provider": "Gregory Hartman, Brian Heinold, Troy Siemers, and Dimplekumar Chalishajar",
+    "url": "https://www.apexcalculus.com",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-applied-discrete-structures-alan-doerr-kenneth-levasseur",
+    "title": "Applied Discrete Structures",
+    "provider": "Alan Doerr, Kenneth Levasseur",
+    "url": "https://faculty.uml.edu/klevasseur/ads2/",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-applied-quantitative-finance-theory-and-computational-tools-423s-pdf-wolfgang-k-hardle-nikol",
+    "title": "Applied Quantitative Finance: Theory and Computational Tools",
+    "provider": "(423s).pdf) - Wolfgang K. Hardle, Nikolaus Hautsch, Ludger Overbeck",
+    "url": "http://inis.jinr.ru/sl/M_Mathematics/MV_Probability/MVspf_Stochastics%20in%20finance/Haerdle%20et%20al.%20Applied%20Quantitative%20Finance%20(Springer",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-applied-combinatorics-mitchel-t-keller-william-t-trott",
+    "title": "Applied Combinatorics",
+    "provider": "Mitchel T. Keller, William T. Trotter",
+    "url": "https://rellek.net/book/app-comb.html",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-applied-machine-learning-for-tabular-data-max-kuhn-kjell-johnson",
+    "title": "Applied Machine Learning for Tabular Data",
+    "provider": "Max Kuhn, Kjell Johnson",
+    "url": "https://aml4td.org",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-approaching-almost-any-machine-learning-problem-abhishek-thakur",
+    "title": "Approaching Almost Any Machine Learning Problem",
+    "provider": "Abhishek Thakur",
+    "url": "https://github.com/abhishekkrthakur/approachingalmost",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-architectural-styles-and-the-design-of-network-based-software-architectures-roy-thomas-fielding",
+    "title": "Architectural Styles and the Design of Network-based Software Architectures",
+    "provider": "Roy Thomas Fielding",
+    "url": "https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-architectural-metapatterns-the-pattern-language-of-software-architecture-denys-poltorak-edt-lars-nooden",
+    "title": "Architectural Metapatterns: The Pattern Language of Software Architecture",
+    "provider": "Denys Poltorak, edt.: Lars Noodén",
+    "url": "https://github.com/denyspoltorak/publications/tree/main/ArchitecturalMetapatterns",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-artificial-intelligence-for-a-better-future-an-ecosystem-perspective-on-the-ethics-of-ai-and-emerging-digital-technologies-bernd-carsten-stahl",
+    "title": "Artificial Intelligence for a Better Future: An Ecosystem Perspective on the Ethics of AI and Emerging Digital Technologies",
+    "provider": "Bernd Carsten Stahl",
+    "url": "https://link.springer.com/book/10.1007/978-3-030-69978-9",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-artificial-intelligence-foundations-of-computational-agents-2010-1st-edition-david-l-poole-alan-k-mackworth-c",
+    "title": "Artificial Intelligence: Foundations of Computational Agents (2010), 1st Edition",
+    "provider": "David L. Poole, Alan K. Mackworth @ Cambridge University Press",
+    "url": "https://artint.info/aifca1e.html",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-artificial-intelligence-foundations-of-computational-agents-2017-2nd-edition-david-l-poole-alan-k-mackworth-c",
+    "title": "Artificial Intelligence: Foundations of Computational Agents (2017), 2nd Edition",
+    "provider": "David L. Poole, Alan K. Mackworth @ Cambridge University Press",
+    "url": "https://artint.info",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-atomic-design-brad-frost",
+    "title": "Atomic Design",
+    "provider": "Brad Frost",
+    "url": "https://atomicdesign.bradfrost.com",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-atariarchives-org-atariarchives-org-makes-books-in",
+    "title": "Atariarchives.org",
+    "provider": "Atariarchives.org makes books, information, and software for Atari and other classic computers available on the Web.",
+    "url": "https://www.atariarchives.org",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-aws-well-architected-framework-free-programming-books-subjects",
+    "title": "AWS Well-Architected Framework",
+    "provider": "Free Programming Books · Subjects",
+    "url": "https://docs.aws.amazon.com/wellarchitected/latest/framework",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-automated-machine-learning-methods-systems-challenges-frank-hutter-lars-kotthoff-joaqu",
+    "title": "Automated Machine Learning - Methods, Systems, Challenges",
+    "provider": "Frank Hutter, Lars Kotthoff, Joaquin Vanschoren",
+    "url": "https://link.springer.com/book/10.1007/978-3-030-05318-5",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-azure-functions-succinctly-syncfusion-free-programming-books-subjects",
+    "title": "Azure Functions Succinctly, Syncfusion",
+    "provider": "Free Programming Books · Subjects",
+    "url": "https://www.syncfusion.com/ebooks/azure-functions-succinctly",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-azure-for-architects-third-edition-free-programming-books-subjects",
+    "title": "Azure for Architects, Third Edition",
+    "provider": "Free Programming Books · Subjects",
+    "url": "https://azure.microsoft.com/en-us/resources/azure-for-architects/",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-basic-analysis-introduction-to-real-analysis-jiri-lebl",
+    "title": "Basic Analysis: Introduction to Real Analysis",
+    "provider": "Jiří Lebl",
+    "url": "https://www.jirka.org/ra/",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-basic-computer-architecture-smruti-r-sarangi",
+    "title": "Basic Computer Architecture",
+    "provider": "Smruti R. Sarangi",
+    "url": "https://www.cse.iitd.ac.in/~srsarangi/archbooksoft.html",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-basics-of-compiler-design-anniversary-edition-torben-mogensen",
+    "title": "Basics of Compiler Design (Anniversary Edition)",
+    "provider": "Torben Mogensen",
+    "url": "http://www.diku.dk/~torbenm/Basics/",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-asterisk-the-definitive-guide-leif-madsen-jim-van-meggelen-rus",
+    "title": "Asterisk™: The Definitive Guide",
+    "provider": "Leif Madsen, Jim Van Meggelen, Russell Bryant",
+    "url": "https://solmu.org/pub/help/Asterisk/3nd_Edition_for_Asterisk_1.8",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-bayesian-methods-for-hackers-cameron-davidson-pilon",
+    "title": "Bayesian Methods for Hackers",
+    "provider": "Cameron Davidson-Pilon",
+    "url": "https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-beej-s-guide-to-network-programming-using-internet-sockets-brian-beej-jorgensen-hall",
+    "title": "Beej's Guide to Network Programming - Using Internet Sockets",
+    "provider": "Brian \"Beej Jorgensen\" Hall",
+    "url": "https://beej.us/guide/bgnet/",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-bayesian-reasoning-and-machine-learning-free-programming-books-subjects",
+    "title": "Bayesian Reasoning and Machine Learning",
+    "provider": "Free Programming Books · Subjects",
+    "url": "http://web4.cs.ucl.ac.uk/staff/D.Barber/pmwiki/pmwiki.php?n=Brml.HomePage",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-beginning-and-intermediate-algebra-tyler-wallace",
+    "title": "Beginning and Intermediate Algebra",
+    "provider": "Tyler Wallace",
+    "url": "http://www.wallace.ccfaculty.org/book/book.html",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-best-kept-secrets-of-peer-code-review-free-programming-books-subjects",
+    "title": "Best Kept Secrets of Peer Code Review",
+    "provider": "Free Programming Books · Subjects",
+    "url": "https://smartbear.com/lp/ebook/collaborator/secrets-of-peer-code-review/",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-bento-free-programming-books-subjects",
+    "title": "Bento",
+    "provider": "Free Programming Books · Subjects",
+    "url": "https://www.bento.io",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-bitcoin-and-cryptocurrency-technologies-arvind-narayanan-joseph-bonneau-",
+    "title": "Bitcoin and Cryptocurrency Technologies",
+    "provider": "Arvind Narayanan, Joseph Bonneau, Edward Felten, Andrew Miller, Steven Goldfeder, Jeremy Clark",
+    "url": "https://bitcoinbook.cs.princeton.edu",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-bits-signals-and-packets-an-introduction-to-digital-communications-and-networks-free-programming-books-subjects",
+    "title": "Bits, Signals, and Packets: An Introduction to Digital Communications and Networks",
+    "provider": "Free Programming Books · Subjects",
+    "url": "https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/readings/",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-bios-disassembly-ninjutsu-uncovered-1st-edition-darmawan-salihun",
+    "title": "BIOS Disassembly Ninjutsu Uncovered 1st Edition",
+    "provider": "Darmawan Salihun",
+    "url": "https://bioshacking.blogspot.co.uk/2012/02/bios-disassembly-ninjutsu-uncovered-1st.html",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-bitsavers-org-free-programming-books-subjects",
+    "title": "Bitsavers.org",
+    "provider": "Free Programming Books · Subjects",
+    "url": "http://bitsavers.trailing-edge.com",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-blender-3d-noob-to-pro-wikibooks",
+    "title": "Blender 3D: Noob to Pro",
+    "provider": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Blender_3D%3A_Noob_to_Pro",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-book-of-proof-richard-hammack",
+    "title": "Book of Proof",
+    "provider": "Richard Hammack [",
+    "url": "https://www.people.vcu.edu/~rhammack/BookOfProof/",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-blender-manual-free-programming-books-subjects",
+    "title": "Blender Manual",
+    "provider": "Free Programming Books · Subjects",
+    "url": "https://docs.blender.org/manual/en/latest",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-book-of-speed-stoyan-stefanov",
+    "title": "Book of Speed",
+    "provider": "Stoyan Stefanov",
+    "url": "https://www.bookofspeed.com",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-blockchain-for-dummies-2nd-ibm-limited-edition-manav-gupta",
+    "title": "Blockchain for Dummies, 2nd IBM Limited Edition",
+    "provider": "Manav Gupta",
+    "url": "https://www.ibm.com/downloads/cas/36KBMBOG",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-build-a-blockchain-from-scratch-in-go-with-grpc-volodymyr-prokopyuk",
+    "title": "Build a Blockchain from Scratch in Go with gRPC",
+    "provider": "Volodymyr Prokopyuk",
+    "url": "https://github.com/volodymyrprokopyuk/go-blockchain",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-build-secure-reliable-system-best-practice-for-designing-implementing-and-maintaining-systems-heather-adkins-betsy-beyer-paul-",
+    "title": "Build Secure & Reliable System - Best Practice for Designing, Implementing and Maintaining Systems",
+    "provider": "Heather Adkins, Betsy Beyer, Paul Plankinship, Piotr Lewandowski, Ana Oprea, Adam Stubblefield",
+    "url": "https://google.github.io/building-secure-and-reliable-systems/raw/toc.html",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-calculus-gilbert-strang",
+    "title": "Calculus",
+    "provider": "Gilbert Strang",
+    "url": "https://ocw.mit.edu/courses/res-18-001-calculus-fall-2023/pages/textbook/",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-building-blocks-for-theoretical-computer-science-margaret-m-fleck",
+    "title": "Building Blocks for Theoretical Computer Science",
+    "provider": "Margaret M. Fleck",
+    "url": "https://mfleck.cs.illinois.edu/building-blocks/index.html",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-calculus-in-context-james-callahan",
+    "title": "Calculus in Context",
+    "provider": "James Callahan",
+    "url": "http://www.math.smith.edu/~callahan/intromine.html",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-calculus-made-easy-silvanus-p-thompson",
+    "title": "Calculus Made Easy",
+    "provider": "Silvanus P. Thompson",
+    "url": "https://www.gutenberg.org/ebooks/33283",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-building-serverless-applications-with-google-cloud-run-wietse-venema",
+    "title": "Building Serverless Applications with Google Cloud Run",
+    "provider": "Wietse Venema",
+    "url": "https://www.cockroachlabs.com/guides/oreilly-building-serverless-applications-with-google-cloud-run/",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-calculus-i-jerrold-e-marsden-alan-weinstein",
+    "title": "Calculus I",
+    "provider": "Jerrold E. Marsden, Alan Weinstein",
+    "url": "https://resolver.caltech.edu/CaltechBOOK:1985.001",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-calculus-volume-1-edwin-herman-gilbert-strang",
+    "title": "Calculus Volume 1",
+    "provider": "Edwin Herman, Gilbert Strang",
+    "url": "https://openstax.org/details/books/calculus-volume-1",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-calculus-volume-3-edwin-herman-gilbert-strang",
+    "title": "Calculus Volume 3",
+    "provider": "Edwin Herman, Gilbert Strang",
+    "url": "https://openstax.org/details/books/calculus-volume-3",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-calculus-volume-2-edwin-herman-gilbert-strang",
+    "title": "Calculus Volume 2",
+    "provider": "Edwin Herman, Gilbert Strang",
+    "url": "https://openstax.org/details/books/calculus-volume-2",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-category-theory-for-programmers-bartosz-milewski",
+    "title": "Category Theory for Programmers",
+    "provider": "Bartosz Milewski",
+    "url": "https://github.com/hmemcpy/milewski-ctfp-pdf",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-ci-cd-for-monorepos-effectively-building-testing-and-deploying-code-with-monorepos-pablo-tomas-fernandez-zavalia-ma",
+    "title": "CI/CD for Monorepos: Effectively building, testing, and deploying code with monorepos",
+    "provider": "Pablo Tomas Fernandez Zavalia, Marko Anastasov, SemaphoreCI",
+    "url": "https://github.com/semaphoreci/book-monorepo-cicd",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-ck-12-probability-and-statistics-advanced-free-programming-books-subjects",
+    "title": "CK-12 Probability and Statistics - Advanced",
+    "provider": "Free Programming Books · Subjects",
+    "url": "https://www.ck12.org/book/Probability-and-Statistics---Advanced-%2528Second-Edition%2529/",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-chain-courses-james-gan-rishub-kumar-card-file",
+    "title": "chain.courses",
+    "provider": "James Gan, Rishub Kumar ( :card_file_box: archived)",
+    "url": "https://web.archive.org/web/20220127020549/https://chain.courses/",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-ci-cd-with-docker-and-kubernetes-book-marko-anastasov-jerome-petazzoni",
+    "title": "CI/CD with Docker and Kubernetes Book",
+    "provider": "Marko Anastasov, Jérôme Petazzoni, Pablo Tom F. Zavalia, SemaphoreCI",
+    "url": "https://github.com/semaphoreci/book-cicd-docker-kubernetes",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-clean-code-developer-an-initiative-for-more-professionalism-in-software-development-construction-in-process",
+    "title": "Clean Code Developer: An initiative for more professionalism in software development",
+    "provider": "( :construction: in process)",
+    "url": "https://www.gitbook.com/book/ccd_school/clean-code-developer-com/details",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-cloud-computing-for-science-and-engineering-ian-foster-dennis-b-gannon-const",
+    "title": "Cloud Computing for Science and Engineering",
+    "provider": "Ian Foster, Dennis B. Gannon ( :construction: in process)",
+    "url": "https://cloud4scieng.org/chapters/",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-cloud-design-patterns-free-programming-books-subjects",
+    "title": "Cloud Design Patterns",
+    "provider": "Free Programming Books · Subjects",
+    "url": "https://docs.microsoft.com/en-us/azure/architecture/patterns/",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-clp-1-differential-calculus-joel-feldman-andrew-rechnitzer-e",
+    "title": "CLP-1 Differential Calculus",
+    "provider": "Joel Feldman, Andrew Rechnitzer, Elyse Yeager",
+    "url": "https://www.math.ubc.ca/~CLP/CLP1/",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-clp-2-integral-calculus-joel-feldman-andrew-rechnitzer-e",
+    "title": "CLP-2 Integral Calculus",
+    "provider": "Joel Feldman, Andrew Rechnitzer, Elyse Yeager",
+    "url": "https://www.math.ubc.ca/~CLP/CLP2/",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-clp-3-multivariable-calculus-joel-feldman-andrew-rechnitzer-e",
+    "title": "CLP-3 Multivariable Calculus",
+    "provider": "Joel Feldman, Andrew Rechnitzer, Elyse Yeager",
+    "url": "https://www.math.ubc.ca/~CLP/CLP3/",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-clp-4-vector-calculus-joel-feldman-andrew-rechnitzer-e",
+    "title": "CLP-4 Vector Calculus",
+    "provider": "Joel Feldman, Andrew Rechnitzer, Elyse Yeager",
+    "url": "https://www.math.ubc.ca/~CLP/CLP4/",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-code-catalog-a-collection-of-code-examples-from-prominent-open-source-projects-free-programming-books-subjects",
+    "title": "Code Catalog: A Collection of Code Examples from Prominent Open Source Projects",
+    "provider": "Free Programming Books · Subjects",
+    "url": "https://codecatalog.org",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-collaborative-statistics-free-programming-books-subjects",
+    "title": "Collaborative Statistics",
+    "provider": "Free Programming Books · Subjects",
+    "url": "https://cnx.org/contents/5e0744f9-9e79-4348-9237-ed012213a2d6%4040.9",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-college-trigonometry-carl-stitz-jeff-zeager",
+    "title": "College Trigonometry",
+    "provider": "Carl Stitz, Jeff Zeager",
+    "url": "https://open.umn.edu/opentextbooks/textbooks/college-trigonometry",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-combinatorics-through-guided-discovery-kenneth-bogart",
+    "title": "Combinatorics Through Guided Discovery",
+    "provider": "Kenneth Bogart",
+    "url": "https://bogart.openmathbooks.org",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-come-let-s-play-scenario-based-programming-using-live-sequence-charts-david-harel-rami-marelly",
+    "title": "Come, Let's Play: Scenario-Based Programming Using Live Sequence Charts",
+    "provider": "David Harel, Rami Marelly",
+    "url": "https://www.wisdom.weizmann.ac.il/~playbook/",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-combinatorial-problems-and-exercises-1979-l-lovasz",
+    "title": "Combinatorial Problems And Exercises (1979)",
+    "provider": "L. Lovasz",
+    "url": "https://archive.org/details/in.ernet.dli.2015.141538/",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-complex-analysis-george-cain",
+    "title": "Complex Analysis",
+    "provider": "George Cain",
+    "url": "https://people.math.gatech.edu/~cain/winter99/complex.html",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-compiling-techniques-1969-f-r-a-hopgood-macdonald",
+    "title": "Compiling Techniques (1969)",
+    "provider": "F.R.A. Hopgood, Macdonald",
+    "url": "https://www.chilton-computing.org.uk/acl/literature/books/compilingtechniques/overview.htm",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-computational-and-inferential-thinking-the-foundations-of-data-science-ani-adhikari-john-denero-david-w",
+    "title": "Computational and Inferential Thinking. The Foundations of Data Science",
+    "provider": "Ani Adhikari, John DeNero, David Wagner",
+    "url": "https://www.inferentialthinking.com",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-computational-mathematics-with-sagemath-paul-zimmermann-alexandre-casama",
+    "title": "Computational Mathematics with SageMath",
+    "provider": "Paul Zimmermann, Alexandre Casamayou, Nathann Cohen, Guillaume Connan, et al.",
+    "url": "https://www.sagemath.org/sagebook/",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-computational-geometry-free-programming-books-subjects",
+    "title": "Computational Geometry",
+    "provider": "Free Programming Books · Subjects",
+    "url": "https://web.mit.edu/hyperbook/Patrikalakis-Maekawa-Cho/",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-computer-networks-a-systems-approach-larry-peterson-bruce-davie",
+    "title": "Computer Networks: A Systems Approach",
+    "provider": "Larry Peterson, Bruce Davie",
+    "url": "https://book.systemsapproach.org",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-computer-graphics-from-scratch-gabriel-gambetta-construction-in",
+    "title": "Computer Graphics from scratch",
+    "provider": "Gabriel Gambetta ( :construction: in process)",
+    "url": "http://gabrielgambetta.com/computer-graphics-from-scratch",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-computer-organization-and-design-fundamentals-david-tarnoff",
+    "title": "Computer Organization and Design Fundamentals",
+    "provider": "David Tarnoff",
+    "url": "https://faculty.etsu.edu/tarnoff/138292",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-computer-science-from-the-bottom-up-ian-wienand",
+    "title": "Computer Science from the Bottom Up",
+    "provider": "Ian Wienand",
+    "url": "https://www.bottomupcs.com",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-computer-vision-dana-ballard-chris-brown",
+    "title": "Computer Vision",
+    "provider": "Dana Ballard, Chris Brown",
+    "url": "https://homepages.inf.ed.ac.uk/rbf/BOOKS/BANDB/bandb.htm",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-computer-networking-principles-protocols-and-practice-free-programming-books-subjects",
+    "title": "Computer Networking : Principles, Protocols and Practice",
+    "provider": "Free Programming Books · Subjects",
+    "url": "https://www.computer-networking.info",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-computer-vision-algorithms-and-applications-richard-szeliski",
+    "title": "Computer Vision: Algorithms and Applications",
+    "provider": "Richard Szeliski",
+    "url": "https://szeliski.org/Book/",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-concepts-applications-of-inferential-statistics-free-programming-books-subjects",
+    "title": "Concepts & Applications of Inferential Statistics",
+    "provider": "Free Programming Books · Subjects",
+    "url": "http://vassarstats.net/textbook/",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-computer-vision-models-learning-and-inference-simon-j-d-prince",
+    "title": "Computer Vision: Models, Learning, and Inference",
+    "provider": "Simon J.D. Prince",
+    "url": "http://www.computervisionmodels.com",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-conceptf1-blogspot-com-free-programming-books-subjects",
+    "title": "conceptf1.blogspot.com",
+    "provider": "Free Programming Books · Subjects",
+    "url": "https://conceptf1.blogspot.com/2013/11/list-of-freely-available-programming.html",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-contributing-to-opensource-the-right-way-daniele-scasciafratte",
+    "title": "Contributing to opensource: the right way",
+    "provider": "Daniele Scasciafratte",
+    "url": "https://github.com/Mte90/Contribute-to-opensource-the-right-way",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-control-and-embedded-systems-free-programming-books-subjects",
+    "title": "Control and Embedded Systems",
+    "provider": "Free Programming Books · Subjects",
+    "url": "http://www.learn-c.com",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-conversational-git-alan-hohn",
+    "title": "Conversational Git",
+    "provider": "Alan Hohn",
+    "url": "https://blog.anvard.org/conversational-git/",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-convex-optimization-stephen-boyd-lieven-vandenberghe",
+    "title": "Convex Optimization",
+    "provider": "Stephen Boyd, Lieven Vandenberghe",
+    "url": "https://web.stanford.edu/~boyd/cvxbook",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-course-of-linear-algebra-and-multidimensional-geometry-ruslan-sharipov",
+    "title": "Course Of Linear Algebra And Multidimensional Geometry",
+    "provider": "Ruslan Sharipov",
+    "url": "https://arxiv.org/pdf/math/0405323",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-confessions-of-an-unintentional-cto-lessons-in-growing-a-web-app-jack-kinsella",
+    "title": "Confessions of an Unintentional CTO: Lessons in Growing a Web App",
+    "provider": "Jack Kinsella",
+    "url": "https://www.jackkinsella.ie/books/confessions_of_an_unintentional_cto",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-crypto-101-crypto-for-everyone-free-programming-books-subjects",
+    "title": "Crypto 101 - Crypto for everyone",
+    "provider": "Free Programming Books · Subjects",
+    "url": "https://www.crypto101.io",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-crafting-interpreters-bob-nystrom",
+    "title": "Crafting Interpreters",
+    "provider": "Bob Nystrom",
+    "url": "https://www.craftinginterpreters.com/contents.html",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-cryptography-wikibooks",
+    "title": "Cryptography",
+    "provider": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cryptography",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-cs-principles-big-ideas-in-programming-mark-guzdial-barbara-ericson",
+    "title": "CS Principles: Big Ideas in Programming",
+    "provider": "Mark Guzdial, Barbara Ericson",
+    "url": "https://www.openbookproject.net/books/StudentCSP/",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-cryptoparty-handbook-free-programming-books-subjects",
+    "title": "CryptoParty Handbook",
+    "provider": "Free Programming Books · Subjects",
+    "url": "https://unglue.it/work/141611/",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-cs50-s-introduction-to-artificial-intelligence-with-python-david-malan-harvard",
+    "title": "CS50's Introduction to Artificial Intelligence with Python",
+    "provider": "David Malan (Harvard)",
+    "url": "https://cs50.harvard.edu/ai/",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-culture-empire-digital-revolution-pieter-hintjens",
+    "title": "Culture \\& Empire: Digital Revolution",
+    "provider": "Pieter Hintjens",
+    "url": "http://hintjens.com/books",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-data-journalism-handbook-free-programming-books-subjects",
+    "title": "Data Journalism Handbook",
+    "provider": "Free Programming Books · Subjects",
+    "url": "https://datajournalismhandbook.org",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-data-mining-algorithms-in-r-wikibooks",
+    "title": "Data Mining Algorithms In R",
+    "provider": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Data_Mining_Algorithms_In_R",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-data-science-with-python-freecodecamp",
+    "title": "Data Science with Python",
+    "provider": "freeCodeCamp",
+    "url": "https://www.youtube.com/watch?v=LHBE6Q9XlzI",
+    "ok": true,
+    "source": "Miniatura oficial de YouTube"
+  },
+  {
+    "id": "live-fpb-subjects-en-data-jujitsu-the-art-of-turning-data-into-product-email-address-requested-not-requ",
+    "title": "Data Jujitsu: The Art of Turning Data into Product",
+    "provider": "(email address requested, not required)",
+    "url": "http://www.oreilly.com/data/free/data-jujitsu.csp",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-data-structures-wikibooks",
+    "title": "Data Structures",
+    "provider": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Data_Structures",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-data-science-at-the-command-line-jeroen-janssens",
+    "title": "Data Science at the Command Line",
+    "provider": "Jeroen Janssens",
+    "url": "https://datascienceatthecommandline.com/2e/",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-data-structures-and-algorithms-yiteai",
+    "title": "Data Structures and Algorithms",
+    "provider": "YiteAI",
+    "url": "https://tools.yiteai.com/en/books/dsa",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-data-structures-and-algorithms-annotated-reference-with-examples-g-barnett-l-del-tongo-card-file-",
+    "title": "Data Structures and Algorithms: Annotated Reference with Examples",
+    "provider": "G. Barnett, L. Del Tongo ( :card_file_box: archived)",
+    "url": "https://web.archive.org/web/20170715160229/http://dotnetslackers.com/Community/files/folders/data-structures-and-algorithms/entry30283.aspx",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-data-structures-succinctly-part-1-syncfusion-robert-horvick",
+    "title": "Data Structures Succinctly Part 1, Syncfusion",
+    "provider": "Robert Horvick",
+    "url": "https://www.syncfusion.com/resources/techportal/ebooks/datastructurespart1",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-data-oriented-design-free-programming-books-subjects",
+    "title": "Data-Oriented Design",
+    "provider": "Free Programming Books · Subjects",
+    "url": "https://www.dataorienteddesign.com/dodmain/dodmain.html",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-database-design-2nd-edition-adrienne-watt-nelson-eng-bccampu",
+    "title": "Database Design – 2nd Edition",
+    "provider": "Adrienne Watt, Nelson Eng @ BCcampus Open Pressbooks",
+    "url": "https://opentextbc.ca/dbdesign01/",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-data-structures-succinctly-part-2-syncfusion-robert-horvick",
+    "title": "Data Structures Succinctly Part 2, Syncfusion",
+    "provider": "Robert Horvick",
+    "url": "https://www.syncfusion.com/resources/techportal/ebooks/datastructurespart2",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-database-design-succinctly-joseph-d-booth",
+    "title": "Database Design Succinctly",
+    "provider": "Joseph D. Booth",
+    "url": "https://www.syncfusion.com/succinctly-free-ebooks/database-design-succinctly",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-debugging-with-gdb-free-software-foundation",
+    "title": "Debugging with GDB",
+    "provider": "Free Software Foundation",
+    "url": "https://sourceware.org/gdb/current/onlinedocs/gdb.html",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-declare-peace-on-virtual-machines-a-guide-to-simplifying-vm-based-development-on-a-mac-free-programming-books-subjects",
+    "title": "Declare Peace on Virtual Machines. A guide to simplifying vm-based development on a Mac",
+    "provider": "Free Programming Books · Subjects",
+    "url": "https://leanpub.com/declarepeaceonvms/read",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-dbooks-free-download-open-books-free-programming-books-subjects",
+    "title": "dBooks - Free download open books",
+    "provider": "Free Programming Books · Subjects",
+    "url": "https://www.dbooks.org",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-deep-learning-for-coders-with-fastai-and-pytorch-jeremy-howard-sylvain-gugger-jup",
+    "title": "Deep Learning for Coders with Fastai and PyTorch",
+    "provider": "Jeremy Howard, Sylvain Gugger (Jupyter Notebooks)",
+    "url": "https://github.com/fastai/fastbook",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-design-with-fontforge-free-programming-books-subjects",
+    "title": "Design With FontForge",
+    "provider": "Free Programming Books · Subjects",
+    "url": "http://designwithfontforge.com/en-US/index.html",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-design-of-a-programmer-prakash-hegade",
+    "title": "Design of a Programmer",
+    "provider": "Prakash Hegade",
+    "url": "https://www.smashwords.com/books/view/639609",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-designing-for-performance-lara-hogan",
+    "title": "Designing for Performance",
+    "provider": "Lara Hogan",
+    "url": "https://designingforperformance.com",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-delftse-foundations-of-computation-stefan-hugtenburgand-neil-yorke-",
+    "title": "Delftse Foundations of Computation",
+    "provider": "Stefan Hugtenburgand, Neil Yorke-Smith @ TU Delft Open",
+    "url": "https://textbooks.open.tudelft.nl/textbooks/catalog/book/13",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-designing-distributed-systems-account-required",
+    "title": "Designing Distributed Systems",
+    "provider": "(account required)",
+    "url": "https://azure.microsoft.com/en-us/resources/designing-distributed-systems/",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-devdocs-documents-for-developers-in-1-pl",
+    "title": "DevDocs",
+    "provider": "Documents for Developers in 1 place",
+    "url": "https://devdocs.io",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-developing-reactive-microservices-email-address-requested-not-requ",
+    "title": "Developing Reactive Microservices",
+    "provider": "(email address requested, not required)",
+    "url": "https://info.lightbend.com/COLL-20XX-Developing-Reactive-Microservices_Landing-Page.html",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-devops-for-dummies-3rd-ibm-limited-edition-sanjeev-sharma-bernie-coyne",
+    "title": "DevOps For Dummies, 3rd IBM Limited Edition",
+    "provider": "Sanjeev Sharma, Bernie Coyne",
+    "url": "https://www.ibm.com/downloads/cas/P9NYOK3B",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-digital-circuit-projects-an-overview-of-digital-circuits-through-implementing-integrated-circuits-second-edition-charles-w-kann",
+    "title": "Digital Circuit Projects: An Overview of Digital Circuits Through Implementing Integrated Circuits - Second Edition",
+    "provider": "Charles W. Kann",
+    "url": "https://cupola.gettysburg.edu/cgi/viewcontent.cgi?article=1000&context=oer",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-differential-equations-paul-dawkins",
+    "title": "Differential Equations",
+    "provider": "Paul Dawkins",
+    "url": "http://tutorial.math.lamar.edu/Classes/DE/DE.aspx",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-digital-signal-processing-for-communications-paolo-prandoni-martin-vetterli",
+    "title": "Digital Signal Processing For Communications",
+    "provider": "Paolo Prandoni, Martin Vetterli",
+    "url": "https://www.sp4comm.org",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-digital-signal-processing-for-engineers-and-scientists-steven-w-smith",
+    "title": "Digital Signal Processing For Engineers and Scientists",
+    "provider": "Steven W. Smith",
+    "url": "https://www.dspguide.com",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-directx-manual-draft",
+    "title": "DirectX manual",
+    "provider": "(draft)",
+    "url": "http://user.xmission.com/~legalize/book/download/index.html",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-digital-signal-processing-in-python-allen-b-downey",
+    "title": "Digital Signal Processing in Python",
+    "provider": "Allen B. Downey",
+    "url": "https://greenteapress.com/wp/think-dsp",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-discrete-mathematics-first-and-second-course-edward-a-bender-s-gill-williamso",
+    "title": "Discrete Mathematics: First and Second Course",
+    "provider": "Edward A. Bender, S. Gill Williamson",
+    "url": "https://cseweb.ucsd.edu/~gill/BWLectSite/",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-discrete-mathematics-an-open-introduction-oscar-levin",
+    "title": "Discrete Mathematics: An Open Introduction",
+    "provider": "Oscar Levin",
+    "url": "https://discrete.openmathbooks.org/dmoi3.html",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-discrete-structures-for-computer-science-counting-recursion-and-probability-michiel-smid",
+    "title": "Discrete Structures for Computer Science: Counting, Recursion, and Probability",
+    "provider": "Michiel Smid",
+    "url": "https://cglab.ca/~michiel/DiscreteStructures/",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-distributed-systems-4th-edition-maarten-van-steen-andrew-s-tanen",
+    "title": "Distributed Systems 4th edition",
+    "provider": "Maarten van Steen, Andrew S. Tanenbaum (email address required)",
+    "url": "https://www.distributed-systems.net/index.php/books/ds4/ds4-ebook/",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-distributed-systems-for-fun-and-profit-free-programming-books-subjects",
+    "title": "Distributed systems for fun and profit",
+    "provider": "Free Programming Books · Subjects",
+    "url": "https://book.mixu.net/distsys/single-page.html",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-dive-into-deep-learning-free-programming-books-subjects",
+    "title": "Dive into Deep Learning",
+    "provider": "Free Programming Books · Subjects",
+    "url": "https://d2l.ai",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-designing-interfaces-jennifer-tidwell",
+    "title": "Designing Interfaces",
+    "provider": "Jennifer Tidwell",
+    "url": "http://designinginterfaces.com",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-docker-jumpstart-andrew-odewahn",
+    "title": "Docker Jumpstart",
+    "provider": "Andrew Odewahn",
+    "url": "https://odewahn.github.io/docker-jumpstart/",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-dive-into-systems-a-gentle-introduction-to-computer-systems-suzanne-j-matthews-tia-newhall-k",
+    "title": "Dive Into Systems: A Gentle Introduction to Computer Systems",
+    "provider": "Suzanne J. Matthews, Tia Newhall, Kevin C. Webb",
+    "url": "https://diveintosystems.org",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-docker-tutorial-tutorials-point",
+    "title": "Docker Tutorial",
+    "provider": "Tutorials Point",
+    "url": "https://www.tutorialspoint.com/docker/",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-domain-driven-design-quickly-free-programming-books-subjects",
+    "title": "Domain Driven Design Quickly",
+    "provider": "Free Programming Books · Subjects",
+    "url": "https://www.infoq.com/minibooks/domain-driven-design-quickly",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-domain-driven-design-reference-eric-evans-cc-by",
+    "title": "Domain-Driven Design Reference",
+    "provider": "Eric Evans (CC BY)",
+    "url": "https://www.domainlanguage.com/ddd/reference",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-dsl-engineering-designing-implementing-and-using-domain-specific-languages-markus-voelter",
+    "title": "DSL Engineering: Designing, Implementing and Using Domain-Specific Languages",
+    "provider": "Markus Voelter",
+    "url": "http://dslbook.org",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-elasticsearch-certified-engineer-notes-free-programming-books-subjects",
+    "title": "Elasticsearch Certified Engineer notes",
+    "provider": "Free Programming Books · Subjects",
+    "url": "https://www.pistocop.dev/posts/es_engineer_exam_notes/",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-dotnet-microservices-architecture-for-containerized-net-applications-cesar-de-la-torre-bill-wagner-mi",
+    "title": "Dotnet Microservices Architecture for Containerized NET Applications",
+    "provider": "Cesar de la Torre, Bill Wagner, Mike Rousos",
+    "url": "https://aka.ms/microservicesebook",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-elasticsearch-the-definitive-guide-fork-it-on-gh-https-github-com-e",
+    "title": "Elasticsearch: The Definitive Guide",
+    "provider": "([fork it on GH](https://github.com/elastic/elasticsearch-definitive-guide))",
+    "url": "https://www.elastic.co/guide/en/elasticsearch/guide/current/index.html",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-elementary-algorithms-larry-liu-xinyu",
+    "title": "Elementary Algorithms",
+    "provider": "Larry Liu Xinyu",
+    "url": "https://github.com/liuxinyu95/AlgoXY",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-elementary-differential-equations-with-boundary-value-problems-william-f-trench",
+    "title": "Elementary Differential Equations (with Boundary Value Problems)",
+    "provider": "William F. Trench",
+    "url": "https://digitalcommons.trinity.edu/mono/9/",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-elementary-number-theory-primes-congruences-and-secrets-william-stein",
+    "title": "Elementary Number Theory: Primes, Congruences, and Secrets",
+    "provider": "William Stein",
+    "url": "https://wstein.org/ent/",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-elementary-real-analysis-brian-s-thomson-judith-b-bruckne",
+    "title": "Elementary Real Analysis",
+    "provider": "Brian S. Thomson, Judith B. Bruckner, Andrew M. Bruckner",
+    "url": "https://www.classicalrealanalysis.info/com/Elementary-Real-Analysis.php",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-elements-of-abstract-and-linear-algebra-e-h-connell",
+    "title": "Elements of Abstract and Linear Algebra",
+    "provider": "E. H. Connell",
+    "url": "https://www.math.miami.edu/~ec/book/",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-elements-of-data-science-allen-b-downey",
+    "title": "Elements of Data Science",
+    "provider": "Allen B. Downey",
+    "url": "https://allendowney.github.io/ElementsOfDataScience/README.html",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-engineering-software-as-a-service-an-agile-approach-using-cloud-computing-armando-fox-david-patterson",
+    "title": "Engineering Software as a Service: An Agile Approach Using Cloud Computing",
+    "provider": "Armando Fox, David Patterson",
+    "url": "https://e.saasbook.info",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-elements-of-ai-minnalearn-university-of-helsink",
+    "title": "Elements of AI",
+    "provider": "MinnaLearn, University of Helsinki",
+    "url": "https://www.elementsofai.com",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-encyclopedia-of-human-computer-interaction-2nd-edition-free-programming-books-subjects",
+    "title": "Encyclopedia of Human Computer Interaction 2nd Edition",
+    "provider": "Free Programming Books · Subjects",
+    "url": "https://www.interaction-design.org/literature/book/the-encyclopedia-of-human-computer-interaction-2nd-ed",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-essential-image-optimization-addy-osmani",
+    "title": "Essential Image Optimization",
+    "provider": "Addy Osmani",
+    "url": "https://images.guide",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-essentials-of-metaheuristics-sean-luke",
+    "title": "Essentials of Metaheuristics",
+    "provider": "Sean Luke",
+    "url": "https://cs.gmu.edu/~sean/book/metaheuristics/",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-event-driven-gtk-by-example-2021-edition-michael-murphy",
+    "title": "Event-Driven GTK by Example — 2021 Edition",
+    "provider": "Michael Murphy",
+    "url": "https://mmstick.github.io/gtkrs-tutorials/",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-evidence-based-software-engineering-derek-m-jones",
+    "title": "Evidence-based Software Engineering",
+    "provider": "Derek M. Jones",
+    "url": "http://knosof.co.uk/ESEUR",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-expl-nitc-build-your-own-compiler-murali-krishnan-k-students-in-th",
+    "title": "EXPL NITC: Build your own Compiler",
+    "provider": "Murali Krishnan K., students in the Department of Computer Science and Engineering of the Calicut National Institute of Technology",
+    "url": "https://silcnitc.github.io",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-explorations-in-parallel-distributed-processing-a-handbook-of-models-programs-and-exercises-james-l-mcclelland",
+    "title": "Explorations in Parallel Distributed Processing: A Handbook of Models, Programs, and Exercises",
+    "provider": "James L. McClelland",
+    "url": "https://web.stanford.edu/group/pdplab/pdphandbook",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-exploring-cqrs-and-event-sourcing-free-programming-books-subjects",
+    "title": "Exploring CQRS and Event Sourcing",
+    "provider": "Free Programming Books · Subjects",
+    "url": "https://docs.microsoft.com/en-us/previous-versions/msp-n-p/jj554200(v=pandp.10",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-feature-engineering-and-selection-a-practical-approach-for-predictive-models-max-kuhn-kjell-johnson",
+    "title": "Feature Engineering and Selection: A Practical Approach for Predictive Models",
+    "provider": "Max Kuhn, Kjell Johnson",
+    "url": "https://bookdown.org/max/FES/",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-exploring-math-for-programmers-and-data-scientists-paul-orland",
+    "title": "Exploring Math for Programmers and Data Scientists",
+    "provider": "Paul Orland",
+    "url": "https://freecontent.manning.com/free-ebook-exploring-math-for-programmers-and-data-scientists/",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 202
+  },
+  {
+    "id": "live-fpb-subjects-en-flow-based-programming-j-paul-morrison",
+    "title": "Flow based Programming",
+    "provider": "J Paul Morrison",
+    "url": "https://jpaulmorrison.com/fbp/",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-essential-algorithms-krzysztof-kowalczyk-and-stack-ov",
+    "title": "Essential Algorithms",
+    "provider": "Krzysztof Kowalczyk and Stack Overflow Documentation project",
+    "url": "https://www.programming-books.io/essential/algorithms/",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-foundations-of-computer-science-al-aho-jeff-ullman",
+    "title": "Foundations of Computer Science",
+    "provider": "Al Aho, Jeff Ullman",
+    "url": "http://infolab.stanford.edu/~ullman/focs.html",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-foundations-of-combinatorics-with-applications-edward-a-bender-s-gill-williamso",
+    "title": "Foundations of Combinatorics with Applications",
+    "provider": "Edward A. Bender, S. Gill Williamson",
+    "url": "https://www.math.ucsd.edu/~ebender/CombText/",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-foundations-of-databases-free-programming-books-subjects",
+    "title": "Foundations of Databases",
+    "provider": "Free Programming Books · Subjects",
+    "url": "http://webdam.inria.fr/Alice/",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-flexible-operating-system-internals-the-design-and-implementation-of-the-anykernel-and-rump-kernels-antti-kantee",
+    "title": "Flexible Operating System Internals: The Design and Implementation of the Anykernel and Rump Kernels",
+    "provider": "Antti Kantee",
+    "url": "https://aaltodoc.aalto.fi/handle/123456789/6318",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-free-and-open-machine-learning-maikel-mardjan",
+    "title": "Free and Open Machine Learning",
+    "provider": "Maikel Mardjan",
+    "url": "https://nocomplexity.com/documents/fossml/",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-free-as-in-freedom-richard-stallman-and-the-free-software-revolution-sam-williams",
+    "title": "Free as in Freedom: Richard Stallman and the free software revolution",
+    "provider": "Sam Williams",
+    "url": "https://archive.org/details/faif-2.0",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-free-for-all-peter-wayner",
+    "title": "Free for All",
+    "provider": "Peter Wayner",
+    "url": "https://unglue.it/work/136445/",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-free-tech-books-free-programming-books-subjects",
+    "title": "Free Tech Books",
+    "provider": "Free Programming Books · Subjects",
+    "url": "https://www.freetechbooks.com",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-free-software-free-society-selected-essays-of-richard-m-stallman-free-programming-books-subjects",
+    "title": "Free Software, Free Society: Selected Essays of Richard M. Stallman",
+    "provider": "Free Programming Books · Subjects",
+    "url": "https://shop.fsf.org/product/free-software-free-society-2/",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-front-end-debugging-tools-handbook-lala-hakobyan",
+    "title": "Front-end Debugging Tools Handbook",
+    "provider": "Lala Hakobyan",
+    "url": "https://github.com/lala-hakobyan/front-end-debugging-handbook",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-front-end-developer-handbook-2016-cody-lindley",
+    "title": "Front-End Developer Handbook 2016",
+    "provider": "Cody Lindley",
+    "url": "https://frontendmasters.com/guides/front-end-handbook/2016/",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-front-end-developer-handbook-2017-cody-lindley",
+    "title": "Front-End Developer Handbook 2017",
+    "provider": "Cody Lindley",
+    "url": "https://frontendmasters.com/guides/front-end-handbook/2017/",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-front-end-developer-handbook-2018-cody-lindley",
+    "title": "Front-End Developer Handbook 2018",
+    "provider": "Cody Lindley",
+    "url": "https://frontendmasters.com/guides/front-end-handbook/2018/",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-front-end-developer-handbook-2019-cody-lindley",
+    "title": "Front-End Developer Handbook 2019",
+    "provider": "Cody Lindley",
+    "url": "https://frontendmasters.com/guides/front-end-handbook/2019/",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-fundamentals-of-data-visualization-claus-o-wilke",
+    "title": "Fundamentals of Data Visualization",
+    "provider": "Claus O. Wilke",
+    "url": "https://clauswilke.com/dataviz/",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-fundamentals-of-quantitative-analysis-danielle-zhu",
+    "title": "Fundamentals of Quantitative Analysis",
+    "provider": "Danielle Zhu",
+    "url": "https://psyteachr.github.io/quant-fun-v3/",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-fuzzing-book-andreas-zeller-rahul-gopinath-ma",
+    "title": "Fuzzing Book",
+    "provider": "Andreas Zeller, Rahul Gopinath, Marcel Böhme, Gordon Fraser, Christian Holler",
+    "url": "https://www.fuzzingbook.org",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-game-ai-pro-steve-rabin",
+    "title": "Game AI Pro",
+    "provider": "Steve Rabin",
+    "url": "https://www.gameaipro.com",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-game-design-with-ags-dave-ensminger-a-g-madi",
+    "title": "Game Design with AGS",
+    "provider": "Dave Ensminger, A. G. Madi",
+    "url": "https://ensadi.github.io/AGSBook/",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-game-programming-patterns-bob-nystrom",
+    "title": "Game Programming Patterns",
+    "provider": "Bob Nystrom",
+    "url": "https://gameprogrammingpatterns.com",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-gaussian-processes-for-machine-learning-carl-edward-rasmussen-christophe",
+    "title": "Gaussian Processes for Machine Learning",
+    "provider": "Carl Edward Rasmussen, Christopher K.I. Williams",
+    "url": "https://www.gaussianprocess.org/gpml/",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-foundations-of-machine-learning-second-edition-mehryar-mohri-afshin-rostamizade",
+    "title": "Foundations of Machine Learning, Second Edition",
+    "provider": "Mehryar Mohri, Afshin Rostamizadeh, Ameet Talwalkar",
+    "url": "https://mitpress.ublish.com/ebook/foundations-of-machine-learning--2-preview/7093/Cover",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-geometry-with-an-introduction-to-cosmic-topology-michael-p-hitchman",
+    "title": "Geometry with an Introduction to Cosmic Topology",
+    "provider": "Michael P. Hitchman",
+    "url": "https://mphitchman.com",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-generative-ai-in-higher-education-the-chatgpt-effect-cecilia-ka-yuk-chan-tom-colloton",
+    "title": "Generative AI in Higher Education: The ChatGPT Effect",
+    "provider": "Cecilia Ka Yuk Chan, Tom Colloton",
+    "url": "https://www.taylorfrancis.com/books/oa-mono/10.4324/9781003459026/generative-ai-higher-education-cecilia-ka-yuk-chan-tom-colloton",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-get-git-arialdo-martini",
+    "title": "get-git",
+    "provider": "Arialdo Martini",
+    "url": "https://get-git.readthedocs.io/en/latest/",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-getting-real-basecamp-37signals-html-https-ba",
+    "title": "Getting Real",
+    "provider": "Basecamp, 37signals ([HTML](https://basecamp.com/gettingreal), [PDF](https://basecamp.com/gettingreal/getting-real.pdf))",
+    "url": "https://basecamp.com/books/getting-real",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-getting-started-with-enterprise-blockchain-a-guide-to-design-and-development-michael-bradley-david-gorman-mat",
+    "title": "Getting Started with Enterprise Blockchain: A Guide to Design and Development",
+    "provider": "Michael Bradley, David Gorman, Matt Lucas, Matthew Golby-Kirk",
+    "url": "https://www.ibm.com/downloads/cas/RYWXAR0M",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-getting-started-with-artificial-intelligence-2nd-edition-tom-markiewicz-josh-zheng",
+    "title": "Getting Started with Artificial Intelligence , 2nd Edition",
+    "provider": "Tom Markiewicz, Josh Zheng",
+    "url": "https://www.ibm.com/downloads/cas/OJ6WX73V",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-getting-started-with-innersource-email-address-requested-not-requ",
+    "title": "Getting Started with InnerSource",
+    "provider": "(email address requested, not required)",
+    "url": "https://www.oreilly.com/programming/free/getting-started-with-innersource.csp",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-git-the-simple-guide-roger-dudler",
+    "title": "git - the simple guide",
+    "provider": "Roger Dudler",
+    "url": "https://rogerdudler.github.io/git-guide/",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-git-from-the-bottom-up-j-wiegley",
+    "title": "Git From The Bottom Up",
+    "provider": "J. Wiegley",
+    "url": "https://jwiegley.github.io/git-from-the-bottom-up/",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-git-cookbook-dennis-kaarsemaker",
+    "title": "Git cookbook",
+    "provider": "Dennis Kaarsemaker",
+    "url": "https://git.seveas.net/about.html",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-git-for-computer-scientists-tommi-virtanen",
+    "title": "Git for Computer Scientists",
+    "provider": "Tommi Virtanen",
+    "url": "https://eagain.net/articles/git-for-computer-scientists/",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-git-in-the-trenches-peter-savage",
+    "title": "Git In The Trenches",
+    "provider": "Peter Savage",
+    "url": "https://cbx33.github.io/gitt/index.html",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-git-immersion-jim-weirich",
+    "title": "Git Immersion",
+    "provider": "Jim Weirich",
+    "url": "https://gitimmersion.com",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-git-pocket-guide-richard-e-silverman",
+    "title": "Git Pocket Guide",
+    "provider": "Richard E. Silverman",
+    "url": "https://www.oreilly.com/library/view/git-pocket-guide/9781449327507",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-git-magic-ben-lynn-et-al",
+    "title": "Git Magic",
+    "provider": "Ben Lynn, et al.",
+    "url": "http://www-cs-students.stanford.edu/~blynn/gitmagic/",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-git-notes-for-professionals-compiled-from-stackoverflow-docu",
+    "title": "Git Notes for Professionals",
+    "provider": "Compiled from StackOverflow Documentation",
+    "url": "https://goalkicker.com/GitBook",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-git-tutorial-tutorials-point",
+    "title": "Git Tutorial",
+    "provider": "Tutorials Point",
+    "url": "https://www.tutorialspoint.com/git/",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-git-reference-the-github-team-card-file-box-ar",
+    "title": "Git Reference",
+    "provider": "The GitHub team ( :card_file_box: archived)",
+    "url": "https://web.archive.org/web/20170602211147/http://gitref.org/",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-git-succinctly-syncfusion-ryan-hodson",
+    "title": "Git Succinctly, Syncfusion",
+    "provider": "Ryan Hodson",
+    "url": "https://www.syncfusion.com/resources/techportal/ebooks/git",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-git-tutorial-for-beginners-hubspot-product-team",
+    "title": "Git-Tutorial For-Beginners",
+    "provider": "HubSpot Product Team",
+    "url": "https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-gnu-emacs-manual-free-software-foundation-inc",
+    "title": "GNU Emacs Manual",
+    "provider": "Free Software Foundation Inc.",
+    "url": "https://www.gnu.org/software/emacs/manual/emacs.html",
+    "ok": true,
+    "source": "Ilustración temática generada"
+  },
+  {
+    "id": "live-fpb-subjects-en-git-workflows-yan-pritzker-card-file-box-archi",
+    "title": "Git Workflows",
+    "provider": "Yan Pritzker ( :card_file_box: archived)",
+    "url": "https://web.archive.org/web/20210910133251/http://documentup.com/skwp/git-workflows-book",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-gitlab-handbook-free-programming-books-subjects",
+    "title": "GitLab Handbook",
+    "provider": "Free Programming Books · Subjects",
+    "url": "https://about.gitlab.com/handbook/",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  },
+  {
+    "id": "live-fpb-subjects-en-gnu-grep-and-ripgrep-sundeep-agarwal",
+    "title": "GNU GREP and RIPGREP",
+    "provider": "Sundeep Agarwal",
+    "url": "https://learnbyexample.github.io/learn_gnugrep_ripgrep/",
+    "ok": true,
+    "source": "Captura de la fuente real",
+    "status": 200
+  }
+]
