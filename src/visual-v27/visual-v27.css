@@ -226,3 +226,121 @@ html[data-v27-section="recursos"] .v27-atmosphere{background:radial-gradient(38v
   html.v27-enabled .v15-center-head span,
   html.v27-enabled .v15-section-head span{letter-spacing:.075em!important}
 }
+
+/* === Campus Maestro V39 · MOBILE TOUCH RESPONSIVE FIX === */
+@media (max-width:900px), (hover:none), (pointer:coarse){
+  html,
+  html.v27-enabled,
+  html.lenis,
+  html.lenis-smooth{
+    width:100%!important;
+    max-width:100%!important;
+    height:auto!important;
+    min-height:100%!important;
+    overflow-x:hidden!important;
+    overflow-y:auto!important;
+    scroll-behavior:auto!important;
+    overscroll-behavior-y:auto!important;
+    touch-action:pan-y!important;
+    -webkit-text-size-adjust:100%;
+  }
+  html body,
+  html.v27-enabled body,
+  html.lenis body{
+    width:100%!important;
+    max-width:100%!important;
+    min-width:0!important;
+    height:auto!important;
+    min-height:100vh!important;
+    min-height:100svh!important;
+    overflow-x:hidden!important;
+    overflow-y:auto!important;
+    overscroll-behavior-y:auto!important;
+    touch-action:pan-y!important;
+    -webkit-overflow-scrolling:touch!important;
+  }
+  .v15-site,
+  .v27-resources-page,
+  .cert-v1-page{
+    width:100%!important;
+    max-width:100%!important;
+    min-width:0!important;
+    min-height:100svh!important;
+    overflow-x:clip!important;
+  }
+  .v15-mobile-menu,
+  .v27-mobile-filters-backdrop>aside,
+  .cert-v1-mobile-backdrop>aside,
+  .v27-resource-modal-info,
+  .v15-search-results,
+  .planet-panel{
+    touch-action:pan-y!important;
+    overscroll-behavior-y:contain!important;
+    -webkit-overflow-scrolling:touch!important;
+  }
+  /* En el sistema solar: swipe vertical desplaza pagina; tap/horizontal siguen disponibles. */
+  .solar-stage,
+  .solar-canvas,
+  .solar-stage canvas{
+    touch-action:pan-y!important;
+  }
+
+  .v15-nav,
+  .v15-section,
+  .v15-hero-grid,
+  .v15-profile-landscape,
+  .v15-orbit-wrap{
+    max-width:100%!important;
+  }
+  .v15-hero-grid{
+    width:calc(100% - 24px)!important;
+    grid-template-columns:minmax(0,1fr)!important;
+  }
+  .v15-hero-copy{
+    width:100%!important;
+    max-width:100%!important;
+    min-width:0!important;
+  }
+  .v15-hero h1,
+  .v15-center-head h2,
+  .v15-section-head h2,
+  .v15-profile-copy h2,
+  .v15-track-detail h3,
+  .v15-profile-map h3{
+    max-width:100%!important;
+    overflow-wrap:anywhere!important;
+    word-break:normal!important;
+  }
+  .v15-hero h1{
+    font-size:clamp(44px,13vw,62px)!important;
+    line-height:.88!important;
+  }
+  .v15-typeword,
+  .v15-typeword span{
+    max-width:100%!important;
+    overflow-wrap:anywhere!important;
+  }
+  .v15-hero-actions,
+  .v15-hero-badges,
+  .v15-proof-grid,
+  .v15-method-grid,
+  .v15-universe-grid,
+  .v15-stage-grid,
+  .v15-standard-grid,
+  .v15-atlas-grid,
+  .v15-news-grid,
+  .v15-ecosystem-grid,
+  .v15-track-detail,
+  .v15-footer{
+    min-width:0!important;
+  }
+}
+
+@media (max-width:520px){
+  .v15-nav{width:calc(100% - 20px)!important}
+  .v15-hero-grid{width:calc(100% - 20px)!important}
+  .v15-hero h1{font-size:clamp(40px,12vw,54px)!important}
+  .v15-section{width:calc(100% - 20px)!important}
+  .v15-orbit-wrap{width:calc(100% - 12px)!important}
+  .v15-profile-landscape{width:calc(100% - 12px)!important}
+}
