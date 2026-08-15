@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-14T12:26:15.652Z",
+  "generatedAt": "2026-08-15T11:51:47.325Z",
   "seed": 54,
-  "officialDiscoveredRaw": 101,
-  "officialValidated": 92,
+  "officialDiscoveredRaw": 106,
+  "officialValidated": 99,
   "communityCandidates": 137,
-  "communityValidated": 73,
-  "published": 187,
+  "communityValidated": 75,
+  "published": 195,
   "audit": [
     {
       "id": "ibm-digital-credentials",
@@ -844,8 +844,9 @@
       "id": "live-sap-artificial-intelligence-develop-practical-ai-skills-with-guided-learning-and-recognized-certifications",
       "sourceType": "discovered",
       "url": "https://learning.sap.com/artificial-intelligence",
-      "status": "inactive",
-      "httpStatus": 404
+      "finalUrl": "https://learning.sap.com/artificial-intelligence",
+      "status": "active",
+      "httpStatus": 200
     },
     {
       "id": "live-sap-technology-platform-learn-integration-data-and-app-development-with-sap-btp",
@@ -867,8 +868,9 @@
       "id": "live-sap-autonomous-enterprise-build-skills-for-ai-driven-transformations",
       "sourceType": "discovered",
       "url": "https://learning.sap.com/autonomous-enterprise",
-      "status": "inactive",
-      "httpStatus": 404
+      "finalUrl": "https://learning.sap.com/autonomous-enterprise",
+      "status": "active",
+      "httpStatus": 200
     },
     {
       "id": "live-sap-learning-journeys",
@@ -937,6 +939,46 @@
       "sourceType": "discovered",
       "url": "https://learning.sap.com/release-notes",
       "finalUrl": "https://learning.sap.com/release-notes",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-sap-sap-s-4hana-cloud-public-edition",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/products/s4hana-cloud",
+      "finalUrl": "https://learning.sap.com/products/s4hana-cloud",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-sap-sap-s-4hana-cloud-private-edition",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/products/s4hana-cloud-private",
+      "finalUrl": "https://learning.sap.com/products/s4hana-cloud-private",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-sap-supply-chain-management",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/products/supply-chain-management",
+      "finalUrl": "https://learning.sap.com/products/supply-chain-management",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-sap-financial-management",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/products/financial-management",
+      "finalUrl": "https://learning.sap.com/products/financial-management",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-sap-human-capital-management",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/products/human-capital-management",
+      "finalUrl": "https://learning.sap.com/products/human-capital-management",
       "status": "active",
       "httpStatus": 200
     },
@@ -1405,9 +1447,12 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Hadoop Foundations - Level 1",
       "url": "https://cognitiveclass.ai/courses/course-v1:BigDataUniversity+BD0111EN+2016",
-      "status": "rejected",
-      "reason": "unreachable",
-      "httpStatus": 0
+      "status": "accepted",
+      "provider": "Cognitive Class",
+      "kind": "Insignia",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://cognitiveclass.ai/courses"
     },
     {
       "sourceType": "community",
@@ -1986,9 +2031,12 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Introduction to Containers, Kubernetes, and OpenShift",
       "url": "https://cognitiveclass.ai/courses/kubernetes-course",
-      "status": "rejected",
-      "reason": "unreachable",
-      "httpStatus": 0
+      "status": "accepted",
+      "provider": "Cognitive Class",
+      "kind": "Insignia",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://cognitiveclass.ai/courses/kubernetes-course"
     },
     {
       "sourceType": "community",
@@ -2065,9 +2113,12 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Deep Learning Fundamentals",
       "url": "https://cognitiveclass.ai/courses/introduction-deep-learning",
-      "status": "rejected",
-      "reason": "unreachable",
-      "httpStatus": 0
+      "status": "accepted",
+      "provider": "Cognitive Class",
+      "kind": "Insignia",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://cognitiveclass.ai/courses/introduction-deep-learning"
     },
     {
       "sourceType": "community",
@@ -2086,9 +2137,12 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Machine Learning with Python",
       "url": "https://cognitiveclass.ai/courses/machine-learning-with-python",
-      "status": "rejected",
-      "reason": "unreachable",
-      "httpStatus": 0
+      "status": "accepted",
+      "provider": "Cognitive Class",
+      "kind": "Insignia",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://cognitiveclass.ai/courses/machine-learning-with-python"
     },
     {
       "sourceType": "community",
@@ -2275,10 +2329,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "JavaScript Algorithms and Data Structures Certification",
       "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures",
-      "status": "accepted",
-      "provider": "freeCodeCamp",
-      "kind": "Certificación",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/"
     },
@@ -2307,10 +2359,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Scientific Computing with Python Certification",
       "url": "https://www.freecodecamp.org/learn/scientific-computing-with-python",
-      "status": "accepted",
-      "provider": "freeCodeCamp",
-      "kind": "Certificación",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/scientific-computing-with-python/"
     },
@@ -2365,12 +2415,9 @@
       "source": "GitHub · Awesome Certificates",
       "title": "R 101",
       "url": "https://cognitiveclass.ai/courses/r-101",
-      "status": "accepted",
-      "provider": "Cognitive Class",
-      "kind": "Insignia",
-      "language": "EN",
-      "httpStatus": 200,
-      "finalUrl": "https://cognitiveclass.ai/courses/r-101"
+      "status": "rejected",
+      "reason": "unreachable",
+      "httpStatus": 0
     },
     {
       "sourceType": "community",
@@ -2493,9 +2540,12 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Statistics 101",
       "url": "https://cognitiveclass.ai/courses/statistics-101",
-      "status": "rejected",
-      "reason": "unreachable",
-      "httpStatus": 0
+      "status": "accepted",
+      "provider": "Cognitive Class",
+      "kind": "Insignia",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://cognitiveclass.ai/courses/statistics-101"
     },
     {
       "sourceType": "community",
@@ -2523,8 +2573,9 @@
       "title": "Link",
       "url": "https://cognitiveclass.ai",
       "status": "rejected",
-      "reason": "unreachable",
-      "httpStatus": 0
+      "reason": "no-free-credential-evidence",
+      "httpStatus": 200,
+      "finalUrl": "https://cognitiveclass.ai/"
     },
     {
       "sourceType": "community",
