@@ -10,3 +10,5 @@ dist/
 !.vscode/extensions.json
 backup_*/
 
+v46_programacion_backup.txt
+.v*_backup.txt

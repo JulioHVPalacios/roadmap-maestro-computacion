@@ -1,0 +1,30 @@
+name: Auditar Ruta Maestra V44
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '27 9 * * 1'
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Auditar canon V44
+        run: node scripts/audit-master-route-v44.mjs
+      - name: Mostrar reporte
+        if: always()
+        run: cat reports/v44-source-audit.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Guardar reporte
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v44-source-audit
+          path: reports/v44-source-audit.*
+          retention-days: 30
