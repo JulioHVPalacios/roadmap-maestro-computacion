@@ -1,0 +1,30 @@
+name: Auditar Ruta Maestra V43
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 9 * * 1'
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Auditar fuentes principales
+        run: node scripts/audit-master-route-v43.mjs
+      - name: Mostrar reporte en resumen
+        if: always()
+        run: cat reports/v43-source-audit.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Guardar reporte
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v43-source-audit
+          path: reports/v43-source-audit.*
+          retention-days: 30
