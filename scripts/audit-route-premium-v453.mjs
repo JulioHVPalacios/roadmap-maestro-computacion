@@ -1,26 +1,40 @@
 import fs from "node:fs"
 import path from "node:path"
-import crypto from "node:crypto"
+import { execFileSync } from "node:child_process"
 
 const root = process.cwd()
 const read = (file) => fs.readFileSync(path.join(root, file), "utf8")
-const hash = (file) => crypto.createHash("sha256").update(fs.readFileSync(path.join(root, file))).digest("hex")
+const gitWorkingBlob = (file) => execFileSync(
+  "git",
+  ["-c", "core.autocrlf=true", "hash-object", `--path=${file}`, file],
+  { cwd: root, encoding: "utf8" },
+).trim()
 const ok = (message) => console.log(`OK  ${message}`)
 const fail = (message) => { console.error(`FAIL ${message}`); process.exitCode = 1 }
 const assert = (condition, message) => condition ? ok(message) : fail(message)
 
-const protectedFiles = {
-  "src/roadmap-data.ts": "ca90aaf503376b5571b9761f724ed5577d1904812ceb6209dd749b0f214345d9",
-  "src/mastery-data.ts": "243cb32726be1eb26a866e543366a5359b8ed7a6ae3aba1f5a80661c8d96ddec",
-  "src/v43/career-catalog-v43.ts": "418648a75bc9fa2094d3d2d41b5db5b12c1e62c150204c741ee378ab3ed21ad6",
-  "src/v43/curriculum-v43.ts": "01ad647d906df58b496e917bd03d079edf88025e37e9c6b4f8530bf533851f40",
-  "src/v44/curriculum-v44.ts": "3120e03e9787074728eafd20053b1bc000a437be24a504b060d7becfacb4664f",
+// Los cinco archivos académicos protegidos se validan como blobs Git del archivo
+// de trabajo. `git hash-object --path` aplica la normalización configurada por
+// Git (incluido CRLF/LF), por lo que la auditoría es estable en Windows/Linux
+// y sigue detectando cualquier cambio real de contenido.
+const protectedGitBlobs = {
+  "src/roadmap-data.ts": "c66209af8843d1623daa866057ac68a0471b4b54",
+  "src/mastery-data.ts": "ebc41387f675491d9cff7ec477280f020beb18a1",
+  "src/v43/career-catalog-v43.ts": "2a8e8e756e7afbcce412e4cd2fe87f21c0942190",
+  "src/v43/curriculum-v43.ts": "e38fa84b5e381c0416ae0dc7235b0159b2236c8b",
+  "src/v44/curriculum-v44.ts": "fd6290e6afd0d25e56ba8e044ec2683a89b48a5b",
 }
 
 console.log("\nCampus Maestro · Auditoría V45.3 Ruta Premium Definitiva\n")
-for (const [file, expected] of Object.entries(protectedFiles)) {
-  assert(fs.existsSync(path.join(root, file)), `${file} existe`)
-  if (fs.existsSync(path.join(root, file))) assert(hash(file) === expected, `${file} conserva exactamente el conocimiento académico protegido`)
+for (const [file, expected] of Object.entries(protectedGitBlobs)) {
+  const full = path.join(root, file)
+  assert(fs.existsSync(full), `${file} existe`)
+  if (fs.existsSync(full)) {
+    assert(
+      gitWorkingBlob(file) === expected,
+      `${file} conserva exactamente el conocimiento académico protegido`,
+    )
+  }
 }
 
 const cinematic = read("src/v45/CinematicRoadV45.tsx")
