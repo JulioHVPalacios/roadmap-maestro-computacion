@@ -76,7 +76,7 @@ export default function PingoVoxelTutor({ route }: { route: V41Route }) {
           <div className="v41-pingo-panel-head"><div><span>PINGO</span><small>Tutor del Campus</small></div><button onClick={() => setOpen(false)} aria-label="Cerrar tutor"><X /></button></div>
           <p>{text}</p>
           <div className="v41-pingo-orb" aria-hidden="true"><i /><i /><i /><i /><i /><i /></div>
-          <div className="v41-pingo-actions"><button onClick={() => { setContextTip(""); setTipIndex((value) => (value + 1) % tips.length) }}><Lightbulb />Otro consejo</button><a href="#soporte"><MessageCircle />Soporte</a></div>
+          <div className="v41-pingo-actions"><button onClick={() => { setContextTip(""); setTipIndex((value) => (value + 1) % tips.length) }}><Lightbulb />Otro consejo</button><a href="/soporte"><MessageCircle />Soporte</a></div>
         </div>
       )}
 

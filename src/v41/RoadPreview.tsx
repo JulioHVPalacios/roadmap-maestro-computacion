@@ -37,7 +37,7 @@ function RoadPreview() {
       </div>
 
       <div className="v41-road-actions">
-        <a href="#ruta">Abrir Ruta Maestra <ArrowRight /></a>
+        <a href="/ruta">Abrir Ruta Maestra <ArrowRight /></a>
         <span>Mapa original de Campus Maestro · responsive · interactivo</span>
       </div>
     </section>

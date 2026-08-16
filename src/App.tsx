@@ -377,28 +377,37 @@ export default function App() {
   const [completed, setCompleted] = useState<Set<string>>(readProgress)
   const [radar, setRadar] = useState<RadarItem[]>(fallbackNews)
   const [activeMethod, setActiveMethod] = useState(0)
-  const [resourceView, setResourceView] = useState(() => typeof window !== "undefined" && window.location.hash === "#recursos")
-  const [certificationView, setCertificationView] = useState(() => typeof window !== "undefined" && window.location.hash === "#certificaciones")
+  const isPathResources = () => typeof window !== "undefined" && (window.location.pathname.replace(/^\/+|\/+$/g, "") === "recursos" || window.location.hash === "#recursos")
+  const isPathCertifications = () => typeof window !== "undefined" && (window.location.pathname.replace(/^\/+|\/+$/g, "") === "certificaciones" || window.location.hash === "#certificaciones")
+
+  const [resourceView, setResourceView] = useState(isPathResources)
+  const [certificationView, setCertificationView] = useState(isPathCertifications)
 
   useEffect(() => initPremiumMotion(), [])
 
   useEffect(() => {
     const syncRoute = () => {
-      const isResources = window.location.hash === "#recursos"
-      const isCertifications = window.location.hash === "#certificaciones"
+      const isResources = typeof window !== "undefined" && (window.location.pathname.replace(/^\/+|\/+$/g, "") === "recursos" || window.location.hash === "#recursos")
+      const isCertifications = typeof window !== "undefined" && (window.location.pathname.replace(/^\/+|\/+$/g, "") === "certificaciones" || window.location.hash === "#certificaciones")
       setResourceView(isResources)
       setCertificationView(isCertifications)
       setMenuOpen(false)
       if (isResources || isCertifications) {
         window.scrollTo({ top: 0, behavior: "auto" })
       } else {
-        const targetId = window.location.hash.slice(1)
-        if (targetId) requestAnimationFrame(() => requestAnimationFrame(() => document.getElementById(targetId)?.scrollIntoView({ behavior: "auto" })))
+        const targetId = window.location.hash.slice(1) || window.location.pathname.replace(/^\/+|\/+$/g, "")
+        if (targetId && targetId !== "inicio") {
+          requestAnimationFrame(() => requestAnimationFrame(() => document.getElementById(targetId)?.scrollIntoView({ behavior: "auto" })))
+        }
       }
     }
     syncRoute()
+    window.addEventListener("popstate", syncRoute)
     window.addEventListener("hashchange", syncRoute)
-    return () => window.removeEventListener("hashchange", syncRoute)
+    return () => {
+      window.removeEventListener("popstate", syncRoute)
+      window.removeEventListener("hashchange", syncRoute)
+    }
   }, [])
 
   const newsLanes = useMemo(() => {
@@ -566,17 +575,17 @@ export default function App() {
     <div className="v15-site" id="inicio">
       <header className="v15-nav-shell">
         <div className="v15-nav">
-          <a className="v15-brand" href="#inicio"><span>CM</span><b>Campus Maestro</b></a>
+          <a className="v15-brand" href="/"><span>CM</span><b>Campus Maestro</b></a>
           <nav>
-            <a href="#campus">Campus</a><a href="#roadmap">Roadmap</a><a href="#maestrias">Maestrías</a><a href="#atlas">Atlas</a><a href="#recursos">Recursos</a><a href="#certificaciones">Certificaciones</a><a href="#noticias">Noticias</a><a href="#perfil">Perfil</a>
+            <a href="/campus">Campus</a><a href="/roadmap">Roadmap</a><a href="/maestrias">Maestrías</a><a href="/atlas">Atlas</a><a href="/recursos">Recursos</a><a href="/certificaciones">Certificaciones</a><a href="/noticias">Noticias</a><a href="/perfil">Perfil</a>
           </nav>
           <div className="v15-nav-actions">
             <button onClick={() => resourceView ? document.querySelector<HTMLInputElement>(".v27-resource-search input")?.focus() : certificationView ? document.querySelector<HTMLInputElement>(".cert-v1-search input")?.focus() : setSearchOpen(true)}><Search size={17} /> Buscar <kbd>Ctrl K</kbd></button>
-            <a className="v15-black-button" href={(resourceView || certificationView) ? "#inicio" : "#roadmap"}>{(resourceView || certificationView) ? "Volver al campus" : "Entrar al campus"} <ArrowRight size={17} /></a>
+            <a className="v15-black-button" href={(resourceView || certificationView) ? "/" : "/roadmap"}>{(resourceView || certificationView) ? "Volver al campus" : "Entrar al campus"} <ArrowRight size={17} /></a>
           </div>
           <button className="v15-menu" onClick={() => setMenuOpen((value) => !value)} aria-label="Abrir menú">{menuOpen ? <X /> : <Menu />}</button>
         </div>
-        {menuOpen && <div className="v15-mobile-menu"><a href="#campus" onClick={() => setMenuOpen(false)}>Campus</a><a href="#roadmap" onClick={() => setMenuOpen(false)}>Roadmap</a><a href="#maestrias" onClick={() => setMenuOpen(false)}>Maestrías</a><a href="#atlas" onClick={() => setMenuOpen(false)}>Atlas</a><a href="#recursos" onClick={() => setMenuOpen(false)}>Recursos</a><a href="#certificaciones" onClick={() => setMenuOpen(false)}>Certificaciones</a><a href="#noticias" onClick={() => setMenuOpen(false)}>Noticias</a><a href="#perfil" onClick={() => setMenuOpen(false)}>Perfil</a></div>}
+        {menuOpen && <div className="v15-mobile-menu"><a href="/campus" onClick={() => setMenuOpen(false)}>Campus</a><a href="/roadmap" onClick={() => setMenuOpen(false)}>Roadmap</a><a href="/maestrias" onClick={() => setMenuOpen(false)}>Maestrías</a><a href="/atlas" onClick={() => setMenuOpen(false)}>Atlas</a><a href="/recursos" onClick={() => setMenuOpen(false)}>Recursos</a><a href="/certificaciones" onClick={() => setMenuOpen(false)}>Certificaciones</a><a href="/noticias" onClick={() => setMenuOpen(false)}>Noticias</a><a href="/perfil" onClick={() => setMenuOpen(false)}>Perfil</a></div>}
         <div className="v15-progress" aria-label={`Progreso ${progress}%`}><i style={{ width: `${progress}%` }} /></div>
       </header>
 
@@ -590,7 +599,7 @@ export default function App() {
               <p className="v15-kicker">UNIVERSIDAD ABIERTA · COMPUTACIÓN INTEGRAL · S/0</p>
               <h1>Construye <TypewriterWord word="conocimiento" /><br /><em>para dominar computación.</em></h1>
               <p>Una arquitectura autodidacta en español que conecta fundamentos universitarios, práctica profesional, investigación y especialización en una sola ruta.</p>
-              <div className="v15-hero-actions"><a href="#roadmap" className="v15-white-button">Ver el roadmap <ArrowRight size={17} /></a><a href="#campus" className="v15-lime-button">Explorar campus</a></div>
+              <div className="v15-hero-actions"><a href="/roadmap" className="v15-white-button">Ver el roadmap <ArrowRight size={17} /></a><a href="/campus" className="v15-lime-button">Explorar campus</a></div>
               <div className="v15-hero-badges"><span><GraduationCap />Fundamentos</span><span><Code2 />Software</span><span><BrainCircuit />IA</span><span><ShieldCheck />Seguridad</span></div>
             </div>
             <div className="v15-hero-solar">
@@ -650,7 +659,7 @@ export default function App() {
                   <small>EVIDENCIA DE DOMINIO</small>
                   <p>{method[activeMethod].evidence}</p>
                   <div><b>Regla del Campus</b><span>No marques una materia como dominada solo por haber visto contenido. Produce evidencia, supera el gate y conserva el resultado.</span></div>
-                  <a href="#roadmap">Aplicar este método al roadmap <ArrowRight size={16} /></a>
+                  <a href="/roadmap">Aplicar este método al roadmap <ArrowRight size={16} /></a>
                 </div>
               </div>
             </motion.article>
@@ -747,14 +756,14 @@ export default function App() {
               <Globe2 />
               <b>Campus Maestro</b>
               <p>Universidad abierta + plataforma profesional pública + portafolio vivo.</p>
-              <a href="#roadmap">Explorar el campus <ArrowRight /></a>
+              <a href="/roadmap">Explorar el campus <ArrowRight /></a>
             </div>
           </div>
         </section>
       </main>
       )}
 
-      <footer className="v15-footer"><div><a className="v15-brand" href="#inicio"><span>CM</span><b>Campus Maestro</b></a><p>Computación integral · español primero · costo obligatorio S/0</p><p className="v27-music-credit">Track: Spirit of Fire · Music by <a href="https://www.fiftysounds.com" target="_blank" rel="noreferrer">FiftySounds</a></p></div><div><a href="#roadmap">Roadmap</a><a href="#maestrias">Maestrías</a><a href="#atlas">Atlas</a><a href="#recursos">Recursos</a><a href="#certificaciones">Certificaciones</a><a href="#noticias">Noticias</a><a href="#perfil">Perfil</a></div><small>V15 · aprendizaje abierto, verificable y actualizable.</small></footer>
+      <footer className="v15-footer"><div><a className="v15-brand" href="/"><span>CM</span><b>Campus Maestro</b></a><p>Computación integral · español primero · costo obligatorio S/0</p><p className="v27-music-credit">Track: Spirit of Fire · Music by <a href="https://www.fiftysounds.com" target="_blank" rel="noreferrer">FiftySounds</a></p></div><div><a href="/roadmap">Roadmap</a><a href="/maestrias">Maestrías</a><a href="/atlas">Atlas</a><a href="/recursos">Recursos</a><a href="/certificaciones">Certificaciones</a><a href="/noticias">Noticias</a><a href="/perfil">Perfil</a></div><small>V15 · aprendizaje abierto, verificable y actualizable.</small></footer>
 
       <AnimatePresence>
         {selectedStage && <motion.div className="v15-modal-backdrop" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} onClick={() => setSelectedStage(null)}><motion.div className="v15-stage-modal" initial={{ opacity: 0, y: 30, scale: .98 }} animate={{ opacity: 1, y: 0, scale: 1 }} exit={{ opacity: 0, y: 20 }} onClick={(event) => event.stopPropagation()}><button className="v15-modal-close" onClick={() => setSelectedStage(null)}><X /></button><div className="v15-modal-head"><span>{selectedStage.code} · {selectedStage.year}</span><h2>{selectedStage.title}</h2><p>{selectedStage.outcome}</p><div><b>{selectedStage.duration}</b><b>Prerequisito: {selectedStage.prerequisites}</b></div></div><div className="v15-subject-list">{selectedStage.subjects.map((subject, index) => { const id = `${selectedStage.code}::${subject.name}`; const done = completed.has(id); return <article key={subject.name}><button className={done ? "v15-check done" : "v15-check"} onClick={() => toggleSubject(selectedStage, subject)}>{done ? <CheckCircle2 /> : <span>{String(index + 1).padStart(2,"0")}</span>}</button><div><h3>{subject.name}</h3><p>{subject.study}</p><small><b>Evidencia:</b> {subject.evidence}</small><div className="v15-subject-method" aria-label="Método Maestro aplicado a esta materia">{method.map((phase) => <span key={phase.code}><b>{phase.code}</b>{phase.title}</span>)}</div><div className="v15-subject-sources">{subject.sources.map((source) => <a key={source.url} href={source.url} target="_blank" rel="noreferrer">{source.label}<span>{source.where}</span><ExternalLink size={14} /></a>)}</div></div></article> })}</div><div className="v15-modal-gate"><span>GATE</span><p>{selectedStage.gate}</p><span>PROYECTO</span><p>{selectedStage.capstone}</p></div></motion.div></motion.div>}

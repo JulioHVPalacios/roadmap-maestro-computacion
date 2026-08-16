@@ -7,50 +7,47 @@ import RoadPreviewPortal from "./RoadPreview"
 import SupportHubV41 from "./SupportHubV41"
 import V41Header from "./V41Header"
 import MasterRouteV45 from "../v45/MasterRouteV45"
+import { type V41Route, navigateTo, routeFromLocation } from "./v41-router"
 import "./v41.css"
 
-export type V41Route =
-  | "inicio"
-  | "ruta"
-  | "programacion"
-  | "ingles"
-  | "recursos"
-  | "certificaciones"
-  | "noticias"
-  | "perfil"
-  | "soporte"
-
-const allowed = new Set<V41Route>([
-  "inicio",
-  "ruta",
-  "programacion",
-  "ingles",
-  "recursos",
-  "certificaciones",
-  "noticias",
-  "perfil",
-  "soporte",
-])
-
-function routeFromHash(): V41Route {
-  const raw = window.location.hash.replace(/^#/, "").trim().toLowerCase()
-  if (raw === "campus" || raw === "roadmap" || raw === "maestrias" || raw === "atlas") return "ruta"
-  return allowed.has(raw as V41Route) ? (raw as V41Route) : "inicio"
-}
+export type { V41Route } from "./v41-router"
 
 export default function AppV41() {
-  const [route, setRoute] = useState<V41Route>(() => routeFromHash())
+  const [route, setRoute] = useState<V41Route>(() => routeFromLocation())
 
   useEffect(() => {
     const sync = () => {
-      const next = routeFromHash()
+      const next = routeFromLocation()
       setRoute(next)
       window.requestAnimationFrame(() => window.scrollTo({ top: 0, behavior: "auto" }))
     }
     sync()
+    window.addEventListener("popstate", sync)
     window.addEventListener("hashchange", sync)
-    return () => window.removeEventListener("hashchange", sync)
+    return () => {
+      window.removeEventListener("popstate", sync)
+      window.removeEventListener("hashchange", sync)
+    }
   }, [])
+
+  // Interceptor global para enlaces internos sin recarga de página
+  const handleLinkClick = (e: React.MouseEvent<HTMLDivElement>) => {
+    const anchor = (e.target as HTMLElement).closest("a")
+    if (!anchor) return
+    const href = anchor.getAttribute("href")
+    if (!href) return
+
+    // Solo interceptar enlaces internos que empiecen con / o #
+    if (href.startsWith("/") && !href.startsWith("//")) {
+      e.preventDefault()
+      const cleanPath = href.replace(/^\/+/, "") || "inicio"
+      navigateTo(cleanPath)
+    } else if (href.startsWith("#")) {
+      e.preventDefault()
+      const cleanHash = href.replace(/^#\/?/, "") || "inicio"
+      navigateTo(cleanHash)
+    }
+  }
 
   const legacy = useMemo(
     () => route === "inicio" || route === "ruta" || route === "recursos" || route === "certificaciones" || route === "noticias" || route === "perfil",
@@ -58,7 +55,7 @@ export default function AppV41() {
   )
 
   return (
-    <div className={`v41-shell v41-route-${route}`}>
+    <div className={`v41-shell v41-route-${route}`} onClick={handleLinkClick}>
       <V41Header route={route} />
 
       {route === "ruta" && <MasterRouteV45 />}

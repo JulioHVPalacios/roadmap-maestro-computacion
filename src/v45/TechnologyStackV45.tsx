@@ -1,5 +1,6 @@
 import { Cpu, ExternalLink, FlaskConical, Layers3 } from "lucide-react"
 import { enginesV44 } from "../v44/curriculum-v44"
+import { navigateTo } from "../v41/v41-router"
 
 type TechnologyItem = {
   name: string
@@ -67,7 +68,7 @@ export default function TechnologyStackV45() {
       <div className="v44-lab-bridge">
         <FlaskConical />
         <div><small>LABORATORIOS</small><h4>La Ruta organiza el dominio; los laboratorios demuestran lo aprendido.</h4><p>JupyterLite/Pyodide y Sandpack permanecen como base prevista para prácticas en navegador. La integración se realiza por aula para no aumentar el peso de la carretera ni mezclar navegación con ejecución.</p></div>
-        <button onClick={() => { window.location.hash = "programacion" }}><Cpu /> Abrir Programación</button>
+        <button onClick={() => navigateTo("programacion")}><Cpu /> Abrir Programación</button>
       </div>
     </div>
   )

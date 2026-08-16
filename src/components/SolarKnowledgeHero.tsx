@@ -482,7 +482,7 @@ export default function SolarKnowledgeHero() {
               <div className="planet-learn-title">Lo que vas a aprender</div>
               <ul>{selected.learn.map((item) => <li key={item}>{item}</li>)}</ul>
 
-              <a href="#roadmap" onClick={() => setSelected(null)}>Explorar esta ruta <span>→</span></a>
+              <a href="/ruta" onClick={() => setSelected(null)}>Explorar esta ruta <span>→</span></a>
             </motion.aside>
           )}
         </AnimatePresence>
