@@ -47,4 +47,4 @@ Rama actual: `campus-v52-5-programacion-studio-real` (incorporada y lista para s
    - Búsqueda interactiva, categorización y portadas dinámicas.
 
 6. **Radar de Noticias Tecnológicas:**
-   - Actualización cada 4 horas vía GitHub Actions en español.
+   - Actualización cada 12 horas (inicio del día 00:00 y medio día 12:00) vía GitHub Actions en español con 10 noticias por card (40 en total).

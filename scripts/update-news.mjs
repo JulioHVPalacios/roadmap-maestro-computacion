@@ -5,6 +5,9 @@ const feeds = [
   { source: "Genbeta", url: "https://feeds.weblogssl.com/genbeta" },
   { source: "RedesZone", url: "https://www.redeszone.net/feed/" },
   { source: "MuyComputer", url: "https://www.muycomputer.com/feed/" },
+  { source: "ADSLZone", url: "https://www.adslzone.net/feed/" },
+  { source: "SoftZone", url: "https://www.softzone.es/feed/" },
+  { source: "Hipertextual", url: "https://hipertextual.com/feed" },
 ]
 
 const keywords = [
@@ -256,9 +259,9 @@ const uniqueNews = all
     if (titleKey) seenTitles.add(titleKey)
     return true
   })
-  // Cuatro carruseles x cinco noticias = 20 plazas. Guardamos margen extra
+  // Cuatro carruseles x diez noticias = 40 plazas. Guardamos margen extra
   // para que cada card pueda elegir por categoría sin reutilizar noticias.
-  .slice(0, 40)
+  .slice(0, 80)
 
 if (!uniqueNews.length) {
   console.warn("No se pudo generar noticias nuevas; se conserva el news.json existente.")

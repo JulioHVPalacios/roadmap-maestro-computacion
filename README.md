@@ -108,8 +108,9 @@ El avance no se mide por videos vistos, sino por competencias verificables:
 - **Certificaciones Hub V1:** Directorio de certificaciones y acreditaciones gratuitas o con rutas de aprendizaje abiertas de la industria (Linux Foundation, CNCF, Cloud, Cisco, etc.).
 
 ### 6. Radar de Noticias Tecnológicas Automatizado
-- Actualización desatendida **cada 4 horas mediante GitHub Actions**.
-- Agregación, deduplicación y categorización de fuentes líderes en español (Xataka, Genbeta, RedesZone, MuyComputer).
+- Actualización desatendida **cada 12 horas (inicio del día y medio día) mediante GitHub Actions**.
+- Agregación, deduplicación y categorización de fuentes líderes en español (Xataka, Genbeta, RedesZone, MuyComputer, ADSLZone, SoftZone, Hipertextual).
+- 10 noticias seleccionadas por tarjeta temática (IA & Software, Ciberseguridad & Redes, Hardware & Sistemas, Datos & Frontera).
 
 ### 7. Tutor Contextual Pingo
 - Asistente animado con estética voxel que acompaña al estudiante en cada sección con consejos pedagógicos y ayuda contextual.
@@ -268,7 +269,7 @@ npm run lint
 - [x] **Programación Studio V52.5:** 48 niveles L00–L47 con Monaco Editor y xterm.js (100% completado).
 - [x] **Inglés IT Academy V52:** 48 niveles E00–E47 con Speech Lab y fonética IPA (100% completado).
 - [x] **Enrutador Clean URLs:** URLs limpias sin hash con fallback 404 para GitHub Pages (100% completado).
-- [x] **Radar de Noticias Automatizado:** Actualización cada 4 horas vía GitHub Actions (100% completado).
+- [x] **Radar de Noticias Automatizado:** Actualización cada 12 horas (00:00 y 12:00) vía GitHub Actions con 10 noticias por card (100% completado).
 - [ ] **Laboratorios Avanzados de Computación Cuántica y FPGA WebAssembly:** En fase de diseño conceptual para futuras iteraciones.
 
 ---
