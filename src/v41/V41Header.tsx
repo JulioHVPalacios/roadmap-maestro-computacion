@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react"
 import { ArrowRight, BookOpen, Code2, GraduationCap, Headphones, Menu, Search, X } from "lucide-react"
-import type { V41Route } from "./AppV41"
+import { type V41Route, navigateTo } from "./v41-router"
 
 const nav: Array<{ route: V41Route; label: string }> = [
   { route: "inicio", label: "Inicio" },
@@ -16,9 +16,13 @@ const nav: Array<{ route: V41Route; label: string }> = [
 
 export default function V41Header({ route }: { route: V41Route }) {
   const [open, setOpen] = useState(false)
+  const [prevRoute, setPrevRoute] = useState(route)
   const headerRef = useRef<HTMLElement | null>(null)
 
-  useEffect(() => setOpen(false), [route])
+  if (prevRoute !== route) {
+    setPrevRoute(route)
+    setOpen(false)
+  }
 
   useEffect(() => {
     const onScroll = () => headerRef.current?.classList.toggle("is-scrolled", window.scrollY > 18)
@@ -36,21 +40,25 @@ export default function V41Header({ route }: { route: V41Route }) {
       document.querySelector<HTMLInputElement>(".cert-v1-search input")?.focus()
       return
     }
-    window.location.hash = "#ruta"
+    navigateTo("ruta")
     window.setTimeout(() => document.querySelector<HTMLButtonElement>(".v15-prompt-box")?.click(), 90)
   }
 
   return (
     <header ref={headerRef} className="v41-header">
       <div className="v41-header-inner">
-        <a className="v41-brand" href="#inicio" aria-label="Campus Maestro, Inicio">
+        <a className="v41-brand" href="/" aria-label="Campus Maestro, Inicio">
           <span>CM</span>
           <b>Campus Maestro</b>
         </a>
 
         <nav className="v41-desktop-nav" aria-label="Navegación principal">
           {nav.map((item) => (
-            <a key={item.route} className={route === item.route ? "active" : ""} href={`#${item.route}`}>
+            <a
+              key={item.route}
+              className={route === item.route ? "active" : ""}
+              href={item.route === "inicio" ? "/" : `/${item.route}`}
+            >
               {item.label}
             </a>
           ))}
@@ -61,7 +69,7 @@ export default function V41Header({ route }: { route: V41Route }) {
             <Search size={16} />
             <span>Buscar</span>
           </button>
-          <a className="v41-enter-button" href="#ruta">
+          <a className="v41-enter-button" href="/ruta">
             Entrar al campus <ArrowRight size={16} />
           </a>
         </div>
@@ -74,14 +82,14 @@ export default function V41Header({ route }: { route: V41Route }) {
       {open && (
         <div className="v41-mobile-menu">
           <div className="v41-mobile-featured">
-            <a href="#ruta"><GraduationCap /> Ruta Maestra</a>
-            <a href="#programacion"><Code2 /> Programación</a>
-            <a href="#ingles"><Headphones /> Inglés IT</a>
-            <a href="#recursos"><BookOpen /> Recursos</a>
+            <a href="/ruta"><GraduationCap /> Ruta Maestra</a>
+            <a href="/programacion"><Code2 /> Programación</a>
+            <a href="/ingles"><Headphones /> Inglés IT</a>
+            <a href="/recursos"><BookOpen /> Recursos</a>
           </div>
           <div className="v41-mobile-links">
             {nav.filter((item) => !["ruta", "programacion", "ingles", "recursos"].includes(item.route)).map((item) => (
-              <a key={item.route} href={`#${item.route}`}>{item.label}</a>
+              <a key={item.route} href={item.route === "inicio" ? "/" : `/${item.route}`}>{item.label}</a>
             ))}
           </div>
         </div>

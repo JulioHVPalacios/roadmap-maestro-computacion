@@ -9,6 +9,16 @@
     <link rel="dns-prefetch" href="https://images.unsplash.com" />
     <link rel="preload" href="%BASE_URL%audio/campus-ambient-v25.webm" as="audio" type="audio/webm" crossorigin />
     <title>Campus Maestro · Computación Integral</title>
+    <script>
+      // Single Page Apps for GitHub Pages: restaura la URL limpia desde 404.html
+      (function () {
+        var redirect = sessionStorage.redirect;
+        delete sessionStorage.redirect;
+        if (redirect && redirect !== location.href) {
+          history.replaceState(null, null, redirect);
+        }
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>
