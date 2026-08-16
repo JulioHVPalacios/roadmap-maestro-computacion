@@ -40,8 +40,12 @@ export default function V41Header({ route }: { route: V41Route }) {
       document.querySelector<HTMLInputElement>(".cert-v1-search input")?.focus()
       return
     }
-    navigateTo("ruta")
-    window.setTimeout(() => document.querySelector<HTMLButtonElement>(".v15-prompt-box")?.click(), 90)
+    navigateTo("inicio")
+    window.setTimeout(() => {
+      const input = document.querySelector<HTMLInputElement>(".radiant-text-input")
+      input?.focus()
+      input?.scrollIntoView({ behavior: "smooth", block: "center" })
+    }, 120)
   }
 
   return (
