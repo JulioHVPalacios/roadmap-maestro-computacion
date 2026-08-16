@@ -125,10 +125,10 @@ const fallbackNews = [
   {
     title: "Noticias tecnológicas en español, actualizadas automáticamente",
     source: "Campus Maestro",
-    url: "#noticias",
+    url: "/noticias",
     category: "Actualización",
-    published: "Cada 4 horas",
-    excerpt: "Al publicarse en GitHub Pages, esta sección se renueva automáticamente cada 4 horas con fuentes tecnológicas seleccionadas.",
+    published: "Cada 12 horas",
+    excerpt: "Al publicarse en GitHub Pages, esta sección se renueva automáticamente cada 12 horas (inicio del día y medio día) con fuentes tecnológicas seleccionadas.",
     image: "",
   },
 ]
@@ -454,11 +454,11 @@ export default function App() {
 
     const lanes = [
       { title: "IA & Software", tone: "lime", categories: ["IA", "Software", "Computación"], offset: 0 },
-      { title: "Ciberseguridad & Redes", tone: "blue", categories: ["Ciberseguridad", "Redes"], offset: 5 },
-      { title: "Hardware & Sistemas", tone: "pink", categories: ["Hardware", "Tecnología"], offset: 10 },
-      { title: "Datos & Frontera", tone: "sand", categories: ["Datos", "Computación", "Tecnología"], offset: 15 },
+      { title: "Ciberseguridad & Redes", tone: "blue", categories: ["Ciberseguridad", "Redes"], offset: 10 },
+      { title: "Hardware & Sistemas", tone: "pink", categories: ["Hardware", "Tecnología"], offset: 20 },
+      { title: "Datos & Frontera", tone: "sand", categories: ["Datos", "Computación", "Tecnología"], offset: 30 },
     ]
-    const totalSlots = Math.min(pool.length, lanes.length * 5)
+    const totalSlots = Math.min(pool.length, lanes.length * 10)
     const baseSize = Math.floor(totalSlots / lanes.length)
     const extra = totalSlots % lanes.length
 
@@ -502,7 +502,7 @@ export default function App() {
       fetch(newsUrl, { cache: "no-store" })
         .then((response) => response.ok ? response.json() : Promise.reject())
         .then((data: RadarItem[]) => {
-          if (!cancelled && Array.isArray(data) && data.length) setRadar(data.slice(0, 40))
+          if (!cancelled && Array.isArray(data) && data.length) setRadar(data.slice(0, 80))
         })
         .catch(() => undefined)
     }
@@ -704,7 +704,7 @@ export default function App() {
           <div className="v15-section v15-news-inner">
             <div className="v15-section-head">
               <div>
-                <span>NOTICIAS · ACTUALIZACIÓN CADA 4 HORAS</span>
+                <span>NOTICIAS · ACTUALIZACIÓN CADA 12 HORAS</span>
                 <h2>Computación e informática,<br />al día y en español.</h2>
               </div>
               <p>Noticias recientes sobre software, sistemas, inteligencia artificial, ciberseguridad, datos, redes, hardware, programación y tecnologías emergentes. Cada tarjeta abre la fuente original.</p>
@@ -712,8 +712,8 @@ export default function App() {
 
             <div className="v15-news-status">
               <span>Fuentes seleccionadas</span>
-              <b>Xataka · Genbeta · RedesZone · MuyComputer</b>
-              <small>Actualización automática cada 4 horas mediante GitHub Actions · la página abierta se sincroniza sola.</small>
+              <b>Xataka · Genbeta · RedesZone · MuyComputer · ADSLZone · SoftZone · Hipertextual</b>
+              <small>Actualización automática cada 12 horas (inicio del día y medio día) mediante GitHub Actions · la página abierta se sincroniza sola.</small>
             </div>
 
             <div className="v15-news-carousel-grid">
