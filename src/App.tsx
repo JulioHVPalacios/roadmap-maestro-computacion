@@ -667,30 +667,99 @@ export default function App() {
           </AnimatePresence>
         </section>
 
-        <section className="v15-prompt-section">
+        <section className="v15-prompt-section" id="explorador">
           <div className="v15-center-head compact">
             <span>EXPLORADOR MAESTRO</span>
             <h2>¿Qué quieres dominar hoy?</h2>
-            <p>Escribe una materia, etapa, carrera o habla por micrófono para explorar todo el Campus.</p>
+            <p>Escribe cualquier materia, etapa, maestría, carrera o habla por micrófono para encontrar tu ruta.</p>
           </div>
+
           <div className="v15-prompt-container">
             <RadiantPromptInput
-              placeholder="Ej.: sistemas operativos, inteligencia artificial, algoritmos, ciberseguridad..."
+              placeholder="Ej.: inteligencia artificial, sistemas operativos, ciberseguridad, cloud, python..."
               value={searchQuery}
               onChange={(val) => setSearchQuery(val)}
-              onSubmit={(val) => {
-                if (val.trim()) {
-                  setSearchOpen(true)
+              onSubmit={() => {
+                if (globalResults.length > 0) {
+                  globalResults[0].action()
                 }
               }}
               onMicResult={(transcription) => {
                 setSearchQuery(transcription)
-                setSearchOpen(true)
-              }}
-              onAttachClick={() => {
-                setSearchOpen(true)
               }}
             />
+
+            {/* Chips rápidos de sugerencias visibles directamente */}
+            <div className="v15-prompt-quick-chips" aria-label="Temas recomendados">
+              <span>Sugerencias:</span>
+              {[
+                "Inteligencia Artificial",
+                "Sistemas Operativos",
+                "Estructuras de Datos",
+                "Ciberseguridad",
+                "Redes & Protocolos",
+                "Compiladores",
+                "Arquitectura Cloud",
+                "Ingeniería de Datos",
+              ].map((chip) => (
+                <button
+                  key={chip}
+                  type="button"
+                  className={searchQuery.toLowerCase() === chip.toLowerCase() ? "active" : ""}
+                  onClick={() => setSearchQuery(searchQuery.toLowerCase() === chip.toLowerCase() ? "" : chip)}
+                >
+                  <Sparkles size={12} />
+                  <span>{chip}</span>
+                </button>
+              ))}
+            </div>
+
+            {/* Resultados interactivos en vivo DIRECTAMENTE EN LA PÁGINA (sin modal ni popups) */}
+            <AnimatePresence>
+              {searchQuery.trim().length > 0 && (
+                <motion.div
+                  className="v15-prompt-inline-results"
+                  initial={{ opacity: 0, y: -8 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -8 }}
+                  transition={{ duration: 0.24 }}
+                >
+                  <div className="v15-prompt-results-head">
+                    <span>COINCIDENCIAS ENCONTRADAS ({globalResults.length})</span>
+                    <button type="button" onClick={() => setSearchQuery("")}>
+                      Limpiar búsqueda
+                    </button>
+                  </div>
+
+                  {globalResults.length === 0 ? (
+                    <div className="v15-prompt-no-results">
+                      <p>No se encontraron resultados directos para &ldquo;{searchQuery}&rdquo;.</p>
+                      <small>Prueba buscando por nombre de materia, concepto, tecnología o carrera profesional.</small>
+                    </div>
+                  ) : (
+                    <div className="v15-prompt-results-grid">
+                      {globalResults.map((result, idx) => (
+                        <button
+                          key={`${result.kind}-${result.label}-${idx}`}
+                          type="button"
+                          className="v15-prompt-result-card"
+                          onClick={result.action}
+                        >
+                          <span className={`v15-result-badge kind-${result.kind.toLowerCase()}`}>
+                            {result.kind}
+                          </span>
+                          <div className="v15-result-info">
+                            <b>{result.label}</b>
+                            <small>{result.meta}</small>
+                          </div>
+                          <ArrowRight size={16} className="v15-result-arrow" />
+                        </button>
+                      ))}
+                    </div>
+                  )}
+                </motion.div>
+              )}
+            </AnimatePresence>
           </div>
         </section>
 
