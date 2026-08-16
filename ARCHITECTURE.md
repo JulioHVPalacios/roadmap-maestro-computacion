@@ -49,12 +49,19 @@ Scripts importantes:
 ### Ruta visual
 Componentes V45 implementan Ruta Maestra inmersiva/premium.
 
-### Programación
+### Enrutamiento
+`src/v41/v41-router.ts`: Gestión de rutas limpias (`/inicio`, `/ruta`, `/programacion`, `/ingles`, `/recursos`, `/certificaciones`, `/noticias`, `/perfil`, `/soporte`) vía History API, popstate listeners, y retrocompatibilidad con `#`.
+`public/404.html` + `index.html`: Fallback SPA para GitHub Pages.
+
+### Programación Studio
 Entrada: `src/v41/ProgrammingHubV41.tsx`
+Currículo/fuentes: `src/v51/programming-curriculum-v51.ts`
+Experiencia: `src/v52/ProgrammingAcademyHubV52.tsx`, `src/v52/ProgrammingClassroomV52.tsx`, `src/v52/CampusCodeStudioV52.tsx`
 
-Currículo/fuentes: `src/v51/`
-
-Experiencia: `src/v52/`
+### Inglés IT Academy
+Entrada: `src/v41/EnglishHubV41.tsx`
+Currículo/fuentes: `src/v51/english-curriculum-v51.ts`
+Experiencia: `src/v52/EnglishAcademyHubV52.tsx`, `src/v52/EnglishClassroomV52.tsx`, `src/v52/EnglishWritingStudioV52.tsx`
 
 ### Recursos/certificaciones
 Catálogos vivos, generadores y datos bajo `public/`. No regenerarlos como efecto secundario de una tarea no relacionada.
