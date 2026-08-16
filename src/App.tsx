@@ -25,6 +25,7 @@ import {
 } from "lucide-react"
 import { IconBrandFacebook, IconBrandGithub, IconBrandInstagram } from "@tabler/icons-react"
 import SolarKnowledgeHero from "./components/SolarKnowledgeHero"
+import RadiantPromptInput from "./components/RadiantPromptInput"
 import { rootSources, stages, type Stage, type Subject } from "./roadmap-data"
 import { masteryTracks, type MasteryTrack } from "./mastery-data"
 import { inferProfessionProfile, professionTitles } from "./profession-atlas"
@@ -667,8 +668,30 @@ export default function App() {
         </section>
 
         <section className="v15-prompt-section">
-          <div className="v15-center-head compact"><span>¿QUÉ QUIERES DOMINAR?</span><h2>Busca una profesión, materia o ruta.</h2></div>
-          <button className="v15-prompt-box" onClick={() => setSearchOpen(true)}><Search /><span>Ej.: sistemas operativos, inteligencia artificial, Ingeniería de Sistemas...</span><kbd>Ctrl K</kbd></button>
+          <div className="v15-center-head compact">
+            <span>EXPLORADOR MAESTRO</span>
+            <h2>¿Qué quieres dominar hoy?</h2>
+            <p>Escribe una materia, etapa, carrera o habla por micrófono para explorar todo el Campus.</p>
+          </div>
+          <div className="v15-prompt-container">
+            <RadiantPromptInput
+              placeholder="Ej.: sistemas operativos, inteligencia artificial, algoritmos, ciberseguridad..."
+              value={searchQuery}
+              onChange={(val) => setSearchQuery(val)}
+              onSubmit={(val) => {
+                if (val.trim()) {
+                  setSearchOpen(true)
+                }
+              }}
+              onMicResult={(transcription) => {
+                setSearchQuery(transcription)
+                setSearchOpen(true)
+              }}
+              onAttachClick={() => {
+                setSearchOpen(true)
+              }}
+            />
+          </div>
         </section>
 
         <section className="v15-section v15-universes">
@@ -770,7 +793,63 @@ export default function App() {
       </AnimatePresence>
 
       <AnimatePresence>
-        {searchOpen && <motion.div className="v15-search-backdrop" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} onClick={() => setSearchOpen(false)}><motion.div className="v15-search-panel" initial={{ y: -18, opacity: 0 }} animate={{ y: 0, opacity: 1 }} exit={{ y: -18, opacity: 0 }} onClick={(event) => event.stopPropagation()}><div className="v15-search-input"><Search /><input autoFocus value={searchQuery} onChange={(event) => setSearchQuery(event.target.value)} placeholder="Buscar en todo Campus Maestro..." /><button onClick={() => setSearchOpen(false)}><X /></button></div><div className="v15-search-results">{searchQuery && globalResults.length === 0 && <p>Sin coincidencias.</p>}{globalResults.map((result, index) => <button key={`${result.kind}-${result.label}-${index}`} onClick={result.action}><span>{result.kind}</span><div><b>{result.label}</b><small>{result.meta}</small></div><ArrowRight /></button>)}</div></motion.div></motion.div>}
+        {searchOpen && (
+          <motion.div
+            className="v15-search-backdrop"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            onClick={() => setSearchOpen(false)}
+          >
+            <motion.div
+              className="v15-search-panel"
+              initial={{ y: -18, opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              exit={{ y: -18, opacity: 0 }}
+              onClick={(event) => event.stopPropagation()}
+            >
+              <div className="v15-search-radiant-header">
+                <RadiantPromptInput
+                  autoFocus
+                  placeholder="Buscar en todo Campus Maestro..."
+                  value={searchQuery}
+                  onChange={(val) => setSearchQuery(val)}
+                  onSubmit={() => {
+                    if (globalResults.length > 0) {
+                      globalResults[0].action()
+                    }
+                  }}
+                  onMicResult={(transcription) => {
+                    setSearchQuery(transcription)
+                  }}
+                />
+                <button
+                  type="button"
+                  className="v15-search-close-button"
+                  onClick={() => setSearchOpen(false)}
+                  aria-label="Cerrar buscador"
+                >
+                  <X size={20} />
+                </button>
+              </div>
+              <div className="v15-search-results">
+                {searchQuery && globalResults.length === 0 && (
+                  <p>Sin coincidencias para &ldquo;{searchQuery}&rdquo;.</p>
+                )}
+                {globalResults.map((result, index) => (
+                  <button key={`${result.kind}-${result.label}-${index}`} onClick={result.action}>
+                    <span>{result.kind}</span>
+                    <div>
+                      <b>{result.label}</b>
+                      <small>{result.meta}</small>
+                    </div>
+                    <ArrowRight />
+                  </button>
+                ))}
+              </div>
+            </motion.div>
+          </motion.div>
+        )}
       </AnimatePresence>
     </div>
   )
