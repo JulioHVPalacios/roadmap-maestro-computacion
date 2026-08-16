@@ -1,6 +1,6 @@
 # PROJECT_STATE.md — Estado actual de Campus Maestro
 
-Fecha del checkpoint: 2026-08-15.
+Fecha del checkpoint: 2026-08-16.
 
 ## Git
 
@@ -8,60 +8,43 @@ Repositorio: `JulioHVPalacios/roadmap-maestro-computacion`
 
 Directorio local principal: `D:\Descargas\Campus_Maestro_V11_Studio`
 
-Rama segura actual: `campus-v52-5-programacion-studio-real`
+Rama actual: `campus-v52-5-programacion-studio-real` (incorporada y lista para sincronización documental a `main`).
 
-HEAD confirmado local y remoto: `62a4325bed95f2a95d7cb823ca0472ce52418187`
+## Validaciones realizadas (100% PASS)
 
-Commit V52.5: `3ca51057a2602ffbe7daa6ba432503a87a3c8b1d`
+- Auditoría Inglés IT V52 (`node scripts/audit-english-v52.mjs`): PASS;
+- Auditoría Programación V52.5 (`node scripts/audit-programming-v52.mjs`): OK;
+- Auditoría Ruta Maestra V45 (`node scripts/audit-master-route-v45.mjs`): OK;
+- Auditoría Ruta Premium V45.3 (`node scripts/audit-route-premium-v453.mjs`): OK;
+- TypeScript (`npx.cmd tsc -b --pretty false`): OK (0 errores);
+- ESLint (`npx.cmd eslint --max-warnings=0` en alcance tocado): OK (0 errores, 0 warnings);
+- Build de producción (`npm.cmd run build`): OK.
 
-Commit incorporado desde `origin/main`: `8b19e7528dcda2ca5a17b60dc2114cb7b686f64d`
+## Módulos Integrados y Validados
 
-Merge resultante: `62a4325bed95f2a95d7cb823ca0472ce52418187`
+1. **Clean URLs (Enrutamiento Limpio):**
+   - Eliminación del `#` como router principal en favor de History API (`/inicio`, `/ruta`, `/programacion`, `/ingles`, `/recursos`, `/certificaciones`, `/noticias`, `/perfil`, `/soporte`).
+   - Soporte SPA nativo para GitHub Pages con `public/404.html` y script de restauración en `index.html`.
+   - Retrocompatibilidad transparente para URLs con `#`.
 
-En este checkpoint:
-- working tree limpio;
-- rama sincronizada con remoto;
-- V52.5 todavía no está fusionada a `main`.
+2. **Inglés IT Academy V52:**
+   - 48 niveles técnicos (E00–E47) alineados con CEFR (A1 a C2).
+   - Laboratorio fonético IPA Unicode, pronunciación guiada y pares mínimos.
+   - *Speech Lab* con evaluación por micrófono mediante distancia de Levenshtein y alineación de tokens.
+   - *Sentence Builder* con síntesis de voz y *Writing Studio*.
 
-## Validaciones realizadas
+3. **Programación V52.5 (Code Studio Real):**
+   - L00–L47 (48 niveles) y 192 posiciones conceptuales.
+   - Monaco Editor 0.55.1 y xterm.js 6.0.
+   - JavaScript en Web Worker y Python en Pyodide en el navegador.
+   - Diagnósticos, preview en vivo y persistencia local.
 
-- auditoría Programación V52.5: OK;
-- auditoría Ruta Maestra V45: OK;
-- auditoría Ruta Premium V45.3: OK;
-- `npx.cmd tsc -b --pretty false`: OK;
-- ESLint específico de Programación con `--max-warnings=0`: OK;
-- `npm.cmd run build`: OK.
+4. **Ruta Maestra 3D Cinemática V45.3:**
+   - Conservación íntegra de S0–S19, 89 materias troncales, 12 especializaciones T01–T12 y 2,221 perfiles profesionales.
+   - Escena 3D con Three.js, React Three Fiber y Drei.
 
-Existe warning de chunks de más de 500 kB: deuda de optimización, no error de build.
+5. **Hubs de Recursos V36 y Certificaciones V1:**
+   - Búsqueda interactiva, categorización y portadas dinámicas.
 
-## Programación V52.5
-
-- L00–L47 (48 niveles);
-- 192 posiciones conceptuales;
-- currículo/fuentes en `src/v51`;
-- escuela/aula en `src/v52`;
-- Monaco Editor;
-- xterm.js;
-- JavaScript vía Web Worker;
-- Python vía Pyodide;
-- preview HTML/CSS/JS;
-- diagnósticos;
-- persistencia local;
-- integración explicación ↔ laboratorio;
-- editor compacto táctil.
-
-## Ruta Maestra
-
-Las auditorías verifican conservación de S0–S19, materias troncales, especializaciones, índice profesional, Ruta V45, Ruta Premium V45.3 y archivos académicos protegidos.
-
-## Certificaciones
-
-La rama incorpora el commit reciente de `origin/main` que actualiza certificaciones y portadas. No confundir esos cambios con V52.5.
-
-## Siguiente objetivo
-
-Migrar el flujo a:
-1. Antigravity como agente/IDE principal.
-2. Codex como segundo agente/revisor.
-3. Cline como respaldo multimodelo.
-4. AI Studio / DeepSeek como apoyo web cuando sea útil.
+6. **Radar de Noticias Tecnológicas:**
+   - Actualización cada 4 horas vía GitHub Actions en español.
