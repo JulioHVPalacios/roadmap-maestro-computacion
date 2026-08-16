@@ -39,6 +39,7 @@ import {
 } from "lucide-react"
 import { stages, type Stage } from "../roadmap-data"
 import { masteryTracks, type MasteryTrack } from "../mastery-data"
+import RadiantPromptInput from "../components/RadiantPromptInput"
 import CinematicRoadV45 from "./CinematicRoadV45"
 import OmniversityLayerV45 from "./OmniversityLayerV45"
 import "../v43/route-v43.css"
@@ -732,6 +733,48 @@ export default function MasterRouteV45() {
           <span>RUTA MAESTRA · RECORRIDO ACADÉMICO INTERACTIVO</span>
           <h1 id="v43-route-title">Veinte etapas troncales.<br /><em>Un recorrido para estudiar con orden.</em></h1>
           <p>Del punto cero a la frontera: S0 → S19, especializaciones, 18 áreas de dominio, fuentes académicas, evidencia rigurosa, investigación y repaso. La vista inmersiva muestra el recorrido; el mapa académico permite revisar cada dependencia con precisión.</p>
+          
+          <div className="v45-hero-prompt-box">
+            <RadiantPromptInput
+              placeholder="Buscar etapa, materia o tema (ej. sistemas operativos, algoritmos, S10)..."
+              value={query}
+              onChange={(val) => setQuery(val)}
+              onSubmit={() => {
+                if (searchResults.length > 0) {
+                  focusStageIndex(searchResults[0].index)
+                  document.querySelector(".v43-route-map-shell")?.scrollIntoView({ behavior: "smooth" })
+                  setQuery("")
+                }
+              }}
+              onMicResult={(transcription) => {
+                setQuery(transcription)
+              }}
+              className="v45-compact-prompt"
+            />
+            {query.trim().length > 0 && searchResults.length > 0 && (
+              <div className="v45-hero-search-dropdown">
+                {searchResults.map(({ stage, index }) => (
+                  <button
+                    key={stage.code}
+                    type="button"
+                    onClick={() => {
+                      setQuery("")
+                      focusStageIndex(index)
+                      document.querySelector(".v43-route-map-shell")?.scrollIntoView({ behavior: "smooth" })
+                    }}
+                  >
+                    <span className="v45-stage-pill">{stage.code}</span>
+                    <div className="v45-stage-meta">
+                      <b>{stage.title}</b>
+                      <small>{stage.year} · {stage.subjects.length} materias</small>
+                    </div>
+                    <ChevronRight size={14} />
+                  </button>
+                ))}
+              </div>
+            )}
+          </div>
+
           <div className="v43-route-hero-actions"><button onClick={() => focusStageIndex(currentIndex)}><Target /> Continuar en {stages[currentIndex].code}</button><button onClick={() => document.querySelector(".v43-route-map-shell")?.scrollIntoView({ behavior: "smooth" })}><Map /> Explorar ruta</button></div>
         </div>
         <div className="v43-route-hero-art" aria-hidden="true">
