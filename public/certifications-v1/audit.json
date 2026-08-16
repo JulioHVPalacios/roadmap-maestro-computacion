@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-15T11:51:47.325Z",
+  "generatedAt": "2026-08-16T11:52:33.456Z",
   "seed": 54,
-  "officialDiscoveredRaw": 106,
-  "officialValidated": 99,
+  "officialDiscoveredRaw": 100,
+  "officialValidated": 94,
   "communityCandidates": 137,
   "communityValidated": 75,
-  "published": 195,
+  "published": 191,
   "audit": [
     {
       "id": "ibm-digital-credentials",
@@ -251,9 +251,10 @@
       "id": "mtpe-capacita-t",
       "sourceType": "seed",
       "url": "https://capacitacionlaboral.trabajo.gob.pe/",
-      "httpStatus": 200,
+      "httpStatus": 0,
       "finalUrl": "https://capacitacionlaboral.trabajo.gob.pe/",
-      "status": "active"
+      "status": "unknown",
+      "error": "page.goto: net::ERR_CONNECTION_REFUSED at https://capacitacionlaboral.trabajo.gob.pe/\nCall log:\n  - navigating to \"https://capacitacionlaboral.trabajo.gob.pe/\", waiting until \"domcontentloaded\"\n"
     },
     {
       "id": "empleos-peru-certifica",
@@ -536,54 +537,6 @@
       "httpStatus": 200
     },
     {
-      "id": "live-mtpe-competencias-digita",
-      "sourceType": "discovered",
-      "url": "https://capacitacionlaboral.trabajo.gob.pe/rutas/competencias-digitales-basicas-para-el-empleo",
-      "finalUrl": "https://capacitacionlaboral.trabajo.gob.pe/rutas/competencias-digitales-basicas-para-el-empleo",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-mtpe-abc-digital",
-      "sourceType": "discovered",
-      "url": "https://capacitacionlaboral.trabajo.gob.pe/cursos/abc-digital",
-      "finalUrl": "https://capacitacionlaboral.trabajo.gob.pe/cursos/abc-digital",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-mtpe-analista-junior-en",
-      "sourceType": "discovered",
-      "url": "https://capacitacionlaboral.trabajo.gob.pe/rutas/analista-junior-en-ciberseguridad",
-      "finalUrl": "https://capacitacionlaboral.trabajo.gob.pe/rutas/analista-junior-en-ciberseguridad",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-mtpe-administracion-de-amenazas-ciberneticas",
-      "sourceType": "discovered",
-      "url": "https://capacitacionlaboral.trabajo.gob.pe/cursos/administracion-de-amenazas-ciberneticas",
-      "finalUrl": "https://capacitacionlaboral.trabajo.gob.pe/cursos/administracion-de-amenazas-ciberneticas",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-mtpe-habilidades-digital",
-      "sourceType": "discovered",
-      "url": "https://capacitacionlaboral.trabajo.gob.pe/rutas/habilidades-digitales-nivel-intermedio",
-      "finalUrl": "https://capacitacionlaboral.trabajo.gob.pe/rutas/habilidades-digitales-nivel-intermedio",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-mtpe-analisis-de-datos-con-power-bi",
-      "sourceType": "discovered",
-      "url": "https://capacitacionlaboral.trabajo.gob.pe/cursos/analisis-de-datos-con-power-bi",
-      "finalUrl": "https://capacitacionlaboral.trabajo.gob.pe/cursos/analisis-de-datos-con-power-bi",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
       "id": "live-ibm-ir-al-contenido-principal",
       "sourceType": "discovered",
       "url": "https://skillsbuild.org/es/digital-credentials",
@@ -637,8 +590,7 @@
       "sourceType": "discovered",
       "url": "https://learn.mongodb.com/catalog?labels=%5B%5D&page=1&values=%5B%5D",
       "finalUrl": "https://learn.mongodb.com/catalog?labels=%5B%5D&page=1&values=%5B%5D",
-      "status": "rejected",
-      "reason": "no-learning-evidence",
+      "status": "active",
       "httpStatus": 200
     },
     {
@@ -1901,12 +1853,9 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Data Visualization with R",
       "url": "https://cognitiveclass.ai/courses/data-visualization-with-r",
-      "status": "accepted",
-      "provider": "Cognitive Class",
-      "kind": "Insignia",
-      "language": "EN",
-      "httpStatus": 200,
-      "finalUrl": "https://cognitiveclass.ai/courses/data-visualization-with-r"
+      "status": "rejected",
+      "reason": "unreachable",
+      "httpStatus": 0
     },
     {
       "sourceType": "community",
@@ -1971,12 +1920,9 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Data Science 101",
       "url": "https://cognitiveclass.ai/courses/data-science-101",
-      "status": "accepted",
-      "provider": "Cognitive Class",
-      "kind": "Insignia",
-      "language": "EN",
-      "httpStatus": 200,
-      "finalUrl": "https://cognitiveclass.ai/courses/data-science-101"
+      "status": "rejected",
+      "reason": "unreachable",
+      "httpStatus": 0
     },
     {
       "sourceType": "community",
@@ -2125,12 +2071,9 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Deep Learning with TensorFlow",
       "url": "https://cognitiveclass.ai/courses/deep-learning-tensorflow",
-      "status": "accepted",
-      "provider": "Cognitive Class",
-      "kind": "Insignia",
-      "language": "EN",
-      "httpStatus": 200,
-      "finalUrl": "https://cognitiveclass.ai/courses"
+      "status": "rejected",
+      "reason": "unreachable",
+      "httpStatus": 0
     },
     {
       "sourceType": "community",
@@ -2309,8 +2252,10 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Foundational C# with Microsoft",
       "url": "https://www.freecodecamp.org/learn/foundational-c-sharp-with-microsoft",
-      "status": "rejected",
-      "reason": "no-free-credential-evidence",
+      "status": "accepted",
+      "provider": "freeCodeCamp",
+      "kind": "Certificación",
+      "language": "EN",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/foundational-c-sharp-with-microsoft/"
     },
@@ -2329,8 +2274,10 @@
       "source": "GitHub · Awesome Certificates",
       "title": "JavaScript Algorithms and Data Structures Certification",
       "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures",
-      "status": "rejected",
-      "reason": "no-free-credential-evidence",
+      "status": "accepted",
+      "provider": "freeCodeCamp",
+      "kind": "Certificación",
+      "language": "EN",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/"
     },
@@ -2415,9 +2362,12 @@
       "source": "GitHub · Awesome Certificates",
       "title": "R 101",
       "url": "https://cognitiveclass.ai/courses/r-101",
-      "status": "rejected",
-      "reason": "unreachable",
-      "httpStatus": 0
+      "status": "accepted",
+      "provider": "Cognitive Class",
+      "kind": "Insignia",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://cognitiveclass.ai/courses/r-101"
     },
     {
       "sourceType": "community",
