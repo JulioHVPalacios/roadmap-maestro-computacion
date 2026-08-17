@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-16T11:52:33.456Z",
+  "generatedAt": "2026-08-17T11:54:45.819Z",
   "seed": 54,
-  "officialDiscoveredRaw": 100,
-  "officialValidated": 94,
+  "officialDiscoveredRaw": 94,
+  "officialValidated": 87,
   "communityCandidates": 137,
-  "communityValidated": 75,
-  "published": 191,
+  "communityValidated": 77,
+  "published": 188,
   "audit": [
     {
       "id": "ibm-digital-credentials",
@@ -251,10 +251,9 @@
       "id": "mtpe-capacita-t",
       "sourceType": "seed",
       "url": "https://capacitacionlaboral.trabajo.gob.pe/",
-      "httpStatus": 0,
+      "httpStatus": 200,
       "finalUrl": "https://capacitacionlaboral.trabajo.gob.pe/",
-      "status": "unknown",
-      "error": "page.goto: net::ERR_CONNECTION_REFUSED at https://capacitacionlaboral.trabajo.gob.pe/\nCall log:\n  - navigating to \"https://capacitacionlaboral.trabajo.gob.pe/\", waiting until \"domcontentloaded\"\n"
+      "status": "active"
     },
     {
       "id": "empleos-peru-certifica",
@@ -441,98 +440,50 @@
       "status": "active"
     },
     {
-      "id": "live-hubspot-inbound-nuevo-certificacion-3-horas-marketing-ventas-service",
+      "id": "live-mtpe-competencias-digita",
       "sourceType": "discovered",
-      "url": "https://academy.hubspot.com/es/courses/inbound",
-      "finalUrl": "https://academy.hubspot.com/es/courses/inbound",
+      "url": "https://capacitacionlaboral.trabajo.gob.pe/rutas/competencias-digitales-basicas-para-el-empleo",
+      "finalUrl": "https://capacitacionlaboral.trabajo.gob.pe/rutas/competencias-digitales-basicas-para-el-empleo",
       "status": "active",
       "httpStatus": 200
     },
     {
-      "id": "live-hubspot-curso-de-certificacion-de-marketing-en-redes-sociales-certificacion-6-horas-marketing",
+      "id": "live-mtpe-abc-digital",
       "sourceType": "discovered",
-      "url": "https://academy.hubspot.com/es/courses/social-media",
-      "finalUrl": "https://academy.hubspot.com/es/courses/social-media",
+      "url": "https://capacitacionlaboral.trabajo.gob.pe/cursos/abc-digital",
+      "finalUrl": "https://capacitacionlaboral.trabajo.gob.pe/cursos/abc-digital",
       "status": "active",
       "httpStatus": 200
     },
     {
-      "id": "live-hubspot-marketing-digital-certificacion-6-horas-marketing",
+      "id": "live-mtpe-analista-junior-en",
       "sourceType": "discovered",
-      "url": "https://academy.hubspot.com/es/courses/digital-marketing",
-      "finalUrl": "https://academy.hubspot.com/es/courses/digital-marketing",
+      "url": "https://capacitacionlaboral.trabajo.gob.pe/rutas/analista-junior-en-ciberseguridad",
+      "finalUrl": "https://capacitacionlaboral.trabajo.gob.pe/rutas/analista-junior-en-ciberseguridad",
       "status": "active",
       "httpStatus": 200
     },
     {
-      "id": "live-hubspot-inbound-marketing-certificacion-5-horas-marketing",
+      "id": "live-mtpe-administracion-de-amenazas-ciberneticas",
       "sourceType": "discovered",
-      "url": "https://academy.hubspot.com/es/courses/inbound-marketing",
-      "finalUrl": "https://academy.hubspot.com/es/courses/inbound-marketing",
+      "url": "https://capacitacionlaboral.trabajo.gob.pe/cursos/administracion-de-amenazas-ciberneticas",
+      "finalUrl": "https://capacitacionlaboral.trabajo.gob.pe/cursos/administracion-de-amenazas-ciberneticas",
       "status": "active",
       "httpStatus": 200
     },
     {
-      "id": "live-hubspot-marketing-de-contenidos-certificacion-9-horas-marketing",
+      "id": "live-mtpe-habilidades-digital",
       "sourceType": "discovered",
-      "url": "https://academy.hubspot.com/es/courses/content-marketing",
-      "finalUrl": "https://academy.hubspot.com/es/courses/content-marketing",
+      "url": "https://capacitacionlaboral.trabajo.gob.pe/rutas/habilidades-digitales-nivel-intermedio",
+      "finalUrl": "https://capacitacionlaboral.trabajo.gob.pe/rutas/habilidades-digitales-nivel-intermedio",
       "status": "active",
       "httpStatus": 200
     },
     {
-      "id": "live-hubspot-ventas-inbound-certificacion-3-horas-ventas",
+      "id": "live-mtpe-analisis-de-datos-con-power-bi",
       "sourceType": "discovered",
-      "url": "https://academy.hubspot.com/es/courses/inbound-sales",
-      "finalUrl": "https://academy.hubspot.com/es/courses/inbound-sales",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-hubspot-ventas-sin-friccion-certificacion-2-horas-ventas",
-      "sourceType": "discovered",
-      "url": "https://academy.hubspot.com/es/courses/frictionless-sales",
-      "finalUrl": "https://academy.hubspot.com/es/courses/frictionless-sales",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-hubspot-habilitacion-de-ventas-certificacion-5-horas-ventas",
-      "sourceType": "discovered",
-      "url": "https://academy.hubspot.com/es/courses/sales-enablement",
-      "finalUrl": "https://academy.hubspot.com/es/courses/sales-enablement",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-hubspot-optimizacion-del-inbound-marketing-certificacion-5-horas-marketing",
-      "sourceType": "discovered",
-      "url": "https://academy.hubspot.com/es/courses/inbound-marketing-optimization",
-      "finalUrl": "https://academy.hubspot.com/es/courses/inbound-marketing-optimization",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-hubspot-certificacion-de-content-hub-para-marketers-certificacion-3-horas-marketing",
-      "sourceType": "discovered",
-      "url": "https://academy.hubspot.com/es/courses/hubspot-content-hub-software-es",
-      "finalUrl": "https://academy.hubspot.com/es/courses/hubspot-content-hub-software-es",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-hubspot-certificacion-en-optimizacion-para-motores-de-respuesta-aeo-certificacion-4-horas-marketing",
-      "sourceType": "discovered",
-      "url": "https://academy.hubspot.com/es/courses/aeo-fundamentals-certification",
-      "finalUrl": "https://academy.hubspot.com/es/courses/aeo-fundamentals-certification",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-hubspot-certificacion-en-implementacion-de-aeo-con-hubspot-certificacion-3-horas",
-      "sourceType": "discovered",
-      "url": "https://academy.hubspot.com/es/courses/implementing-aeo-with-hubspot-certification",
-      "finalUrl": "https://academy.hubspot.com/es/courses/implementing-aeo-with-hubspot-certification",
+      "url": "https://capacitacionlaboral.trabajo.gob.pe/cursos/analisis-de-datos-con-power-bi",
+      "finalUrl": "https://capacitacionlaboral.trabajo.gob.pe/cursos/analisis-de-datos-con-power-bi",
       "status": "active",
       "httpStatus": 200
     },
@@ -590,7 +541,8 @@
       "sourceType": "discovered",
       "url": "https://learn.mongodb.com/catalog?labels=%5B%5D&page=1&values=%5B%5D",
       "finalUrl": "https://learn.mongodb.com/catalog?labels=%5B%5D&page=1&values=%5B%5D",
-      "status": "active",
+      "status": "rejected",
+      "reason": "no-learning-evidence",
       "httpStatus": 200
     },
     {
@@ -1819,12 +1771,9 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Data Analysis with Python",
       "url": "https://cognitiveclass.ai/courses/data-analysis-python",
-      "status": "accepted",
-      "provider": "Cognitive Class",
-      "kind": "Insignia",
-      "language": "EN",
-      "httpStatus": 200,
-      "finalUrl": "https://cognitiveclass.ai/courses/data-analysis-python"
+      "status": "rejected",
+      "reason": "unreachable",
+      "httpStatus": 0
     },
     {
       "sourceType": "community",
@@ -1853,17 +1802,22 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Data Visualization with R",
       "url": "https://cognitiveclass.ai/courses/data-visualization-with-r",
-      "status": "rejected",
-      "reason": "unreachable",
-      "httpStatus": 0
+      "status": "accepted",
+      "provider": "Cognitive Class",
+      "kind": "Insignia",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://cognitiveclass.ai/courses/data-visualization-with-r"
     },
     {
       "sourceType": "community",
       "source": "GitHub · Awesome Certificates",
       "title": "Data Visualization Certification",
       "url": "https://www.freecodecamp.org/learn/data-visualization",
-      "status": "rejected",
-      "reason": "no-free-credential-evidence",
+      "status": "accepted",
+      "provider": "freeCodeCamp",
+      "kind": "Certificación",
+      "language": "EN",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/data-visualization/"
     },
@@ -1920,9 +1874,12 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Data Science 101",
       "url": "https://cognitiveclass.ai/courses/data-science-101",
-      "status": "rejected",
-      "reason": "unreachable",
-      "httpStatus": 0
+      "status": "accepted",
+      "provider": "Cognitive Class",
+      "kind": "Insignia",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://cognitiveclass.ai/courses/data-science-101"
     },
     {
       "sourceType": "community",
@@ -2071,6 +2028,18 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Deep Learning with TensorFlow",
       "url": "https://cognitiveclass.ai/courses/deep-learning-tensorflow",
+      "status": "accepted",
+      "provider": "Cognitive Class",
+      "kind": "Insignia",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://cognitiveclass.ai/courses"
+    },
+    {
+      "sourceType": "community",
+      "source": "GitHub · Awesome Certificates",
+      "title": "Machine Learning with Python",
+      "url": "https://cognitiveclass.ai/courses/machine-learning-with-python",
       "status": "rejected",
       "reason": "unreachable",
       "httpStatus": 0
@@ -2078,22 +2047,12 @@
     {
       "sourceType": "community",
       "source": "GitHub · Awesome Certificates",
-      "title": "Machine Learning with Python",
-      "url": "https://cognitiveclass.ai/courses/machine-learning-with-python",
-      "status": "accepted",
-      "provider": "Cognitive Class",
-      "kind": "Insignia",
-      "language": "EN",
-      "httpStatus": 200,
-      "finalUrl": "https://cognitiveclass.ai/courses/machine-learning-with-python"
-    },
-    {
-      "sourceType": "community",
-      "source": "GitHub · Awesome Certificates",
       "title": "Machine Learning with Python Certification",
       "url": "https://www.freecodecamp.org/learn/machine-learning-with-python",
-      "status": "rejected",
-      "reason": "no-free-credential-evidence",
+      "status": "accepted",
+      "provider": "freeCodeCamp",
+      "kind": "Certificación",
+      "language": "EN",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/machine-learning-with-python/"
     },
@@ -2252,10 +2211,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Foundational C# with Microsoft",
       "url": "https://www.freecodecamp.org/learn/foundational-c-sharp-with-microsoft",
-      "status": "accepted",
-      "provider": "freeCodeCamp",
-      "kind": "Certificación",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/foundational-c-sharp-with-microsoft/"
     },
@@ -2274,10 +2231,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "JavaScript Algorithms and Data Structures Certification",
       "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures",
-      "status": "accepted",
-      "provider": "freeCodeCamp",
-      "kind": "Certificación",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/"
     },
@@ -2448,8 +2403,10 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Information Security Certification",
       "url": "https://www.freecodecamp.org/learn/information-security",
-      "status": "rejected",
-      "reason": "no-free-credential-evidence",
+      "status": "accepted",
+      "provider": "freeCodeCamp",
+      "kind": "Certificación",
+      "language": "EN",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/information-security/"
     },
