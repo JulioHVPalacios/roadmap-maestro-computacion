@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-18T11:56:00.810Z",
+  "generatedAt": "2026-08-19T12:16:55.015Z",
   "seed": 54,
-  "officialDiscoveredRaw": 101,
-  "officialValidated": 95,
+  "officialDiscoveredRaw": 106,
+  "officialValidated": 99,
   "communityCandidates": 137,
-  "communityValidated": 77,
-  "published": 193,
+  "communityValidated": 76,
+  "published": 196,
   "audit": [
     {
       "id": "ibm-digital-credentials",
@@ -609,7 +609,7 @@
       "httpStatus": 200
     },
     {
-      "id": "live-mongodb-skills-and-certificationsdevelop-in-demand-skills-and-earn-mongodb-certifications",
+      "id": "live-mongodb-courses-and-certificationlearn-for-free-from-mongodb",
       "sourceType": "discovered",
       "url": "https://learn.mongodb.com",
       "finalUrl": "https://learn.mongodb.com",
@@ -617,10 +617,10 @@
       "httpStatus": 200
     },
     {
-      "id": "live-mongodb-skills",
+      "id": "live-mongodb-lab-zone",
       "sourceType": "discovered",
-      "url": "https://learn.mongodb.com/skills",
-      "finalUrl": "https://learn.mongodb.com/skills",
+      "url": "https://learn.mongodb.com/pages/lab-zone",
+      "finalUrl": "https://learn.mongodb.com/pages/lab-zone",
       "status": "active",
       "httpStatus": 200
     },
@@ -637,7 +637,8 @@
       "sourceType": "discovered",
       "url": "https://learn.mongodb.com/catalog?labels=%5B%5D&page=1&values=%5B%5D",
       "finalUrl": "https://learn.mongodb.com/catalog?labels=%5B%5D&page=1&values=%5B%5D",
-      "status": "active",
+      "status": "rejected",
+      "reason": "no-learning-evidence",
       "httpStatus": 200
     },
     {
@@ -938,6 +939,46 @@
       "sourceType": "discovered",
       "url": "https://learning.sap.com/release-notes",
       "finalUrl": "https://learning.sap.com/release-notes",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-sap-sap-s-4hana-cloud-public-edition",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/products/s4hana-cloud",
+      "finalUrl": "https://learning.sap.com/products/s4hana-cloud",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-sap-sap-s-4hana-cloud-private-edition",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/products/s4hana-cloud-private",
+      "finalUrl": "https://learning.sap.com/products/s4hana-cloud-private",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-sap-supply-chain-management",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/products/supply-chain-management",
+      "finalUrl": "https://learning.sap.com/products/supply-chain-management",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-sap-financial-management",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/products/financial-management",
+      "finalUrl": "https://learning.sap.com/products/financial-management",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-sap-human-capital-management",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/products/human-capital-management",
+      "finalUrl": "https://learning.sap.com/products/human-capital-management",
       "status": "active",
       "httpStatus": 200
     },
@@ -1661,7 +1702,7 @@
       "status": "accepted",
       "provider": "HubSpot Academy",
       "kind": "Certificación",
-      "language": "ES",
+      "language": "EN",
       "httpStatus": 200,
       "finalUrl": "https://academy.hubspot.com/courses/hubspot-service-software"
     },
@@ -1872,10 +1913,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Data Visualization Certification",
       "url": "https://www.freecodecamp.org/learn/data-visualization",
-      "status": "accepted",
-      "provider": "freeCodeCamp",
-      "kind": "Certificación",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/data-visualization/"
     },
