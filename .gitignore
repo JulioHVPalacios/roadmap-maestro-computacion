@@ -14,6 +14,7 @@ v46_programacion_backup.txt
 .v*_backup.txt
 
 # Android Studio / Gradle — build outputs (no commitear)
+.idea/
 android/.idea/
 android/.gradle/
 android/app/build/
@@ -22,3 +23,4 @@ android/local.properties
 
 # Capacitor CLI cache
 .capacitor/
+
