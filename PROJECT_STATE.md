@@ -1,6 +1,6 @@
 # PROJECT_STATE.md — Estado actual de Campus Maestro
 
-Fecha del checkpoint: 2026-08-16.
+Fecha del checkpoint: 2026-08-20.
 
 ## Git
 
@@ -8,7 +8,7 @@ Repositorio: `JulioHVPalacios/roadmap-maestro-computacion`
 
 Directorio local principal: `D:\Descargas\Campus_Maestro_V11_Studio`
 
-Rama actual: `campus-v52-5-programacion-studio-real` (incorporada y lista para sincronización documental a `main`).
+Rama actual: `feat/capacitor-android-app` (pendiente de merge a `main`).
 
 ## Validaciones realizadas (100% PASS)
 
@@ -48,3 +48,15 @@ Rama actual: `campus-v52-5-programacion-studio-real` (incorporada y lista para s
 
 6. **Radar de Noticias Tecnológicas:**
    - Actualización cada 12 horas (inicio del día 00:00 y medio día 12:00) vía GitHub Actions en español con 10 noticias por card (40 en total).
+
+7. **App Móvil Android — Capacitor 8 (rama: feat/capacitor-android-app):**
+   - Capacitor 8 con 7 plugins nativos: App, StatusBar, SplashScreen, Keyboard, Haptics, Network, Preferences.
+   - `capacitor.config.ts`: appId `dev.campusmaestro.app`, webDir `dist`, splash 2s, status bar verde #10845f.
+   - `src/capacitor/native-init.ts`: inicialización no-op en navegador, activa en Android/iOS.
+   - Assets nativos generados: iconos mipmap-mdpi → xxxhdpi (legado, round, adaptive foreground/background).
+   - Splash screens: drawable, drawable-night, drawable-land en todos los densities.
+   - AndroidManifest.xml: HTTPS únicamente, hardware acceleration, permisos mínimos necesarios.
+   - Tema oscuro Android: colores de marca, status bar verde, navigation bar #0a0f14.
+   - Scripts: `npm run android:assets`, `npm run app:sync`, `npm run app:open`, `npm run app:run`.
+   - Para generar APK: abrir Android Studio con `npm run app:open` → Build → Generate Signed APK.
+   - La web en GitHub Pages queda intacta y sin modificaciones.

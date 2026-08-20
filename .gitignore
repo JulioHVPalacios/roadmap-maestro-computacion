@@ -1,4 +1,4 @@
-﻿node_modules/
+node_modules/
 dist/
 .DS_Store
 *.local
@@ -12,3 +12,13 @@ backup_*/
 
 v46_programacion_backup.txt
 .v*_backup.txt
+
+# Android Studio / Gradle — build outputs (no commitear)
+android/.idea/
+android/.gradle/
+android/app/build/
+android/build/
+android/local.properties
+
+# Capacitor CLI cache
+.capacitor/
