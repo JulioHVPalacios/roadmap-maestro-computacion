@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-19T12:16:55.015Z",
+  "generatedAt": "2026-08-20T11:57:25.882Z",
   "seed": 54,
-  "officialDiscoveredRaw": 106,
-  "officialValidated": 99,
+  "officialDiscoveredRaw": 101,
+  "officialValidated": 94,
   "communityCandidates": 137,
-  "communityValidated": 76,
-  "published": 196,
+  "communityValidated": 77,
+  "published": 192,
   "audit": [
     {
       "id": "ibm-digital-credentials",
@@ -609,7 +609,7 @@
       "httpStatus": 200
     },
     {
-      "id": "live-mongodb-courses-and-certificationlearn-for-free-from-mongodb",
+      "id": "live-mongodb-skills-and-certificationsdevelop-in-demand-skills-and-earn-mongodb-certifications",
       "sourceType": "discovered",
       "url": "https://learn.mongodb.com",
       "finalUrl": "https://learn.mongodb.com",
@@ -617,10 +617,10 @@
       "httpStatus": 200
     },
     {
-      "id": "live-mongodb-lab-zone",
+      "id": "live-mongodb-skills",
       "sourceType": "discovered",
-      "url": "https://learn.mongodb.com/pages/lab-zone",
-      "finalUrl": "https://learn.mongodb.com/pages/lab-zone",
+      "url": "https://learn.mongodb.com/skills",
+      "finalUrl": "https://learn.mongodb.com/skills",
       "status": "active",
       "httpStatus": 200
     },
@@ -939,46 +939,6 @@
       "sourceType": "discovered",
       "url": "https://learning.sap.com/release-notes",
       "finalUrl": "https://learning.sap.com/release-notes",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-sap-sap-s-4hana-cloud-public-edition",
-      "sourceType": "discovered",
-      "url": "https://learning.sap.com/products/s4hana-cloud",
-      "finalUrl": "https://learning.sap.com/products/s4hana-cloud",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-sap-sap-s-4hana-cloud-private-edition",
-      "sourceType": "discovered",
-      "url": "https://learning.sap.com/products/s4hana-cloud-private",
-      "finalUrl": "https://learning.sap.com/products/s4hana-cloud-private",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-sap-supply-chain-management",
-      "sourceType": "discovered",
-      "url": "https://learning.sap.com/products/supply-chain-management",
-      "finalUrl": "https://learning.sap.com/products/supply-chain-management",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-sap-financial-management",
-      "sourceType": "discovered",
-      "url": "https://learning.sap.com/products/financial-management",
-      "finalUrl": "https://learning.sap.com/products/financial-management",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-sap-human-capital-management",
-      "sourceType": "discovered",
-      "url": "https://learning.sap.com/products/human-capital-management",
-      "finalUrl": "https://learning.sap.com/products/human-capital-management",
       "status": "active",
       "httpStatus": 200
     },
@@ -1714,7 +1674,7 @@
       "status": "accepted",
       "provider": "IBM SkillsBuild",
       "kind": "Credencial",
-      "language": "ES",
+      "language": "EN",
       "httpStatus": 200,
       "finalUrl": "https://skillsbuild.org/learning-catalog"
     },
@@ -1879,8 +1839,10 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Data Analysis with Python Certification",
       "url": "https://www.freecodecamp.org/learn/data-analysis-with-python",
-      "status": "rejected",
-      "reason": "no-free-credential-evidence",
+      "status": "accepted",
+      "provider": "freeCodeCamp",
+      "kind": "Certificación",
+      "language": "EN",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/data-analysis-with-python/"
     },
@@ -2681,7 +2643,7 @@
       "status": "rejected",
       "reason": "no-free-credential-evidence",
       "httpStatus": 200,
-      "finalUrl": "https://www.apollographql.com/tutorials/certifications/apollo-graph-associate/"
+      "finalUrl": "https://www.apollographql.com/tutorials/certifications/apollo-graph-associate"
     },
     {
       "sourceType": "community",

@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-08-19T12:24:16.562Z",
-  "total": 196,
-  "ok": 196,
+  "generatedAt": "2026-08-20T12:04:22.331Z",
+  "total": 192,
+  "ok": 192,
   "failed": 0,
   "rows": [
     {
-      "id": "google-ads-certifications",
-      "title": "Certificaciones de Google Ads",
+      "id": "freecodecamp-spanish",
+      "title": "freeCodeCamp · certificaciones verificadas gratuitas",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
-      "id": "freecodecamp-spanish",
-      "title": "freeCodeCamp · certificaciones verificadas gratuitas",
+      "id": "google-ads-certifications",
+      "title": "Certificaciones de Google Ads",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -75,17 +75,17 @@
       "status": 200
     },
     {
-      "id": "mtpe-capacita-t",
-      "title": "CAPACÍTA-T · cursos certificados del MTPE Perú",
-      "ok": true,
-      "source": "Captura de la fuente oficial",
-      "status": 200
-    },
-    {
       "id": "santander-tech-catalog",
       "title": "Data, IA y Tecnología · catálogo vivo",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
+      "status": 200
+    },
+    {
+      "id": "mtpe-capacita-t",
+      "title": "CAPACÍTA-T · cursos certificados del MTPE Perú",
+      "ok": true,
+      "source": "Captura de la fuente oficial",
       "status": 200
     },
     {
@@ -110,15 +110,15 @@
       "status": 200
     },
     {
-      "id": "microsoft-learn-free",
-      "title": "Microsoft Learn · formación técnica gratuita",
+      "id": "fazt-free-courses",
+      "title": "Fazt · cursos gratuitos de programación y desarrollo web",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
-      "id": "fazt-free-courses",
-      "title": "Fazt · cursos gratuitos de programación y desarrollo web",
+      "id": "microsoft-learn-free",
+      "title": "Microsoft Learn · formación técnica gratuita",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -215,6 +215,13 @@
       "status": 200
     },
     {
+      "id": "santander-marketing-automation-2026",
+      "title": "Fundamentos de Marketing Automation",
+      "ok": true,
+      "source": "Imagen oficial / Open Graph",
+      "status": 200
+    },
+    {
       "id": "live-mtpe-abc-digital",
       "title": "ABC Digital",
       "ok": true,
@@ -229,22 +236,8 @@
       "status": 200
     },
     {
-      "id": "santander-marketing-automation-2026",
-      "title": "Fundamentos de Marketing Automation",
-      "ok": true,
-      "source": "Captura de la fuente oficial",
-      "status": 200
-    },
-    {
       "id": "live-mtpe-analisis-de-datos-con-power-bi",
       "title": "Análisis de datos con Power BI",
-      "ok": true,
-      "source": "Captura de la fuente oficial",
-      "status": 200
-    },
-    {
-      "id": "live-mtpe-competencias-digita",
-      "title": "Competencias digita ...",
       "ok": true,
       "source": "Captura de la fuente oficial",
       "status": 200
@@ -257,10 +250,10 @@
       "status": 200
     },
     {
-      "id": "live-hubspot-certificacion-de-content-hub-para-marketers-certificacion-3-horas-marketing",
-      "title": "Certificación de Content Hub para marketers Certificación 3 horas Marketing",
+      "id": "live-mtpe-competencias-digita",
+      "title": "Competencias digita ...",
       "ok": true,
-      "source": "Imagen oficial / Open Graph",
+      "source": "Captura de la fuente oficial",
       "status": 200
     },
     {
@@ -268,6 +261,13 @@
       "title": "Habilidades digital ...",
       "ok": true,
       "source": "Captura de la fuente oficial",
+      "status": 200
+    },
+    {
+      "id": "live-hubspot-certificacion-de-content-hub-para-marketers-certificacion-3-horas-marketing",
+      "title": "Certificación de Content Hub para marketers Certificación 3 horas Marketing",
+      "ok": true,
+      "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
@@ -285,15 +285,15 @@
       "status": 200
     },
     {
-      "id": "live-hubspot-inbound-nuevo-certificacion-3-horas-marketing-ventas-service",
-      "title": "Inbound (Nuevo) Certificación 3 horas Marketing Ventas Service",
+      "id": "live-hubspot-habilitacion-de-ventas-certificacion-5-horas-ventas",
+      "title": "Habilitación de ventas Certificación 5 horas Ventas",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
-      "id": "live-hubspot-habilitacion-de-ventas-certificacion-5-horas-ventas",
-      "title": "Habilitación de ventas Certificación 5 horas Ventas",
+      "id": "live-hubspot-inbound-nuevo-certificacion-3-horas-marketing-ventas-service",
+      "title": "Inbound (Nuevo) Certificación 3 horas Marketing Ventas Service",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -320,6 +320,13 @@
       "status": 200
     },
     {
+      "id": "live-hubspot-ventas-sin-friccion-certificacion-2-horas-ventas",
+      "title": "Ventas sin fricción Certificación 2 horas Ventas",
+      "ok": true,
+      "source": "Imagen oficial / Open Graph",
+      "status": 200
+    },
+    {
       "id": "live-platzi-free-curso-de-pagos-abiertos-con-interledger",
       "title": "Curso de Pagos Abiertos con Interledger",
       "ok": true,
@@ -334,13 +341,6 @@
       "status": 200
     },
     {
-      "id": "live-hubspot-ventas-sin-friccion-certificacion-2-horas-ventas",
-      "title": "Ventas sin fricción Certificación 2 horas Ventas",
-      "ok": true,
-      "source": "Imagen oficial / Open Graph",
-      "status": 200
-    },
-    {
       "id": "live-platzi-free-curso-gratis-de-introduccion-a-la-inteligencia-artificial",
       "title": "Curso Gratis de Introducción a la Inteligencia Artificial",
       "ok": true,
@@ -348,15 +348,15 @@
       "status": 200
     },
     {
-      "id": "live-platzi-free-curso-gratis-de-marca-personal",
-      "title": "Curso Gratis de Marca Personal",
+      "id": "live-platzi-free-curso-gratis-de-lovable",
+      "title": "Curso Gratis de Lovable",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
-      "id": "live-platzi-free-curso-gratis-de-lovable",
-      "title": "Curso Gratis de Lovable",
+      "id": "live-platzi-free-curso-gratis-de-marca-personal",
+      "title": "Curso Gratis de Marca Personal",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -390,10 +390,10 @@
       "status": 200
     },
     {
-      "id": "community-ibm-skillsbuild-customer-engagement-fundamentals",
-      "title": "Customer Engagement Fundamentals",
+      "id": "google-developer-badges",
+      "title": "Google Developer Program · distintivos",
       "ok": true,
-      "source": "Imagen oficial / Open Graph",
+      "source": "Captura de la fuente oficial",
       "status": 200
     },
     {
@@ -411,13 +411,6 @@
       "status": 200
     },
     {
-      "id": "google-developer-badges",
-      "title": "Google Developer Program · distintivos",
-      "ok": true,
-      "source": "Captura de la fuente oficial",
-      "status": 200
-    },
-    {
       "id": "holamundo-open-content",
       "title": "HolaMundo · contenido abierto de programación",
       "ok": true,
@@ -425,8 +418,8 @@
       "status": 200
     },
     {
-      "id": "live-fazt-course-curso-de-opencode-2026-v1",
-      "title": "COURSE Curso de OpenCode 2026 v1",
+      "id": "live-fazt-course-curso-de-claude-code-2026",
+      "title": "COURSE Curso de Claude Code 2026",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -439,8 +432,8 @@
       "status": 200
     },
     {
-      "id": "live-fazt-course-curso-de-claude-code-2026",
-      "title": "COURSE Curso de Claude Code 2026",
+      "id": "live-fazt-course-curso-de-opencode-2026-v1",
+      "title": "COURSE Curso de OpenCode 2026 v1",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -474,17 +467,17 @@
       "status": 200
     },
     {
-      "id": "live-fazt-explorar-cursos",
-      "title": "Explorar cursos",
-      "ok": true,
-      "source": "Captura de la fuente oficial",
-      "status": 200
-    },
-    {
       "id": "live-fazt-course-vs-code-con-ia-guia-completa-para-programadores",
       "title": "COURSE VS Code con IA: guía completa para programadores",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
+      "status": 200
+    },
+    {
+      "id": "live-fazt-explorar-cursos",
+      "title": "Explorar cursos",
+      "ok": true,
+      "source": "Captura de la fuente oficial",
       "status": 200
     },
     {
@@ -495,17 +488,17 @@
       "status": 200
     },
     {
-      "id": "mongodb-university-free",
-      "title": "MongoDB University · cursos y Skill Badges gratuitos",
-      "ok": true,
-      "source": "Captura de la fuente oficial",
-      "status": 200
-    },
-    {
       "id": "github-skills-free",
       "title": "GitHub Skills · cursos interactivos gratuitos",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
+      "status": 200
+    },
+    {
+      "id": "mongodb-university-free",
+      "title": "MongoDB University · cursos y Skill Badges gratuitos",
+      "ok": true,
+      "source": "Captura de la fuente oficial",
       "status": 200
     },
     {
@@ -530,22 +523,8 @@
       "status": 200
     },
     {
-      "id": "live-mongodb-certification",
-      "title": "Certification",
-      "ok": true,
-      "source": "Captura de la fuente oficial",
-      "status": 200
-    },
-    {
-      "id": "live-mongodb-courses-and-certificationlearn-for-free-from-mongodb",
-      "title": "Courses and CertificationLearn for free from MongoDB",
-      "ok": true,
-      "source": "Captura de la fuente oficial",
-      "status": 200
-    },
-    {
-      "id": "live-mongodb-lab-zone",
-      "title": "Lab Zone",
+      "id": "live-mongodb-skills",
+      "title": "Skills",
       "ok": true,
       "source": "Captura de la fuente oficial",
       "status": 200
@@ -553,6 +532,13 @@
     {
       "id": "live-mongodb-list-of-self-paced-topics",
       "title": "list of self-paced topics",
+      "ok": true,
+      "source": "Captura de la fuente oficial",
+      "status": 200
+    },
+    {
+      "id": "live-mongodb-certification",
+      "title": "Certification",
       "ok": true,
       "source": "Captura de la fuente oficial",
       "status": 200
@@ -572,15 +558,15 @@
       "status": 200
     },
     {
-      "id": "live-sap-course-commerce-and-s-4hana-end-to-end-integration",
-      "title": "COURSE Commerce and S/4HANA End to End Integration",
+      "id": "live-mongodb-skills-and-certificationsdevelop-in-demand-skills-and-earn-mongodb-certifications",
+      "title": "Skills and CertificationsDevelop in-demand skills and earn MongoDB certifications",
       "ok": true,
-      "source": "Imagen oficial / Open Graph",
+      "source": "Captura de la fuente oficial",
       "status": 200
     },
     {
-      "id": "live-sap-course-explore-sap-successfactors-solutions",
-      "title": "COURSE Explore SAP SuccessFactors Solutions",
+      "id": "live-sap-course-commerce-and-s-4hana-end-to-end-integration",
+      "title": "COURSE Commerce and S/4HANA End to End Integration",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -593,15 +579,15 @@
       "status": 200
     },
     {
-      "id": "live-sap-course-positioning-sap-solutions-for-business-network-solutions",
-      "title": "COURSE Positioning SAP Solutions for Business Network Solutions",
+      "id": "live-sap-course-explore-sap-successfactors-solutions",
+      "title": "COURSE Explore SAP SuccessFactors Solutions",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
-      "id": "live-sap-financial-management",
-      "title": "Financial management",
+      "id": "live-sap-course-positioning-sap-solutions-for-business-network-solutions",
+      "title": "COURSE Positioning SAP Solutions for Business Network Solutions",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -616,13 +602,6 @@
     {
       "id": "live-sap-get-support",
       "title": "Get Support",
-      "ok": true,
-      "source": "Imagen oficial / Open Graph",
-      "status": 200
-    },
-    {
-      "id": "live-sap-human-capital-management",
-      "title": "Human capital management",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -670,20 +649,6 @@
       "status": 200
     },
     {
-      "id": "live-sap-sap-s-4hana-cloud-private-edition",
-      "title": "SAP S/4HANA Cloud Private Edition",
-      "ok": true,
-      "source": "Imagen oficial / Open Graph",
-      "status": 200
-    },
-    {
-      "id": "live-sap-sap-s-4hana-cloud-public-edition",
-      "title": "SAP S/4HANA Cloud Public Edition",
-      "ok": true,
-      "source": "Imagen oficial / Open Graph",
-      "status": 200
-    },
-    {
       "id": "live-sap-self-paced-courses",
       "title": "Self-paced courses",
       "ok": true,
@@ -691,22 +656,8 @@
       "status": 200
     },
     {
-      "id": "live-sap-supply-chain-management",
-      "title": "Supply chain management",
-      "ok": true,
-      "source": "Imagen oficial / Open Graph",
-      "status": 200
-    },
-    {
       "id": "live-sap-technology-platform-learn-integration-data-and-app-development-with-sap-btp",
       "title": "Technology platform Learn integration, data, and app development with SAP BTP.",
-      "ok": true,
-      "source": "Imagen oficial / Open Graph",
-      "status": 200
-    },
-    {
-      "id": "aws-training-badges",
-      "title": "AWS Training Badges",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -724,6 +675,13 @@
       "ok": true,
       "source": "Captura de la fuente oficial",
       "status": 403
+    },
+    {
+      "id": "aws-training-badges",
+      "title": "AWS Training Badges",
+      "ok": true,
+      "source": "Imagen oficial / Open Graph",
+      "status": 200
     },
     {
       "id": "microsoft-ai-agent-applied-skill",
@@ -747,15 +705,22 @@
       "status": 200
     },
     {
-      "id": "microsoft-agents-foundry-applied-skill",
-      "title": "Microsoft Applied Skills · Get started developing agents in Foundry",
+      "id": "saylor-free-certificates",
+      "title": "Saylor University · cursos con certificado gratuito",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
-      "id": "saylor-free-certificates",
-      "title": "Saylor University · cursos con certificado gratuito",
+      "id": "openlearn-catalog",
+      "title": "OpenLearn · cursos gratuitos y declaraciones de participación",
+      "ok": true,
+      "source": "Captura de la fuente oficial",
+      "status": 403
+    },
+    {
+      "id": "microsoft-agents-foundry-applied-skill",
+      "title": "Microsoft Applied Skills · Get started developing agents in Foundry",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -768,13 +733,6 @@
       "status": 403
     },
     {
-      "id": "openlearn-catalog",
-      "title": "OpenLearn · cursos gratuitos y declaraciones de participación",
-      "ok": true,
-      "source": "Captura de la fuente oficial",
-      "status": 403
-    },
-    {
       "id": "live-kaggle-advanced-sql-take-your-sql-skills-to-the-next-level",
       "title": "Advanced SQL Take your SQL skills to the next level.",
       "ok": true,
@@ -782,15 +740,15 @@
       "status": 200
     },
     {
-      "id": "live-kaggle-data-visualization-make-great-data-visualizations-a-great-way-to-see-the-power-of-coding",
-      "title": "Data Visualization Make great data visualizations. A great way to see the power of coding!",
+      "id": "live-kaggle-data-cleaning-master-efficient-workflows-for-cleaning-real-world-messy-data",
+      "title": "Data Cleaning Master efficient workflows for cleaning real-world, messy data.",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
-      "id": "live-kaggle-data-cleaning-master-efficient-workflows-for-cleaning-real-world-messy-data",
-      "title": "Data Cleaning Master efficient workflows for cleaning real-world, messy data.",
+      "id": "live-kaggle-data-visualization-make-great-data-visualizations-a-great-way-to-see-the-power-of-coding",
+      "title": "Data Visualization Make great data visualizations. A great way to see the power of coding!",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -887,15 +845,15 @@
       "status": 200
     },
     {
-      "id": "live-saylor-courses-programs",
-      "title": "Courses & Programs",
+      "id": "live-neo4j-neo4j-certified-professional-1h-80-questions-80-to-pass-prove-your-neo4j-credentials-with-an-accredited-certif",
+      "title": "Neo4j Certified Professional 1H 80 QUESTIONS 80% TO PASS Prove your Neo4j credentials with an accredited certification from Neo4j Register to take the exam",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
-      "id": "live-neo4j-neo4j-certified-professional-1h-80-questions-80-to-pass-prove-your-neo4j-credentials-with-an-accredited-certif",
-      "title": "Neo4j Certified Professional 1H 80 QUESTIONS 80% TO PASS Prove your Neo4j credentials with an accredited certification from Neo4j Register to take the exam",
+      "id": "live-saylor-courses-programs",
+      "title": "Courses & Programs",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -943,15 +901,15 @@
       "status": 200
     },
     {
-      "id": "live-saylor-cs301-computer-architecture",
-      "title": "CS301: Computer Architecture",
+      "id": "live-saylor-cs260-introduction-to-cryptography-and-network-security",
+      "title": "CS260: Introduction to Cryptography and Network Security",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
-      "id": "live-saylor-cs260-introduction-to-cryptography-and-network-security",
-      "title": "CS260: Introduction to Cryptography and Network Security",
+      "id": "live-saylor-cs301-computer-architecture",
+      "title": "CS301: Computer Architecture",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -971,15 +929,15 @@
       "status": 200
     },
     {
-      "id": "live-saylor-cs406-information-security",
-      "title": "CS406: Information Security",
+      "id": "live-saylor-cs403-introduction-to-modern-database-systems",
+      "title": "CS403: Introduction to Modern Database Systems",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
-      "id": "live-saylor-cs403-introduction-to-modern-database-systems",
-      "title": "CS403: Introduction to Modern Database Systems",
+      "id": "live-saylor-cs406-information-security",
+      "title": "CS406: Information Security",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -1006,15 +964,15 @@
       "status": 200
     },
     {
-      "id": "community-cognitive-class-big-data-foundations-level-1",
-      "title": "Big Data Foundations - Level 1",
+      "id": "community-atlassian-university-learning-atlassian-community",
+      "title": "Learning - Atlassian Community",
       "ok": true,
       "source": "Captura de la fuente oficial",
       "status": 200
     },
     {
-      "id": "community-atlassian-university-learning-atlassian-community",
-      "title": "Learning - Atlassian Community",
+      "id": "community-cognitive-class-big-data-foundations-level-1",
+      "title": "Big Data Foundations - Level 1",
       "ok": true,
       "source": "Captura de la fuente oficial",
       "status": 200
@@ -1125,15 +1083,15 @@
       "status": 200
     },
     {
-      "id": "community-cognitive-class-statistics-101",
-      "title": "Statistics 101",
+      "id": "community-cognitive-class-spark-fundamentals-i",
+      "title": "Spark Fundamentals I",
       "ok": true,
       "source": "Captura de la fuente oficial",
       "status": 200
     },
     {
-      "id": "community-cognitive-class-spark-fundamentals-i",
-      "title": "Spark Fundamentals I",
+      "id": "community-cognitive-class-statistics-101",
+      "title": "Statistics 101",
       "ok": true,
       "source": "Captura de la fuente oficial",
       "status": 200
@@ -1146,8 +1104,8 @@
       "status": 200
     },
     {
-      "id": "community-hp-life-ai-for-beginners",
-      "title": "AI for Beginners",
+      "id": "community-freecodecamp-data-analysis-with-python-certification",
+      "title": "Data Analysis with Python Certification",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -1155,6 +1113,13 @@
     {
       "id": "community-hp-life-agile-project-management",
       "title": "Agile Project Management",
+      "ok": true,
+      "source": "Imagen oficial / Open Graph",
+      "status": 200
+    },
+    {
+      "id": "community-hp-life-ai-for-beginners",
+      "title": "AI for Beginners",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -1174,15 +1139,15 @@
       "status": 200
     },
     {
-      "id": "community-hp-life-cash-flow",
-      "title": "Cash Flow",
+      "id": "community-hp-life-business-email",
+      "title": "Business Email",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
-      "id": "community-hp-life-business-email",
-      "title": "Business Email",
+      "id": "community-hp-life-cash-flow",
+      "title": "Cash Flow",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -1216,13 +1181,6 @@
       "status": 200
     },
     {
-      "id": "community-hp-life-effective-leadership",
-      "title": "Effective Leadership",
-      "ok": true,
-      "source": "Imagen oficial / Open Graph",
-      "status": 200
-    },
-    {
       "id": "community-hp-life-effective-business-websites",
       "title": "Effective Business Websites",
       "ok": true,
@@ -1244,6 +1202,13 @@
       "status": 200
     },
     {
+      "id": "community-hp-life-effective-leadership",
+      "title": "Effective Leadership",
+      "ok": true,
+      "source": "Imagen oficial / Open Graph",
+      "status": 200
+    },
+    {
       "id": "community-hp-life-introduction-to-cybersecurity-awareness",
       "title": "Introduction to Cybersecurity Awareness",
       "ok": true,
@@ -1258,15 +1223,15 @@
       "status": 200
     },
     {
-      "id": "community-hp-life-profit-and-loss",
-      "title": "Profit and Loss",
+      "id": "community-hp-life-professional-networking-for-career-growth",
+      "title": "Professional Networking for Career Growth",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
-      "id": "community-hp-life-professional-networking-for-career-growth",
-      "title": "Professional Networking for Career Growth",
+      "id": "community-hp-life-profit-and-loss",
+      "title": "Profit and Loss",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -1279,6 +1244,13 @@
       "status": 200
     },
     {
+      "id": "community-hp-life-selling-online",
+      "title": "Selling Online",
+      "ok": true,
+      "source": "Imagen oficial / Open Graph",
+      "status": 200
+    },
+    {
       "id": "community-hp-life-social-entrepreneurship",
       "title": "Social Entrepreneurship",
       "ok": true,
@@ -1286,8 +1258,8 @@
       "status": 200
     },
     {
-      "id": "community-hp-life-selling-online",
-      "title": "Selling Online",
+      "id": "community-hp-life-unique-value-proposition",
+      "title": "Unique Value Proposition",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -1307,8 +1279,15 @@
       "status": 200
     },
     {
-      "id": "community-hp-life-unique-value-proposition",
-      "title": "Unique Value Proposition",
+      "id": "community-ibm-skillsbuild-customer-engagement-fundamentals",
+      "title": "Customer Engagement Fundamentals",
+      "ok": true,
+      "source": "Imagen oficial / Open Graph",
+      "status": 200
+    },
+    {
+      "id": "community-hubspot-academy-service-hub-software-certification",
+      "title": "Service Hub Software Certification",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -1328,13 +1307,6 @@
       "status": 200
     },
     {
-      "id": "community-hubspot-academy-service-hub-software-certification",
-      "title": "Service Hub Software Certification",
-      "ok": true,
-      "source": "Imagen oficial / Open Graph",
-      "status": 200
-    },
-    {
       "id": "community-knime-knime-90-day-data-skills-certification-challenge",
       "title": "KNIME 90-Day Data Skills Certification Challenge",
       "ok": true,
@@ -1342,15 +1314,15 @@
       "status": 200
     },
     {
-      "id": "community-saylor-university-bitcoin-for-developers",
-      "title": "Bitcoin for Developers",
+      "id": "community-saylor-university-cs202-discrete-structures",
+      "title": "CS202: Discrete Structures",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
-      "id": "community-saylor-university-cs202-discrete-structures",
-      "title": "CS202: Discrete Structures",
+      "id": "community-saylor-university-bitcoin-for-developers",
+      "title": "Bitcoin for Developers",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
