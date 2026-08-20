@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Campus Maestro</string>
+    <string name="title_activity_main">Campus Maestro</string>
+    <string name="package_name">dev.campusmaestro.app</string>
+    <string name="custom_url_scheme">dev.campusmaestro.app</string>
+</resources>

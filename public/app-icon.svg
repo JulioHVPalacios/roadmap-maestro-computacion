@@ -1,0 +1,34 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0a1a12;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="ring" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10845f;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0ec96e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="cm-text" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#b8f0d4;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Fondo con esquinas redondeadas (Android adaptive icon safe zone) -->
+  <rect width="1024" height="1024" rx="220" ry="220" fill="url(#bg)"/>
+  <!-- Anillo exterior decorativo -->
+  <circle cx="512" cy="512" r="420" fill="none" stroke="url(#ring)" stroke-width="6" opacity="0.3"/>
+  <!-- Anillo interior -->
+  <circle cx="512" cy="512" r="370" fill="none" stroke="url(#ring)" stroke-width="3" opacity="0.2"/>
+  <!-- Símbolo: mortero de graduación estilizado -->
+  <rect x="362" y="460" width="300" height="28" rx="14" fill="url(#ring)"/>
+  <polygon points="512,300 692,420 512,440 332,420" fill="none" stroke="url(#ring)" stroke-width="20" stroke-linejoin="round"/>
+  <polygon points="512,320 672,425 512,440 352,425" fill="url(#ring)" opacity="0.15"/>
+  <!-- Tablero del mortero -->
+  <rect x="372" y="340" width="280" height="100" rx="8" fill="url(#ring)" opacity="0.08"/>
+  <!-- Texto CM -->
+  <text x="512" y="640" text-anchor="middle" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-weight="700" font-size="148" fill="url(#cm-text)" letter-spacing="-4">CM</text>
+  <!-- Punto verde indicador de estatus -->
+  <circle cx="680" cy="720" r="22" fill="#0ec96e"/>
+  <!-- Línea decorativa inferior -->
+  <rect x="382" y="730" width="260" height="4" rx="2" fill="url(#ring)" opacity="0.4"/>
+</svg>
