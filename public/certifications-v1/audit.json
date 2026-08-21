@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-20T11:57:25.882Z",
+  "generatedAt": "2026-08-21T11:57:01.583Z",
   "seed": 54,
-  "officialDiscoveredRaw": 101,
-  "officialValidated": 94,
+  "officialDiscoveredRaw": 105,
+  "officialValidated": 98,
   "communityCandidates": 137,
   "communityValidated": 77,
-  "published": 192,
+  "published": 196,
   "audit": [
     {
       "id": "ibm-digital-credentials",
@@ -609,7 +609,7 @@
       "httpStatus": 200
     },
     {
-      "id": "live-mongodb-skills-and-certificationsdevelop-in-demand-skills-and-earn-mongodb-certifications",
+      "id": "live-mongodb-courses-and-certificationlearn-for-free-from-mongodb",
       "sourceType": "discovered",
       "url": "https://learn.mongodb.com",
       "finalUrl": "https://learn.mongodb.com",
@@ -617,10 +617,10 @@
       "httpStatus": 200
     },
     {
-      "id": "live-mongodb-skills",
+      "id": "live-mongodb-lab-zone",
       "sourceType": "discovered",
-      "url": "https://learn.mongodb.com/skills",
-      "finalUrl": "https://learn.mongodb.com/skills",
+      "url": "https://learn.mongodb.com/pages/lab-zone",
+      "finalUrl": "https://learn.mongodb.com/pages/lab-zone",
       "status": "active",
       "httpStatus": 200
     },
@@ -943,6 +943,46 @@
       "httpStatus": 200
     },
     {
+      "id": "live-sap-sap-s-4hana-cloud-public-edition",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/products/s4hana-cloud",
+      "finalUrl": "https://learning.sap.com/products/s4hana-cloud",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-sap-sap-s-4hana-cloud-private-edition",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/products/s4hana-cloud-private",
+      "finalUrl": "https://learning.sap.com/products/s4hana-cloud-private",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-sap-supply-chain-management",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/products/supply-chain-management",
+      "finalUrl": "https://learning.sap.com/products/supply-chain-management",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-sap-financial-management",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/products/financial-management",
+      "finalUrl": "https://learning.sap.com/products/financial-management",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-sap-human-capital-management",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/products/human-capital-management",
+      "finalUrl": "https://learning.sap.com/products/human-capital-management",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
       "id": "live-microsoft-applied-ir-al-contenido-principal",
       "sourceType": "discovered",
       "url": "https://learn.microsoft.com/es-es/credentials/applied-skills",
@@ -952,14 +992,6 @@
     },
     {
       "id": "live-platzi-free-toma-las-primeras-clases-gratis",
-      "sourceType": "discovered",
-      "url": "https://platzi.com/cursos/basico-programacion",
-      "finalUrl": "https://platzi.com/cursos/basico-programacion",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-platzi-free-curso-gratis-de-programacion-basica",
       "sourceType": "discovered",
       "url": "https://platzi.com/cursos/programacion-basica",
       "finalUrl": "https://platzi.com/cursos/programacion-basica",
@@ -985,7 +1017,7 @@
     {
       "id": "live-platzi-free-curso-gratis-de-introduccion-a-la-inteligencia-artificial",
       "sourceType": "discovered",
-      "url": "https://platzi.com/cursos/introduccion-ai",
+      "url": "https://platzi.com/cursos/intro-ai",
       "finalUrl": "https://platzi.com/cursos/intro-ai",
       "status": "active",
       "httpStatus": 200
@@ -1839,10 +1871,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Data Analysis with Python Certification",
       "url": "https://www.freecodecamp.org/learn/data-analysis-with-python",
-      "status": "accepted",
-      "provider": "freeCodeCamp",
-      "kind": "Certificación",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/data-analysis-with-python/"
     },
@@ -2035,8 +2065,10 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Front-End Libraries Certification",
       "url": "https://www.freecodecamp.org/learn/front-end-development-libraries",
-      "status": "rejected",
-      "reason": "no-free-credential-evidence",
+      "status": "accepted",
+      "provider": "freeCodeCamp",
+      "kind": "Certificación",
+      "language": "EN",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/front-end-development-libraries/"
     },
@@ -2643,7 +2675,7 @@
       "status": "rejected",
       "reason": "no-free-credential-evidence",
       "httpStatus": 200,
-      "finalUrl": "https://www.apollographql.com/tutorials/certifications/apollo-graph-associate"
+      "finalUrl": "https://www.apollographql.com/tutorials/certifications/apollo-graph-associate/"
     },
     {
       "sourceType": "community",
