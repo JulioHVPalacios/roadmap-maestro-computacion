@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-24T11:57:59.681Z",
+  "generatedAt": "2026-08-25T11:59:21.905Z",
   "seed": 54,
-  "officialDiscoveredRaw": 100,
-  "officialValidated": 94,
+  "officialDiscoveredRaw": 101,
+  "officialValidated": 95,
   "communityCandidates": 137,
-  "communityValidated": 76,
-  "published": 191,
+  "communityValidated": 77,
+  "published": 192,
   "audit": [
     {
       "id": "ibm-digital-credentials",
@@ -596,6 +596,46 @@
       "sourceType": "discovered",
       "url": "https://learn.mongodb.com/catalog?labels=%5B%22Free%2FPaid%22%5D&values=%5B%22Free%22%5D",
       "finalUrl": "https://learn.mongodb.com/catalog?labels=%5B%22Free%2FPaid%22%5D&values=%5B%22Free%22%5D",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-mongodb-certification",
+      "sourceType": "discovered",
+      "url": "https://learn.mongodb.com/pages/certification-program",
+      "finalUrl": "https://learn.mongodb.com/pages/certification-program",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-mongodb-courses-and-certificationlearn-for-free-from-mongodb",
+      "sourceType": "discovered",
+      "url": "https://learn.mongodb.com",
+      "finalUrl": "https://learn.mongodb.com",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-mongodb-lab-zone",
+      "sourceType": "discovered",
+      "url": "https://learn.mongodb.com/pages/lab-zone",
+      "finalUrl": "https://learn.mongodb.com/pages/lab-zone",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-mongodb-list-of-self-paced-topics",
+      "sourceType": "discovered",
+      "url": "https://learn.mongodb.com/self-paced-topics",
+      "finalUrl": "https://learn.mongodb.com/self-paced-topics",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-mongodb-free",
+      "sourceType": "discovered",
+      "url": "https://learn.mongodb.com/catalog?labels=%5B%5D&page=1&values=%5B%5D",
+      "finalUrl": "https://learn.mongodb.com/catalog?labels=%5B%5D&page=1&values=%5B%5D",
       "status": "rejected",
       "reason": "no-learning-evidence",
       "httpStatus": 200
@@ -740,6 +780,14 @@
       "sourceType": "discovered",
       "url": "https://training.fortinet.com/local/staticpage/view.php?page=certifications",
       "finalUrl": "https://www.fortinet.com/training-certification",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-sap-get-started",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/teched",
+      "finalUrl": "https://learning.sap.com/teched",
       "status": "active",
       "httpStatus": 200
     },
@@ -898,46 +946,6 @@
       "sourceType": "discovered",
       "url": "https://learning.sap.com/release-notes",
       "finalUrl": "https://learning.sap.com/release-notes",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-sap-sap-s-4hana-cloud-public-edition",
-      "sourceType": "discovered",
-      "url": "https://learning.sap.com/products/s4hana-cloud",
-      "finalUrl": "https://learning.sap.com/products/s4hana-cloud",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-sap-sap-s-4hana-cloud-private-edition",
-      "sourceType": "discovered",
-      "url": "https://learning.sap.com/products/s4hana-cloud-private",
-      "finalUrl": "https://learning.sap.com/products/s4hana-cloud-private",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-sap-supply-chain-management",
-      "sourceType": "discovered",
-      "url": "https://learning.sap.com/products/supply-chain-management",
-      "finalUrl": "https://learning.sap.com/products/supply-chain-management",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-sap-financial-management",
-      "sourceType": "discovered",
-      "url": "https://learning.sap.com/products/financial-management",
-      "finalUrl": "https://learning.sap.com/products/financial-management",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-sap-human-capital-management",
-      "sourceType": "discovered",
-      "url": "https://learning.sap.com/products/human-capital-management",
-      "finalUrl": "https://learning.sap.com/products/human-capital-management",
       "status": "active",
       "httpStatus": 200
     },
@@ -1653,7 +1661,7 @@
       "status": "accepted",
       "provider": "HubSpot Academy",
       "kind": "Certificación",
-      "language": "ES",
+      "language": "EN",
       "httpStatus": 200,
       "finalUrl": "https://academy.hubspot.com/courses/hubspot-service-software"
     },
@@ -1830,8 +1838,10 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Data Analysis with Python Certification",
       "url": "https://www.freecodecamp.org/learn/data-analysis-with-python",
-      "status": "rejected",
-      "reason": "no-free-credential-evidence",
+      "status": "accepted",
+      "provider": "freeCodeCamp",
+      "kind": "Certificación",
+      "language": "EN",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/data-analysis-with-python/"
     },
@@ -2024,8 +2034,10 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Front-End Libraries Certification",
       "url": "https://www.freecodecamp.org/learn/front-end-development-libraries",
-      "status": "rejected",
-      "reason": "no-free-credential-evidence",
+      "status": "accepted",
+      "provider": "freeCodeCamp",
+      "kind": "Certificación",
+      "language": "EN",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/front-end-development-libraries/"
     },
@@ -2482,10 +2494,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Introduction to Cybersecurity Awareness",
       "url": "https://www.life-global.org/course/346-introduction-to-cybersecurity-awareness",
-      "status": "accepted",
-      "provider": "HP LIFE",
-      "kind": "Certificación",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.life-global.org/course/346-introduction-to-cybersecurity-awareness"
     },
