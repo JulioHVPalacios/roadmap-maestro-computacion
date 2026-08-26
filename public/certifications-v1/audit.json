@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-25T11:59:21.905Z",
+  "generatedAt": "2026-08-26T12:00:10.680Z",
   "seed": 54,
-  "officialDiscoveredRaw": 101,
-  "officialValidated": 95,
+  "officialDiscoveredRaw": 93,
+  "officialValidated": 87,
   "communityCandidates": 137,
-  "communityValidated": 77,
-  "published": 192,
+  "communityValidated": 75,
+  "published": 186,
   "audit": [
     {
       "id": "ibm-digital-credentials",
@@ -440,102 +440,6 @@
       "status": "active"
     },
     {
-      "id": "live-hubspot-inbound-nuevo-certificacion-3-horas-marketing-ventas-service",
-      "sourceType": "discovered",
-      "url": "https://academy.hubspot.com/es/courses/inbound",
-      "finalUrl": "https://academy.hubspot.com/es/courses/inbound",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-hubspot-curso-de-certificacion-de-marketing-en-redes-sociales-certificacion-6-horas-marketing",
-      "sourceType": "discovered",
-      "url": "https://academy.hubspot.com/es/courses/social-media",
-      "finalUrl": "https://academy.hubspot.com/es/courses/social-media",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-hubspot-marketing-digital-certificacion-6-horas-marketing",
-      "sourceType": "discovered",
-      "url": "https://academy.hubspot.com/es/courses/digital-marketing",
-      "finalUrl": "https://academy.hubspot.com/es/courses/digital-marketing",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-hubspot-inbound-marketing-certificacion-5-horas-marketing",
-      "sourceType": "discovered",
-      "url": "https://academy.hubspot.com/es/courses/inbound-marketing",
-      "finalUrl": "https://academy.hubspot.com/es/courses/inbound-marketing",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-hubspot-marketing-de-contenidos-certificacion-9-horas-marketing",
-      "sourceType": "discovered",
-      "url": "https://academy.hubspot.com/es/courses/content-marketing",
-      "finalUrl": "https://academy.hubspot.com/es/courses/content-marketing",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-hubspot-ventas-inbound-certificacion-3-horas-ventas",
-      "sourceType": "discovered",
-      "url": "https://academy.hubspot.com/es/courses/inbound-sales",
-      "finalUrl": "https://academy.hubspot.com/es/courses/inbound-sales",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-hubspot-ventas-sin-friccion-certificacion-2-horas-ventas",
-      "sourceType": "discovered",
-      "url": "https://academy.hubspot.com/es/courses/frictionless-sales",
-      "finalUrl": "https://academy.hubspot.com/es/courses/frictionless-sales",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-hubspot-habilitacion-de-ventas-certificacion-5-horas-ventas",
-      "sourceType": "discovered",
-      "url": "https://academy.hubspot.com/es/courses/sales-enablement",
-      "finalUrl": "https://academy.hubspot.com/es/courses/sales-enablement",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-hubspot-optimizacion-del-inbound-marketing-certificacion-5-horas-marketing",
-      "sourceType": "discovered",
-      "url": "https://academy.hubspot.com/es/courses/inbound-marketing-optimization",
-      "finalUrl": "https://academy.hubspot.com/es/courses/inbound-marketing-optimization",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-hubspot-certificacion-de-content-hub-para-marketers-certificacion-3-horas-marketing",
-      "sourceType": "discovered",
-      "url": "https://academy.hubspot.com/es/courses/hubspot-content-hub-software-es",
-      "finalUrl": "https://academy.hubspot.com/es/courses/hubspot-content-hub-software-es",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-hubspot-certificacion-en-optimizacion-para-motores-de-respuesta-aeo-certificacion-4-horas-marketing",
-      "sourceType": "discovered",
-      "url": "https://academy.hubspot.com/es/courses/aeo-fundamentals-certification",
-      "finalUrl": "https://academy.hubspot.com/es/courses/aeo-fundamentals-certification",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-hubspot-certificacion-en-implementacion-de-aeo-con-hubspot-certificacion-3-horas",
-      "sourceType": "discovered",
-      "url": "https://academy.hubspot.com/es/courses/implementing-aeo-with-hubspot-certification",
-      "finalUrl": "https://academy.hubspot.com/es/courses/implementing-aeo-with-hubspot-certification",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
       "id": "live-mtpe-competencias-digita",
       "sourceType": "discovered",
       "url": "https://capacitacionlaboral.trabajo.gob.pe/rutas/competencias-digitales-basicas-para-el-empleo",
@@ -596,7 +500,8 @@
       "sourceType": "discovered",
       "url": "https://learn.mongodb.com/catalog?labels=%5B%22Free%2FPaid%22%5D&values=%5B%22Free%22%5D",
       "finalUrl": "https://learn.mongodb.com/catalog?labels=%5B%22Free%2FPaid%22%5D&values=%5B%22Free%22%5D",
-      "status": "active",
+      "status": "rejected",
+      "reason": "no-learning-evidence",
       "httpStatus": 200
     },
     {
@@ -636,8 +541,7 @@
       "sourceType": "discovered",
       "url": "https://learn.mongodb.com/catalog?labels=%5B%5D&page=1&values=%5B%5D",
       "finalUrl": "https://learn.mongodb.com/catalog?labels=%5B%5D&page=1&values=%5B%5D",
-      "status": "rejected",
-      "reason": "no-learning-evidence",
+      "status": "active",
       "httpStatus": 200
     },
     {
@@ -946,6 +850,38 @@
       "sourceType": "discovered",
       "url": "https://learning.sap.com/release-notes",
       "finalUrl": "https://learning.sap.com/release-notes",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-sap-sap-s-4hana-cloud-public-edition",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/products/s4hana-cloud",
+      "finalUrl": "https://learning.sap.com/products/s4hana-cloud",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-sap-sap-s-4hana-cloud-private-edition",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/products/s4hana-cloud-private",
+      "finalUrl": "https://learning.sap.com/products/s4hana-cloud-private",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-sap-supply-chain-management",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/products/supply-chain-management",
+      "finalUrl": "https://learning.sap.com/products/supply-chain-management",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-sap-financial-management",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/products/financial-management",
+      "finalUrl": "https://learning.sap.com/products/financial-management",
       "status": "active",
       "httpStatus": 200
     },
@@ -1661,7 +1597,7 @@
       "status": "accepted",
       "provider": "HubSpot Academy",
       "kind": "Certificación",
-      "language": "EN",
+      "language": "ES",
       "httpStatus": 200,
       "finalUrl": "https://academy.hubspot.com/courses/hubspot-service-software"
     },
@@ -1838,10 +1774,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Data Analysis with Python Certification",
       "url": "https://www.freecodecamp.org/learn/data-analysis-with-python",
-      "status": "accepted",
-      "provider": "freeCodeCamp",
-      "kind": "Certificación",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/data-analysis-with-python/"
     },
@@ -2034,10 +1968,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Front-End Libraries Certification",
       "url": "https://www.freecodecamp.org/learn/front-end-development-libraries",
-      "status": "accepted",
-      "provider": "freeCodeCamp",
-      "kind": "Certificación",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/front-end-development-libraries/"
     },
