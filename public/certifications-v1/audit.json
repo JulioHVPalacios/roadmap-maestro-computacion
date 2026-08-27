@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-26T12:00:10.680Z",
+  "generatedAt": "2026-08-27T21:08:38.145Z",
   "seed": 54,
-  "officialDiscoveredRaw": 93,
-  "officialValidated": 87,
+  "officialDiscoveredRaw": 107,
+  "officialValidated": 101,
   "communityCandidates": 137,
-  "communityValidated": 75,
-  "published": 186,
+  "communityValidated": 77,
+  "published": 198,
   "audit": [
     {
       "id": "ibm-digital-credentials",
@@ -440,6 +440,102 @@
       "status": "active"
     },
     {
+      "id": "live-hubspot-inbound-nuevo-certificacion-3-horas-marketing-ventas-service",
+      "sourceType": "discovered",
+      "url": "https://academy.hubspot.com/es/courses/inbound",
+      "finalUrl": "https://academy.hubspot.com/es/courses/inbound",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-hubspot-curso-de-certificacion-de-marketing-en-redes-sociales-certificacion-6-horas-marketing",
+      "sourceType": "discovered",
+      "url": "https://academy.hubspot.com/es/courses/social-media",
+      "finalUrl": "https://academy.hubspot.com/es/courses/social-media",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-hubspot-marketing-digital-certificacion-6-horas-marketing",
+      "sourceType": "discovered",
+      "url": "https://academy.hubspot.com/es/courses/digital-marketing",
+      "finalUrl": "https://academy.hubspot.com/es/courses/digital-marketing",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-hubspot-inbound-marketing-certificacion-5-horas-marketing",
+      "sourceType": "discovered",
+      "url": "https://academy.hubspot.com/es/courses/inbound-marketing",
+      "finalUrl": "https://academy.hubspot.com/es/courses/inbound-marketing",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-hubspot-marketing-de-contenidos-certificacion-9-horas-marketing",
+      "sourceType": "discovered",
+      "url": "https://academy.hubspot.com/es/courses/content-marketing",
+      "finalUrl": "https://academy.hubspot.com/es/courses/content-marketing",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-hubspot-ventas-inbound-certificacion-3-horas-ventas",
+      "sourceType": "discovered",
+      "url": "https://academy.hubspot.com/es/courses/inbound-sales",
+      "finalUrl": "https://academy.hubspot.com/es/courses/inbound-sales",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-hubspot-ventas-sin-friccion-certificacion-2-horas-ventas",
+      "sourceType": "discovered",
+      "url": "https://academy.hubspot.com/es/courses/frictionless-sales",
+      "finalUrl": "https://academy.hubspot.com/es/courses/frictionless-sales",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-hubspot-habilitacion-de-ventas-certificacion-5-horas-ventas",
+      "sourceType": "discovered",
+      "url": "https://academy.hubspot.com/es/courses/sales-enablement",
+      "finalUrl": "https://academy.hubspot.com/es/courses/sales-enablement",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-hubspot-optimizacion-del-inbound-marketing-certificacion-5-horas-marketing",
+      "sourceType": "discovered",
+      "url": "https://academy.hubspot.com/es/courses/inbound-marketing-optimization",
+      "finalUrl": "https://academy.hubspot.com/es/courses/inbound-marketing-optimization",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-hubspot-certificacion-de-content-hub-para-marketers-certificacion-3-horas-marketing",
+      "sourceType": "discovered",
+      "url": "https://academy.hubspot.com/es/courses/hubspot-content-hub-software-es",
+      "finalUrl": "https://academy.hubspot.com/es/courses/hubspot-content-hub-software-es",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-hubspot-certificacion-en-optimizacion-para-motores-de-respuesta-aeo-certificacion-4-horas-marketing",
+      "sourceType": "discovered",
+      "url": "https://academy.hubspot.com/es/courses/aeo-fundamentals-certification",
+      "finalUrl": "https://academy.hubspot.com/es/courses/aeo-fundamentals-certification",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-hubspot-certificacion-en-implementacion-de-aeo-con-hubspot-certificacion-3-horas",
+      "sourceType": "discovered",
+      "url": "https://academy.hubspot.com/es/courses/implementing-aeo-with-hubspot-certification",
+      "finalUrl": "https://academy.hubspot.com/es/courses/implementing-aeo-with-hubspot-certification",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
       "id": "live-mtpe-competencias-digita",
       "sourceType": "discovered",
       "url": "https://capacitacionlaboral.trabajo.gob.pe/rutas/competencias-digitales-basicas-para-el-empleo",
@@ -513,7 +609,7 @@
       "httpStatus": 200
     },
     {
-      "id": "live-mongodb-courses-and-certificationlearn-for-free-from-mongodb",
+      "id": "live-mongodb-skills-and-certificationsdevelop-in-demand-skills-and-earn-mongodb-certifications",
       "sourceType": "discovered",
       "url": "https://learn.mongodb.com",
       "finalUrl": "https://learn.mongodb.com",
@@ -521,10 +617,10 @@
       "httpStatus": 200
     },
     {
-      "id": "live-mongodb-lab-zone",
+      "id": "live-mongodb-skills",
       "sourceType": "discovered",
-      "url": "https://learn.mongodb.com/pages/lab-zone",
-      "finalUrl": "https://learn.mongodb.com/pages/lab-zone",
+      "url": "https://learn.mongodb.com/skills",
+      "finalUrl": "https://learn.mongodb.com/skills",
       "status": "active",
       "httpStatus": 200
     },
@@ -548,7 +644,15 @@
       "id": "live-saylor-courses-programs",
       "sourceType": "discovered",
       "url": "https://learn.saylor.org/course/index.php?categoryid=9",
-      "finalUrl": "https://learn.saylor.org/course/index.php?categoryid=9",
+      "finalUrl": "https://learn.saylor.org/course/category/9/computer+science",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-saylor-computer-science",
+      "sourceType": "discovered",
+      "url": "https://learn.saylor.org/course/category/9/computer+science",
+      "finalUrl": "https://learn.saylor.org/course/category/9/computer+science",
       "status": "active",
       "httpStatus": 200
     },
@@ -579,88 +683,96 @@
     {
       "id": "live-saylor-cs101-introduction-to-programming-i",
       "sourceType": "discovered",
-      "url": "https://learn.saylor.org/course/view.php?id=1146",
-      "finalUrl": "https://learn.saylor.org/course/view.php?id=1146",
+      "url": "https://learn.saylor.org/course/cs101",
+      "finalUrl": "https://learn.saylor.org/course/cs101",
       "status": "active",
       "httpStatus": 200
     },
     {
       "id": "live-saylor-cs102-introduction-to-programming-ii",
       "sourceType": "discovered",
-      "url": "https://learn.saylor.org/course/view.php?id=1364",
-      "finalUrl": "https://learn.saylor.org/course/view.php?id=1364",
+      "url": "https://learn.saylor.org/course/cs102",
+      "finalUrl": "https://learn.saylor.org/course/cs102",
       "status": "active",
       "httpStatus": 200
     },
     {
       "id": "live-saylor-cs107-c-programming",
       "sourceType": "discovered",
-      "url": "https://learn.saylor.org/course/view.php?id=65",
-      "finalUrl": "https://learn.saylor.org/course/view.php?id=65",
+      "url": "https://learn.saylor.org/course/cs107",
+      "finalUrl": "https://learn.saylor.org/course/cs107",
       "status": "active",
       "httpStatus": 200
     },
     {
       "id": "live-saylor-cs201-elementary-data-structures",
       "sourceType": "discovered",
-      "url": "https://learn.saylor.org/course/view.php?id=1307",
-      "finalUrl": "https://learn.saylor.org/course/view.php?id=1307",
+      "url": "https://learn.saylor.org/course/cs201",
+      "finalUrl": "https://learn.saylor.org/course/cs201",
       "status": "active",
       "httpStatus": 200
     },
     {
       "id": "live-saylor-cs250-python-for-data-science",
       "sourceType": "discovered",
-      "url": "https://learn.saylor.org/course/view.php?id=504",
-      "finalUrl": "https://learn.saylor.org/course/view.php?id=504",
+      "url": "https://learn.saylor.org/course/cs250",
+      "finalUrl": "https://learn.saylor.org/course/cs250",
       "status": "active",
       "httpStatus": 200
     },
     {
       "id": "live-saylor-cs260-introduction-to-cryptography-and-network-security",
       "sourceType": "discovered",
-      "url": "https://learn.saylor.org/course/view.php?id=805",
-      "finalUrl": "https://learn.saylor.org/course/view.php?id=805",
+      "url": "https://learn.saylor.org/course/cs260",
+      "finalUrl": "https://learn.saylor.org/course/cs260",
       "status": "active",
       "httpStatus": 200
     },
     {
       "id": "live-saylor-cs301-computer-architecture",
       "sourceType": "discovered",
-      "url": "https://learn.saylor.org/course/view.php?id=71",
-      "finalUrl": "https://learn.saylor.org/course/view.php?id=71",
+      "url": "https://learn.saylor.org/course/cs301",
+      "finalUrl": "https://learn.saylor.org/course/cs301",
       "status": "active",
       "httpStatus": 200
     },
     {
       "id": "live-saylor-cs302-software-engineering",
       "sourceType": "discovered",
-      "url": "https://learn.saylor.org/course/view.php?id=788",
-      "finalUrl": "https://learn.saylor.org/course/view.php?id=788",
+      "url": "https://learn.saylor.org/course/cs302",
+      "finalUrl": "https://learn.saylor.org/course/cs302",
       "status": "active",
       "httpStatus": 200
     },
     {
       "id": "live-saylor-cs402-computer-communications-and-networks",
       "sourceType": "discovered",
-      "url": "https://learn.saylor.org/course/view.php?id=790",
-      "finalUrl": "https://learn.saylor.org/course/view.php?id=790",
+      "url": "https://learn.saylor.org/course/cs402",
+      "finalUrl": "https://learn.saylor.org/course/cs402",
       "status": "active",
       "httpStatus": 200
     },
     {
       "id": "live-saylor-cs403-introduction-to-modern-database-systems",
       "sourceType": "discovered",
-      "url": "https://learn.saylor.org/course/view.php?id=863",
-      "finalUrl": "https://learn.saylor.org/course/view.php?id=863",
+      "url": "https://learn.saylor.org/course/cs403",
+      "finalUrl": "https://learn.saylor.org/course/cs403",
       "status": "active",
       "httpStatus": 200
     },
     {
       "id": "live-saylor-cs406-information-security",
       "sourceType": "discovered",
-      "url": "https://learn.saylor.org/course/view.php?id=453",
-      "finalUrl": "https://learn.saylor.org/course/view.php?id=453",
+      "url": "https://learn.saylor.org/course/cs406",
+      "finalUrl": "https://learn.saylor.org/course/cs406",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-saylor-policies",
+      "sourceType": "discovered",
+      "url": "https://learn.saylor.org/admin/tool/policy/viewall.php?returnurl=https%3A%2F%2Flearn.saylor.org%2Fcourse%2Fcategory%2F9%2Fcomputer%2Bscience",
+      "finalUrl": "https://learn.saylor.org/admin/tool/policy/viewall.php?returnurl=https%3A%2F%2Flearn.saylor.org%2Fcourse%2Fcategory%2F9%2Fcomputer%2Bscience",
       "status": "active",
       "httpStatus": 200
     },
@@ -1289,7 +1401,7 @@
       "status": "rejected",
       "reason": "no-free-credential-evidence",
       "httpStatus": 200,
-      "finalUrl": "https://learn.saylor.org/course/view.php?id=93"
+      "finalUrl": "https://learn.saylor.org/course/cs403+%282017.a.01%29"
     },
     {
       "sourceType": "community",
@@ -1371,7 +1483,7 @@
       "kind": "Curso con certificado",
       "language": "EN",
       "httpStatus": 200,
-      "finalUrl": "https://learn.saylor.org/course/view.php?id=500"
+      "finalUrl": "https://learn.saylor.org/course/cs120"
     },
     {
       "sourceType": "community",
@@ -1689,7 +1801,7 @@
       "status": "rejected",
       "reason": "no-free-credential-evidence",
       "httpStatus": 200,
-      "finalUrl": "https://learn.saylor.org/course/view.php?id=64"
+      "finalUrl": "https://learn.saylor.org/course/cs102+%282020.a.01%29"
     },
     {
       "sourceType": "community",
@@ -1699,7 +1811,7 @@
       "status": "rejected",
       "reason": "no-free-credential-evidence",
       "httpStatus": 200,
-      "finalUrl": "https://learn.saylor.org/course/view.php?id=66"
+      "finalUrl": "https://learn.saylor.org/course/cs201+%282017.a.01%29"
     },
     {
       "sourceType": "community",
@@ -1711,7 +1823,7 @@
       "kind": "Curso con certificado",
       "language": "EN",
       "httpStatus": 200,
-      "finalUrl": "https://learn.saylor.org/course/view.php?id=67"
+      "finalUrl": "https://learn.saylor.org/course/cs202"
     },
     {
       "sourceType": "community",
@@ -1723,7 +1835,7 @@
       "kind": "Curso con certificado",
       "language": "EN",
       "httpStatus": 200,
-      "finalUrl": "https://learn.saylor.org/course/view.php?id=71"
+      "finalUrl": "https://learn.saylor.org/course/cs301"
     },
     {
       "sourceType": "community",
@@ -2044,8 +2156,10 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Machine Learning with Python Certification",
       "url": "https://www.freecodecamp.org/learn/machine-learning-with-python",
-      "status": "rejected",
-      "reason": "no-free-credential-evidence",
+      "status": "accepted",
+      "provider": "freeCodeCamp",
+      "kind": "Certificación",
+      "language": "EN",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/machine-learning-with-python/"
     },
@@ -2153,7 +2267,7 @@
       "kind": "Curso con certificado",
       "language": "EN",
       "httpStatus": 200,
-      "finalUrl": "https://learn.saylor.org/course/view.php?id=790"
+      "finalUrl": "https://learn.saylor.org/course/cs402"
     },
     {
       "sourceType": "community",
@@ -2185,7 +2299,7 @@
       "kind": "Curso con certificado",
       "language": "EN",
       "httpStatus": 200,
-      "finalUrl": "https://learn.saylor.org/course/view.php?id=94"
+      "finalUrl": "https://learn.saylor.org/course/cs401"
     },
     {
       "sourceType": "community",
@@ -2197,7 +2311,7 @@
       "kind": "Curso con certificado",
       "language": "EN",
       "httpStatus": 200,
-      "finalUrl": "https://learn.saylor.org/course/view.php?id=65"
+      "finalUrl": "https://learn.saylor.org/course/cs107"
     },
     {
       "sourceType": "community",
@@ -2426,8 +2540,10 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Introduction to Cybersecurity Awareness",
       "url": "https://www.life-global.org/course/346-introduction-to-cybersecurity-awareness",
-      "status": "rejected",
-      "reason": "no-free-credential-evidence",
+      "status": "accepted",
+      "provider": "HP LIFE",
+      "kind": "Certificación",
+      "language": "EN",
       "httpStatus": 200,
       "finalUrl": "https://www.life-global.org/course/346-introduction-to-cybersecurity-awareness"
     },
@@ -2574,7 +2690,7 @@
       "status": "rejected",
       "reason": "no-free-credential-evidence",
       "httpStatus": 200,
-      "finalUrl": "https://www.apollographql.com/tutorials/certifications/apollo-graph-associate/"
+      "finalUrl": "https://www.apollographql.com/tutorials/certifications/apollo-graph-associate"
     },
     {
       "sourceType": "community",
