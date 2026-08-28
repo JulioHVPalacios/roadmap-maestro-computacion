@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-27T21:08:38.145Z",
+  "generatedAt": "2026-08-28T21:30:25.193Z",
   "seed": 54,
-  "officialDiscoveredRaw": 107,
-  "officialValidated": 101,
+  "officialDiscoveredRaw": 77,
+  "officialValidated": 72,
   "communityCandidates": 137,
-  "communityValidated": 77,
-  "published": 198,
+  "communityValidated": 70,
+  "published": 168,
   "audit": [
     {
       "id": "ibm-digital-credentials",
@@ -219,7 +219,7 @@
       "id": "cisco-netacad",
       "sourceType": "seed",
       "url": "https://www.netacad.com/es/",
-      "httpStatus": 200,
+      "httpStatus": 403,
       "finalUrl": "https://www.netacad.com/es/",
       "status": "active"
     },
@@ -227,7 +227,7 @@
       "id": "cisco-intro-cyber",
       "sourceType": "seed",
       "url": "https://www.netacad.com/es/",
-      "httpStatus": 200,
+      "httpStatus": 403,
       "finalUrl": "https://www.netacad.com/es/",
       "status": "active"
     },
@@ -267,9 +267,10 @@
       "id": "carlos-slim-capacitate",
       "sourceType": "seed",
       "url": "https://capacitateparaelempleo.org/",
-      "httpStatus": 200,
+      "httpStatus": 0,
       "finalUrl": "https://capacitateparaelempleo.org/",
-      "status": "active"
+      "status": "unknown",
+      "error": "page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://capacitateparaelempleo.org/\", waiting until \"domcontentloaded\"\n"
     },
     {
       "id": "openlearn-digital-skills",
@@ -299,7 +300,7 @@
       "id": "saylor-free-certificates",
       "sourceType": "seed",
       "url": "https://www.saylor.org/certificates/",
-      "httpStatus": 200,
+      "httpStatus": 403,
       "finalUrl": "https://www.saylor.org/certificates/",
       "status": "active"
     },
@@ -440,102 +441,6 @@
       "status": "active"
     },
     {
-      "id": "live-hubspot-inbound-nuevo-certificacion-3-horas-marketing-ventas-service",
-      "sourceType": "discovered",
-      "url": "https://academy.hubspot.com/es/courses/inbound",
-      "finalUrl": "https://academy.hubspot.com/es/courses/inbound",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-hubspot-curso-de-certificacion-de-marketing-en-redes-sociales-certificacion-6-horas-marketing",
-      "sourceType": "discovered",
-      "url": "https://academy.hubspot.com/es/courses/social-media",
-      "finalUrl": "https://academy.hubspot.com/es/courses/social-media",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-hubspot-marketing-digital-certificacion-6-horas-marketing",
-      "sourceType": "discovered",
-      "url": "https://academy.hubspot.com/es/courses/digital-marketing",
-      "finalUrl": "https://academy.hubspot.com/es/courses/digital-marketing",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-hubspot-inbound-marketing-certificacion-5-horas-marketing",
-      "sourceType": "discovered",
-      "url": "https://academy.hubspot.com/es/courses/inbound-marketing",
-      "finalUrl": "https://academy.hubspot.com/es/courses/inbound-marketing",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-hubspot-marketing-de-contenidos-certificacion-9-horas-marketing",
-      "sourceType": "discovered",
-      "url": "https://academy.hubspot.com/es/courses/content-marketing",
-      "finalUrl": "https://academy.hubspot.com/es/courses/content-marketing",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-hubspot-ventas-inbound-certificacion-3-horas-ventas",
-      "sourceType": "discovered",
-      "url": "https://academy.hubspot.com/es/courses/inbound-sales",
-      "finalUrl": "https://academy.hubspot.com/es/courses/inbound-sales",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-hubspot-ventas-sin-friccion-certificacion-2-horas-ventas",
-      "sourceType": "discovered",
-      "url": "https://academy.hubspot.com/es/courses/frictionless-sales",
-      "finalUrl": "https://academy.hubspot.com/es/courses/frictionless-sales",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-hubspot-habilitacion-de-ventas-certificacion-5-horas-ventas",
-      "sourceType": "discovered",
-      "url": "https://academy.hubspot.com/es/courses/sales-enablement",
-      "finalUrl": "https://academy.hubspot.com/es/courses/sales-enablement",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-hubspot-optimizacion-del-inbound-marketing-certificacion-5-horas-marketing",
-      "sourceType": "discovered",
-      "url": "https://academy.hubspot.com/es/courses/inbound-marketing-optimization",
-      "finalUrl": "https://academy.hubspot.com/es/courses/inbound-marketing-optimization",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-hubspot-certificacion-de-content-hub-para-marketers-certificacion-3-horas-marketing",
-      "sourceType": "discovered",
-      "url": "https://academy.hubspot.com/es/courses/hubspot-content-hub-software-es",
-      "finalUrl": "https://academy.hubspot.com/es/courses/hubspot-content-hub-software-es",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-hubspot-certificacion-en-optimizacion-para-motores-de-respuesta-aeo-certificacion-4-horas-marketing",
-      "sourceType": "discovered",
-      "url": "https://academy.hubspot.com/es/courses/aeo-fundamentals-certification",
-      "finalUrl": "https://academy.hubspot.com/es/courses/aeo-fundamentals-certification",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-hubspot-certificacion-en-implementacion-de-aeo-con-hubspot-certificacion-3-horas",
-      "sourceType": "discovered",
-      "url": "https://academy.hubspot.com/es/courses/implementing-aeo-with-hubspot-certification",
-      "finalUrl": "https://academy.hubspot.com/es/courses/implementing-aeo-with-hubspot-certification",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
       "id": "live-mtpe-competencias-digita",
       "sourceType": "discovered",
       "url": "https://capacitacionlaboral.trabajo.gob.pe/rutas/competencias-digitales-basicas-para-el-empleo",
@@ -596,8 +501,7 @@
       "sourceType": "discovered",
       "url": "https://learn.mongodb.com/catalog?labels=%5B%22Free%2FPaid%22%5D&values=%5B%22Free%22%5D",
       "finalUrl": "https://learn.mongodb.com/catalog?labels=%5B%22Free%2FPaid%22%5D&values=%5B%22Free%22%5D",
-      "status": "rejected",
-      "reason": "no-learning-evidence",
+      "status": "active",
       "httpStatus": 200
     },
     {
@@ -637,150 +541,8 @@
       "sourceType": "discovered",
       "url": "https://learn.mongodb.com/catalog?labels=%5B%5D&page=1&values=%5B%5D",
       "finalUrl": "https://learn.mongodb.com/catalog?labels=%5B%5D&page=1&values=%5B%5D",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-saylor-courses-programs",
-      "sourceType": "discovered",
-      "url": "https://learn.saylor.org/course/index.php?categoryid=9",
-      "finalUrl": "https://learn.saylor.org/course/category/9/computer+science",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-saylor-computer-science",
-      "sourceType": "discovered",
-      "url": "https://learn.saylor.org/course/category/9/computer+science",
-      "finalUrl": "https://learn.saylor.org/course/category/9/computer+science",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-saylor-specialization-programs",
-      "sourceType": "discovered",
-      "url": "https://learn.saylor.org/enrol/programs/catalogue/index.php",
-      "finalUrl": "https://learn.saylor.org/enrol/programs/catalogue/index.php",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-saylor-degree-programs",
-      "sourceType": "discovered",
-      "url": "https://degrees.saylor.org",
-      "finalUrl": "https://degrees.saylor.org",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-saylor-verify-certificate",
-      "sourceType": "discovered",
-      "url": "https://learn.saylor.org/mod/page/view.php?id=101601",
-      "finalUrl": "https://learn.saylor.org/mod/page/view.php?id=101601",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-saylor-cs101-introduction-to-programming-i",
-      "sourceType": "discovered",
-      "url": "https://learn.saylor.org/course/cs101",
-      "finalUrl": "https://learn.saylor.org/course/cs101",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-saylor-cs102-introduction-to-programming-ii",
-      "sourceType": "discovered",
-      "url": "https://learn.saylor.org/course/cs102",
-      "finalUrl": "https://learn.saylor.org/course/cs102",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-saylor-cs107-c-programming",
-      "sourceType": "discovered",
-      "url": "https://learn.saylor.org/course/cs107",
-      "finalUrl": "https://learn.saylor.org/course/cs107",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-saylor-cs201-elementary-data-structures",
-      "sourceType": "discovered",
-      "url": "https://learn.saylor.org/course/cs201",
-      "finalUrl": "https://learn.saylor.org/course/cs201",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-saylor-cs250-python-for-data-science",
-      "sourceType": "discovered",
-      "url": "https://learn.saylor.org/course/cs250",
-      "finalUrl": "https://learn.saylor.org/course/cs250",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-saylor-cs260-introduction-to-cryptography-and-network-security",
-      "sourceType": "discovered",
-      "url": "https://learn.saylor.org/course/cs260",
-      "finalUrl": "https://learn.saylor.org/course/cs260",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-saylor-cs301-computer-architecture",
-      "sourceType": "discovered",
-      "url": "https://learn.saylor.org/course/cs301",
-      "finalUrl": "https://learn.saylor.org/course/cs301",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-saylor-cs302-software-engineering",
-      "sourceType": "discovered",
-      "url": "https://learn.saylor.org/course/cs302",
-      "finalUrl": "https://learn.saylor.org/course/cs302",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-saylor-cs402-computer-communications-and-networks",
-      "sourceType": "discovered",
-      "url": "https://learn.saylor.org/course/cs402",
-      "finalUrl": "https://learn.saylor.org/course/cs402",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-saylor-cs403-introduction-to-modern-database-systems",
-      "sourceType": "discovered",
-      "url": "https://learn.saylor.org/course/cs403",
-      "finalUrl": "https://learn.saylor.org/course/cs403",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-saylor-cs406-information-security",
-      "sourceType": "discovered",
-      "url": "https://learn.saylor.org/course/cs406",
-      "finalUrl": "https://learn.saylor.org/course/cs406",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-saylor-policies",
-      "sourceType": "discovered",
-      "url": "https://learn.saylor.org/admin/tool/policy/viewall.php?returnurl=https%3A%2F%2Flearn.saylor.org%2Fcourse%2Fcategory%2F9%2Fcomputer%2Bscience",
-      "finalUrl": "https://learn.saylor.org/admin/tool/policy/viewall.php?returnurl=https%3A%2F%2Flearn.saylor.org%2Fcourse%2Fcategory%2F9%2Fcomputer%2Bscience",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-saylor-detailed-licensing-information",
-      "sourceType": "discovered",
-      "url": "https://www.saylor.org/open/licensinginformation",
-      "status": "inactive",
+      "status": "rejected",
+      "reason": "no-learning-evidence",
       "httpStatus": 200
     },
     {
@@ -1400,8 +1162,8 @@
       "url": "https://learn.saylor.org/course/view.php?id=93",
       "status": "rejected",
       "reason": "no-free-credential-evidence",
-      "httpStatus": 200,
-      "finalUrl": "https://learn.saylor.org/course/cs403+%282017.a.01%29"
+      "httpStatus": 403,
+      "finalUrl": "https://learn.saylor.org/course/view.php?id=93"
     },
     {
       "sourceType": "community",
@@ -1478,12 +1240,10 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Bitcoin for Developers",
       "url": "https://learn.saylor.org/course/view.php?id=500",
-      "status": "accepted",
-      "provider": "Saylor University",
-      "kind": "Curso con certificado",
-      "language": "EN",
-      "httpStatus": 200,
-      "finalUrl": "https://learn.saylor.org/course/cs120"
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
+      "httpStatus": 403,
+      "finalUrl": "https://learn.saylor.org/course/view.php?id=500"
     },
     {
       "sourceType": "community",
@@ -1709,7 +1469,7 @@
       "status": "accepted",
       "provider": "HubSpot Academy",
       "kind": "Certificación",
-      "language": "ES",
+      "language": "EN",
       "httpStatus": 200,
       "finalUrl": "https://academy.hubspot.com/courses/hubspot-service-software"
     },
@@ -1800,8 +1560,8 @@
       "url": "https://learn.saylor.org/course/view.php?id=64",
       "status": "rejected",
       "reason": "no-free-credential-evidence",
-      "httpStatus": 200,
-      "finalUrl": "https://learn.saylor.org/course/cs102+%282020.a.01%29"
+      "httpStatus": 403,
+      "finalUrl": "https://learn.saylor.org/course/view.php?id=64"
     },
     {
       "sourceType": "community",
@@ -1810,32 +1570,28 @@
       "url": "https://learn.saylor.org/course/view.php?id=66",
       "status": "rejected",
       "reason": "no-free-credential-evidence",
-      "httpStatus": 200,
-      "finalUrl": "https://learn.saylor.org/course/cs201+%282017.a.01%29"
+      "httpStatus": 403,
+      "finalUrl": "https://learn.saylor.org/course/view.php?id=66"
     },
     {
       "sourceType": "community",
       "source": "GitHub · Awesome Certificates",
       "title": "CS202: Discrete Structures",
       "url": "https://learn.saylor.org/course/view.php?id=67",
-      "status": "accepted",
-      "provider": "Saylor University",
-      "kind": "Curso con certificado",
-      "language": "EN",
-      "httpStatus": 200,
-      "finalUrl": "https://learn.saylor.org/course/cs202"
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
+      "httpStatus": 403,
+      "finalUrl": "https://learn.saylor.org/course/view.php?id=67"
     },
     {
       "sourceType": "community",
       "source": "GitHub · Awesome Certificates",
       "title": "CS301: Computer Architecture",
       "url": "https://learn.saylor.org/course/view.php?id=71",
-      "status": "accepted",
-      "provider": "Saylor University",
-      "kind": "Curso con certificado",
-      "language": "EN",
-      "httpStatus": 200,
-      "finalUrl": "https://learn.saylor.org/course/cs301"
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
+      "httpStatus": 403,
+      "finalUrl": "https://learn.saylor.org/course/view.php?id=71"
     },
     {
       "sourceType": "community",
@@ -2156,10 +1912,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Machine Learning with Python Certification",
       "url": "https://www.freecodecamp.org/learn/machine-learning-with-python",
-      "status": "accepted",
-      "provider": "freeCodeCamp",
-      "kind": "Certificación",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/machine-learning-with-python/"
     },
@@ -2254,20 +2008,18 @@
       "url": "https://www.netacad.com/courses/networking/networking-essentials",
       "status": "rejected",
       "reason": "no-free-credential-evidence",
-      "httpStatus": 200,
-      "finalUrl": "https://www.netacad.com/courses/networking-essentials"
+      "httpStatus": 403,
+      "finalUrl": "https://www.netacad.com/courses/networking/networking-essentials"
     },
     {
       "sourceType": "community",
       "source": "GitHub · Awesome Certificates",
       "title": "CS402: Computer Communications and Networks",
       "url": "https://learn.saylor.org/course/view.php?id=790",
-      "status": "accepted",
-      "provider": "Saylor University",
-      "kind": "Curso con certificado",
-      "language": "EN",
-      "httpStatus": 200,
-      "finalUrl": "https://learn.saylor.org/course/cs402"
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
+      "httpStatus": 403,
+      "finalUrl": "https://learn.saylor.org/course/view.php?id=790"
     },
     {
       "sourceType": "community",
@@ -2276,8 +2028,8 @@
       "url": "https://www.netacad.com/courses/os-it/ndg-linux-unhatched",
       "status": "rejected",
       "reason": "no-free-credential-evidence",
-      "httpStatus": 200,
-      "finalUrl": "https://www.netacad.com/courses/linux-unhatched"
+      "httpStatus": 403,
+      "finalUrl": "https://www.netacad.com/courses/os-it/ndg-linux-unhatched"
     },
     {
       "sourceType": "community",
@@ -2286,32 +2038,28 @@
       "url": "https://www.netacad.com/courses/os-it/ndg-linux-essentials",
       "status": "rejected",
       "reason": "no-free-credential-evidence",
-      "httpStatus": 200,
-      "finalUrl": "https://www.netacad.com/courses/linux-essentials"
+      "httpStatus": 403,
+      "finalUrl": "https://www.netacad.com/courses/os-it/ndg-linux-essentials"
     },
     {
       "sourceType": "community",
       "source": "GitHub · Awesome Certificates",
       "title": "CS401: Operating Systems",
       "url": "https://learn.saylor.org/course/view.php?id=94",
-      "status": "accepted",
-      "provider": "Saylor University",
-      "kind": "Curso con certificado",
-      "language": "EN",
-      "httpStatus": 200,
-      "finalUrl": "https://learn.saylor.org/course/cs401"
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
+      "httpStatus": 403,
+      "finalUrl": "https://learn.saylor.org/course/view.php?id=94"
     },
     {
       "sourceType": "community",
       "source": "GitHub · Awesome Certificates",
       "title": "CS107: C++ Programming",
       "url": "https://learn.saylor.org/course/view.php?id=65",
-      "status": "accepted",
-      "provider": "Saylor University",
-      "kind": "Curso con certificado",
-      "language": "EN",
-      "httpStatus": 200,
-      "finalUrl": "https://learn.saylor.org/course/cs107"
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
+      "httpStatus": 403,
+      "finalUrl": "https://learn.saylor.org/course/view.php?id=65"
     },
     {
       "sourceType": "community",
@@ -2360,8 +2108,8 @@
       "url": "https://www.netacad.com/courses/programming/pcap-programming-essentials-python",
       "status": "rejected",
       "reason": "no-free-credential-evidence",
-      "httpStatus": 200,
-      "finalUrl": "https://www.netacad.com/courses/python-essentials-1"
+      "httpStatus": 403,
+      "finalUrl": "https://www.netacad.com/courses/programming/pcap-programming-essentials-python"
     },
     {
       "sourceType": "community",
@@ -2450,8 +2198,8 @@
       "url": "https://www.netacad.com/courses/iot/introduction-iot",
       "status": "rejected",
       "reason": "no-free-credential-evidence",
-      "httpStatus": 200,
-      "finalUrl": "https://www.netacad.com/courses/introduction-iot"
+      "httpStatus": 403,
+      "finalUrl": "https://www.netacad.com/courses/iot/introduction-iot"
     },
     {
       "sourceType": "community",
@@ -2472,8 +2220,8 @@
       "url": "https://www.netacad.com/courses/cybersecurity/introduction-cybersecurity",
       "status": "rejected",
       "reason": "no-free-credential-evidence",
-      "httpStatus": 200,
-      "finalUrl": "https://www.netacad.com/courses/introduction-to-cybersecurity"
+      "httpStatus": 403,
+      "finalUrl": "https://www.netacad.com/courses/cybersecurity/introduction-cybersecurity"
     },
     {
       "sourceType": "community",
@@ -2482,8 +2230,8 @@
       "url": "https://www.netacad.com/courses/cybersecurity/cybersecurity-essentials",
       "status": "rejected",
       "reason": "no-free-credential-evidence",
-      "httpStatus": 200,
-      "finalUrl": "https://www.netacad.com/courses/cybersecurity-essentials"
+      "httpStatus": 403,
+      "finalUrl": "https://www.netacad.com/courses/cybersecurity/cybersecurity-essentials"
     },
     {
       "sourceType": "community",
@@ -2492,7 +2240,7 @@
       "url": "https://www.netacad.com/courses/ethical-hacker",
       "status": "rejected",
       "reason": "no-free-credential-evidence",
-      "httpStatus": 200,
+      "httpStatus": 403,
       "finalUrl": "https://www.netacad.com/courses/ethical-hacker"
     },
     {
@@ -2502,8 +2250,8 @@
       "url": "https://www.netacad.com/courses/packet-tracer",
       "status": "rejected",
       "reason": "no-free-credential-evidence",
-      "httpStatus": 200,
-      "finalUrl": "https://www.netacad.com/cisco-packet-tracer"
+      "httpStatus": 403,
+      "finalUrl": "https://www.netacad.com/courses/packet-tracer"
     },
     {
       "sourceType": "community",
@@ -2690,7 +2438,7 @@
       "status": "rejected",
       "reason": "no-free-credential-evidence",
       "httpStatus": 200,
-      "finalUrl": "https://www.apollographql.com/tutorials/certifications/apollo-graph-associate"
+      "finalUrl": "https://www.apollographql.com/tutorials/certifications/apollo-graph-associate/"
     },
     {
       "sourceType": "community",
