@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-29T15:45:39.821Z",
+  "generatedAt": "2026-08-30T15:27:38.699Z",
   "seed": 54,
-  "officialDiscoveredRaw": 98,
-  "officialValidated": 92,
+  "officialDiscoveredRaw": 103,
+  "officialValidated": 98,
   "communityCandidates": 137,
   "communityValidated": 76,
-  "published": 188,
+  "published": 193,
   "audit": [
     {
       "id": "ibm-digital-credentials",
@@ -596,8 +596,47 @@
       "sourceType": "discovered",
       "url": "https://learn.mongodb.com/catalog?labels=%5B%22Free%2FPaid%22%5D&values=%5B%22Free%22%5D",
       "finalUrl": "https://learn.mongodb.com/catalog?labels=%5B%22Free%2FPaid%22%5D&values=%5B%22Free%22%5D",
-      "status": "rejected",
-      "reason": "no-learning-evidence",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-mongodb-certification",
+      "sourceType": "discovered",
+      "url": "https://learn.mongodb.com/pages/certification-program",
+      "finalUrl": "https://learn.mongodb.com/pages/certification-program",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-mongodb-skills-and-certificationsdevelop-in-demand-skills-and-earn-mongodb-certifications",
+      "sourceType": "discovered",
+      "url": "https://learn.mongodb.com",
+      "finalUrl": "https://learn.mongodb.com",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-mongodb-skills",
+      "sourceType": "discovered",
+      "url": "https://learn.mongodb.com/skills",
+      "finalUrl": "https://learn.mongodb.com/skills",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-mongodb-list-of-self-paced-topics",
+      "sourceType": "discovered",
+      "url": "https://learn.mongodb.com/self-paced-topics",
+      "finalUrl": "https://learn.mongodb.com/self-paced-topics",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-mongodb-free",
+      "sourceType": "discovered",
+      "url": "https://learn.mongodb.com/catalog?labels=%5B%5D&page=1&values=%5B%5D",
+      "finalUrl": "https://learn.mongodb.com/catalog?labels=%5B%5D&page=1&values=%5B%5D",
+      "status": "active",
       "httpStatus": 200
     },
     {
@@ -1168,10 +1207,10 @@
       "httpStatus": 200
     },
     {
-      "id": "live-fazt-course-curso-de-opencode-2026-v1",
+      "id": "live-fazt-course-mis-agent-skills-mas-usados",
       "sourceType": "discovered",
-      "url": "https://fazt.dev/contenido/opencode-programar-con-ia-terminal",
-      "finalUrl": "https://fazt.dev/contenido/opencode-programar-con-ia-terminal",
+      "url": "https://fazt.dev/contenido/mis-agent-skills-m%c3%a1s-usados",
+      "finalUrl": "https://fazt.dev/contenido/mis-agent-skills-m%c3%a1s-usados",
       "status": "active",
       "httpStatus": 200
     },
@@ -1184,10 +1223,10 @@
       "httpStatus": 200
     },
     {
-      "id": "live-fazt-course-mis-agent-skills-mas-usados",
+      "id": "live-fazt-course-curso-de-opencode-2026-v1",
       "sourceType": "discovered",
-      "url": "https://fazt.dev/contenido/mis-agent-skills-m%c3%a1s-usados",
-      "finalUrl": "https://fazt.dev/contenido/mis-agent-skills-m%c3%a1s-usados",
+      "url": "https://fazt.dev/contenido/opencode-programar-con-ia-terminal",
+      "finalUrl": "https://fazt.dev/contenido/opencode-programar-con-ia-terminal",
       "status": "active",
       "httpStatus": 200
     },
@@ -1200,18 +1239,18 @@
       "httpStatus": 200
     },
     {
-      "id": "live-fazt-course-curso-de-react",
+      "id": "live-fazt-course-curso-de-cursor-editor-ia-todo-lo-que-necesitas-saber",
       "sourceType": "discovered",
-      "url": "https://fazt.dev/contenido/react",
-      "finalUrl": "https://fazt.dev/contenido/react",
+      "url": "https://fazt.dev/contenido/curso-cursor-editor-ia",
+      "finalUrl": "https://fazt.dev/contenido/curso-cursor-editor-ia",
       "status": "active",
       "httpStatus": 200
     },
     {
-      "id": "live-fazt-course-curso-de-nestjs-framework-backend-de-nodejs",
+      "id": "live-fazt-course-curso-de-odoo-para-principiantes-y-desarrolladores-odoo-odoo-sh-y-odoo-com",
       "sourceType": "discovered",
-      "url": "https://fazt.dev/contenido/nestjs",
-      "finalUrl": "https://fazt.dev/contenido/nestjs",
+      "url": "https://fazt.dev/contenido/tutorial-de-odoo",
+      "finalUrl": "https://fazt.dev/contenido/tutorial-de-odoo",
       "status": "active",
       "httpStatus": 200
     },
