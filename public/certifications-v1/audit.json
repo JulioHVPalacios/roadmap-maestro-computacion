@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-30T15:27:38.699Z",
+  "generatedAt": "2026-08-31T18:07:47.758Z",
   "seed": 54,
-  "officialDiscoveredRaw": 103,
-  "officialValidated": 98,
+  "officialDiscoveredRaw": 107,
+  "officialValidated": 101,
   "communityCandidates": 137,
   "communityValidated": 76,
-  "published": 193,
+  "published": 196,
   "audit": [
     {
       "id": "ibm-digital-credentials",
@@ -636,7 +636,8 @@
       "sourceType": "discovered",
       "url": "https://learn.mongodb.com/catalog?labels=%5B%5D&page=1&values=%5B%5D",
       "finalUrl": "https://learn.mongodb.com/catalog?labels=%5B%5D&page=1&values=%5B%5D",
-      "status": "active",
+      "status": "rejected",
+      "reason": "no-learning-evidence",
       "httpStatus": 200
     },
     {
@@ -961,6 +962,38 @@
       "sourceType": "discovered",
       "url": "https://learning.sap.com/release-notes",
       "finalUrl": "https://learning.sap.com/release-notes",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-sap-sap-s-4hana-cloud-public-edition",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/products/s4hana-cloud",
+      "finalUrl": "https://learning.sap.com/products/s4hana-cloud",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-sap-sap-s-4hana-cloud-private-edition",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/products/s4hana-cloud-private",
+      "finalUrl": "https://learning.sap.com/products/s4hana-cloud-private",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-sap-supply-chain-management",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/products/supply-chain-management",
+      "finalUrl": "https://learning.sap.com/products/supply-chain-management",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-sap-financial-management",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/products/financial-management",
+      "finalUrl": "https://learning.sap.com/products/financial-management",
       "status": "active",
       "httpStatus": 200
     },
