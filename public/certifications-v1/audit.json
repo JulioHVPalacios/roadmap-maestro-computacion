@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-02T15:16:45.910Z",
+  "generatedAt": "2026-09-03T15:09:58.443Z",
   "seed": 54,
-  "officialDiscoveredRaw": 91,
-  "officialValidated": 85,
+  "officialDiscoveredRaw": 95,
+  "officialValidated": 89,
   "communityCandidates": 137,
   "communityValidated": 75,
-  "published": 184,
+  "published": 188,
   "audit": [
     {
       "id": "ibm-digital-credentials",
@@ -866,6 +866,38 @@
       "sourceType": "discovered",
       "url": "https://learning.sap.com/release-notes",
       "finalUrl": "https://learning.sap.com/release-notes",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-sap-sap-s-4hana-cloud-public-edition",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/products/s4hana-cloud",
+      "finalUrl": "https://learning.sap.com/products/s4hana-cloud",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-sap-sap-s-4hana-cloud-private-edition",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/products/s4hana-cloud-private",
+      "finalUrl": "https://learning.sap.com/products/s4hana-cloud-private",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-sap-supply-chain-management",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/products/supply-chain-management",
+      "finalUrl": "https://learning.sap.com/products/supply-chain-management",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-sap-financial-management",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/products/financial-management",
+      "finalUrl": "https://learning.sap.com/products/financial-management",
       "status": "active",
       "httpStatus": 200
     },
