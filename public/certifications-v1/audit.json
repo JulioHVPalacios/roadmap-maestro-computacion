@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-06T14:22:58.332Z",
+  "generatedAt": "2026-09-07T16:39:02.614Z",
   "seed": 54,
-  "officialDiscoveredRaw": 105,
-  "officialValidated": 98,
+  "officialDiscoveredRaw": 95,
+  "officialValidated": 89,
   "communityCandidates": 137,
-  "communityValidated": 75,
-  "published": 194,
+  "communityValidated": 74,
+  "published": 183,
   "audit": [
     {
       "id": "ibm-digital-credentials",
@@ -251,9 +251,10 @@
       "id": "mtpe-capacita-t",
       "sourceType": "seed",
       "url": "https://capacitacionlaboral.trabajo.gob.pe/",
-      "httpStatus": 200,
+      "httpStatus": 0,
       "finalUrl": "https://capacitacionlaboral.trabajo.gob.pe/",
-      "status": "active"
+      "status": "unknown",
+      "error": "page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://capacitacionlaboral.trabajo.gob.pe/\", waiting until \"domcontentloaded\"\n"
     },
     {
       "id": "empleos-peru-certifica",
@@ -536,54 +537,6 @@
       "httpStatus": 200
     },
     {
-      "id": "live-mtpe-competencias-digita",
-      "sourceType": "discovered",
-      "url": "https://capacitacionlaboral.trabajo.gob.pe/rutas/competencias-digitales-basicas-para-el-empleo",
-      "finalUrl": "https://capacitacionlaboral.trabajo.gob.pe/rutas/competencias-digitales-basicas-para-el-empleo",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-mtpe-abc-digital",
-      "sourceType": "discovered",
-      "url": "https://capacitacionlaboral.trabajo.gob.pe/cursos/abc-digital",
-      "finalUrl": "https://capacitacionlaboral.trabajo.gob.pe/cursos/abc-digital",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-mtpe-analista-junior-en",
-      "sourceType": "discovered",
-      "url": "https://capacitacionlaboral.trabajo.gob.pe/rutas/analista-junior-en-ciberseguridad",
-      "finalUrl": "https://capacitacionlaboral.trabajo.gob.pe/rutas/analista-junior-en-ciberseguridad",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-mtpe-administracion-de-amenazas-ciberneticas",
-      "sourceType": "discovered",
-      "url": "https://capacitacionlaboral.trabajo.gob.pe/cursos/administracion-de-amenazas-ciberneticas",
-      "finalUrl": "https://capacitacionlaboral.trabajo.gob.pe/cursos/administracion-de-amenazas-ciberneticas",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-mtpe-habilidades-digital",
-      "sourceType": "discovered",
-      "url": "https://capacitacionlaboral.trabajo.gob.pe/rutas/habilidades-digitales-nivel-intermedio",
-      "finalUrl": "https://capacitacionlaboral.trabajo.gob.pe/rutas/habilidades-digitales-nivel-intermedio",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-mtpe-analisis-de-datos-con-power-bi",
-      "sourceType": "discovered",
-      "url": "https://capacitacionlaboral.trabajo.gob.pe/cursos/analisis-de-datos-con-power-bi",
-      "finalUrl": "https://capacitacionlaboral.trabajo.gob.pe/cursos/analisis-de-datos-con-power-bi",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
       "id": "live-ibm-ir-al-contenido-principal",
       "sourceType": "discovered",
       "url": "https://skillsbuild.org/es/digital-credentials",
@@ -596,8 +549,7 @@
       "sourceType": "discovered",
       "url": "https://learn.mongodb.com/catalog?labels=%5B%22Free%2FPaid%22%5D&values=%5B%22Free%22%5D",
       "finalUrl": "https://learn.mongodb.com/catalog?labels=%5B%22Free%2FPaid%22%5D&values=%5B%22Free%22%5D",
-      "status": "rejected",
-      "reason": "no-learning-evidence",
+      "status": "active",
       "httpStatus": 200
     },
     {
@@ -963,38 +915,6 @@
       "sourceType": "discovered",
       "url": "https://learning.sap.com/release-notes",
       "finalUrl": "https://learning.sap.com/release-notes",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-sap-sap-s-4hana-cloud-public-edition",
-      "sourceType": "discovered",
-      "url": "https://learning.sap.com/products/s4hana-cloud",
-      "finalUrl": "https://learning.sap.com/products/s4hana-cloud",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-sap-sap-s-4hana-cloud-private-edition",
-      "sourceType": "discovered",
-      "url": "https://learning.sap.com/products/s4hana-cloud-private",
-      "finalUrl": "https://learning.sap.com/products/s4hana-cloud-private",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-sap-supply-chain-management",
-      "sourceType": "discovered",
-      "url": "https://learning.sap.com/products/supply-chain-management",
-      "finalUrl": "https://learning.sap.com/products/supply-chain-management",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-sap-financial-management",
-      "sourceType": "discovered",
-      "url": "https://learning.sap.com/products/financial-management",
-      "finalUrl": "https://learning.sap.com/products/financial-management",
       "status": "active",
       "httpStatus": 200
     },
@@ -2521,10 +2441,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Introduction to Cybersecurity Awareness",
       "url": "https://www.life-global.org/course/346-introduction-to-cybersecurity-awareness",
-      "status": "accepted",
-      "provider": "HP LIFE",
-      "kind": "Certificación",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.life-global.org/course/346-introduction-to-cybersecurity-awareness"
     },
