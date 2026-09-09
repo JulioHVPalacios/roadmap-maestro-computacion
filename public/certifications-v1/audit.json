@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-08T15:18:05.394Z",
+  "generatedAt": "2026-09-09T15:16:27.819Z",
   "seed": 54,
-  "officialDiscoveredRaw": 105,
-  "officialValidated": 99,
+  "officialDiscoveredRaw": 127,
+  "officialValidated": 100,
   "communityCandidates": 137,
   "communityValidated": 75,
-  "published": 194,
+  "published": 195,
   "audit": [
     {
       "id": "ibm-digital-credentials",
@@ -636,8 +636,7 @@
       "sourceType": "discovered",
       "url": "https://learn.mongodb.com/catalog?labels=%5B%5D&page=1&values=%5B%5D",
       "finalUrl": "https://learn.mongodb.com/catalog?labels=%5B%5D&page=1&values=%5B%5D",
-      "status": "rejected",
-      "reason": "no-learning-evidence",
+      "status": "active",
       "httpStatus": 200
     },
     {
@@ -1194,6 +1193,204 @@
       "sourceType": "discovered",
       "url": "https://university.gitlab.com",
       "finalUrl": "https://university.gitlab.com",
+      "status": "rejected",
+      "reason": "no-learning-evidence",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-gitlab-university-faqs",
+      "sourceType": "discovered",
+      "url": "https://university.gitlab.com/pages/faq",
+      "finalUrl": "https://university.gitlab.com/pages/faq",
+      "status": "rejected",
+      "reason": "no-learning-evidence",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-gitlab-university-gitlab-duo",
+      "sourceType": "discovered",
+      "url": "https://university.gitlab.com/pages/ai",
+      "finalUrl": "https://university.gitlab.com/pages/ai",
+      "status": "rejected",
+      "reason": "no-learning-evidence",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-gitlab-university-gitlab-duo-fundamentals",
+      "sourceType": "discovered",
+      "url": "https://university.gitlab.com/pages/gitlab-duo",
+      "finalUrl": "https://university.gitlab.com/pages/gitlab-duo",
+      "status": "rejected",
+      "reason": "no-learning-evidence",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-gitlab-university-gitlab-duo-agent-platform",
+      "sourceType": "discovered",
+      "url": "https://university.gitlab.com/pages/gitlab-duo-agent-platform",
+      "finalUrl": "https://university.gitlab.com/pages/gitlab-duo-agent-platform",
+      "status": "rejected",
+      "reason": "no-learning-evidence",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-gitlab-university-get-started-with-gitlab",
+      "sourceType": "discovered",
+      "url": "https://university.gitlab.com/pages/getting-started",
+      "finalUrl": "https://university.gitlab.com/pages/getting-started",
+      "status": "rejected",
+      "reason": "no-learning-evidence",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-gitlab-university-getting-started-with-your-first-gitlab-project",
+      "sourceType": "discovered",
+      "url": "https://university.gitlab.com/courses/hands-on-labs-gitlab-with-git-essentials",
+      "finalUrl": "https://university.gitlab.com/courses/hands-on-labs-gitlab-with-git-essentials",
+      "status": "rejected",
+      "reason": "no-learning-evidence",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-gitlab-university-migration",
+      "sourceType": "discovered",
+      "url": "https://university.gitlab.com/pages/migrating-to-gitlab",
+      "finalUrl": "https://university.gitlab.com/pages/migrating-to-gitlab",
+      "status": "rejected",
+      "reason": "no-learning-evidence",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-gitlab-university-github-to-gitlab",
+      "sourceType": "discovered",
+      "url": "https://university.gitlab.com/courses/migrate-from-github",
+      "finalUrl": "https://university.gitlab.com/courses/migrate-from-github",
+      "status": "rejected",
+      "reason": "no-learning-evidence",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-gitlab-university-jenkins-to-gitlab",
+      "sourceType": "discovered",
+      "url": "https://university.gitlab.com/courses/jenkins-to-gitlab-migration-tips",
+      "finalUrl": "https://university.gitlab.com/courses/jenkins-to-gitlab-migration-tips",
+      "status": "rejected",
+      "reason": "no-learning-evidence",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-gitlab-university-atlassian-to-gitlab",
+      "sourceType": "discovered",
+      "url": "https://university.gitlab.com/courses/jira-to-gitlab-migration-tips",
+      "finalUrl": "https://university.gitlab.com/courses/jira-to-gitlab-migration-tips",
+      "status": "rejected",
+      "reason": "no-learning-evidence",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-gitlab-university-agile-portfolio-management",
+      "sourceType": "discovered",
+      "url": "https://university.gitlab.com/pages/agile-planning",
+      "finalUrl": "https://university.gitlab.com/pages/agile-planning",
+      "status": "rejected",
+      "reason": "no-learning-evidence",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-gitlab-university-agile-planning",
+      "sourceType": "discovered",
+      "url": "https://university.gitlab.com/courses/gitlab-agile-project-management-s2",
+      "finalUrl": "https://university.gitlab.com/courses/gitlab-agile-project-management-s2",
+      "status": "rejected",
+      "reason": "no-learning-evidence",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-gitlab-university-how-gitlab-product-managers-use-gitlab",
+      "sourceType": "discovered",
+      "url": "https://university.gitlab.com/courses/product-planning-using-gitlab-epics-and-issues",
+      "finalUrl": "https://university.gitlab.com/courses/product-planning-using-gitlab-epics-and-issues",
+      "status": "rejected",
+      "reason": "no-learning-evidence",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-gitlab-university-ci-cd",
+      "sourceType": "discovered",
+      "url": "https://university.gitlab.com/pages/ci-cd-content",
+      "finalUrl": "https://university.gitlab.com/pages/ci-cd-content",
+      "status": "rejected",
+      "reason": "no-learning-evidence",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-gitlab-university-ci-fundamentals",
+      "sourceType": "discovered",
+      "url": "https://university.gitlab.com/learning-paths/gitlab-ci-fundamentals-e4le",
+      "finalUrl": "https://university.gitlab.com/learning-paths/gitlab-ci-fundamentals-e4le",
+      "status": "rejected",
+      "reason": "no-learning-evidence",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-gitlab-university-gitlab-runners",
+      "sourceType": "discovered",
+      "url": "https://university.gitlab.com/courses/understanding-gitlab-runners",
+      "finalUrl": "https://university.gitlab.com/courses/understanding-gitlab-runners",
+      "status": "rejected",
+      "reason": "no-learning-evidence",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-gitlab-university-pipelines",
+      "sourceType": "discovered",
+      "url": "https://university.gitlab.com/courses/solving-complex-problems-with-pipelines",
+      "finalUrl": "https://university.gitlab.com/courses/solving-complex-problems-with-pipelines",
+      "status": "rejected",
+      "reason": "no-learning-evidence",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-gitlab-university-security",
+      "sourceType": "discovered",
+      "url": "https://university.gitlab.com/pages/security-content",
+      "finalUrl": "https://university.gitlab.com/pages/security-content",
+      "status": "rejected",
+      "reason": "no-learning-evidence",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-gitlab-university-best-practices",
+      "sourceType": "discovered",
+      "url": "https://university.gitlab.com/learning-paths/gitlab-security-essentials-v100",
+      "finalUrl": "https://university.gitlab.com/learning-paths/gitlab-security-essentials-v100",
+      "status": "rejected",
+      "reason": "no-learning-evidence",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-gitlab-university-security-scanners",
+      "sourceType": "discovered",
+      "url": "https://university.gitlab.com/courses/introduction-to-security-scanners",
+      "finalUrl": "https://university.gitlab.com/courses/introduction-to-security-scanners",
+      "status": "rejected",
+      "reason": "no-learning-evidence",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-gitlab-university-remediating-vulnerabilities",
+      "sourceType": "discovered",
+      "url": "https://university.gitlab.com/courses/remediating-vulnerabilities",
+      "finalUrl": "https://university.gitlab.com/courses/remediating-vulnerabilities",
+      "status": "rejected",
+      "reason": "no-learning-evidence",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-gitlab-university-learn-more",
+      "sourceType": "discovered",
+      "url": "https://university.gitlab.com/pages/certifications",
+      "finalUrl": "https://university.gitlab.com/pages/certifications",
       "status": "rejected",
       "reason": "no-learning-evidence",
       "httpStatus": 200
