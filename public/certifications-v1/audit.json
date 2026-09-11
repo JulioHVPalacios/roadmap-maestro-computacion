@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-10T15:08:20.274Z",
+  "generatedAt": "2026-09-11T15:10:55.716Z",
   "seed": 54,
   "officialDiscoveredRaw": 101,
-  "officialValidated": 94,
+  "officialValidated": 96,
   "communityCandidates": 137,
-  "communityValidated": 74,
+  "communityValidated": 72,
   "published": 189,
   "audit": [
     {
@@ -637,8 +637,7 @@
       "sourceType": "discovered",
       "url": "https://learn.mongodb.com/catalog?labels=%5B%5D&page=1&values=%5B%5D",
       "finalUrl": "https://learn.mongodb.com/catalog?labels=%5B%5D&page=1&values=%5B%5D",
-      "status": "rejected",
-      "reason": "no-learning-evidence",
+      "status": "active",
       "httpStatus": 200
     },
     {
@@ -967,6 +966,38 @@
       "httpStatus": 200
     },
     {
+      "id": "live-sap-sap-s-4hana-cloud-public-edition",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/products/s4hana-cloud",
+      "finalUrl": "https://learning.sap.com/products/s4hana-cloud",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-sap-sap-s-4hana-cloud-private-edition",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/products/s4hana-cloud-private",
+      "finalUrl": "https://learning.sap.com/products/s4hana-cloud-private",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-sap-supply-chain-management",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/products/supply-chain-management",
+      "finalUrl": "https://learning.sap.com/products/supply-chain-management",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-sap-financial-management",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/products/financial-management",
+      "finalUrl": "https://learning.sap.com/products/financial-management",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
       "id": "live-microsoft-applied-ir-al-contenido-principal",
       "sourceType": "discovered",
       "url": "https://learn.microsoft.com/es-es/credentials/applied-skills",
@@ -1168,7 +1199,7 @@
       "httpStatus": 200
     },
     {
-      "id": "live-fazt-explorar-cursos",
+      "id": "live-fazt-ver-el-catalogo-gratis",
       "sourceType": "discovered",
       "url": "https://fazt.dev/contenido",
       "finalUrl": "https://fazt.dev/contenido",
@@ -1176,16 +1207,23 @@
       "httpStatus": 200
     },
     {
-      "id": "live-fazt-1-a-1-asesorias-en-vivo-sesiones-por-videollamada-para-construir-con-ia-y-agentes-sobre-tu-proyecto-real",
+      "id": "live-fazt-summary-inteligencia-artificial-deje-de-pagar-4-suscripciones-de-ia-por-estos-10-repos-fazt",
       "sourceType": "discovered",
-      "url": "https://fazt.dev/asesorias",
-      "finalUrl": "https://fazt.dev/asesorias",
-      "status": "rejected",
-      "reason": "no-learning-evidence",
+      "url": "https://fazt.dev/contenido/deje-de-pagar-suscripciones-ia-10-repos-github",
+      "finalUrl": "https://fazt.dev/contenido/deje-de-pagar-suscripciones-ia-10-repos-github",
+      "status": "active",
       "httpStatus": 200
     },
     {
-      "id": "live-fazt-course-5-caracteristicas-de-cursor-que-casi-nadie-usa-y-deberias",
+      "id": "live-fazt-tutorial-inteligencia-artificial-claude-design-el-skill-oculto-para-crear-interfaces-con-ia",
+      "sourceType": "discovered",
+      "url": "https://fazt.dev/contenido/claude-design-skill-interfaces-ia",
+      "finalUrl": "https://fazt.dev/contenido/claude-design-skill-interfaces-ia",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-fazt-course-inteligencia-artificial-5-caracteristicas-de-cursor-que-casi-nadie-usa-y-deberias",
       "sourceType": "discovered",
       "url": "https://fazt.dev/contenido/cursor-subagentes-testing-automatico-skills",
       "finalUrl": "https://fazt.dev/contenido/cursor-subagentes-testing-automatico-skills",
@@ -1193,58 +1231,18 @@
       "httpStatus": 200
     },
     {
-      "id": "live-fazt-course-claude-code-curso-practico-crea-proyectos-reales-con-skills-mcps-y-plan-mode",
+      "id": "live-fazt-tutorial-inteligencia-artificial-tu-propia-plataforma-de-ia-tipo-chatgpt-openrouter-stripe-railway",
       "sourceType": "discovered",
-      "url": "https://fazt.dev/contenido/claude-code-curso-completo-skills-mcp-subagentes",
-      "finalUrl": "https://fazt.dev/contenido/claude-code-curso-completo-skills-mcp-subagentes",
+      "url": "https://fazt.dev/contenido/saas-ia-openrouter-stripe-cursor-railway",
+      "finalUrl": "https://fazt.dev/contenido/saas-ia-openrouter-stripe-cursor-railway",
       "status": "active",
       "httpStatus": 200
     },
     {
-      "id": "live-fazt-course-mis-agent-skills-mas-usados",
+      "id": "live-fazt-tutorial-inteligencia-artificial-fish-audio-haz-que-tus-agentes-de-ia-hablen-con-voz-humana",
       "sourceType": "discovered",
-      "url": "https://fazt.dev/contenido/mis-agent-skills-m%c3%a1s-usados",
-      "finalUrl": "https://fazt.dev/contenido/mis-agent-skills-m%c3%a1s-usados",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-fazt-course-curso-de-claude-code-2026",
-      "sourceType": "discovered",
-      "url": "https://fazt.dev/contenido/curso-practico-claude-code-hooks-mcp-skills-plugins",
-      "finalUrl": "https://fazt.dev/contenido/curso-practico-claude-code-hooks-mcp-skills-plugins",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-fazt-course-curso-de-opencode-2026-v1",
-      "sourceType": "discovered",
-      "url": "https://fazt.dev/contenido/opencode-programar-con-ia-terminal",
-      "finalUrl": "https://fazt.dev/contenido/opencode-programar-con-ia-terminal",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-fazt-course-vs-code-con-ia-guia-completa-para-programadores",
-      "sourceType": "discovered",
-      "url": "https://fazt.dev/contenido/vscode-ia-agentes-mcp-skills",
-      "finalUrl": "https://fazt.dev/contenido/vscode-ia-agentes-mcp-skills",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-fazt-course-curso-de-cursor-editor-ia-todo-lo-que-necesitas-saber",
-      "sourceType": "discovered",
-      "url": "https://fazt.dev/contenido/curso-cursor-editor-ia",
-      "finalUrl": "https://fazt.dev/contenido/curso-cursor-editor-ia",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-fazt-course-curso-de-odoo-para-principiantes-y-desarrolladores-odoo-odoo-sh-y-odoo-com",
-      "sourceType": "discovered",
-      "url": "https://fazt.dev/contenido/tutorial-de-odoo",
-      "finalUrl": "https://fazt.dev/contenido/tutorial-de-odoo",
+      "url": "https://fazt.dev/contenido/fish-audio-texto-a-voz-agentes-ia",
+      "finalUrl": "https://fazt.dev/contenido/fish-audio-texto-a-voz-agentes-ia",
       "status": "active",
       "httpStatus": 200
     },
@@ -1671,8 +1669,10 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Customer Engagement Fundamentals",
       "url": "https://skillsbuild.org/adult-learners/explore-learning/customer-service-representative",
-      "status": "rejected",
-      "reason": "no-free-credential-evidence",
+      "status": "accepted",
+      "provider": "IBM SkillsBuild",
+      "kind": "Credencial",
+      "language": "ES",
       "httpStatus": 200,
       "finalUrl": "https://skillsbuild.org/learning-catalog"
     },
@@ -1872,7 +1872,7 @@
       "status": "rejected",
       "reason": "no-free-credential-evidence",
       "httpStatus": 200,
-      "finalUrl": "https://www.freecodecamp.org/learn/data-visualization"
+      "finalUrl": "https://www.freecodecamp.org/learn/data-visualization/"
     },
     {
       "sourceType": "community",
@@ -2108,7 +2108,7 @@
       "status": "rejected",
       "reason": "no-free-credential-evidence",
       "httpStatus": 200,
-      "finalUrl": "https://www.freecodecamp.org/learn/machine-learning-with-python"
+      "finalUrl": "https://www.freecodecamp.org/learn/machine-learning-with-python/"
     },
     {
       "sourceType": "community",
@@ -2487,10 +2487,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Introduction to Cybersecurity Awareness",
       "url": "https://www.life-global.org/course/346-introduction-to-cybersecurity-awareness",
-      "status": "accepted",
-      "provider": "HP LIFE",
-      "kind": "Certificación",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.life-global.org/course/346-introduction-to-cybersecurity-awareness"
     },
@@ -2635,9 +2633,8 @@
       "title": "Link",
       "url": "https://odyssey.apollographql.com/certifications/apollo-graph-associate",
       "status": "rejected",
-      "reason": "no-free-credential-evidence",
-      "httpStatus": 200,
-      "finalUrl": "https://www.apollographql.com/tutorials/certifications/apollo-graph-associate/"
+      "reason": "unreachable",
+      "httpStatus": 502
     },
     {
       "sourceType": "community",
@@ -2726,12 +2723,9 @@
       "source": "GitHub · FreeDevCertifications",
       "title": "Basic Proficiency in KNIME Analytics Platform (L1)",
       "url": "https://www.knime.com/certification-program",
-      "status": "accepted",
-      "provider": "KNIME",
-      "kind": "Insignia",
-      "language": "EN",
-      "httpStatus": 200,
-      "finalUrl": "https://www.knime.com/certification-program"
+      "status": "rejected",
+      "reason": "unreachable",
+      "httpStatus": 502
     },
     {
       "sourceType": "community",
@@ -2757,12 +2751,9 @@
       "source": "GitHub · FreeDevCertifications",
       "title": "KNIME 90-Day Data Skills Certification Challenge",
       "url": "https://www.knime.com/blog/the-90-day-certification-challenge",
-      "status": "accepted",
-      "provider": "KNIME",
-      "kind": "Certificación",
-      "language": "EN",
-      "httpStatus": 200,
-      "finalUrl": "https://www.knime.com/blog/the-90-day-certification-challenge"
+      "status": "rejected",
+      "reason": "unreachable",
+      "httpStatus": 502
     }
   ]
 }
