@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-11T15:10:55.716Z",
+  "generatedAt": "2026-09-12T14:21:10.499Z",
   "seed": 54,
   "officialDiscoveredRaw": 101,
   "officialValidated": 96,
   "communityCandidates": 137,
-  "communityValidated": 72,
-  "published": 189,
+  "communityValidated": 75,
+  "published": 192,
   "audit": [
     {
       "id": "ibm-digital-credentials",
@@ -609,7 +609,7 @@
       "httpStatus": 200
     },
     {
-      "id": "live-mongodb-skills-and-certificationsdevelop-in-demand-skills-and-earn-mongodb-certifications",
+      "id": "live-mongodb-courses-and-certificationlearn-for-free-from-mongodb",
       "sourceType": "discovered",
       "url": "https://learn.mongodb.com",
       "finalUrl": "https://learn.mongodb.com",
@@ -617,10 +617,10 @@
       "httpStatus": 200
     },
     {
-      "id": "live-mongodb-skills",
+      "id": "live-mongodb-lab-zone",
       "sourceType": "discovered",
-      "url": "https://learn.mongodb.com/skills",
-      "finalUrl": "https://learn.mongodb.com/skills",
+      "url": "https://learn.mongodb.com/pages/lab-zone",
+      "finalUrl": "https://learn.mongodb.com/pages/lab-zone",
       "status": "active",
       "httpStatus": 200
     },
@@ -2487,8 +2487,10 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Introduction to Cybersecurity Awareness",
       "url": "https://www.life-global.org/course/346-introduction-to-cybersecurity-awareness",
-      "status": "rejected",
-      "reason": "no-free-credential-evidence",
+      "status": "accepted",
+      "provider": "HP LIFE",
+      "kind": "Certificación",
+      "language": "EN",
       "httpStatus": 200,
       "finalUrl": "https://www.life-global.org/course/346-introduction-to-cybersecurity-awareness"
     },
@@ -2633,8 +2635,9 @@
       "title": "Link",
       "url": "https://odyssey.apollographql.com/certifications/apollo-graph-associate",
       "status": "rejected",
-      "reason": "unreachable",
-      "httpStatus": 502
+      "reason": "no-free-credential-evidence",
+      "httpStatus": 200,
+      "finalUrl": "https://www.apollographql.com/tutorials/certifications/apollo-graph-associate/"
     },
     {
       "sourceType": "community",
@@ -2723,9 +2726,12 @@
       "source": "GitHub · FreeDevCertifications",
       "title": "Basic Proficiency in KNIME Analytics Platform (L1)",
       "url": "https://www.knime.com/certification-program",
-      "status": "rejected",
-      "reason": "unreachable",
-      "httpStatus": 502
+      "status": "accepted",
+      "provider": "KNIME",
+      "kind": "Insignia",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://www.knime.com/certification-program"
     },
     {
       "sourceType": "community",
@@ -2751,9 +2757,12 @@
       "source": "GitHub · FreeDevCertifications",
       "title": "KNIME 90-Day Data Skills Certification Challenge",
       "url": "https://www.knime.com/blog/the-90-day-certification-challenge",
-      "status": "rejected",
-      "reason": "unreachable",
-      "httpStatus": 502
+      "status": "accepted",
+      "provider": "KNIME",
+      "kind": "Certificación",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://www.knime.com/blog/the-90-day-certification-challenge"
     }
   ]
 }
