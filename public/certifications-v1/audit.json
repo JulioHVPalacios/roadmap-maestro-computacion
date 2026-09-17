@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-16T15:31:44.175Z",
+  "generatedAt": "2026-09-17T15:38:45.731Z",
   "seed": 54,
   "officialDiscoveredRaw": 97,
-  "officialValidated": 93,
+  "officialValidated": 91,
   "communityCandidates": 137,
   "communityValidated": 75,
-  "published": 188,
+  "published": 186,
   "audit": [
     {
       "id": "ibm-digital-credentials",
@@ -379,9 +379,9 @@
       "id": "github-skills-free",
       "sourceType": "seed",
       "url": "https://skills.github.com/",
-      "httpStatus": 200,
-      "finalUrl": "https://learn.github.com/skills",
-      "status": "active"
+      "httpStatus": 404,
+      "finalUrl": "https://skills.github.com/",
+      "status": "inactive"
     },
     {
       "id": "gitlab-university-free",
@@ -596,7 +596,8 @@
       "sourceType": "discovered",
       "url": "https://learn.mongodb.com/catalog?labels=%5B%22Free%2FPaid%22%5D&values=%5B%22Free%22%5D",
       "finalUrl": "https://learn.mongodb.com/catalog?labels=%5B%22Free%2FPaid%22%5D&values=%5B%22Free%22%5D",
-      "status": "active",
+      "status": "rejected",
+      "reason": "no-learning-evidence",
       "httpStatus": 200
     },
     {
@@ -636,7 +637,8 @@
       "sourceType": "discovered",
       "url": "https://learn.mongodb.com/catalog?labels=%5B%5D&page=1&values=%5B%5D",
       "finalUrl": "https://learn.mongodb.com/catalog?labels=%5B%5D&page=1&values=%5B%5D",
-      "status": "active",
+      "status": "rejected",
+      "reason": "no-learning-evidence",
       "httpStatus": 200
     },
     {
@@ -2604,7 +2606,7 @@
       "status": "rejected",
       "reason": "no-free-credential-evidence",
       "httpStatus": 200,
-      "finalUrl": "https://www.apollographql.com/tutorials/certifications/apollo-graph-associate/"
+      "finalUrl": "https://www.apollographql.com/tutorials/certifications/apollo-graph-associate"
     },
     {
       "sourceType": "community",
