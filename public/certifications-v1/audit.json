@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-18T15:07:29.830Z",
+  "generatedAt": "2026-09-19T14:44:21.726Z",
   "seed": 54,
-  "officialDiscoveredRaw": 85,
-  "officialValidated": 79,
+  "officialDiscoveredRaw": 97,
+  "officialValidated": 93,
   "communityCandidates": 137,
-  "communityValidated": 75,
-  "published": 178,
+  "communityValidated": 76,
+  "published": 189,
   "audit": [
     {
       "id": "ibm-digital-credentials",
@@ -440,6 +440,102 @@
       "status": "active"
     },
     {
+      "id": "live-hubspot-inbound-nuevo-certificacion-3-horas-marketing-ventas-service",
+      "sourceType": "discovered",
+      "url": "https://academy.hubspot.com/es/courses/inbound",
+      "finalUrl": "https://academy.hubspot.com/es/courses/inbound",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-hubspot-curso-de-certificacion-de-marketing-en-redes-sociales-certificacion-6-horas-marketing",
+      "sourceType": "discovered",
+      "url": "https://academy.hubspot.com/es/courses/social-media",
+      "finalUrl": "https://academy.hubspot.com/es/courses/social-media",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-hubspot-marketing-digital-certificacion-6-horas-marketing",
+      "sourceType": "discovered",
+      "url": "https://academy.hubspot.com/es/courses/digital-marketing",
+      "finalUrl": "https://academy.hubspot.com/es/courses/digital-marketing",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-hubspot-inbound-marketing-certificacion-5-horas-marketing",
+      "sourceType": "discovered",
+      "url": "https://academy.hubspot.com/es/courses/inbound-marketing",
+      "finalUrl": "https://academy.hubspot.com/es/courses/inbound-marketing",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-hubspot-marketing-de-contenidos-certificacion-9-horas-marketing",
+      "sourceType": "discovered",
+      "url": "https://academy.hubspot.com/es/courses/content-marketing",
+      "finalUrl": "https://academy.hubspot.com/es/courses/content-marketing",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-hubspot-ventas-inbound-certificacion-3-horas-ventas",
+      "sourceType": "discovered",
+      "url": "https://academy.hubspot.com/es/courses/inbound-sales",
+      "finalUrl": "https://academy.hubspot.com/es/courses/inbound-sales",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-hubspot-ventas-sin-friccion-certificacion-2-horas-ventas",
+      "sourceType": "discovered",
+      "url": "https://academy.hubspot.com/es/courses/frictionless-sales",
+      "finalUrl": "https://academy.hubspot.com/es/courses/frictionless-sales",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-hubspot-habilitacion-de-ventas-certificacion-5-horas-ventas",
+      "sourceType": "discovered",
+      "url": "https://academy.hubspot.com/es/courses/sales-enablement",
+      "finalUrl": "https://academy.hubspot.com/es/courses/sales-enablement",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-hubspot-optimizacion-del-inbound-marketing-certificacion-5-horas-marketing",
+      "sourceType": "discovered",
+      "url": "https://academy.hubspot.com/es/courses/inbound-marketing-optimization",
+      "finalUrl": "https://academy.hubspot.com/es/courses/inbound-marketing-optimization",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-hubspot-certificacion-de-content-hub-para-marketers-certificacion-3-horas-marketing",
+      "sourceType": "discovered",
+      "url": "https://academy.hubspot.com/es/courses/hubspot-content-hub-software-es",
+      "finalUrl": "https://academy.hubspot.com/es/courses/hubspot-content-hub-software-es",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-hubspot-certificacion-en-optimizacion-para-motores-de-respuesta-aeo-certificacion-4-horas-marketing",
+      "sourceType": "discovered",
+      "url": "https://academy.hubspot.com/es/courses/aeo-fundamentals-certification",
+      "finalUrl": "https://academy.hubspot.com/es/courses/aeo-fundamentals-certification",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-hubspot-certificacion-en-implementacion-de-aeo-con-hubspot-certificacion-3-horas",
+      "sourceType": "discovered",
+      "url": "https://academy.hubspot.com/es/courses/implementing-aeo-with-hubspot-certification",
+      "finalUrl": "https://academy.hubspot.com/es/courses/implementing-aeo-with-hubspot-certification",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
       "id": "live-mtpe-competencias-digita",
       "sourceType": "discovered",
       "url": "https://capacitacionlaboral.trabajo.gob.pe/rutas/competencias-digitales-basicas-para-el-empleo",
@@ -500,8 +596,7 @@
       "sourceType": "discovered",
       "url": "https://learn.mongodb.com/catalog?labels=%5B%22Free%2FPaid%22%5D&values=%5B%22Free%22%5D",
       "finalUrl": "https://learn.mongodb.com/catalog?labels=%5B%22Free%2FPaid%22%5D&values=%5B%22Free%22%5D",
-      "status": "rejected",
-      "reason": "no-learning-evidence",
+      "status": "active",
       "httpStatus": 200
     },
     {
@@ -541,8 +636,7 @@
       "sourceType": "discovered",
       "url": "https://learn.mongodb.com/catalog?labels=%5B%5D&page=1&values=%5B%5D",
       "finalUrl": "https://learn.mongodb.com/catalog?labels=%5B%5D&page=1&values=%5B%5D",
-      "status": "rejected",
-      "reason": "no-learning-evidence",
+      "status": "active",
       "httpStatus": 200
     },
     {
@@ -1730,12 +1824,9 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Data Visualization with R",
       "url": "https://cognitiveclass.ai/courses/data-visualization-with-r",
-      "status": "accepted",
-      "provider": "Cognitive Class",
-      "kind": "Insignia",
-      "language": "EN",
-      "httpStatus": 200,
-      "finalUrl": "https://cognitiveclass.ai/courses/data-visualization-with-r"
+      "status": "rejected",
+      "reason": "unreachable",
+      "httpStatus": 0
     },
     {
       "sourceType": "community",
@@ -1788,12 +1879,9 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Data Science Methodologies",
       "url": "https://cognitiveclass.ai/courses/data-science-methodology-2",
-      "status": "accepted",
-      "provider": "Cognitive Class",
-      "kind": "Insignia",
-      "language": "EN",
-      "httpStatus": 200,
-      "finalUrl": "https://cognitiveclass.ai/courses/data-science-methodology-2"
+      "status": "rejected",
+      "reason": "unreachable",
+      "httpStatus": 0
     },
     {
       "sourceType": "community",
@@ -1892,8 +1980,10 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Responsive Web Design Certification",
       "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design",
-      "status": "rejected",
-      "reason": "no-free-credential-evidence",
+      "status": "accepted",
+      "provider": "freeCodeCamp",
+      "kind": "Certificación",
+      "language": "EN",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/2022/responsive-web-design/"
     },
@@ -2138,8 +2228,10 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Foundational C# with Microsoft",
       "url": "https://www.freecodecamp.org/learn/foundational-c-sharp-with-microsoft",
-      "status": "rejected",
-      "reason": "no-free-credential-evidence",
+      "status": "accepted",
+      "provider": "freeCodeCamp",
+      "kind": "Certificación",
+      "language": "EN",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/foundational-c-sharp-with-microsoft/"
     },
@@ -2188,8 +2280,10 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Scientific Computing with Python Certification",
       "url": "https://www.freecodecamp.org/learn/scientific-computing-with-python",
-      "status": "rejected",
-      "reason": "no-free-credential-evidence",
+      "status": "accepted",
+      "provider": "freeCodeCamp",
+      "kind": "Certificación",
+      "language": "EN",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/scientific-computing-with-python/"
     },
