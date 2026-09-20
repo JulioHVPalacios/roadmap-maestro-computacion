@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-19T14:44:21.726Z",
+  "generatedAt": "2026-09-20T14:49:46.020Z",
   "seed": 54,
-  "officialDiscoveredRaw": 97,
-  "officialValidated": 93,
+  "officialDiscoveredRaw": 96,
+  "officialValidated": 92,
   "communityCandidates": 137,
-  "communityValidated": 76,
-  "published": 189,
+  "communityValidated": 75,
+  "published": 188,
   "audit": [
     {
       "id": "ibm-digital-credentials",
@@ -600,46 +600,6 @@
       "httpStatus": 200
     },
     {
-      "id": "live-mongodb-certification",
-      "sourceType": "discovered",
-      "url": "https://learn.mongodb.com/pages/certification-program",
-      "finalUrl": "https://learn.mongodb.com/pages/certification-program",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-mongodb-skills-and-certificationsdevelop-in-demand-skills-and-earn-mongodb-certifications",
-      "sourceType": "discovered",
-      "url": "https://learn.mongodb.com",
-      "finalUrl": "https://learn.mongodb.com",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-mongodb-skills",
-      "sourceType": "discovered",
-      "url": "https://learn.mongodb.com/skills",
-      "finalUrl": "https://learn.mongodb.com/skills",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-mongodb-list-of-self-paced-topics",
-      "sourceType": "discovered",
-      "url": "https://learn.mongodb.com/self-paced-topics",
-      "finalUrl": "https://learn.mongodb.com/self-paced-topics",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-mongodb-free",
-      "sourceType": "discovered",
-      "url": "https://learn.mongodb.com/catalog?labels=%5B%5D&page=1&values=%5B%5D",
-      "finalUrl": "https://learn.mongodb.com/catalog?labels=%5B%5D&page=1&values=%5B%5D",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
       "id": "live-saylor-courses-programs",
       "sourceType": "discovered",
       "url": "https://learn.saylor.org/course/index.php?categoryid=9",
@@ -807,62 +767,6 @@
       "httpStatus": 200
     },
     {
-      "id": "live-sap-learning-journey-developing-a-universe-using-sap-businessobjects-information-design-tool",
-      "sourceType": "discovered",
-      "url": "https://learning.sap.com/learning-journeys/developing-a-universe-using-sap-businessobjects-information-design-tool",
-      "finalUrl": "https://learning.sap.com/learning-journeys/developing-a-universe-using-sap-businessobjects-information-design-tool",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-sap-course-positioning-sap-solutions-for-business-network-solutions",
-      "sourceType": "discovered",
-      "url": "https://learning.sap.com/courses/positioning-sap-solutions-for-business-network-solutions",
-      "finalUrl": "https://learning.sap.com/courses/positioning-sap-solutions-for-business-network-solutions",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-sap-course-positioning-sap-solutions-for-business-network-solutions-for-partners",
-      "sourceType": "discovered",
-      "url": "https://learning.sap.com/courses/positioning-sap-solutions-for-business-network-solutions-for-partners",
-      "finalUrl": "https://learning.sap.com/courses/positioning-sap-solutions-for-business-network-solutions-for-partners",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-sap-course-commerce-and-s-4hana-end-to-end-integration",
-      "sourceType": "discovered",
-      "url": "https://learning.sap.com/courses/commerce-and-s-4hana-end-to-end-integration",
-      "finalUrl": "https://learning.sap.com/courses/commerce-and-s-4hana-end-to-end-integration",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-sap-course-discovering-procurement-solutions",
-      "sourceType": "discovered",
-      "url": "https://learning.sap.com/courses/discovering-procurement-solutions",
-      "finalUrl": "https://learning.sap.com/courses/discovering-procurement-solutions",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-sap-learning-journey-administering-and-using-responsible-design-and-production-for-the-circular-economy",
-      "sourceType": "discovered",
-      "url": "https://learning.sap.com/learning-journeys/administering-and-using-responsible-design-and-production-for-the-circular-economy",
-      "finalUrl": "https://learning.sap.com/learning-journeys/administering-and-using-responsible-design-and-production-for-the-circular-economy",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-sap-course-explore-sap-successfactors-solutions",
-      "sourceType": "discovered",
-      "url": "https://learning.sap.com/courses/explore-sap-successfactors-solutions",
-      "finalUrl": "https://learning.sap.com/courses/explore-sap-successfactors-solutions",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
       "id": "live-sap-artificial-intelligence-develop-practical-ai-skills-with-guided-learning-and-recognized-certifications",
       "sourceType": "discovered",
       "url": "https://learning.sap.com/artificial-intelligence",
@@ -961,6 +865,94 @@
       "sourceType": "discovered",
       "url": "https://learning.sap.com/release-notes",
       "finalUrl": "https://learning.sap.com/release-notes",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-sap-sap-s-4hana-cloud-public-edition",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/products/s4hana-cloud",
+      "finalUrl": "https://learning.sap.com/products/s4hana-cloud",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-sap-sap-s-4hana-cloud-private-edition",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/products/s4hana-cloud-private",
+      "finalUrl": "https://learning.sap.com/products/s4hana-cloud-private",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-sap-supply-chain-management",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/products/supply-chain-management",
+      "finalUrl": "https://learning.sap.com/products/supply-chain-management",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-sap-financial-management",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/products/financial-management",
+      "finalUrl": "https://learning.sap.com/products/financial-management",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-sap-human-capital-management",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/products/human-capital-management",
+      "finalUrl": "https://learning.sap.com/products/human-capital-management",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-sap-spend-management",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/products/intelligent-spend-management",
+      "finalUrl": "https://learning.sap.com/products/intelligent-spend-management",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-sap-customer-experience",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/products/customer-experience",
+      "finalUrl": "https://learning.sap.com/products/customer-experience",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-sap-transformation-management",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/products/business-transformation-management",
+      "finalUrl": "https://learning.sap.com/products/business-transformation-management",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-sap-view-all-products",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/products",
+      "finalUrl": "https://learning.sap.com/products",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-sap-administrator",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/browse/roles/administrator",
+      "finalUrl": "https://learning.sap.com/browse/roles/administrator?access=free",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-sap-architect",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/browse/roles/architect",
+      "finalUrl": "https://learning.sap.com/browse/roles/architect?access=free",
       "status": "active",
       "httpStatus": 200
     },
@@ -1166,50 +1158,50 @@
       "httpStatus": 200
     },
     {
+      "id": "live-fazt-ia-feat-jev-de-typesafe-ai-el-modelo-que-no-escribe-texto",
+      "sourceType": "discovered",
+      "url": "https://fazt.dev/contenido/jev",
+      "finalUrl": "https://fazt.dev/contenido/jev",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-fazt-ia-feat-rag-en-produccion-tu-ia-con-datos-y-usuarios-reales",
+      "sourceType": "discovered",
+      "url": "https://fazt.dev/contenido/rag-nextjs-pgvector-open-router",
+      "finalUrl": "https://fazt.dev/contenido/rag-nextjs-pgvector-open-router",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-fazt-ia-feat-guia-completa-de-opencode-terminal-vs-code-y-desktop-2025",
+      "sourceType": "discovered",
+      "url": "https://fazt.dev/contenido/curso-opencode-v2",
+      "finalUrl": "https://fazt.dev/contenido/curso-opencode-v2",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-fazt-ia-feat-command-code-tutorial-inventario-saas-skills-playwright-en-minutos",
+      "sourceType": "discovered",
+      "url": "https://fazt.dev/contenido/command-code-tutorial-inventario-saas-skills-playwright",
+      "finalUrl": "https://fazt.dev/contenido/command-code-tutorial-inventario-saas-skills-playwright",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-fazt-ia-feat-ex-trabajador-de-anthropic-dice-que-la-ia-puede-acabar-con-la-humanidad-y-se-viralizo",
+      "sourceType": "discovered",
+      "url": "https://fazt.dev/contenido/ex-anthropic-alerta-ia-fin-humanidad-analisis",
+      "finalUrl": "https://fazt.dev/contenido/ex-anthropic-alerta-ia-fin-humanidad-analisis",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
       "id": "live-fazt-ver-el-catalogo-gratis",
       "sourceType": "discovered",
       "url": "https://fazt.dev/contenido",
       "finalUrl": "https://fazt.dev/contenido",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-fazt-summary-inteligencia-artificial-deje-de-pagar-4-suscripciones-de-ia-por-estos-10-repos-fazt",
-      "sourceType": "discovered",
-      "url": "https://fazt.dev/contenido/deje-de-pagar-suscripciones-ia-10-repos-github",
-      "finalUrl": "https://fazt.dev/contenido/deje-de-pagar-suscripciones-ia-10-repos-github",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-fazt-tutorial-inteligencia-artificial-claude-design-el-skill-oculto-para-crear-interfaces-con-ia",
-      "sourceType": "discovered",
-      "url": "https://fazt.dev/contenido/claude-design-skill-interfaces-ia",
-      "finalUrl": "https://fazt.dev/contenido/claude-design-skill-interfaces-ia",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-fazt-course-inteligencia-artificial-5-caracteristicas-de-cursor-que-casi-nadie-usa-y-deberias",
-      "sourceType": "discovered",
-      "url": "https://fazt.dev/contenido/cursor-subagentes-testing-automatico-skills",
-      "finalUrl": "https://fazt.dev/contenido/cursor-subagentes-testing-automatico-skills",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-fazt-tutorial-inteligencia-artificial-tu-propia-plataforma-de-ia-tipo-chatgpt-openrouter-stripe-railway",
-      "sourceType": "discovered",
-      "url": "https://fazt.dev/contenido/saas-ia-openrouter-stripe-cursor-railway",
-      "finalUrl": "https://fazt.dev/contenido/saas-ia-openrouter-stripe-cursor-railway",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-fazt-tutorial-inteligencia-artificial-fish-audio-haz-que-tus-agentes-de-ia-hablen-con-voz-humana",
-      "sourceType": "discovered",
-      "url": "https://fazt.dev/contenido/fish-audio-texto-a-voz-agentes-ia",
-      "finalUrl": "https://fazt.dev/contenido/fish-audio-texto-a-voz-agentes-ia",
       "status": "active",
       "httpStatus": 200
     },
@@ -1802,8 +1794,10 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Data Analysis with Python Certification",
       "url": "https://www.freecodecamp.org/learn/data-analysis-with-python",
-      "status": "rejected",
-      "reason": "no-free-credential-evidence",
+      "status": "accepted",
+      "provider": "freeCodeCamp",
+      "kind": "Certificación",
+      "language": "EN",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/data-analysis-with-python/"
     },
@@ -1824,9 +1818,12 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Data Visualization with R",
       "url": "https://cognitiveclass.ai/courses/data-visualization-with-r",
-      "status": "rejected",
-      "reason": "unreachable",
-      "httpStatus": 0
+      "status": "accepted",
+      "provider": "Cognitive Class",
+      "kind": "Insignia",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://cognitiveclass.ai/courses/data-visualization-with-r"
     },
     {
       "sourceType": "community",
@@ -1879,9 +1876,12 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Data Science Methodologies",
       "url": "https://cognitiveclass.ai/courses/data-science-methodology-2",
-      "status": "rejected",
-      "reason": "unreachable",
-      "httpStatus": 0
+      "status": "accepted",
+      "provider": "Cognitive Class",
+      "kind": "Insignia",
+      "language": "EN",
+      "httpStatus": 200,
+      "finalUrl": "https://cognitiveclass.ai/courses/data-science-methodology-2"
     },
     {
       "sourceType": "community",
@@ -1980,10 +1980,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Responsive Web Design Certification",
       "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design",
-      "status": "accepted",
-      "provider": "freeCodeCamp",
-      "kind": "Certificación",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/2022/responsive-web-design/"
     },
@@ -2228,10 +2226,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Foundational C# with Microsoft",
       "url": "https://www.freecodecamp.org/learn/foundational-c-sharp-with-microsoft",
-      "status": "accepted",
-      "provider": "freeCodeCamp",
-      "kind": "Certificación",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/foundational-c-sharp-with-microsoft/"
     },
@@ -2280,10 +2276,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Scientific Computing with Python Certification",
       "url": "https://www.freecodecamp.org/learn/scientific-computing-with-python",
-      "status": "accepted",
-      "provider": "freeCodeCamp",
-      "kind": "Certificación",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/scientific-computing-with-python/"
     },
@@ -2314,10 +2308,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Pandas",
       "url": "https://www.kaggle.com/learn/pandas",
-      "status": "accepted",
-      "provider": "Kaggle",
-      "kind": "Curso con certificado",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.kaggle.com/learn/pandas"
     },
