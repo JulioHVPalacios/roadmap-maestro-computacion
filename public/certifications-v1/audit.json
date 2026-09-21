@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-20T14:49:46.020Z",
+  "generatedAt": "2026-09-21T17:10:47.861Z",
   "seed": 54,
-  "officialDiscoveredRaw": 96,
-  "officialValidated": 92,
+  "officialDiscoveredRaw": 89,
+  "officialValidated": 84,
   "communityCandidates": 137,
   "communityValidated": 75,
-  "published": 188,
+  "published": 183,
   "audit": [
     {
       "id": "ibm-digital-credentials",
@@ -440,102 +440,6 @@
       "status": "active"
     },
     {
-      "id": "live-hubspot-inbound-nuevo-certificacion-3-horas-marketing-ventas-service",
-      "sourceType": "discovered",
-      "url": "https://academy.hubspot.com/es/courses/inbound",
-      "finalUrl": "https://academy.hubspot.com/es/courses/inbound",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-hubspot-curso-de-certificacion-de-marketing-en-redes-sociales-certificacion-6-horas-marketing",
-      "sourceType": "discovered",
-      "url": "https://academy.hubspot.com/es/courses/social-media",
-      "finalUrl": "https://academy.hubspot.com/es/courses/social-media",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-hubspot-marketing-digital-certificacion-6-horas-marketing",
-      "sourceType": "discovered",
-      "url": "https://academy.hubspot.com/es/courses/digital-marketing",
-      "finalUrl": "https://academy.hubspot.com/es/courses/digital-marketing",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-hubspot-inbound-marketing-certificacion-5-horas-marketing",
-      "sourceType": "discovered",
-      "url": "https://academy.hubspot.com/es/courses/inbound-marketing",
-      "finalUrl": "https://academy.hubspot.com/es/courses/inbound-marketing",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-hubspot-marketing-de-contenidos-certificacion-9-horas-marketing",
-      "sourceType": "discovered",
-      "url": "https://academy.hubspot.com/es/courses/content-marketing",
-      "finalUrl": "https://academy.hubspot.com/es/courses/content-marketing",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-hubspot-ventas-inbound-certificacion-3-horas-ventas",
-      "sourceType": "discovered",
-      "url": "https://academy.hubspot.com/es/courses/inbound-sales",
-      "finalUrl": "https://academy.hubspot.com/es/courses/inbound-sales",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-hubspot-ventas-sin-friccion-certificacion-2-horas-ventas",
-      "sourceType": "discovered",
-      "url": "https://academy.hubspot.com/es/courses/frictionless-sales",
-      "finalUrl": "https://academy.hubspot.com/es/courses/frictionless-sales",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-hubspot-habilitacion-de-ventas-certificacion-5-horas-ventas",
-      "sourceType": "discovered",
-      "url": "https://academy.hubspot.com/es/courses/sales-enablement",
-      "finalUrl": "https://academy.hubspot.com/es/courses/sales-enablement",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-hubspot-optimizacion-del-inbound-marketing-certificacion-5-horas-marketing",
-      "sourceType": "discovered",
-      "url": "https://academy.hubspot.com/es/courses/inbound-marketing-optimization",
-      "finalUrl": "https://academy.hubspot.com/es/courses/inbound-marketing-optimization",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-hubspot-certificacion-de-content-hub-para-marketers-certificacion-3-horas-marketing",
-      "sourceType": "discovered",
-      "url": "https://academy.hubspot.com/es/courses/hubspot-content-hub-software-es",
-      "finalUrl": "https://academy.hubspot.com/es/courses/hubspot-content-hub-software-es",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-hubspot-certificacion-en-optimizacion-para-motores-de-respuesta-aeo-certificacion-4-horas-marketing",
-      "sourceType": "discovered",
-      "url": "https://academy.hubspot.com/es/courses/aeo-fundamentals-certification",
-      "finalUrl": "https://academy.hubspot.com/es/courses/aeo-fundamentals-certification",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-hubspot-certificacion-en-implementacion-de-aeo-con-hubspot-certificacion-3-horas",
-      "sourceType": "discovered",
-      "url": "https://academy.hubspot.com/es/courses/implementing-aeo-with-hubspot-certification",
-      "finalUrl": "https://academy.hubspot.com/es/courses/implementing-aeo-with-hubspot-certification",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
       "id": "live-mtpe-competencias-digita",
       "sourceType": "discovered",
       "url": "https://capacitacionlaboral.trabajo.gob.pe/rutas/competencias-digitales-basicas-para-el-empleo",
@@ -596,6 +500,47 @@
       "sourceType": "discovered",
       "url": "https://learn.mongodb.com/catalog?labels=%5B%22Free%2FPaid%22%5D&values=%5B%22Free%22%5D",
       "finalUrl": "https://learn.mongodb.com/catalog?labels=%5B%22Free%2FPaid%22%5D&values=%5B%22Free%22%5D",
+      "status": "rejected",
+      "reason": "no-learning-evidence",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-mongodb-certification",
+      "sourceType": "discovered",
+      "url": "https://learn.mongodb.com/pages/certification-program",
+      "finalUrl": "https://learn.mongodb.com/pages/certification-program",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-mongodb-skills-and-certificationsdevelop-in-demand-skills-and-earn-mongodb-certifications",
+      "sourceType": "discovered",
+      "url": "https://learn.mongodb.com",
+      "finalUrl": "https://learn.mongodb.com",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-mongodb-skills",
+      "sourceType": "discovered",
+      "url": "https://learn.mongodb.com/skills",
+      "finalUrl": "https://learn.mongodb.com/skills",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-mongodb-list-of-self-paced-topics",
+      "sourceType": "discovered",
+      "url": "https://learn.mongodb.com/self-paced-topics",
+      "finalUrl": "https://learn.mongodb.com/self-paced-topics",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-mongodb-free",
+      "sourceType": "discovered",
+      "url": "https://learn.mongodb.com/catalog?labels=%5B%5D&page=1&values=%5B%5D",
+      "finalUrl": "https://learn.mongodb.com/catalog?labels=%5B%5D&page=1&values=%5B%5D",
       "status": "active",
       "httpStatus": 200
     },
@@ -767,6 +712,62 @@
       "httpStatus": 200
     },
     {
+      "id": "live-sap-learning-journey-developing-a-universe-using-sap-businessobjects-information-design-tool",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/learning-journeys/developing-a-universe-using-sap-businessobjects-information-design-tool",
+      "finalUrl": "https://learning.sap.com/learning-journeys/developing-a-universe-using-sap-businessobjects-information-design-tool",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-sap-course-positioning-sap-solutions-for-business-network-solutions",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/courses/positioning-sap-solutions-for-business-network-solutions",
+      "finalUrl": "https://learning.sap.com/courses/positioning-sap-solutions-for-business-network-solutions",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-sap-course-positioning-sap-solutions-for-business-network-solutions-for-partners",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/courses/positioning-sap-solutions-for-business-network-solutions-for-partners",
+      "finalUrl": "https://learning.sap.com/courses/positioning-sap-solutions-for-business-network-solutions-for-partners",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-sap-course-commerce-and-s-4hana-end-to-end-integration",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/courses/commerce-and-s-4hana-end-to-end-integration",
+      "finalUrl": "https://learning.sap.com/courses/commerce-and-s-4hana-end-to-end-integration",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-sap-course-discovering-procurement-solutions",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/courses/discovering-procurement-solutions",
+      "finalUrl": "https://learning.sap.com/courses/discovering-procurement-solutions",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-sap-learning-journey-administering-and-using-responsible-design-and-production-for-the-circular-economy",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/learning-journeys/administering-and-using-responsible-design-and-production-for-the-circular-economy",
+      "finalUrl": "https://learning.sap.com/learning-journeys/administering-and-using-responsible-design-and-production-for-the-circular-economy",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-sap-course-explore-sap-successfactors-solutions",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/courses/explore-sap-successfactors-solutions",
+      "finalUrl": "https://learning.sap.com/courses/explore-sap-successfactors-solutions",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
       "id": "live-sap-artificial-intelligence-develop-practical-ai-skills-with-guided-learning-and-recognized-certifications",
       "sourceType": "discovered",
       "url": "https://learning.sap.com/artificial-intelligence",
@@ -897,62 +898,6 @@
       "sourceType": "discovered",
       "url": "https://learning.sap.com/products/financial-management",
       "finalUrl": "https://learning.sap.com/products/financial-management",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-sap-human-capital-management",
-      "sourceType": "discovered",
-      "url": "https://learning.sap.com/products/human-capital-management",
-      "finalUrl": "https://learning.sap.com/products/human-capital-management",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-sap-spend-management",
-      "sourceType": "discovered",
-      "url": "https://learning.sap.com/products/intelligent-spend-management",
-      "finalUrl": "https://learning.sap.com/products/intelligent-spend-management",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-sap-customer-experience",
-      "sourceType": "discovered",
-      "url": "https://learning.sap.com/products/customer-experience",
-      "finalUrl": "https://learning.sap.com/products/customer-experience",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-sap-transformation-management",
-      "sourceType": "discovered",
-      "url": "https://learning.sap.com/products/business-transformation-management",
-      "finalUrl": "https://learning.sap.com/products/business-transformation-management",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-sap-view-all-products",
-      "sourceType": "discovered",
-      "url": "https://learning.sap.com/products",
-      "finalUrl": "https://learning.sap.com/products",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-sap-administrator",
-      "sourceType": "discovered",
-      "url": "https://learning.sap.com/browse/roles/administrator",
-      "finalUrl": "https://learning.sap.com/browse/roles/administrator?access=free",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-sap-architect",
-      "sourceType": "discovered",
-      "url": "https://learning.sap.com/browse/roles/architect",
-      "finalUrl": "https://learning.sap.com/browse/roles/architect?access=free",
       "status": "active",
       "httpStatus": 200
     },
@@ -1794,10 +1739,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Data Analysis with Python Certification",
       "url": "https://www.freecodecamp.org/learn/data-analysis-with-python",
-      "status": "accepted",
-      "provider": "freeCodeCamp",
-      "kind": "Certificación",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/data-analysis-with-python/"
     },
@@ -2308,8 +2251,10 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Pandas",
       "url": "https://www.kaggle.com/learn/pandas",
-      "status": "rejected",
-      "reason": "no-free-credential-evidence",
+      "status": "accepted",
+      "provider": "Kaggle",
+      "kind": "Curso con certificado",
+      "language": "EN",
       "httpStatus": 200,
       "finalUrl": "https://www.kaggle.com/learn/pandas"
     },
