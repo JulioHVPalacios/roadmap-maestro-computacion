@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-22T15:47:07.077Z",
-  "total": 188,
-  "ok": 188,
+  "generatedAt": "2026-09-23T15:40:22.952Z",
+  "total": 189,
+  "ok": 189,
   "failed": 0,
   "rows": [
     {
@@ -19,15 +19,15 @@
       "status": 200
     },
     {
-      "id": "carlos-slim-capacitate",
-      "title": "Capacítate para el Empleo",
+      "id": "google-skillshop-live",
+      "title": "Google Skillshop · capacitación y certificaciones oficiales",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
-      "id": "google-skillshop-live",
-      "title": "Google Skillshop · capacitación y certificaciones oficiales",
+      "id": "carlos-slim-capacitate",
+      "title": "Capacítate para el Empleo",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -47,15 +47,15 @@
       "status": 200
     },
     {
-      "id": "hubspot-digital-marketing",
-      "title": "Certificación de Marketing Digital",
+      "id": "hubspot-certifications-live",
+      "title": "HubSpot Academy · certificaciones gratuitas actuales",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
-      "id": "hubspot-certifications-live",
-      "title": "HubSpot Academy · certificaciones gratuitas actuales",
+      "id": "hubspot-digital-marketing",
+      "title": "Certificación de Marketing Digital",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -103,15 +103,15 @@
       "status": 200
     },
     {
-      "id": "cisco-netacad",
-      "title": "Cisco Networking Academy · cursos gratuitos",
+      "id": "fazt-free-courses",
+      "title": "Fazt · cursos gratuitos de programación y desarrollo web",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
-      "id": "fazt-free-courses",
-      "title": "Fazt · cursos gratuitos de programación y desarrollo web",
+      "id": "cisco-netacad",
+      "title": "Cisco Networking Academy · cursos gratuitos",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -173,13 +173,6 @@
       "status": 200
     },
     {
-      "id": "hubspot-social-media",
-      "title": "Certificación de Marketing en Redes Sociales",
-      "ok": true,
-      "source": "Imagen oficial / Open Graph",
-      "status": 200
-    },
-    {
       "id": "ibm-agile-explorer",
       "title": "Agile Explorer",
       "ok": true,
@@ -187,8 +180,8 @@
       "status": 200
     },
     {
-      "id": "microsoft-powerapps-applied-skill",
-      "title": "Microsoft Applied Skills · Crear y administrar canvas apps con Power Apps",
+      "id": "hubspot-social-media",
+      "title": "Certificación de Marketing en Redes Sociales",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -196,6 +189,13 @@
     {
       "id": "ibm-data-fundamentals",
       "title": "Conceptos básicos sobre datos",
+      "ok": true,
+      "source": "Imagen oficial / Open Graph",
+      "status": 200
+    },
+    {
+      "id": "microsoft-powerapps-applied-skill",
+      "title": "Microsoft Applied Skills · Crear y administrar canvas apps con Power Apps",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -264,15 +264,15 @@
       "status": 200
     },
     {
-      "id": "live-hubspot-certificacion-de-content-hub-para-marketers-certificacion-3-horas-marketing",
-      "title": "Certificación de Content Hub para marketers Certificación 3 horas Marketing",
+      "id": "live-hubspot-certificacion-en-implementacion-de-aeo-con-hubspot-certificacion-3-horas",
+      "title": "Certificación en implementación de AEO con HubSpot Certificación 3 horas",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
-      "id": "live-hubspot-certificacion-en-implementacion-de-aeo-con-hubspot-certificacion-3-horas",
-      "title": "Certificación en implementación de AEO con HubSpot Certificación 3 horas",
+      "id": "live-hubspot-certificacion-de-content-hub-para-marketers-certificacion-3-horas-marketing",
+      "title": "Certificación de Content Hub para marketers Certificación 3 horas Marketing",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -285,15 +285,15 @@
       "status": 200
     },
     {
-      "id": "live-hubspot-habilitacion-de-ventas-certificacion-5-horas-ventas",
-      "title": "Habilitación de ventas Certificación 5 horas Ventas",
+      "id": "live-hubspot-inbound-nuevo-certificacion-3-horas-marketing-ventas-service",
+      "title": "Inbound (Nuevo) Certificación 3 horas Marketing Ventas Service",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
-      "id": "live-hubspot-inbound-nuevo-certificacion-3-horas-marketing-ventas-service",
-      "title": "Inbound (Nuevo) Certificación 3 horas Marketing Ventas Service",
+      "id": "live-hubspot-habilitacion-de-ventas-certificacion-5-horas-ventas",
+      "title": "Habilitación de ventas Certificación 5 horas Ventas",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -404,13 +404,6 @@
       "status": 200
     },
     {
-      "id": "live-fazt-ia-feat-command-code-tutorial-inventario-saas-skills-playwright-en-minutos",
-      "title": "ia feat: Command Code Tutorial: Inventario SaaS + Skills + Playwright en Minutos",
-      "ok": true,
-      "source": "Imagen oficial / Open Graph",
-      "status": 200
-    },
-    {
       "id": "google-developer-badges",
       "title": "Google Developer Program · distintivos",
       "ok": true,
@@ -418,8 +411,8 @@
       "status": 200
     },
     {
-      "id": "holamundo-open-content",
-      "title": "HolaMundo · contenido abierto de programación",
+      "id": "live-fazt-ia-feat-command-code-tutorial-inventario-saas-skills-playwright-en-minutos",
+      "title": "ia feat: Command Code Tutorial: Inventario SaaS + Skills + Playwright en Minutos",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -427,6 +420,13 @@
     {
       "id": "live-fazt-ia-feat-ex-trabajador-de-anthropic-dice-que-la-ia-puede-acabar-con-la-humanidad-y-se-viralizo",
       "title": "ia feat: Ex-trabajador de Anthropic dice que la IA puede acabar con la humanidad (y se viralizó)",
+      "ok": true,
+      "source": "Imagen oficial / Open Graph",
+      "status": 200
+    },
+    {
+      "id": "holamundo-open-content",
+      "title": "HolaMundo · contenido abierto de programación",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -453,13 +453,6 @@
       "status": 200
     },
     {
-      "id": "microsoft-applied-skills",
-      "title": "Microsoft Applied Skills · credenciales prácticas",
-      "ok": true,
-      "source": "Imagen oficial / Open Graph",
-      "status": 200
-    },
-    {
       "id": "live-fazt-ver-el-catalogo-gratis",
       "title": "Ver el catálogo gratis",
       "ok": true,
@@ -467,10 +460,10 @@
       "status": 200
     },
     {
-      "id": "mongodb-university-free",
-      "title": "MongoDB University · cursos y Skill Badges gratuitos",
+      "id": "microsoft-applied-skills",
+      "title": "Microsoft Applied Skills · credenciales prácticas",
       "ok": true,
-      "source": "Captura de la fuente oficial",
+      "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
@@ -481,8 +474,8 @@
       "status": 200
     },
     {
-      "id": "meta-blueprint-free-learning",
-      "title": "Meta Blueprint · cursos y preparación gratuitos",
+      "id": "mongodb-university-free",
+      "title": "MongoDB University · cursos y Skill Badges gratuitos",
       "ok": true,
       "source": "Captura de la fuente oficial",
       "status": 200
@@ -495,10 +488,10 @@
       "status": 200
     },
     {
-      "id": "live-fortinet-certifications",
-      "title": "Certifications",
+      "id": "meta-blueprint-free-learning",
+      "title": "Meta Blueprint · cursos y preparación gratuitos",
       "ok": true,
-      "source": "Imagen oficial / Open Graph",
+      "source": "Captura de la fuente oficial",
       "status": 200
     },
     {
@@ -509,15 +502,15 @@
       "status": 200
     },
     {
-      "id": "live-mongodb-courses-and-certificationlearn-for-free-from-mongodb",
-      "title": "Courses and CertificationLearn for free from MongoDB",
+      "id": "live-fortinet-certifications",
+      "title": "Certifications",
       "ok": true,
-      "source": "Captura de la fuente oficial",
+      "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
-      "id": "live-mongodb-certification",
-      "title": "Certification",
+      "id": "live-mongodb-list-of-self-paced-topics",
+      "title": "list of self-paced topics",
       "ok": true,
       "source": "Captura de la fuente oficial",
       "status": 200
@@ -530,8 +523,15 @@
       "status": 200
     },
     {
-      "id": "live-mongodb-lab-zone",
-      "title": "Lab Zone",
+      "id": "live-mongodb-certification",
+      "title": "Certification",
+      "ok": true,
+      "source": "Captura de la fuente oficial",
+      "status": 200
+    },
+    {
+      "id": "live-mongodb-skills-and-certificationsdevelop-in-demand-skills-and-earn-mongodb-certifications",
+      "title": "Skills and CertificationsDevelop in-demand skills and earn MongoDB certifications",
       "ok": true,
       "source": "Captura de la fuente oficial",
       "status": 200
@@ -544,8 +544,8 @@
       "status": 200
     },
     {
-      "id": "live-mongodb-list-of-self-paced-topics",
-      "title": "list of self-paced topics",
+      "id": "live-mongodb-skills",
+      "title": "Skills",
       "ok": true,
       "source": "Captura de la fuente oficial",
       "status": 200
@@ -957,15 +957,15 @@
       "status": 200
     },
     {
-      "id": "community-atlassian-university-learning-atlassian-community",
-      "title": "Learning - Atlassian Community",
+      "id": "community-cognitive-class-big-data-foundations-level-1",
+      "title": "Big Data Foundations - Level 1",
       "ok": true,
       "source": "Captura de la fuente oficial",
       "status": 200
     },
     {
-      "id": "community-cognitive-class-big-data-foundations-level-1",
-      "title": "Big Data Foundations - Level 1",
+      "id": "community-atlassian-university-learning-atlassian-community",
+      "title": "Learning - Atlassian Community",
       "ok": true,
       "source": "Captura de la fuente oficial",
       "status": 200
@@ -978,15 +978,15 @@
       "status": 200
     },
     {
-      "id": "community-cognitive-class-data-analysis-with-python",
-      "title": "Data Analysis with Python",
+      "id": "community-cognitive-class-data-science-101",
+      "title": "Data Science 101",
       "ok": true,
       "source": "Captura de la fuente oficial",
       "status": 200
     },
     {
-      "id": "community-cognitive-class-data-science-101",
-      "title": "Data Science 101",
+      "id": "community-cognitive-class-data-analysis-with-python",
+      "title": "Data Analysis with Python",
       "ok": true,
       "source": "Captura de la fuente oficial",
       "status": 200
@@ -1090,6 +1090,13 @@
       "status": 200
     },
     {
+      "id": "community-freecodecamp-front-end-libraries-certification",
+      "title": "Front-End Libraries Certification",
+      "ok": true,
+      "source": "Imagen oficial / Open Graph",
+      "status": 200
+    },
+    {
       "id": "community-cognitive-class-using-r-with-databases",
       "title": "Using R with Databases",
       "ok": true,
@@ -1160,15 +1167,15 @@
       "status": 200
     },
     {
-      "id": "community-hp-life-effective-business-websites",
-      "title": "Effective Business Websites",
+      "id": "community-hp-life-data-science-analytics",
+      "title": "Data Science & Analytics",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
-      "id": "community-hp-life-data-science-analytics",
-      "title": "Data Science & Analytics",
+      "id": "community-hp-life-effective-business-websites",
+      "title": "Effective Business Websites",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -1202,15 +1209,15 @@
       "status": 200
     },
     {
-      "id": "community-hp-life-professional-networking-for-career-growth",
-      "title": "Professional Networking for Career Growth",
+      "id": "community-hp-life-introduction-to-digital-business-skills",
+      "title": "Introduction to Digital Business Skills",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
-      "id": "community-hp-life-introduction-to-digital-business-skills",
-      "title": "Introduction to Digital Business Skills",
+      "id": "community-hp-life-professional-networking-for-career-growth",
+      "title": "Professional Networking for Career Growth",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -1223,15 +1230,15 @@
       "status": 200
     },
     {
-      "id": "community-hp-life-selling-online",
-      "title": "Selling Online",
+      "id": "community-hp-life-resume-writing-and-job-interviewing",
+      "title": "Resume Writing and Job Interviewing",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
-      "id": "community-hp-life-resume-writing-and-job-interviewing",
-      "title": "Resume Writing and Job Interviewing",
+      "id": "community-hp-life-selling-online",
+      "title": "Selling Online",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -1258,13 +1265,6 @@
       "status": 200
     },
     {
-      "id": "community-knime-basic-proficiency-in-knime-analytics-platform-l1",
-      "title": "Basic Proficiency in KNIME Analytics Platform (L1)",
-      "ok": true,
-      "source": "Captura de la fuente oficial",
-      "status": 200
-    },
-    {
       "id": "community-hp-life-your-target-audience",
       "title": "Your Target Audience",
       "ok": true,
@@ -1276,6 +1276,13 @@
       "title": "Computer Vision",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
+      "status": 200
+    },
+    {
+      "id": "community-knime-basic-proficiency-in-knime-analytics-platform-l1",
+      "title": "Basic Proficiency in KNIME Analytics Platform (L1)",
+      "ok": true,
+      "source": "Captura de la fuente oficial",
       "status": 200
     },
     {
