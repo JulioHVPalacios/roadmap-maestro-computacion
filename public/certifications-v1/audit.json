@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-24T15:54:32.258Z",
+  "generatedAt": "2026-09-25T15:55:16.563Z",
   "seed": 54,
   "officialDiscoveredRaw": 101,
   "officialValidated": 96,
   "communityCandidates": 137,
-  "communityValidated": 75,
-  "published": 192,
+  "communityValidated": 74,
+  "published": 190,
   "audit": [
     {
       "id": "ibm-digital-credentials",
@@ -596,8 +596,7 @@
       "sourceType": "discovered",
       "url": "https://learn.mongodb.com/catalog?labels=%5B%22Free%2FPaid%22%5D&values=%5B%22Free%22%5D",
       "finalUrl": "https://learn.mongodb.com/catalog?labels=%5B%22Free%2FPaid%22%5D&values=%5B%22Free%22%5D",
-      "status": "rejected",
-      "reason": "no-learning-evidence",
+      "status": "active",
       "httpStatus": 200
     },
     {
@@ -637,7 +636,8 @@
       "sourceType": "discovered",
       "url": "https://learn.mongodb.com/catalog?labels=%5B%5D&page=1&values=%5B%5D",
       "finalUrl": "https://learn.mongodb.com/catalog?labels=%5B%5D&page=1&values=%5B%5D",
-      "status": "active",
+      "status": "rejected",
+      "reason": "no-learning-evidence",
       "httpStatus": 200
     },
     {
@@ -808,6 +808,14 @@
       "httpStatus": 200
     },
     {
+      "id": "live-sap-course-implementing-sap-service-cloud-version-2-essentials",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/courses/implementing-sap-service-cloud-version-2-essentials",
+      "finalUrl": "https://learning.sap.com/courses/implementing-sap-service-cloud-version-2-essentials",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
       "id": "live-sap-learning-journey-developing-a-universe-using-sap-businessobjects-information-design-tool",
       "sourceType": "discovered",
       "url": "https://learning.sap.com/learning-journeys/developing-a-universe-using-sap-businessobjects-information-design-tool",
@@ -852,14 +860,6 @@
       "sourceType": "discovered",
       "url": "https://learning.sap.com/learning-journeys/administering-and-using-responsible-design-and-production-for-the-circular-economy",
       "finalUrl": "https://learning.sap.com/learning-journeys/administering-and-using-responsible-design-and-production-for-the-circular-economy",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-sap-course-explore-sap-successfactors-solutions",
-      "sourceType": "discovered",
-      "url": "https://learning.sap.com/courses/explore-sap-successfactors-solutions",
-      "finalUrl": "https://learning.sap.com/courses/explore-sap-successfactors-solutions",
       "status": "active",
       "httpStatus": 200
     },
@@ -1669,10 +1669,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Customer Engagement Fundamentals",
       "url": "https://skillsbuild.org/adult-learners/explore-learning/customer-service-representative",
-      "status": "accepted",
-      "provider": "IBM SkillsBuild",
-      "kind": "Credencial",
-      "language": "ES",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://skillsbuild.org/learning-catalog"
     },
