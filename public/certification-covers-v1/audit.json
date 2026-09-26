@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-25T16:01:29.704Z",
-  "total": 190,
-  "ok": 190,
+  "generatedAt": "2026-09-26T15:13:07.234Z",
+  "total": 186,
+  "ok": 186,
   "failed": 0,
   "rows": [
     {
@@ -82,8 +82,8 @@
       "status": 200
     },
     {
-      "id": "aws-skill-builder-free",
-      "title": "AWS Skill Builder · formación gratuita",
+      "id": "santander-tech-catalog",
+      "title": "Data, IA y Tecnología · catálogo vivo",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -96,15 +96,8 @@
       "status": 200
     },
     {
-      "id": "santander-tech-catalog",
-      "title": "Data, IA y Tecnología · catálogo vivo",
-      "ok": true,
-      "source": "Imagen oficial / Open Graph",
-      "status": 200
-    },
-    {
-      "id": "microsoft-learn-free",
-      "title": "Microsoft Learn · formación técnica gratuita",
+      "id": "aws-skill-builder-free",
+      "title": "AWS Skill Builder · formación gratuita",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -119,6 +112,13 @@
     {
       "id": "cisco-netacad",
       "title": "Cisco Networking Academy · cursos gratuitos",
+      "ok": true,
+      "source": "Imagen oficial / Open Graph",
+      "status": 200
+    },
+    {
+      "id": "microsoft-learn-free",
+      "title": "Microsoft Learn · formación técnica gratuita",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -208,15 +208,15 @@
       "status": 200
     },
     {
-      "id": "santander-tools-catalog",
-      "title": "Herramientas digitales e IA · catálogo vivo",
+      "id": "santander-marketing-automation-2026",
+      "title": "Fundamentos de Marketing Automation",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
-      "id": "santander-marketing-automation-2026",
-      "title": "Fundamentos de Marketing Automation",
+      "id": "santander-tools-catalog",
+      "title": "Herramientas digitales e IA · catálogo vivo",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -285,15 +285,15 @@
       "status": 200
     },
     {
-      "id": "live-hubspot-habilitacion-de-ventas-certificacion-5-horas-ventas",
-      "title": "Habilitación de ventas Certificación 5 horas Ventas",
+      "id": "live-hubspot-inbound-nuevo-certificacion-3-horas-marketing-ventas-service",
+      "title": "Inbound (Nuevo) Certificación 3 horas Marketing Ventas Service",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
-      "id": "live-hubspot-inbound-nuevo-certificacion-3-horas-marketing-ventas-service",
-      "title": "Inbound (Nuevo) Certificación 3 horas Marketing Ventas Service",
+      "id": "live-hubspot-habilitacion-de-ventas-certificacion-5-horas-ventas",
+      "title": "Habilitación de ventas Certificación 5 horas Ventas",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -320,6 +320,13 @@
       "status": 200
     },
     {
+      "id": "live-hubspot-ventas-sin-friccion-certificacion-2-horas-ventas",
+      "title": "Ventas sin fricción Certificación 2 horas Ventas",
+      "ok": true,
+      "source": "Imagen oficial / Open Graph",
+      "status": 200
+    },
+    {
       "id": "live-platzi-free-curso-de-pagos-abiertos-con-interledger",
       "title": "Curso de Pagos Abiertos con Interledger",
       "ok": true,
@@ -334,15 +341,15 @@
       "status": 200
     },
     {
-      "id": "live-hubspot-ventas-sin-friccion-certificacion-2-horas-ventas",
-      "title": "Ventas sin fricción Certificación 2 horas Ventas",
+      "id": "live-platzi-free-curso-gratis-de-introduccion-a-la-inteligencia-artificial",
+      "title": "Curso Gratis de Introducción a la Inteligencia Artificial",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
-      "id": "live-platzi-free-curso-gratis-de-introduccion-a-la-inteligencia-artificial",
-      "title": "Curso Gratis de Introducción a la Inteligencia Artificial",
+      "id": "live-platzi-free-curso-gratis-de-marca-personal",
+      "title": "Curso Gratis de Marca Personal",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -362,8 +369,8 @@
       "status": 200
     },
     {
-      "id": "live-platzi-free-curso-gratis-de-marca-personal",
-      "title": "Curso Gratis de Marca Personal",
+      "id": "live-platzi-free-toma-las-primeras-clases-gratis",
+      "title": "Toma las primeras clases gratis",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -376,13 +383,6 @@
       "status": 200
     },
     {
-      "id": "live-platzi-free-toma-las-primeras-clases-gratis",
-      "title": "Toma las primeras clases gratis",
-      "ok": true,
-      "source": "Imagen oficial / Open Graph",
-      "status": 200
-    },
-    {
       "id": "community-aws-aws-restart",
       "title": "AWS restart",
       "ok": true,
@@ -390,15 +390,15 @@
       "status": 200
     },
     {
-      "id": "google-developer-badges",
-      "title": "Google Developer Program · distintivos",
+      "id": "community-hubspot-academy-service-hub-software-certification",
+      "title": "Service Hub Software Certification",
       "ok": true,
-      "source": "Captura de la fuente oficial",
+      "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
-      "id": "community-hubspot-academy-service-hub-software-certification",
-      "title": "Service Hub Software Certification",
+      "id": "community-ibm-skillsbuild-customer-engagement-fundamentals",
+      "title": "Customer Engagement Fundamentals",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -415,6 +415,13 @@
       "title": "ia feat: Command Code Tutorial: Inventario SaaS + Skills + Playwright en Minutos",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
+      "status": 200
+    },
+    {
+      "id": "google-developer-badges",
+      "title": "Google Developer Program · distintivos",
+      "ok": true,
+      "source": "Captura de la fuente oficial",
       "status": 200
     },
     {
@@ -488,15 +495,15 @@
       "status": 200
     },
     {
-      "id": "live-fortinet-certifications",
-      "title": "Certifications",
+      "id": "sap-learning-free",
+      "title": "SAP Learning · cursos self-paced gratuitos",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
-      "id": "sap-learning-free",
-      "title": "SAP Learning · cursos self-paced gratuitos",
+      "id": "live-fortinet-certifications",
+      "title": "Certifications",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -509,15 +516,15 @@
       "status": 200
     },
     {
-      "id": "live-mongodb-skills",
-      "title": "Skills",
+      "id": "live-mongodb-certification",
+      "title": "Certification",
       "ok": true,
       "source": "Captura de la fuente oficial",
       "status": 200
     },
     {
-      "id": "live-mongodb-certification",
-      "title": "Certification",
+      "id": "live-mongodb-skills",
+      "title": "Skills",
       "ok": true,
       "source": "Captura de la fuente oficial",
       "status": 200
@@ -579,13 +586,6 @@
       "status": 200
     },
     {
-      "id": "live-sap-financial-management",
-      "title": "Financial management",
-      "ok": true,
-      "source": "Imagen oficial / Open Graph",
-      "status": 200
-    },
-    {
       "id": "live-sap-get-started",
       "title": "Get started",
       "ok": true,
@@ -607,15 +607,15 @@
       "status": 200
     },
     {
-      "id": "live-sap-learning-journey-developing-a-universe-using-sap-businessobjects-information-design-tool",
-      "title": "LEARNING JOURNEY Developing a Universe using SAP BusinessObjects Information Design Tool",
+      "id": "live-sap-learning-journeys",
+      "title": "Learning journeys",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
-      "id": "live-sap-learning-journeys",
-      "title": "Learning journeys",
+      "id": "live-sap-learning-journey-developing-a-universe-using-sap-businessobjects-information-design-tool",
+      "title": "LEARNING JOURNEY Developing a Universe using SAP BusinessObjects Information Design Tool",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -642,20 +642,6 @@
       "status": 200
     },
     {
-      "id": "live-sap-sap-s-4hana-cloud-public-edition",
-      "title": "SAP S/4HANA Cloud Public Edition",
-      "ok": true,
-      "source": "Imagen oficial / Open Graph",
-      "status": 200
-    },
-    {
-      "id": "live-sap-sap-s-4hana-cloud-private-edition",
-      "title": "SAP S/4HANA Cloud Private Edition",
-      "ok": true,
-      "source": "Imagen oficial / Open Graph",
-      "status": 200
-    },
-    {
       "id": "live-sap-self-paced-courses",
       "title": "Self-paced courses",
       "ok": true,
@@ -663,15 +649,15 @@
       "status": 200
     },
     {
-      "id": "live-sap-supply-chain-management",
-      "title": "Supply chain management",
+      "id": "live-sap-technology-platform-learn-integration-data-and-app-development-with-sap-btp",
+      "title": "Technology platform Learn integration, data, and app development with SAP BTP.",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
-      "id": "live-sap-technology-platform-learn-integration-data-and-app-development-with-sap-btp",
-      "title": "Technology platform Learn integration, data, and app development with SAP BTP.",
+      "id": "aws-training-badges",
+      "title": "AWS Training Badges",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -689,13 +675,6 @@
       "ok": true,
       "source": "Captura de la fuente oficial",
       "status": 403
-    },
-    {
-      "id": "aws-training-badges",
-      "title": "AWS Training Badges",
-      "ok": true,
-      "source": "Imagen oficial / Open Graph",
-      "status": 200
     },
     {
       "id": "kaggle-learn-certificates",
@@ -971,15 +950,15 @@
       "status": 200
     },
     {
-      "id": "community-atlassian-university-learning-atlassian-community",
-      "title": "Learning - Atlassian Community",
+      "id": "community-cognitive-class-big-data-foundations-level-1",
+      "title": "Big Data Foundations - Level 1",
       "ok": true,
       "source": "Captura de la fuente oficial",
       "status": 200
     },
     {
-      "id": "community-cognitive-class-big-data-foundations-level-1",
-      "title": "Big Data Foundations - Level 1",
+      "id": "community-atlassian-university-learning-atlassian-community",
+      "title": "Learning - Atlassian Community",
       "ok": true,
       "source": "Captura de la fuente oficial",
       "status": 200
@@ -1048,15 +1027,15 @@
       "status": 200
     },
     {
-      "id": "community-cognitive-class-how-to-build-chatbots",
-      "title": "How to Build Chatbots",
+      "id": "community-cognitive-class-hadoop-foundations-level-1",
+      "title": "Hadoop Foundations - Level 1",
       "ok": true,
       "source": "Captura de la fuente oficial",
       "status": 200
     },
     {
-      "id": "community-cognitive-class-hadoop-foundations-level-1",
-      "title": "Hadoop Foundations - Level 1",
+      "id": "community-cognitive-class-how-to-build-chatbots",
+      "title": "How to Build Chatbots",
       "ok": true,
       "source": "Captura de la fuente oficial",
       "status": 200
@@ -1076,13 +1055,6 @@
       "status": 200
     },
     {
-      "id": "community-cognitive-class-r-101",
-      "title": "R 101",
-      "ok": true,
-      "source": "Captura de la fuente oficial",
-      "status": 200
-    },
-    {
       "id": "community-cognitive-class-python-for-data-science",
       "title": "Python for Data Science",
       "ok": true,
@@ -1090,8 +1062,8 @@
       "status": 200
     },
     {
-      "id": "community-cognitive-class-spark-fundamentals-i",
-      "title": "Spark Fundamentals I",
+      "id": "community-cognitive-class-r-101",
+      "title": "R 101",
       "ok": true,
       "source": "Captura de la fuente oficial",
       "status": 200
@@ -1099,6 +1071,13 @@
     {
       "id": "community-cognitive-class-statistics-101",
       "title": "Statistics 101",
+      "ok": true,
+      "source": "Captura de la fuente oficial",
+      "status": 200
+    },
+    {
+      "id": "community-cognitive-class-spark-fundamentals-i",
+      "title": "Spark Fundamentals I",
       "ok": true,
       "source": "Captura de la fuente oficial",
       "status": 200
@@ -1120,13 +1099,6 @@
     {
       "id": "community-hp-life-ai-for-beginners",
       "title": "AI for Beginners",
-      "ok": true,
-      "source": "Imagen oficial / Open Graph",
-      "status": 200
-    },
-    {
-      "id": "community-hp-life-ai-for-business-professionals",
-      "title": "AI for Business Professionals",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -1300,15 +1272,15 @@
       "status": 200
     },
     {
-      "id": "community-saylor-university-bitcoin-for-developers",
-      "title": "Bitcoin for Developers",
+      "id": "community-saylor-university-cs202-discrete-structures",
+      "title": "CS202: Discrete Structures",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
-      "id": "community-saylor-university-cs202-discrete-structures",
-      "title": "CS202: Discrete Structures",
+      "id": "community-saylor-university-bitcoin-for-developers",
+      "title": "Bitcoin for Developers",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
