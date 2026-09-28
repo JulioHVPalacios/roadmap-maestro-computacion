@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-27T15:47:40.667Z",
+  "generatedAt": "2026-09-28T18:43:18.347Z",
   "seed": 54,
-  "officialDiscoveredRaw": 101,
-  "officialValidated": 96,
+  "officialDiscoveredRaw": 98,
+  "officialValidated": 94,
   "communityCandidates": 137,
-  "communityValidated": 74,
-  "published": 191,
+  "communityValidated": 75,
+  "published": 189,
   "audit": [
     {
       "id": "ibm-digital-credentials",
@@ -472,18 +472,18 @@
       "httpStatus": 200
     },
     {
-      "id": "live-hubspot-marketing-de-contenidos-certificacion-9-horas-marketing",
-      "sourceType": "discovered",
-      "url": "https://academy.hubspot.com/es/courses/content-marketing",
-      "finalUrl": "https://academy.hubspot.com/es/courses/content-marketing",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
       "id": "live-hubspot-ventas-inbound-certificacion-3-horas-ventas",
       "sourceType": "discovered",
       "url": "https://academy.hubspot.com/es/courses/inbound-sales",
       "finalUrl": "https://academy.hubspot.com/es/courses/inbound-sales",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-hubspot-marketing-de-contenidos-certificacion-9-horas-marketing",
+      "sourceType": "discovered",
+      "url": "https://academy.hubspot.com/es/courses/content-marketing",
+      "finalUrl": "https://academy.hubspot.com/es/courses/content-marketing",
       "status": "active",
       "httpStatus": 200
     },
@@ -596,8 +596,7 @@
       "sourceType": "discovered",
       "url": "https://learn.mongodb.com/catalog?labels=%5B%22Free%2FPaid%22%5D&values=%5B%22Free%22%5D",
       "finalUrl": "https://learn.mongodb.com/catalog?labels=%5B%22Free%2FPaid%22%5D&values=%5B%22Free%22%5D",
-      "status": "rejected",
-      "reason": "no-learning-evidence",
+      "status": "active",
       "httpStatus": 200
     },
     {
@@ -609,7 +608,7 @@
       "httpStatus": 200
     },
     {
-      "id": "live-mongodb-skills-and-certificationsdevelop-in-demand-skills-and-earn-mongodb-certifications",
+      "id": "live-mongodb-courses-and-certificationlearn-for-free-from-mongodb",
       "sourceType": "discovered",
       "url": "https://learn.mongodb.com",
       "finalUrl": "https://learn.mongodb.com",
@@ -617,26 +616,10 @@
       "httpStatus": 200
     },
     {
-      "id": "live-mongodb-skills",
+      "id": "live-mongodb-lab-zone",
       "sourceType": "discovered",
-      "url": "https://learn.mongodb.com/skills",
-      "finalUrl": "https://learn.mongodb.com/skills",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-mongodb-list-of-self-paced-topics",
-      "sourceType": "discovered",
-      "url": "https://learn.mongodb.com/self-paced-topics",
-      "finalUrl": "https://learn.mongodb.com/self-paced-topics",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-mongodb-free",
-      "sourceType": "discovered",
-      "url": "https://learn.mongodb.com/catalog?labels=%5B%5D&page=1&values=%5B%5D",
-      "finalUrl": "https://learn.mongodb.com/catalog?labels=%5B%5D&page=1&values=%5B%5D",
+      "url": "https://learn.mongodb.com/pages/lab-zone",
+      "finalUrl": "https://learn.mongodb.com/pages/lab-zone",
       "status": "active",
       "httpStatus": 200
     },
@@ -1199,42 +1182,34 @@
       "httpStatus": 200
     },
     {
-      "id": "live-fazt-ia-feat-jev-de-typesafe-ai-el-modelo-que-no-escribe-texto",
+      "id": "live-fazt-web-feat-nextjs-full-ecommerce-project-sin-ia",
       "sourceType": "discovered",
-      "url": "https://fazt.dev/contenido/jev",
-      "finalUrl": "https://fazt.dev/contenido/jev",
+      "url": "https://fazt.dev/contenido/nextjs-full-ecommerce-project",
+      "finalUrl": "https://fazt.dev/contenido/nextjs-full-ecommerce-project",
       "status": "active",
       "httpStatus": 200
     },
     {
-      "id": "live-fazt-ia-feat-rag-en-produccion-tu-ia-con-datos-y-usuarios-reales",
+      "id": "live-fazt-ia-feat-pi-agent-el-harness-abierto-que-tu-personalizas-extensiones-skills-y-mcp",
       "sourceType": "discovered",
-      "url": "https://fazt.dev/contenido/rag-nextjs-pgvector-open-router",
-      "finalUrl": "https://fazt.dev/contenido/rag-nextjs-pgvector-open-router",
+      "url": "https://fazt.dev/contenido/pi-agent-tutorial-harness-skills-extensiones-mcp",
+      "finalUrl": "https://fazt.dev/contenido/pi-agent-tutorial-harness-skills-extensiones-mcp",
       "status": "active",
       "httpStatus": 200
     },
     {
-      "id": "live-fazt-ia-feat-guia-completa-de-opencode-terminal-vs-code-y-desktop-2025",
+      "id": "live-fazt-ia-feat-las-herramientas-de-ia-que-uso-para-programar-en-2026",
       "sourceType": "discovered",
-      "url": "https://fazt.dev/contenido/curso-opencode-v2",
-      "finalUrl": "https://fazt.dev/contenido/curso-opencode-v2",
+      "url": "https://fazt.dev/contenido/herramientas-ia-que-uso-para-programar",
+      "finalUrl": "https://fazt.dev/contenido/herramientas-ia-que-uso-para-programar",
       "status": "active",
       "httpStatus": 200
     },
     {
-      "id": "live-fazt-ia-feat-command-code-tutorial-inventario-saas-skills-playwright-en-minutos",
+      "id": "live-fazt-web-feat-apm-en-node-js-con-manageengine-metricas-y-alertas",
       "sourceType": "discovered",
-      "url": "https://fazt.dev/contenido/command-code-tutorial-inventario-saas-skills-playwright",
-      "finalUrl": "https://fazt.dev/contenido/command-code-tutorial-inventario-saas-skills-playwright",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-fazt-ia-feat-ex-trabajador-de-anthropic-dice-que-la-ia-puede-acabar-con-la-humanidad-y-se-viralizo",
-      "sourceType": "discovered",
-      "url": "https://fazt.dev/contenido/ex-anthropic-alerta-ia-fin-humanidad-analisis",
-      "finalUrl": "https://fazt.dev/contenido/ex-anthropic-alerta-ia-fin-humanidad-analisis",
+      "url": "https://fazt.dev/contenido/apm-nodejs-manageengine-application-manager",
+      "finalUrl": "https://fazt.dev/contenido/apm-nodejs-manageengine-application-manager",
       "status": "active",
       "httpStatus": 200
     },
@@ -1332,7 +1307,7 @@
       "status": "rejected",
       "reason": "no-free-credential-evidence",
       "httpStatus": 200,
-      "finalUrl": "https://www.freecodecamp.org/learn/back-end-development-and-apis/"
+      "finalUrl": "https://www.freecodecamp.org/learn/back-end-development-and-apis"
     },
     {
       "sourceType": "community",
@@ -1660,7 +1635,7 @@
       "status": "accepted",
       "provider": "HubSpot Academy",
       "kind": "Certificación",
-      "language": "EN",
+      "language": "ES",
       "httpStatus": 200,
       "finalUrl": "https://academy.hubspot.com/courses/hubspot-service-software"
     },
@@ -1742,7 +1717,7 @@
       "status": "rejected",
       "reason": "no-free-credential-evidence",
       "httpStatus": 200,
-      "finalUrl": "https://www.freecodecamp.org/learn/quality-assurance/"
+      "finalUrl": "https://www.freecodecamp.org/learn/quality-assurance"
     },
     {
       "sourceType": "community",
@@ -1838,7 +1813,7 @@
       "status": "rejected",
       "reason": "no-free-credential-evidence",
       "httpStatus": 200,
-      "finalUrl": "https://www.freecodecamp.org/learn/data-analysis-with-python/"
+      "finalUrl": "https://www.freecodecamp.org/learn/data-analysis-with-python"
     },
     {
       "sourceType": "community",
@@ -1872,7 +1847,7 @@
       "status": "rejected",
       "reason": "no-free-credential-evidence",
       "httpStatus": 200,
-      "finalUrl": "https://www.freecodecamp.org/learn/data-visualization/"
+      "finalUrl": "https://www.freecodecamp.org/learn/data-visualization"
     },
     {
       "sourceType": "community",
@@ -2022,7 +1997,7 @@
       "status": "rejected",
       "reason": "no-free-credential-evidence",
       "httpStatus": 200,
-      "finalUrl": "https://www.freecodecamp.org/learn/2022/responsive-web-design/"
+      "finalUrl": "https://www.freecodecamp.org/learn/2022/responsive-web-design"
     },
     {
       "sourceType": "community",
@@ -2032,7 +2007,7 @@
       "status": "rejected",
       "reason": "no-free-credential-evidence",
       "httpStatus": 200,
-      "finalUrl": "https://www.freecodecamp.org/learn/front-end-development-libraries/"
+      "finalUrl": "https://www.freecodecamp.org/learn/front-end-development-libraries"
     },
     {
       "sourceType": "community",
@@ -2108,7 +2083,7 @@
       "status": "rejected",
       "reason": "no-free-credential-evidence",
       "httpStatus": 200,
-      "finalUrl": "https://www.freecodecamp.org/learn/machine-learning-with-python/"
+      "finalUrl": "https://www.freecodecamp.org/learn/machine-learning-with-python"
     },
     {
       "sourceType": "community",
@@ -2268,7 +2243,7 @@
       "status": "rejected",
       "reason": "no-free-credential-evidence",
       "httpStatus": 200,
-      "finalUrl": "https://www.freecodecamp.org/learn/foundational-c-sharp-with-microsoft/"
+      "finalUrl": "https://www.freecodecamp.org/learn/foundational-c-sharp-with-microsoft"
     },
     {
       "sourceType": "community",
@@ -2288,7 +2263,7 @@
       "status": "rejected",
       "reason": "no-free-credential-evidence",
       "httpStatus": 200,
-      "finalUrl": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/"
+      "finalUrl": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures"
     },
     {
       "sourceType": "community",
@@ -2318,7 +2293,7 @@
       "status": "rejected",
       "reason": "no-free-credential-evidence",
       "httpStatus": 200,
-      "finalUrl": "https://www.freecodecamp.org/learn/scientific-computing-with-python/"
+      "finalUrl": "https://www.freecodecamp.org/learn/scientific-computing-with-python"
     },
     {
       "sourceType": "community",
@@ -2460,7 +2435,7 @@
       "status": "rejected",
       "reason": "no-free-credential-evidence",
       "httpStatus": 200,
-      "finalUrl": "https://www.freecodecamp.org/learn/information-security/"
+      "finalUrl": "https://www.freecodecamp.org/learn/information-security"
     },
     {
       "sourceType": "community",
@@ -2487,8 +2462,10 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Introduction to Cybersecurity Awareness",
       "url": "https://www.life-global.org/course/346-introduction-to-cybersecurity-awareness",
-      "status": "rejected",
-      "reason": "no-free-credential-evidence",
+      "status": "accepted",
+      "provider": "HP LIFE",
+      "kind": "Certificación",
+      "language": "EN",
       "httpStatus": 200,
       "finalUrl": "https://www.life-global.org/course/346-introduction-to-cybersecurity-awareness"
     },
@@ -2635,7 +2612,7 @@
       "status": "rejected",
       "reason": "no-free-credential-evidence",
       "httpStatus": 200,
-      "finalUrl": "https://www.apollographql.com/tutorials/certifications/apollo-graph-associate"
+      "finalUrl": "https://www.apollographql.com/tutorials/certifications/apollo-graph-associate/"
     },
     {
       "sourceType": "community",
