@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-28T18:43:18.347Z",
+  "generatedAt": "2026-09-29T17:00:10.292Z",
   "seed": 54,
-  "officialDiscoveredRaw": 98,
-  "officialValidated": 94,
+  "officialDiscoveredRaw": 100,
+  "officialValidated": 95,
   "communityCandidates": 137,
-  "communityValidated": 75,
-  "published": 189,
+  "communityValidated": 69,
+  "published": 190,
   "audit": [
     {
       "id": "ibm-digital-credentials",
@@ -608,7 +608,7 @@
       "httpStatus": 200
     },
     {
-      "id": "live-mongodb-courses-and-certificationlearn-for-free-from-mongodb",
+      "id": "live-mongodb-skills-and-certificationsdevelop-in-demand-skills-and-earn-mongodb-certifications",
       "sourceType": "discovered",
       "url": "https://learn.mongodb.com",
       "finalUrl": "https://learn.mongodb.com",
@@ -616,11 +616,28 @@
       "httpStatus": 200
     },
     {
-      "id": "live-mongodb-lab-zone",
+      "id": "live-mongodb-skills",
       "sourceType": "discovered",
-      "url": "https://learn.mongodb.com/pages/lab-zone",
-      "finalUrl": "https://learn.mongodb.com/pages/lab-zone",
+      "url": "https://learn.mongodb.com/skills",
+      "finalUrl": "https://learn.mongodb.com/skills",
       "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-mongodb-list-of-self-paced-topics",
+      "sourceType": "discovered",
+      "url": "https://learn.mongodb.com/self-paced-topics",
+      "finalUrl": "https://learn.mongodb.com/self-paced-topics",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-mongodb-free",
+      "sourceType": "discovered",
+      "url": "https://learn.mongodb.com/catalog?labels=%5B%5D&page=1&values=%5B%5D",
+      "finalUrl": "https://learn.mongodb.com/catalog?labels=%5B%5D&page=1&values=%5B%5D",
+      "status": "rejected",
+      "reason": "no-learning-evidence",
       "httpStatus": 200
     },
     {
@@ -1238,10 +1255,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Intro to Game AI and Reinforcement Learning",
       "url": "https://www.kaggle.com/learn/intro-to-game-ai-and-reinforcement-learning",
-      "status": "accepted",
-      "provider": "Kaggle",
-      "kind": "Curso con certificado",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.kaggle.com/learn/intro-to-game-ai-and-reinforcement-learning"
     },
@@ -1307,7 +1322,7 @@
       "status": "rejected",
       "reason": "no-free-credential-evidence",
       "httpStatus": 200,
-      "finalUrl": "https://www.freecodecamp.org/learn/back-end-development-and-apis"
+      "finalUrl": "https://www.freecodecamp.org/learn/back-end-development-and-apis/"
     },
     {
       "sourceType": "community",
@@ -1717,7 +1732,7 @@
       "status": "rejected",
       "reason": "no-free-credential-evidence",
       "httpStatus": 200,
-      "finalUrl": "https://www.freecodecamp.org/learn/quality-assurance"
+      "finalUrl": "https://www.freecodecamp.org/learn/quality-assurance/"
     },
     {
       "sourceType": "community",
@@ -1813,7 +1828,7 @@
       "status": "rejected",
       "reason": "no-free-credential-evidence",
       "httpStatus": 200,
-      "finalUrl": "https://www.freecodecamp.org/learn/data-analysis-with-python"
+      "finalUrl": "https://www.freecodecamp.org/learn/data-analysis-with-python/"
     },
     {
       "sourceType": "community",
@@ -1847,7 +1862,7 @@
       "status": "rejected",
       "reason": "no-free-credential-evidence",
       "httpStatus": 200,
-      "finalUrl": "https://www.freecodecamp.org/learn/data-visualization"
+      "finalUrl": "https://www.freecodecamp.org/learn/data-visualization/"
     },
     {
       "sourceType": "community",
@@ -1866,10 +1881,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Data Cleaning",
       "url": "https://www.kaggle.com/learn/data-cleaning",
-      "status": "accepted",
-      "provider": "Kaggle",
-      "kind": "Curso con certificado",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.kaggle.com/learn/data-cleaning"
     },
@@ -1997,7 +2010,7 @@
       "status": "rejected",
       "reason": "no-free-credential-evidence",
       "httpStatus": 200,
-      "finalUrl": "https://www.freecodecamp.org/learn/2022/responsive-web-design"
+      "finalUrl": "https://www.freecodecamp.org/learn/2022/responsive-web-design/"
     },
     {
       "sourceType": "community",
@@ -2007,7 +2020,7 @@
       "status": "rejected",
       "reason": "no-free-credential-evidence",
       "httpStatus": 200,
-      "finalUrl": "https://www.freecodecamp.org/learn/front-end-development-libraries"
+      "finalUrl": "https://www.freecodecamp.org/learn/front-end-development-libraries/"
     },
     {
       "sourceType": "community",
@@ -2083,17 +2096,15 @@
       "status": "rejected",
       "reason": "no-free-credential-evidence",
       "httpStatus": 200,
-      "finalUrl": "https://www.freecodecamp.org/learn/machine-learning-with-python"
+      "finalUrl": "https://www.freecodecamp.org/learn/machine-learning-with-python/"
     },
     {
       "sourceType": "community",
       "source": "GitHub · Awesome Certificates",
       "title": "Intro to Machine Learning",
       "url": "https://www.kaggle.com/learn/intro-to-machine-learning",
-      "status": "accepted",
-      "provider": "Kaggle",
-      "kind": "Curso con certificado",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.kaggle.com/learn/intro-to-machine-learning"
     },
@@ -2114,10 +2125,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Machine Learning Explainability",
       "url": "https://www.kaggle.com/learn/machine-learning-explainability",
-      "status": "accepted",
-      "provider": "Kaggle",
-      "kind": "Curso con certificado",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.kaggle.com/learn/machine-learning-explainability"
     },
@@ -2138,10 +2147,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Time Series",
       "url": "https://www.kaggle.com/learn/time-series",
-      "status": "accepted",
-      "provider": "Kaggle",
-      "kind": "Curso con certificado",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.kaggle.com/learn/time-series"
     },
@@ -2243,7 +2250,7 @@
       "status": "rejected",
       "reason": "no-free-credential-evidence",
       "httpStatus": 200,
-      "finalUrl": "https://www.freecodecamp.org/learn/foundational-c-sharp-with-microsoft"
+      "finalUrl": "https://www.freecodecamp.org/learn/foundational-c-sharp-with-microsoft/"
     },
     {
       "sourceType": "community",
@@ -2263,7 +2270,7 @@
       "status": "rejected",
       "reason": "no-free-credential-evidence",
       "httpStatus": 200,
-      "finalUrl": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures"
+      "finalUrl": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/"
     },
     {
       "sourceType": "community",
@@ -2293,7 +2300,7 @@
       "status": "rejected",
       "reason": "no-free-credential-evidence",
       "httpStatus": 200,
-      "finalUrl": "https://www.freecodecamp.org/learn/scientific-computing-with-python"
+      "finalUrl": "https://www.freecodecamp.org/learn/scientific-computing-with-python/"
     },
     {
       "sourceType": "community",
@@ -2322,10 +2329,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Pandas",
       "url": "https://www.kaggle.com/learn/pandas",
-      "status": "accepted",
-      "provider": "Kaggle",
-      "kind": "Curso con certificado",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.kaggle.com/learn/pandas"
     },
@@ -2435,7 +2440,7 @@
       "status": "rejected",
       "reason": "no-free-credential-evidence",
       "httpStatus": 200,
-      "finalUrl": "https://www.freecodecamp.org/learn/information-security"
+      "finalUrl": "https://www.freecodecamp.org/learn/information-security/"
     },
     {
       "sourceType": "community",
@@ -2539,9 +2544,8 @@
       "title": "Link",
       "url": "https://academy.tigera.io/course/certified-calico-operator-level-1",
       "status": "rejected",
-      "reason": "no-free-credential-evidence",
-      "httpStatus": 200,
-      "finalUrl": "https://academy.tigera.io/course/certified-calico-operator-level-1/"
+      "reason": "inactive",
+      "httpStatus": 404
     },
     {
       "sourceType": "community",
@@ -2549,9 +2553,8 @@
       "title": "Link",
       "url": "https://academy.tigera.io/course/certified-calico-operator-aws-expert",
       "status": "rejected",
-      "reason": "no-free-credential-evidence",
-      "httpStatus": 200,
-      "finalUrl": "https://academy.tigera.io/course/certified-calico-operator-aws-expert/"
+      "reason": "inactive",
+      "httpStatus": 404
     },
     {
       "sourceType": "community",
@@ -2559,9 +2562,8 @@
       "title": "Link",
       "url": "https://academy.tigera.io/course/certified-calico-operator-azure-expert",
       "status": "rejected",
-      "reason": "no-free-credential-evidence",
-      "httpStatus": 200,
-      "finalUrl": "https://academy.tigera.io/course/certified-calico-operator-azure-expert/"
+      "reason": "inactive",
+      "httpStatus": 404
     },
     {
       "sourceType": "community",
@@ -2569,9 +2571,8 @@
       "title": "Link",
       "url": "https://academy.tigera.io/course/certified-calico-operator-ebpf",
       "status": "rejected",
-      "reason": "no-free-credential-evidence",
-      "httpStatus": 200,
-      "finalUrl": "https://academy.tigera.io/course/certified-calico-operator-ebpf/"
+      "reason": "inactive",
+      "httpStatus": 404
     },
     {
       "sourceType": "community",
