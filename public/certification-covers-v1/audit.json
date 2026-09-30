@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-29T17:07:03.895Z",
-  "total": 190,
-  "ok": 190,
+  "generatedAt": "2026-09-30T17:10:29.468Z",
+  "total": 187,
+  "ok": 187,
   "failed": 0,
   "rows": [
     {
@@ -19,15 +19,15 @@
       "status": 200
     },
     {
-      "id": "carlos-slim-capacitate",
-      "title": "Capacítate para el Empleo",
+      "id": "google-skillshop-live",
+      "title": "Google Skillshop · capacitación y certificaciones oficiales",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
-      "id": "google-skillshop-live",
-      "title": "Google Skillshop · capacitación y certificaciones oficiales",
+      "id": "carlos-slim-capacitate",
+      "title": "Capacítate para el Empleo",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -47,15 +47,15 @@
       "status": 200
     },
     {
-      "id": "hubspot-digital-marketing",
-      "title": "Certificación de Marketing Digital",
+      "id": "hubspot-certifications-live",
+      "title": "HubSpot Academy · certificaciones gratuitas actuales",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
-      "id": "hubspot-certifications-live",
-      "title": "HubSpot Academy · certificaciones gratuitas actuales",
+      "id": "hubspot-digital-marketing",
+      "title": "Certificación de Marketing Digital",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -68,13 +68,6 @@
       "status": 200
     },
     {
-      "id": "platzi-free-certificates",
-      "title": "Platzi · cursos gratis con certificado",
-      "ok": true,
-      "source": "Imagen oficial / Open Graph",
-      "status": 200
-    },
-    {
       "id": "mtpe-capacita-t",
       "title": "CAPACÍTA-T · cursos certificados del MTPE Perú",
       "ok": true,
@@ -82,8 +75,22 @@
       "status": 200
     },
     {
+      "id": "platzi-free-certificates",
+      "title": "Platzi · cursos gratis con certificado",
+      "ok": true,
+      "source": "Imagen oficial / Open Graph",
+      "status": 200
+    },
+    {
       "id": "santander-tech-catalog",
       "title": "Data, IA y Tecnología · catálogo vivo",
+      "ok": true,
+      "source": "Imagen oficial / Open Graph",
+      "status": 200
+    },
+    {
+      "id": "santander-python-2026",
+      "title": "Introducción a la programación con Python",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -103,22 +110,15 @@
       "status": 200
     },
     {
-      "id": "fazt-free-courses",
-      "title": "Fazt · cursos gratuitos de programación y desarrollo web",
+      "id": "microsoft-learn-free",
+      "title": "Microsoft Learn · formación técnica gratuita",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
-      "id": "santander-python-2026",
-      "title": "Introducción a la programación con Python",
-      "ok": true,
-      "source": "Captura de la fuente oficial",
-      "status": 200
-    },
-    {
-      "id": "microsoft-learn-free",
-      "title": "Microsoft Learn · formación técnica gratuita",
+      "id": "fazt-free-courses",
+      "title": "Fazt · cursos gratuitos de programación y desarrollo web",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -187,15 +187,15 @@
       "status": 200
     },
     {
-      "id": "microsoft-powerapps-applied-skill",
-      "title": "Microsoft Applied Skills · Crear y administrar canvas apps con Power Apps",
+      "id": "ibm-data-fundamentals",
+      "title": "Conceptos básicos sobre datos",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
-      "id": "ibm-data-fundamentals",
-      "title": "Conceptos básicos sobre datos",
+      "id": "microsoft-powerapps-applied-skill",
+      "title": "Microsoft Applied Skills · Crear y administrar canvas apps con Power Apps",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -313,15 +313,15 @@
       "status": 200
     },
     {
-      "id": "live-hubspot-ventas-sin-friccion-certificacion-2-horas-ventas",
-      "title": "Ventas sin fricción Certificación 2 horas Ventas",
+      "id": "live-hubspot-optimizacion-del-inbound-marketing-certificacion-5-horas-marketing",
+      "title": "Optimización del inbound marketing Certificación 5 horas Marketing",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
-      "id": "live-hubspot-optimizacion-del-inbound-marketing-certificacion-5-horas-marketing",
-      "title": "Optimización del inbound marketing Certificación 5 horas Marketing",
+      "id": "live-hubspot-ventas-sin-friccion-certificacion-2-horas-ventas",
+      "title": "Ventas sin fricción Certificación 2 horas Ventas",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -348,15 +348,15 @@
       "status": 200
     },
     {
-      "id": "live-platzi-free-curso-gratis-de-lovable",
-      "title": "Curso Gratis de Lovable",
+      "id": "live-platzi-free-curso-gratis-de-marca-personal",
+      "title": "Curso Gratis de Marca Personal",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
-      "id": "live-platzi-free-curso-gratis-de-marca-personal",
-      "title": "Curso Gratis de Marca Personal",
+      "id": "live-platzi-free-curso-gratis-de-lovable",
+      "title": "Curso Gratis de Lovable",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -376,13 +376,6 @@
       "status": 200
     },
     {
-      "id": "community-hubspot-academy-courses-lessons-hubspot-academy",
-      "title": "Courses & Lessons | HubSpot Academy",
-      "ok": true,
-      "source": "Imagen oficial / Open Graph",
-      "status": 200
-    },
-    {
       "id": "community-hubspot-academy-service-hub-software-certification",
       "title": "Service Hub Software Certification",
       "ok": true,
@@ -390,8 +383,8 @@
       "status": 200
     },
     {
-      "id": "community-ibm-skillsbuild-customer-engagement-fundamentals",
-      "title": "Customer Engagement Fundamentals",
+      "id": "community-hubspot-academy-courses-lessons-hubspot-academy",
+      "title": "Courses & Lessons | HubSpot Academy",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -404,13 +397,6 @@
       "status": 200
     },
     {
-      "id": "live-fazt-ia-feat-las-herramientas-de-ia-que-uso-para-programar-en-2026",
-      "title": "ia feat: Las herramientas de IA que uso para programar en 2026",
-      "ok": true,
-      "source": "Imagen oficial / Open Graph",
-      "status": 200
-    },
-    {
       "id": "google-developer-badges",
       "title": "Google Developer Program · distintivos",
       "ok": true,
@@ -418,8 +404,15 @@
       "status": 200
     },
     {
-      "id": "holamundo-open-content",
-      "title": "HolaMundo · contenido abierto de programación",
+      "id": "community-ibm-skillsbuild-customer-engagement-fundamentals",
+      "title": "Customer Engagement Fundamentals",
+      "ok": true,
+      "source": "Imagen oficial / Open Graph",
+      "status": 200
+    },
+    {
+      "id": "live-fazt-ia-feat-las-herramientas-de-ia-que-uso-para-programar-en-2026",
+      "title": "ia feat: Las herramientas de IA que uso para programar en 2026",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -427,6 +420,13 @@
     {
       "id": "live-fazt-ia-feat-pi-agent-el-harness-abierto-que-tu-personalizas-extensiones-skills-y-mcp",
       "title": "ia feat: Pi Agent: el harness abierto que TÚ personalizas (extensiones, skills y MCP)",
+      "ok": true,
+      "source": "Imagen oficial / Open Graph",
+      "status": 200
+    },
+    {
+      "id": "holamundo-open-content",
+      "title": "HolaMundo · contenido abierto de programación",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -460,8 +460,8 @@
       "status": 200
     },
     {
-      "id": "fortinet-free-training",
-      "title": "Fortinet Training Institute · formación de ciberseguridad gratuita",
+      "id": "mongodb-university-free",
+      "title": "MongoDB University · cursos y Skill Badges gratuitos",
       "ok": true,
       "source": "Captura de la fuente oficial",
       "status": 200
@@ -488,24 +488,10 @@
       "status": 200
     },
     {
-      "id": "mongodb-university-free",
-      "title": "MongoDB University · cursos y Skill Badges gratuitos",
-      "ok": true,
-      "source": "Captura de la fuente oficial",
-      "status": 200
-    },
-    {
       "id": "live-fortinet-certifications",
       "title": "Certifications",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
-      "status": 200
-    },
-    {
-      "id": "live-mongodb-list-of-self-paced-topics",
-      "title": "list of self-paced topics",
-      "ok": true,
-      "source": "Captura de la fuente oficial",
       "status": 200
     },
     {
@@ -516,8 +502,36 @@
       "status": 200
     },
     {
-      "id": "live-mongodb-skills",
-      "title": "Skills",
+      "id": "fortinet-free-training",
+      "title": "Fortinet Training Institute · formación de ciberseguridad gratuita",
+      "ok": true,
+      "source": "Captura de la fuente oficial",
+      "status": 200
+    },
+    {
+      "id": "live-mongodb-courses-and-certificationlearn-for-free-from-mongodb",
+      "title": "Courses and CertificationLearn for free from MongoDB",
+      "ok": true,
+      "source": "Captura de la fuente oficial",
+      "status": 200
+    },
+    {
+      "id": "live-mongodb-lab-zone",
+      "title": "Lab Zone",
+      "ok": true,
+      "source": "Captura de la fuente oficial",
+      "status": 200
+    },
+    {
+      "id": "live-mongodb-list-of-self-paced-topics",
+      "title": "list of self-paced topics",
+      "ok": true,
+      "source": "Captura de la fuente oficial",
+      "status": 200
+    },
+    {
+      "id": "live-mongodb-free",
+      "title": "Free",
       "ok": true,
       "source": "Captura de la fuente oficial",
       "status": 200
@@ -534,13 +548,6 @@
       "title": "Autonomous Enterprise Build skills for AI‑driven transformations.",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
-      "status": 200
-    },
-    {
-      "id": "live-mongodb-skills-and-certificationsdevelop-in-demand-skills-and-earn-mongodb-certifications",
-      "title": "Skills and CertificationsDevelop in-demand skills and earn MongoDB certifications",
-      "ok": true,
-      "source": "Captura de la fuente oficial",
       "status": 200
     },
     {
@@ -565,13 +572,6 @@
       "status": 200
     },
     {
-      "id": "live-sap-course-positioning-sap-solutions-for-business-network-solutions",
-      "title": "COURSE Positioning SAP Solutions for Business Network Solutions",
-      "ok": true,
-      "source": "Imagen oficial / Open Graph",
-      "status": 200
-    },
-    {
       "id": "live-sap-course-positioning-sap-solutions-for-business-network-solutions-for-partners",
       "title": "COURSE Positioning SAP Solutions for Business Network Solutions for Partners",
       "ok": true,
@@ -579,8 +579,8 @@
       "status": 200
     },
     {
-      "id": "live-sap-financial-management",
-      "title": "Financial management",
+      "id": "live-sap-course-positioning-sap-solutions-for-business-network-solutions",
+      "title": "COURSE Positioning SAP Solutions for Business Network Solutions",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -642,29 +642,8 @@
       "status": 200
     },
     {
-      "id": "live-sap-sap-s-4hana-cloud-private-edition",
-      "title": "SAP S/4HANA Cloud Private Edition",
-      "ok": true,
-      "source": "Imagen oficial / Open Graph",
-      "status": 200
-    },
-    {
-      "id": "live-sap-sap-s-4hana-cloud-public-edition",
-      "title": "SAP S/4HANA Cloud Public Edition",
-      "ok": true,
-      "source": "Imagen oficial / Open Graph",
-      "status": 200
-    },
-    {
       "id": "live-sap-self-paced-courses",
       "title": "Self-paced courses",
-      "ok": true,
-      "source": "Imagen oficial / Open Graph",
-      "status": 200
-    },
-    {
-      "id": "live-sap-supply-chain-management",
-      "title": "Supply chain management",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -698,15 +677,15 @@
       "status": 200
     },
     {
-      "id": "microsoft-ai-agent-applied-skill",
-      "title": "Microsoft Applied Skills · Create an AI agent",
+      "id": "kaggle-learn-certificates",
+      "title": "Kaggle Learn · microcursos con certificado gratuito",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
-      "id": "kaggle-learn-certificates",
-      "title": "Kaggle Learn · microcursos con certificado gratuito",
+      "id": "microsoft-ai-agent-applied-skill",
+      "title": "Microsoft Applied Skills · Create an AI agent",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -782,6 +761,13 @@
       "status": 200
     },
     {
+      "id": "live-kaggle-intermediate-machine-learning-handle-missing-values-non-numeric-values-data-leakage-and-more",
+      "title": "Intermediate Machine Learning Handle missing values, non-numeric values, data leakage, and more.",
+      "ok": true,
+      "source": "Imagen oficial / Open Graph",
+      "status": 200
+    },
+    {
       "id": "live-kaggle-intro-to-ai-ethics-explore-practical-tools-to-guide-the-moral-design-of-ai-systems",
       "title": "Intro to AI Ethics Explore practical tools to guide the moral design of AI systems.",
       "ok": true,
@@ -791,13 +777,6 @@
     {
       "id": "live-kaggle-intro-to-deep-learning-use-tensorflow-and-keras-to-build-and-train-neural-networks-for-structured-data",
       "title": "Intro to Deep Learning Use TensorFlow and Keras to build and train neural networks for structured data.",
-      "ok": true,
-      "source": "Imagen oficial / Open Graph",
-      "status": 200
-    },
-    {
-      "id": "live-kaggle-intermediate-machine-learning-handle-missing-values-non-numeric-values-data-leakage-and-more",
-      "title": "Intermediate Machine Learning Handle missing values, non-numeric values, data leakage, and more.",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -1048,15 +1027,15 @@
       "status": 200
     },
     {
-      "id": "community-cognitive-class-how-to-build-chatbots",
-      "title": "How to Build Chatbots",
+      "id": "community-cognitive-class-hadoop-foundations-level-1",
+      "title": "Hadoop Foundations - Level 1",
       "ok": true,
       "source": "Captura de la fuente oficial",
       "status": 200
     },
     {
-      "id": "community-cognitive-class-hadoop-foundations-level-1",
-      "title": "Hadoop Foundations - Level 1",
+      "id": "community-cognitive-class-how-to-build-chatbots",
+      "title": "How to Build Chatbots",
       "ok": true,
       "source": "Captura de la fuente oficial",
       "status": 200
@@ -1090,15 +1069,15 @@
       "status": 200
     },
     {
-      "id": "community-cognitive-class-spark-fundamentals-i",
-      "title": "Spark Fundamentals I",
+      "id": "community-cognitive-class-statistics-101",
+      "title": "Statistics 101",
       "ok": true,
       "source": "Captura de la fuente oficial",
       "status": 200
     },
     {
-      "id": "community-cognitive-class-statistics-101",
-      "title": "Statistics 101",
+      "id": "community-cognitive-class-spark-fundamentals-i",
+      "title": "Spark Fundamentals I",
       "ok": true,
       "source": "Captura de la fuente oficial",
       "status": 200
@@ -1300,6 +1279,13 @@
       "status": 200
     },
     {
+      "id": "community-saylor-university-bitcoin-for-developers",
+      "title": "Bitcoin for Developers",
+      "ok": true,
+      "source": "Imagen oficial / Open Graph",
+      "status": 200
+    },
+    {
       "id": "community-saylor-university-cs202-discrete-structures",
       "title": "CS202: Discrete Structures",
       "ok": true,
@@ -1309,13 +1295,6 @@
     {
       "id": "community-saylor-university-cs401-operating-systems",
       "title": "CS401: Operating Systems",
-      "ok": true,
-      "source": "Imagen oficial / Open Graph",
-      "status": 200
-    },
-    {
-      "id": "community-saylor-university-bitcoin-for-developers",
-      "title": "Bitcoin for Developers",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
