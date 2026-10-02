@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-01T17:29:16.768Z",
+  "generatedAt": "2026-10-02T16:48:48.740Z",
   "seed": 54,
   "officialDiscoveredRaw": 100,
   "officialValidated": 94,
   "communityCandidates": 137,
-  "communityValidated": 72,
+  "communityValidated": 73,
   "published": 190,
   "audit": [
     {
@@ -2154,8 +2154,10 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Time Series",
       "url": "https://www.kaggle.com/learn/time-series",
-      "status": "rejected",
-      "reason": "no-free-credential-evidence",
+      "status": "accepted",
+      "provider": "Kaggle",
+      "kind": "Curso con certificado",
+      "language": "EN",
       "httpStatus": 200,
       "finalUrl": "https://www.kaggle.com/learn/time-series"
     },
