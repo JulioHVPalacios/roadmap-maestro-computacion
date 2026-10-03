@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-02T16:48:48.740Z",
+  "generatedAt": "2026-10-03T15:13:55.922Z",
   "seed": 54,
   "officialDiscoveredRaw": 100,
-  "officialValidated": 94,
+  "officialValidated": 96,
   "communityCandidates": 137,
   "communityValidated": 73,
   "published": 190,
@@ -596,8 +596,7 @@
       "sourceType": "discovered",
       "url": "https://learn.mongodb.com/catalog?labels=%5B%22Free%2FPaid%22%5D&values=%5B%22Free%22%5D",
       "finalUrl": "https://learn.mongodb.com/catalog?labels=%5B%22Free%2FPaid%22%5D&values=%5B%22Free%22%5D",
-      "status": "rejected",
-      "reason": "no-learning-evidence",
+      "status": "active",
       "httpStatus": 200
     },
     {
@@ -637,8 +636,7 @@
       "sourceType": "discovered",
       "url": "https://learn.mongodb.com/catalog?labels=%5B%5D&page=1&values=%5B%5D",
       "finalUrl": "https://learn.mongodb.com/catalog?labels=%5B%5D&page=1&values=%5B%5D",
-      "status": "rejected",
-      "reason": "no-learning-evidence",
+      "status": "active",
       "httpStatus": 200
     },
     {
@@ -1650,10 +1648,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Service Hub Software Certification",
       "url": "https://academy.hubspot.com/courses/hubspot-service-software",
-      "status": "accepted",
-      "provider": "HubSpot Academy",
-      "kind": "Certificación",
-      "language": "ES",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://academy.hubspot.com/courses/hubspot-service-software"
     },
@@ -2108,8 +2104,10 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Intro to Machine Learning",
       "url": "https://www.kaggle.com/learn/intro-to-machine-learning",
-      "status": "rejected",
-      "reason": "no-free-credential-evidence",
+      "status": "accepted",
+      "provider": "Kaggle",
+      "kind": "Curso con certificado",
+      "language": "EN",
       "httpStatus": 200,
       "finalUrl": "https://www.kaggle.com/learn/intro-to-machine-learning"
     },
