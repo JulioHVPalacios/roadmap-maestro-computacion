@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-04T15:58:17.868Z",
+  "generatedAt": "2026-10-05T19:54:26.161Z",
   "seed": 54,
-  "officialDiscoveredRaw": 96,
-  "officialValidated": 90,
+  "officialDiscoveredRaw": 101,
+  "officialValidated": 97,
   "communityCandidates": 137,
-  "communityValidated": 72,
-  "published": 186,
+  "communityValidated": 76,
+  "published": 193,
   "audit": [
     {
       "id": "ibm-digital-credentials",
@@ -596,8 +596,7 @@
       "sourceType": "discovered",
       "url": "https://learn.mongodb.com/catalog?labels=%5B%22Free%2FPaid%22%5D&values=%5B%22Free%22%5D",
       "finalUrl": "https://learn.mongodb.com/catalog?labels=%5B%22Free%2FPaid%22%5D&values=%5B%22Free%22%5D",
-      "status": "rejected",
-      "reason": "no-learning-evidence",
+      "status": "active",
       "httpStatus": 200
     },
     {
@@ -637,8 +636,7 @@
       "sourceType": "discovered",
       "url": "https://learn.mongodb.com/catalog?labels=%5B%5D&page=1&values=%5B%5D",
       "finalUrl": "https://learn.mongodb.com/catalog?labels=%5B%5D&page=1&values=%5B%5D",
-      "status": "rejected",
-      "reason": "no-learning-evidence",
+      "status": "active",
       "httpStatus": 200
     },
     {
@@ -967,6 +965,38 @@
       "httpStatus": 200
     },
     {
+      "id": "live-sap-sap-s-4hana-cloud-public-edition",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/products/s4hana-cloud",
+      "finalUrl": "https://learning.sap.com/products/s4hana-cloud",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-sap-sap-s-4hana-cloud-private-edition",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/products/s4hana-cloud-private",
+      "finalUrl": "https://learning.sap.com/products/s4hana-cloud-private",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-sap-supply-chain-management",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/products/supply-chain-management",
+      "finalUrl": "https://learning.sap.com/products/supply-chain-management",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-sap-financial-management",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/products/financial-management",
+      "finalUrl": "https://learning.sap.com/products/financial-management",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
       "id": "live-microsoft-applied-ir-al-contenido-principal",
       "sourceType": "discovered",
       "url": "https://learn.microsoft.com/es-es/credentials/applied-skills",
@@ -1168,34 +1198,42 @@
       "httpStatus": 200
     },
     {
-      "id": "live-fazt-web-feat-nextjs-full-ecommerce-project-sin-ia",
+      "id": "live-fazt-ia-feat-documenta-tu-proyecto-para-que-la-ia-deje-de-adivinar",
       "sourceType": "discovered",
-      "url": "https://fazt.dev/contenido/nextjs-full-ecommerce-project",
-      "finalUrl": "https://fazt.dev/contenido/nextjs-full-ecommerce-project",
+      "url": "https://fazt.dev/contenido/documentar-proyecto-con-ia",
+      "finalUrl": "https://fazt.dev/contenido/documentar-proyecto-con-ia",
       "status": "active",
       "httpStatus": 200
     },
     {
-      "id": "live-fazt-ia-feat-pi-agent-el-harness-abierto-que-tu-personalizas-extensiones-skills-y-mcp",
+      "id": "live-fazt-ia-feat-asi-desarrollo-con-varios-agentes-a-la-par-herdr-claude-code",
       "sourceType": "discovered",
-      "url": "https://fazt.dev/contenido/pi-agent-tutorial-harness-skills-extensiones-mcp",
-      "finalUrl": "https://fazt.dev/contenido/pi-agent-tutorial-harness-skills-extensiones-mcp",
+      "url": "https://fazt.dev/contenido/herdr-claude-code-worktrees-agentes",
+      "finalUrl": "https://fazt.dev/contenido/herdr-claude-code-worktrees-agentes",
       "status": "active",
       "httpStatus": 200
     },
     {
-      "id": "live-fazt-ia-feat-las-herramientas-de-ia-que-uso-para-programar-en-2026",
+      "id": "live-fazt-ia-feat-crea-tu-primer-mcp-y-conectalo-a-chatgpt-desde-cero",
       "sourceType": "discovered",
-      "url": "https://fazt.dev/contenido/herramientas-ia-que-uso-para-programar",
-      "finalUrl": "https://fazt.dev/contenido/herramientas-ia-que-uso-para-programar",
+      "url": "https://fazt.dev/contenido/crea-tu-primer-mcp-chatgpt",
+      "finalUrl": "https://fazt.dev/contenido/crea-tu-primer-mcp-chatgpt",
       "status": "active",
       "httpStatus": 200
     },
     {
-      "id": "live-fazt-web-feat-apm-en-node-js-con-manageengine-metricas-y-alertas",
+      "id": "live-fazt-ia-feat-que-es-mcp-model-context-protocol-y-como-crear-el-tuyo-en-2026",
       "sourceType": "discovered",
-      "url": "https://fazt.dev/contenido/apm-nodejs-manageengine-application-manager",
-      "finalUrl": "https://fazt.dev/contenido/apm-nodejs-manageengine-application-manager",
+      "url": "https://fazt.dev/contenido/que-es-mcp-model-context-protocol",
+      "finalUrl": "https://fazt.dev/contenido/que-es-mcp-model-context-protocol",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-fazt-ia-feat-la-ia-ya-clona-juegos-avatares-y-modelos-locales",
+      "sourceType": "discovered",
+      "url": "https://fazt.dev/contenido/cambios-ia-juegos-avatares-ajax",
+      "finalUrl": "https://fazt.dev/contenido/cambios-ia-juegos-avatares-ajax",
       "status": "active",
       "httpStatus": 200
     },
@@ -1212,8 +1250,10 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Intro to AI Ethics",
       "url": "https://www.kaggle.com/learn/intro-to-ai-ethics",
-      "status": "rejected",
-      "reason": "no-free-credential-evidence",
+      "status": "accepted",
+      "provider": "Kaggle",
+      "kind": "Curso con certificado",
+      "language": "EN",
       "httpStatus": 200,
       "finalUrl": "https://www.kaggle.com/learn/intro-to-ai-ethics"
     },
@@ -1794,8 +1834,10 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Data Analysis with Python Certification",
       "url": "https://www.freecodecamp.org/learn/data-analysis-with-python",
-      "status": "rejected",
-      "reason": "no-free-credential-evidence",
+      "status": "accepted",
+      "provider": "freeCodeCamp",
+      "kind": "Certificación",
+      "language": "EN",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/data-analysis-with-python/"
     },
@@ -2086,8 +2128,10 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Intermediate Machine Learning",
       "url": "https://www.kaggle.com/learn/intermediate-machine-learning",
-      "status": "rejected",
-      "reason": "no-free-credential-evidence",
+      "status": "accepted",
+      "provider": "Kaggle",
+      "kind": "Curso con certificado",
+      "language": "EN",
       "httpStatus": 200,
       "finalUrl": "https://www.kaggle.com/learn/intermediate-machine-learning"
     },
@@ -2304,8 +2348,10 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Pandas",
       "url": "https://www.kaggle.com/learn/pandas",
-      "status": "rejected",
-      "reason": "no-free-credential-evidence",
+      "status": "accepted",
+      "provider": "Kaggle",
+      "kind": "Curso con certificado",
+      "language": "EN",
       "httpStatus": 200,
       "finalUrl": "https://www.kaggle.com/learn/pandas"
     },
@@ -2546,8 +2592,8 @@
       "title": "Link",
       "url": "https://academy.tigera.io/course/certified-calico-operator-ebpf",
       "status": "rejected",
-      "reason": "unreachable",
-      "httpStatus": 0
+      "reason": "inactive",
+      "httpStatus": 404
     },
     {
       "sourceType": "community",
