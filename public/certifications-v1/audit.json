@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-05T19:54:26.161Z",
+  "generatedAt": "2026-10-06T17:23:47.111Z",
   "seed": 54,
   "officialDiscoveredRaw": 101,
-  "officialValidated": 97,
+  "officialValidated": 96,
   "communityCandidates": 137,
-  "communityValidated": 76,
-  "published": 193,
+  "communityValidated": 75,
+  "published": 192,
   "audit": [
     {
       "id": "ibm-digital-credentials",
@@ -596,7 +596,8 @@
       "sourceType": "discovered",
       "url": "https://learn.mongodb.com/catalog?labels=%5B%22Free%2FPaid%22%5D&values=%5B%22Free%22%5D",
       "finalUrl": "https://learn.mongodb.com/catalog?labels=%5B%22Free%2FPaid%22%5D&values=%5B%22Free%22%5D",
-      "status": "active",
+      "status": "rejected",
+      "reason": "no-learning-evidence",
       "httpStatus": 200
     },
     {
@@ -1834,10 +1835,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Data Analysis with Python Certification",
       "url": "https://www.freecodecamp.org/learn/data-analysis-with-python",
-      "status": "accepted",
-      "provider": "freeCodeCamp",
-      "kind": "Certificación",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/data-analysis-with-python/"
     },
