@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-13T18:29:18.404Z",
+  "generatedAt": "2026-10-14T15:57:12.090Z",
   "seed": 54,
   "officialDiscoveredRaw": 99,
-  "officialValidated": 95,
+  "officialValidated": 91,
   "communityCandidates": 137,
-  "communityValidated": 72,
-  "published": 190,
+  "communityValidated": 71,
+  "published": 186,
   "audit": [
     {
       "id": "ibm-digital-credentials",
@@ -1193,33 +1193,29 @@
       "id": "live-fazt-web-feat-curso-de-docker",
       "sourceType": "discovered",
       "url": "https://fazt.dev/contenido/docker-curso-linux",
-      "finalUrl": "https://fazt.dev/contenido/docker-curso-linux",
-      "status": "active",
-      "httpStatus": 200
+      "status": "unreachable",
+      "httpStatus": 500
     },
     {
       "id": "live-fazt-ia-feat-una-herramienta-no-code-que-si-deja-programar",
       "sourceType": "discovered",
       "url": "https://fazt.dev/contenido/wix-studio-plataforma-de-creacion-de-sitios-web-para-agencias-y-freelancers",
-      "finalUrl": "https://fazt.dev/contenido/wix-studio-plataforma-de-creacion-de-sitios-web-para-agencias-y-freelancers",
-      "status": "active",
-      "httpStatus": 200
+      "status": "unreachable",
+      "httpStatus": 500
     },
     {
       "id": "live-fazt-ia-feat-openai-codex-cli-asi-se-programa-con-ia-directamente-en-tu-terminal",
       "sourceType": "discovered",
       "url": "https://fazt.dev/contenido/open-aicodex-cli-asi-se-programa-con-ia-directamente-en-tu-terminal",
-      "finalUrl": "https://fazt.dev/contenido/open-aicodex-cli-asi-se-programa-con-ia-directamente-en-tu-terminal",
-      "status": "active",
-      "httpStatus": 200
+      "status": "unreachable",
+      "httpStatus": 500
     },
     {
       "id": "live-fazt-ia-feat-mis-agent-skills-mas-usados",
       "sourceType": "discovered",
       "url": "https://fazt.dev/contenido/mis-agent-skills-mas-usados",
-      "finalUrl": "https://fazt.dev/contenido/mis-agent-skills-mas-usados",
-      "status": "active",
-      "httpStatus": 200
+      "status": "unreachable",
+      "httpStatus": 500
     },
     {
       "id": "live-fazt-ver-el-catalogo-gratis",
@@ -1246,8 +1242,10 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Intro to Game AI and Reinforcement Learning",
       "url": "https://www.kaggle.com/learn/intro-to-game-ai-and-reinforcement-learning",
-      "status": "rejected",
-      "reason": "no-free-credential-evidence",
+      "status": "accepted",
+      "provider": "Kaggle",
+      "kind": "Curso con certificado",
+      "language": "EN",
       "httpStatus": 200,
       "finalUrl": "https://www.kaggle.com/learn/intro-to-game-ai-and-reinforcement-learning"
     },
@@ -1362,8 +1360,10 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Advanced SQL",
       "url": "https://www.kaggle.com/learn/advanced-sql",
-      "status": "rejected",
-      "reason": "no-free-credential-evidence",
+      "status": "accepted",
+      "provider": "Kaggle",
+      "kind": "Curso con certificado",
+      "language": "EN",
       "httpStatus": 200,
       "finalUrl": "https://www.kaggle.com/learn/advanced-sql"
     },
@@ -1639,7 +1639,7 @@
       "status": "accepted",
       "provider": "HubSpot Academy",
       "kind": "Certificación",
-      "language": "ES",
+      "language": "EN",
       "httpStatus": 200,
       "finalUrl": "https://academy.hubspot.com/courses/hubspot-service-software"
     },
@@ -1858,10 +1858,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Data Visualization",
       "url": "https://www.kaggle.com/learn/data-visualization",
-      "status": "accepted",
-      "provider": "Kaggle",
-      "kind": "Curso con certificado",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.kaggle.com/learn/data-visualization"
     },
@@ -1870,10 +1868,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Data Cleaning",
       "url": "https://www.kaggle.com/learn/data-cleaning",
-      "status": "accepted",
-      "provider": "Kaggle",
-      "kind": "Curso con certificado",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.kaggle.com/learn/data-cleaning"
     },
@@ -2106,10 +2102,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Intermediate Machine Learning",
       "url": "https://www.kaggle.com/learn/intermediate-machine-learning",
-      "status": "accepted",
-      "provider": "Kaggle",
-      "kind": "Curso con certificado",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.kaggle.com/learn/intermediate-machine-learning"
     },
@@ -2609,7 +2603,7 @@
       "status": "rejected",
       "reason": "no-free-credential-evidence",
       "httpStatus": 200,
-      "finalUrl": "https://www.apollographql.com/tutorials/certifications/apollo-graph-associate/"
+      "finalUrl": "https://www.apollographql.com/tutorials/certifications/apollo-graph-associate"
     },
     {
       "sourceType": "community",
