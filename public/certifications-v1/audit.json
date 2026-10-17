@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-16T15:29:59.799Z",
+  "generatedAt": "2026-10-17T14:23:12.855Z",
   "seed": 54,
-  "officialDiscoveredRaw": 126,
-  "officialValidated": 98,
+  "officialDiscoveredRaw": 100,
+  "officialValidated": 94,
   "communityCandidates": 137,
-  "communityValidated": 73,
-  "published": 194,
+  "communityValidated": 70,
+  "published": 190,
   "audit": [
     {
       "id": "ibm-digital-credentials",
@@ -609,7 +609,7 @@
       "httpStatus": 200
     },
     {
-      "id": "live-mongodb-skills-and-certificationsdevelop-in-demand-skills-and-earn-mongodb-certifications",
+      "id": "live-mongodb-courses-and-certificationlearn-for-free-from-mongodb",
       "sourceType": "discovered",
       "url": "https://learn.mongodb.com",
       "finalUrl": "https://learn.mongodb.com",
@@ -617,10 +617,10 @@
       "httpStatus": 200
     },
     {
-      "id": "live-mongodb-skills",
+      "id": "live-mongodb-lab-zone",
       "sourceType": "discovered",
-      "url": "https://learn.mongodb.com/skills",
-      "finalUrl": "https://learn.mongodb.com/skills",
+      "url": "https://learn.mongodb.com/pages/lab-zone",
+      "finalUrl": "https://learn.mongodb.com/pages/lab-zone",
       "status": "active",
       "httpStatus": 200
     },
@@ -1192,236 +1192,6 @@
       "httpStatus": 200
     },
     {
-      "id": "live-gitlab-university-getting-started",
-      "sourceType": "discovered",
-      "url": "https://university.gitlab.com/pages/getting-started",
-      "finalUrl": "https://university.gitlab.com/pages/getting-started",
-      "status": "rejected",
-      "reason": "no-learning-evidence",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-gitlab-university-gitlab-duo-ai",
-      "sourceType": "discovered",
-      "url": "https://university.gitlab.com/pages/ai",
-      "finalUrl": "https://university.gitlab.com/pages/ai",
-      "status": "rejected",
-      "reason": "no-learning-evidence",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-gitlab-university-ci-cd",
-      "sourceType": "discovered",
-      "url": "https://university.gitlab.com/pages/ci-cd-content",
-      "finalUrl": "https://university.gitlab.com/pages/ci-cd-content",
-      "status": "rejected",
-      "reason": "no-learning-evidence",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-gitlab-university-security",
-      "sourceType": "discovered",
-      "url": "https://university.gitlab.com/pages/security-content",
-      "finalUrl": "https://university.gitlab.com/pages/security-content",
-      "status": "rejected",
-      "reason": "no-learning-evidence",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-gitlab-university-migration",
-      "sourceType": "discovered",
-      "url": "https://university.gitlab.com/pages/migrating-to-gitlab",
-      "finalUrl": "https://university.gitlab.com/pages/migrating-to-gitlab",
-      "status": "rejected",
-      "reason": "no-learning-evidence",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-gitlab-university-agile-portfolio-management",
-      "sourceType": "discovered",
-      "url": "https://university.gitlab.com/pages/agile-planning",
-      "finalUrl": "https://university.gitlab.com/pages/agile-planning",
-      "status": "rejected",
-      "reason": "no-learning-evidence",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-gitlab-university-view-all-content",
-      "sourceType": "discovered",
-      "url": "https://university.gitlab.com/catalog",
-      "finalUrl": "https://university.gitlab.com/catalog",
-      "status": "rejected",
-      "reason": "no-learning-evidence",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-gitlab-university-certifications",
-      "sourceType": "discovered",
-      "url": "https://university.gitlab.com/pages/certifications",
-      "finalUrl": "https://university.gitlab.com/pages/certifications",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-gitlab-university-certification-program-details",
-      "sourceType": "discovered",
-      "url": "https://university.gitlab.com/learn/article/gitlab-certification-candidate-handbook",
-      "finalUrl": "https://university.gitlab.com/learn/article/gitlab-certification-candidate-handbook",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-gitlab-university-public-training",
-      "sourceType": "discovered",
-      "url": "https://university.gitlab.com/pages/public-training",
-      "finalUrl": "https://university.gitlab.com/pages/public-training",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-gitlab-university-private-training",
-      "sourceType": "discovered",
-      "url": "https://university.gitlab.com/pages/training",
-      "finalUrl": "https://university.gitlab.com/pages/training",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-gitlab-university-gitlab-fundamentals",
-      "sourceType": "discovered",
-      "url": "https://university.gitlab.com/pages/gitlab-fundamentals-training",
-      "finalUrl": "https://university.gitlab.com/pages/gitlab-fundamentals-training",
-      "status": "rejected",
-      "reason": "no-learning-evidence",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-gitlab-university-gitlab-duo-agent-platform",
-      "sourceType": "discovered",
-      "url": "https://university.gitlab.com/pages/duo-agent-platform",
-      "finalUrl": "https://university.gitlab.com/pages/duo-agent-platform",
-      "status": "rejected",
-      "reason": "no-learning-evidence",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-gitlab-university-gitlab-duo",
-      "sourceType": "discovered",
-      "url": "https://university.gitlab.com/pages/duo-training",
-      "finalUrl": "https://university.gitlab.com/pages/duo-training",
-      "status": "rejected",
-      "reason": "no-learning-evidence",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-gitlab-university-advanced-ci-cd",
-      "sourceType": "discovered",
-      "url": "https://university.gitlab.com/pages/advanced-cicd",
-      "finalUrl": "https://university.gitlab.com/pages/advanced-cicd",
-      "status": "rejected",
-      "reason": "no-learning-evidence",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-gitlab-university-security-essentials",
-      "sourceType": "discovered",
-      "url": "https://university.gitlab.com/pages/security-training",
-      "finalUrl": "https://university.gitlab.com/pages/security-training",
-      "status": "rejected",
-      "reason": "no-learning-evidence",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-gitlab-university-compliance",
-      "sourceType": "discovered",
-      "url": "https://university.gitlab.com/pages/compliance-training",
-      "finalUrl": "https://university.gitlab.com/pages/compliance-training",
-      "status": "rejected",
-      "reason": "no-learning-evidence",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-gitlab-university-system-administration",
-      "sourceType": "discovered",
-      "url": "https://university.gitlab.com/pages/system-admin-training-1-day",
-      "finalUrl": "https://university.gitlab.com/pages/system-admin-training-1-day",
-      "status": "rejected",
-      "reason": "no-learning-evidence",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-gitlab-university-events",
-      "sourceType": "discovered",
-      "url": "https://university.gitlab.com/pages/gitlab-user-webinars",
-      "finalUrl": "https://university.gitlab.com/pages/gitlab-user-webinars",
-      "status": "rejected",
-      "reason": "no-learning-evidence",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-gitlab-university-faqs",
-      "sourceType": "discovered",
-      "url": "https://university.gitlab.com/pages/faq",
-      "finalUrl": "https://university.gitlab.com/pages/faq",
-      "status": "rejected",
-      "reason": "no-learning-evidence",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-gitlab-university-gitlab-duo-fundamentals",
-      "sourceType": "discovered",
-      "url": "https://university.gitlab.com/pages/gitlab-duo",
-      "finalUrl": "https://university.gitlab.com/pages/gitlab-duo",
-      "status": "rejected",
-      "reason": "no-learning-evidence",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-gitlab-university-getting-started-with-your-first-gitlab-project",
-      "sourceType": "discovered",
-      "url": "https://university.gitlab.com/courses/hands-on-labs-gitlab-with-git-essentials",
-      "finalUrl": "https://university.gitlab.com/courses/hands-on-labs-gitlab-with-git-essentials",
-      "status": "rejected",
-      "reason": "no-learning-evidence",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-gitlab-university-github-to-gitlab",
-      "sourceType": "discovered",
-      "url": "https://university.gitlab.com/courses/migrate-from-github",
-      "finalUrl": "https://university.gitlab.com/courses/migrate-from-github",
-      "status": "rejected",
-      "reason": "no-learning-evidence",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-gitlab-university-jenkins-to-gitlab",
-      "sourceType": "discovered",
-      "url": "https://university.gitlab.com/courses/jenkins-to-gitlab-migration-tips",
-      "finalUrl": "https://university.gitlab.com/courses/jenkins-to-gitlab-migration-tips",
-      "status": "rejected",
-      "reason": "no-learning-evidence",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-gitlab-university-atlassian-to-gitlab",
-      "sourceType": "discovered",
-      "url": "https://university.gitlab.com/courses/jira-to-gitlab-migration-tips",
-      "finalUrl": "https://university.gitlab.com/courses/jira-to-gitlab-migration-tips",
-      "status": "rejected",
-      "reason": "no-learning-evidence",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-gitlab-university-agile-planning",
-      "sourceType": "discovered",
-      "url": "https://university.gitlab.com/courses/gitlab-agile-project-management-s2",
-      "finalUrl": "https://university.gitlab.com/courses/gitlab-agile-project-management-s2",
-      "status": "rejected",
-      "reason": "no-learning-evidence",
-      "httpStatus": 200
-    },
-    {
       "id": "live-fazt-ia-feat-como-crear-skills-simples-y-modulares-para-claude-code-y-cualquier-agente",
       "sourceType": "discovered",
       "url": "https://fazt.dev/contenido/7-tips-crear-skills-ia",
@@ -1486,10 +1256,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Intro to Game AI and Reinforcement Learning",
       "url": "https://www.kaggle.com/learn/intro-to-game-ai-and-reinforcement-learning",
-      "status": "accepted",
-      "provider": "Kaggle",
-      "kind": "Curso con certificado",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.kaggle.com/learn/intro-to-game-ai-and-reinforcement-learning"
     },
@@ -2102,10 +1870,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Data Visualization",
       "url": "https://www.kaggle.com/learn/data-visualization",
-      "status": "accepted",
-      "provider": "Kaggle",
-      "kind": "Curso con certificado",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.kaggle.com/learn/data-visualization"
     },
@@ -2114,10 +1880,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Data Cleaning",
       "url": "https://www.kaggle.com/learn/data-cleaning",
-      "status": "accepted",
-      "provider": "Kaggle",
-      "kind": "Curso con certificado",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.kaggle.com/learn/data-cleaning"
     },
@@ -2374,8 +2138,10 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Intro to Deep Learning",
       "url": "https://www.kaggle.com/learn/intro-to-deep-learning",
-      "status": "rejected",
-      "reason": "no-free-credential-evidence",
+      "status": "accepted",
+      "provider": "Kaggle",
+      "kind": "Curso con certificado",
+      "language": "EN",
       "httpStatus": 200,
       "finalUrl": "https://www.kaggle.com/learn/intro-to-deep-learning"
     },
@@ -2396,10 +2162,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Feature Engineering",
       "url": "https://www.kaggle.com/learn/feature-engineering",
-      "status": "accepted",
-      "provider": "Kaggle",
-      "kind": "Curso con certificado",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.kaggle.com/learn/feature-engineering"
     },
@@ -2556,8 +2320,10 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Python",
       "url": "https://www.kaggle.com/learn/python",
-      "status": "rejected",
-      "reason": "no-free-credential-evidence",
+      "status": "accepted",
+      "provider": "Kaggle",
+      "kind": "Curso con certificado",
+      "language": "EN",
       "httpStatus": 200,
       "finalUrl": "https://www.kaggle.com/learn/python"
     },
@@ -2578,10 +2344,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Intro to Programming",
       "url": "https://www.kaggle.com/learn/intro-to-programming",
-      "status": "accepted",
-      "provider": "Kaggle",
-      "kind": "Curso con certificado",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.kaggle.com/learn/intro-to-programming"
     },
