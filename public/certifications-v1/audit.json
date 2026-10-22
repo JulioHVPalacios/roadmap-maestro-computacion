@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-21T16:05:19.086Z",
+  "generatedAt": "2026-10-22T16:00:39.523Z",
   "seed": 54,
   "officialDiscoveredRaw": 100,
-  "officialValidated": 95,
+  "officialValidated": 94,
   "communityCandidates": 137,
-  "communityValidated": 70,
-  "published": 193,
+  "communityValidated": 75,
+  "published": 190,
   "audit": [
     {
       "id": "ibm-digital-credentials",
@@ -596,7 +596,8 @@
       "sourceType": "discovered",
       "url": "https://learn.mongodb.com/catalog?labels=%5B%22Free%2FPaid%22%5D&values=%5B%22Free%22%5D",
       "finalUrl": "https://learn.mongodb.com/catalog?labels=%5B%22Free%2FPaid%22%5D&values=%5B%22Free%22%5D",
-      "status": "active",
+      "status": "rejected",
+      "reason": "no-learning-evidence",
       "httpStatus": 200
     },
     {
@@ -608,7 +609,7 @@
       "httpStatus": 200
     },
     {
-      "id": "live-mongodb-courses-and-certificationlearn-for-free-from-mongodb",
+      "id": "live-mongodb-skills-and-certificationsdevelop-in-demand-skills-and-earn-mongodb-certifications",
       "sourceType": "discovered",
       "url": "https://learn.mongodb.com",
       "finalUrl": "https://learn.mongodb.com",
@@ -616,10 +617,10 @@
       "httpStatus": 200
     },
     {
-      "id": "live-mongodb-lab-zone",
+      "id": "live-mongodb-skills",
       "sourceType": "discovered",
-      "url": "https://learn.mongodb.com/pages/lab-zone",
-      "finalUrl": "https://learn.mongodb.com/pages/lab-zone",
+      "url": "https://learn.mongodb.com/skills",
+      "finalUrl": "https://learn.mongodb.com/skills",
       "status": "active",
       "httpStatus": 200
     },
@@ -1185,10 +1186,8 @@
       "id": "live-gitlab-university-skip-to-main-content",
       "sourceType": "discovered",
       "url": "https://university.gitlab.com",
-      "finalUrl": "https://university.gitlab.com",
-      "status": "rejected",
-      "reason": "no-learning-evidence",
-      "httpStatus": 200
+      "status": "unreachable",
+      "httpStatus": 0
     },
     {
       "id": "live-fazt-ia-feat-como-crear-skills-simples-y-modulares-para-claude-code-y-cualquier-agente",
@@ -1255,8 +1254,10 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Intro to Game AI and Reinforcement Learning",
       "url": "https://www.kaggle.com/learn/intro-to-game-ai-and-reinforcement-learning",
-      "status": "rejected",
-      "reason": "no-free-credential-evidence",
+      "status": "accepted",
+      "provider": "Kaggle",
+      "kind": "Curso con certificado",
+      "language": "EN",
       "httpStatus": 200,
       "finalUrl": "https://www.kaggle.com/learn/intro-to-game-ai-and-reinforcement-learning"
     },
@@ -1319,10 +1320,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Back End Development and APIs Certification",
       "url": "https://www.freecodecamp.org/learn/back-end-development-and-apis",
-      "status": "accepted",
-      "provider": "freeCodeCamp",
-      "kind": "Certificación",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/back-end-development-and-apis/"
     },
@@ -1731,10 +1730,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Quality Assurance Certification",
       "url": "https://www.freecodecamp.org/learn/quality-assurance",
-      "status": "accepted",
-      "provider": "freeCodeCamp",
-      "kind": "Certificación",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/quality-assurance/"
     },
@@ -1885,8 +1882,10 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Data Cleaning",
       "url": "https://www.kaggle.com/learn/data-cleaning",
-      "status": "rejected",
-      "reason": "no-free-credential-evidence",
+      "status": "accepted",
+      "provider": "Kaggle",
+      "kind": "Curso con certificado",
+      "language": "EN",
       "httpStatus": 200,
       "finalUrl": "https://www.kaggle.com/learn/data-cleaning"
     },
@@ -2021,10 +2020,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Front-End Libraries Certification",
       "url": "https://www.freecodecamp.org/learn/front-end-development-libraries",
-      "status": "accepted",
-      "provider": "freeCodeCamp",
-      "kind": "Certificación",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/front-end-development-libraries/"
     },
@@ -2109,8 +2106,10 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Intro to Machine Learning",
       "url": "https://www.kaggle.com/learn/intro-to-machine-learning",
-      "status": "rejected",
-      "reason": "no-free-credential-evidence",
+      "status": "accepted",
+      "provider": "Kaggle",
+      "kind": "Curso con certificado",
+      "language": "EN",
       "httpStatus": 200,
       "finalUrl": "https://www.kaggle.com/learn/intro-to-machine-learning"
     },
@@ -2131,8 +2130,10 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Machine Learning Explainability",
       "url": "https://www.kaggle.com/learn/machine-learning-explainability",
-      "status": "rejected",
-      "reason": "no-free-credential-evidence",
+      "status": "accepted",
+      "provider": "Kaggle",
+      "kind": "Curso con certificado",
+      "language": "EN",
       "httpStatus": 200,
       "finalUrl": "https://www.kaggle.com/learn/machine-learning-explainability"
     },
@@ -2141,8 +2142,10 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Intro to Deep Learning",
       "url": "https://www.kaggle.com/learn/intro-to-deep-learning",
-      "status": "rejected",
-      "reason": "no-free-credential-evidence",
+      "status": "accepted",
+      "provider": "Kaggle",
+      "kind": "Curso con certificado",
+      "language": "EN",
       "httpStatus": 200,
       "finalUrl": "https://www.kaggle.com/learn/intro-to-deep-learning"
     },
@@ -2151,8 +2154,10 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Time Series",
       "url": "https://www.kaggle.com/learn/time-series",
-      "status": "rejected",
-      "reason": "no-free-credential-evidence",
+      "status": "accepted",
+      "provider": "Kaggle",
+      "kind": "Curso con certificado",
+      "language": "EN",
       "httpStatus": 200,
       "finalUrl": "https://www.kaggle.com/learn/time-series"
     },
@@ -2173,8 +2178,10 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Computer Vision",
       "url": "https://www.kaggle.com/learn/computer-vision",
-      "status": "rejected",
-      "reason": "no-free-credential-evidence",
+      "status": "accepted",
+      "provider": "Kaggle",
+      "kind": "Curso con certificado",
+      "language": "EN",
       "httpStatus": 200,
       "finalUrl": "https://www.kaggle.com/learn/computer-vision"
     },
@@ -2331,8 +2338,10 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Pandas",
       "url": "https://www.kaggle.com/learn/pandas",
-      "status": "rejected",
-      "reason": "no-free-credential-evidence",
+      "status": "accepted",
+      "provider": "Kaggle",
+      "kind": "Curso con certificado",
+      "language": "EN",
       "httpStatus": 200,
       "finalUrl": "https://www.kaggle.com/learn/pandas"
     },
@@ -2341,8 +2350,10 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Intro to Programming",
       "url": "https://www.kaggle.com/learn/intro-to-programming",
-      "status": "rejected",
-      "reason": "no-free-credential-evidence",
+      "status": "accepted",
+      "provider": "Kaggle",
+      "kind": "Curso con certificado",
+      "language": "EN",
       "httpStatus": 200,
       "finalUrl": "https://www.kaggle.com/learn/intro-to-programming"
     },
@@ -2437,10 +2448,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Information Security Certification",
       "url": "https://www.freecodecamp.org/learn/information-security",
-      "status": "accepted",
-      "provider": "freeCodeCamp",
-      "kind": "Certificación",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/information-security/"
     },
@@ -2614,7 +2623,7 @@
       "status": "rejected",
       "reason": "no-free-credential-evidence",
       "httpStatus": 200,
-      "finalUrl": "https://www.apollographql.com/tutorials/certifications/apollo-graph-associate"
+      "finalUrl": "https://www.apollographql.com/tutorials/certifications/apollo-graph-associate/"
     },
     {
       "sourceType": "community",
