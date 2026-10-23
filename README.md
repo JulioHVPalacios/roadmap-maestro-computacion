@@ -40,6 +40,14 @@
 
 ## Estado Actual del Proyecto
 
+### Guía de Ruta Maestra · octubre de 2026
+
+La sección `/ruta` incorpora una guía de inicio, secuencia de estudio, comparación de 29 fuentes, 17 familias de especialidad, recorrido de reparación/electrónica e investigación. El catálogo consultable integra las 533 materias del Excel aportado sin publicar progreso personal. Las conexiones se indican por familia; no implican 533 cursos desarrollados ni acreditación académica.
+
+Consulta la [revisión, fuentes, límites y orden recomendado](docs/RUTA_MAESTRA_AUDITORIA_2026-10-23.md). Se conservan las 20 etapas, 89 materias, 12 especializaciones y los datos académicos protegidos. Las rutas denominadas históricamente «maestrías» son especializaciones autodidactas, no títulos universitarios.
+
+Validación adicional: `node --import tsx scripts/audit-study-guide-v53.mjs`.
+
 Campus Maestro se encuentra en la versión **V52.5 (Studio Real & Clean Routing)**:
 - **Enrutamiento:** URLs limpias nativas vía History API (`/inicio`, `/ruta`, `/programacion`, `/ingles`, `/recursos`, `/certificaciones`, `/noticias`, `/perfil`, `/soporte`) sin `#` y con soporte de recarga directa en GitHub Pages (`404.html` SPA restore).
 - **Programación:** Entorno interactivo V52.5 con editor profesional Monaco Editor, terminal didáctica xterm.js, ejecución segura de JavaScript en Web Worker y Python en Pyodide en el navegador.

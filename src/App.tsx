@@ -26,6 +26,7 @@ import {
 import { IconBrandFacebook, IconBrandGithub, IconBrandInstagram } from "@tabler/icons-react"
 import SolarKnowledgeHero from "./components/SolarKnowledgeHero"
 import RadiantPromptInput from "./components/RadiantPromptInput"
+import SourceNotices from "./v53/SourceNotices"
 import { rootSources, stages, type Stage, type Subject } from "./roadmap-data"
 import { masteryTracks, type MasteryTrack } from "./mastery-data"
 import { inferProfessionProfile, professionTitles } from "./profession-atlas"
@@ -776,9 +777,9 @@ export default function App() {
 
 
         <section className="v15-section v15-masteries" id="maestrias">
-          <div className="v15-section-head"><div><span>RUTAS DE MAESTRÍA</span><h2>Profundiza sin perder la base.</h2></div><p>Después del tronco, combina especializaciones avanzadas según la profesión o investigación que persigas.</p></div>
+          <div className="v15-section-head"><div><span>RUTAS DE ESPECIALIZACIÓN</span><h2>Profundiza sin perder la base.</h2></div><p>Combina especializaciones autodidactas según sus prerrequisitos. Estas rutas no otorgan un máster universitario ni un título académico.</p></div>
           <div className="v15-track-tabs">{masteryTracks.map((track) => <button key={track.code} className={selectedTrack.code === track.code ? "active" : ""} onClick={() => setSelectedTrack(track)}><span>{track.code}</span>{track.title}</button>)}</div>
-          <div className="v15-track-detail"><div><span>{selectedTrack.family} · {selectedTrack.duration}</span><h3>{selectedTrack.title}</h3><p>{selectedTrack.goal}</p><div className="v15-gate"><CheckCircle2 />{selectedTrack.gate}</div></div><div className="v15-track-units">{selectedTrack.units.map((unit, index) => <article key={unit.name}><b>{String(index + 1).padStart(2,"0")}</b><div><h4>{unit.name}</h4><p>{unit.focus}</p><small>Evidencia: {unit.evidence}</small><div>{unit.sources.slice(0,2).map((source) => <a key={source.url} href={source.url} target="_blank" rel="noreferrer">{source.label} <ExternalLink size={13} /></a>)}</div></div></article>)}</div></div>
+          <div className="v15-track-detail"><div><span>{selectedTrack.family} · {selectedTrack.duration}</span><h3>{selectedTrack.title}</h3><p>{selectedTrack.goal}</p><div className="v15-gate"><CheckCircle2 />{selectedTrack.gate}</div></div><div className="v15-track-units">{selectedTrack.units.map((unit, index) => <article key={unit.name}><b>{String(index + 1).padStart(2,"0")}</b><div><h4>{unit.name}</h4><p>{unit.focus}</p><small>Evidencia: {unit.evidence}</small><div>{unit.sources.slice(0,2).map((source) => <a key={source.url} href={source.url} target="_blank" rel="noreferrer">{source.label} <ExternalLink size={13} /></a>)}</div><SourceNotices urls={unit.sources.map((source) => source.url)} /></div></article>)}</div></div>
         </section>
 
         <section className="v15-section v15-standards">

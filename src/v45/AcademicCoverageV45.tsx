@@ -4,6 +4,7 @@ import { careerCatalogV43 } from "../v43/career-catalog-v43"
 import { computingErasV43, evidenceGatesV43, facultiesV43, grandChallengesV43, sourcePillarsV43, standardsV43 } from "../v43/curriculum-v43"
 import KnowledgeGraphV43 from "../v43/KnowledgeGraphV43"
 import ReviewEngineV43 from "../v43/ReviewEngineV43"
+import SourceNotices from "../v53/SourceNotices"
 
 type Tab = "atlas" | "grafo" | "tiempo" | "evidencia" | "fuentes" | "repaso"
 
@@ -86,8 +87,8 @@ export default function AcademicCoverageV45({ completedStageCodes, currentStageI
       {tab === "repaso" && <div className="v43-tab-panel"><ReviewEngineV43 currentStageIndex={currentStageIndex} /></div>}
 
       {tab === "fuentes" && <div className="v43-tab-panel">
-        <div className="v43-panel-head"><div><span>JERARQUÍA DE FUENTES</span><h3>La ruta distingue autoridad de utilidad.</h3></div><p>A = estándar o plan oficial; B = universidad y material académico; C = currículo o laboratorio abierto; D = repositorio comunitario útil. Los niveles de menor autoridad complementan la práctica, pero no sustituyen las referencias oficiales.</p></div>
-        {(["A", "B", "C", "D"] as const).map((tier) => <section className="v43-source-tier" key={tier}><header><span>NIVEL {tier}</span><strong>{tier === "A" ? "Normativo / oficial" : tier === "B" ? "Universidad / academia" : tier === "C" ? "Currículos y práctica global" : "Complementos comunitarios auditados"}</strong></header><div>{sourcePillarsV43.filter((source) => source.tier === tier).map((source) => <a key={source.name} href={source.url} target="_blank" rel="noreferrer"><small>{source.kind} · {source.language}</small><strong>{source.name}</strong><p>{source.role}</p><span>Abrir fuente <ExternalLink /></span></a>)}</div></section>)}
+        <div className="v43-panel-head"><div><span>REFERENCIAS DEL PLAN</span><h3>Autoridad, material docente y práctica cumplen funciones distintas.</h3></div><p>La agrupación histórica se conserva como orientación. Un estándar permite contrastar competencias; una recopilación comunitaria no se vuelve oficial por contener apuntes universitarios. Consulta «Fuentes comparadas» al inicio de esta ruta para conocer condiciones e idioma revisados.</p></div>
+        {(["A", "B", "C", "D"] as const).map((tier) => <section className="v43-source-tier" key={tier}><header><span>GRUPO {tier}</span><strong>{tier === "A" ? "Estándares y planes" : tier === "B" ? "Material académico y recopilaciones" : tier === "C" ? "Currículos y práctica" : "Complementos comunitarios"}</strong></header><div>{sourcePillarsV43.filter((source) => source.tier === tier).map((source) => <a key={source.name} href={source.url} target="_blank" rel="noreferrer"><small>{source.kind} · etiqueta original: {source.language}</small><strong>{source.name}</strong><p>{source.role}</p><SourceNotices urls={[source.url]} /><span>Abrir fuente <ExternalLink /></span></a>)}</div></section>)}
       </div>}
     </section>
   )
