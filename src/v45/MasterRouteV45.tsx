@@ -42,6 +42,10 @@ import { masteryTracks, type MasteryTrack } from "../mastery-data"
 import RadiantPromptInput from "../components/RadiantPromptInput"
 import CinematicRoadV45 from "./CinematicRoadV45"
 import OmniversityLayerV45 from "./OmniversityLayerV45"
+import StudyGuide from "../v53/StudyGuide"
+import SourceNotices from "../v53/SourceNotices"
+import { revokeStageCompletion, revokeTrackCompletion } from "../v53/route-progress"
+import { useAulaDialog } from "../v53/useAulaDialog"
 import "../v43/route-v43.css"
 import "../v44/route-v44.css"
 import "./route-v45.css"
@@ -334,15 +338,16 @@ function AulaModal({ selected, progress, onClose, onSubjectToggle, onTrackUnitTo
   onTrackUnitToggle: (trackCode: string, unitIndex: number) => void
   onEvidenceToggle: (code: string, key: string) => void
 }) {
+  const dialogRef = useAulaDialog(onClose)
   if (!selected) return null
   if (selected.kind === "track") {
     const track = masteryTracks[selected.index]
     const doneUnits = new Set(progress.completedTrackUnits[track.code] ?? [])
     const doneEvidence = new Set(progress.completedEvidence[track.code] ?? [])
     return (
-      <div className="v43-aula-backdrop" role="dialog" aria-modal="true">
-        <div className="v43-aula-modal">
-          <button className="v43-aula-close" onClick={onClose}><X /></button>
+      <div className="v43-aula-backdrop" role="dialog" aria-modal="true" aria-label={`Especialización ${track.code}: ${track.title}`}>
+        <div className="v43-aula-modal" ref={dialogRef} tabIndex={-1}>
+          <button className="v43-aula-close" aria-label="Cerrar aula" onClick={onClose}><X /></button>
           <div className="v43-aula-kicker">ESPECIALIZACIÓN · {track.code}</div>
           <h2>{track.title}</h2>
           <p className="v43-aula-lead">{track.goal}</p>
@@ -353,7 +358,7 @@ function AulaModal({ selected, progress, onClose, onSubjectToggle, onTrackUnitTo
               return (
                 <article key={`${track.code}-${unit.name}`} className={checked ? "is-complete" : ""}>
                   <button className="v43-subject-check" onClick={() => onTrackUnitToggle(track.code, index)} aria-label={checked ? "Desmarcar unidad" : "Marcar unidad"}>{checked ? <Check /> : String(index + 1).padStart(2, "0")}</button>
-                  <div><h3>{unit.name}</h3><p>{unit.focus}</p><b>Evidencia</b><p>{unit.evidence}</p><div className="v43-aula-sources">{unit.sources.map((source) => <a key={source.url} href={source.url} target="_blank" rel="noreferrer">{source.label} <ArrowRight /></a>)}</div></div>
+                  <div><h3>{unit.name}</h3><p>{unit.focus}</p><b>Evidencia</b><p>{unit.evidence}</p><div className="v43-aula-sources">{unit.sources.map((source) => <a key={source.url} href={source.url} target="_blank" rel="noreferrer">{source.label} <ArrowRight /></a>)}</div><SourceNotices urls={unit.sources.map((source) => source.url)} /></div>
                 </article>
               )
             })}
@@ -367,9 +372,9 @@ function AulaModal({ selected, progress, onClose, onSubjectToggle, onTrackUnitTo
   const stage = stages[selected.index]
   const done = new Set(progress.completedSubjects[stage.code] ?? [])
   return (
-    <div className="v43-aula-backdrop" role="dialog" aria-modal="true">
-      <div className="v43-aula-modal">
-        <button className="v43-aula-close" onClick={onClose}><X /></button>
+    <div className="v43-aula-backdrop" role="dialog" aria-modal="true" aria-label={`Aula ${stage.code}: ${stage.title}`}>
+      <div className="v43-aula-modal" ref={dialogRef} tabIndex={-1}>
+        <button className="v43-aula-close" aria-label="Cerrar aula" onClick={onClose}><X /></button>
         <div className="v43-aula-kicker">AULA · {stage.code} · {stage.year}</div>
         <h2>{stage.title}</h2>
         <p className="v43-aula-lead">{stage.outcome}</p>
@@ -380,7 +385,7 @@ function AulaModal({ selected, progress, onClose, onSubjectToggle, onTrackUnitTo
             return (
               <article key={`${stage.code}-${subject.name}`} className={checked ? "is-complete" : ""}>
                 <button className="v43-subject-check" onClick={() => onSubjectToggle(stage.code, index)} aria-label={checked ? "Desmarcar materia" : "Marcar materia"}>{checked ? <Check /> : String(index + 1).padStart(2, "0")}</button>
-                <div><h3>{subject.name}</h3><p>{subject.study}</p><b>Evidencia</b><p>{subject.evidence}</p><div className="v43-aula-sources">{subject.sources.map((source) => <a key={source.url} href={source.url} target="_blank" rel="noreferrer">{source.label} <ArrowRight /></a>)}</div></div>
+                <div><h3>{subject.name}</h3><p>{subject.study}</p><b>Evidencia</b><p>{subject.evidence}</p><div className="v43-aula-sources">{subject.sources.map((source) => <a key={source.url} href={source.url} target="_blank" rel="noreferrer">{source.label} <ArrowRight /></a>)}</div><SourceNotices urls={subject.sources.map((source) => source.url)} /></div>
               </article>
             )
           })}
@@ -433,6 +438,7 @@ export default function MasterRouteV45() {
   const [progress, setProgress] = useState<RouteProgress>(() => loadProgress())
   const [selected, setSelected] = useState<Selected>(null)
   const [aulaOpen, setAulaOpen] = useState(false)
+  const closeAula = useCallback(() => setAulaOpen(false), [])
   const [query, setQuery] = useState("")
   const [showTracks, setShowTracks] = useState(true)
   const [touring, setTouring] = useState(false)
@@ -688,27 +694,33 @@ export default function MasterRouteV45() {
   const toggleSubject = (stageCode: string, subjectIndex: number) => {
     setProgress((current) => {
       const set = new Set(current.completedSubjects[stageCode] ?? [])
-      if (set.has(subjectIndex)) set.delete(subjectIndex)
+      const removing = set.has(subjectIndex)
+      if (removing) set.delete(subjectIndex)
       else set.add(subjectIndex)
-      return { ...current, completedSubjects: { ...current.completedSubjects, [stageCode]: [...set].sort((a, b) => a - b) } }
+      const base = removing ? revokeStageCompletion(current, stageCode, stages, masteryTracks) : current
+      return { ...base, completedSubjects: { ...current.completedSubjects, [stageCode]: [...set].sort((a, b) => a - b) } }
     })
   }
 
   const toggleTrackUnit = (trackCode: string, unitIndex: number) => {
     setProgress((current) => {
       const set = new Set(current.completedTrackUnits[trackCode] ?? [])
-      if (set.has(unitIndex)) set.delete(unitIndex)
+      const removing = set.has(unitIndex)
+      if (removing) set.delete(unitIndex)
       else set.add(unitIndex)
-      return { ...current, completedTrackUnits: { ...current.completedTrackUnits, [trackCode]: [...set].sort((a, b) => a - b) } }
+      const base = removing ? revokeTrackCompletion(current, trackCode) : current
+      return { ...base, completedTrackUnits: { ...current.completedTrackUnits, [trackCode]: [...set].sort((a, b) => a - b) } }
     })
   }
 
   const toggleEvidence = (code: string, key: string) => {
     setProgress((current) => {
       const set = new Set(current.completedEvidence[code] ?? [])
-      if (set.has(key)) set.delete(key)
+      const removing = set.has(key)
+      if (removing) set.delete(key)
       else set.add(key)
-      return { ...current, completedEvidence: { ...current.completedEvidence, [code]: [...set] } }
+      const base = !removing ? current : code.startsWith("S") ? revokeStageCompletion(current, code, stages, masteryTracks) : revokeTrackCompletion(current, code)
+      return { ...base, completedEvidence: { ...current.completedEvidence, [code]: [...set] } }
     })
   }
 
@@ -783,6 +795,8 @@ export default function MasterRouteV45() {
           <div className="v43-hero-landmark one"><span>S0</span></div><div className="v43-hero-landmark two"><span>S10</span></div><div className="v43-hero-landmark three"><span>S19</span></div>
         </div>
       </header>
+
+      <StudyGuide currentIndex={currentIndex} onOpenStage={(index) => { setSelected({ kind: "stage", index }); setAulaOpen(true) }} />
 
       <div className="v43-route-stats">
         <article className="v43-route-stat"><small>PROGRESO TRONCAL</small><strong>{stagePercent}%</strong><div><i style={{ width: `${stagePercent}%` }} /></div></article>
@@ -866,7 +880,7 @@ export default function MasterRouteV45() {
 
       <section className="v43-frontier-section"><div><span>FRONTERA</span><h2>Terminar S19 no es el final.</h2><p>Es el punto donde el mapa deja de decirte exactamente qué hacer: investigación, estándares, papers, sistemas originales, contribuciones open source y tecnologías emergentes pasan a formar parte del recorrido permanente.</p></div><Flag /></section>
 
-      {aulaOpen && <AulaModal selected={selected} progress={progress} onClose={() => setAulaOpen(false)} onSubjectToggle={toggleSubject} onTrackUnitToggle={toggleTrackUnit} onEvidenceToggle={toggleEvidence} />}
+      {aulaOpen && <AulaModal selected={selected} progress={progress} onClose={closeAula} onSubjectToggle={toggleSubject} onTrackUnitToggle={toggleTrackUnit} onEvidenceToggle={toggleEvidence} />}
     </section>
   )
 }
