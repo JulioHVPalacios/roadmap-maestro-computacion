@@ -21,7 +21,11 @@ jobs:
         run: npm ci
       - name: Auditar integridad académica
         run: node scripts/audit-master-route-v45.mjs
+      - name: Auditar inventario y recorridos de estudio
+        run: |
+          node --import tsx scripts/audit-study-guide-v53.mjs
+          node --import tsx scripts/audit-route-workspace-v54.mjs
       - name: ESLint V45
-        run: npx eslint src/v45/*.tsx src/v41/AppV41.tsx
+        run: npx eslint --max-warnings=0 src/v45/*.tsx src/v41/AppV41.tsx src/v54 src/v53/StudyGuide.tsx src/v53/ExcelCatalog.tsx src/v53/study-resources.ts
       - name: Build de producción
         run: npm run build
