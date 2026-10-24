@@ -4,19 +4,20 @@ import { learningFamilies } from "../v53/learning-paths"
 import { excelCatalog } from "../v53/excel-catalog"
 import { getResource } from "../v53/study-resources"
 import { devicePaths, fieldNotes } from "./coverage-data"
+import FieldDirectory from "../v56/FieldDirectory"
 
 function Sources({ ids }: { ids: string[] }) {
   return <div className="rw-selected-sources">{ids.map((id) => { const item = getResource(id); return <article key={id}><a href={item.url} target="_blank" rel="noreferrer">{item.name}<ArrowRight size={17} /></a><p>{item.language} · {item.access}</p><details><summary>Función y límites</summary><p>{item.use}</p><p>{item.limit}</p></details></article> })}</div>
 }
 
-export default function CoverageGuide({ onOpenStage, onRepair, onCatalog }: { onOpenStage: (index: number) => void; onRepair: () => void; onCatalog: () => void }) {
-  const [prefix, setPrefix] = useState("CST")
+export default function CoverageGuide({ initialPrefix = "CST", onOpenStage, onRepair, onCatalog }: { initialPrefix?: string; onOpenStage: (index: number) => void; onRepair: () => void; onCatalog: () => void }) {
+  const [prefix, setPrefix] = useState(() => learningFamilies.some((item) => item.prefix === initialPrefix) ? initialPrefix : "CST")
   const family = learningFamilies.find((item) => item.prefix === prefix)!
   const note = fieldNotes[prefix]
   const courses = excelCatalog.courses.filter((course) => course.id.startsWith(`${prefix}-`))
   const stageIndices = [...new Set([...family.entry.matchAll(/\bS(\d+)\b/g)].map((match) => Number(match[1])))]
   return <div className="rw-coverage-guide">
-    <p className="rw-intro-copy">Informática, computación y las distintas ingenierías comparten fundamentos. Elige un campo para ver su recorrido, las fuentes iniciales y lo que aún requiere práctica o materiales específicos.</p>
+    <FieldDirectory onSelect={(value) => { setPrefix(value); window.requestAnimationFrame(() => document.getElementById("rw-field-title")?.scrollIntoView({ block: "start" })) }} /><p className="rw-intro-copy">Informática, computación y las distintas ingenierías comparten fundamentos. Elige un campo para ver su recorrido, las fuentes iniciales y lo que aún requiere práctica o materiales específicos.</p>
     <label className="rw-choice-label" htmlFor="rw-field">Qué quieres aprender<select id="rw-field" aria-label="Campo de estudio" value={prefix} onChange={(event) => setPrefix(event.target.value)}>{learningFamilies.map((item) => <option key={item.prefix} value={item.prefix}>{item.name}</option>)}</select></label>
     <section className="rw-field-detail" key={prefix} aria-labelledby="rw-field-title"><span className="rw-eyebrow">{family.depth} · {courses.length} materias del inventario</span><h2 id="rw-field-title">{family.name}</h2><p className="rw-field-aliases">{note.aliases}</p>
       <div className="rw-field-order"><span className="rw-eyebrow">ETAPAS Y RAMAS RELACIONADAS</span><p>{family.entry}</p><div className="rw-actions">{stageIndices.map((index) => <button key={index} className="rw-button" onClick={() => onOpenStage(index)}><BookOpen size={15} />Abrir S{index}</button>)}{prefix === "REP" && <button className="rw-button rw-button--dark" onClick={onRepair}>Elegir dispositivo<ArrowRight size={16} /></button>}</div><small>Conexión orientativa por familia, no una lista de prerrequisitos completa. Sigue el orden del plan y consulta los requisitos de cada aula; no necesitas repetir lo que ya puedes demostrar.</small></div>
