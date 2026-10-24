@@ -1,28 +1,24 @@
 export default function RouteIllustration() {
-  return <svg className="route-campus-art" viewBox="0 0 560 330" fill="none" aria-hidden="true">
+  return <svg className="route-campus-art" viewBox="0 0 480 360" fill="none" aria-hidden="true">
     <defs>
-      <linearGradient id="campusSky" x1="0" y1="0" x2="560" y2="330" gradientUnits="userSpaceOnUse"><stop stopColor="#e8eee2" /><stop offset="1" stopColor="#c3d8c2" /></linearGradient>
-      <linearGradient id="campusGround" x1="0" y1="150" x2="560" y2="330" gradientUnits="userSpaceOnUse"><stop stopColor="#c5d7b9" /><stop offset="1" stopColor="#81a78a" /></linearGradient>
+      <linearGradient id="rm-step-front" x1="70" y1="300" x2="380" y2="70" gradientUnits="userSpaceOnUse"><stop stopColor="#b7d4ac" /><stop offset=".5" stopColor="#518c6d" /><stop offset="1" stopColor="#073f31" /></linearGradient>
+      <linearGradient id="rm-step-side" x1="120" y1="300" x2="420" y2="100" gradientUnits="userSpaceOnUse"><stop stopColor="#95bda1" /><stop offset="1" stopColor="#174c3d" /></linearGradient>
+      <radialGradient id="rm-art-ground"><stop stopColor="#bed69c" stopOpacity=".6" /><stop offset="1" stopColor="#fffef9" stopOpacity="0" /></radialGradient>
     </defs>
-    <rect width="560" height="330" rx="24" fill="url(#campusSky)" />
-    <circle cx="455" cy="70" r="40" fill="#fffef9" opacity=".65" />
-    <path d="M0 200 118 139 258 196 379 121 560 183V330H0Z" fill="url(#campusGround)" />
-    <path d="M-20 304C76 279 177 309 204 254S73 179 157 163 263 222 325 178 377 111 433 134 477 205 580 162" stroke="#7b9982" strokeWidth="51" />
-    <path d="M-20 300C76 275 177 305 204 250S73 175 157 159 263 218 325 174 377 107 433 130 477 201 580 158" stroke="#f6f7e9" strokeWidth="37" />
-    <path d="M-20 300C76 275 177 305 204 250S73 175 157 159 263 218 325 174 377 107 433 130 477 201 580 158" stroke="#a3b09a" strokeWidth="1.5" strokeDasharray="7 7" />
-    {[[106, 210, 44], [265, 115, 57], [430, 79, 68]].map(([x,y,h], i) => <g key={x}>
-      <path d={`M${x-22} ${y+47}l44 -22 45 22 -45 23Z`} fill="#71947c" opacity=".3" />
-      <path d={`M${x} ${y+32}v-${h}l30 -15v${h}Z`} fill={i === 0 ? "#aaca54" : "#d2decb"} />
-      <path d={`M${x+30} ${y+17}l29 15v-${h}l-29 -15Z`} fill={i === 0 ? "#779b43" : "#a4b89f"} />
-      <path d={`M${x} ${y+32-h}l30 -15 29 15 -29 15Z`} fill={i === 0 ? "#d8ff4f" : "#fffef9"} />
-      {[0,1,2].map(j => <path key={j} d={`M${x+8+j*7} ${y+24}v-${h-14}`} stroke={i === 0 ? "#f1ffc2" : "#fffef9"} strokeWidth="3" />)}
-      <path d={`M${x+34} ${y+10}v-${h-15}m8 19v-${h-30}m8 34v-${h-44}`} stroke="#6e927d" strokeWidth="3" />
-    </g>)}
-    {[[40,214],[67,237],[235,255],[270,253],[348,210],[364,227],[476,229],[510,215],[504,115],[530,127],[191,106],[211,112],[31,264]].map(([x,y]) => <g key={`${x}-${y}`}><ellipse cx={x} cy={y+10} rx="10" ry="5" fill="#60866d" opacity=".3" /><path d={`M${x} ${y+6}v-19`} stroke="#456b54" strokeWidth="3" /><path d={`M${x} ${y-34}l-11 29h22Z`} fill="#467f5b" /><path d={`M${x} ${y-34}v29h11Z`} fill="#2d6346" /></g>)}
-    <path d="M53 82h127M53 89h72" stroke="#83a18b" strokeWidth="1" />
-    <text x="53" y="64" fill="#43664c" fontFamily="monospace" fontSize="10" letterSpacing="2">UN CAMINO ABIERTO</text>
-    <g transform="translate(99 150)"><rect width="36" height="24" rx="7" fill="#183f2e" /><text x="18" y="16" textAnchor="middle" fill="#e1ff8c" fontFamily="monospace" fontSize="11">S0</text></g>
-    <g transform="translate(268 34)"><rect width="42" height="24" rx="7" fill="#fffef9" /><text x="21" y="16" textAnchor="middle" fill="#33533d" fontFamily="monospace" fontSize="11">S10</text></g>
-    <g transform="translate(439 6)"><rect width="42" height="24" rx="7" fill="#fffef9" /><text x="21" y="16" textAnchor="middle" fill="#33533d" fontFamily="monospace" fontSize="11">S19</text></g>
+    <ellipse cx="257" cy="322" rx="210" ry="33" fill="url(#rm-art-ground)" />
+    <path d="M81 290V190a73 73 0 01146 0v100" fill="#edf3e4" />
+    <path d="M184 280V113a87 87 0 01174 0v167" fill="#edf2e5" opacity=".8" />
+    <path d="M344 281V168a45 45 0 0190 0v113" fill="#e0ebce" opacity=".6" />
+    {[0, 1, 2, 3, 4, 5].map((index) => {
+      const x = 83 + index * 43; const y = 281 - index * 34; const height = 23 + index * 34
+      return <g key={index}><path d={`M${x} ${y}l41 -18 33 15 -41 18Z`} fill={index < 2 ? "#dce9bc" : "#a5c5aa"} /><path d={`M${x} ${y}l33 15v${height}l-33 -15Z`} fill="url(#rm-step-front)" /><path d={`M${x + 33} ${y + 15}l41 -18v${height}l-41 18Z`} fill="url(#rm-step-side)" /></g>
+    })}
+    <path d="M113 277C161 274 143 216 194 211S231 144 278 142 313 95 339 96" stroke="#87c52c" strokeWidth="2.5" />
+    {[[113,277],[194,211],[278,142],[339,96]].map(([x,y]) => <g key={x}><circle cx={x} cy={y} r="9" fill="#d7f3a1" /><circle cx={x} cy={y} r="4.5" fill="#164b37" /></g>)}
+    <path d="M346 98V41m0 3 34 11-34 12" fill="#205a43" stroke="#205a43" strokeWidth="2" strokeLinejoin="round" />
+    <path d="M315 321v-78a39 39 0 0178 0v78" fill="#fffef9" /><path d="M320 321v-78a34 34 0 0168 0v78" stroke="#e0e8d6" />
+    <ellipse cx="414" cy="321" rx="28" ry="8" fill="#b3c798" opacity=".4" />
+    <path d="M412 306v-67m0 30c-37-3-46-37-45-47 29 0 46 17 45 47m0 13c34-4 44-32 43-43-29 0-44 19-43 43" fill="#729b6b" stroke="#517d59" strokeWidth="1.5" />
+    <circle cx="411" cy="306" r="19" fill="#6a936a" />
   </svg>
 }

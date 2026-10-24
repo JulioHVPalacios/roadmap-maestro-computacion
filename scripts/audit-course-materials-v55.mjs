@@ -1,3 +1,4 @@
+import { routeSummary } from "../src/v56/route-summary.ts"
 import assert from "node:assert/strict"
 import { coursePlans, courseSources, uniqueCourseSourceCount } from "../src/v55/course-materials.ts"
 import { excelCatalog } from "../src/v53/excel-catalog.ts"
@@ -33,3 +34,6 @@ for (const invalid of [null, {}, "[0,1]", 3, false]) assert.deepEqual(normalizeC
 assert.deepEqual(normalizeCourseChecks([1, 1]), [1], "Un criterio repetido no infla el contador")
 console.log(`OK: ${coursePlans.length} guías, prácticas y preguntas diferenciadas; ${uniqueCourseSourceCount} URLs de recursos; referencias e idiomas válidos; marcas personales deduplicadas.`)
 console.log("Esta auditoría comprueba integridad y estructura. No certifica cobertura docente completa, dominio personal ni calidad integral de todas las fuentes externas.")
+
+assert.equal(routeSummary.courses, coursePlans.length, "Conteo de materias de la portada")
+assert.equal(routeSummary.resources, new Set(courseSources.map((source) => source.url)).size, "Conteo de recursos de la portada")

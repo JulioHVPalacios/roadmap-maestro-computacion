@@ -45,6 +45,7 @@ import "../v43/route-v43.css"
 import "../v44/route-v44.css"
 import "./route-v45.css"
 import "../v54/route-workspace.css"
+import "../v56/modern-route.css"
 
 
 const CinematicRoadV45 = lazy(() => import("./CinematicRoadV45"))
