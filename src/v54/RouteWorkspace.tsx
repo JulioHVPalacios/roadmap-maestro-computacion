@@ -9,8 +9,10 @@ import { isRouteSection, planBlocks, routeSections, type RouteSection } from "./
 
 const ReviewEngineV43 = lazy(() => import("../v43/ReviewEngineV43"))
 const AcademicExplorer = lazy(() => import("./AcademicExplorer"))
+const CoverageGuide = lazy(() => import("./CoverageGuide"))
+const DeviceRepairGuide = lazy(() => import("./CoverageGuide").then((module) => ({ default: module.DeviceRepairGuide })))
 const normalize = (value: string) => value.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLocaleLowerCase("es")
-const icons = { recorrido: Compass, plan: BookOpen, especialidades: Layers3, reparacion: Wrench, repaso: RefreshCw, fuentes: Library, catalogo: Search, evidencias: FileCheck2, mapa: Map, academia: Network, investigacion: FlaskConical }
+const icons = { recorrido: Compass, plan: BookOpen, especialidades: Layers3, reparacion: Wrench, repaso: RefreshCw, fuentes: Library, campos: GraduationCap, catalogo: Search, evidencias: FileCheck2, mapa: Map, academia: Network, investigacion: FlaskConical }
 
 type Progress = {
   completedStages: string[]
@@ -126,11 +128,12 @@ export default function RouteWorkspace(props: Props) {
         <section className="rw-path-preview"><div><span className="rw-eyebrow">EL RECORRIDO</span><h2>Construye la base.<br /> <em>Después, profundiza.</em></h2></div><div className="rw-path-steps">{planBlocks.map((block, index) => <button key={block.title} onClick={() => { setPlanBlock(index); navigate("plan") }} aria-label={`Explorar el plan: ${block.title}`}><span className={props.currentIndex >= block.start && props.currentIndex <= block.end ? "is-current" : ""}>{String(index + 1).padStart(2, "0")}</span><b>{block.title}</b><small>{block.start === block.end ? `S${block.start}` : `S${block.start}–S${block.end}`}</small></button>)}</div></section>
         <section className="rw-home-links" aria-label="Accesos de estudio"><button onClick={() => navigate("repaso")}><RefreshCw size={23} /><span><b>Vuelve a lo aprendido.</b><small>Repaso espaciado de tus materias</small></span><ArrowRight size={18} /></button><button onClick={() => navigate("fuentes")}><Library size={23} /><span><b>Encuentra la fuente adecuada.</b><small>Idioma, acceso y función de cada recurso</small></span><ArrowRight size={18} /></button></section>
         <details className="rw-deeper" open={guideView !== "inicio" ? true : undefined}><summary><span><b>¿Estudias desde cero?</b><small>Consulta la primera semana, el método y una propuesta de horario.</small></span><ChevronDown size={18} /></summary>{renderGuide(guideView)}</details>
-        <p className="rw-home-scope">20 etapas · 89 materias troncales · 12 especializaciones<br /><span>Elige una tarea, comprende el tema y conserva la evidencia.</span></p>
+        <p className="rw-home-scope">20 etapas · 89 materias troncales · 12 especializaciones<br /><span>Elige una tarea, comprende el tema y conserva la evidencia.</span><button className="rw-text-button" onClick={() => navigate("campos")}>Ver los campos de estudio y su alcance<ArrowRight size={16} /></button></p>
       </>}
       {view === "plan" && <StudyPlan {...props} initialBlock={planBlock} />}
       {view === "especialidades" && <Specializations {...props} />}
-      {view === "reparacion" && renderGuide("reparacion")}
+      {view === "campos" && <Suspense fallback={<Loading />}><CoverageGuide onOpenStage={props.onOpenStage} onRepair={() => navigate("reparacion")} onCatalog={() => navigate("catalogo")} /></Suspense>}
+      {view === "reparacion" && <><Suspense fallback={<Loading />}><DeviceRepairGuide /></Suspense><details className="rw-deeper"><summary>Ver la secuencia general: de seguridad a ingeniería de hardware</summary>{renderGuide("reparacion")}</details></>}
       {view === "fuentes" && <>{renderGuide("fuentes")}<details className="rw-deeper"><summary><span><b>Referencias originales del tronco</b><small>Cursos, planes y recopilaciones conservados para consulta.</small></span><ChevronDown size={18} /></summary><OriginalSources /></details></>}
       {view === "catalogo" && renderGuide("catalogo")}
       {view === "investigacion" && renderGuide("investigacion")}

@@ -13,9 +13,10 @@ Se mantiene la tipografía real de la web (Geist y Plus Jakarta Sans), el contra
 | Mi recorrido | Siguiente materia pendiente, aula actual, avance y guía de inicio desplegable |
 | Plan de estudios | Las 20 etapas agrupadas en seis tramos; búsqueda en las 89 materias; prerrequisitos, proyectos y criterios de dominio |
 | Especialidades | Las 12 rutas T01–T12 con sus unidades, prerrequisitos y aulas; conexiones con las 17 familias del Excel |
-| Reparación y electrónica | Los seis pasos de la guía, seguridad inicial, dispositivos, evidencias y fuentes; detalle progresivo |
+| Reparación y electrónica | Selector de nueve tipos de equipo/trabajo; los seis pasos generales y la rama de ingeniería se conservan desplegables |
 | Repaso espaciado | Motor FSRS original con su almacenamiento y funcionamiento existentes |
-| Fuentes de estudio | Las 29 fuentes contrastadas, ocho por página, filtros y detalles desplegables; referencias originales del tronco |
+| Fuentes de estudio | Las 35 fichas de fuentes y marcos con alcance declarado, ocho por página, filtros y detalles desplegables; referencias originales del tronco |
+| Campos de estudio | Las 17 familias con etapas relacionadas, fuentes iniciales, práctica y límites explícitos de cobertura |
 | Catálogo completo | Las 533 materias y 76 referencias del Excel, doce por página, filtros y cálculo de horas existentes |
 | Mis evidencias | Lectura del progreso registrado en aulas y especializaciones; descarga de una copia del registro; reinicio con la confirmación existente |
 | Carretera y mapa | Carretera 3D original, día/atardecer/noche, cámaras, recorrido, búsqueda por voz, mapa académico, etapas y especializaciones |

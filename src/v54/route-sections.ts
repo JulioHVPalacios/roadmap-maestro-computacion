@@ -5,6 +5,7 @@ export const routeSections = [
   { id: "reparacion", label: "Reparación y electrónica", group: "Estudiar", title: "Comprender para reparar.", subtitle: "Del diagnóstico seguro a la práctica por dispositivo." },
   { id: "repaso", label: "Repaso espaciado", group: "Estudiar", title: "Vuelve a lo importante.", subtitle: "Recupera y consolida los conocimientos de tus materias." },
   { id: "fuentes", label: "Fuentes de estudio", group: "Consultar", title: "Pocas fuentes. Bien elegidas.", subtitle: "Compara qué aporta cada recurso, su idioma y sus condiciones." },
+  { id: "campos", label: "Campos de estudio", group: "Consultar", title: "Amplitud con dirección.", subtitle: "Qué estudiar en cada campo, en qué orden y qué necesitas completar." },
   { id: "catalogo", label: "Catálogo completo", group: "Consultar", title: "Todo el plan, a tu alcance.", subtitle: "533 materias en 17 familias para consultar y planificar." },
   { id: "evidencias", label: "Mis evidencias", group: "Consultar", title: "Tu aprendizaje deja huella.", subtitle: "Revisa lo que has registrado y los criterios de dominio." },
   { id: "mapa", label: "Carretera y mapa", group: "Explorar", title: "Una ruta. Dos perspectivas.", subtitle: "Recorre el campus 3D o explora las dependencias del mapa académico." },

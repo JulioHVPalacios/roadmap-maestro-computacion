@@ -14,7 +14,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Portafolio de productividad: Aprender a aprender y gesti\u00f3n del conocimiento.",
-      "sourceIds": "S03; S46; S49"
+      "sourceIds": "S03; S46; S49",
+      "topics": "Aprender a aprender y gesti\u00f3n del conocimiento. Uso pr\u00e1ctico, documentaci\u00f3n, automatizaci\u00f3n b\u00e1sica y evidencia verificable.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "PRE-002",
@@ -26,7 +28,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Portafolio de productividad: Pensamiento l\u00f3gico y resoluci\u00f3n de problemas.",
-      "sourceIds": "S03; S46; S49"
+      "sourceIds": "S03; S46; S49",
+      "topics": "Pensamiento l\u00f3gico y resoluci\u00f3n de problemas. Uso pr\u00e1ctico, documentaci\u00f3n, automatizaci\u00f3n b\u00e1sica y evidencia verificable.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "PRE-003",
@@ -38,7 +42,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Portafolio de productividad: Comunicaci\u00f3n oral y escrita en espa\u00f1ol.",
-      "sourceIds": "S03; S46; S49"
+      "sourceIds": "S03; S46; S49",
+      "topics": "Comunicaci\u00f3n oral y escrita en espa\u00f1ol. Uso pr\u00e1ctico, documentaci\u00f3n, automatizaci\u00f3n b\u00e1sica y evidencia verificable.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "PRE-004",
@@ -50,7 +56,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Portafolio de productividad: Ingl\u00e9s t\u00e9cnico I.",
-      "sourceIds": "S03; S46; S49"
+      "sourceIds": "S03; S46; S49",
+      "topics": "Ingl\u00e9s t\u00e9cnico I. Uso pr\u00e1ctico, documentaci\u00f3n, automatizaci\u00f3n b\u00e1sica y evidencia verificable.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "PRE-005",
@@ -62,7 +70,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Portafolio de productividad: Ingl\u00e9s t\u00e9cnico II.",
-      "sourceIds": "S03; S46; S49"
+      "sourceIds": "S03; S46; S49",
+      "topics": "Ingl\u00e9s t\u00e9cnico II. Uso pr\u00e1ctico, documentaci\u00f3n, automatizaci\u00f3n b\u00e1sica y evidencia verificable.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "PRE-006",
@@ -74,7 +84,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Portafolio de productividad: Investigaci\u00f3n documental y normas APA.",
-      "sourceIds": "S03; S46; S49"
+      "sourceIds": "S03; S46; S49",
+      "topics": "Investigaci\u00f3n documental y normas APA. Uso pr\u00e1ctico, documentaci\u00f3n, automatizaci\u00f3n b\u00e1sica y evidencia verificable.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "PRE-007",
@@ -86,7 +98,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Portafolio de productividad: Alfabetizaci\u00f3n digital y seguridad personal.",
-      "sourceIds": "S03; S46; S49"
+      "sourceIds": "S03; S46; S49",
+      "topics": "Alfabetizaci\u00f3n digital y seguridad personal. Uso pr\u00e1ctico, documentaci\u00f3n, automatizaci\u00f3n b\u00e1sica y evidencia verificable.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "PRE-008",
@@ -98,7 +112,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Portafolio de productividad: Mecanograf\u00eda y productividad con atajos.",
-      "sourceIds": "S03; S46; S49"
+      "sourceIds": "S03; S46; S49",
+      "topics": "Mecanograf\u00eda y productividad con atajos. Uso pr\u00e1ctico, documentaci\u00f3n, automatizaci\u00f3n b\u00e1sica y evidencia verificable.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "PRE-009",
@@ -110,7 +126,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Portafolio de productividad: Windows para usuarios avanzados.",
-      "sourceIds": "S03; S46; S49"
+      "sourceIds": "S03; S46; S49",
+      "topics": "Windows para usuarios avanzados. Uso pr\u00e1ctico, documentaci\u00f3n, automatizaci\u00f3n b\u00e1sica y evidencia verificable.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "PRE-010",
@@ -122,7 +140,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Portafolio de productividad: Linux de escritorio y terminal b\u00e1sica.",
-      "sourceIds": "S03; S46; S49"
+      "sourceIds": "S03; S46; S49",
+      "topics": "Linux de escritorio y terminal b\u00e1sica. Uso pr\u00e1ctico, documentaci\u00f3n, automatizaci\u00f3n b\u00e1sica y evidencia verificable.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "PRE-011",
@@ -134,7 +154,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Portafolio de productividad: Git y GitHub desde cero.",
-      "sourceIds": "S03; S46; S49"
+      "sourceIds": "S03; S46; S49",
+      "topics": "Git y GitHub desde cero. Uso pr\u00e1ctico, documentaci\u00f3n, automatizaci\u00f3n b\u00e1sica y evidencia verificable.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "PRE-012",
@@ -146,7 +168,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Portafolio de productividad: Word profesional y documentos largos.",
-      "sourceIds": "S03; S46; S49"
+      "sourceIds": "S03; S46; S49",
+      "topics": "Word profesional y documentos largos. Uso pr\u00e1ctico, documentaci\u00f3n, automatizaci\u00f3n b\u00e1sica y evidencia verificable.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "PRE-013",
@@ -158,7 +182,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Portafolio de productividad: Excel intermedio.",
-      "sourceIds": "S03; S46; S49"
+      "sourceIds": "S03; S46; S49",
+      "topics": "Excel intermedio. Uso pr\u00e1ctico, documentaci\u00f3n, automatizaci\u00f3n b\u00e1sica y evidencia verificable.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "PRE-014",
@@ -170,7 +196,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Portafolio de productividad: Excel avanzado y modelado.",
-      "sourceIds": "S03; S46; S49"
+      "sourceIds": "S03; S46; S49",
+      "topics": "Excel avanzado y modelado. Uso pr\u00e1ctico, documentaci\u00f3n, automatizaci\u00f3n b\u00e1sica y evidencia verificable.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "PRE-015",
@@ -182,7 +210,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Portafolio de productividad: Excel VBA y automatizaci\u00f3n.",
-      "sourceIds": "S03; S46; S49"
+      "sourceIds": "S03; S46; S49",
+      "topics": "Excel VBA y automatizaci\u00f3n. Uso pr\u00e1ctico, documentaci\u00f3n, automatizaci\u00f3n b\u00e1sica y evidencia verificable.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "PRE-016",
@@ -194,7 +224,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Portafolio de productividad: PowerPoint profesional y storytelling.",
-      "sourceIds": "S03; S46; S49"
+      "sourceIds": "S03; S46; S49",
+      "topics": "PowerPoint profesional y storytelling. Uso pr\u00e1ctico, documentaci\u00f3n, automatizaci\u00f3n b\u00e1sica y evidencia verificable.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "PRE-017",
@@ -206,7 +238,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Portafolio de productividad: Access y bases de datos de oficina.",
-      "sourceIds": "S03; S46; S49"
+      "sourceIds": "S03; S46; S49",
+      "topics": "Access y bases de datos de oficina. Uso pr\u00e1ctico, documentaci\u00f3n, automatizaci\u00f3n b\u00e1sica y evidencia verificable.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "PRE-018",
@@ -218,7 +252,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Portafolio de productividad: Microsoft 365, colaboraci\u00f3n y administraci\u00f3n b\u00e1sica.",
-      "sourceIds": "S03; S46; S49"
+      "sourceIds": "S03; S46; S49",
+      "topics": "Microsoft 365, colaboraci\u00f3n y administraci\u00f3n b\u00e1sica. Uso pr\u00e1ctico, documentaci\u00f3n, automatizaci\u00f3n b\u00e1sica y evidencia verificable.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "MED-001",
@@ -230,7 +266,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 96.0,
       "evidence": "Pieza de portafolio: Fundamentos del dise\u00f1o visual.",
-      "sourceIds": "S43; S46"
+      "sourceIds": "S43; S46",
+      "topics": "Fundamentos del dise\u00f1o visual. Concepto, forma, t\u00e9cnica, cr\u00edtica, accesibilidad y producci\u00f3n para medios impresos y digitales.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "MED-002",
@@ -242,7 +280,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 96.0,
       "evidence": "Pieza de portafolio: Dibujo y bocetaje.",
-      "sourceIds": "S43; S46"
+      "sourceIds": "S43; S46",
+      "topics": "Dibujo y bocetaje. Concepto, forma, t\u00e9cnica, cr\u00edtica, accesibilidad y producci\u00f3n para medios impresos y digitales.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "MED-003",
@@ -254,7 +294,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 96.0,
       "evidence": "Pieza de portafolio: Teor\u00eda del color.",
-      "sourceIds": "S43; S46"
+      "sourceIds": "S43; S46",
+      "topics": "Teor\u00eda del color. Concepto, forma, t\u00e9cnica, cr\u00edtica, accesibilidad y producci\u00f3n para medios impresos y digitales.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "MED-004",
@@ -266,7 +308,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 96.0,
       "evidence": "Pieza de portafolio: Composici\u00f3n y ret\u00edcula.",
-      "sourceIds": "S43; S46"
+      "sourceIds": "S43; S46",
+      "topics": "Composici\u00f3n y ret\u00edcula. Concepto, forma, t\u00e9cnica, cr\u00edtica, accesibilidad y producci\u00f3n para medios impresos y digitales.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "MED-005",
@@ -278,7 +322,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 96.0,
       "evidence": "Pieza de portafolio: Tipograf\u00eda I.",
-      "sourceIds": "S43; S46"
+      "sourceIds": "S43; S46",
+      "topics": "Tipograf\u00eda I. Concepto, forma, t\u00e9cnica, cr\u00edtica, accesibilidad y producci\u00f3n para medios impresos y digitales.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "MED-006",
@@ -290,7 +336,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 96.0,
       "evidence": "Pieza de portafolio: Tipograf\u00eda II.",
-      "sourceIds": "S43; S46"
+      "sourceIds": "S43; S46",
+      "topics": "Tipograf\u00eda II. Concepto, forma, t\u00e9cnica, cr\u00edtica, accesibilidad y producci\u00f3n para medios impresos y digitales.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "CAP-001",
@@ -302,7 +350,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Informe y defensa: \u00c9tica profesional, derecho digital y sociedad.",
-      "sourceIds": "S01; S03; S04; S07; S08"
+      "sourceIds": "S01; S03; S04; S07; S08",
+      "topics": "\u00c9tica profesional, derecho digital y sociedad. M\u00e9todo cient\u00edfico, comunicaci\u00f3n, colaboraci\u00f3n, \u00e9tica, impacto y evidencia p\u00fablica.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "CAP-002",
@@ -314,7 +364,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Informe y defensa: Comunicaci\u00f3n t\u00e9cnica.",
-      "sourceIds": "S01; S03; S04; S07; S08"
+      "sourceIds": "S01; S03; S04; S07; S08",
+      "topics": "Comunicaci\u00f3n t\u00e9cnica. M\u00e9todo cient\u00edfico, comunicaci\u00f3n, colaboraci\u00f3n, \u00e9tica, impacto y evidencia p\u00fablica.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "CAP-003",
@@ -326,7 +378,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Informe y defensa: Metodolog\u00eda de investigaci\u00f3n I.",
-      "sourceIds": "S01; S03; S04; S07; S08"
+      "sourceIds": "S01; S03; S04; S07; S08",
+      "topics": "Metodolog\u00eda de investigaci\u00f3n I. M\u00e9todo cient\u00edfico, comunicaci\u00f3n, colaboraci\u00f3n, \u00e9tica, impacto y evidencia p\u00fablica.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "CAP-004",
@@ -338,7 +392,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Informe y defensa: Metodolog\u00eda de investigaci\u00f3n II.",
-      "sourceIds": "S01; S03; S04; S07; S08"
+      "sourceIds": "S01; S03; S04; S07; S08",
+      "topics": "Metodolog\u00eda de investigaci\u00f3n II. M\u00e9todo cient\u00edfico, comunicaci\u00f3n, colaboraci\u00f3n, \u00e9tica, impacto y evidencia p\u00fablica.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "CAP-005",
@@ -350,7 +406,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Informe y defensa: Reproducibilidad, ciencia abierta y datos FAIR.",
-      "sourceIds": "S01; S03; S04; S07; S08"
+      "sourceIds": "S01; S03; S04; S07; S08",
+      "topics": "Reproducibilidad, ciencia abierta y datos FAIR. M\u00e9todo cient\u00edfico, comunicaci\u00f3n, colaboraci\u00f3n, \u00e9tica, impacto y evidencia p\u00fablica.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "MAT-001",
@@ -362,7 +420,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Cuaderno de problemas y notebook reproducible: \u00c1lgebra y prec\u00e1lculo.",
-      "sourceIds": "S01; S03; S04; S09; S11; S16"
+      "sourceIds": "S01; S03; S04; S09; S11; S16",
+      "topics": "\u00c1lgebra y prec\u00e1lculo. Definiciones, demostraciones, c\u00e1lculo manual, modelado y uso computacional.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "MAT-002",
@@ -374,7 +434,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Cuaderno de problemas y notebook reproducible: Geometr\u00eda anal\u00edtica y trigonometr\u00eda.",
-      "sourceIds": "S01; S03; S04; S09; S11; S16"
+      "sourceIds": "S01; S03; S04; S09; S11; S16",
+      "topics": "Geometr\u00eda anal\u00edtica y trigonometr\u00eda. Definiciones, demostraciones, c\u00e1lculo manual, modelado y uso computacional.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "MAT-003",
@@ -386,7 +448,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Cuaderno de problemas y notebook reproducible: C\u00e1lculo diferencial.",
-      "sourceIds": "S01; S03; S04; S09; S11; S16"
+      "sourceIds": "S01; S03; S04; S09; S11; S16",
+      "topics": "C\u00e1lculo diferencial. Definiciones, demostraciones, c\u00e1lculo manual, modelado y uso computacional.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "MAT-004",
@@ -398,7 +462,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Cuaderno de problemas y notebook reproducible: C\u00e1lculo integral.",
-      "sourceIds": "S01; S03; S04; S09; S11; S16"
+      "sourceIds": "S01; S03; S04; S09; S11; S16",
+      "topics": "C\u00e1lculo integral. Definiciones, demostraciones, c\u00e1lculo manual, modelado y uso computacional.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "MAT-005",
@@ -410,7 +476,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Cuaderno de problemas y notebook reproducible: C\u00e1lculo multivariable.",
-      "sourceIds": "S01; S03; S04; S09; S11; S16"
+      "sourceIds": "S01; S03; S04; S09; S11; S16",
+      "topics": "C\u00e1lculo multivariable. Definiciones, demostraciones, c\u00e1lculo manual, modelado y uso computacional.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "MAT-006",
@@ -422,7 +490,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Cuaderno de problemas y notebook reproducible: \u00c1lgebra lineal I.",
-      "sourceIds": "S01; S03; S04; S09; S11; S16"
+      "sourceIds": "S01; S03; S04; S09; S11; S16",
+      "topics": "\u00c1lgebra lineal I. Definiciones, demostraciones, c\u00e1lculo manual, modelado y uso computacional.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "MAT-007",
@@ -434,7 +504,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Cuaderno de problemas y notebook reproducible: \u00c1lgebra lineal II y tensores.",
-      "sourceIds": "S01; S03; S04; S09; S11; S16"
+      "sourceIds": "S01; S03; S04; S09; S11; S16",
+      "topics": "\u00c1lgebra lineal II y tensores. Definiciones, demostraciones, c\u00e1lculo manual, modelado y uso computacional.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "MAT-021",
@@ -446,7 +518,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Informe de laboratorio: F\u00edsica I: mec\u00e1nica.",
-      "sourceIds": "S04; S10; S13; S24; S26"
+      "sourceIds": "S04; S10; S13; S24; S26",
+      "topics": "F\u00edsica I: mec\u00e1nica. Experimentos, medici\u00f3n, incertidumbre y relaci\u00f3n con hardware, se\u00f1ales y rob\u00f3tica.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "MAT-022",
@@ -458,7 +532,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Informe de laboratorio: F\u00edsica II: electricidad y magnetismo.",
-      "sourceIds": "S04; S10; S13; S24; S26"
+      "sourceIds": "S04; S10; S13; S24; S26",
+      "topics": "F\u00edsica II: electricidad y magnetismo. Experimentos, medici\u00f3n, incertidumbre y relaci\u00f3n con hardware, se\u00f1ales y rob\u00f3tica.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "MAT-023",
@@ -470,7 +546,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Informe de laboratorio: F\u00edsica III: ondas, \u00f3ptica y termodin\u00e1mica.",
-      "sourceIds": "S04; S10; S13; S24; S26"
+      "sourceIds": "S04; S10; S13; S24; S26",
+      "topics": "F\u00edsica III: ondas, \u00f3ptica y termodin\u00e1mica. Experimentos, medici\u00f3n, incertidumbre y relaci\u00f3n con hardware, se\u00f1ales y rob\u00f3tica.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "MAT-024",
@@ -482,7 +560,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Informe de laboratorio: Qu\u00edmica y ciencia de materiales.",
-      "sourceIds": "S04; S10; S13; S24; S26"
+      "sourceIds": "S04; S10; S13; S24; S26",
+      "topics": "Qu\u00edmica y ciencia de materiales. Experimentos, medici\u00f3n, incertidumbre y relaci\u00f3n con hardware, se\u00f1ales y rob\u00f3tica.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "MAT-025",
@@ -494,7 +574,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Informe de laboratorio: Sistemas y se\u00f1ales.",
-      "sourceIds": "S04; S10; S13; S24; S26"
+      "sourceIds": "S04; S10; S13; S24; S26",
+      "topics": "Sistemas y se\u00f1ales. Experimentos, medici\u00f3n, incertidumbre y relaci\u00f3n con hardware, se\u00f1ales y rob\u00f3tica.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "CST-001",
@@ -506,7 +588,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Repositorio con pruebas: Pensamiento computacional.",
-      "sourceIds": "S01; S09; S11; S14; S16; S18"
+      "sourceIds": "S01; S09; S11; S14; S16; S18",
+      "topics": "Pensamiento computacional. Dise\u00f1o de algoritmos, depuraci\u00f3n, pruebas, estilo, complejidad y peque\u00f1os proyectos.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "CST-002",
@@ -518,7 +602,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Repositorio con pruebas: Programaci\u00f3n I con Python.",
-      "sourceIds": "S01; S09; S11; S14; S16; S18"
+      "sourceIds": "S01; S09; S11; S14; S16; S18",
+      "topics": "Programaci\u00f3n I con Python. Dise\u00f1o de algoritmos, depuraci\u00f3n, pruebas, estilo, complejidad y peque\u00f1os proyectos.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "CST-003",
@@ -530,7 +616,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Repositorio con pruebas: Programaci\u00f3n II con C.",
-      "sourceIds": "S01; S09; S11; S14; S16; S18"
+      "sourceIds": "S01; S09; S11; S14; S16; S18",
+      "topics": "Programaci\u00f3n II con C. Dise\u00f1o de algoritmos, depuraci\u00f3n, pruebas, estilo, complejidad y peque\u00f1os proyectos.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "CST-004",
@@ -542,7 +630,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Repositorio con pruebas: Programaci\u00f3n orientada a objetos.",
-      "sourceIds": "S01; S09; S11; S14; S16; S18"
+      "sourceIds": "S01; S09; S11; S14; S16; S18",
+      "topics": "Programaci\u00f3n orientada a objetos. Dise\u00f1o de algoritmos, depuraci\u00f3n, pruebas, estilo, complejidad y peque\u00f1os proyectos.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "CST-005",
@@ -554,7 +644,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Repositorio con pruebas: Estructuras de datos.",
-      "sourceIds": "S01; S09; S11; S14; S16; S18"
+      "sourceIds": "S01; S09; S11; S14; S16; S18",
+      "topics": "Estructuras de datos. Dise\u00f1o de algoritmos, depuraci\u00f3n, pruebas, estilo, complejidad y peque\u00f1os proyectos.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "CST-006",
@@ -566,7 +658,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Repositorio con pruebas: Algoritmos I.",
-      "sourceIds": "S01; S09; S11; S14; S16; S18"
+      "sourceIds": "S01; S09; S11; S14; S16; S18",
+      "topics": "Algoritmos I. Dise\u00f1o de algoritmos, depuraci\u00f3n, pruebas, estilo, complejidad y peque\u00f1os proyectos.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "REP-001",
@@ -578,7 +672,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Orden de servicio con pruebas antes/despu\u00e9s: Fundamentos de soporte t\u00e9cnico y mesa de ayuda.",
-      "sourceIds": "S03; S47; S48"
+      "sourceIds": "S03; S47; S48",
+      "topics": "Fundamentos de soporte t\u00e9cnico y mesa de ayuda. Diagn\u00f3stico sistem\u00e1tico, ESD, herramientas correctas, documentaci\u00f3n, datos y seguridad del usuario.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "REP-002",
@@ -590,7 +686,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Orden de servicio con pruebas antes/despu\u00e9s: Hardware de computadoras y perif\u00e9ricos.",
-      "sourceIds": "S03; S47; S48"
+      "sourceIds": "S03; S47; S48",
+      "topics": "Hardware de computadoras y perif\u00e9ricos. Diagn\u00f3stico sistem\u00e1tico, ESD, herramientas correctas, documentaci\u00f3n, datos y seguridad del usuario.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "REP-003",
@@ -602,7 +700,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Orden de servicio con pruebas antes/despu\u00e9s: Ensamblaje y actualizaci\u00f3n de PC.",
-      "sourceIds": "S03; S47; S48"
+      "sourceIds": "S03; S47; S48",
+      "topics": "Ensamblaje y actualizaci\u00f3n de PC. Diagn\u00f3stico sistem\u00e1tico, ESD, herramientas correctas, documentaci\u00f3n, datos y seguridad del usuario.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "REP-004",
@@ -614,7 +714,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Orden de servicio con pruebas antes/despu\u00e9s: Instalaci\u00f3n y recuperaci\u00f3n de sistemas operativos.",
-      "sourceIds": "S03; S47; S48"
+      "sourceIds": "S03; S47; S48",
+      "topics": "Instalaci\u00f3n y recuperaci\u00f3n de sistemas operativos. Diagn\u00f3stico sistem\u00e1tico, ESD, herramientas correctas, documentaci\u00f3n, datos y seguridad del usuario.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "REP-005",
@@ -626,7 +728,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Orden de servicio con pruebas antes/despu\u00e9s: Diagn\u00f3stico de software y rendimiento.",
-      "sourceIds": "S03; S47; S48"
+      "sourceIds": "S03; S47; S48",
+      "topics": "Diagn\u00f3stico de software y rendimiento. Diagn\u00f3stico sistem\u00e1tico, ESD, herramientas correctas, documentaci\u00f3n, datos y seguridad del usuario.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "REP-006",
@@ -638,7 +742,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Orden de servicio con pruebas antes/despu\u00e9s: Diagn\u00f3stico el\u00e9ctrico y uso de mult\u00edmetro.",
-      "sourceIds": "S03; S47; S48"
+      "sourceIds": "S03; S47; S48",
+      "topics": "Diagn\u00f3stico el\u00e9ctrico y uso de mult\u00edmetro. Diagn\u00f3stico sistem\u00e1tico, ESD, herramientas correctas, documentaci\u00f3n, datos y seguridad del usuario.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "REP-007",
@@ -650,7 +756,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Orden de servicio con pruebas antes/despu\u00e9s: Mantenimiento preventivo.",
-      "sourceIds": "S03; S47; S48"
+      "sourceIds": "S03; S47; S48",
+      "topics": "Mantenimiento preventivo. Diagn\u00f3stico sistem\u00e1tico, ESD, herramientas correctas, documentaci\u00f3n, datos y seguridad del usuario.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "DAI-001",
@@ -662,7 +770,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Sistema de datos: Fundamentos de datos y SQL.",
-      "sourceIds": "S01; S07; S17; S18; S20; S37; S38"
+      "sourceIds": "S01; S07; S17; S18; S20; S37; S38",
+      "topics": "Fundamentos de datos y SQL. Modelado, consulta, calidad, gobierno, rendimiento y pipelines reproducibles.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "DAI-002",
@@ -674,7 +784,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Sistema de datos: Dise\u00f1o de bases de datos relacionales.",
-      "sourceIds": "S01; S07; S17; S18; S20; S37; S38"
+      "sourceIds": "S01; S07; S17; S18; S20; S37; S38",
+      "topics": "Dise\u00f1o de bases de datos relacionales. Modelado, consulta, calidad, gobierno, rendimiento y pipelines reproducibles.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "DAI-003",
@@ -686,7 +798,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Sistema de datos: SQL avanzado y optimizaci\u00f3n de consultas.",
-      "sourceIds": "S01; S07; S17; S18; S20; S37; S38"
+      "sourceIds": "S01; S07; S17; S18; S20; S37; S38",
+      "topics": "SQL avanzado y optimizaci\u00f3n de consultas. Modelado, consulta, calidad, gobierno, rendimiento y pipelines reproducibles.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "DAI-004",
@@ -698,7 +812,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Sistema de datos: Administraci\u00f3n de bases de datos.",
-      "sourceIds": "S01; S07; S17; S18; S20; S37; S38"
+      "sourceIds": "S01; S07; S17; S18; S20; S37; S38",
+      "topics": "Administraci\u00f3n de bases de datos. Modelado, consulta, calidad, gobierno, rendimiento y pipelines reproducibles.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "DAI-005",
@@ -710,7 +826,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Sistema de datos: Bases de datos NoSQL.",
-      "sourceIds": "S01; S07; S17; S18; S20; S37; S38"
+      "sourceIds": "S01; S07; S17; S18; S20; S37; S38",
+      "topics": "Bases de datos NoSQL. Modelado, consulta, calidad, gobierno, rendimiento y pipelines reproducibles.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "DAI-006",
@@ -722,7 +840,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Sistema de datos: Bases de datos distribuidas.",
-      "sourceIds": "S01; S07; S17; S18; S20; S37; S38"
+      "sourceIds": "S01; S07; S17; S18; S20; S37; S38",
+      "topics": "Bases de datos distribuidas. Modelado, consulta, calidad, gobierno, rendimiento y pipelines reproducibles.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "MED-007",
@@ -734,7 +854,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 96.0,
       "evidence": "Pieza de portafolio: Dise\u00f1o de identidad y branding.",
-      "sourceIds": "S43; S46"
+      "sourceIds": "S43; S46",
+      "topics": "Dise\u00f1o de identidad y branding. Concepto, forma, t\u00e9cnica, cr\u00edtica, accesibilidad y producci\u00f3n para medios impresos y digitales.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "MED-008",
@@ -746,7 +868,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 96.0,
       "evidence": "Pieza de portafolio: Dise\u00f1o editorial.",
-      "sourceIds": "S43; S46"
+      "sourceIds": "S43; S46",
+      "topics": "Dise\u00f1o editorial. Concepto, forma, t\u00e9cnica, cr\u00edtica, accesibilidad y producci\u00f3n para medios impresos y digitales.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "MED-009",
@@ -758,7 +882,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 96.0,
       "evidence": "Pieza de portafolio: Dise\u00f1o de informaci\u00f3n e infograf\u00eda.",
-      "sourceIds": "S43; S46"
+      "sourceIds": "S43; S46",
+      "topics": "Dise\u00f1o de informaci\u00f3n e infograf\u00eda. Concepto, forma, t\u00e9cnica, cr\u00edtica, accesibilidad y producci\u00f3n para medios impresos y digitales.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "MED-010",
@@ -770,7 +896,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 96.0,
       "evidence": "Pieza de portafolio: Dise\u00f1o publicitario.",
-      "sourceIds": "S43; S46"
+      "sourceIds": "S43; S46",
+      "topics": "Dise\u00f1o publicitario. Concepto, forma, t\u00e9cnica, cr\u00edtica, accesibilidad y producci\u00f3n para medios impresos y digitales.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "MED-011",
@@ -782,7 +910,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 96.0,
       "evidence": "Pieza de portafolio: Dise\u00f1o UI.",
-      "sourceIds": "S43; S46"
+      "sourceIds": "S43; S46",
+      "topics": "Dise\u00f1o UI. Concepto, forma, t\u00e9cnica, cr\u00edtica, accesibilidad y producci\u00f3n para medios impresos y digitales.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "MED-012",
@@ -794,7 +924,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 96.0,
       "evidence": "Pieza de portafolio: Sistemas de dise\u00f1o.",
-      "sourceIds": "S43; S46"
+      "sourceIds": "S43; S46",
+      "topics": "Sistemas de dise\u00f1o. Concepto, forma, t\u00e9cnica, cr\u00edtica, accesibilidad y producci\u00f3n para medios impresos y digitales.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "MED-019",
@@ -806,7 +938,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 96.0,
       "evidence": "Producci\u00f3n audiovisual: Fotograf\u00eda I: exposici\u00f3n y composici\u00f3n.",
-      "sourceIds": "S44; S45"
+      "sourceIds": "S44; S45",
+      "topics": "Fotograf\u00eda I: exposici\u00f3n y composici\u00f3n. Lenguaje, t\u00e9cnica, flujo de producci\u00f3n, narrativa, \u00e9tica y publicaci\u00f3n multiformato.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "MED-020",
@@ -818,7 +952,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 96.0,
       "evidence": "Producci\u00f3n audiovisual: Fotograf\u00eda II: iluminaci\u00f3n y direcci\u00f3n.",
-      "sourceIds": "S44; S45"
+      "sourceIds": "S44; S45",
+      "topics": "Fotograf\u00eda II: iluminaci\u00f3n y direcci\u00f3n. Lenguaje, t\u00e9cnica, flujo de producci\u00f3n, narrativa, \u00e9tica y publicaci\u00f3n multiformato.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "MED-021",
@@ -830,7 +966,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 96.0,
       "evidence": "Producci\u00f3n audiovisual: Fotograf\u00eda documental y period\u00edstica.",
-      "sourceIds": "S44; S45"
+      "sourceIds": "S44; S45",
+      "topics": "Fotograf\u00eda documental y period\u00edstica. Lenguaje, t\u00e9cnica, flujo de producci\u00f3n, narrativa, \u00e9tica y publicaci\u00f3n multiformato.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "MED-022",
@@ -842,7 +980,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 96.0,
       "evidence": "Producci\u00f3n audiovisual: Fotograf\u00eda publicitaria y de producto.",
-      "sourceIds": "S44; S45"
+      "sourceIds": "S44; S45",
+      "topics": "Fotograf\u00eda publicitaria y de producto. Lenguaje, t\u00e9cnica, flujo de producci\u00f3n, narrativa, \u00e9tica y publicaci\u00f3n multiformato.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "MED-023",
@@ -854,7 +994,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 96.0,
       "evidence": "Producci\u00f3n audiovisual: Revelado digital y gesti\u00f3n de color.",
-      "sourceIds": "S44; S45"
+      "sourceIds": "S44; S45",
+      "topics": "Revelado digital y gesti\u00f3n de color. Lenguaje, t\u00e9cnica, flujo de producci\u00f3n, narrativa, \u00e9tica y publicaci\u00f3n multiformato.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "MED-024",
@@ -866,7 +1008,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 96.0,
       "evidence": "Producci\u00f3n audiovisual: Historia y lenguaje del cine.",
-      "sourceIds": "S44; S45"
+      "sourceIds": "S44; S45",
+      "topics": "Historia y lenguaje del cine. Lenguaje, t\u00e9cnica, flujo de producci\u00f3n, narrativa, \u00e9tica y publicaci\u00f3n multiformato.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "MED-025",
@@ -878,7 +1022,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 96.0,
       "evidence": "Producci\u00f3n audiovisual: Guion y narrativa audiovisual.",
-      "sourceIds": "S44; S45"
+      "sourceIds": "S44; S45",
+      "topics": "Guion y narrativa audiovisual. Lenguaje, t\u00e9cnica, flujo de producci\u00f3n, narrativa, \u00e9tica y publicaci\u00f3n multiformato.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "EIO-001",
@@ -890,7 +1036,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Circuito medido y documentado: Electricidad y seguridad de laboratorio.",
-      "sourceIds": "S04; S10; S13; S21; S26; S48"
+      "sourceIds": "S04; S10; S13; S21; S26; S48",
+      "topics": "Electricidad y seguridad de laboratorio. C\u00e1lculo, simulaci\u00f3n, medici\u00f3n con instrumentos, seguridad y montaje en laboratorio.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "EIO-002",
@@ -902,7 +1050,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Circuito medido y documentado: Circuitos el\u00e9ctricos I.",
-      "sourceIds": "S04; S10; S13; S21; S26; S48"
+      "sourceIds": "S04; S10; S13; S21; S26; S48",
+      "topics": "Circuitos el\u00e9ctricos I. C\u00e1lculo, simulaci\u00f3n, medici\u00f3n con instrumentos, seguridad y montaje en laboratorio.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "EIO-003",
@@ -914,7 +1064,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Circuito medido y documentado: Circuitos el\u00e9ctricos II.",
-      "sourceIds": "S04; S10; S13; S21; S26; S48"
+      "sourceIds": "S04; S10; S13; S21; S26; S48",
+      "topics": "Circuitos el\u00e9ctricos II. C\u00e1lculo, simulaci\u00f3n, medici\u00f3n con instrumentos, seguridad y montaje en laboratorio.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "EIO-004",
@@ -926,7 +1078,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Circuito medido y documentado: Electr\u00f3nica anal\u00f3gica I.",
-      "sourceIds": "S04; S10; S13; S21; S26; S48"
+      "sourceIds": "S04; S10; S13; S21; S26; S48",
+      "topics": "Electr\u00f3nica anal\u00f3gica I. C\u00e1lculo, simulaci\u00f3n, medici\u00f3n con instrumentos, seguridad y montaje en laboratorio.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "EIO-005",
@@ -938,7 +1092,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Circuito medido y documentado: Electr\u00f3nica anal\u00f3gica II.",
-      "sourceIds": "S04; S10; S13; S21; S26; S48"
+      "sourceIds": "S04; S10; S13; S21; S26; S48",
+      "topics": "Electr\u00f3nica anal\u00f3gica II. C\u00e1lculo, simulaci\u00f3n, medici\u00f3n con instrumentos, seguridad y montaje en laboratorio.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "EIO-006",
@@ -950,7 +1106,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Circuito medido y documentado: Electr\u00f3nica digital.",
-      "sourceIds": "S04; S10; S13; S21; S26; S48"
+      "sourceIds": "S04; S10; S13; S21; S26; S48",
+      "topics": "Electr\u00f3nica digital. C\u00e1lculo, simulaci\u00f3n, medici\u00f3n con instrumentos, seguridad y montaje en laboratorio.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "SWE-001",
@@ -962,7 +1120,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Producto de software: Fundamentos de ingenier\u00eda de software.",
-      "sourceIds": "S02; S03; S05; S11; S18; S22; S23"
+      "sourceIds": "S02; S03; S05; S11; S18; S22; S23",
+      "topics": "Fundamentos de ingenier\u00eda de software. Proceso completo, calidad, arquitectura, colaboraci\u00f3n y entrega de productos mantenibles.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "SWE-002",
@@ -974,7 +1134,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Producto de software: Requisitos y especificaci\u00f3n.",
-      "sourceIds": "S02; S03; S05; S11; S18; S22; S23"
+      "sourceIds": "S02; S03; S05; S11; S18; S22; S23",
+      "topics": "Requisitos y especificaci\u00f3n. Proceso completo, calidad, arquitectura, colaboraci\u00f3n y entrega de productos mantenibles.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "SWE-003",
@@ -986,7 +1148,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Producto de software: An\u00e1lisis y dise\u00f1o orientado a objetos con UML.",
-      "sourceIds": "S02; S03; S05; S11; S18; S22; S23"
+      "sourceIds": "S02; S03; S05; S11; S18; S22; S23",
+      "topics": "An\u00e1lisis y dise\u00f1o orientado a objetos con UML. Proceso completo, calidad, arquitectura, colaboraci\u00f3n y entrega de productos mantenibles.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "SWE-004",
@@ -998,7 +1162,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Producto de software: Patrones de dise\u00f1o.",
-      "sourceIds": "S02; S03; S05; S11; S18; S22; S23"
+      "sourceIds": "S02; S03; S05; S11; S18; S22; S23",
+      "topics": "Patrones de dise\u00f1o. Proceso completo, calidad, arquitectura, colaboraci\u00f3n y entrega de productos mantenibles.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "SWE-005",
@@ -1010,7 +1176,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Producto de software: Arquitectura de software.",
-      "sourceIds": "S02; S03; S05; S11; S18; S22; S23"
+      "sourceIds": "S02; S03; S05; S11; S18; S22; S23",
+      "topics": "Arquitectura de software. Proceso completo, calidad, arquitectura, colaboraci\u00f3n y entrega de productos mantenibles.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "SWE-006",
@@ -1022,7 +1190,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Producto de software: Calidad de software.",
-      "sourceIds": "S02; S03; S05; S11; S18; S22; S23"
+      "sourceIds": "S02; S03; S05; S11; S18; S22; S23",
+      "topics": "Calidad de software. Proceso completo, calidad, arquitectura, colaboraci\u00f3n y entrega de productos mantenibles.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "SWE-007",
@@ -1034,7 +1204,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Producto de software: Pruebas de software I.",
-      "sourceIds": "S02; S03; S05; S11; S18; S22; S23"
+      "sourceIds": "S02; S03; S05; S11; S18; S22; S23",
+      "topics": "Pruebas de software I. Proceso completo, calidad, arquitectura, colaboraci\u00f3n y entrega de productos mantenibles.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "CAP-006",
@@ -1046,7 +1218,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Informe y defensa: Contribuci\u00f3n a proyectos open source.",
-      "sourceIds": "S01; S03; S04; S07; S08"
+      "sourceIds": "S01; S03; S04; S07; S08",
+      "topics": "Contribuci\u00f3n a proyectos open source. M\u00e9todo cient\u00edfico, comunicaci\u00f3n, colaboraci\u00f3n, \u00e9tica, impacto y evidencia p\u00fablica.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "CAP-007",
@@ -1058,7 +1232,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Informe y defensa: Pr\u00e1cticas profesionales I.",
-      "sourceIds": "S01; S03; S04; S07; S08"
+      "sourceIds": "S01; S03; S04; S07; S08",
+      "topics": "Pr\u00e1cticas profesionales I. M\u00e9todo cient\u00edfico, comunicaci\u00f3n, colaboraci\u00f3n, \u00e9tica, impacto y evidencia p\u00fablica.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "CAP-008",
@@ -1070,7 +1246,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Informe y defensa: Pr\u00e1cticas profesionales II.",
-      "sourceIds": "S01; S03; S04; S07; S08"
+      "sourceIds": "S01; S03; S04; S07; S08",
+      "topics": "Pr\u00e1cticas profesionales II. M\u00e9todo cient\u00edfico, comunicaci\u00f3n, colaboraci\u00f3n, \u00e9tica, impacto y evidencia p\u00fablica.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "CAP-009",
@@ -1082,7 +1260,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Informe y defensa: Docencia, mentor\u00eda y divulgaci\u00f3n tecnol\u00f3gica.",
-      "sourceIds": "S01; S03; S04; S07; S08"
+      "sourceIds": "S01; S03; S04; S07; S08",
+      "topics": "Docencia, mentor\u00eda y divulgaci\u00f3n tecnol\u00f3gica. M\u00e9todo cient\u00edfico, comunicaci\u00f3n, colaboraci\u00f3n, \u00e9tica, impacto y evidencia p\u00fablica.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "CAP-010",
@@ -1094,7 +1274,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Informe y defensa: Gesti\u00f3n de carrera y marca profesional.",
-      "sourceIds": "S01; S03; S04; S07; S08"
+      "sourceIds": "S01; S03; S04; S07; S08",
+      "topics": "Gesti\u00f3n de carrera y marca profesional. M\u00e9todo cient\u00edfico, comunicaci\u00f3n, colaboraci\u00f3n, \u00e9tica, impacto y evidencia p\u00fablica.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "MAT-008",
@@ -1106,7 +1288,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Cuaderno de problemas y notebook reproducible: Matem\u00e1tica discreta I.",
-      "sourceIds": "S01; S03; S04; S09; S11; S16"
+      "sourceIds": "S01; S03; S04; S09; S11; S16",
+      "topics": "Matem\u00e1tica discreta I. Definiciones, demostraciones, c\u00e1lculo manual, modelado y uso computacional.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "MAT-009",
@@ -1118,7 +1302,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Cuaderno de problemas y notebook reproducible: Matem\u00e1tica discreta II.",
-      "sourceIds": "S01; S03; S04; S09; S11; S16"
+      "sourceIds": "S01; S03; S04; S09; S11; S16",
+      "topics": "Matem\u00e1tica discreta II. Definiciones, demostraciones, c\u00e1lculo manual, modelado y uso computacional.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "MAT-010",
@@ -1130,7 +1316,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Cuaderno de problemas y notebook reproducible: L\u00f3gica matem\u00e1tica y t\u00e9cnicas de demostraci\u00f3n.",
-      "sourceIds": "S01; S03; S04; S09; S11; S16"
+      "sourceIds": "S01; S03; S04; S09; S11; S16",
+      "topics": "L\u00f3gica matem\u00e1tica y t\u00e9cnicas de demostraci\u00f3n. Definiciones, demostraciones, c\u00e1lculo manual, modelado y uso computacional.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "MAT-011",
@@ -1142,7 +1330,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Cuaderno de problemas y notebook reproducible: Probabilidad.",
-      "sourceIds": "S01; S03; S04; S09; S11; S16"
+      "sourceIds": "S01; S03; S04; S09; S11; S16",
+      "topics": "Probabilidad. Definiciones, demostraciones, c\u00e1lculo manual, modelado y uso computacional.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "MAT-012",
@@ -1154,7 +1344,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Cuaderno de problemas y notebook reproducible: Estad\u00edstica descriptiva e inferencial.",
-      "sourceIds": "S01; S03; S04; S09; S11; S16"
+      "sourceIds": "S01; S03; S04; S09; S11; S16",
+      "topics": "Estad\u00edstica descriptiva e inferencial. Definiciones, demostraciones, c\u00e1lculo manual, modelado y uso computacional.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "MAT-013",
@@ -1166,7 +1358,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Cuaderno de problemas y notebook reproducible: Estad\u00edstica multivariante.",
-      "sourceIds": "S01; S03; S04; S09; S11; S16"
+      "sourceIds": "S01; S03; S04; S09; S11; S16",
+      "topics": "Estad\u00edstica multivariante. Definiciones, demostraciones, c\u00e1lculo manual, modelado y uso computacional.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "MAT-014",
@@ -1178,7 +1372,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Cuaderno de problemas y notebook reproducible: Ecuaciones diferenciales.",
-      "sourceIds": "S01; S03; S04; S09; S11; S16"
+      "sourceIds": "S01; S03; S04; S09; S11; S16",
+      "topics": "Ecuaciones diferenciales. Definiciones, demostraciones, c\u00e1lculo manual, modelado y uso computacional.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "MAT-026",
@@ -1190,7 +1386,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Informe de laboratorio: An\u00e1lisis de Fourier y transformadas.",
-      "sourceIds": "S04; S10; S13; S24; S26"
+      "sourceIds": "S04; S10; S13; S24; S26",
+      "topics": "An\u00e1lisis de Fourier y transformadas. Experimentos, medici\u00f3n, incertidumbre y relaci\u00f3n con hardware, se\u00f1ales y rob\u00f3tica.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "MAT-027",
@@ -1202,7 +1400,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Informe de laboratorio: Econom\u00eda para ingenier\u00eda.",
-      "sourceIds": "S04; S10; S13; S24; S26"
+      "sourceIds": "S04; S10; S13; S24; S26",
+      "topics": "Econom\u00eda para ingenier\u00eda. Experimentos, medici\u00f3n, incertidumbre y relaci\u00f3n con hardware, se\u00f1ales y rob\u00f3tica.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "MAT-028",
@@ -1214,7 +1414,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Informe de laboratorio: Sostenibilidad y computaci\u00f3n verde.",
-      "sourceIds": "S04; S10; S13; S24; S26"
+      "sourceIds": "S04; S10; S13; S24; S26",
+      "topics": "Sostenibilidad y computaci\u00f3n verde. Experimentos, medici\u00f3n, incertidumbre y relaci\u00f3n con hardware, se\u00f1ales y rob\u00f3tica.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "CST-007",
@@ -1226,7 +1428,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Repositorio con pruebas: Algoritmos II.",
-      "sourceIds": "S01; S09; S11; S14; S16; S18"
+      "sourceIds": "S01; S09; S11; S14; S16; S18",
+      "topics": "Algoritmos II. Dise\u00f1o de algoritmos, depuraci\u00f3n, pruebas, estilo, complejidad y peque\u00f1os proyectos.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "CST-008",
@@ -1238,7 +1442,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Repositorio con pruebas: An\u00e1lisis avanzado de algoritmos.",
-      "sourceIds": "S01; S09; S11; S14; S16; S18"
+      "sourceIds": "S01; S09; S11; S14; S16; S18",
+      "topics": "An\u00e1lisis avanzado de algoritmos. Dise\u00f1o de algoritmos, depuraci\u00f3n, pruebas, estilo, complejidad y peque\u00f1os proyectos.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "CST-009",
@@ -1250,7 +1456,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Repositorio con pruebas: Programaci\u00f3n funcional.",
-      "sourceIds": "S01; S09; S11; S14; S16; S18"
+      "sourceIds": "S01; S09; S11; S14; S16; S18",
+      "topics": "Programaci\u00f3n funcional. Dise\u00f1o de algoritmos, depuraci\u00f3n, pruebas, estilo, complejidad y peque\u00f1os proyectos.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "CST-010",
@@ -1262,7 +1470,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Repositorio con pruebas: Programaci\u00f3n l\u00f3gica.",
-      "sourceIds": "S01; S09; S11; S14; S16; S18"
+      "sourceIds": "S01; S09; S11; S14; S16; S18",
+      "topics": "Programaci\u00f3n l\u00f3gica. Dise\u00f1o de algoritmos, depuraci\u00f3n, pruebas, estilo, complejidad y peque\u00f1os proyectos.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "CST-011",
@@ -1274,7 +1484,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Repositorio con pruebas: Programaci\u00f3n concurrente.",
-      "sourceIds": "S01; S09; S11; S14; S16; S18"
+      "sourceIds": "S01; S09; S11; S14; S16; S18",
+      "topics": "Programaci\u00f3n concurrente. Dise\u00f1o de algoritmos, depuraci\u00f3n, pruebas, estilo, complejidad y peque\u00f1os proyectos.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "CST-012",
@@ -1286,7 +1498,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Repositorio con pruebas: Programaci\u00f3n paralela.",
-      "sourceIds": "S01; S09; S11; S14; S16; S18"
+      "sourceIds": "S01; S09; S11; S14; S16; S18",
+      "topics": "Programaci\u00f3n paralela. Dise\u00f1o de algoritmos, depuraci\u00f3n, pruebas, estilo, complejidad y peque\u00f1os proyectos.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "CST-023",
@@ -1298,7 +1512,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Demostraciones y prototipo: Lenguajes formales y aut\u00f3matas.",
-      "sourceIds": "S01; S09; S14; S16; S20"
+      "sourceIds": "S01; S09; S14; S16; S20",
+      "topics": "Lenguajes formales y aut\u00f3matas. Modelos formales, l\u00edmites de c\u00f3mputo, sem\u00e1ntica, construcci\u00f3n y verificaci\u00f3n.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "CST-024",
@@ -1310,7 +1526,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Demostraciones y prototipo: Computabilidad.",
-      "sourceIds": "S01; S09; S14; S16; S20"
+      "sourceIds": "S01; S09; S14; S16; S20",
+      "topics": "Computabilidad. Modelos formales, l\u00edmites de c\u00f3mputo, sem\u00e1ntica, construcci\u00f3n y verificaci\u00f3n.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "CST-025",
@@ -1322,7 +1540,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Demostraciones y prototipo: Complejidad computacional.",
-      "sourceIds": "S01; S09; S14; S16; S20"
+      "sourceIds": "S01; S09; S14; S16; S20",
+      "topics": "Complejidad computacional. Modelos formales, l\u00edmites de c\u00f3mputo, sem\u00e1ntica, construcci\u00f3n y verificaci\u00f3n.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "CST-026",
@@ -1334,7 +1554,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Demostraciones y prototipo: Paradigmas y sem\u00e1ntica de lenguajes.",
-      "sourceIds": "S01; S09; S14; S16; S20"
+      "sourceIds": "S01; S09; S14; S16; S20",
+      "topics": "Paradigmas y sem\u00e1ntica de lenguajes. Modelos formales, l\u00edmites de c\u00f3mputo, sem\u00e1ntica, construcci\u00f3n y verificaci\u00f3n.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "CST-027",
@@ -1346,7 +1568,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Demostraciones y prototipo: Dise\u00f1o e implementaci\u00f3n de lenguajes.",
-      "sourceIds": "S01; S09; S14; S16; S20"
+      "sourceIds": "S01; S09; S14; S16; S20",
+      "topics": "Dise\u00f1o e implementaci\u00f3n de lenguajes. Modelos formales, l\u00edmites de c\u00f3mputo, sem\u00e1ntica, construcci\u00f3n y verificaci\u00f3n.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "NET-001",
@@ -1358,7 +1582,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Topolog\u00eda documentada y probada: Fundamentos de redes.",
-      "sourceIds": "S03; S04; S17; S18; S27"
+      "sourceIds": "S03; S04; S17; S18; S27",
+      "topics": "Fundamentos de redes. Dise\u00f1o, configuraci\u00f3n, medici\u00f3n, automatizaci\u00f3n, disponibilidad y seguridad.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "NET-002",
@@ -1370,7 +1596,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Topolog\u00eda documentada y probada: TCP/IP y subnetting.",
-      "sourceIds": "S03; S04; S17; S18; S27"
+      "sourceIds": "S03; S04; S17; S18; S27",
+      "topics": "TCP/IP y subnetting. Dise\u00f1o, configuraci\u00f3n, medici\u00f3n, automatizaci\u00f3n, disponibilidad y seguridad.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "NET-003",
@@ -1382,7 +1610,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Topolog\u00eda documentada y probada: Conmutaci\u00f3n LAN y VLAN.",
-      "sourceIds": "S03; S04; S17; S18; S27"
+      "sourceIds": "S03; S04; S17; S18; S27",
+      "topics": "Conmutaci\u00f3n LAN y VLAN. Dise\u00f1o, configuraci\u00f3n, medici\u00f3n, automatizaci\u00f3n, disponibilidad y seguridad.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "NET-004",
@@ -1394,7 +1624,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Topolog\u00eda documentada y probada: Enrutamiento IP.",
-      "sourceIds": "S03; S04; S17; S18; S27"
+      "sourceIds": "S03; S04; S17; S18; S27",
+      "topics": "Enrutamiento IP. Dise\u00f1o, configuraci\u00f3n, medici\u00f3n, automatizaci\u00f3n, disponibilidad y seguridad.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "NET-005",
@@ -1406,7 +1638,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Topolog\u00eda documentada y probada: Servicios de red.",
-      "sourceIds": "S03; S04; S17; S18; S27"
+      "sourceIds": "S03; S04; S17; S18; S27",
+      "topics": "Servicios de red. Dise\u00f1o, configuraci\u00f3n, medici\u00f3n, automatizaci\u00f3n, disponibilidad y seguridad.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "NET-006",
@@ -1418,7 +1652,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Topolog\u00eda documentada y probada: Redes inal\u00e1mbricas.",
-      "sourceIds": "S03; S04; S17; S18; S27"
+      "sourceIds": "S03; S04; S17; S18; S27",
+      "topics": "Redes inal\u00e1mbricas. Dise\u00f1o, configuraci\u00f3n, medici\u00f3n, automatizaci\u00f3n, disponibilidad y seguridad.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "ISM-001",
@@ -1430,7 +1666,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Caso empresarial y arquitectura: Fundamentos de sistemas de informaci\u00f3n.",
-      "sourceIds": "S02; S03; S05; S06; S22; S34"
+      "sourceIds": "S02; S03; S05; S06; S22; S34",
+      "topics": "Fundamentos de sistemas de informaci\u00f3n. Alineaci\u00f3n negocio\u2013tecnolog\u00eda, procesos, arquitectura, control, servicio y transformaci\u00f3n.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "ISM-002",
@@ -1442,7 +1680,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Caso empresarial y arquitectura: An\u00e1lisis de sistemas.",
-      "sourceIds": "S02; S03; S05; S06; S22; S34"
+      "sourceIds": "S02; S03; S05; S06; S22; S34",
+      "topics": "An\u00e1lisis de sistemas. Alineaci\u00f3n negocio\u2013tecnolog\u00eda, procesos, arquitectura, control, servicio y transformaci\u00f3n.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "ISM-003",
@@ -1454,7 +1694,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Caso empresarial y arquitectura: Modelado de procesos con BPMN.",
-      "sourceIds": "S02; S03; S05; S06; S22; S34"
+      "sourceIds": "S02; S03; S05; S06; S22; S34",
+      "topics": "Modelado de procesos con BPMN. Alineaci\u00f3n negocio\u2013tecnolog\u00eda, procesos, arquitectura, control, servicio y transformaci\u00f3n.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "ISM-004",
@@ -1466,7 +1708,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Caso empresarial y arquitectura: An\u00e1lisis de negocio.",
-      "sourceIds": "S02; S03; S05; S06; S22; S34"
+      "sourceIds": "S02; S03; S05; S06; S22; S34",
+      "topics": "An\u00e1lisis de negocio. Alineaci\u00f3n negocio\u2013tecnolog\u00eda, procesos, arquitectura, control, servicio y transformaci\u00f3n.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "ISM-005",
@@ -1478,7 +1722,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Caso empresarial y arquitectura: Contabilidad y finanzas para TI.",
-      "sourceIds": "S02; S03; S05; S06; S22; S34"
+      "sourceIds": "S02; S03; S05; S06; S22; S34",
+      "topics": "Contabilidad y finanzas para TI. Alineaci\u00f3n negocio\u2013tecnolog\u00eda, procesos, arquitectura, control, servicio y transformaci\u00f3n.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "ISM-006",
@@ -1490,7 +1736,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Caso empresarial y arquitectura: Administraci\u00f3n y comportamiento organizacional.",
-      "sourceIds": "S02; S03; S05; S06; S22; S34"
+      "sourceIds": "S02; S03; S05; S06; S22; S34",
+      "topics": "Administraci\u00f3n y comportamiento organizacional. Alineaci\u00f3n negocio\u2013tecnolog\u00eda, procesos, arquitectura, control, servicio y transformaci\u00f3n.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "ISM-007",
@@ -1502,7 +1750,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Caso empresarial y arquitectura: Marketing digital y anal\u00edtica.",
-      "sourceIds": "S02; S03; S05; S06; S22; S34"
+      "sourceIds": "S02; S03; S05; S06; S22; S34",
+      "topics": "Marketing digital y anal\u00edtica. Alineaci\u00f3n negocio\u2013tecnolog\u00eda, procesos, arquitectura, control, servicio y transformaci\u00f3n.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "SYS-001",
@@ -1514,7 +1764,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Laboratorio de sistema: L\u00f3gica digital para computaci\u00f3n.",
-      "sourceIds": "S01; S02; S09; S13; S16; S17; S20"
+      "sourceIds": "S01; S02; S09; S13; S16; S17; S20",
+      "topics": "L\u00f3gica digital para computaci\u00f3n. Funcionamiento interno, dise\u00f1o, medici\u00f3n de rendimiento y laboratorios reproducibles.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "SYS-002",
@@ -1526,7 +1778,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Laboratorio de sistema: Organizaci\u00f3n de computadores.",
-      "sourceIds": "S01; S02; S09; S13; S16; S17; S20"
+      "sourceIds": "S01; S02; S09; S13; S16; S17; S20",
+      "topics": "Organizaci\u00f3n de computadores. Funcionamiento interno, dise\u00f1o, medici\u00f3n de rendimiento y laboratorios reproducibles.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "SYS-003",
@@ -1538,7 +1792,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Laboratorio de sistema: Arquitectura de computadores.",
-      "sourceIds": "S01; S02; S09; S13; S16; S17; S20"
+      "sourceIds": "S01; S02; S09; S13; S16; S17; S20",
+      "topics": "Arquitectura de computadores. Funcionamiento interno, dise\u00f1o, medici\u00f3n de rendimiento y laboratorios reproducibles.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "SYS-004",
@@ -1550,7 +1806,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Laboratorio de sistema: Sistemas operativos I.",
-      "sourceIds": "S01; S02; S09; S13; S16; S17; S20"
+      "sourceIds": "S01; S02; S09; S13; S16; S17; S20",
+      "topics": "Sistemas operativos I. Funcionamiento interno, dise\u00f1o, medici\u00f3n de rendimiento y laboratorios reproducibles.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "SYS-005",
@@ -1562,7 +1820,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Laboratorio de sistema: Sistemas operativos II.",
-      "sourceIds": "S01; S02; S09; S13; S16; S17; S20"
+      "sourceIds": "S01; S02; S09; S13; S16; S17; S20",
+      "topics": "Sistemas operativos II. Funcionamiento interno, dise\u00f1o, medici\u00f3n de rendimiento y laboratorios reproducibles.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "SYS-006",
@@ -1574,7 +1834,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Laboratorio de sistema: Sistemas de archivos y almacenamiento.",
-      "sourceIds": "S01; S02; S09; S13; S16; S17; S20"
+      "sourceIds": "S01; S02; S09; S13; S16; S17; S20",
+      "topics": "Sistemas de archivos y almacenamiento. Funcionamiento interno, dise\u00f1o, medici\u00f3n de rendimiento y laboratorios reproducibles.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "REP-008",
@@ -1586,7 +1848,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Orden de servicio con pruebas antes/despu\u00e9s: Reparaci\u00f3n de laptops.",
-      "sourceIds": "S03; S47; S48"
+      "sourceIds": "S03; S47; S48",
+      "topics": "Reparaci\u00f3n de laptops. Diagn\u00f3stico sistem\u00e1tico, ESD, herramientas correctas, documentaci\u00f3n, datos y seguridad del usuario.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "REP-009",
@@ -1598,7 +1862,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Orden de servicio con pruebas antes/despu\u00e9s: Reparaci\u00f3n de computadoras de escritorio.",
-      "sourceIds": "S03; S47; S48"
+      "sourceIds": "S03; S47; S48",
+      "topics": "Reparaci\u00f3n de computadoras de escritorio. Diagn\u00f3stico sistem\u00e1tico, ESD, herramientas correctas, documentaci\u00f3n, datos y seguridad del usuario.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "REP-010",
@@ -1610,7 +1876,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Orden de servicio con pruebas antes/despu\u00e9s: Reparaci\u00f3n de smartphones.",
-      "sourceIds": "S03; S47; S48"
+      "sourceIds": "S03; S47; S48",
+      "topics": "Reparaci\u00f3n de smartphones. Diagn\u00f3stico sistem\u00e1tico, ESD, herramientas correctas, documentaci\u00f3n, datos y seguridad del usuario.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "REP-011",
@@ -1622,7 +1890,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Orden de servicio con pruebas antes/despu\u00e9s: Reparaci\u00f3n de tablets y wearables.",
-      "sourceIds": "S03; S47; S48"
+      "sourceIds": "S03; S47; S48",
+      "topics": "Reparaci\u00f3n de tablets y wearables. Diagn\u00f3stico sistem\u00e1tico, ESD, herramientas correctas, documentaci\u00f3n, datos y seguridad del usuario.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "REP-012",
@@ -1634,7 +1904,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Orden de servicio con pruebas antes/despu\u00e9s: Microsoldadura y reparaci\u00f3n a nivel de placa.",
-      "sourceIds": "S03; S47; S48"
+      "sourceIds": "S03; S47; S48",
+      "topics": "Microsoldadura y reparaci\u00f3n a nivel de placa. Diagn\u00f3stico sistem\u00e1tico, ESD, herramientas correctas, documentaci\u00f3n, datos y seguridad del usuario.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "REP-013",
@@ -1646,7 +1918,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Orden de servicio con pruebas antes/despu\u00e9s: Diagn\u00f3stico de placas madre.",
-      "sourceIds": "S03; S47; S48"
+      "sourceIds": "S03; S47; S48",
+      "topics": "Diagn\u00f3stico de placas madre. Diagn\u00f3stico sistem\u00e1tico, ESD, herramientas correctas, documentaci\u00f3n, datos y seguridad del usuario.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "REP-014",
@@ -1658,7 +1932,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Orden de servicio con pruebas antes/despu\u00e9s: Recuperaci\u00f3n de datos.",
-      "sourceIds": "S03; S47; S48"
+      "sourceIds": "S03; S47; S48",
+      "topics": "Recuperaci\u00f3n de datos. Diagn\u00f3stico sistem\u00e1tico, ESD, herramientas correctas, documentaci\u00f3n, datos y seguridad del usuario.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "CYB-001",
@@ -1670,7 +1946,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Evaluaci\u00f3n defensiva: Fundamentos de ciberseguridad.",
-      "sourceIds": "S03; S05; S08; S33; S34; S36"
+      "sourceIds": "S03; S05; S08; S33; S34; S36",
+      "topics": "Fundamentos de ciberseguridad. Dise\u00f1o de controles, laboratorios aislados, gesti\u00f3n de riesgo y evidencia auditable.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "CYB-002",
@@ -1682,7 +1960,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Evaluaci\u00f3n defensiva: Criptograf\u00eda aplicada I.",
-      "sourceIds": "S03; S05; S08; S33; S34; S36"
+      "sourceIds": "S03; S05; S08; S33; S34; S36",
+      "topics": "Criptograf\u00eda aplicada I. Dise\u00f1o de controles, laboratorios aislados, gesti\u00f3n de riesgo y evidencia auditable.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "CYB-003",
@@ -1694,7 +1974,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Evaluaci\u00f3n defensiva: Criptograf\u00eda aplicada II.",
-      "sourceIds": "S03; S05; S08; S33; S34; S36"
+      "sourceIds": "S03; S05; S08; S33; S34; S36",
+      "topics": "Criptograf\u00eda aplicada II. Dise\u00f1o de controles, laboratorios aislados, gesti\u00f3n de riesgo y evidencia auditable.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "CYB-004",
@@ -1706,7 +1988,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Evaluaci\u00f3n defensiva: Gesti\u00f3n de identidades y accesos.",
-      "sourceIds": "S03; S05; S08; S33; S34; S36"
+      "sourceIds": "S03; S05; S08; S33; S34; S36",
+      "topics": "Gesti\u00f3n de identidades y accesos. Dise\u00f1o de controles, laboratorios aislados, gesti\u00f3n de riesgo y evidencia auditable.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "CYB-005",
@@ -1718,7 +2002,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Evaluaci\u00f3n defensiva: Seguridad de redes.",
-      "sourceIds": "S03; S05; S08; S33; S34; S36"
+      "sourceIds": "S03; S05; S08; S33; S34; S36",
+      "topics": "Seguridad de redes. Dise\u00f1o de controles, laboratorios aislados, gesti\u00f3n de riesgo y evidencia auditable.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "CYB-006",
@@ -1730,7 +2016,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Evaluaci\u00f3n defensiva: Seguridad de sistemas operativos.",
-      "sourceIds": "S03; S05; S08; S33; S34; S36"
+      "sourceIds": "S03; S05; S08; S33; S34; S36",
+      "topics": "Seguridad de sistemas operativos. Dise\u00f1o de controles, laboratorios aislados, gesti\u00f3n de riesgo y evidencia auditable.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "CYB-007",
@@ -1742,7 +2030,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Evaluaci\u00f3n defensiva: Seguridad de aplicaciones.",
-      "sourceIds": "S03; S05; S08; S33; S34; S36"
+      "sourceIds": "S03; S05; S08; S33; S34; S36",
+      "topics": "Seguridad de aplicaciones. Dise\u00f1o de controles, laboratorios aislados, gesti\u00f3n de riesgo y evidencia auditable.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "DAI-007",
@@ -1754,7 +2044,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Sistema de datos: Almacenes de datos y modelado dimensional.",
-      "sourceIds": "S01; S07; S17; S18; S20; S37; S38"
+      "sourceIds": "S01; S07; S17; S18; S20; S37; S38",
+      "topics": "Almacenes de datos y modelado dimensional. Modelado, consulta, calidad, gobierno, rendimiento y pipelines reproducibles.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "DAI-008",
@@ -1766,7 +2058,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Sistema de datos: ETL/ELT e integraci\u00f3n de datos.",
-      "sourceIds": "S01; S07; S17; S18; S20; S37; S38"
+      "sourceIds": "S01; S07; S17; S18; S20; S37; S38",
+      "topics": "ETL/ELT e integraci\u00f3n de datos. Modelado, consulta, calidad, gobierno, rendimiento y pipelines reproducibles.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "DAI-009",
@@ -1778,7 +2072,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Sistema de datos: Calidad y observabilidad de datos.",
-      "sourceIds": "S01; S07; S17; S18; S20; S37; S38"
+      "sourceIds": "S01; S07; S17; S18; S20; S37; S38",
+      "topics": "Calidad y observabilidad de datos. Modelado, consulta, calidad, gobierno, rendimiento y pipelines reproducibles.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "DAI-010",
@@ -1790,7 +2086,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Sistema de datos: Gobierno, cat\u00e1logo, linaje y privacidad de datos.",
-      "sourceIds": "S01; S07; S17; S18; S20; S37; S38"
+      "sourceIds": "S01; S07; S17; S18; S20; S37; S38",
+      "topics": "Gobierno, cat\u00e1logo, linaje y privacidad de datos. Modelado, consulta, calidad, gobierno, rendimiento y pipelines reproducibles.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "DAI-011",
@@ -1802,7 +2100,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Sistema de datos: Ingenier\u00eda de datos I.",
-      "sourceIds": "S01; S07; S17; S18; S20; S37; S38"
+      "sourceIds": "S01; S07; S17; S18; S20; S37; S38",
+      "topics": "Ingenier\u00eda de datos I. Modelado, consulta, calidad, gobierno, rendimiento y pipelines reproducibles.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "DAI-012",
@@ -1814,7 +2114,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Sistema de datos: Ingenier\u00eda de datos II.",
-      "sourceIds": "S01; S07; S17; S18; S20; S37; S38"
+      "sourceIds": "S01; S07; S17; S18; S20; S37; S38",
+      "topics": "Ingenier\u00eda de datos II. Modelado, consulta, calidad, gobierno, rendimiento y pipelines reproducibles.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "DAI-018",
@@ -1826,7 +2128,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Dashboard y memo ejecutivo: An\u00e1lisis de datos con Excel y Power Query.",
-      "sourceIds": "S06; S07; S37; S38; S49"
+      "sourceIds": "S06; S07; S37; S38; S49",
+      "topics": "An\u00e1lisis de datos con Excel y Power Query. Preparaci\u00f3n, an\u00e1lisis, visualizaci\u00f3n, comunicaci\u00f3n, seguridad y decisi\u00f3n de negocio.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "DAI-019",
@@ -1838,7 +2142,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Dashboard y memo ejecutivo: Modelado tabular y DAX.",
-      "sourceIds": "S06; S07; S37; S38; S49"
+      "sourceIds": "S06; S07; S37; S38; S49",
+      "topics": "Modelado tabular y DAX. Preparaci\u00f3n, an\u00e1lisis, visualizaci\u00f3n, comunicaci\u00f3n, seguridad y decisi\u00f3n de negocio.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "DAI-020",
@@ -1850,7 +2156,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Dashboard y memo ejecutivo: Power BI de analista a nivel profesional.",
-      "sourceIds": "S06; S07; S37; S38; S49"
+      "sourceIds": "S06; S07; S37; S38; S49",
+      "topics": "Power BI de analista a nivel profesional. Preparaci\u00f3n, an\u00e1lisis, visualizaci\u00f3n, comunicaci\u00f3n, seguridad y decisi\u00f3n de negocio.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "DAI-021",
@@ -1862,7 +2170,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Dashboard y memo ejecutivo: Tableau y visualizaci\u00f3n interactiva.",
-      "sourceIds": "S06; S07; S37; S38; S49"
+      "sourceIds": "S06; S07; S37; S38; S49",
+      "topics": "Tableau y visualizaci\u00f3n interactiva. Preparaci\u00f3n, an\u00e1lisis, visualizaci\u00f3n, comunicaci\u00f3n, seguridad y decisi\u00f3n de negocio.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "DAI-022",
@@ -1874,7 +2184,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Dashboard y memo ejecutivo: Visualizaci\u00f3n de datos y storytelling.",
-      "sourceIds": "S06; S07; S37; S38; S49"
+      "sourceIds": "S06; S07; S37; S38; S49",
+      "topics": "Visualizaci\u00f3n de datos y storytelling. Preparaci\u00f3n, an\u00e1lisis, visualizaci\u00f3n, comunicaci\u00f3n, seguridad y decisi\u00f3n de negocio.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "MED-013",
@@ -1886,7 +2198,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 96.0,
       "evidence": "Pieza de portafolio: Dise\u00f1o vectorial con Illustrator/Corel.",
-      "sourceIds": "S43; S46"
+      "sourceIds": "S43; S46",
+      "topics": "Dise\u00f1o vectorial con Illustrator/Corel. Concepto, forma, t\u00e9cnica, cr\u00edtica, accesibilidad y producci\u00f3n para medios impresos y digitales.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "MED-014",
@@ -1898,7 +2212,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 96.0,
       "evidence": "Pieza de portafolio: Edici\u00f3n raster con Photoshop/Affinity.",
-      "sourceIds": "S43; S46"
+      "sourceIds": "S43; S46",
+      "topics": "Edici\u00f3n raster con Photoshop/Affinity. Concepto, forma, t\u00e9cnica, cr\u00edtica, accesibilidad y producci\u00f3n para medios impresos y digitales.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "MED-015",
@@ -1910,7 +2226,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 96.0,
       "evidence": "Pieza de portafolio: Maquetaci\u00f3n con InDesign/Publisher.",
-      "sourceIds": "S43; S46"
+      "sourceIds": "S43; S46",
+      "topics": "Maquetaci\u00f3n con InDesign/Publisher. Concepto, forma, t\u00e9cnica, cr\u00edtica, accesibilidad y producci\u00f3n para medios impresos y digitales.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "MED-016",
@@ -1922,7 +2240,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 96.0,
       "evidence": "Pieza de portafolio: Preprensa, color e impresi\u00f3n.",
-      "sourceIds": "S43; S46"
+      "sourceIds": "S43; S46",
+      "topics": "Preprensa, color e impresi\u00f3n. Concepto, forma, t\u00e9cnica, cr\u00edtica, accesibilidad y producci\u00f3n para medios impresos y digitales.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "MED-017",
@@ -1934,7 +2254,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 96.0,
       "evidence": "Pieza de portafolio: Motion graphics.",
-      "sourceIds": "S43; S46"
+      "sourceIds": "S43; S46",
+      "topics": "Motion graphics. Concepto, forma, t\u00e9cnica, cr\u00edtica, accesibilidad y producci\u00f3n para medios impresos y digitales.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "MED-018",
@@ -1946,7 +2268,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 96.0,
       "evidence": "Pieza de portafolio: Dise\u00f1o 3D y visualizaci\u00f3n.",
-      "sourceIds": "S43; S46"
+      "sourceIds": "S43; S46",
+      "topics": "Dise\u00f1o 3D y visualizaci\u00f3n. Concepto, forma, t\u00e9cnica, cr\u00edtica, accesibilidad y producci\u00f3n para medios impresos y digitales.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "MED-026",
@@ -1958,7 +2282,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 96.0,
       "evidence": "Producci\u00f3n audiovisual: Direcci\u00f3n cinematogr\u00e1fica.",
-      "sourceIds": "S44; S45"
+      "sourceIds": "S44; S45",
+      "topics": "Direcci\u00f3n cinematogr\u00e1fica. Lenguaje, t\u00e9cnica, flujo de producci\u00f3n, narrativa, \u00e9tica y publicaci\u00f3n multiformato.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "MED-027",
@@ -1970,7 +2296,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 96.0,
       "evidence": "Producci\u00f3n audiovisual: Producci\u00f3n audiovisual.",
-      "sourceIds": "S44; S45"
+      "sourceIds": "S44; S45",
+      "topics": "Producci\u00f3n audiovisual. Lenguaje, t\u00e9cnica, flujo de producci\u00f3n, narrativa, \u00e9tica y publicaci\u00f3n multiformato.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "MED-028",
@@ -1982,7 +2310,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 96.0,
       "evidence": "Producci\u00f3n audiovisual: Cinematograf\u00eda y c\u00e1mara.",
-      "sourceIds": "S44; S45"
+      "sourceIds": "S44; S45",
+      "topics": "Cinematograf\u00eda y c\u00e1mara. Lenguaje, t\u00e9cnica, flujo de producci\u00f3n, narrativa, \u00e9tica y publicaci\u00f3n multiformato.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "MED-029",
@@ -1994,7 +2324,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 96.0,
       "evidence": "Producci\u00f3n audiovisual: Iluminaci\u00f3n para cine y video.",
-      "sourceIds": "S44; S45"
+      "sourceIds": "S44; S45",
+      "topics": "Iluminaci\u00f3n para cine y video. Lenguaje, t\u00e9cnica, flujo de producci\u00f3n, narrativa, \u00e9tica y publicaci\u00f3n multiformato.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "MED-030",
@@ -2006,7 +2338,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 96.0,
       "evidence": "Producci\u00f3n audiovisual: Sonido, grabaci\u00f3n y mezcla.",
-      "sourceIds": "S44; S45"
+      "sourceIds": "S44; S45",
+      "topics": "Sonido, grabaci\u00f3n y mezcla. Lenguaje, t\u00e9cnica, flujo de producci\u00f3n, narrativa, \u00e9tica y publicaci\u00f3n multiformato.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "MED-031",
@@ -2018,7 +2352,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 96.0,
       "evidence": "Producci\u00f3n audiovisual: Edici\u00f3n de video.",
-      "sourceIds": "S44; S45"
+      "sourceIds": "S44; S45",
+      "topics": "Edici\u00f3n de video. Lenguaje, t\u00e9cnica, flujo de producci\u00f3n, narrativa, \u00e9tica y publicaci\u00f3n multiformato.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "MED-032",
@@ -2030,7 +2366,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 96.0,
       "evidence": "Producci\u00f3n audiovisual: Correcci\u00f3n y gradaci\u00f3n de color.",
-      "sourceIds": "S44; S45"
+      "sourceIds": "S44; S45",
+      "topics": "Correcci\u00f3n y gradaci\u00f3n de color. Lenguaje, t\u00e9cnica, flujo de producci\u00f3n, narrativa, \u00e9tica y publicaci\u00f3n multiformato.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "EIO-007",
@@ -2042,7 +2380,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Circuito medido y documentado: Dispositivos semiconductores.",
-      "sourceIds": "S04; S10; S13; S21; S26; S48"
+      "sourceIds": "S04; S10; S13; S21; S26; S48",
+      "topics": "Dispositivos semiconductores. C\u00e1lculo, simulaci\u00f3n, medici\u00f3n con instrumentos, seguridad y montaje en laboratorio.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "EIO-008",
@@ -2054,7 +2394,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Circuito medido y documentado: Electr\u00f3nica de potencia.",
-      "sourceIds": "S04; S10; S13; S21; S26; S48"
+      "sourceIds": "S04; S10; S13; S21; S26; S48",
+      "topics": "Electr\u00f3nica de potencia. C\u00e1lculo, simulaci\u00f3n, medici\u00f3n con instrumentos, seguridad y montaje en laboratorio.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "EIO-009",
@@ -2066,7 +2408,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Circuito medido y documentado: Instrumentaci\u00f3n y metrolog\u00eda.",
-      "sourceIds": "S04; S10; S13; S21; S26; S48"
+      "sourceIds": "S04; S10; S13; S21; S26; S48",
+      "topics": "Instrumentaci\u00f3n y metrolog\u00eda. C\u00e1lculo, simulaci\u00f3n, medici\u00f3n con instrumentos, seguridad y montaje en laboratorio.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "EIO-010",
@@ -2078,7 +2422,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Circuito medido y documentado: Procesamiento digital de se\u00f1ales.",
-      "sourceIds": "S04; S10; S13; S21; S26; S48"
+      "sourceIds": "S04; S10; S13; S21; S26; S48",
+      "topics": "Procesamiento digital de se\u00f1ales. C\u00e1lculo, simulaci\u00f3n, medici\u00f3n con instrumentos, seguridad y montaje en laboratorio.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "EIO-011",
@@ -2090,7 +2436,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Circuito medido y documentado: Dise\u00f1o de PCB.",
-      "sourceIds": "S04; S10; S13; S21; S26; S48"
+      "sourceIds": "S04; S10; S13; S21; S26; S48",
+      "topics": "Dise\u00f1o de PCB. C\u00e1lculo, simulaci\u00f3n, medici\u00f3n con instrumentos, seguridad y montaje en laboratorio.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "EIO-012",
@@ -2102,7 +2450,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Circuito medido y documentado: Soldadura, retrabajo y microsoldadura.",
-      "sourceIds": "S04; S10; S13; S21; S26; S48"
+      "sourceIds": "S04; S10; S13; S21; S26; S48",
+      "topics": "Soldadura, retrabajo y microsoldadura. C\u00e1lculo, simulaci\u00f3n, medici\u00f3n con instrumentos, seguridad y montaje en laboratorio.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "EIO-016",
@@ -2114,7 +2464,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Dispositivo IoT funcional: Microcontroladores.",
-      "sourceIds": "S02; S04; S18; S21; S24; S26"
+      "sourceIds": "S02; S04; S18; S21; S24; S26",
+      "topics": "Microcontroladores. Integraci\u00f3n hardware\u2013software, comunicaciones, energ\u00eda, seguridad y despliegue.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "EIO-017",
@@ -2126,7 +2478,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Dispositivo IoT funcional: Programaci\u00f3n embebida en C/C++.",
-      "sourceIds": "S02; S04; S18; S21; S24; S26"
+      "sourceIds": "S02; S04; S18; S21; S24; S26",
+      "topics": "Programaci\u00f3n embebida en C/C++. Integraci\u00f3n hardware\u2013software, comunicaciones, energ\u00eda, seguridad y despliegue.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "EIO-018",
@@ -2138,7 +2492,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Dispositivo IoT funcional: FPGA y dise\u00f1o digital con HDL.",
-      "sourceIds": "S02; S04; S18; S21; S24; S26"
+      "sourceIds": "S02; S04; S18; S21; S24; S26",
+      "topics": "FPGA y dise\u00f1o digital con HDL. Integraci\u00f3n hardware\u2013software, comunicaciones, energ\u00eda, seguridad y despliegue.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "EIO-019",
@@ -2150,7 +2506,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Dispositivo IoT funcional: Sistemas embebidos avanzados.",
-      "sourceIds": "S02; S04; S18; S21; S24; S26"
+      "sourceIds": "S02; S04; S18; S21; S24; S26",
+      "topics": "Sistemas embebidos avanzados. Integraci\u00f3n hardware\u2013software, comunicaciones, energ\u00eda, seguridad y despliegue.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "EIO-020",
@@ -2162,7 +2520,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Dispositivo IoT funcional: Linux embebido y Yocto.",
-      "sourceIds": "S02; S04; S18; S21; S24; S26"
+      "sourceIds": "S02; S04; S18; S21; S24; S26",
+      "topics": "Linux embebido y Yocto. Integraci\u00f3n hardware\u2013software, comunicaciones, energ\u00eda, seguridad y despliegue.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "EIO-021",
@@ -2174,7 +2534,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Dispositivo IoT funcional: Sensores y actuadores.",
-      "sourceIds": "S02; S04; S18; S21; S24; S26"
+      "sourceIds": "S02; S04; S18; S21; S24; S26",
+      "topics": "Sensores y actuadores. Integraci\u00f3n hardware\u2013software, comunicaciones, energ\u00eda, seguridad y despliegue.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "SWE-008",
@@ -2186,7 +2548,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Producto de software: Pruebas de software II y automatizaci\u00f3n.",
-      "sourceIds": "S02; S03; S05; S11; S18; S22; S23"
+      "sourceIds": "S02; S03; S05; S11; S18; S22; S23",
+      "topics": "Pruebas de software II y automatizaci\u00f3n. Proceso completo, calidad, arquitectura, colaboraci\u00f3n y entrega de productos mantenibles.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "SWE-009",
@@ -2198,7 +2562,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Producto de software: Gesti\u00f3n de configuraci\u00f3n y versiones.",
-      "sourceIds": "S02; S03; S05; S11; S18; S22; S23"
+      "sourceIds": "S02; S03; S05; S11; S18; S22; S23",
+      "topics": "Gesti\u00f3n de configuraci\u00f3n y versiones. Proceso completo, calidad, arquitectura, colaboraci\u00f3n y entrega de productos mantenibles.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "SWE-010",
@@ -2210,7 +2576,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Producto de software: M\u00e9todos \u00e1giles y Lean.",
-      "sourceIds": "S02; S03; S05; S11; S18; S22; S23"
+      "sourceIds": "S02; S03; S05; S11; S18; S22; S23",
+      "topics": "M\u00e9todos \u00e1giles y Lean. Proceso completo, calidad, arquitectura, colaboraci\u00f3n y entrega de productos mantenibles.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "SWE-011",
@@ -2222,7 +2590,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Producto de software: Gesti\u00f3n de proyectos de software.",
-      "sourceIds": "S02; S03; S05; S11; S18; S22; S23"
+      "sourceIds": "S02; S03; S05; S11; S18; S22; S23",
+      "topics": "Gesti\u00f3n de proyectos de software. Proceso completo, calidad, arquitectura, colaboraci\u00f3n y entrega de productos mantenibles.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "SWE-012",
@@ -2234,7 +2604,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Producto de software: DevOps y entrega continua.",
-      "sourceIds": "S02; S03; S05; S11; S18; S22; S23"
+      "sourceIds": "S02; S03; S05; S11; S18; S22; S23",
+      "topics": "DevOps y entrega continua. Proceso completo, calidad, arquitectura, colaboraci\u00f3n y entrega de productos mantenibles.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "SWE-013",
@@ -2246,7 +2618,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Producto de software: Ingenier\u00eda de confiabilidad de software.",
-      "sourceIds": "S02; S03; S05; S11; S18; S22; S23"
+      "sourceIds": "S02; S03; S05; S11; S18; S22; S23",
+      "topics": "Ingenier\u00eda de confiabilidad de software. Proceso completo, calidad, arquitectura, colaboraci\u00f3n y entrega de productos mantenibles.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "SWE-014",
@@ -2258,7 +2632,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Producto de software: Mantenimiento y evoluci\u00f3n de software.",
-      "sourceIds": "S02; S03; S05; S11; S18; S22; S23"
+      "sourceIds": "S02; S03; S05; S11; S18; S22; S23",
+      "topics": "Mantenimiento y evoluci\u00f3n de software. Proceso completo, calidad, arquitectura, colaboraci\u00f3n y entrega de productos mantenibles.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "SWE-021",
@@ -2270,7 +2646,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Aplicaci\u00f3n desplegada: HTML, CSS y web accesible.",
-      "sourceIds": "S05; S18; S19; S22; S23"
+      "sourceIds": "S05; S18; S19; S22; S23",
+      "topics": "HTML, CSS y web accesible. Construcci\u00f3n, despliegue, observabilidad, seguridad y experiencia de usuario.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "SWE-022",
@@ -2282,7 +2660,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Aplicaci\u00f3n desplegada: JavaScript y TypeScript.",
-      "sourceIds": "S05; S18; S19; S22; S23"
+      "sourceIds": "S05; S18; S19; S22; S23",
+      "topics": "JavaScript y TypeScript. Construcci\u00f3n, despliegue, observabilidad, seguridad y experiencia de usuario.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "SWE-023",
@@ -2294,7 +2674,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Aplicaci\u00f3n desplegada: Frontend moderno.",
-      "sourceIds": "S05; S18; S19; S22; S23"
+      "sourceIds": "S05; S18; S19; S22; S23",
+      "topics": "Frontend moderno. Construcci\u00f3n, despliegue, observabilidad, seguridad y experiencia de usuario.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "SWE-024",
@@ -2306,7 +2688,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Aplicaci\u00f3n desplegada: Backend y APIs REST.",
-      "sourceIds": "S05; S18; S19; S22; S23"
+      "sourceIds": "S05; S18; S19; S22; S23",
+      "topics": "Backend y APIs REST. Construcci\u00f3n, despliegue, observabilidad, seguridad y experiencia de usuario.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "SWE-025",
@@ -2318,7 +2702,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Aplicaci\u00f3n desplegada: GraphQL y APIs orientadas a eventos.",
-      "sourceIds": "S05; S18; S19; S22; S23"
+      "sourceIds": "S05; S18; S19; S22; S23",
+      "topics": "GraphQL y APIs orientadas a eventos. Construcci\u00f3n, despliegue, observabilidad, seguridad y experiencia de usuario.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "SWE-026",
@@ -2330,7 +2716,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Aplicaci\u00f3n desplegada: Desarrollo full stack.",
-      "sourceIds": "S05; S18; S19; S22; S23"
+      "sourceIds": "S05; S18; S19; S22; S23",
+      "topics": "Desarrollo full stack. Construcci\u00f3n, despliegue, observabilidad, seguridad y experiencia de usuario.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "SWE-027",
@@ -2342,7 +2730,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Aplicaci\u00f3n desplegada: Desarrollo m\u00f3vil Android.",
-      "sourceIds": "S05; S18; S19; S22; S23"
+      "sourceIds": "S05; S18; S19; S22; S23",
+      "topics": "Desarrollo m\u00f3vil Android. Construcci\u00f3n, despliegue, observabilidad, seguridad y experiencia de usuario.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "CAP-011",
@@ -2354,7 +2744,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Informe y defensa: Innovaci\u00f3n, patentes y transferencia tecnol\u00f3gica.",
-      "sourceIds": "S01; S03; S04; S07; S08"
+      "sourceIds": "S01; S03; S04; S07; S08",
+      "topics": "Innovaci\u00f3n, patentes y transferencia tecnol\u00f3gica. M\u00e9todo cient\u00edfico, comunicaci\u00f3n, colaboraci\u00f3n, \u00e9tica, impacto y evidencia p\u00fablica.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "CAP-012",
@@ -2366,7 +2758,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Informe y defensa: Seminario de tendencias tecnol\u00f3gicas.",
-      "sourceIds": "S01; S03; S04; S07; S08"
+      "sourceIds": "S01; S03; S04; S07; S08",
+      "topics": "Seminario de tendencias tecnol\u00f3gicas. M\u00e9todo cient\u00edfico, comunicaci\u00f3n, colaboraci\u00f3n, \u00e9tica, impacto y evidencia p\u00fablica.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "MAT-015",
@@ -2378,7 +2772,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Cuaderno de problemas y notebook reproducible: M\u00e9todos num\u00e9ricos.",
-      "sourceIds": "S01; S03; S04; S09; S11; S16"
+      "sourceIds": "S01; S03; S04; S09; S11; S16",
+      "topics": "M\u00e9todos num\u00e9ricos. Definiciones, demostraciones, c\u00e1lculo manual, modelado y uso computacional.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "MAT-016",
@@ -2390,7 +2786,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Cuaderno de problemas y notebook reproducible: Optimizaci\u00f3n matem\u00e1tica.",
-      "sourceIds": "S01; S03; S04; S09; S11; S16"
+      "sourceIds": "S01; S03; S04; S09; S11; S16",
+      "topics": "Optimizaci\u00f3n matem\u00e1tica. Definiciones, demostraciones, c\u00e1lculo manual, modelado y uso computacional.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "MAT-017",
@@ -2402,7 +2800,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Cuaderno de problemas y notebook reproducible: Investigaci\u00f3n de operaciones.",
-      "sourceIds": "S01; S03; S04; S09; S11; S16"
+      "sourceIds": "S01; S03; S04; S09; S11; S16",
+      "topics": "Investigaci\u00f3n de operaciones. Definiciones, demostraciones, c\u00e1lculo manual, modelado y uso computacional.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "MAT-018",
@@ -2414,7 +2814,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Cuaderno de problemas y notebook reproducible: Teor\u00eda de grafos.",
-      "sourceIds": "S01; S03; S04; S09; S11; S16"
+      "sourceIds": "S01; S03; S04; S09; S11; S16",
+      "topics": "Teor\u00eda de grafos. Definiciones, demostraciones, c\u00e1lculo manual, modelado y uso computacional.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "MAT-019",
@@ -2426,7 +2828,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Cuaderno de problemas y notebook reproducible: Teor\u00eda de la informaci\u00f3n.",
-      "sourceIds": "S01; S03; S04; S09; S11; S16"
+      "sourceIds": "S01; S03; S04; S09; S11; S16",
+      "topics": "Teor\u00eda de la informaci\u00f3n. Definiciones, demostraciones, c\u00e1lculo manual, modelado y uso computacional.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "MAT-020",
@@ -2438,7 +2842,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Cuaderno de problemas y notebook reproducible: Procesos estoc\u00e1sticos.",
-      "sourceIds": "S01; S03; S04; S09; S11; S16"
+      "sourceIds": "S01; S03; S04; S09; S11; S16",
+      "topics": "Procesos estoc\u00e1sticos. Definiciones, demostraciones, c\u00e1lculo manual, modelado y uso computacional.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "CST-013",
@@ -2450,7 +2856,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Repositorio con pruebas: Programaci\u00f3n de GPU.",
-      "sourceIds": "S01; S09; S11; S14; S16; S18"
+      "sourceIds": "S01; S09; S11; S14; S16; S18",
+      "topics": "Programaci\u00f3n de GPU. Dise\u00f1o de algoritmos, depuraci\u00f3n, pruebas, estilo, complejidad y peque\u00f1os proyectos.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "CST-014",
@@ -2462,7 +2870,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Repositorio con pruebas: Scripting con Bash y PowerShell.",
-      "sourceIds": "S01; S09; S11; S14; S16; S18"
+      "sourceIds": "S01; S09; S11; S14; S16; S18",
+      "topics": "Scripting con Bash y PowerShell. Dise\u00f1o de algoritmos, depuraci\u00f3n, pruebas, estilo, complejidad y peque\u00f1os proyectos.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "CST-015",
@@ -2474,7 +2884,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Repositorio con pruebas: Programaci\u00f3n de bajo nivel y ensamblador.",
-      "sourceIds": "S01; S09; S11; S14; S16; S18"
+      "sourceIds": "S01; S09; S11; S14; S16; S18",
+      "topics": "Programaci\u00f3n de bajo nivel y ensamblador. Dise\u00f1o de algoritmos, depuraci\u00f3n, pruebas, estilo, complejidad y peque\u00f1os proyectos.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "CST-016",
@@ -2486,7 +2898,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Repositorio con pruebas: C++ moderno.",
-      "sourceIds": "S01; S09; S11; S14; S16; S18"
+      "sourceIds": "S01; S09; S11; S14; S16; S18",
+      "topics": "C++ moderno. Dise\u00f1o de algoritmos, depuraci\u00f3n, pruebas, estilo, complejidad y peque\u00f1os proyectos.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "CST-017",
@@ -2498,7 +2912,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Repositorio con pruebas: Java y ecosistema JVM.",
-      "sourceIds": "S01; S09; S11; S14; S16; S18"
+      "sourceIds": "S01; S09; S11; S14; S16; S18",
+      "topics": "Java y ecosistema JVM. Dise\u00f1o de algoritmos, depuraci\u00f3n, pruebas, estilo, complejidad y peque\u00f1os proyectos.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "CST-018",
@@ -2510,7 +2926,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Repositorio con pruebas: C# y plataforma .NET.",
-      "sourceIds": "S01; S09; S11; S14; S16; S18"
+      "sourceIds": "S01; S09; S11; S14; S16; S18",
+      "topics": "C# y plataforma .NET. Dise\u00f1o de algoritmos, depuraci\u00f3n, pruebas, estilo, complejidad y peque\u00f1os proyectos.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "CST-028",
@@ -2522,7 +2940,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Demostraciones y prototipo: Compiladores I.",
-      "sourceIds": "S01; S09; S14; S16; S20"
+      "sourceIds": "S01; S09; S14; S16; S20",
+      "topics": "Compiladores I. Modelos formales, l\u00edmites de c\u00f3mputo, sem\u00e1ntica, construcci\u00f3n y verificaci\u00f3n.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "CST-029",
@@ -2534,7 +2954,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Demostraciones y prototipo: Compiladores II y optimizaci\u00f3n.",
-      "sourceIds": "S01; S09; S14; S16; S20"
+      "sourceIds": "S01; S09; S14; S16; S20",
+      "topics": "Compiladores II y optimizaci\u00f3n. Modelos formales, l\u00edmites de c\u00f3mputo, sem\u00e1ntica, construcci\u00f3n y verificaci\u00f3n.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "CST-030",
@@ -2546,7 +2968,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Demostraciones y prototipo: M\u00e9todos formales.",
-      "sourceIds": "S01; S09; S14; S16; S20"
+      "sourceIds": "S01; S09; S14; S16; S20",
+      "topics": "M\u00e9todos formales. Modelos formales, l\u00edmites de c\u00f3mputo, sem\u00e1ntica, construcci\u00f3n y verificaci\u00f3n.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "CST-031",
@@ -2558,7 +2982,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Demostraciones y prototipo: Verificaci\u00f3n y model checking.",
-      "sourceIds": "S01; S09; S14; S16; S20"
+      "sourceIds": "S01; S09; S14; S16; S20",
+      "topics": "Verificaci\u00f3n y model checking. Modelos formales, l\u00edmites de c\u00f3mputo, sem\u00e1ntica, construcci\u00f3n y verificaci\u00f3n.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "CST-032",
@@ -2570,7 +2996,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Demostraciones y prototipo: Algoritmos aleatorizados y aproximaci\u00f3n.",
-      "sourceIds": "S01; S09; S14; S16; S20"
+      "sourceIds": "S01; S09; S14; S16; S20",
+      "topics": "Algoritmos aleatorizados y aproximaci\u00f3n. Modelos formales, l\u00edmites de c\u00f3mputo, sem\u00e1ntica, construcci\u00f3n y verificaci\u00f3n.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "NET-007",
@@ -2582,7 +3010,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Topolog\u00eda documentada y probada: Dise\u00f1o de redes empresariales.",
-      "sourceIds": "S03; S04; S17; S18; S27"
+      "sourceIds": "S03; S04; S17; S18; S27",
+      "topics": "Dise\u00f1o de redes empresariales. Dise\u00f1o, configuraci\u00f3n, medici\u00f3n, automatizaci\u00f3n, disponibilidad y seguridad.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "NET-008",
@@ -2594,7 +3024,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Topolog\u00eda documentada y probada: WAN, SD-WAN y VPN.",
-      "sourceIds": "S03; S04; S17; S18; S27"
+      "sourceIds": "S03; S04; S17; S18; S27",
+      "topics": "WAN, SD-WAN y VPN. Dise\u00f1o, configuraci\u00f3n, medici\u00f3n, automatizaci\u00f3n, disponibilidad y seguridad.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "NET-009",
@@ -2606,7 +3038,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Topolog\u00eda documentada y probada: Monitoreo y troubleshooting de redes.",
-      "sourceIds": "S03; S04; S17; S18; S27"
+      "sourceIds": "S03; S04; S17; S18; S27",
+      "topics": "Monitoreo y troubleshooting de redes. Dise\u00f1o, configuraci\u00f3n, medici\u00f3n, automatizaci\u00f3n, disponibilidad y seguridad.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "NET-010",
@@ -2618,7 +3052,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Topolog\u00eda documentada y probada: Automatizaci\u00f3n y programabilidad de redes.",
-      "sourceIds": "S03; S04; S17; S18; S27"
+      "sourceIds": "S03; S04; S17; S18; S27",
+      "topics": "Automatizaci\u00f3n y programabilidad de redes. Dise\u00f1o, configuraci\u00f3n, medici\u00f3n, automatizaci\u00f3n, disponibilidad y seguridad.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "NET-011",
@@ -2630,7 +3066,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Topolog\u00eda documentada y probada: Redes definidas por software.",
-      "sourceIds": "S03; S04; S17; S18; S27"
+      "sourceIds": "S03; S04; S17; S18; S27",
+      "topics": "Redes definidas por software. Dise\u00f1o, configuraci\u00f3n, medici\u00f3n, automatizaci\u00f3n, disponibilidad y seguridad.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "NET-012",
@@ -2642,7 +3080,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Topolog\u00eda documentada y probada: Teor\u00eda de comunicaciones.",
-      "sourceIds": "S03; S04; S17; S18; S27"
+      "sourceIds": "S03; S04; S17; S18; S27",
+      "topics": "Teor\u00eda de comunicaciones. Dise\u00f1o, configuraci\u00f3n, medici\u00f3n, automatizaci\u00f3n, disponibilidad y seguridad.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "NET-020",
@@ -2654,7 +3094,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Infraestructura como c\u00f3digo: Administraci\u00f3n Linux I.",
-      "sourceIds": "S03; S28; S29; S30; S31"
+      "sourceIds": "S03; S28; S29; S30; S31",
+      "topics": "Administraci\u00f3n Linux I. Implementaci\u00f3n, automatizaci\u00f3n, identidad, monitoreo, continuidad y optimizaci\u00f3n de costos.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "NET-021",
@@ -2666,7 +3108,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Infraestructura como c\u00f3digo: Administraci\u00f3n Linux II.",
-      "sourceIds": "S03; S28; S29; S30; S31"
+      "sourceIds": "S03; S28; S29; S30; S31",
+      "topics": "Administraci\u00f3n Linux II. Implementaci\u00f3n, automatizaci\u00f3n, identidad, monitoreo, continuidad y optimizaci\u00f3n de costos.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "NET-022",
@@ -2678,7 +3122,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Infraestructura como c\u00f3digo: Administraci\u00f3n Windows Server I.",
-      "sourceIds": "S03; S28; S29; S30; S31"
+      "sourceIds": "S03; S28; S29; S30; S31",
+      "topics": "Administraci\u00f3n Windows Server I. Implementaci\u00f3n, automatizaci\u00f3n, identidad, monitoreo, continuidad y optimizaci\u00f3n de costos.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "NET-023",
@@ -2690,7 +3136,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Infraestructura como c\u00f3digo: Administraci\u00f3n Windows Server II.",
-      "sourceIds": "S03; S28; S29; S30; S31"
+      "sourceIds": "S03; S28; S29; S30; S31",
+      "topics": "Administraci\u00f3n Windows Server II. Implementaci\u00f3n, automatizaci\u00f3n, identidad, monitoreo, continuidad y optimizaci\u00f3n de costos.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "NET-024",
@@ -2702,7 +3150,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Infraestructura como c\u00f3digo: Active Directory, Entra ID e identidad h\u00edbrida.",
-      "sourceIds": "S03; S28; S29; S30; S31"
+      "sourceIds": "S03; S28; S29; S30; S31",
+      "topics": "Active Directory, Entra ID e identidad h\u00edbrida. Implementaci\u00f3n, automatizaci\u00f3n, identidad, monitoreo, continuidad y optimizaci\u00f3n de costos.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "NET-025",
@@ -2714,7 +3164,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Infraestructura como c\u00f3digo: Automatizaci\u00f3n de sistemas con PowerShell.",
-      "sourceIds": "S03; S28; S29; S30; S31"
+      "sourceIds": "S03; S28; S29; S30; S31",
+      "topics": "Automatizaci\u00f3n de sistemas con PowerShell. Implementaci\u00f3n, automatizaci\u00f3n, identidad, monitoreo, continuidad y optimizaci\u00f3n de costos.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "NET-026",
@@ -2726,7 +3178,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Infraestructura como c\u00f3digo: Automatizaci\u00f3n de sistemas con Ansible.",
-      "sourceIds": "S03; S28; S29; S30; S31"
+      "sourceIds": "S03; S28; S29; S30; S31",
+      "topics": "Automatizaci\u00f3n de sistemas con Ansible. Implementaci\u00f3n, automatizaci\u00f3n, identidad, monitoreo, continuidad y optimizaci\u00f3n de costos.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "ROB-001",
@@ -2738,7 +3192,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Prototipo mecatr\u00f3nico: Est\u00e1tica y resistencia de materiales.",
-      "sourceIds": "S04; S24; S25; S48"
+      "sourceIds": "S04; S24; S25; S48",
+      "topics": "Est\u00e1tica y resistencia de materiales. Modelado f\u00edsico, dise\u00f1o, fabricaci\u00f3n, control y pruebas seguras.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "ROB-002",
@@ -2750,7 +3206,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Prototipo mecatr\u00f3nico: Din\u00e1mica y mecanismos.",
-      "sourceIds": "S04; S24; S25; S48"
+      "sourceIds": "S04; S24; S25; S48",
+      "topics": "Din\u00e1mica y mecanismos. Modelado f\u00edsico, dise\u00f1o, fabricaci\u00f3n, control y pruebas seguras.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "ROB-003",
@@ -2762,7 +3220,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Prototipo mecatr\u00f3nico: Dise\u00f1o mec\u00e1nico y CAD.",
-      "sourceIds": "S04; S24; S25; S48"
+      "sourceIds": "S04; S24; S25; S48",
+      "topics": "Dise\u00f1o mec\u00e1nico y CAD. Modelado f\u00edsico, dise\u00f1o, fabricaci\u00f3n, control y pruebas seguras.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "ROB-004",
@@ -2774,7 +3234,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Prototipo mecatr\u00f3nico: Manufactura digital e impresi\u00f3n 3D.",
-      "sourceIds": "S04; S24; S25; S48"
+      "sourceIds": "S04; S24; S25; S48",
+      "topics": "Manufactura digital e impresi\u00f3n 3D. Modelado f\u00edsico, dise\u00f1o, fabricaci\u00f3n, control y pruebas seguras.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "ROB-005",
@@ -2786,7 +3248,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Prototipo mecatr\u00f3nico: Control autom\u00e1tico I.",
-      "sourceIds": "S04; S24; S25; S48"
+      "sourceIds": "S04; S24; S25; S48",
+      "topics": "Control autom\u00e1tico I. Modelado f\u00edsico, dise\u00f1o, fabricaci\u00f3n, control y pruebas seguras.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "ROB-006",
@@ -2798,7 +3262,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Prototipo mecatr\u00f3nico: Control autom\u00e1tico II.",
-      "sourceIds": "S04; S24; S25; S48"
+      "sourceIds": "S04; S24; S25; S48",
+      "topics": "Control autom\u00e1tico II. Modelado f\u00edsico, dise\u00f1o, fabricaci\u00f3n, control y pruebas seguras.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "ISM-008",
@@ -2810,7 +3276,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Caso empresarial y arquitectura: ERP.",
-      "sourceIds": "S02; S03; S05; S06; S22; S34"
+      "sourceIds": "S02; S03; S05; S06; S22; S34",
+      "topics": "ERP. Alineaci\u00f3n negocio\u2013tecnolog\u00eda, procesos, arquitectura, control, servicio y transformaci\u00f3n.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "ISM-009",
@@ -2822,7 +3290,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Caso empresarial y arquitectura: CRM.",
-      "sourceIds": "S02; S03; S05; S06; S22; S34"
+      "sourceIds": "S02; S03; S05; S06; S22; S34",
+      "topics": "CRM. Alineaci\u00f3n negocio\u2013tecnolog\u00eda, procesos, arquitectura, control, servicio y transformaci\u00f3n.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "ISM-010",
@@ -2834,7 +3304,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Caso empresarial y arquitectura: SCM y log\u00edstica digital.",
-      "sourceIds": "S02; S03; S05; S06; S22; S34"
+      "sourceIds": "S02; S03; S05; S06; S22; S34",
+      "topics": "SCM y log\u00edstica digital. Alineaci\u00f3n negocio\u2013tecnolog\u00eda, procesos, arquitectura, control, servicio y transformaci\u00f3n.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "ISM-011",
@@ -2846,7 +3318,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Caso empresarial y arquitectura: Arquitectura empresarial.",
-      "sourceIds": "S02; S03; S05; S06; S22; S34"
+      "sourceIds": "S02; S03; S05; S06; S22; S34",
+      "topics": "Arquitectura empresarial. Alineaci\u00f3n negocio\u2013tecnolog\u00eda, procesos, arquitectura, control, servicio y transformaci\u00f3n.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "ISM-012",
@@ -2858,7 +3332,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Caso empresarial y arquitectura: Gobierno de TI.",
-      "sourceIds": "S02; S03; S05; S06; S22; S34"
+      "sourceIds": "S02; S03; S05; S06; S22; S34",
+      "topics": "Gobierno de TI. Alineaci\u00f3n negocio\u2013tecnolog\u00eda, procesos, arquitectura, control, servicio y transformaci\u00f3n.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "ISM-013",
@@ -2870,7 +3346,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Caso empresarial y arquitectura: ITIL y gesti\u00f3n de servicios.",
-      "sourceIds": "S02; S03; S05; S06; S22; S34"
+      "sourceIds": "S02; S03; S05; S06; S22; S34",
+      "topics": "ITIL y gesti\u00f3n de servicios. Alineaci\u00f3n negocio\u2013tecnolog\u00eda, procesos, arquitectura, control, servicio y transformaci\u00f3n.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "ISM-014",
@@ -2882,7 +3360,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Caso empresarial y arquitectura: Help Desk, incidentes y problemas.",
-      "sourceIds": "S02; S03; S05; S06; S22; S34"
+      "sourceIds": "S02; S03; S05; S06; S22; S34",
+      "topics": "Help Desk, incidentes y problemas. Alineaci\u00f3n negocio\u2013tecnolog\u00eda, procesos, arquitectura, control, servicio y transformaci\u00f3n.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "SYS-007",
@@ -2894,7 +3374,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Laboratorio de sistema: Virtualizaci\u00f3n e hipervisores.",
-      "sourceIds": "S01; S02; S09; S13; S16; S17; S20"
+      "sourceIds": "S01; S02; S09; S13; S16; S17; S20",
+      "topics": "Virtualizaci\u00f3n e hipervisores. Funcionamiento interno, dise\u00f1o, medici\u00f3n de rendimiento y laboratorios reproducibles.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "SYS-008",
@@ -2906,7 +3388,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Laboratorio de sistema: Contenedores desde fundamentos.",
-      "sourceIds": "S01; S02; S09; S13; S16; S17; S20"
+      "sourceIds": "S01; S02; S09; S13; S16; S17; S20",
+      "topics": "Contenedores desde fundamentos. Funcionamiento interno, dise\u00f1o, medici\u00f3n de rendimiento y laboratorios reproducibles.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "SYS-009",
@@ -2918,7 +3402,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Laboratorio de sistema: Sistemas distribuidos I.",
-      "sourceIds": "S01; S02; S09; S13; S16; S17; S20"
+      "sourceIds": "S01; S02; S09; S13; S16; S17; S20",
+      "topics": "Sistemas distribuidos I. Funcionamiento interno, dise\u00f1o, medici\u00f3n de rendimiento y laboratorios reproducibles.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "SYS-010",
@@ -2930,7 +3416,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Laboratorio de sistema: Sistemas distribuidos II.",
-      "sourceIds": "S01; S02; S09; S13; S16; S17; S20"
+      "sourceIds": "S01; S02; S09; S13; S16; S17; S20",
+      "topics": "Sistemas distribuidos II. Funcionamiento interno, dise\u00f1o, medici\u00f3n de rendimiento y laboratorios reproducibles.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "SYS-011",
@@ -2942,7 +3430,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Laboratorio de sistema: Sistemas en tiempo real.",
-      "sourceIds": "S01; S02; S09; S13; S16; S17; S20"
+      "sourceIds": "S01; S02; S09; S13; S16; S17; S20",
+      "topics": "Sistemas en tiempo real. Funcionamiento interno, dise\u00f1o, medici\u00f3n de rendimiento y laboratorios reproducibles.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "SYS-012",
@@ -2954,7 +3444,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Laboratorio de sistema: Sistemas embebidos.",
-      "sourceIds": "S01; S02; S09; S13; S16; S17; S20"
+      "sourceIds": "S01; S02; S09; S13; S16; S17; S20",
+      "topics": "Sistemas embebidos. Funcionamiento interno, dise\u00f1o, medici\u00f3n de rendimiento y laboratorios reproducibles.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "REP-015",
@@ -2966,7 +3458,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Orden de servicio con pruebas antes/despu\u00e9s: Firmware, BIOS/UEFI y flasheo seguro.",
-      "sourceIds": "S03; S47; S48"
+      "sourceIds": "S03; S47; S48",
+      "topics": "Firmware, BIOS/UEFI y flasheo seguro. Diagn\u00f3stico sistem\u00e1tico, ESD, herramientas correctas, documentaci\u00f3n, datos y seguridad del usuario.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "REP-016",
@@ -2978,7 +3472,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Orden de servicio con pruebas antes/despu\u00e9s: Gesti\u00f3n de repuestos, garant\u00edas y calidad.",
-      "sourceIds": "S03; S47; S48"
+      "sourceIds": "S03; S47; S48",
+      "topics": "Gesti\u00f3n de repuestos, garant\u00edas y calidad. Diagn\u00f3stico sistem\u00e1tico, ESD, herramientas correctas, documentaci\u00f3n, datos y seguridad del usuario.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "REP-017",
@@ -2990,7 +3486,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Orden de servicio con pruebas antes/despu\u00e9s: Seguridad ESD, bater\u00edas y residuos electr\u00f3nicos.",
-      "sourceIds": "S03; S47; S48"
+      "sourceIds": "S03; S47; S48",
+      "topics": "Seguridad ESD, bater\u00edas y residuos electr\u00f3nicos. Diagn\u00f3stico sistem\u00e1tico, ESD, herramientas correctas, documentaci\u00f3n, datos y seguridad del usuario.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "REP-018",
@@ -3002,7 +3500,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Orden de servicio con pruebas antes/despu\u00e9s: Atenci\u00f3n al cliente y documentaci\u00f3n t\u00e9cnica.",
-      "sourceIds": "S03; S47; S48"
+      "sourceIds": "S03; S47; S48",
+      "topics": "Atenci\u00f3n al cliente y documentaci\u00f3n t\u00e9cnica. Diagn\u00f3stico sistem\u00e1tico, ESD, herramientas correctas, documentaci\u00f3n, datos y seguridad del usuario.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "REP-019",
@@ -3014,7 +3514,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Orden de servicio con pruebas antes/despu\u00e9s: Soporte remoto y administraci\u00f3n de endpoints.",
-      "sourceIds": "S03; S47; S48"
+      "sourceIds": "S03; S47; S48",
+      "topics": "Soporte remoto y administraci\u00f3n de endpoints. Diagn\u00f3stico sistem\u00e1tico, ESD, herramientas correctas, documentaci\u00f3n, datos y seguridad del usuario.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "REP-020",
@@ -3026,7 +3528,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Orden de servicio con pruebas antes/despu\u00e9s: Laboratorio integral de reparaci\u00f3n multimarca.",
-      "sourceIds": "S03; S47; S48"
+      "sourceIds": "S03; S47; S48",
+      "topics": "Laboratorio integral de reparaci\u00f3n multimarca. Diagn\u00f3stico sistem\u00e1tico, ESD, herramientas correctas, documentaci\u00f3n, datos y seguridad del usuario.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "CYB-008",
@@ -3038,7 +3542,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Evaluaci\u00f3n defensiva: Seguridad web y APIs.",
-      "sourceIds": "S03; S05; S08; S33; S34; S36"
+      "sourceIds": "S03; S05; S08; S33; S34; S36",
+      "topics": "Seguridad web y APIs. Dise\u00f1o de controles, laboratorios aislados, gesti\u00f3n de riesgo y evidencia auditable.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "CYB-009",
@@ -3050,7 +3556,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Evaluaci\u00f3n defensiva: Seguridad m\u00f3vil.",
-      "sourceIds": "S03; S05; S08; S33; S34; S36"
+      "sourceIds": "S03; S05; S08; S33; S34; S36",
+      "topics": "Seguridad m\u00f3vil. Dise\u00f1o de controles, laboratorios aislados, gesti\u00f3n de riesgo y evidencia auditable.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "CYB-010",
@@ -3062,7 +3570,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Evaluaci\u00f3n defensiva: Seguridad cloud.",
-      "sourceIds": "S03; S05; S08; S33; S34; S36"
+      "sourceIds": "S03; S05; S08; S33; S34; S36",
+      "topics": "Seguridad cloud. Dise\u00f1o de controles, laboratorios aislados, gesti\u00f3n de riesgo y evidencia auditable.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "CYB-011",
@@ -3074,7 +3584,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Evaluaci\u00f3n defensiva: Seguridad de contenedores y Kubernetes.",
-      "sourceIds": "S03; S05; S08; S33; S34; S36"
+      "sourceIds": "S03; S05; S08; S33; S34; S36",
+      "topics": "Seguridad de contenedores y Kubernetes. Dise\u00f1o de controles, laboratorios aislados, gesti\u00f3n de riesgo y evidencia auditable.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "CYB-012",
@@ -3086,7 +3598,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Evaluaci\u00f3n defensiva: Seguridad de IoT y sistemas embebidos.",
-      "sourceIds": "S03; S05; S08; S33; S34; S36"
+      "sourceIds": "S03; S05; S08; S33; S34; S36",
+      "topics": "Seguridad de IoT y sistemas embebidos. Dise\u00f1o de controles, laboratorios aislados, gesti\u00f3n de riesgo y evidencia auditable.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "CYB-013",
@@ -3098,7 +3612,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Evaluaci\u00f3n defensiva: Seguridad OT/ICS y SCADA.",
-      "sourceIds": "S03; S05; S08; S33; S34; S36"
+      "sourceIds": "S03; S05; S08; S33; S34; S36",
+      "topics": "Seguridad OT/ICS y SCADA. Dise\u00f1o de controles, laboratorios aislados, gesti\u00f3n de riesgo y evidencia auditable.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "CYB-014",
@@ -3110,7 +3626,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Evaluaci\u00f3n defensiva: Arquitectura Zero Trust.",
-      "sourceIds": "S03; S05; S08; S33; S34; S36"
+      "sourceIds": "S03; S05; S08; S33; S34; S36",
+      "topics": "Arquitectura Zero Trust. Dise\u00f1o de controles, laboratorios aislados, gesti\u00f3n de riesgo y evidencia auditable.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "DAI-013",
@@ -3122,7 +3640,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Sistema de datos: Big Data con Spark.",
-      "sourceIds": "S01; S07; S17; S18; S20; S37; S38"
+      "sourceIds": "S01; S07; S17; S18; S20; S37; S38",
+      "topics": "Big Data con Spark. Modelado, consulta, calidad, gobierno, rendimiento y pipelines reproducibles.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "DAI-014",
@@ -3134,7 +3654,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Sistema de datos: Procesamiento de streaming.",
-      "sourceIds": "S01; S07; S17; S18; S20; S37; S38"
+      "sourceIds": "S01; S07; S17; S18; S20; S37; S38",
+      "topics": "Procesamiento de streaming. Modelado, consulta, calidad, gobierno, rendimiento y pipelines reproducibles.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "DAI-015",
@@ -3146,7 +3668,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Sistema de datos: Lakehouse y arquitecturas modernas de datos.",
-      "sourceIds": "S01; S07; S17; S18; S20; S37; S38"
+      "sourceIds": "S01; S07; S17; S18; S20; S37; S38",
+      "topics": "Lakehouse y arquitecturas modernas de datos. Modelado, consulta, calidad, gobierno, rendimiento y pipelines reproducibles.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "DAI-016",
@@ -3158,7 +3682,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Sistema de datos: Sistemas de b\u00fasqueda y recuperaci\u00f3n de informaci\u00f3n.",
-      "sourceIds": "S01; S07; S17; S18; S20; S37; S38"
+      "sourceIds": "S01; S07; S17; S18; S20; S37; S38",
+      "topics": "Sistemas de b\u00fasqueda y recuperaci\u00f3n de informaci\u00f3n. Modelado, consulta, calidad, gobierno, rendimiento y pipelines reproducibles.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "DAI-017",
@@ -3170,7 +3696,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Sistema de datos: Grafos de conocimiento y bases de grafos.",
-      "sourceIds": "S01; S07; S17; S18; S20; S37; S38"
+      "sourceIds": "S01; S07; S17; S18; S20; S37; S38",
+      "topics": "Grafos de conocimiento y bases de grafos. Modelado, consulta, calidad, gobierno, rendimiento y pipelines reproducibles.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "DAI-023",
@@ -3182,7 +3710,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Dashboard y memo ejecutivo: Anal\u00edtica de negocios.",
-      "sourceIds": "S06; S07; S37; S38; S49"
+      "sourceIds": "S06; S07; S37; S38; S49",
+      "topics": "Anal\u00edtica de negocios. Preparaci\u00f3n, an\u00e1lisis, visualizaci\u00f3n, comunicaci\u00f3n, seguridad y decisi\u00f3n de negocio.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "DAI-024",
@@ -3194,7 +3724,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Dashboard y memo ejecutivo: M\u00e9tricas, KPIs y experimentaci\u00f3n.",
-      "sourceIds": "S06; S07; S37; S38; S49"
+      "sourceIds": "S06; S07; S37; S38; S49",
+      "topics": "M\u00e9tricas, KPIs y experimentaci\u00f3n. Preparaci\u00f3n, an\u00e1lisis, visualizaci\u00f3n, comunicaci\u00f3n, seguridad y decisi\u00f3n de negocio.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "DAI-025",
@@ -3206,7 +3738,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Dashboard y memo ejecutivo: An\u00e1lisis de series temporales.",
-      "sourceIds": "S06; S07; S37; S38; S49"
+      "sourceIds": "S06; S07; S37; S38; S49",
+      "topics": "An\u00e1lisis de series temporales. Preparaci\u00f3n, an\u00e1lisis, visualizaci\u00f3n, comunicaci\u00f3n, seguridad y decisi\u00f3n de negocio.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "DAI-026",
@@ -3218,7 +3752,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Dashboard y memo ejecutivo: An\u00e1lisis causal y experimentos A/B.",
-      "sourceIds": "S06; S07; S37; S38; S49"
+      "sourceIds": "S06; S07; S37; S38; S49",
+      "topics": "An\u00e1lisis causal y experimentos A/B. Preparaci\u00f3n, an\u00e1lisis, visualizaci\u00f3n, comunicaci\u00f3n, seguridad y decisi\u00f3n de negocio.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "DAI-027",
@@ -3230,7 +3766,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Dashboard y memo ejecutivo: Anal\u00edtica geoespacial.",
-      "sourceIds": "S06; S07; S37; S38; S49"
+      "sourceIds": "S06; S07; S37; S38; S49",
+      "topics": "Anal\u00edtica geoespacial. Preparaci\u00f3n, an\u00e1lisis, visualizaci\u00f3n, comunicaci\u00f3n, seguridad y decisi\u00f3n de negocio.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "DAI-028",
@@ -3242,7 +3780,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Modelo evaluado y desplegado: Fundamentos de inteligencia artificial.",
-      "sourceIds": "S01; S07; S12; S18; S19; S20; S38"
+      "sourceIds": "S01; S07; S12; S18; S19; S20; S38",
+      "topics": "Fundamentos de inteligencia artificial. Fundamentos, evaluaci\u00f3n rigurosa, implementaci\u00f3n, despliegue responsable y aplicaciones.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "DAI-029",
@@ -3254,7 +3794,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Modelo evaluado y desplegado: Machine Learning I.",
-      "sourceIds": "S01; S07; S12; S18; S19; S20; S38"
+      "sourceIds": "S01; S07; S12; S18; S19; S20; S38",
+      "topics": "Machine Learning I. Fundamentos, evaluaci\u00f3n rigurosa, implementaci\u00f3n, despliegue responsable y aplicaciones.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "DAI-030",
@@ -3266,7 +3808,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Modelo evaluado y desplegado: Machine Learning II.",
-      "sourceIds": "S01; S07; S12; S18; S19; S20; S38"
+      "sourceIds": "S01; S07; S12; S18; S19; S20; S38",
+      "topics": "Machine Learning II. Fundamentos, evaluaci\u00f3n rigurosa, implementaci\u00f3n, despliegue responsable y aplicaciones.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "DAI-031",
@@ -3278,7 +3822,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Modelo evaluado y desplegado: Deep Learning.",
-      "sourceIds": "S01; S07; S12; S18; S19; S20; S38"
+      "sourceIds": "S01; S07; S12; S18; S19; S20; S38",
+      "topics": "Deep Learning. Fundamentos, evaluaci\u00f3n rigurosa, implementaci\u00f3n, despliegue responsable y aplicaciones.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "DAI-032",
@@ -3290,7 +3836,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Modelo evaluado y desplegado: Visi\u00f3n por computador.",
-      "sourceIds": "S01; S07; S12; S18; S19; S20; S38"
+      "sourceIds": "S01; S07; S12; S18; S19; S20; S38",
+      "topics": "Visi\u00f3n por computador. Fundamentos, evaluaci\u00f3n rigurosa, implementaci\u00f3n, despliegue responsable y aplicaciones.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "DAI-033",
@@ -3302,7 +3850,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Modelo evaluado y desplegado: Procesamiento de lenguaje natural.",
-      "sourceIds": "S01; S07; S12; S18; S19; S20; S38"
+      "sourceIds": "S01; S07; S12; S18; S19; S20; S38",
+      "topics": "Procesamiento de lenguaje natural. Fundamentos, evaluaci\u00f3n rigurosa, implementaci\u00f3n, despliegue responsable y aplicaciones.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "MED-033",
@@ -3314,7 +3864,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 96.0,
       "evidence": "Producci\u00f3n audiovisual: Efectos visuales y composici\u00f3n.",
-      "sourceIds": "S44; S45"
+      "sourceIds": "S44; S45",
+      "topics": "Efectos visuales y composici\u00f3n. Lenguaje, t\u00e9cnica, flujo de producci\u00f3n, narrativa, \u00e9tica y publicaci\u00f3n multiformato.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "MED-034",
@@ -3326,7 +3878,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 96.0,
       "evidence": "Producci\u00f3n audiovisual: Animaci\u00f3n 2D.",
-      "sourceIds": "S44; S45"
+      "sourceIds": "S44; S45",
+      "topics": "Animaci\u00f3n 2D. Lenguaje, t\u00e9cnica, flujo de producci\u00f3n, narrativa, \u00e9tica y publicaci\u00f3n multiformato.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "MED-035",
@@ -3338,7 +3892,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 96.0,
       "evidence": "Producci\u00f3n audiovisual: Modelado y animaci\u00f3n 3D con Blender.",
-      "sourceIds": "S44; S45"
+      "sourceIds": "S44; S45",
+      "topics": "Modelado y animaci\u00f3n 3D con Blender. Lenguaje, t\u00e9cnica, flujo de producci\u00f3n, narrativa, \u00e9tica y publicaci\u00f3n multiformato.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "MED-036",
@@ -3350,7 +3906,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 96.0,
       "evidence": "Producci\u00f3n audiovisual: Documental.",
-      "sourceIds": "S44; S45"
+      "sourceIds": "S44; S45",
+      "topics": "Documental. Lenguaje, t\u00e9cnica, flujo de producci\u00f3n, narrativa, \u00e9tica y publicaci\u00f3n multiformato.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "MED-037",
@@ -3362,7 +3920,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 96.0,
       "evidence": "Producci\u00f3n audiovisual: Streaming y producci\u00f3n multic\u00e1mara.",
-      "sourceIds": "S44; S45"
+      "sourceIds": "S44; S45",
+      "topics": "Streaming y producci\u00f3n multic\u00e1mara. Lenguaje, t\u00e9cnica, flujo de producci\u00f3n, narrativa, \u00e9tica y publicaci\u00f3n multiformato.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "MED-038",
@@ -3374,7 +3934,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 96.0,
       "evidence": "Producci\u00f3n audiovisual: Gesti\u00f3n de medios y preservaci\u00f3n digital.",
-      "sourceIds": "S44; S45"
+      "sourceIds": "S44; S45",
+      "topics": "Gesti\u00f3n de medios y preservaci\u00f3n digital. Lenguaje, t\u00e9cnica, flujo de producci\u00f3n, narrativa, \u00e9tica y publicaci\u00f3n multiformato.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "MED-039",
@@ -3386,7 +3948,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 96.0,
       "evidence": "Producci\u00f3n audiovisual: \u00c9tica, derechos de autor y licencias creativas.",
-      "sourceIds": "S44; S45"
+      "sourceIds": "S44; S45",
+      "topics": "\u00c9tica, derechos de autor y licencias creativas. Lenguaje, t\u00e9cnica, flujo de producci\u00f3n, narrativa, \u00e9tica y publicaci\u00f3n multiformato.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "EIO-013",
@@ -3398,7 +3962,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Circuito medido y documentado: Microelectr\u00f3nica y fabricaci\u00f3n de chips.",
-      "sourceIds": "S04; S10; S13; S21; S26; S48"
+      "sourceIds": "S04; S10; S13; S21; S26; S48",
+      "topics": "Microelectr\u00f3nica y fabricaci\u00f3n de chips. C\u00e1lculo, simulaci\u00f3n, medici\u00f3n con instrumentos, seguridad y montaje en laboratorio.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "EIO-014",
@@ -3410,7 +3976,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Circuito medido y documentado: Compatibilidad electromagn\u00e9tica.",
-      "sourceIds": "S04; S10; S13; S21; S26; S48"
+      "sourceIds": "S04; S10; S13; S21; S26; S48",
+      "topics": "Compatibilidad electromagn\u00e9tica. C\u00e1lculo, simulaci\u00f3n, medici\u00f3n con instrumentos, seguridad y montaje en laboratorio.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "EIO-015",
@@ -3422,7 +3990,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Circuito medido y documentado: Fuentes de alimentaci\u00f3n y bater\u00edas.",
-      "sourceIds": "S04; S10; S13; S21; S26; S48"
+      "sourceIds": "S04; S10; S13; S21; S26; S48",
+      "topics": "Fuentes de alimentaci\u00f3n y bater\u00edas. C\u00e1lculo, simulaci\u00f3n, medici\u00f3n con instrumentos, seguridad y montaje en laboratorio.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "EIO-022",
@@ -3434,7 +4004,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Dispositivo IoT funcional: Protocolos de buses y perif\u00e9ricos.",
-      "sourceIds": "S02; S04; S18; S21; S24; S26"
+      "sourceIds": "S02; S04; S18; S21; S24; S26",
+      "topics": "Protocolos de buses y perif\u00e9ricos. Integraci\u00f3n hardware\u2013software, comunicaciones, energ\u00eda, seguridad y despliegue.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "EIO-023",
@@ -3446,7 +4018,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Dispositivo IoT funcional: Arquitectura IoT.",
-      "sourceIds": "S02; S04; S18; S21; S24; S26"
+      "sourceIds": "S02; S04; S18; S21; S24; S26",
+      "topics": "Arquitectura IoT. Integraci\u00f3n hardware\u2013software, comunicaciones, energ\u00eda, seguridad y despliegue.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "EIO-024",
@@ -3458,7 +4032,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Dispositivo IoT funcional: Redes IoT y LPWAN.",
-      "sourceIds": "S02; S04; S18; S21; S24; S26"
+      "sourceIds": "S02; S04; S18; S21; S24; S26",
+      "topics": "Redes IoT y LPWAN. Integraci\u00f3n hardware\u2013software, comunicaciones, energ\u00eda, seguridad y despliegue.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "EIO-025",
@@ -3470,7 +4046,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Dispositivo IoT funcional: Plataformas cloud para IoT.",
-      "sourceIds": "S02; S04; S18; S21; S24; S26"
+      "sourceIds": "S02; S04; S18; S21; S24; S26",
+      "topics": "Plataformas cloud para IoT. Integraci\u00f3n hardware\u2013software, comunicaciones, energ\u00eda, seguridad y despliegue.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "EIO-026",
@@ -3482,7 +4060,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Dispositivo IoT funcional: Edge AI y TinyML.",
-      "sourceIds": "S02; S04; S18; S21; S24; S26"
+      "sourceIds": "S02; S04; S18; S21; S24; S26",
+      "topics": "Edge AI y TinyML. Integraci\u00f3n hardware\u2013software, comunicaciones, energ\u00eda, seguridad y despliegue.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "EIO-027",
@@ -3494,7 +4074,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Dispositivo IoT funcional: Seguridad y privacidad IoT.",
-      "sourceIds": "S02; S04; S18; S21; S24; S26"
+      "sourceIds": "S02; S04; S18; S21; S24; S26",
+      "topics": "Seguridad y privacidad IoT. Integraci\u00f3n hardware\u2013software, comunicaciones, energ\u00eda, seguridad y despliegue.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "GXR-001",
@@ -3506,7 +4088,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 96.0,
       "evidence": "Demo interactiva: Computaci\u00f3n gr\u00e1fica I.",
-      "sourceIds": "S01; S12; S18; S20; S22; S23"
+      "sourceIds": "S01; S12; S18; S20; S22; S23",
+      "topics": "Computaci\u00f3n gr\u00e1fica I. Matem\u00e1tica visual, interacci\u00f3n en tiempo real, optimizaci\u00f3n, experiencia y producci\u00f3n.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "GXR-002",
@@ -3518,7 +4102,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 96.0,
       "evidence": "Demo interactiva: Computaci\u00f3n gr\u00e1fica II.",
-      "sourceIds": "S01; S12; S18; S20; S22; S23"
+      "sourceIds": "S01; S12; S18; S20; S22; S23",
+      "topics": "Computaci\u00f3n gr\u00e1fica II. Matem\u00e1tica visual, interacci\u00f3n en tiempo real, optimizaci\u00f3n, experiencia y producci\u00f3n.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "GXR-003",
@@ -3530,7 +4116,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 96.0,
       "evidence": "Demo interactiva: Geometr\u00eda computacional.",
-      "sourceIds": "S01; S12; S18; S20; S22; S23"
+      "sourceIds": "S01; S12; S18; S20; S22; S23",
+      "topics": "Geometr\u00eda computacional. Matem\u00e1tica visual, interacci\u00f3n en tiempo real, optimizaci\u00f3n, experiencia y producci\u00f3n.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "GXR-004",
@@ -3542,7 +4130,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 96.0,
       "evidence": "Demo interactiva: Renderizado en tiempo real.",
-      "sourceIds": "S01; S12; S18; S20; S22; S23"
+      "sourceIds": "S01; S12; S18; S20; S22; S23",
+      "topics": "Renderizado en tiempo real. Matem\u00e1tica visual, interacci\u00f3n en tiempo real, optimizaci\u00f3n, experiencia y producci\u00f3n.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "GXR-005",
@@ -3554,7 +4144,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 96.0,
       "evidence": "Demo interactiva: Shaders y programaci\u00f3n de GPU gr\u00e1fica.",
-      "sourceIds": "S01; S12; S18; S20; S22; S23"
+      "sourceIds": "S01; S12; S18; S20; S22; S23",
+      "topics": "Shaders y programaci\u00f3n de GPU gr\u00e1fica. Matem\u00e1tica visual, interacci\u00f3n en tiempo real, optimizaci\u00f3n, experiencia y producci\u00f3n.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "GXR-006",
@@ -3566,7 +4158,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 96.0,
       "evidence": "Demo interactiva: Animaci\u00f3n por computador.",
-      "sourceIds": "S01; S12; S18; S20; S22; S23"
+      "sourceIds": "S01; S12; S18; S20; S22; S23",
+      "topics": "Animaci\u00f3n por computador. Matem\u00e1tica visual, interacci\u00f3n en tiempo real, optimizaci\u00f3n, experiencia y producci\u00f3n.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "SWE-015",
@@ -3578,7 +4172,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Producto de software: Ingenier\u00eda de requisitos de sistemas cr\u00edticos.",
-      "sourceIds": "S02; S03; S05; S11; S18; S22; S23"
+      "sourceIds": "S02; S03; S05; S11; S18; S22; S23",
+      "topics": "Ingenier\u00eda de requisitos de sistemas cr\u00edticos. Proceso completo, calidad, arquitectura, colaboraci\u00f3n y entrega de productos mantenibles.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "SWE-016",
@@ -3590,7 +4186,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Producto de software: Software seguro por dise\u00f1o.",
-      "sourceIds": "S02; S03; S05; S11; S18; S22; S23"
+      "sourceIds": "S02; S03; S05; S11; S18; S22; S23",
+      "topics": "Software seguro por dise\u00f1o. Proceso completo, calidad, arquitectura, colaboraci\u00f3n y entrega de productos mantenibles.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "SWE-017",
@@ -3602,7 +4200,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Producto de software: Accesibilidad digital.",
-      "sourceIds": "S02; S03; S05; S11; S18; S22; S23"
+      "sourceIds": "S02; S03; S05; S11; S18; S22; S23",
+      "topics": "Accesibilidad digital. Proceso completo, calidad, arquitectura, colaboraci\u00f3n y entrega de productos mantenibles.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "SWE-018",
@@ -3614,7 +4214,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Producto de software: Investigaci\u00f3n de usuarios y UX.",
-      "sourceIds": "S02; S03; S05; S11; S18; S22; S23"
+      "sourceIds": "S02; S03; S05; S11; S18; S22; S23",
+      "topics": "Investigaci\u00f3n de usuarios y UX. Proceso completo, calidad, arquitectura, colaboraci\u00f3n y entrega de productos mantenibles.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "SWE-019",
@@ -3626,7 +4228,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Producto de software: Dise\u00f1o de producto digital.",
-      "sourceIds": "S02; S03; S05; S11; S18; S22; S23"
+      "sourceIds": "S02; S03; S05; S11; S18; S22; S23",
+      "topics": "Dise\u00f1o de producto digital. Proceso completo, calidad, arquitectura, colaboraci\u00f3n y entrega de productos mantenibles.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "SWE-020",
@@ -3638,7 +4242,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Producto de software: \u00c9tica y responsabilidad en software.",
-      "sourceIds": "S02; S03; S05; S11; S18; S22; S23"
+      "sourceIds": "S02; S03; S05; S11; S18; S22; S23",
+      "topics": "\u00c9tica y responsabilidad en software. Proceso completo, calidad, arquitectura, colaboraci\u00f3n y entrega de productos mantenibles.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "SWE-028",
@@ -3650,7 +4256,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Aplicaci\u00f3n desplegada: Desarrollo m\u00f3vil iOS.",
-      "sourceIds": "S05; S18; S19; S22; S23"
+      "sourceIds": "S05; S18; S19; S22; S23",
+      "topics": "Desarrollo m\u00f3vil iOS. Construcci\u00f3n, despliegue, observabilidad, seguridad y experiencia de usuario.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "SWE-029",
@@ -3662,7 +4270,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Aplicaci\u00f3n desplegada: Desarrollo m\u00f3vil multiplataforma.",
-      "sourceIds": "S05; S18; S19; S22; S23"
+      "sourceIds": "S05; S18; S19; S22; S23",
+      "topics": "Desarrollo m\u00f3vil multiplataforma. Construcci\u00f3n, despliegue, observabilidad, seguridad y experiencia de usuario.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "SWE-030",
@@ -3674,7 +4284,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Aplicaci\u00f3n desplegada: Aplicaciones de escritorio.",
-      "sourceIds": "S05; S18; S19; S22; S23"
+      "sourceIds": "S05; S18; S19; S22; S23",
+      "topics": "Aplicaciones de escritorio. Construcci\u00f3n, despliegue, observabilidad, seguridad y experiencia de usuario.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "SWE-031",
@@ -3686,7 +4298,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Aplicaci\u00f3n desplegada: Microservicios.",
-      "sourceIds": "S05; S18; S19; S22; S23"
+      "sourceIds": "S05; S18; S19; S22; S23",
+      "topics": "Microservicios. Construcci\u00f3n, despliegue, observabilidad, seguridad y experiencia de usuario.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "SWE-032",
@@ -3698,7 +4312,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Aplicaci\u00f3n desplegada: Integraci\u00f3n empresarial y mensajer\u00eda.",
-      "sourceIds": "S05; S18; S19; S22; S23"
+      "sourceIds": "S05; S18; S19; S22; S23",
+      "topics": "Integraci\u00f3n empresarial y mensajer\u00eda. Construcci\u00f3n, despliegue, observabilidad, seguridad y experiencia de usuario.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "SWE-033",
@@ -3710,7 +4326,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Aplicaci\u00f3n desplegada: Desarrollo empresarial con Java.",
-      "sourceIds": "S05; S18; S19; S22; S23"
+      "sourceIds": "S05; S18; S19; S22; S23",
+      "topics": "Desarrollo empresarial con Java. Construcci\u00f3n, despliegue, observabilidad, seguridad y experiencia de usuario.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "SWE-034",
@@ -3722,7 +4340,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Aplicaci\u00f3n desplegada: Desarrollo empresarial con .NET.",
-      "sourceIds": "S05; S18; S19; S22; S23"
+      "sourceIds": "S05; S18; S19; S22; S23",
+      "topics": "Desarrollo empresarial con .NET. Construcci\u00f3n, despliegue, observabilidad, seguridad y experiencia de usuario.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "CAP-013",
@@ -3734,7 +4354,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Capstone integral: Capstone I: aplicaci\u00f3n full stack.",
-      "sourceIds": "S03; S04; S09; S11; S12; S18"
+      "sourceIds": "S03; S04; S09; S11; S12; S18",
+      "topics": "Capstone I: aplicaci\u00f3n full stack. Problema real, requisitos, dise\u00f1o, implementaci\u00f3n, validaci\u00f3n, documentaci\u00f3n, \u00e9tica y defensa p\u00fablica.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "CAP-014",
@@ -3746,7 +4368,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Capstone integral: Capstone II: datos y Business Intelligence.",
-      "sourceIds": "S03; S04; S09; S11; S12; S18"
+      "sourceIds": "S03; S04; S09; S11; S12; S18",
+      "topics": "Capstone II: datos y Business Intelligence. Problema real, requisitos, dise\u00f1o, implementaci\u00f3n, validaci\u00f3n, documentaci\u00f3n, \u00e9tica y defensa p\u00fablica.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "CST-019",
@@ -3758,7 +4382,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Repositorio con pruebas: Go para sistemas y servicios.",
-      "sourceIds": "S01; S09; S11; S14; S16; S18"
+      "sourceIds": "S01; S09; S11; S14; S16; S18",
+      "topics": "Go para sistemas y servicios. Dise\u00f1o de algoritmos, depuraci\u00f3n, pruebas, estilo, complejidad y peque\u00f1os proyectos.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "CST-020",
@@ -3770,7 +4396,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Repositorio con pruebas: Rust para software seguro.",
-      "sourceIds": "S01; S09; S11; S14; S16; S18"
+      "sourceIds": "S01; S09; S11; S14; S16; S18",
+      "topics": "Rust para software seguro. Dise\u00f1o de algoritmos, depuraci\u00f3n, pruebas, estilo, complejidad y peque\u00f1os proyectos.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "CST-021",
@@ -3782,7 +4410,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Repositorio con pruebas: Programaci\u00f3n cient\u00edfica con Python.",
-      "sourceIds": "S01; S09; S11; S14; S16; S18"
+      "sourceIds": "S01; S09; S11; S14; S16; S18",
+      "topics": "Programaci\u00f3n cient\u00edfica con Python. Dise\u00f1o de algoritmos, depuraci\u00f3n, pruebas, estilo, complejidad y peque\u00f1os proyectos.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "CST-022",
@@ -3794,7 +4424,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Repositorio con pruebas: Programaci\u00f3n num\u00e9rica con MATLAB/Octave.",
-      "sourceIds": "S01; S09; S11; S14; S16; S18"
+      "sourceIds": "S01; S09; S11; S14; S16; S18",
+      "topics": "Programaci\u00f3n num\u00e9rica con MATLAB/Octave. Dise\u00f1o de algoritmos, depuraci\u00f3n, pruebas, estilo, complejidad y peque\u00f1os proyectos.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "CST-033",
@@ -3806,7 +4438,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Demostraciones y prototipo: Criptograf\u00eda matem\u00e1tica introductoria.",
-      "sourceIds": "S01; S09; S14; S16; S20"
+      "sourceIds": "S01; S09; S14; S16; S20",
+      "topics": "Criptograf\u00eda matem\u00e1tica introductoria. Modelos formales, l\u00edmites de c\u00f3mputo, sem\u00e1ntica, construcci\u00f3n y verificaci\u00f3n.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "NET-013",
@@ -3818,7 +4452,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Topolog\u00eda documentada y probada: Comunicaciones digitales.",
-      "sourceIds": "S03; S04; S17; S18; S27"
+      "sourceIds": "S03; S04; S17; S18; S27",
+      "topics": "Comunicaciones digitales. Dise\u00f1o, configuraci\u00f3n, medici\u00f3n, automatizaci\u00f3n, disponibilidad y seguridad.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "NET-014",
@@ -3830,7 +4466,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Topolog\u00eda documentada y probada: Radiofrecuencia y antenas.",
-      "sourceIds": "S03; S04; S17; S18; S27"
+      "sourceIds": "S03; S04; S17; S18; S27",
+      "topics": "Radiofrecuencia y antenas. Dise\u00f1o, configuraci\u00f3n, medici\u00f3n, automatizaci\u00f3n, disponibilidad y seguridad.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "NET-015",
@@ -3842,7 +4480,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Topolog\u00eda documentada y probada: Fibra \u00f3ptica.",
-      "sourceIds": "S03; S04; S17; S18; S27"
+      "sourceIds": "S03; S04; S17; S18; S27",
+      "topics": "Fibra \u00f3ptica. Dise\u00f1o, configuraci\u00f3n, medici\u00f3n, automatizaci\u00f3n, disponibilidad y seguridad.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "NET-016",
@@ -3854,7 +4494,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Topolog\u00eda documentada y probada: Redes m\u00f3viles 4G/5G y evoluci\u00f3n.",
-      "sourceIds": "S03; S04; S17; S18; S27"
+      "sourceIds": "S03; S04; S17; S18; S27",
+      "topics": "Redes m\u00f3viles 4G/5G y evoluci\u00f3n. Dise\u00f1o, configuraci\u00f3n, medici\u00f3n, automatizaci\u00f3n, disponibilidad y seguridad.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "NET-017",
@@ -3866,7 +4508,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Topolog\u00eda documentada y probada: VoIP y comunicaciones unificadas.",
-      "sourceIds": "S03; S04; S17; S18; S27"
+      "sourceIds": "S03; S04; S17; S18; S27",
+      "topics": "VoIP y comunicaciones unificadas. Dise\u00f1o, configuraci\u00f3n, medici\u00f3n, automatizaci\u00f3n, disponibilidad y seguridad.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "NET-018",
@@ -3878,7 +4522,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Topolog\u00eda documentada y probada: Redes satelitales.",
-      "sourceIds": "S03; S04; S17; S18; S27"
+      "sourceIds": "S03; S04; S17; S18; S27",
+      "topics": "Redes satelitales. Dise\u00f1o, configuraci\u00f3n, medici\u00f3n, automatizaci\u00f3n, disponibilidad y seguridad.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "NET-027",
@@ -3890,7 +4536,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Infraestructura como c\u00f3digo: Fundamentos de cloud computing.",
-      "sourceIds": "S03; S28; S29; S30; S31"
+      "sourceIds": "S03; S28; S29; S30; S31",
+      "topics": "Fundamentos de cloud computing. Implementaci\u00f3n, automatizaci\u00f3n, identidad, monitoreo, continuidad y optimizaci\u00f3n de costos.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "NET-028",
@@ -3902,7 +4550,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Infraestructura como c\u00f3digo: Arquitectura en AWS.",
-      "sourceIds": "S03; S28; S29; S30; S31"
+      "sourceIds": "S03; S28; S29; S30; S31",
+      "topics": "Arquitectura en AWS. Implementaci\u00f3n, automatizaci\u00f3n, identidad, monitoreo, continuidad y optimizaci\u00f3n de costos.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "NET-029",
@@ -3914,7 +4564,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Infraestructura como c\u00f3digo: Administraci\u00f3n de Microsoft Azure.",
-      "sourceIds": "S03; S28; S29; S30; S31"
+      "sourceIds": "S03; S28; S29; S30; S31",
+      "topics": "Administraci\u00f3n de Microsoft Azure. Implementaci\u00f3n, automatizaci\u00f3n, identidad, monitoreo, continuidad y optimizaci\u00f3n de costos.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "NET-030",
@@ -3926,7 +4578,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Infraestructura como c\u00f3digo: Arquitectura en Google Cloud.",
-      "sourceIds": "S03; S28; S29; S30; S31"
+      "sourceIds": "S03; S28; S29; S30; S31",
+      "topics": "Arquitectura en Google Cloud. Implementaci\u00f3n, automatizaci\u00f3n, identidad, monitoreo, continuidad y optimizaci\u00f3n de costos.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "NET-031",
@@ -3938,7 +4592,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Infraestructura como c\u00f3digo: Infraestructura como c\u00f3digo con Terraform.",
-      "sourceIds": "S03; S28; S29; S30; S31"
+      "sourceIds": "S03; S28; S29; S30; S31",
+      "topics": "Infraestructura como c\u00f3digo con Terraform. Implementaci\u00f3n, automatizaci\u00f3n, identidad, monitoreo, continuidad y optimizaci\u00f3n de costos.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "NET-032",
@@ -3950,7 +4606,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Infraestructura como c\u00f3digo: Docker y construcci\u00f3n de contenedores.",
-      "sourceIds": "S03; S28; S29; S30; S31"
+      "sourceIds": "S03; S28; S29; S30; S31",
+      "topics": "Docker y construcci\u00f3n de contenedores. Implementaci\u00f3n, automatizaci\u00f3n, identidad, monitoreo, continuidad y optimizaci\u00f3n de costos.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "NET-033",
@@ -3962,7 +4620,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Infraestructura como c\u00f3digo: Administraci\u00f3n de Kubernetes.",
-      "sourceIds": "S03; S28; S29; S30; S31"
+      "sourceIds": "S03; S28; S29; S30; S31",
+      "topics": "Administraci\u00f3n de Kubernetes. Implementaci\u00f3n, automatizaci\u00f3n, identidad, monitoreo, continuidad y optimizaci\u00f3n de costos.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "ROB-007",
@@ -3974,7 +4634,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Prototipo mecatr\u00f3nico: Modelado y simulaci\u00f3n mecatr\u00f3nica.",
-      "sourceIds": "S04; S24; S25; S48"
+      "sourceIds": "S04; S24; S25; S48",
+      "topics": "Modelado y simulaci\u00f3n mecatr\u00f3nica. Modelado f\u00edsico, dise\u00f1o, fabricaci\u00f3n, control y pruebas seguras.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "ROB-008",
@@ -3986,7 +4648,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Prototipo mecatr\u00f3nico: Neum\u00e1tica e hidr\u00e1ulica.",
-      "sourceIds": "S04; S24; S25; S48"
+      "sourceIds": "S04; S24; S25; S48",
+      "topics": "Neum\u00e1tica e hidr\u00e1ulica. Modelado f\u00edsico, dise\u00f1o, fabricaci\u00f3n, control y pruebas seguras.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "ROB-009",
@@ -3998,7 +4662,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Prototipo mecatr\u00f3nico: PLC y automatizaci\u00f3n industrial.",
-      "sourceIds": "S04; S24; S25; S48"
+      "sourceIds": "S04; S24; S25; S48",
+      "topics": "PLC y automatizaci\u00f3n industrial. Modelado f\u00edsico, dise\u00f1o, fabricaci\u00f3n, control y pruebas seguras.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "ROB-010",
@@ -4010,7 +4676,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Prototipo mecatr\u00f3nico: SCADA y sistemas de supervisi\u00f3n.",
-      "sourceIds": "S04; S24; S25; S48"
+      "sourceIds": "S04; S24; S25; S48",
+      "topics": "SCADA y sistemas de supervisi\u00f3n. Modelado f\u00edsico, dise\u00f1o, fabricaci\u00f3n, control y pruebas seguras.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "ROB-011",
@@ -4022,7 +4690,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Prototipo mecatr\u00f3nico: Integraci\u00f3n de sistemas mecatr\u00f3nicos.",
-      "sourceIds": "S04; S24; S25; S48"
+      "sourceIds": "S04; S24; S25; S48",
+      "topics": "Integraci\u00f3n de sistemas mecatr\u00f3nicos. Modelado f\u00edsico, dise\u00f1o, fabricaci\u00f3n, control y pruebas seguras.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "ROB-012",
@@ -4034,7 +4704,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Prototipo mecatr\u00f3nico: Mantenimiento industrial y predictivo.",
-      "sourceIds": "S04; S24; S25; S48"
+      "sourceIds": "S04; S24; S25; S48",
+      "topics": "Mantenimiento industrial y predictivo. Modelado f\u00edsico, dise\u00f1o, fabricaci\u00f3n, control y pruebas seguras.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "ROB-013",
@@ -4046,7 +4718,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Robot o simulaci\u00f3n validada: Fundamentos de rob\u00f3tica.",
-      "sourceIds": "S04; S12; S24; S25"
+      "sourceIds": "S04; S12; S24; S25",
+      "topics": "Fundamentos de rob\u00f3tica. Percepci\u00f3n, movimiento, planificaci\u00f3n, control, interacci\u00f3n y experimentaci\u00f3n reproducible.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "ROB-014",
@@ -4058,7 +4732,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Robot o simulaci\u00f3n validada: Cinem\u00e1tica de robots.",
-      "sourceIds": "S04; S12; S24; S25"
+      "sourceIds": "S04; S12; S24; S25",
+      "topics": "Cinem\u00e1tica de robots. Percepci\u00f3n, movimiento, planificaci\u00f3n, control, interacci\u00f3n y experimentaci\u00f3n reproducible.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "ROB-015",
@@ -4070,7 +4746,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Robot o simulaci\u00f3n validada: Din\u00e1mica de robots.",
-      "sourceIds": "S04; S12; S24; S25"
+      "sourceIds": "S04; S12; S24; S25",
+      "topics": "Din\u00e1mica de robots. Percepci\u00f3n, movimiento, planificaci\u00f3n, control, interacci\u00f3n y experimentaci\u00f3n reproducible.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "ROB-016",
@@ -4082,7 +4760,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Robot o simulaci\u00f3n validada: Percepci\u00f3n rob\u00f3tica y fusi\u00f3n de sensores.",
-      "sourceIds": "S04; S12; S24; S25"
+      "sourceIds": "S04; S12; S24; S25",
+      "topics": "Percepci\u00f3n rob\u00f3tica y fusi\u00f3n de sensores. Percepci\u00f3n, movimiento, planificaci\u00f3n, control, interacci\u00f3n y experimentaci\u00f3n reproducible.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "ROB-017",
@@ -4094,7 +4774,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Robot o simulaci\u00f3n validada: Visi\u00f3n para rob\u00f3tica.",
-      "sourceIds": "S04; S12; S24; S25"
+      "sourceIds": "S04; S12; S24; S25",
+      "topics": "Visi\u00f3n para rob\u00f3tica. Percepci\u00f3n, movimiento, planificaci\u00f3n, control, interacci\u00f3n y experimentaci\u00f3n reproducible.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "ROB-018",
@@ -4106,7 +4788,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Robot o simulaci\u00f3n validada: Planificaci\u00f3n de movimiento.",
-      "sourceIds": "S04; S12; S24; S25"
+      "sourceIds": "S04; S12; S24; S25",
+      "topics": "Planificaci\u00f3n de movimiento. Percepci\u00f3n, movimiento, planificaci\u00f3n, control, interacci\u00f3n y experimentaci\u00f3n reproducible.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "ISM-015",
@@ -4118,7 +4802,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Caso empresarial y arquitectura: CMDB y gesti\u00f3n de activos TI.",
-      "sourceIds": "S02; S03; S05; S06; S22; S34"
+      "sourceIds": "S02; S03; S05; S06; S22; S34",
+      "topics": "CMDB y gesti\u00f3n de activos TI. Alineaci\u00f3n negocio\u2013tecnolog\u00eda, procesos, arquitectura, control, servicio y transformaci\u00f3n.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "ISM-016",
@@ -4130,7 +4816,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Caso empresarial y arquitectura: Gesti\u00f3n de cambios y configuraci\u00f3n.",
-      "sourceIds": "S02; S03; S05; S06; S22; S34"
+      "sourceIds": "S02; S03; S05; S06; S22; S34",
+      "topics": "Gesti\u00f3n de cambios y configuraci\u00f3n. Alineaci\u00f3n negocio\u2013tecnolog\u00eda, procesos, arquitectura, control, servicio y transformaci\u00f3n.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "ISM-017",
@@ -4142,7 +4830,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Caso empresarial y arquitectura: Estrategia de sistemas de informaci\u00f3n.",
-      "sourceIds": "S02; S03; S05; S06; S22; S34"
+      "sourceIds": "S02; S03; S05; S06; S22; S34",
+      "topics": "Estrategia de sistemas de informaci\u00f3n. Alineaci\u00f3n negocio\u2013tecnolog\u00eda, procesos, arquitectura, control, servicio y transformaci\u00f3n.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "ISM-018",
@@ -4154,7 +4844,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Caso empresarial y arquitectura: Transformaci\u00f3n digital.",
-      "sourceIds": "S02; S03; S05; S06; S22; S34"
+      "sourceIds": "S02; S03; S05; S06; S22; S34",
+      "topics": "Transformaci\u00f3n digital. Alineaci\u00f3n negocio\u2013tecnolog\u00eda, procesos, arquitectura, control, servicio y transformaci\u00f3n.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "ISM-019",
@@ -4166,7 +4858,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Caso empresarial y arquitectura: Gesti\u00f3n de proveedores y adquisiciones TI.",
-      "sourceIds": "S02; S03; S05; S06; S22; S34"
+      "sourceIds": "S02; S03; S05; S06; S22; S34",
+      "topics": "Gesti\u00f3n de proveedores y adquisiciones TI. Alineaci\u00f3n negocio\u2013tecnolog\u00eda, procesos, arquitectura, control, servicio y transformaci\u00f3n.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "ISM-020",
@@ -4178,7 +4872,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Caso empresarial y arquitectura: Gesti\u00f3n del conocimiento empresarial.",
-      "sourceIds": "S02; S03; S05; S06; S22; S34"
+      "sourceIds": "S02; S03; S05; S06; S22; S34",
+      "topics": "Gesti\u00f3n del conocimiento empresarial. Alineaci\u00f3n negocio\u2013tecnolog\u00eda, procesos, arquitectura, control, servicio y transformaci\u00f3n.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "ISM-021",
@@ -4190,7 +4886,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Caso empresarial y arquitectura: Riesgo, cumplimiento y controles internos.",
-      "sourceIds": "S02; S03; S05; S06; S22; S34"
+      "sourceIds": "S02; S03; S05; S06; S22; S34",
+      "topics": "Riesgo, cumplimiento y controles internos. Alineaci\u00f3n negocio\u2013tecnolog\u00eda, procesos, arquitectura, control, servicio y transformaci\u00f3n.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "SYS-013",
@@ -4202,7 +4900,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Laboratorio de sistema: Computaci\u00f3n de alto rendimiento.",
-      "sourceIds": "S01; S02; S09; S13; S16; S17; S20"
+      "sourceIds": "S01; S02; S09; S13; S16; S17; S20",
+      "topics": "Computaci\u00f3n de alto rendimiento. Funcionamiento interno, dise\u00f1o, medici\u00f3n de rendimiento y laboratorios reproducibles.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "SYS-014",
@@ -4214,7 +4914,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Laboratorio de sistema: Evaluaci\u00f3n y optimizaci\u00f3n de rendimiento.",
-      "sourceIds": "S01; S02; S09; S13; S16; S17; S20"
+      "sourceIds": "S01; S02; S09; S13; S16; S17; S20",
+      "topics": "Evaluaci\u00f3n y optimizaci\u00f3n de rendimiento. Funcionamiento interno, dise\u00f1o, medici\u00f3n de rendimiento y laboratorios reproducibles.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "SYS-015",
@@ -4226,7 +4928,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Laboratorio de sistema: Confiabilidad y tolerancia a fallos.",
-      "sourceIds": "S01; S02; S09; S13; S16; S17; S20"
+      "sourceIds": "S01; S02; S09; S13; S16; S17; S20",
+      "topics": "Confiabilidad y tolerancia a fallos. Funcionamiento interno, dise\u00f1o, medici\u00f3n de rendimiento y laboratorios reproducibles.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "SYS-016",
@@ -4238,7 +4942,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Laboratorio de sistema: Arquitectura de centros de datos.",
-      "sourceIds": "S01; S02; S09; S13; S16; S17; S20"
+      "sourceIds": "S01; S02; S09; S13; S16; S17; S20",
+      "topics": "Arquitectura de centros de datos. Funcionamiento interno, dise\u00f1o, medici\u00f3n de rendimiento y laboratorios reproducibles.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "SYS-017",
@@ -4250,7 +4956,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Laboratorio de sistema: Computaci\u00f3n edge y fog.",
-      "sourceIds": "S01; S02; S09; S13; S16; S17; S20"
+      "sourceIds": "S01; S02; S09; S13; S16; S17; S20",
+      "topics": "Computaci\u00f3n edge y fog. Funcionamiento interno, dise\u00f1o, medici\u00f3n de rendimiento y laboratorios reproducibles.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "SYS-018",
@@ -4262,7 +4970,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Laboratorio de sistema: Sistemas m\u00f3viles.",
-      "sourceIds": "S01; S02; S09; S13; S16; S17; S20"
+      "sourceIds": "S01; S02; S09; S13; S16; S17; S20",
+      "topics": "Sistemas m\u00f3viles. Funcionamiento interno, dise\u00f1o, medici\u00f3n de rendimiento y laboratorios reproducibles.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "CYB-015",
@@ -4274,7 +4984,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Evaluaci\u00f3n defensiva: Gesti\u00f3n de vulnerabilidades.",
-      "sourceIds": "S03; S05; S08; S33; S34; S36"
+      "sourceIds": "S03; S05; S08; S33; S34; S36",
+      "topics": "Gesti\u00f3n de vulnerabilidades. Dise\u00f1o de controles, laboratorios aislados, gesti\u00f3n de riesgo y evidencia auditable.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "CYB-016",
@@ -4286,7 +4998,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Evaluaci\u00f3n defensiva: SOC y operaciones de seguridad.",
-      "sourceIds": "S03; S05; S08; S33; S34; S36"
+      "sourceIds": "S03; S05; S08; S33; S34; S36",
+      "topics": "SOC y operaciones de seguridad. Dise\u00f1o de controles, laboratorios aislados, gesti\u00f3n de riesgo y evidencia auditable.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "CYB-017",
@@ -4298,7 +5012,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Evaluaci\u00f3n defensiva: SIEM y anal\u00edtica de seguridad.",
-      "sourceIds": "S03; S05; S08; S33; S34; S36"
+      "sourceIds": "S03; S05; S08; S33; S34; S36",
+      "topics": "SIEM y anal\u00edtica de seguridad. Dise\u00f1o de controles, laboratorios aislados, gesti\u00f3n de riesgo y evidencia auditable.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "CYB-018",
@@ -4310,7 +5026,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Evaluaci\u00f3n defensiva: Inteligencia de amenazas.",
-      "sourceIds": "S03; S05; S08; S33; S34; S36"
+      "sourceIds": "S03; S05; S08; S33; S34; S36",
+      "topics": "Inteligencia de amenazas. Dise\u00f1o de controles, laboratorios aislados, gesti\u00f3n de riesgo y evidencia auditable.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "CYB-019",
@@ -4322,7 +5040,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Evaluaci\u00f3n defensiva: Threat hunting.",
-      "sourceIds": "S03; S05; S08; S33; S34; S36"
+      "sourceIds": "S03; S05; S08; S33; S34; S36",
+      "topics": "Threat hunting. Dise\u00f1o de controles, laboratorios aislados, gesti\u00f3n de riesgo y evidencia auditable.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "CYB-020",
@@ -4334,7 +5054,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Evaluaci\u00f3n defensiva: Respuesta a incidentes.",
-      "sourceIds": "S03; S05; S08; S33; S34; S36"
+      "sourceIds": "S03; S05; S08; S33; S34; S36",
+      "topics": "Respuesta a incidentes. Dise\u00f1o de controles, laboratorios aislados, gesti\u00f3n de riesgo y evidencia auditable.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "CYB-021",
@@ -4346,7 +5068,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Evaluaci\u00f3n defensiva: An\u00e1lisis de malware.",
-      "sourceIds": "S03; S05; S08; S33; S34; S36"
+      "sourceIds": "S03; S05; S08; S33; S34; S36",
+      "topics": "An\u00e1lisis de malware. Dise\u00f1o de controles, laboratorios aislados, gesti\u00f3n de riesgo y evidencia auditable.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "CYB-031",
@@ -4358,7 +5082,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Informe de pentest autorizado: Metodolog\u00eda de hacking \u00e9tico y alcance legal.",
-      "sourceIds": "S08; S32; S33"
+      "sourceIds": "S08; S32; S33",
+      "topics": "Metodolog\u00eda de hacking \u00e9tico y alcance legal. Exclusivamente en laboratorios propios o con autorizaci\u00f3n expresa; reporte, remediaci\u00f3n y \u00e9tica obligatorios.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "CYB-032",
@@ -4370,7 +5096,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Informe de pentest autorizado: Reconocimiento y enumeraci\u00f3n autorizados.",
-      "sourceIds": "S08; S32; S33"
+      "sourceIds": "S08; S32; S33",
+      "topics": "Reconocimiento y enumeraci\u00f3n autorizados. Exclusivamente en laboratorios propios o con autorizaci\u00f3n expresa; reporte, remediaci\u00f3n y \u00e9tica obligatorios.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "CYB-033",
@@ -4382,7 +5110,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Informe de pentest autorizado: Pruebas de penetraci\u00f3n de redes.",
-      "sourceIds": "S08; S32; S33"
+      "sourceIds": "S08; S32; S33",
+      "topics": "Pruebas de penetraci\u00f3n de redes. Exclusivamente en laboratorios propios o con autorizaci\u00f3n expresa; reporte, remediaci\u00f3n y \u00e9tica obligatorios.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "CYB-034",
@@ -4394,7 +5124,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Informe de pentest autorizado: Pruebas de penetraci\u00f3n web.",
-      "sourceIds": "S08; S32; S33"
+      "sourceIds": "S08; S32; S33",
+      "topics": "Pruebas de penetraci\u00f3n web. Exclusivamente en laboratorios propios o con autorizaci\u00f3n expresa; reporte, remediaci\u00f3n y \u00e9tica obligatorios.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "CYB-035",
@@ -4406,7 +5138,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Informe de pentest autorizado: Auditor\u00eda de redes inal\u00e1mbricas.",
-      "sourceIds": "S08; S32; S33"
+      "sourceIds": "S08; S32; S33",
+      "topics": "Auditor\u00eda de redes inal\u00e1mbricas. Exclusivamente en laboratorios propios o con autorizaci\u00f3n expresa; reporte, remediaci\u00f3n y \u00e9tica obligatorios.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "CYB-046",
@@ -4418,7 +5152,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Expediente forense: Fundamentos de inform\u00e1tica forense.",
-      "sourceIds": "S08; S34; S35; S36"
+      "sourceIds": "S08; S34; S35; S36",
+      "topics": "Fundamentos de inform\u00e1tica forense. Autoridad legal, preservaci\u00f3n, cadena de custodia, validaci\u00f3n, repetibilidad y testimonio t\u00e9cnico.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "CYB-047",
@@ -4430,7 +5166,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Expediente forense: Adquisici\u00f3n y preservaci\u00f3n de evidencia digital.",
-      "sourceIds": "S08; S34; S35; S36"
+      "sourceIds": "S08; S34; S35; S36",
+      "topics": "Adquisici\u00f3n y preservaci\u00f3n de evidencia digital. Autoridad legal, preservaci\u00f3n, cadena de custodia, validaci\u00f3n, repetibilidad y testimonio t\u00e9cnico.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "CYB-048",
@@ -4442,7 +5180,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Expediente forense: Forense de discos y sistemas de archivos.",
-      "sourceIds": "S08; S34; S35; S36"
+      "sourceIds": "S08; S34; S35; S36",
+      "topics": "Forense de discos y sistemas de archivos. Autoridad legal, preservaci\u00f3n, cadena de custodia, validaci\u00f3n, repetibilidad y testimonio t\u00e9cnico.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "CYB-049",
@@ -4454,7 +5194,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Expediente forense: Forense de memoria.",
-      "sourceIds": "S08; S34; S35; S36"
+      "sourceIds": "S08; S34; S35; S36",
+      "topics": "Forense de memoria. Autoridad legal, preservaci\u00f3n, cadena de custodia, validaci\u00f3n, repetibilidad y testimonio t\u00e9cnico.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "CYB-050",
@@ -4466,7 +5208,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Expediente forense: Forense de redes.",
-      "sourceIds": "S08; S34; S35; S36"
+      "sourceIds": "S08; S34; S35; S36",
+      "topics": "Forense de redes. Autoridad legal, preservaci\u00f3n, cadena de custodia, validaci\u00f3n, repetibilidad y testimonio t\u00e9cnico.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "CYB-051",
@@ -4478,7 +5222,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Expediente forense: Forense m\u00f3vil.",
-      "sourceIds": "S08; S34; S35; S36"
+      "sourceIds": "S08; S34; S35; S36",
+      "topics": "Forense m\u00f3vil. Autoridad legal, preservaci\u00f3n, cadena de custodia, validaci\u00f3n, repetibilidad y testimonio t\u00e9cnico.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "DAI-034",
@@ -4490,7 +5236,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Modelo evaluado y desplegado: Aprendizaje por refuerzo.",
-      "sourceIds": "S01; S07; S12; S18; S19; S20; S38"
+      "sourceIds": "S01; S07; S12; S18; S19; S20; S38",
+      "topics": "Aprendizaje por refuerzo. Fundamentos, evaluaci\u00f3n rigurosa, implementaci\u00f3n, despliegue responsable y aplicaciones.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "DAI-035",
@@ -4502,7 +5250,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Modelo evaluado y desplegado: Sistemas de recomendaci\u00f3n.",
-      "sourceIds": "S01; S07; S12; S18; S19; S20; S38"
+      "sourceIds": "S01; S07; S12; S18; S19; S20; S38",
+      "topics": "Sistemas de recomendaci\u00f3n. Fundamentos, evaluaci\u00f3n rigurosa, implementaci\u00f3n, despliegue responsable y aplicaciones.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "DAI-036",
@@ -4514,7 +5264,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Modelo evaluado y desplegado: Miner\u00eda de datos.",
-      "sourceIds": "S01; S07; S12; S18; S19; S20; S38"
+      "sourceIds": "S01; S07; S12; S18; S19; S20; S38",
+      "topics": "Miner\u00eda de datos. Fundamentos, evaluaci\u00f3n rigurosa, implementaci\u00f3n, despliegue responsable y aplicaciones.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "DAI-037",
@@ -4526,7 +5278,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Modelo evaluado y desplegado: IA generativa.",
-      "sourceIds": "S01; S07; S12; S18; S19; S20; S38"
+      "sourceIds": "S01; S07; S12; S18; S19; S20; S38",
+      "topics": "IA generativa. Fundamentos, evaluaci\u00f3n rigurosa, implementaci\u00f3n, despliegue responsable y aplicaciones.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "DAI-038",
@@ -4538,7 +5292,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Modelo evaluado y desplegado: Modelos de lenguaje grandes.",
-      "sourceIds": "S01; S07; S12; S18; S19; S20; S38"
+      "sourceIds": "S01; S07; S12; S18; S19; S20; S38",
+      "topics": "Modelos de lenguaje grandes. Fundamentos, evaluaci\u00f3n rigurosa, implementaci\u00f3n, despliegue responsable y aplicaciones.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "DAI-039",
@@ -4550,7 +5306,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Modelo evaluado y desplegado: Ingenier\u00eda de prompts y contexto.",
-      "sourceIds": "S01; S07; S12; S18; S19; S20; S38"
+      "sourceIds": "S01; S07; S12; S18; S19; S20; S38",
+      "topics": "Ingenier\u00eda de prompts y contexto. Fundamentos, evaluaci\u00f3n rigurosa, implementaci\u00f3n, despliegue responsable y aplicaciones.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "EIO-028",
@@ -4562,7 +5320,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Dispositivo IoT funcional: Dise\u00f1o de wearables.",
-      "sourceIds": "S02; S04; S18; S21; S24; S26"
+      "sourceIds": "S02; S04; S18; S21; S24; S26",
+      "topics": "Dise\u00f1o de wearables. Integraci\u00f3n hardware\u2013software, comunicaciones, energ\u00eda, seguridad y despliegue.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "EIO-029",
@@ -4574,7 +5334,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Dispositivo IoT funcional: IoT industrial.",
-      "sourceIds": "S02; S04; S18; S21; S24; S26"
+      "sourceIds": "S02; S04; S18; S21; S24; S26",
+      "topics": "IoT industrial. Integraci\u00f3n hardware\u2013software, comunicaciones, energ\u00eda, seguridad y despliegue.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "EIO-030",
@@ -4586,7 +5348,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Dispositivo IoT funcional: Gemelos digitales.",
-      "sourceIds": "S02; S04; S18; S21; S24; S26"
+      "sourceIds": "S02; S04; S18; S21; S24; S26",
+      "topics": "Gemelos digitales. Integraci\u00f3n hardware\u2013software, comunicaciones, energ\u00eda, seguridad y despliegue.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "GXR-007",
@@ -4598,7 +5362,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 96.0,
       "evidence": "Demo interactiva: Simulaci\u00f3n f\u00edsica para gr\u00e1ficos.",
-      "sourceIds": "S01; S12; S18; S20; S22; S23"
+      "sourceIds": "S01; S12; S18; S20; S22; S23",
+      "topics": "Simulaci\u00f3n f\u00edsica para gr\u00e1ficos. Matem\u00e1tica visual, interacci\u00f3n en tiempo real, optimizaci\u00f3n, experiencia y producci\u00f3n.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "GXR-008",
@@ -4610,7 +5376,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 96.0,
       "evidence": "Demo interactiva: Dise\u00f1o de videojuegos.",
-      "sourceIds": "S01; S12; S18; S20; S22; S23"
+      "sourceIds": "S01; S12; S18; S20; S22; S23",
+      "topics": "Dise\u00f1o de videojuegos. Matem\u00e1tica visual, interacci\u00f3n en tiempo real, optimizaci\u00f3n, experiencia y producci\u00f3n.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "GXR-009",
@@ -4622,7 +5390,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 96.0,
       "evidence": "Demo interactiva: Programaci\u00f3n de videojuegos.",
-      "sourceIds": "S01; S12; S18; S20; S22; S23"
+      "sourceIds": "S01; S12; S18; S20; S22; S23",
+      "topics": "Programaci\u00f3n de videojuegos. Matem\u00e1tica visual, interacci\u00f3n en tiempo real, optimizaci\u00f3n, experiencia y producci\u00f3n.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "GXR-010",
@@ -4634,7 +5404,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 96.0,
       "evidence": "Demo interactiva: Arquitectura de motores de juego.",
-      "sourceIds": "S01; S12; S18; S20; S22; S23"
+      "sourceIds": "S01; S12; S18; S20; S22; S23",
+      "topics": "Arquitectura de motores de juego. Matem\u00e1tica visual, interacci\u00f3n en tiempo real, optimizaci\u00f3n, experiencia y producci\u00f3n.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "GXR-011",
@@ -4646,7 +5418,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 96.0,
       "evidence": "Demo interactiva: Unity.",
-      "sourceIds": "S01; S12; S18; S20; S22; S23"
+      "sourceIds": "S01; S12; S18; S20; S22; S23",
+      "topics": "Unity. Matem\u00e1tica visual, interacci\u00f3n en tiempo real, optimizaci\u00f3n, experiencia y producci\u00f3n.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "GXR-012",
@@ -4658,7 +5432,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 96.0,
       "evidence": "Demo interactiva: Unreal Engine.",
-      "sourceIds": "S01; S12; S18; S20; S22; S23"
+      "sourceIds": "S01; S12; S18; S20; S22; S23",
+      "topics": "Unreal Engine. Matem\u00e1tica visual, interacci\u00f3n en tiempo real, optimizaci\u00f3n, experiencia y producci\u00f3n.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "SWE-035",
@@ -4670,7 +5446,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Aplicaci\u00f3n desplegada: Arquitecturas serverless.",
-      "sourceIds": "S05; S18; S19; S22; S23"
+      "sourceIds": "S05; S18; S19; S22; S23",
+      "topics": "Arquitecturas serverless. Construcci\u00f3n, despliegue, observabilidad, seguridad y experiencia de usuario.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "SWE-036",
@@ -4682,7 +5460,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Aplicaci\u00f3n desplegada: Plataformas SaaS multiusuario.",
-      "sourceIds": "S05; S18; S19; S22; S23"
+      "sourceIds": "S05; S18; S19; S22; S23",
+      "topics": "Plataformas SaaS multiusuario. Construcci\u00f3n, despliegue, observabilidad, seguridad y experiencia de usuario.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "SWE-037",
@@ -4694,7 +5474,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Aplicaci\u00f3n desplegada: Low-code, no-code y RPA.",
-      "sourceIds": "S05; S18; S19; S22; S23"
+      "sourceIds": "S05; S18; S19; S22; S23",
+      "topics": "Low-code, no-code y RPA. Construcci\u00f3n, despliegue, observabilidad, seguridad y experiencia de usuario.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "SWE-038",
@@ -4706,7 +5488,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Aplicaci\u00f3n desplegada: Comercio electr\u00f3nico.",
-      "sourceIds": "S05; S18; S19; S22; S23"
+      "sourceIds": "S05; S18; S19; S22; S23",
+      "topics": "Comercio electr\u00f3nico. Construcci\u00f3n, despliegue, observabilidad, seguridad y experiencia de usuario.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "SWE-039",
@@ -4718,7 +5502,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Aplicaci\u00f3n desplegada: Modernizaci\u00f3n de sistemas legados.",
-      "sourceIds": "S05; S18; S19; S22; S23"
+      "sourceIds": "S05; S18; S19; S22; S23",
+      "topics": "Modernizaci\u00f3n de sistemas legados. Construcci\u00f3n, despliegue, observabilidad, seguridad y experiencia de usuario.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "SWE-040",
@@ -4730,7 +5516,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Aplicaci\u00f3n desplegada: Ingenier\u00eda de plataformas internas.",
-      "sourceIds": "S05; S18; S19; S22; S23"
+      "sourceIds": "S05; S18; S19; S22; S23",
+      "topics": "Ingenier\u00eda de plataformas internas. Construcci\u00f3n, despliegue, observabilidad, seguridad y experiencia de usuario.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "CAP-015",
@@ -4742,7 +5530,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Capstone integral: Capstone III: redes, sistemas y cloud.",
-      "sourceIds": "S03; S04; S09; S11; S12; S18"
+      "sourceIds": "S03; S04; S09; S11; S12; S18",
+      "topics": "Capstone III: redes, sistemas y cloud. Problema real, requisitos, dise\u00f1o, implementaci\u00f3n, validaci\u00f3n, documentaci\u00f3n, \u00e9tica y defensa p\u00fablica.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "CAP-016",
@@ -4754,7 +5544,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Capstone integral: Capstone IV: ciberseguridad defensiva y auditor\u00eda.",
-      "sourceIds": "S03; S04; S09; S11; S12; S18"
+      "sourceIds": "S03; S04; S09; S11; S12; S18",
+      "topics": "Capstone IV: ciberseguridad defensiva y auditor\u00eda. Problema real, requisitos, dise\u00f1o, implementaci\u00f3n, validaci\u00f3n, documentaci\u00f3n, \u00e9tica y defensa p\u00fablica.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "CAP-025",
@@ -4766,7 +5558,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Dossier temporal y radar auditado: Historia global de la computaci\u00f3n y las revoluciones tecnol\u00f3gicas.",
-      "sourceIds": "S50; S51; S52; S53; S54; S61; S62; S63; S64; S67; S68"
+      "sourceIds": "S50; S51; S52; S53; S54; S61; S62; S63; S64; S67; S68",
+      "topics": "Historia global de la computaci\u00f3n y las revoluciones tecnol\u00f3gicas. Reconstrucci\u00f3n hist\u00f3rica, an\u00e1lisis de evidencia, escenarios alternativos, se\u00f1ales tempranas, madurez tecnol\u00f3gica y revisi\u00f3n peri\u00f3dica de decisiones.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "CAP-026",
@@ -4778,7 +5572,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Dossier temporal y radar auditado: Filosof\u00eda, epistemolog\u00eda y econom\u00eda pol\u00edtica de la tecnolog\u00eda.",
-      "sourceIds": "S50; S51; S52; S53; S54; S61; S62; S63; S64; S67; S68"
+      "sourceIds": "S50; S51; S52; S53; S54; S61; S62; S63; S64; S67; S68",
+      "topics": "Filosof\u00eda, epistemolog\u00eda y econom\u00eda pol\u00edtica de la tecnolog\u00eda. Reconstrucci\u00f3n hist\u00f3rica, an\u00e1lisis de evidencia, escenarios alternativos, se\u00f1ales tempranas, madurez tecnol\u00f3gica y revisi\u00f3n peri\u00f3dica de decisiones.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "NET-019",
@@ -4790,7 +5586,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Topolog\u00eda documentada y probada: Arquitectura y operaci\u00f3n de ISP.",
-      "sourceIds": "S03; S04; S17; S18; S27"
+      "sourceIds": "S03; S04; S17; S18; S27",
+      "topics": "Arquitectura y operaci\u00f3n de ISP. Dise\u00f1o, configuraci\u00f3n, medici\u00f3n, automatizaci\u00f3n, disponibilidad y seguridad.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "NET-034",
@@ -4802,7 +5600,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Infraestructura como c\u00f3digo: Helm, operadores y GitOps.",
-      "sourceIds": "S03; S28; S29; S30; S31"
+      "sourceIds": "S03; S28; S29; S30; S31",
+      "topics": "Helm, operadores y GitOps. Implementaci\u00f3n, automatizaci\u00f3n, identidad, monitoreo, continuidad y optimizaci\u00f3n de costos.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "NET-035",
@@ -4814,7 +5614,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Infraestructura como c\u00f3digo: Service mesh.",
-      "sourceIds": "S03; S28; S29; S30; S31"
+      "sourceIds": "S03; S28; S29; S30; S31",
+      "topics": "Service mesh. Implementaci\u00f3n, automatizaci\u00f3n, identidad, monitoreo, continuidad y optimizaci\u00f3n de costos.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "NET-036",
@@ -4826,7 +5628,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Infraestructura como c\u00f3digo: Observabilidad: m\u00e9tricas, logs y trazas.",
-      "sourceIds": "S03; S28; S29; S30; S31"
+      "sourceIds": "S03; S28; S29; S30; S31",
+      "topics": "Observabilidad: m\u00e9tricas, logs y trazas. Implementaci\u00f3n, automatizaci\u00f3n, identidad, monitoreo, continuidad y optimizaci\u00f3n de costos.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "NET-037",
@@ -4838,7 +5642,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Infraestructura como c\u00f3digo: Site Reliability Engineering.",
-      "sourceIds": "S03; S28; S29; S30; S31"
+      "sourceIds": "S03; S28; S29; S30; S31",
+      "topics": "Site Reliability Engineering. Implementaci\u00f3n, automatizaci\u00f3n, identidad, monitoreo, continuidad y optimizaci\u00f3n de costos.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "NET-038",
@@ -4850,7 +5656,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Infraestructura como c\u00f3digo: Alta disponibilidad y balanceo.",
-      "sourceIds": "S03; S28; S29; S30; S31"
+      "sourceIds": "S03; S28; S29; S30; S31",
+      "topics": "Alta disponibilidad y balanceo. Implementaci\u00f3n, automatizaci\u00f3n, identidad, monitoreo, continuidad y optimizaci\u00f3n de costos.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "NET-039",
@@ -4862,7 +5670,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Infraestructura como c\u00f3digo: Backup, continuidad y recuperaci\u00f3n ante desastres.",
-      "sourceIds": "S03; S28; S29; S30; S31"
+      "sourceIds": "S03; S28; S29; S30; S31",
+      "topics": "Backup, continuidad y recuperaci\u00f3n ante desastres. Implementaci\u00f3n, automatizaci\u00f3n, identidad, monitoreo, continuidad y optimizaci\u00f3n de costos.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "NET-040",
@@ -4874,7 +5684,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Infraestructura como c\u00f3digo: Cloud h\u00edbrida y multicloud.",
-      "sourceIds": "S03; S28; S29; S30; S31"
+      "sourceIds": "S03; S28; S29; S30; S31",
+      "topics": "Cloud h\u00edbrida y multicloud. Implementaci\u00f3n, automatizaci\u00f3n, identidad, monitoreo, continuidad y optimizaci\u00f3n de costos.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "ROB-019",
@@ -4886,7 +5698,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Robot o simulaci\u00f3n validada: Localizaci\u00f3n y SLAM.",
-      "sourceIds": "S04; S12; S24; S25"
+      "sourceIds": "S04; S12; S24; S25",
+      "topics": "Localizaci\u00f3n y SLAM. Percepci\u00f3n, movimiento, planificaci\u00f3n, control, interacci\u00f3n y experimentaci\u00f3n reproducible.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "ROB-020",
@@ -4898,7 +5712,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Robot o simulaci\u00f3n validada: Manipulaci\u00f3n rob\u00f3tica.",
-      "sourceIds": "S04; S12; S24; S25"
+      "sourceIds": "S04; S12; S24; S25",
+      "topics": "Manipulaci\u00f3n rob\u00f3tica. Percepci\u00f3n, movimiento, planificaci\u00f3n, control, interacci\u00f3n y experimentaci\u00f3n reproducible.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "ROB-021",
@@ -4910,7 +5726,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Robot o simulaci\u00f3n validada: Robots m\u00f3viles.",
-      "sourceIds": "S04; S12; S24; S25"
+      "sourceIds": "S04; S12; S24; S25",
+      "topics": "Robots m\u00f3viles. Percepci\u00f3n, movimiento, planificaci\u00f3n, control, interacci\u00f3n y experimentaci\u00f3n reproducible.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "ROB-022",
@@ -4922,7 +5740,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Robot o simulaci\u00f3n validada: Rob\u00f3tica industrial.",
-      "sourceIds": "S04; S12; S24; S25"
+      "sourceIds": "S04; S12; S24; S25",
+      "topics": "Rob\u00f3tica industrial. Percepci\u00f3n, movimiento, planificaci\u00f3n, control, interacci\u00f3n y experimentaci\u00f3n reproducible.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "ROB-023",
@@ -4934,7 +5754,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Robot o simulaci\u00f3n validada: ROS 2 y middleware rob\u00f3tico.",
-      "sourceIds": "S04; S12; S24; S25"
+      "sourceIds": "S04; S12; S24; S25",
+      "topics": "ROS 2 y middleware rob\u00f3tico. Percepci\u00f3n, movimiento, planificaci\u00f3n, control, interacci\u00f3n y experimentaci\u00f3n reproducible.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "ROB-024",
@@ -4946,7 +5768,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Robot o simulaci\u00f3n validada: Drones y veh\u00edculos aut\u00f3nomos.",
-      "sourceIds": "S04; S12; S24; S25"
+      "sourceIds": "S04; S12; S24; S25",
+      "topics": "Drones y veh\u00edculos aut\u00f3nomos. Percepci\u00f3n, movimiento, planificaci\u00f3n, control, interacci\u00f3n y experimentaci\u00f3n reproducible.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "ISM-022",
@@ -4958,7 +5782,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Caso empresarial y arquitectura: Emprendimiento tecnol\u00f3gico.",
-      "sourceIds": "S02; S03; S05; S06; S22; S34"
+      "sourceIds": "S02; S03; S05; S06; S22; S34",
+      "topics": "Emprendimiento tecnol\u00f3gico. Alineaci\u00f3n negocio\u2013tecnolog\u00eda, procesos, arquitectura, control, servicio y transformaci\u00f3n.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "ISM-023",
@@ -4970,7 +5796,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Caso empresarial y arquitectura: Innovaci\u00f3n y dise\u00f1o de servicios.",
-      "sourceIds": "S02; S03; S05; S06; S22; S34"
+      "sourceIds": "S02; S03; S05; S06; S22; S34",
+      "topics": "Innovaci\u00f3n y dise\u00f1o de servicios. Alineaci\u00f3n negocio\u2013tecnolog\u00eda, procesos, arquitectura, control, servicio y transformaci\u00f3n.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "ISM-024",
@@ -4982,7 +5810,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Caso empresarial y arquitectura: Liderazgo de equipos t\u00e9cnicos.",
-      "sourceIds": "S02; S03; S05; S06; S22; S34"
+      "sourceIds": "S02; S03; S05; S06; S22; S34",
+      "topics": "Liderazgo de equipos t\u00e9cnicos. Alineaci\u00f3n negocio\u2013tecnolog\u00eda, procesos, arquitectura, control, servicio y transformaci\u00f3n.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "SYS-019",
@@ -4994,7 +5824,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Laboratorio de sistema: Dise\u00f1o de sistemas a gran escala.",
-      "sourceIds": "S01; S02; S09; S13; S16; S17; S20"
+      "sourceIds": "S01; S02; S09; S13; S16; S17; S20",
+      "topics": "Dise\u00f1o de sistemas a gran escala. Funcionamiento interno, dise\u00f1o, medici\u00f3n de rendimiento y laboratorios reproducibles.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "BIO-001",
@@ -5006,7 +5838,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 84.0,
       "evidence": "Pipeline bioinform\u00e1tico: Biolog\u00eda celular y molecular.",
-      "sourceIds": "S12; S20; S39"
+      "sourceIds": "S12; S20; S39",
+      "topics": "Biolog\u00eda celular y molecular. Biolog\u00eda molecular, datos \u00f3micos, algoritmos, reproducibilidad y \u00e9tica.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "BIO-002",
@@ -5018,7 +5852,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 84.0,
       "evidence": "Pipeline bioinform\u00e1tico: Gen\u00e9tica.",
-      "sourceIds": "S12; S20; S39"
+      "sourceIds": "S12; S20; S39",
+      "topics": "Gen\u00e9tica. Biolog\u00eda molecular, datos \u00f3micos, algoritmos, reproducibilidad y \u00e9tica.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "BIO-003",
@@ -5030,7 +5866,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 84.0,
       "evidence": "Pipeline bioinform\u00e1tico: Bioqu\u00edmica.",
-      "sourceIds": "S12; S20; S39"
+      "sourceIds": "S12; S20; S39",
+      "topics": "Bioqu\u00edmica. Biolog\u00eda molecular, datos \u00f3micos, algoritmos, reproducibilidad y \u00e9tica.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "BIO-004",
@@ -5042,7 +5880,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 84.0,
       "evidence": "Pipeline bioinform\u00e1tico: Bioestad\u00edstica.",
-      "sourceIds": "S12; S20; S39"
+      "sourceIds": "S12; S20; S39",
+      "topics": "Bioestad\u00edstica. Biolog\u00eda molecular, datos \u00f3micos, algoritmos, reproducibilidad y \u00e9tica.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "BIO-005",
@@ -5054,7 +5894,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 84.0,
       "evidence": "Pipeline bioinform\u00e1tico: Bioinform\u00e1tica I.",
-      "sourceIds": "S12; S20; S39"
+      "sourceIds": "S12; S20; S39",
+      "topics": "Bioinform\u00e1tica I. Biolog\u00eda molecular, datos \u00f3micos, algoritmos, reproducibilidad y \u00e9tica.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "BIO-006",
@@ -5066,7 +5908,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 84.0,
       "evidence": "Pipeline bioinform\u00e1tico: Bioinform\u00e1tica II.",
-      "sourceIds": "S12; S20; S39"
+      "sourceIds": "S12; S20; S39",
+      "topics": "Bioinform\u00e1tica II. Biolog\u00eda molecular, datos \u00f3micos, algoritmos, reproducibilidad y \u00e9tica.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "BIO-015",
@@ -5078,7 +5922,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 84.0,
       "evidence": "Caso de salud digital: Fundamentos de inform\u00e1tica de salud.",
-      "sourceIds": "S40"
+      "sourceIds": "S40",
+      "topics": "Fundamentos de inform\u00e1tica de salud. Informaci\u00f3n cl\u00ednica, interoperabilidad, decisi\u00f3n, seguridad, regulaci\u00f3n y transformaci\u00f3n sanitaria.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "BIO-016",
@@ -5090,7 +5936,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 84.0,
       "evidence": "Caso de salud digital: Epidemiolog\u00eda y salud p\u00fablica.",
-      "sourceIds": "S40"
+      "sourceIds": "S40",
+      "topics": "Epidemiolog\u00eda y salud p\u00fablica. Informaci\u00f3n cl\u00ednica, interoperabilidad, decisi\u00f3n, seguridad, regulaci\u00f3n y transformaci\u00f3n sanitaria.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "BIO-017",
@@ -5102,7 +5950,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 84.0,
       "evidence": "Caso de salud digital: Sistemas de informaci\u00f3n cl\u00ednica.",
-      "sourceIds": "S40"
+      "sourceIds": "S40",
+      "topics": "Sistemas de informaci\u00f3n cl\u00ednica. Informaci\u00f3n cl\u00ednica, interoperabilidad, decisi\u00f3n, seguridad, regulaci\u00f3n y transformaci\u00f3n sanitaria.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "BIO-018",
@@ -5114,7 +5964,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 84.0,
       "evidence": "Caso de salud digital: Historias cl\u00ednicas electr\u00f3nicas.",
-      "sourceIds": "S40"
+      "sourceIds": "S40",
+      "topics": "Historias cl\u00ednicas electr\u00f3nicas. Informaci\u00f3n cl\u00ednica, interoperabilidad, decisi\u00f3n, seguridad, regulaci\u00f3n y transformaci\u00f3n sanitaria.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "BIO-019",
@@ -5126,7 +5978,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 84.0,
       "evidence": "Caso de salud digital: Interoperabilidad HL7, FHIR y DICOM.",
-      "sourceIds": "S40"
+      "sourceIds": "S40",
+      "topics": "Interoperabilidad HL7, FHIR y DICOM. Informaci\u00f3n cl\u00ednica, interoperabilidad, decisi\u00f3n, seguridad, regulaci\u00f3n y transformaci\u00f3n sanitaria.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "BIO-020",
@@ -5138,7 +5992,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 84.0,
       "evidence": "Caso de salud digital: Terminolog\u00edas y ontolog\u00edas cl\u00ednicas.",
-      "sourceIds": "S40"
+      "sourceIds": "S40",
+      "topics": "Terminolog\u00edas y ontolog\u00edas cl\u00ednicas. Informaci\u00f3n cl\u00ednica, interoperabilidad, decisi\u00f3n, seguridad, regulaci\u00f3n y transformaci\u00f3n sanitaria.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "CYB-022",
@@ -5150,7 +6006,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Evaluaci\u00f3n defensiva: Ingenier\u00eda inversa.",
-      "sourceIds": "S03; S05; S08; S33; S34; S36"
+      "sourceIds": "S03; S05; S08; S33; S34; S36",
+      "topics": "Ingenier\u00eda inversa. Dise\u00f1o de controles, laboratorios aislados, gesti\u00f3n de riesgo y evidencia auditable.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "CYB-023",
@@ -5162,7 +6020,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Evaluaci\u00f3n defensiva: DevSecOps.",
-      "sourceIds": "S03; S05; S08; S33; S34; S36"
+      "sourceIds": "S03; S05; S08; S33; S34; S36",
+      "topics": "DevSecOps. Dise\u00f1o de controles, laboratorios aislados, gesti\u00f3n de riesgo y evidencia auditable.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "CYB-024",
@@ -5174,7 +6034,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Evaluaci\u00f3n defensiva: Privacidad y protecci\u00f3n de datos.",
-      "sourceIds": "S03; S05; S08; S33; S34; S36"
+      "sourceIds": "S03; S05; S08; S33; S34; S36",
+      "topics": "Privacidad y protecci\u00f3n de datos. Dise\u00f1o de controles, laboratorios aislados, gesti\u00f3n de riesgo y evidencia auditable.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "CYB-025",
@@ -5186,7 +6048,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Evaluaci\u00f3n defensiva: Gobierno de seguridad de la informaci\u00f3n.",
-      "sourceIds": "S03; S05; S08; S33; S34; S36"
+      "sourceIds": "S03; S05; S08; S33; S34; S36",
+      "topics": "Gobierno de seguridad de la informaci\u00f3n. Dise\u00f1o de controles, laboratorios aislados, gesti\u00f3n de riesgo y evidencia auditable.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "CYB-026",
@@ -5198,7 +6062,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Evaluaci\u00f3n defensiva: Gesti\u00f3n de riesgos tecnol\u00f3gicos.",
-      "sourceIds": "S03; S05; S08; S33; S34; S36"
+      "sourceIds": "S03; S05; S08; S33; S34; S36",
+      "topics": "Gesti\u00f3n de riesgos tecnol\u00f3gicos. Dise\u00f1o de controles, laboratorios aislados, gesti\u00f3n de riesgo y evidencia auditable.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "CYB-027",
@@ -5210,7 +6076,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Evaluaci\u00f3n defensiva: ISO 27001, NIST CSF y marcos de control.",
-      "sourceIds": "S03; S05; S08; S33; S34; S36"
+      "sourceIds": "S03; S05; S08; S33; S34; S36",
+      "topics": "ISO 27001, NIST CSF y marcos de control. Dise\u00f1o de controles, laboratorios aislados, gesti\u00f3n de riesgo y evidencia auditable.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "CYB-028",
@@ -5222,7 +6090,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Evaluaci\u00f3n defensiva: Continuidad del negocio y resiliencia.",
-      "sourceIds": "S03; S05; S08; S33; S34; S36"
+      "sourceIds": "S03; S05; S08; S33; S34; S36",
+      "topics": "Continuidad del negocio y resiliencia. Dise\u00f1o de controles, laboratorios aislados, gesti\u00f3n de riesgo y evidencia auditable.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "CYB-036",
@@ -5234,7 +6104,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Informe de pentest autorizado: Seguridad de contrase\u00f1as y autenticaci\u00f3n.",
-      "sourceIds": "S08; S32; S33"
+      "sourceIds": "S08; S32; S33",
+      "topics": "Seguridad de contrase\u00f1as y autenticaci\u00f3n. Exclusivamente en laboratorios propios o con autorizaci\u00f3n expresa; reporte, remediaci\u00f3n y \u00e9tica obligatorios.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "CYB-037",
@@ -5246,7 +6118,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Informe de pentest autorizado: Escalada de privilegios en Linux.",
-      "sourceIds": "S08; S32; S33"
+      "sourceIds": "S08; S32; S33",
+      "topics": "Escalada de privilegios en Linux. Exclusivamente en laboratorios propios o con autorizaci\u00f3n expresa; reporte, remediaci\u00f3n y \u00e9tica obligatorios.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "CYB-038",
@@ -5258,7 +6132,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Informe de pentest autorizado: Escalada de privilegios en Windows.",
-      "sourceIds": "S08; S32; S33"
+      "sourceIds": "S08; S32; S33",
+      "topics": "Escalada de privilegios en Windows. Exclusivamente en laboratorios propios o con autorizaci\u00f3n expresa; reporte, remediaci\u00f3n y \u00e9tica obligatorios.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "CYB-039",
@@ -5270,7 +6146,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Informe de pentest autorizado: Explotaci\u00f3n controlada y desarrollo de exploits.",
-      "sourceIds": "S08; S32; S33"
+      "sourceIds": "S08; S32; S33",
+      "topics": "Explotaci\u00f3n controlada y desarrollo de exploits. Exclusivamente en laboratorios propios o con autorizaci\u00f3n expresa; reporte, remediaci\u00f3n y \u00e9tica obligatorios.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "CYB-040",
@@ -5282,7 +6160,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Informe de pentest autorizado: Red Team.",
-      "sourceIds": "S08; S32; S33"
+      "sourceIds": "S08; S32; S33",
+      "topics": "Red Team. Exclusivamente en laboratorios propios o con autorizaci\u00f3n expresa; reporte, remediaci\u00f3n y \u00e9tica obligatorios.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "CYB-052",
@@ -5294,7 +6174,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Expediente forense: Forense cloud.",
-      "sourceIds": "S08; S34; S35; S36"
+      "sourceIds": "S08; S34; S35; S36",
+      "topics": "Forense cloud. Autoridad legal, preservaci\u00f3n, cadena de custodia, validaci\u00f3n, repetibilidad y testimonio t\u00e9cnico.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "CYB-053",
@@ -5306,7 +6188,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Expediente forense: Forense de malware.",
-      "sourceIds": "S08; S34; S35; S36"
+      "sourceIds": "S08; S34; S35; S36",
+      "topics": "Forense de malware. Autoridad legal, preservaci\u00f3n, cadena de custodia, validaci\u00f3n, repetibilidad y testimonio t\u00e9cnico.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "CYB-054",
@@ -5318,7 +6202,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Expediente forense: eDiscovery y peritaje inform\u00e1tico.",
-      "sourceIds": "S08; S34; S35; S36"
+      "sourceIds": "S08; S34; S35; S36",
+      "topics": "eDiscovery y peritaje inform\u00e1tico. Autoridad legal, preservaci\u00f3n, cadena de custodia, validaci\u00f3n, repetibilidad y testimonio t\u00e9cnico.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "CYB-055",
@@ -5330,7 +6216,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Expediente forense: Legislaci\u00f3n, cadena de custodia y testimonio.",
-      "sourceIds": "S08; S34; S35; S36"
+      "sourceIds": "S08; S34; S35; S36",
+      "topics": "Legislaci\u00f3n, cadena de custodia y testimonio. Autoridad legal, preservaci\u00f3n, cadena de custodia, validaci\u00f3n, repetibilidad y testimonio t\u00e9cnico.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "CYB-056",
@@ -5342,7 +6230,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Expediente forense: Auditor\u00eda de sistemas I.",
-      "sourceIds": "S08; S34; S35; S36"
+      "sourceIds": "S08; S34; S35; S36",
+      "topics": "Auditor\u00eda de sistemas I. Autoridad legal, preservaci\u00f3n, cadena de custodia, validaci\u00f3n, repetibilidad y testimonio t\u00e9cnico.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "CYB-057",
@@ -5354,7 +6244,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Expediente forense: Auditor\u00eda de sistemas II.",
-      "sourceIds": "S08; S34; S35; S36"
+      "sourceIds": "S08; S34; S35; S36",
+      "topics": "Auditor\u00eda de sistemas II. Autoridad legal, preservaci\u00f3n, cadena de custodia, validaci\u00f3n, repetibilidad y testimonio t\u00e9cnico.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "DAI-040",
@@ -5366,7 +6258,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Modelo evaluado y desplegado: Agentes y sistemas multiagente.",
-      "sourceIds": "S01; S07; S12; S18; S19; S20; S38"
+      "sourceIds": "S01; S07; S12; S18; S19; S20; S38",
+      "topics": "Agentes y sistemas multiagente. Fundamentos, evaluaci\u00f3n rigurosa, implementaci\u00f3n, despliegue responsable y aplicaciones.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "DAI-041",
@@ -5378,7 +6272,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Modelo evaluado y desplegado: MLOps.",
-      "sourceIds": "S01; S07; S12; S18; S19; S20; S38"
+      "sourceIds": "S01; S07; S12; S18; S19; S20; S38",
+      "topics": "MLOps. Fundamentos, evaluaci\u00f3n rigurosa, implementaci\u00f3n, despliegue responsable y aplicaciones.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "DAI-042",
@@ -5390,7 +6286,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Modelo evaluado y desplegado: LLMOps y evaluaci\u00f3n de sistemas generativos.",
-      "sourceIds": "S01; S07; S12; S18; S19; S20; S38"
+      "sourceIds": "S01; S07; S12; S18; S19; S20; S38",
+      "topics": "LLMOps y evaluaci\u00f3n de sistemas generativos. Fundamentos, evaluaci\u00f3n rigurosa, implementaci\u00f3n, despliegue responsable y aplicaciones.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "DAI-043",
@@ -5402,7 +6300,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Modelo evaluado y desplegado: IA explicable e interpretable.",
-      "sourceIds": "S01; S07; S12; S18; S19; S20; S38"
+      "sourceIds": "S01; S07; S12; S18; S19; S20; S38",
+      "topics": "IA explicable e interpretable. Fundamentos, evaluaci\u00f3n rigurosa, implementaci\u00f3n, despliegue responsable y aplicaciones.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "DAI-044",
@@ -5414,7 +6314,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Modelo evaluado y desplegado: Robustez, seguridad y privacidad en ML.",
-      "sourceIds": "S01; S07; S12; S18; S19; S20; S38"
+      "sourceIds": "S01; S07; S12; S18; S19; S20; S38",
+      "topics": "Robustez, seguridad y privacidad en ML. Fundamentos, evaluaci\u00f3n rigurosa, implementaci\u00f3n, despliegue responsable y aplicaciones.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "DAI-045",
@@ -5426,7 +6328,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Modelo evaluado y desplegado: \u00c9tica, sesgo y gobernanza de IA.",
-      "sourceIds": "S01; S07; S12; S18; S19; S20; S38"
+      "sourceIds": "S01; S07; S12; S18; S19; S20; S38",
+      "topics": "\u00c9tica, sesgo y gobernanza de IA. Fundamentos, evaluaci\u00f3n rigurosa, implementaci\u00f3n, despliegue responsable y aplicaciones.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "GXR-013",
@@ -5438,7 +6342,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 96.0,
       "evidence": "Demo interactiva: Godot y motores open source.",
-      "sourceIds": "S01; S12; S18; S20; S22; S23"
+      "sourceIds": "S01; S12; S18; S20; S22; S23",
+      "topics": "Godot y motores open source. Matem\u00e1tica visual, interacci\u00f3n en tiempo real, optimizaci\u00f3n, experiencia y producci\u00f3n.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "GXR-014",
@@ -5450,7 +6356,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 96.0,
       "evidence": "Demo interactiva: IA para videojuegos.",
-      "sourceIds": "S01; S12; S18; S20; S22; S23"
+      "sourceIds": "S01; S12; S18; S20; S22; S23",
+      "topics": "IA para videojuegos. Matem\u00e1tica visual, interacci\u00f3n en tiempo real, optimizaci\u00f3n, experiencia y producci\u00f3n.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "GXR-015",
@@ -5462,7 +6370,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 96.0,
       "evidence": "Demo interactiva: Redes y multijugador.",
-      "sourceIds": "S01; S12; S18; S20; S22; S23"
+      "sourceIds": "S01; S12; S18; S20; S22; S23",
+      "topics": "Redes y multijugador. Matem\u00e1tica visual, interacci\u00f3n en tiempo real, optimizaci\u00f3n, experiencia y producci\u00f3n.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "GXR-016",
@@ -5474,7 +6384,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 96.0,
       "evidence": "Demo interactiva: Audio interactivo.",
-      "sourceIds": "S01; S12; S18; S20; S22; S23"
+      "sourceIds": "S01; S12; S18; S20; S22; S23",
+      "topics": "Audio interactivo. Matem\u00e1tica visual, interacci\u00f3n en tiempo real, optimizaci\u00f3n, experiencia y producci\u00f3n.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "GXR-017",
@@ -5486,7 +6398,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 96.0,
       "evidence": "Demo interactiva: Optimizaci\u00f3n y portabilidad de juegos.",
-      "sourceIds": "S01; S12; S18; S20; S22; S23"
+      "sourceIds": "S01; S12; S18; S20; S22; S23",
+      "topics": "Optimizaci\u00f3n y portabilidad de juegos. Matem\u00e1tica visual, interacci\u00f3n en tiempo real, optimizaci\u00f3n, experiencia y producci\u00f3n.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "GXR-018",
@@ -5498,7 +6412,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 96.0,
       "evidence": "Demo interactiva: Producci\u00f3n y negocio de videojuegos.",
-      "sourceIds": "S01; S12; S18; S20; S22; S23"
+      "sourceIds": "S01; S12; S18; S20; S22; S23",
+      "topics": "Producci\u00f3n y negocio de videojuegos. Matem\u00e1tica visual, interacci\u00f3n en tiempo real, optimizaci\u00f3n, experiencia y producci\u00f3n.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "CAP-017",
@@ -5510,7 +6426,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Capstone integral: Capstone V: electr\u00f3nica e IoT.",
-      "sourceIds": "S03; S04; S09; S11; S12; S18"
+      "sourceIds": "S03; S04; S09; S11; S12; S18",
+      "topics": "Capstone V: electr\u00f3nica e IoT. Problema real, requisitos, dise\u00f1o, implementaci\u00f3n, validaci\u00f3n, documentaci\u00f3n, \u00e9tica y defensa p\u00fablica.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "CAP-018",
@@ -5522,7 +6440,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Capstone integral: Capstone VI: rob\u00f3tica y mecatr\u00f3nica.",
-      "sourceIds": "S03; S04; S09; S11; S12; S18"
+      "sourceIds": "S03; S04; S09; S11; S12; S18",
+      "topics": "Capstone VI: rob\u00f3tica y mecatr\u00f3nica. Problema real, requisitos, dise\u00f1o, implementaci\u00f3n, validaci\u00f3n, documentaci\u00f3n, \u00e9tica y defensa p\u00fablica.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "CAP-027",
@@ -5534,7 +6454,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Dossier temporal y radar auditado: Prospectiva tecnol\u00f3gica y construcci\u00f3n de escenarios.",
-      "sourceIds": "S50; S51; S52; S53; S54; S61; S62; S63; S64; S67; S68"
+      "sourceIds": "S50; S51; S52; S53; S54; S61; S62; S63; S64; S67; S68",
+      "topics": "Prospectiva tecnol\u00f3gica y construcci\u00f3n de escenarios. Reconstrucci\u00f3n hist\u00f3rica, an\u00e1lisis de evidencia, escenarios alternativos, se\u00f1ales tempranas, madurez tecnol\u00f3gica y revisi\u00f3n peri\u00f3dica de decisiones.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "CAP-028",
@@ -5546,7 +6468,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Dossier temporal y radar auditado: Horizon scanning y radar tecnol\u00f3gico.",
-      "sourceIds": "S50; S51; S52; S53; S54; S61; S62; S63; S64; S67; S68"
+      "sourceIds": "S50; S51; S52; S53; S54; S61; S62; S63; S64; S67; S68",
+      "topics": "Horizon scanning y radar tecnol\u00f3gico. Reconstrucci\u00f3n hist\u00f3rica, an\u00e1lisis de evidencia, escenarios alternativos, se\u00f1ales tempranas, madurez tecnol\u00f3gica y revisi\u00f3n peri\u00f3dica de decisiones.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "NET-041",
@@ -5558,7 +6482,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Infraestructura como c\u00f3digo: FinOps y optimizaci\u00f3n de costos.",
-      "sourceIds": "S03; S28; S29; S30; S31"
+      "sourceIds": "S03; S28; S29; S30; S31",
+      "topics": "FinOps y optimizaci\u00f3n de costos. Implementaci\u00f3n, automatizaci\u00f3n, identidad, monitoreo, continuidad y optimizaci\u00f3n de costos.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "NET-042",
@@ -5570,7 +6496,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Infraestructura como c\u00f3digo: Arquitectura cloud-native.",
-      "sourceIds": "S03; S28; S29; S30; S31"
+      "sourceIds": "S03; S28; S29; S30; S31",
+      "topics": "Arquitectura cloud-native. Implementaci\u00f3n, automatizaci\u00f3n, identidad, monitoreo, continuidad y optimizaci\u00f3n de costos.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "NET-043",
@@ -5582,7 +6510,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Infraestructura como c\u00f3digo: Operaci\u00f3n de plataformas a gran escala.",
-      "sourceIds": "S03; S28; S29; S30; S31"
+      "sourceIds": "S03; S28; S29; S30; S31",
+      "topics": "Operaci\u00f3n de plataformas a gran escala. Implementaci\u00f3n, automatizaci\u00f3n, identidad, monitoreo, continuidad y optimizaci\u00f3n de costos.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "ROB-025",
@@ -5594,7 +6524,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Robot o simulaci\u00f3n validada: Rob\u00f3tica humanoide.",
-      "sourceIds": "S04; S12; S24; S25"
+      "sourceIds": "S04; S12; S24; S25",
+      "topics": "Rob\u00f3tica humanoide. Percepci\u00f3n, movimiento, planificaci\u00f3n, control, interacci\u00f3n y experimentaci\u00f3n reproducible.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "ROB-026",
@@ -5606,7 +6538,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Robot o simulaci\u00f3n validada: Interacci\u00f3n humano\u2013robot.",
-      "sourceIds": "S04; S12; S24; S25"
+      "sourceIds": "S04; S12; S24; S25",
+      "topics": "Interacci\u00f3n humano\u2013robot. Percepci\u00f3n, movimiento, planificaci\u00f3n, control, interacci\u00f3n y experimentaci\u00f3n reproducible.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "ROB-027",
@@ -5618,7 +6552,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Robot o simulaci\u00f3n validada: Rob\u00f3tica colaborativa y seguridad.",
-      "sourceIds": "S04; S12; S24; S25"
+      "sourceIds": "S04; S12; S24; S25",
+      "topics": "Rob\u00f3tica colaborativa y seguridad. Percepci\u00f3n, movimiento, planificaci\u00f3n, control, interacci\u00f3n y experimentaci\u00f3n reproducible.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "ROB-028",
@@ -5630,7 +6566,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Robot o simulaci\u00f3n validada: Aprendizaje para rob\u00f3tica.",
-      "sourceIds": "S04; S12; S24; S25"
+      "sourceIds": "S04; S12; S24; S25",
+      "topics": "Aprendizaje para rob\u00f3tica. Percepci\u00f3n, movimiento, planificaci\u00f3n, control, interacci\u00f3n y experimentaci\u00f3n reproducible.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "ROB-029",
@@ -5642,7 +6580,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Robot o simulaci\u00f3n validada: Sistemas multi-robot.",
-      "sourceIds": "S04; S12; S24; S25"
+      "sourceIds": "S04; S12; S24; S25",
+      "topics": "Sistemas multi-robot. Percepci\u00f3n, movimiento, planificaci\u00f3n, control, interacci\u00f3n y experimentaci\u00f3n reproducible.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "ROB-030",
@@ -5654,7 +6594,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Robot o simulaci\u00f3n validada: Rob\u00f3tica blanda y bioinspirada.",
-      "sourceIds": "S04; S12; S24; S25"
+      "sourceIds": "S04; S12; S24; S25",
+      "topics": "Rob\u00f3tica blanda y bioinspirada. Percepci\u00f3n, movimiento, planificaci\u00f3n, control, interacci\u00f3n y experimentaci\u00f3n reproducible.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "BIO-007",
@@ -5666,7 +6608,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 84.0,
       "evidence": "Pipeline bioinform\u00e1tico: Gen\u00f3mica y secuenciaci\u00f3n.",
-      "sourceIds": "S12; S20; S39"
+      "sourceIds": "S12; S20; S39",
+      "topics": "Gen\u00f3mica y secuenciaci\u00f3n. Biolog\u00eda molecular, datos \u00f3micos, algoritmos, reproducibilidad y \u00e9tica.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "BIO-008",
@@ -5678,7 +6622,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 84.0,
       "evidence": "Pipeline bioinform\u00e1tico: Prote\u00f3mica y metabol\u00f3mica.",
-      "sourceIds": "S12; S20; S39"
+      "sourceIds": "S12; S20; S39",
+      "topics": "Prote\u00f3mica y metabol\u00f3mica. Biolog\u00eda molecular, datos \u00f3micos, algoritmos, reproducibilidad y \u00e9tica.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "BIO-009",
@@ -5690,7 +6636,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 84.0,
       "evidence": "Pipeline bioinform\u00e1tico: Algoritmos para secuencias biol\u00f3gicas.",
-      "sourceIds": "S12; S20; S39"
+      "sourceIds": "S12; S20; S39",
+      "topics": "Algoritmos para secuencias biol\u00f3gicas. Biolog\u00eda molecular, datos \u00f3micos, algoritmos, reproducibilidad y \u00e9tica.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "BIO-010",
@@ -5702,7 +6650,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 84.0,
       "evidence": "Pipeline bioinform\u00e1tico: Biolog\u00eda de sistemas.",
-      "sourceIds": "S12; S20; S39"
+      "sourceIds": "S12; S20; S39",
+      "topics": "Biolog\u00eda de sistemas. Biolog\u00eda molecular, datos \u00f3micos, algoritmos, reproducibilidad y \u00e9tica.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "BIO-011",
@@ -5714,7 +6664,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 84.0,
       "evidence": "Pipeline bioinform\u00e1tico: Modelado computacional de sistemas biol\u00f3gicos.",
-      "sourceIds": "S12; S20; S39"
+      "sourceIds": "S12; S20; S39",
+      "topics": "Modelado computacional de sistemas biol\u00f3gicos. Biolog\u00eda molecular, datos \u00f3micos, algoritmos, reproducibilidad y \u00e9tica.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "BIO-012",
@@ -5726,7 +6678,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 84.0,
       "evidence": "Pipeline bioinform\u00e1tico: Machine Learning para biolog\u00eda.",
-      "sourceIds": "S12; S20; S39"
+      "sourceIds": "S12; S20; S39",
+      "topics": "Machine Learning para biolog\u00eda. Biolog\u00eda molecular, datos \u00f3micos, algoritmos, reproducibilidad y \u00e9tica.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "BIO-021",
@@ -5738,7 +6692,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 84.0,
       "evidence": "Caso de salud digital: Anal\u00edtica de salud.",
-      "sourceIds": "S40"
+      "sourceIds": "S40",
+      "topics": "Anal\u00edtica de salud. Informaci\u00f3n cl\u00ednica, interoperabilidad, decisi\u00f3n, seguridad, regulaci\u00f3n y transformaci\u00f3n sanitaria.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "BIO-022",
@@ -5750,7 +6706,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 84.0,
       "evidence": "Caso de salud digital: Sistemas de apoyo a la decisi\u00f3n cl\u00ednica.",
-      "sourceIds": "S40"
+      "sourceIds": "S40",
+      "topics": "Sistemas de apoyo a la decisi\u00f3n cl\u00ednica. Informaci\u00f3n cl\u00ednica, interoperabilidad, decisi\u00f3n, seguridad, regulaci\u00f3n y transformaci\u00f3n sanitaria.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "BIO-023",
@@ -5762,7 +6720,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 84.0,
       "evidence": "Caso de salud digital: Telemedicina y salud m\u00f3vil.",
-      "sourceIds": "S40"
+      "sourceIds": "S40",
+      "topics": "Telemedicina y salud m\u00f3vil. Informaci\u00f3n cl\u00ednica, interoperabilidad, decisi\u00f3n, seguridad, regulaci\u00f3n y transformaci\u00f3n sanitaria.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "BIO-024",
@@ -5774,7 +6734,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 84.0,
       "evidence": "Caso de salud digital: IoT m\u00e9dico y dispositivos conectados.",
-      "sourceIds": "S40"
+      "sourceIds": "S40",
+      "topics": "IoT m\u00e9dico y dispositivos conectados. Informaci\u00f3n cl\u00ednica, interoperabilidad, decisi\u00f3n, seguridad, regulaci\u00f3n y transformaci\u00f3n sanitaria.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "BIO-025",
@@ -5786,7 +6748,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 84.0,
       "evidence": "Caso de salud digital: Privacidad, seguridad y \u00e9tica en salud.",
-      "sourceIds": "S40"
+      "sourceIds": "S40",
+      "topics": "Privacidad, seguridad y \u00e9tica en salud. Informaci\u00f3n cl\u00ednica, interoperabilidad, decisi\u00f3n, seguridad, regulaci\u00f3n y transformaci\u00f3n sanitaria.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "BIO-026",
@@ -5798,7 +6762,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 84.0,
       "evidence": "Caso de salud digital: IA cl\u00ednica y evaluaci\u00f3n.",
-      "sourceIds": "S40"
+      "sourceIds": "S40",
+      "topics": "IA cl\u00ednica y evaluaci\u00f3n. Informaci\u00f3n cl\u00ednica, interoperabilidad, decisi\u00f3n, seguridad, regulaci\u00f3n y transformaci\u00f3n sanitaria.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "CYB-029",
@@ -5810,7 +6776,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Evaluaci\u00f3n defensiva: Riesgo de terceros y cadena de suministro.",
-      "sourceIds": "S03; S05; S08; S33; S34; S36"
+      "sourceIds": "S03; S05; S08; S33; S34; S36",
+      "topics": "Riesgo de terceros y cadena de suministro. Dise\u00f1o de controles, laboratorios aislados, gesti\u00f3n de riesgo y evidencia auditable.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "CYB-030",
@@ -5822,7 +6790,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Evaluaci\u00f3n defensiva: Liderazgo y estrategia de ciberseguridad.",
-      "sourceIds": "S03; S05; S08; S33; S34; S36"
+      "sourceIds": "S03; S05; S08; S33; S34; S36",
+      "topics": "Liderazgo y estrategia de ciberseguridad. Dise\u00f1o de controles, laboratorios aislados, gesti\u00f3n de riesgo y evidencia auditable.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "CYB-041",
@@ -5834,7 +6804,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Informe de pentest autorizado: Purple Team y validaci\u00f3n defensiva.",
-      "sourceIds": "S08; S32; S33"
+      "sourceIds": "S08; S32; S33",
+      "topics": "Purple Team y validaci\u00f3n defensiva. Exclusivamente en laboratorios propios o con autorizaci\u00f3n expresa; reporte, remediaci\u00f3n y \u00e9tica obligatorios.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "CYB-042",
@@ -5846,7 +6818,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Informe de pentest autorizado: Seguridad ofensiva en Active Directory.",
-      "sourceIds": "S08; S32; S33"
+      "sourceIds": "S08; S32; S33",
+      "topics": "Seguridad ofensiva en Active Directory. Exclusivamente en laboratorios propios o con autorizaci\u00f3n expresa; reporte, remediaci\u00f3n y \u00e9tica obligatorios.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "CYB-043",
@@ -5858,7 +6832,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Informe de pentest autorizado: Pruebas de penetraci\u00f3n cloud.",
-      "sourceIds": "S08; S32; S33"
+      "sourceIds": "S08; S32; S33",
+      "topics": "Pruebas de penetraci\u00f3n cloud. Exclusivamente en laboratorios propios o con autorizaci\u00f3n expresa; reporte, remediaci\u00f3n y \u00e9tica obligatorios.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "CYB-044",
@@ -5870,7 +6846,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Informe de pentest autorizado: Seguridad de hardware y side channels.",
-      "sourceIds": "S08; S32; S33"
+      "sourceIds": "S08; S32; S33",
+      "topics": "Seguridad de hardware y side channels. Exclusivamente en laboratorios propios o con autorizaci\u00f3n expresa; reporte, remediaci\u00f3n y \u00e9tica obligatorios.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "CYB-045",
@@ -5882,7 +6860,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 92.0,
       "evidence": "Informe de pentest autorizado: Investigaci\u00f3n de vulnerabilidades y divulgaci\u00f3n responsable.",
-      "sourceIds": "S08; S32; S33"
+      "sourceIds": "S08; S32; S33",
+      "topics": "Investigaci\u00f3n de vulnerabilidades y divulgaci\u00f3n responsable. Exclusivamente en laboratorios propios o con autorizaci\u00f3n expresa; reporte, remediaci\u00f3n y \u00e9tica obligatorios.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "CYB-058",
@@ -5894,7 +6874,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Expediente forense: Auditor\u00eda de aplicaciones y bases de datos.",
-      "sourceIds": "S08; S34; S35; S36"
+      "sourceIds": "S08; S34; S35; S36",
+      "topics": "Auditor\u00eda de aplicaciones y bases de datos. Autoridad legal, preservaci\u00f3n, cadena de custodia, validaci\u00f3n, repetibilidad y testimonio t\u00e9cnico.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "CYB-059",
@@ -5906,7 +6888,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Expediente forense: Auditor\u00eda de infraestructura y cloud.",
-      "sourceIds": "S08; S34; S35; S36"
+      "sourceIds": "S08; S34; S35; S36",
+      "topics": "Auditor\u00eda de infraestructura y cloud. Autoridad legal, preservaci\u00f3n, cadena de custodia, validaci\u00f3n, repetibilidad y testimonio t\u00e9cnico.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "CYB-060",
@@ -5918,7 +6902,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Expediente forense: Auditor\u00eda continua y an\u00e1lisis de datos.",
-      "sourceIds": "S08; S34; S35; S36"
+      "sourceIds": "S08; S34; S35; S36",
+      "topics": "Auditor\u00eda continua y an\u00e1lisis de datos. Autoridad legal, preservaci\u00f3n, cadena de custodia, validaci\u00f3n, repetibilidad y testimonio t\u00e9cnico.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "QUA-001",
@@ -5930,7 +6916,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 84.0,
       "evidence": "Notebook y circuito cu\u00e1ntico: Mec\u00e1nica cu\u00e1ntica para computaci\u00f3n.",
-      "sourceIds": "S10; S14; S20; S41; S42"
+      "sourceIds": "S10; S14; S20; S41; S42",
+      "topics": "Mec\u00e1nica cu\u00e1ntica para computaci\u00f3n. Formalismo matem\u00e1tico, circuitos, algoritmos, hardware, ruido, seguridad y aplicaciones.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "QUA-002",
@@ -5942,7 +6930,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 84.0,
       "evidence": "Notebook y circuito cu\u00e1ntico: Informaci\u00f3n cu\u00e1ntica.",
-      "sourceIds": "S10; S14; S20; S41; S42"
+      "sourceIds": "S10; S14; S20; S41; S42",
+      "topics": "Informaci\u00f3n cu\u00e1ntica. Formalismo matem\u00e1tico, circuitos, algoritmos, hardware, ruido, seguridad y aplicaciones.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "QUA-003",
@@ -5954,7 +6944,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 84.0,
       "evidence": "Notebook y circuito cu\u00e1ntico: Circuitos y programaci\u00f3n cu\u00e1ntica.",
-      "sourceIds": "S10; S14; S20; S41; S42"
+      "sourceIds": "S10; S14; S20; S41; S42",
+      "topics": "Circuitos y programaci\u00f3n cu\u00e1ntica. Formalismo matem\u00e1tico, circuitos, algoritmos, hardware, ruido, seguridad y aplicaciones.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "QUA-004",
@@ -5966,7 +6958,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 84.0,
       "evidence": "Notebook y circuito cu\u00e1ntico: Algoritmos cu\u00e1nticos I.",
-      "sourceIds": "S10; S14; S20; S41; S42"
+      "sourceIds": "S10; S14; S20; S41; S42",
+      "topics": "Algoritmos cu\u00e1nticos I. Formalismo matem\u00e1tico, circuitos, algoritmos, hardware, ruido, seguridad y aplicaciones.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "QUA-005",
@@ -5978,7 +6972,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 84.0,
       "evidence": "Notebook y circuito cu\u00e1ntico: Algoritmos cu\u00e1nticos II.",
-      "sourceIds": "S10; S14; S20; S41; S42"
+      "sourceIds": "S10; S14; S20; S41; S42",
+      "topics": "Algoritmos cu\u00e1nticos II. Formalismo matem\u00e1tico, circuitos, algoritmos, hardware, ruido, seguridad y aplicaciones.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "DAI-046",
@@ -5990,7 +6986,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Modelo evaluado y desplegado: IA en el edge.",
-      "sourceIds": "S01; S07; S12; S18; S19; S20; S38"
+      "sourceIds": "S01; S07; S12; S18; S19; S20; S38",
+      "topics": "IA en el edge. Fundamentos, evaluaci\u00f3n rigurosa, implementaci\u00f3n, despliegue responsable y aplicaciones.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "DAI-047",
@@ -6002,7 +7000,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Modelo evaluado y desplegado: Aprendizaje federado.",
-      "sourceIds": "S01; S07; S12; S18; S19; S20; S38"
+      "sourceIds": "S01; S07; S12; S18; S19; S20; S38",
+      "topics": "Aprendizaje federado. Fundamentos, evaluaci\u00f3n rigurosa, implementaci\u00f3n, despliegue responsable y aplicaciones.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "DAI-048",
@@ -6014,7 +7014,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Modelo evaluado y desplegado: Modelos probabil\u00edsticos y bayesianos.",
-      "sourceIds": "S01; S07; S12; S18; S19; S20; S38"
+      "sourceIds": "S01; S07; S12; S18; S19; S20; S38",
+      "topics": "Modelos probabil\u00edsticos y bayesianos. Fundamentos, evaluaci\u00f3n rigurosa, implementaci\u00f3n, despliegue responsable y aplicaciones.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "DAI-049",
@@ -6026,7 +7028,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Modelo evaluado y desplegado: Aprendizaje geom\u00e9trico y graph neural networks.",
-      "sourceIds": "S01; S07; S12; S18; S19; S20; S38"
+      "sourceIds": "S01; S07; S12; S18; S19; S20; S38",
+      "topics": "Aprendizaje geom\u00e9trico y graph neural networks. Fundamentos, evaluaci\u00f3n rigurosa, implementaci\u00f3n, despliegue responsable y aplicaciones.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "DAI-050",
@@ -6038,7 +7042,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Modelo evaluado y desplegado: Optimizaci\u00f3n para ML.",
-      "sourceIds": "S01; S07; S12; S18; S19; S20; S38"
+      "sourceIds": "S01; S07; S12; S18; S19; S20; S38",
+      "topics": "Optimizaci\u00f3n para ML. Fundamentos, evaluaci\u00f3n rigurosa, implementaci\u00f3n, despliegue responsable y aplicaciones.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "DAI-051",
@@ -6050,7 +7056,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 84.0,
       "evidence": "Modelo evaluado y desplegado: Investigaci\u00f3n avanzada en IA.",
-      "sourceIds": "S01; S07; S12; S18; S19; S20; S38"
+      "sourceIds": "S01; S07; S12; S18; S19; S20; S38",
+      "topics": "Investigaci\u00f3n avanzada en IA. Fundamentos, evaluaci\u00f3n rigurosa, implementaci\u00f3n, despliegue responsable y aplicaciones.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "GXR-019",
@@ -6062,7 +7070,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 96.0,
       "evidence": "Demo interactiva: Fundamentos de realidad virtual y aumentada.",
-      "sourceIds": "S01; S12; S18; S20; S22; S23"
+      "sourceIds": "S01; S12; S18; S20; S22; S23",
+      "topics": "Fundamentos de realidad virtual y aumentada. Matem\u00e1tica visual, interacci\u00f3n en tiempo real, optimizaci\u00f3n, experiencia y producci\u00f3n.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "GXR-020",
@@ -6074,7 +7084,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 96.0,
       "evidence": "Demo interactiva: Desarrollo de realidad virtual.",
-      "sourceIds": "S01; S12; S18; S20; S22; S23"
+      "sourceIds": "S01; S12; S18; S20; S22; S23",
+      "topics": "Desarrollo de realidad virtual. Matem\u00e1tica visual, interacci\u00f3n en tiempo real, optimizaci\u00f3n, experiencia y producci\u00f3n.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "GXR-021",
@@ -6086,7 +7098,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 96.0,
       "evidence": "Demo interactiva: Desarrollo de realidad aumentada.",
-      "sourceIds": "S01; S12; S18; S20; S22; S23"
+      "sourceIds": "S01; S12; S18; S20; S22; S23",
+      "topics": "Desarrollo de realidad aumentada. Matem\u00e1tica visual, interacci\u00f3n en tiempo real, optimizaci\u00f3n, experiencia y producci\u00f3n.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "GXR-022",
@@ -6098,7 +7112,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 96.0,
       "evidence": "Demo interactiva: Computaci\u00f3n espacial y realidad mixta.",
-      "sourceIds": "S01; S12; S18; S20; S22; S23"
+      "sourceIds": "S01; S12; S18; S20; S22; S23",
+      "topics": "Computaci\u00f3n espacial y realidad mixta. Matem\u00e1tica visual, interacci\u00f3n en tiempo real, optimizaci\u00f3n, experiencia y producci\u00f3n.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "GXR-023",
@@ -6110,7 +7126,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 96.0,
       "evidence": "Demo interactiva: Dise\u00f1o de interacci\u00f3n XR.",
-      "sourceIds": "S01; S12; S18; S20; S22; S23"
+      "sourceIds": "S01; S12; S18; S20; S22; S23",
+      "topics": "Dise\u00f1o de interacci\u00f3n XR. Matem\u00e1tica visual, interacci\u00f3n en tiempo real, optimizaci\u00f3n, experiencia y producci\u00f3n.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "GXR-024",
@@ -6122,7 +7140,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 96.0,
       "evidence": "Demo interactiva: Haptics e interfaces inmersivas.",
-      "sourceIds": "S01; S12; S18; S20; S22; S23"
+      "sourceIds": "S01; S12; S18; S20; S22; S23",
+      "topics": "Haptics e interfaces inmersivas. Matem\u00e1tica visual, interacci\u00f3n en tiempo real, optimizaci\u00f3n, experiencia y producci\u00f3n.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "CAP-019",
@@ -6134,7 +7154,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Capstone integral: Capstone VII: IA aplicada.",
-      "sourceIds": "S03; S04; S09; S11; S12; S18"
+      "sourceIds": "S03; S04; S09; S11; S12; S18",
+      "topics": "Capstone VII: IA aplicada. Problema real, requisitos, dise\u00f1o, implementaci\u00f3n, validaci\u00f3n, documentaci\u00f3n, \u00e9tica y defensa p\u00fablica.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "CAP-020",
@@ -6146,7 +7168,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Capstone integral: Capstone VIII: multimedia, juegos o XR.",
-      "sourceIds": "S03; S04; S09; S11; S12; S18"
+      "sourceIds": "S03; S04; S09; S11; S12; S18",
+      "topics": "Capstone VIII: multimedia, juegos o XR. Problema real, requisitos, dise\u00f1o, implementaci\u00f3n, validaci\u00f3n, documentaci\u00f3n, \u00e9tica y defensa p\u00fablica.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "CAP-029",
@@ -6158,7 +7182,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Dossier temporal y radar auditado: Revisi\u00f3n sistem\u00e1tica, bibliometr\u00eda y cienciometr\u00eda.",
-      "sourceIds": "S50; S51; S52; S53; S54; S61; S62; S63; S64; S67; S68"
+      "sourceIds": "S50; S51; S52; S53; S54; S61; S62; S63; S64; S67; S68",
+      "topics": "Revisi\u00f3n sistem\u00e1tica, bibliometr\u00eda y cienciometr\u00eda. Reconstrucci\u00f3n hist\u00f3rica, an\u00e1lisis de evidencia, escenarios alternativos, se\u00f1ales tempranas, madurez tecnol\u00f3gica y revisi\u00f3n peri\u00f3dica de decisiones.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "CAP-030",
@@ -6170,7 +7196,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Dossier temporal y radar auditado: Inteligencia de patentes, est\u00e1ndares y regulaci\u00f3n.",
-      "sourceIds": "S50; S51; S52; S53; S54; S61; S62; S63; S64; S67; S68"
+      "sourceIds": "S50; S51; S52; S53; S54; S61; S62; S63; S64; S67; S68",
+      "topics": "Inteligencia de patentes, est\u00e1ndares y regulaci\u00f3n. Reconstrucci\u00f3n hist\u00f3rica, an\u00e1lisis de evidencia, escenarios alternativos, se\u00f1ales tempranas, madurez tecnol\u00f3gica y revisi\u00f3n peri\u00f3dica de decisiones.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "BIO-013",
@@ -6182,7 +7210,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 84.0,
       "evidence": "Pipeline bioinform\u00e1tico: Bases de datos biol\u00f3gicas.",
-      "sourceIds": "S12; S20; S39"
+      "sourceIds": "S12; S20; S39",
+      "topics": "Bases de datos biol\u00f3gicas. Biolog\u00eda molecular, datos \u00f3micos, algoritmos, reproducibilidad y \u00e9tica.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "BIO-014",
@@ -6194,7 +7224,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 84.0,
       "evidence": "Pipeline bioinform\u00e1tico: Reproducibilidad y flujos cient\u00edficos.",
-      "sourceIds": "S12; S20; S39"
+      "sourceIds": "S12; S20; S39",
+      "topics": "Reproducibilidad y flujos cient\u00edficos. Biolog\u00eda molecular, datos \u00f3micos, algoritmos, reproducibilidad y \u00e9tica.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "BIO-027",
@@ -6206,7 +7238,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 84.0,
       "evidence": "Caso de salud digital: Gesti\u00f3n y transformaci\u00f3n digital sanitaria.",
-      "sourceIds": "S40"
+      "sourceIds": "S40",
+      "topics": "Gesti\u00f3n y transformaci\u00f3n digital sanitaria. Informaci\u00f3n cl\u00ednica, interoperabilidad, decisi\u00f3n, seguridad, regulaci\u00f3n y transformaci\u00f3n sanitaria.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "QUA-006",
@@ -6218,7 +7252,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 84.0,
       "evidence": "Notebook y circuito cu\u00e1ntico: Complejidad cu\u00e1ntica.",
-      "sourceIds": "S10; S14; S20; S41; S42"
+      "sourceIds": "S10; S14; S20; S41; S42",
+      "topics": "Complejidad cu\u00e1ntica. Formalismo matem\u00e1tico, circuitos, algoritmos, hardware, ruido, seguridad y aplicaciones.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "QUA-007",
@@ -6230,7 +7266,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 84.0,
       "evidence": "Notebook y circuito cu\u00e1ntico: Comunicaci\u00f3n y criptograf\u00eda cu\u00e1ntica.",
-      "sourceIds": "S10; S14; S20; S41; S42"
+      "sourceIds": "S10; S14; S20; S41; S42",
+      "topics": "Comunicaci\u00f3n y criptograf\u00eda cu\u00e1ntica. Formalismo matem\u00e1tico, circuitos, algoritmos, hardware, ruido, seguridad y aplicaciones.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "QUA-008",
@@ -6242,7 +7280,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 84.0,
       "evidence": "Notebook y circuito cu\u00e1ntico: Correcci\u00f3n de errores cu\u00e1nticos.",
-      "sourceIds": "S10; S14; S20; S41; S42"
+      "sourceIds": "S10; S14; S20; S41; S42",
+      "topics": "Correcci\u00f3n de errores cu\u00e1nticos. Formalismo matem\u00e1tico, circuitos, algoritmos, hardware, ruido, seguridad y aplicaciones.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "QUA-009",
@@ -6254,7 +7294,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 84.0,
       "evidence": "Notebook y circuito cu\u00e1ntico: Hardware y control cu\u00e1ntico.",
-      "sourceIds": "S10; S14; S20; S41; S42"
+      "sourceIds": "S10; S14; S20; S41; S42",
+      "topics": "Hardware y control cu\u00e1ntico. Formalismo matem\u00e1tico, circuitos, algoritmos, hardware, ruido, seguridad y aplicaciones.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "QUA-010",
@@ -6266,7 +7308,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 84.0,
       "evidence": "Notebook y circuito cu\u00e1ntico: Computaci\u00f3n cu\u00e1ntica tolerante a fallos.",
-      "sourceIds": "S10; S14; S20; S41; S42"
+      "sourceIds": "S10; S14; S20; S41; S42",
+      "topics": "Computaci\u00f3n cu\u00e1ntica tolerante a fallos. Formalismo matem\u00e1tico, circuitos, algoritmos, hardware, ruido, seguridad y aplicaciones.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "GXR-025",
@@ -6278,7 +7322,9 @@ export const excelCatalog = {
       "priority": 2,
       "hours": 96.0,
       "evidence": "Demo interactiva: Virtual production y escenarios LED.",
-      "sourceIds": "S01; S12; S18; S20; S22; S23"
+      "sourceIds": "S01; S12; S18; S20; S22; S23",
+      "topics": "Virtual production y escenarios LED. Matem\u00e1tica visual, interacci\u00f3n en tiempo real, optimizaci\u00f3n, experiencia y producci\u00f3n.",
+      "scope": "Dominio profesional"
     },
     {
       "id": "CAP-021",
@@ -6290,7 +7336,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Capstone integral: Capstone IX: salud, bioinform\u00e1tica o cu\u00e1ntica.",
-      "sourceIds": "S03; S04; S09; S11; S12; S18"
+      "sourceIds": "S03; S04; S09; S11; S12; S18",
+      "topics": "Capstone IX: salud, bioinform\u00e1tica o cu\u00e1ntica. Problema real, requisitos, dise\u00f1o, implementaci\u00f3n, validaci\u00f3n, documentaci\u00f3n, \u00e9tica y defensa p\u00fablica.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "CAP-022",
@@ -6302,7 +7350,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Capstone integral: Capstone final multidisciplinario.",
-      "sourceIds": "S03; S04; S09; S11; S12; S18"
+      "sourceIds": "S03; S04; S09; S11; S12; S18",
+      "topics": "Capstone final multidisciplinario. Problema real, requisitos, dise\u00f1o, implementaci\u00f3n, validaci\u00f3n, documentaci\u00f3n, \u00e9tica y defensa p\u00fablica.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "CAP-031",
@@ -6314,7 +7364,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Dossier temporal y radar auditado: Pron\u00f3stico calibrado, incertidumbre y actualizaci\u00f3n bayesiana.",
-      "sourceIds": "S50; S51; S52; S53; S54; S61; S62; S63; S64; S67; S68"
+      "sourceIds": "S50; S51; S52; S53; S54; S61; S62; S63; S64; S67; S68",
+      "topics": "Pron\u00f3stico calibrado, incertidumbre y actualizaci\u00f3n bayesiana. Reconstrucci\u00f3n hist\u00f3rica, an\u00e1lisis de evidencia, escenarios alternativos, se\u00f1ales tempranas, madurez tecnol\u00f3gica y revisi\u00f3n peri\u00f3dica de decisiones.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "CAP-032",
@@ -6326,7 +7378,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Dossier temporal y radar auditado: Gobernanza de la malla y sistema personal de aprendizaje permanente.",
-      "sourceIds": "S50; S51; S52; S53; S54; S61; S62; S63; S64; S67; S68"
+      "sourceIds": "S50; S51; S52; S53; S54; S61; S62; S63; S64; S67; S68",
+      "topics": "Gobernanza de la malla y sistema personal de aprendizaje permanente. Reconstrucci\u00f3n hist\u00f3rica, an\u00e1lisis de evidencia, escenarios alternativos, se\u00f1ales tempranas, madurez tecnol\u00f3gica y revisi\u00f3n peri\u00f3dica de decisiones.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "QUA-011",
@@ -6338,7 +7392,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 84.0,
       "evidence": "Notebook y circuito cu\u00e1ntico: Optimizaci\u00f3n y simulaci\u00f3n cu\u00e1ntica.",
-      "sourceIds": "S10; S14; S20; S41; S42"
+      "sourceIds": "S10; S14; S20; S41; S42",
+      "topics": "Optimizaci\u00f3n y simulaci\u00f3n cu\u00e1ntica. Formalismo matem\u00e1tico, circuitos, algoritmos, hardware, ruido, seguridad y aplicaciones.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "QUA-012",
@@ -6350,7 +7406,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 84.0,
       "evidence": "Notebook y circuito cu\u00e1ntico: Machine Learning cu\u00e1ntico.",
-      "sourceIds": "S10; S14; S20; S41; S42"
+      "sourceIds": "S10; S14; S20; S41; S42",
+      "topics": "Machine Learning cu\u00e1ntico. Formalismo matem\u00e1tico, circuitos, algoritmos, hardware, ruido, seguridad y aplicaciones.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "QUA-013",
@@ -6362,7 +7420,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 84.0,
       "evidence": "Notebook y circuito cu\u00e1ntico: Criptograf\u00eda poscu\u00e1ntica.",
-      "sourceIds": "S10; S14; S20; S41; S42"
+      "sourceIds": "S10; S14; S20; S41; S42",
+      "topics": "Criptograf\u00eda poscu\u00e1ntica. Formalismo matem\u00e1tico, circuitos, algoritmos, hardware, ruido, seguridad y aplicaciones.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "QUA-014",
@@ -6374,7 +7434,9 @@ export const excelCatalog = {
       "priority": 3,
       "hours": 84.0,
       "evidence": "Notebook y circuito cu\u00e1ntico: Ingenier\u00eda de software cu\u00e1ntico.",
-      "sourceIds": "S10; S14; S20; S41; S42"
+      "sourceIds": "S10; S14; S20; S41; S42",
+      "topics": "Ingenier\u00eda de software cu\u00e1ntico. Formalismo matem\u00e1tico, circuitos, algoritmos, hardware, ruido, seguridad y aplicaciones.",
+      "scope": "Frontera/adyacente"
     },
     {
       "id": "CAP-023",
@@ -6386,7 +7448,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Capstone integral: Tesis o publicaci\u00f3n t\u00e9cnica.",
-      "sourceIds": "S03; S04; S09; S11; S12; S18"
+      "sourceIds": "S03; S04; S09; S11; S12; S18",
+      "topics": "Tesis o publicaci\u00f3n t\u00e9cnica. Problema real, requisitos, dise\u00f1o, implementaci\u00f3n, validaci\u00f3n, documentaci\u00f3n, \u00e9tica y defensa p\u00fablica.",
+      "scope": "N\u00facleo esencial"
     },
     {
       "id": "CAP-024",
@@ -6398,7 +7462,9 @@ export const excelCatalog = {
       "priority": 1,
       "hours": 100.0,
       "evidence": "Capstone integral: Portafolio maestro y defensa internacional.",
-      "sourceIds": "S03; S04; S09; S11; S12; S18"
+      "sourceIds": "S03; S04; S09; S11; S12; S18",
+      "topics": "Portafolio maestro y defensa internacional. Problema real, requisitos, dise\u00f1o, implementaci\u00f3n, validaci\u00f3n, documentaci\u00f3n, \u00e9tica y defensa p\u00fablica.",
+      "scope": "N\u00facleo esencial"
     }
   ],
   "sources": [
