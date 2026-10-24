@@ -216,7 +216,7 @@
   .rw-next-step { grid-template-columns: 1fr; }
   .rw-next-art { display: none; }
   .rw-path-preview { grid-template-columns: 1fr; gap: 22px; }
-  .rw-path-preview h2 br { display: none; }
+  .rw-path-preview h2 br { display: block; }
   .rw-path-preview h2 { font-size: 26px; }
   .rw-home-links { gap: 20px; }
 }
