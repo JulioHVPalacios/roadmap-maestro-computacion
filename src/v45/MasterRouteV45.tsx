@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, useRef, useState } from "react"
+import { lazy, useCallback, useEffect, useMemo, useRef, useState } from "react"
 import {
   Background,
   Controls,
@@ -14,9 +14,6 @@ import {
   getBezierPath,
 } from "@xyflow/react"
 import "@xyflow/react/dist/style.css"
-import { gsap } from "gsap"
-import { MotionPathPlugin } from "gsap/MotionPathPlugin"
-import { ScrollTrigger } from "gsap/ScrollTrigger"
 import {
   ArrowRight,
   BookOpen,
@@ -40,17 +37,17 @@ import {
 import { stages, type Stage } from "../roadmap-data"
 import { masteryTracks, type MasteryTrack } from "../mastery-data"
 import RadiantPromptInput from "../components/RadiantPromptInput"
-import CinematicRoadV45 from "./CinematicRoadV45"
-import OmniversityLayerV45 from "./OmniversityLayerV45"
-import StudyGuide from "../v53/StudyGuide"
+import RouteWorkspace from "../v54/RouteWorkspace"
 import SourceNotices from "../v53/SourceNotices"
 import { revokeStageCompletion, revokeTrackCompletion } from "../v53/route-progress"
 import { useAulaDialog } from "../v53/useAulaDialog"
 import "../v43/route-v43.css"
 import "../v44/route-v44.css"
 import "./route-v45.css"
+import "../v54/route-workspace.css"
 
-gsap.registerPlugin(MotionPathPlugin, ScrollTrigger)
+
+const CinematicRoadV45 = lazy(() => import("./CinematicRoadV45"))
 
 type Selected = { kind: "stage"; index: number } | { kind: "track"; index: number } | null
 
@@ -358,7 +355,7 @@ function AulaModal({ selected, progress, onClose, onSubjectToggle, onTrackUnitTo
               return (
                 <article key={`${track.code}-${unit.name}`} className={checked ? "is-complete" : ""}>
                   <button className="v43-subject-check" onClick={() => onTrackUnitToggle(track.code, index)} aria-label={checked ? "Desmarcar unidad" : "Marcar unidad"}>{checked ? <Check /> : String(index + 1).padStart(2, "0")}</button>
-                  <div><h3>{unit.name}</h3><p>{unit.focus}</p><b>Evidencia</b><p>{unit.evidence}</p><div className="v43-aula-sources">{unit.sources.map((source) => <a key={source.url} href={source.url} target="_blank" rel="noreferrer">{source.label} <ArrowRight /></a>)}</div><SourceNotices urls={unit.sources.map((source) => source.url)} /></div>
+                  <div><h3>{unit.name}</h3><details><summary>Temario, evidencia y fuentes de esta unidad</summary><p>{unit.focus}</p><b>Evidencia</b><p>{unit.evidence}</p><div className="v43-aula-sources">{unit.sources.map((source) => <a key={source.url} href={source.url} target="_blank" rel="noreferrer">{source.label} <ArrowRight /></a>)}</div><SourceNotices urls={unit.sources.map((source) => source.url)} /></details></div>
                 </article>
               )
             })}
@@ -385,7 +382,7 @@ function AulaModal({ selected, progress, onClose, onSubjectToggle, onTrackUnitTo
             return (
               <article key={`${stage.code}-${subject.name}`} className={checked ? "is-complete" : ""}>
                 <button className="v43-subject-check" onClick={() => onSubjectToggle(stage.code, index)} aria-label={checked ? "Desmarcar materia" : "Marcar materia"}>{checked ? <Check /> : String(index + 1).padStart(2, "0")}</button>
-                <div><h3>{subject.name}</h3><p>{subject.study}</p><b>Evidencia</b><p>{subject.evidence}</p><div className="v43-aula-sources">{subject.sources.map((source) => <a key={source.url} href={source.url} target="_blank" rel="noreferrer">{source.label} <ArrowRight /></a>)}</div><SourceNotices urls={subject.sources.map((source) => source.url)} /></div>
+                <div><h3>{subject.name}</h3><details open={index === 0}><summary>Qué estudiar, qué demostrar y con qué fuentes</summary><p>{subject.study}</p><b>Evidencia</b><p>{subject.evidence}</p><div className="v43-aula-sources">{subject.sources.map((source) => <a key={source.url} href={source.url} target="_blank" rel="noreferrer">{source.label} <ArrowRight /></a>)}</div><SourceNotices urls={subject.sources.map((source) => source.url)} /></details></div>
               </article>
             )
           })}
@@ -447,8 +444,6 @@ export default function MasterRouteV45() {
   const tourCursor = useRef(0)
   const [flow, setFlow] = useState<ReactFlowInstance | null>(null)
   const [isMobile, setIsMobile] = useState(() => typeof window !== "undefined" && window.matchMedia("(max-width: 820px)").matches)
-  const heroRover = useRef<HTMLDivElement | null>(null)
-  const heroPath = useRef<SVGPathElement | null>(null)
   const rootRef = useRef<HTMLElement | null>(null)
 
   useEffect(() => {
@@ -461,29 +456,11 @@ export default function MasterRouteV45() {
 
   useEffect(() => saveProgress(progress), [progress])
 
-  useEffect(() => {
-    if (!heroRover.current || !heroPath.current) return
-    const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches
-    if (reduce) return
-    const ctx = gsap.context(() => {
-      gsap.to(heroRover.current, {
-        duration: 10,
-        repeat: -1,
-        ease: "none",
-        motionPath: { path: heroPath.current!, align: heroPath.current!, alignOrigin: [0.5, 0.5], autoRotate: true },
-      })
-      gsap.from(".v43-route-stat", { opacity: 0, y: 18, duration: 0.55, stagger: 0.08, ease: "power2.out" })
-      gsap.from(".v43-route-map-shell", { opacity: 0, y: 35, duration: 0.8, ease: "power3.out", scrollTrigger: { trigger: ".v43-route-map-shell", start: "top 88%" } })
-    }, rootRef)
-    return () => ctx.revert()
-  }, [])
-
   const completedStages = useMemo(() => new Set(progress.completedStages), [progress.completedStages])
   const currentIndex = useMemo(() => {
     const first = stages.findIndex((stage) => !completedStages.has(stage.code))
     return first < 0 ? stages.length - 1 : first
   }, [completedStages])
-  const stagePercent = Math.round((completedStages.size / Math.max(stages.length, 1)) * 100)
 
   const nodes = useMemo<Node[]>(() => {
     const main: Node[] = stages.map((stage, index) => {
@@ -739,75 +716,21 @@ export default function MasterRouteV45() {
   }
 
   return (
-    <section ref={rootRef} className="v43-master-route" aria-labelledby="v43-route-title">
-      <header className="v43-route-hero">
-        <div className="v43-route-hero-copy">
-          <span>RUTA MAESTRA · RECORRIDO ACADÉMICO INTERACTIVO</span>
-          <h1 id="v43-route-title">Veinte etapas troncales.<br /><em>Un recorrido para estudiar con orden.</em></h1>
-          <p>Del punto cero a la frontera: S0 → S19, especializaciones, 18 áreas de dominio, fuentes académicas, evidencia rigurosa, investigación y repaso. La vista inmersiva muestra el recorrido; el mapa académico permite revisar cada dependencia con precisión.</p>
-          
-          <div className="v45-hero-prompt-box">
-            <RadiantPromptInput
-              placeholder="Buscar etapa, materia o tema (ej. sistemas operativos, algoritmos, S10)..."
-              value={query}
-              onChange={(val) => setQuery(val)}
-              onSubmit={() => {
-                if (searchResults.length > 0) {
-                  focusStageIndex(searchResults[0].index)
-                  document.querySelector(".v43-route-map-shell")?.scrollIntoView({ behavior: "smooth" })
-                  setQuery("")
-                }
-              }}
-              onMicResult={(transcription) => {
-                setQuery(transcription)
-              }}
-              className="v45-compact-prompt"
-            />
-            {query.trim().length > 0 && searchResults.length > 0 && (
-              <div className="v45-hero-search-dropdown">
-                {searchResults.map(({ stage, index }) => (
-                  <button
-                    key={stage.code}
-                    type="button"
-                    onClick={() => {
-                      setQuery("")
-                      focusStageIndex(index)
-                      document.querySelector(".v43-route-map-shell")?.scrollIntoView({ behavior: "smooth" })
-                    }}
-                  >
-                    <span className="v45-stage-pill">{stage.code}</span>
-                    <div className="v45-stage-meta">
-                      <b>{stage.title}</b>
-                      <small>{stage.year} · {stage.subjects.length} materias</small>
-                    </div>
-                    <ChevronRight size={14} />
-                  </button>
-                ))}
-              </div>
-            )}
-          </div>
-
-          <div className="v43-route-hero-actions"><button onClick={() => focusStageIndex(currentIndex)}><Target /> Continuar en {stages[currentIndex].code}</button><button onClick={() => document.querySelector(".v43-route-map-shell")?.scrollIntoView({ behavior: "smooth" })}><Map /> Explorar ruta</button></div>
-        </div>
-        <div className="v43-route-hero-art" aria-hidden="true">
-          <svg viewBox="0 0 600 340"><path ref={heroPath} id="v43-hero-path" d="M35 245 C120 95 210 275 300 120 C380 0 455 95 565 48" /></svg>
-          <div ref={heroRover} className="v43-hero-rover">CM</div>
-          <div className="v43-hero-landmark one"><span>S0</span></div><div className="v43-hero-landmark two"><span>S10</span></div><div className="v43-hero-landmark three"><span>S19</span></div>
-        </div>
-      </header>
-
-      <StudyGuide currentIndex={currentIndex} onOpenStage={(index) => { setSelected({ kind: "stage", index }); setAulaOpen(true) }} />
-
-      <div className="v43-route-stats">
-        <article className="v43-route-stat"><small>PROGRESO TRONCAL</small><strong>{stagePercent}%</strong><div><i style={{ width: `${stagePercent}%` }} /></div></article>
-        <article className="v43-route-stat"><small>ETAPAS DOMINADAS</small><strong>{completedStages.size}<span>/ {stages.length}</span></strong><p>Siguiente: {stages[currentIndex].code}</p></article>
-        <article className="v43-route-stat"><small>ESPECIALIZACIONES</small><strong>{progress.completedTracks.length}<span>/ {masteryTracks.length}</span></strong><p>Ramas profesionales</p></article>
-        <article className="v43-route-stat"><small>AULA ACTUAL</small><strong>{stages[currentIndex].code}</strong><p>{stages[currentIndex].title}</p></article>
-      </div>
-
-      <section className="v43-route-map-shell">
+    <section ref={rootRef} className="v43-master-route rw-root" aria-label="Ruta Maestra">
+      <RouteWorkspace
+        progress={progress}
+        currentIndex={currentIndex}
+        onOpenStage={(index) => { setSelected({ kind: "stage", index }); setAulaOpen(true) }}
+        onOpenTrack={(index) => { setSelected({ kind: "track", index }); setAulaOpen(true) }}
+        onToggleStage={toggleStage}
+        onToggleTrack={toggleTrack}
+        onReset={resetProgress}
+        onViewChange={() => { setTouring(false); setFlow(null); setSelected(null); setQuery("") }}
+        map={<>
+<section className="v43-route-map-shell">
+        <details className="rw-map-voice"><summary>Búsqueda por voz y temas sugeridos</summary><RadiantPromptInput placeholder="Buscar etapa, materia o tema…" value={query} onChange={setQuery} onMicResult={setQuery} onSubmit={() => { if (searchResults[0]) focusStageIndex(searchResults[0].index) }} /></details>
         <div className="v43-route-toolbar">
-          <div className="v43-search-wrap"><Search /><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Buscar etapa, materia o tema…" />{query && <button onClick={() => setQuery("")}><X /></button>}{searchResults.length > 0 && <div className="v43-search-results">{searchResults.map(({ stage, index }) => <button key={stage.code} onClick={() => { setQuery(""); focusStageIndex(index) }}><span>{stage.code}</span><div><b>{stage.title}</b><small>{stage.year} · {stage.subjects.length} materias</small></div><ChevronRight /></button>)}</div>}</div>
+          <div className="v43-search-wrap"><Search /><input aria-label="Buscar en el mapa" value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Buscar etapa, materia o tema…" />{query && <button aria-label="Limpiar búsqueda del mapa" onClick={() => setQuery("")}><X /></button>}{searchResults.length > 0 && <div className="v43-search-results">{searchResults.map(({ stage, index }) => <button key={stage.code} onClick={() => { setQuery(""); focusStageIndex(index) }}><span>{stage.code}</span><div><b>{stage.title}</b><small>{stage.year} · {stage.subjects.length} materias</small></div><ChevronRight /></button>)}</div>}</div>
           <div className="v45-view-switch" role="group" aria-label="Cambiar vista de la Ruta Maestra"><button className={viewMode === "cinematic" ? "is-active" : ""} onClick={() => { setViewMode("cinematic"); setTouring(false) }}><Route /> Ruta inmersiva</button><button className={viewMode === "academic" ? "is-active" : ""} onClick={() => { setViewMode("academic"); setTouring(false); window.setTimeout(() => flow?.fitView({ padding: 0.15, duration: 650 }), 80) }}><Map /> Mapa académico</button></div><div className="v43-toolbar-actions"><button className={touring ? "is-active" : ""} onClick={() => setTouring((value) => !value)}>{touring ? <Pause /> : <CirclePlay />}{touring ? "Pausar recorrido" : viewMode === "cinematic" ? "Recorrido automático" : "Tour del mapa"}</button>{viewMode === "academic" && <><button className={showTracks ? "is-active" : ""} onClick={() => setShowTracks((value) => !value)}><Sparkles /> Especializaciones</button><button onClick={() => flow?.fitView({ padding: 0.15, duration: 650 })}><ZoomIn /> Ver todo</button></>}<button onClick={openFullscreen}><Expand /> Pantalla completa</button><button onClick={resetProgress}><RotateCcw /> Reiniciar</button></div>
         </div>
 
@@ -870,16 +793,8 @@ export default function MasterRouteV45() {
       <div className="v43-stage-strip" aria-label="Acceso rápido a las etapas">
         {stages.map((stage, index) => <button key={stage.code} className={`${completedStages.has(stage.code) ? "is-complete" : ""} ${index === currentIndex ? "is-current" : ""}`} onClick={() => { focusStageIndex(index) }}><span>{stage.code}</span><small>{stage.year}</small></button>)}
       </div>
-
-      <OmniversityLayerV45 completedStageCodes={progress.completedStages} currentStageIndex={currentIndex} />
-
-      <section className="v43-track-showcase">
-        <div className="v43-track-head"><div><span>RAMAS PROFESIONALES</span><h2>La carretera se abre.<br /><em>Elige dónde profundizar.</em></h2></div><p>Las especializaciones parten del tronco común según sus prerrequisitos. Puedes explorarlas desde la ruta, revisar sus unidades y volver al mapa académico cuando necesites ver las dependencias completas.</p></div>
-        <div className="v43-track-rail"><div className="v43-track-strip">{[...masteryTracks, ...masteryTracks].map((track, index) => { const realIndex = index % masteryTracks.length; return <button key={`${track.code}-${index}`} className={`tone-${palette[realIndex % palette.length]}`} onClick={() => { setSelected({ kind: "track", index: realIndex }); if (!isMobile && viewMode === "academic") focusNode(`track-${track.code}`) }}><small>{track.code} · {track.family}</small><strong>{track.title}</strong><span>{track.duration}</span><i>Explorar <ArrowRight /></i></button> })}</div></div>
-      </section>
-
-      <section className="v43-frontier-section"><div><span>FRONTERA</span><h2>Terminar S19 no es el final.</h2><p>Es el punto donde el mapa deja de decirte exactamente qué hacer: investigación, estándares, papers, sistemas originales, contribuciones open source y tecnologías emergentes pasan a formar parte del recorrido permanente.</p></div><Flag /></section>
-
+        </>}
+      />
       {aulaOpen && <AulaModal selected={selected} progress={progress} onClose={closeAula} onSubjectToggle={toggleSubject} onTrackUnitToggle={toggleTrackUnit} onEvidenceToggle={toggleEvidence} />}
     </section>
   )

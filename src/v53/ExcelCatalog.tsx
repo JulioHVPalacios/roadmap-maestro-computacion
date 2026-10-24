@@ -4,7 +4,7 @@ import { excelCatalog } from "./excel-catalog"
 import { learningFamilies } from "./learning-paths"
 import { getResource } from "./study-resources"
 
-const PAGE_SIZE = 24
+const PAGE_SIZE = 12
 const normalize = (value: string) => value.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLocaleLowerCase("es")
 const number = new Intl.NumberFormat("es-PE")
 
