@@ -50,7 +50,7 @@ export default function AppV41() {
   }
 
   const legacy = useMemo(
-    () => route === "inicio" || route === "ruta" || route === "recursos" || route === "certificaciones" || route === "noticias" || route === "perfil",
+    () => route === "inicio" || route === "recursos" || route === "certificaciones" || route === "noticias" || route === "perfil",
     [route],
   )
 

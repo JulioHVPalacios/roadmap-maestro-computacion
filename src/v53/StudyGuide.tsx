@@ -10,7 +10,8 @@ const tabs = [
   ["inicio", "Empieza aquí"], ["orden", "Orden de estudio"], ["fuentes", "Fuentes comparadas"],
   ["areas", "Especialidades"], ["reparacion", "Reparación y electrónica"], ["catalogo", "Plan de 533 materias"], ["investigacion", "Investigación"],
 ] as const
-type Tab = typeof tabs[number][0]
+export type StudyGuideView = typeof tabs[number][0]
+type Tab = StudyGuideView
 const normalize = (value: string) => value.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLocaleLowerCase("es")
 
 export function ResourceLinks({ ids }: { ids: string[] }) {
@@ -25,15 +26,17 @@ function ResourceCard({ item }: { item: StudyResource }) {
     <div className="study-source-top"><span>{item.category}</span><a href={item.url} target="_blank" rel="noreferrer" aria-label={`Abrir ${item.name}`}><ExternalLink size={18} /></a></div>
     <h4><a href={item.url} target="_blank" rel="noreferrer">{item.name}</a></h4>
     <dl><dt>Idioma</dt><dd>{item.language}</dd><dt>Acceso</dt><dd>{item.access}</dd></dl>
-    <p>{item.use}</p><p className="study-source-limit"><b>Límite: </b>{item.limit}</p>
+    <details className="study-source-more"><summary>Para qué sirve y qué límites tiene</summary><p>{item.use}</p><p className="study-source-limit"><b>Límite: </b>{item.limit}</p>
     <div className="study-source-verdict">{item.verdict}</div>
-    {item.evidence && <a className="study-evidence-link" href={item.evidence} target="_blank" rel="noreferrer">Comprobar condiciones en la fuente<ExternalLink size={13} /></a>}
+    {item.evidence && <a className="study-evidence-link" href={item.evidence} target="_blank" rel="noreferrer">Comprobar condiciones en la fuente<ExternalLink size={13} /></a>}</details>
   </article>
 }
 
 function SourceComparison() {
   const [query, setQuery] = useState("")
   const [category, setCategory] = useState("Todas")
+  const [sourcePage, setSourcePage] = useState(0)
+  const pageSize = 8
   const filtered = useMemo(() => {
     const first = ["openfing", "uc3m", "khan", "fcc", "git", "cs50", "fso", "cisco", "slim", "ifixit"]
     return studyResources.filter((item) => (category === "Todas" || item.category === category) && normalize(`${item.name} ${item.use} ${item.language}`).includes(normalize(query))).sort((a, b) => (first.includes(a.id) ? first.indexOf(a.id) : first.length) - (first.includes(b.id) ? first.indexOf(b.id) : first.length))
@@ -41,9 +44,10 @@ function SourceComparison() {
   return <>
     <h3>Qué aporta cada fuente y cuándo usarla</h3>
     <p>En esta comparación no encontramos una sola plataforma gratis en español que cubra mejor toda la combinación de computación, ingeniería y reparación. Recomendamos conservar OpenFING y completar sus huecos. Esta es una selección razonada, no un censo de todo Internet.</p>
-    <div className="study-filters"><label><Search size={17} /><span className="study-sr-only">Buscar fuente</span><input aria-label="Buscar fuente" value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Buscar: IA, español, reparación…" /></label><label><span className="study-sr-only">Tipo de fuente</span><select aria-label="Tipo de fuente" value={category} onChange={(event) => setCategory(event.target.value)}>{["Todas", "Base", "Universidad", "Práctica", "Reparación", "Contraste"].map((value) => <option key={value}>{value}</option>)}</select></label></div>
+    <div className="study-filters"><label><Search size={17} /><span className="study-sr-only">Buscar fuente</span><input aria-label="Buscar fuente" value={query} onChange={(event) => { setQuery(event.target.value); setSourcePage(0) }} placeholder="Buscar: IA, español, reparación…" /></label><label><span className="study-sr-only">Tipo de fuente</span><select aria-label="Tipo de fuente" value={category} onChange={(event) => { setCategory(event.target.value); setSourcePage(0) }}>{["Todas", "Base", "Universidad", "Práctica", "Reparación", "Contraste"].map((value) => <option key={value}>{value}</option>)}</select></label></div>
     <p className="study-result-count" role="status">{filtered.length} de {studyResources.length} fuentes · revisión: {resourceReviewDate}</p>
-    <div className="study-source-grid">{filtered.map((item) => <ResourceCard key={item.id} item={item} />)}</div>
+    <div className="study-source-grid">{filtered.slice(sourcePage * pageSize, (sourcePage + 1) * pageSize).map((item) => <ResourceCard key={item.id} item={item} />)}</div>
+    {filtered.length > pageSize && <nav className="study-pagination" aria-label="Páginas de fuentes"><button disabled={sourcePage === 0} onClick={() => setSourcePage(sourcePage - 1)}>Anterior</button><span>Página {sourcePage + 1} de {Math.ceil(filtered.length / pageSize)}</span><button disabled={(sourcePage + 1) * pageSize >= filtered.length} onClick={() => setSourcePage(sourcePage + 1)}>Siguiente</button></nav>}
     {!filtered.length && <p>No hay coincidencias. Prueba otro tema o selecciona «Todas».</p>}
   </>
 }
@@ -56,13 +60,15 @@ const stageSources: Record<string, string[]> = {
   S16: ["unican", "fpga", "openfing"], S17: ["openfing", "cisco", "fpga"], S18: ["openfing", "uned"], S19: ["cs2023", "famaf", "openfing"],
 }
 
-export default function StudyGuide({ onOpenStage, currentIndex = 0 }: { onOpenStage: (index: number) => void; currentIndex?: number }) {
-  const [tab, setTab] = useState<Tab>("inicio")
+export default function StudyGuide({ onOpenStage, currentIndex = 0, page, onNavigate }: { onOpenStage: (index: number) => void; currentIndex?: number; page?: StudyGuideView; onNavigate?: (view: StudyGuideView) => void }) {
+  const [localTab, setLocalTab] = useState<Tab>("inicio")
+  const tab = page ?? localTab
+  const setTab = (view: Tab) => { if (onNavigate) onNavigate(view); else setLocalTab(view) }
   const [weeklyHours, setWeeklyHours] = useState(20)
   const current = stages[currentIndex] ?? stages[0]
-  return <section className="study-guide" id="guia-de-estudio" aria-labelledby="study-guide-title">
-    <header className="study-guide-header"><div><span className="study-eyebrow">GUÍA DE ESTUDIO · ESPAÑOL PRIMERO</span><h2 id="study-guide-title">Todo conectado.<br /><em>Un paso a la vez.</em></h2><p>Una base común, práctica real y especialidades con prerrequisitos. Aquí puedes decidir qué estudiar, con qué recursos y qué demostrar antes de avanzar.</p></div><div className="study-guide-aside"><BookOpen size={26} /><strong>Empieza por una materia.</strong><span>No necesitas matricularte en decenas de plataformas. Usa una fuente principal y una alternativa solo cuando la necesites.</span><button onClick={() => onOpenStage(currentIndex)}>Abrir mi aula: {current.code}<ArrowRight size={16} /></button></div></header>
-    <nav className="study-guide-tabs" aria-label="Guía de estudio">{tabs.map(([id, label]) => <button key={id} type="button" aria-current={tab === id ? "true" : undefined} onClick={() => setTab(id)}>{label}</button>)}</nav>
+  return <section className={`study-guide ${page ? "study-guide--embedded" : ""}`} id="guia-de-estudio" aria-label={page ? "Contenido de estudio" : undefined} aria-labelledby={!page ? "study-guide-title" : undefined}>
+    {!page && <><header className="study-guide-header"><div><span className="study-eyebrow">GUÍA DE ESTUDIO · ESPAÑOL PRIMERO</span><h2 id="study-guide-title">Todo conectado.<br /><em>Un paso a la vez.</em></h2><p>Una base común, práctica real y especialidades con prerrequisitos. Aquí puedes decidir qué estudiar, con qué recursos y qué demostrar antes de avanzar.</p></div><div className="study-guide-aside"><BookOpen size={26} /><strong>Empieza por una materia.</strong><span>No necesitas matricularte en decenas de plataformas. Usa una fuente principal y una alternativa solo cuando la necesites.</span><button onClick={() => onOpenStage(currentIndex)}>Abrir mi aula: {current.code}<ArrowRight size={16} /></button></div></header>
+    <nav className="study-guide-tabs" aria-label="Guía de estudio">{tabs.map(([id, label]) => <button key={id} type="button" aria-current={tab === id ? "true" : undefined} onClick={() => setTab(id)}>{label}</button>)}</nav></>}
     <div className="study-guide-panel" key={tab}>
       {tab === "inicio" && <>
         <div className="study-panel-heading"><CheckCircle2 /><div><h3>La combinación con la que puedes comenzar</h3><p>Elige por función. Estos pilares cubren el arranque; el dominio profesional exige después las prácticas y fuentes específicas de tu especialidad.</p></div></div>
@@ -94,7 +100,7 @@ export default function StudyGuide({ onOpenStage, currentIndex = 0 }: { onOpenSt
       {tab === "reparacion" && <>
         <div className="study-panel-heading"><Wrench /><div><h3>De soporte técnico a ingeniería de hardware</h3><p>Reparar, diseñar hardware y desarrollar sistemas embebidos son competencias relacionadas con recorridos distintos. Aprende las bases comunes y después profundiza con práctica real.</p></div></div>
         <div className="study-note"><b>Seguridad antes que secuencia del Excel.</b> ESD, protección de datos, baterías y riesgo eléctrico se estudian antes de intervenir un equipo. Fuentes y condensadores pueden conservar energía después de desconectarse: un tiempo de espera fijo no garantiza seguridad. <a href="https://es.ifixit.com/Info/Device_Safety" target="_blank" rel="noreferrer">Guía de seguridad de iFixit</a>.</div>
-        <div className="study-repair-list">{repairPath.map((step, index) => <article key={step.title}><span className="study-step-number">{String(index + 1).padStart(2, "0")}</span><div><small>{step.before}</small><h4>{step.title}</h4><p>{step.content}</p><p><b>Evidencia: </b>{step.proof}</p><ResourceLinks ids={step.resources} /></div></article>)}</div>
+        <div className="study-repair-list">{repairPath.map((step, index) => <article key={step.title}><span className="study-step-number">{String(index + 1).padStart(2, "0")}</span><div><small>{step.before}</small><h4>{step.title}</h4><details open={index === 0}><summary>Ver contenidos, evidencia y fuentes</summary><p>{step.content}</p><p><b>Evidencia: </b>{step.proof}</p><ResourceLinks ids={step.resources} /></details></div></article>)}</div>
         <div className="study-engineering"><h4>La rama de ingeniería sigue por aquí</h4><p>Circuitos → electrónica analógica → lógica combinacional y secuencial → arquitectura/ensamblador → HDL y FPGA → C y microcontroladores → buses UART/I²C/SPI → RTOS → PCB → verificación y proyecto integrado. Usa simulación donde sea posible; el diseño físico requiere instrumentos y componentes.</p><ResourceLinks ids={["unican", "openfing", "fpga", "ce2016"]} /><button onClick={() => onOpenStage(16)}>Explorar S16: electrónica y embebidos<ArrowRight size={16} /></button></div>
       </>}
 

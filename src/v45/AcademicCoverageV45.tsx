@@ -5,8 +5,9 @@ import { computingErasV43, evidenceGatesV43, facultiesV43, grandChallengesV43, s
 import KnowledgeGraphV43 from "../v43/KnowledgeGraphV43"
 import ReviewEngineV43 from "../v43/ReviewEngineV43"
 import SourceNotices from "../v53/SourceNotices"
+import { inferProfessionProfile } from "../profession-atlas"
 
-type Tab = "atlas" | "grafo" | "tiempo" | "evidencia" | "fuentes" | "repaso"
+export type AcademicTab = "atlas" | "grafo" | "tiempo" | "evidencia" | "fuentes" | "repaso"
 
 function normalize(value: string) {
   return value.toLocaleLowerCase("es").normalize("NFD").replace(/[\u0300-\u036f]/g, "")
@@ -21,8 +22,9 @@ function classifyRole(role: string) {
   return ranked[0]?.score > 0 ? ranked[0].faculty : facultiesV43.find((faculty) => faculty.id === "enterprise") ?? facultiesV43[0]
 }
 
-export default function AcademicCoverageV45({ completedStageCodes, currentStageIndex }: { completedStageCodes: string[]; currentStageIndex: number }) {
-  const [tab, setTab] = useState<Tab>("atlas")
+export default function AcademicCoverageV45({ completedStageCodes, currentStageIndex, activeTab, hideNavigation = false }: { completedStageCodes: string[]; currentStageIndex: number; activeTab?: AcademicTab; hideNavigation?: boolean }) {
+  const [localTab, setTab] = useState<AcademicTab>("atlas")
+  const tab = activeTab ?? localTab
   const [query, setQuery] = useState("")
   const [selectedCareer, setSelectedCareer] = useState("")
   const results = useMemo(() => {
@@ -31,6 +33,7 @@ export default function AcademicCoverageV45({ completedStageCodes, currentStageI
     return careerCatalogV43.filter((role) => normalize(role).includes(q)).slice(0, 12)
   }, [query])
   const mapped = selectedCareer ? classifyRole(selectedCareer) : null
+  const profile = selectedCareer ? inferProfessionProfile(selectedCareer) : null
   const stageProgress = Math.round((completedStageCodes.length / Math.max(1, 20)) * 100)
 
   return (
@@ -53,19 +56,19 @@ export default function AcademicCoverageV45({ completedStageCodes, currentStageI
         ))}
       </div>
 
-      <nav className="v43-omni-tabs" aria-label="Capas avanzadas de Ruta Maestra">
+      {!hideNavigation && <nav className="v43-omni-tabs" aria-label="Capas avanzadas de Ruta Maestra">
         <button className={tab === "atlas" ? "is-active" : ""} onClick={() => setTab("atlas")}><GraduationCap /> 18 áreas de dominio</button>
         <button className={tab === "grafo" ? "is-active" : ""} onClick={() => setTab("grafo")}><Sparkles /> Dependencias</button>
         <button className={tab === "tiempo" ? "is-active" : ""} onClick={() => setTab("tiempo")}><BookOpen /> Historia → frontera</button>
         <button className={tab === "evidencia" ? "is-active" : ""} onClick={() => setTab("evidencia")}><Target /> Pruebas + proyectos</button>
         <button className={tab === "repaso" ? "is-active" : ""} onClick={() => setTab("repaso")}><BookOpen /> Repaso FSRS</button>
         <button className={tab === "fuentes" ? "is-active" : ""} onClick={() => setTab("fuentes")}><ShieldCheck /> Jerarquía de fuentes</button>
-      </nav>
+      </nav>}
 
       {tab === "atlas" && <div className="v43-tab-panel">
         <div className="v43-career-search">
           <div className="v43-career-search-copy"><span>BUSCADOR DE PERFILES</span><h3>Busca una profesión o especialidad del índice.</h3><p>El buscador localiza el nombre y lo vincula con su área académica principal. Es una ayuda de navegación: muchos perfiles requieren conocimientos de varias áreas.</p></div>
-          <div className="v43-career-search-box"><div><Search /><input value={query} onChange={(event) => { setQuery(event.target.value); setSelectedCareer("") }} placeholder="Ej.: GPU Architect, Data Engineer, CISO, Quantum…" /></div>{results.length > 0 && <div className="v43-career-results">{results.map((role) => <button key={role} onClick={() => { setSelectedCareer(role); setQuery(role) }}><span>{role}</span><ArrowRight /></button>)}</div>}{mapped && <article className={`v43-career-map tone-${mapped.tone}`}><small>{mapped.code} · ÁREA PRINCIPAL</small><strong>{mapped.title}</strong><p>{mapped.description}</p><span>{mapped.stageRange}</span></article>}</div>
+          <div className="v43-career-search-box"><div><Search /><input aria-label="Buscar profesión en el Atlas" value={query} onChange={(event) => { setQuery(event.target.value); setSelectedCareer("") }} placeholder="Ej.: GPU Architect, Data Engineer, CISO, Quantum…" /></div>{results.length > 0 && <div className="v43-career-results">{results.map((role) => <button key={role} onClick={() => { setSelectedCareer(role); setQuery(role) }}><span>{role}</span><ArrowRight /></button>)}</div>}{mapped && <article className={`v43-career-map tone-${mapped.tone}`}><small>{mapped.code} · ÁREA PRINCIPAL</small><strong>{mapped.title}</strong><p>{mapped.description}</p><span>{mapped.stageRange}</span>{profile && <details className="rw-profile-detail"><summary>Ver trayectoria profesional orientativa</summary><dl><dt>Familia</dt><dd>{profile.family}</dd><dt>Recorrido</dt><dd>{profile.route}</dd><dt>Especialización</dt><dd>{profile.track}</dd><dt>Etapas</dt><dd>{profile.stages}</dd></dl><p>{profile.focus}</p></details>}</article>}</div>
         </div>
         <div className="v43-faculty-grid">{facultiesV43.map((faculty) => <article key={faculty.code} className={`tone-${faculty.tone}`}><div><span>{faculty.code}</span><small>{faculty.stageRange}</small></div><h3>{faculty.title}</h3><b>{faculty.subtitle}</b><p>{faculty.description}</p><div>{faculty.topics.map((topic) => <em key={topic}>{topic}</em>)}</div></article>)}</div>
       </div>}

@@ -1,0 +1,36 @@
+import { useState } from "react"
+import { ArrowRight, BookOpen, ShieldCheck } from "lucide-react"
+import { learningFamilies } from "../v53/learning-paths"
+import { excelCatalog } from "../v53/excel-catalog"
+import { getResource } from "../v53/study-resources"
+import { devicePaths, fieldNotes } from "./coverage-data"
+
+function Sources({ ids }: { ids: string[] }) {
+  return <div className="rw-selected-sources">{ids.map((id) => { const item = getResource(id); return <article key={id}><a href={item.url} target="_blank" rel="noreferrer">{item.name}<ArrowRight size={17} /></a><p>{item.language} · {item.access}</p><details><summary>Función y límites</summary><p>{item.use}</p><p>{item.limit}</p></details></article> })}</div>
+}
+
+export default function CoverageGuide({ onOpenStage, onRepair, onCatalog }: { onOpenStage: (index: number) => void; onRepair: () => void; onCatalog: () => void }) {
+  const [prefix, setPrefix] = useState("CST")
+  const family = learningFamilies.find((item) => item.prefix === prefix)!
+  const note = fieldNotes[prefix]
+  const courses = excelCatalog.courses.filter((course) => course.id.startsWith(`${prefix}-`))
+  const stageIndices = [...new Set([...family.entry.matchAll(/\bS(\d+)\b/g)].map((match) => Number(match[1])))]
+  return <div className="rw-coverage-guide">
+    <p className="rw-intro-copy">Informática, computación y las distintas ingenierías comparten fundamentos. Elige un campo para ver su recorrido, las fuentes iniciales y lo que aún requiere práctica o materiales específicos.</p>
+    <label className="rw-choice-label" htmlFor="rw-field">Qué quieres aprender<select id="rw-field" aria-label="Campo de estudio" value={prefix} onChange={(event) => setPrefix(event.target.value)}>{learningFamilies.map((item) => <option key={item.prefix} value={item.prefix}>{item.name}</option>)}</select></label>
+    <section className="rw-field-detail" key={prefix} aria-labelledby="rw-field-title"><span className="rw-eyebrow">{family.depth} · {courses.length} materias del inventario</span><h2 id="rw-field-title">{family.name}</h2><p className="rw-field-aliases">{note.aliases}</p>
+      <div className="rw-field-order"><span className="rw-eyebrow">ETAPAS Y RAMAS RELACIONADAS</span><p>{family.entry}</p><div className="rw-actions">{stageIndices.map((index) => <button key={index} className="rw-button" onClick={() => onOpenStage(index)}><BookOpen size={15} />Abrir S{index}</button>)}{prefix === "REP" && <button className="rw-button rw-button--dark" onClick={onRepair}>Elegir dispositivo<ArrowRight size={16} /></button>}</div><small>Conexión orientativa por familia, no una lista de prerrequisitos completa. Sigue el orden del plan y consulta los requisitos de cada aula; no necesitas repetir lo que ya puedes demostrar.</small></div>
+      <div className="rw-field-study"><h3>Qué estudiar</h3><p>{family.study}</p><h3>Qué demostrar</h3><p>{family.proof}</p></div>
+      <details className="rw-deeper"><summary>Fuentes para comenzar este campo</summary><p className="rw-footnote">Selección inicial por función; comprueba la ficha de cada materia. Un plan o estándar sirve para contrastar, no para sustituir las lecciones y ejercicios.</p><Sources ids={note.resources ?? family.resources} /></details>
+      <div className="rw-field-limit"><ShieldCheck size={21} /><div><h3>Qué hay aquí y qué debes completar</h3><p>La ruta ofrece orientación, aulas del tronco y enlaces. Las {courses.length} materias de esta familia se conservan como inventario; no todas tienen aquí un curso completo desarrollado y verificado en español.</p><p>{note.next}</p><button className="rw-text-button" onClick={onCatalog}>Consultar el inventario completo<ArrowRight size={16} /></button></div></div>
+    </section>
+    <details className="rw-deeper"><summary>¿Con qué combinación basta para empezar?</summary><ol className="rw-reading-order"><li><b>Nivelar:</b> Khan si falta matemática; S0 y Git para el entorno.</li><li><b>Comprender:</b> un curso de OpenFING como fuente principal; OCW UC3M para apuntes y ejercicios cuando haga falta.</li><li><b>Construir:</b> un recorrido práctico elegido según objetivo. freeCodeCamp para desarrollo, Cisco para redes, Google ML después de matemática y Python.</li><li><b>Especializar:</b> una o dos ramas con sus prerrequisitos; electrónica antes de placa y manuales por dispositivo para reparar.</li><li><b>Investigar:</b> reproducir, comparar, experimentar y recibir crítica externa; ampliar las fuentes cuando el problema lo exija.</li></ol><p>No hay un número fijo de plataformas que baste para dominar todos estos campos. Evita cursar varias introducciones completas a la vez.</p></details>
+    <details className="rw-deeper"><summary>Profundidad, universidad e investigación</summary><p>El objetivo es demostrar competencias con problemas nuevos, proyectos, documentación y revisión externa. La amplitud del catálogo no demuestra un nivel de grado, máster o doctorado.</p><p>No existe evidencia para garantizar ser el profesional con más conocimientos del mundo o superar cualquier universidad. Un doctorado incluye investigación original y evaluación formal; los títulos dependen de instituciones y requisitos propios.</p><p><a href="https://csed.acm.org/" target="_blank" rel="noreferrer">CS2023, con edición en español</a> · <a href="https://www.acm.org/binaries/content/assets/education/curricula-recommendations/cc2020.pdf" target="_blank" rel="noreferrer">CC2020: disciplinas de computación</a> · <a href="https://oge.mit.edu/gpp/advanced-degrees/doctoral-degree/" target="_blank" rel="noreferrer">Ejemplo de requisitos doctorales: MIT</a></p></details>
+  </div>
+}
+
+export function DeviceRepairGuide() {
+  const [selected, setSelected] = useState("pc")
+  const device = devicePaths.find((item) => item.id === selected)!
+  return <div className="rw-device-guide"><div className="rw-notice"><ShieldCheck size={24} /><p><b>Seguridad y datos primero.</b> Identifica el modelo, consulta su manual, protege los datos y practica según tu formación. Baterías dañadas, alimentación y trabajo de placa requieren preparación específica.</p></div><label className="rw-choice-label" htmlFor="rw-device">Elige un dispositivo o tipo de trabajo<select id="rw-device" aria-label="Dispositivo para estudiar reparación" value={selected} onChange={(event) => setSelected(event.target.value)}>{devicePaths.map((item) => <option key={item.id} value={item.id}>{item.title}</option>)}</select></label><section className="rw-field-detail" key={selected}><span className="rw-eyebrow">RECORRIDO DE APRENDIZAJE</span><h2>{device.title}</h2><p className="rw-field-aliases"><b>Antes de empezar:</b> {device.before}</p><ol className="rw-reading-order">{device.steps.map((step) => <li key={step}>{step}</li>)}</ol><div className="rw-field-study"><h3>Qué demostrar</h3><p>{device.proof}</p></div><details className="rw-deeper"><summary>Fuentes y manuales</summary><Sources ids={device.resources} /></details><p className="rw-device-limit"><b>Alcance:</b> {device.limit}</p><p className="rw-footnote">Material de consulta gratuito no significa herramientas, repuestos, laboratorio o supervisión gratuitos. Esta guía orienta el estudio; no reemplaza el procedimiento técnico del modelo.</p></section></div>
+}
