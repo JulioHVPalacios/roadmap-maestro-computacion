@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-28T17:19:47.788Z",
+  "generatedAt": "2026-10-29T17:31:49.452Z",
   "seed": 54,
-  "officialDiscoveredRaw": 98,
-  "officialValidated": 93,
+  "officialDiscoveredRaw": 96,
+  "officialValidated": 91,
   "communityCandidates": 137,
-  "communityValidated": 82,
-  "published": 195,
+  "communityValidated": 71,
+  "published": 187,
   "audit": [
     {
       "id": "ibm-digital-credentials",
@@ -596,7 +596,8 @@
       "sourceType": "discovered",
       "url": "https://learn.mongodb.com/catalog?labels=%5B%22Free%2FPaid%22%5D&values=%5B%22Free%22%5D",
       "finalUrl": "https://learn.mongodb.com/catalog?labels=%5B%22Free%2FPaid%22%5D&values=%5B%22Free%22%5D",
-      "status": "active",
+      "status": "rejected",
+      "reason": "no-learning-evidence",
       "httpStatus": 200
     },
     {
@@ -608,7 +609,7 @@
       "httpStatus": 200
     },
     {
-      "id": "live-mongodb-skills-and-certificationsdevelop-in-demand-skills-and-earn-mongodb-certifications",
+      "id": "live-mongodb-courses-and-certificationlearn-for-free-from-mongodb",
       "sourceType": "discovered",
       "url": "https://learn.mongodb.com",
       "finalUrl": "https://learn.mongodb.com",
@@ -616,28 +617,11 @@
       "httpStatus": 200
     },
     {
-      "id": "live-mongodb-skills",
+      "id": "live-mongodb-lab-zone",
       "sourceType": "discovered",
-      "url": "https://learn.mongodb.com/skills",
-      "finalUrl": "https://learn.mongodb.com/skills",
+      "url": "https://learn.mongodb.com/pages/lab-zone",
+      "finalUrl": "https://learn.mongodb.com/pages/lab-zone",
       "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-mongodb-list-of-self-paced-topics",
-      "sourceType": "discovered",
-      "url": "https://learn.mongodb.com/self-paced-topics",
-      "finalUrl": "https://learn.mongodb.com/self-paced-topics",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-mongodb-free",
-      "sourceType": "discovered",
-      "url": "https://learn.mongodb.com/catalog?labels=%5B%5D&page=1&values=%5B%5D",
-      "finalUrl": "https://learn.mongodb.com/catalog?labels=%5B%5D&page=1&values=%5B%5D",
-      "status": "rejected",
-      "reason": "no-learning-evidence",
       "httpStatus": 200
     },
     {
@@ -804,6 +788,14 @@
       "sourceType": "discovered",
       "url": "https://learning.sap.com/teched",
       "finalUrl": "https://learning.sap.com/teched",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-sap-learning-journey-applying-supply-chain-business-scenarios-in-sap-s-4hana-cloud-public-edition",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/learning-journeys/applying-supply-chain-business-scenarios-in-sap-s-4hana-cloud-public-edition",
+      "finalUrl": "https://learning.sap.com/learning-journeys/applying-supply-chain-business-scenarios-in-sap-s-4hana-cloud-public-edition",
       "status": "active",
       "httpStatus": 200
     },
@@ -980,14 +972,6 @@
       "url": "https://learning.sap.com/service/catalog-download/xlsx",
       "status": "unreachable",
       "httpStatus": 0
-    },
-    {
-      "id": "live-sap-get-support",
-      "sourceType": "discovered",
-      "url": "https://learning.sap.com/helpcenter",
-      "finalUrl": "https://learning.sap.com/helpcenter",
-      "status": "active",
-      "httpStatus": 200
     },
     {
       "id": "live-microsoft-applied-ir-al-contenido-principal",
@@ -1227,10 +1211,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Intro to AI Ethics",
       "url": "https://www.kaggle.com/learn/intro-to-ai-ethics",
-      "status": "accepted",
-      "provider": "Kaggle",
-      "kind": "Curso con certificado",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.kaggle.com/learn/intro-to-ai-ethics"
     },
@@ -1239,10 +1221,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Intro to Game AI and Reinforcement Learning",
       "url": "https://www.kaggle.com/learn/intro-to-game-ai-and-reinforcement-learning",
-      "status": "accepted",
-      "provider": "Kaggle",
-      "kind": "Curso con certificado",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.kaggle.com/learn/intro-to-game-ai-and-reinforcement-learning"
     },
@@ -1305,10 +1285,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Back End Development and APIs Certification",
       "url": "https://www.freecodecamp.org/learn/back-end-development-and-apis",
-      "status": "accepted",
-      "provider": "freeCodeCamp",
-      "kind": "Certificación",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/back-end-development-and-apis/"
     },
@@ -1813,10 +1791,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Data Analysis with Python Certification",
       "url": "https://www.freecodecamp.org/learn/data-analysis-with-python",
-      "status": "accepted",
-      "provider": "freeCodeCamp",
-      "kind": "Certificación",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/data-analysis-with-python/"
     },
@@ -1999,10 +1975,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Responsive Web Design Certification",
       "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design",
-      "status": "accepted",
-      "provider": "freeCodeCamp",
-      "kind": "Certificación",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/2022/responsive-web-design/"
     },
@@ -2011,10 +1985,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Front-End Libraries Certification",
       "url": "https://www.freecodecamp.org/learn/front-end-development-libraries",
-      "status": "accepted",
-      "provider": "freeCodeCamp",
-      "kind": "Certificación",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/front-end-development-libraries/"
     },
@@ -2089,10 +2061,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Machine Learning with Python Certification",
       "url": "https://www.freecodecamp.org/learn/machine-learning-with-python",
-      "status": "accepted",
-      "provider": "freeCodeCamp",
-      "kind": "Certificación",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/machine-learning-with-python/"
     },
@@ -2113,10 +2083,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Intermediate Machine Learning",
       "url": "https://www.kaggle.com/learn/intermediate-machine-learning",
-      "status": "accepted",
-      "provider": "Kaggle",
-      "kind": "Curso con certificado",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.kaggle.com/learn/intermediate-machine-learning"
     },
@@ -2137,10 +2105,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Intro to Deep Learning",
       "url": "https://www.kaggle.com/learn/intro-to-deep-learning",
-      "status": "accepted",
-      "provider": "Kaggle",
-      "kind": "Curso con certificado",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.kaggle.com/learn/intro-to-deep-learning"
     },
@@ -2251,10 +2217,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Foundational C# with Microsoft",
       "url": "https://www.freecodecamp.org/learn/foundational-c-sharp-with-microsoft",
-      "status": "accepted",
-      "provider": "freeCodeCamp",
-      "kind": "Certificación",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/foundational-c-sharp-with-microsoft/"
     },
@@ -2445,10 +2409,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Information Security Certification",
       "url": "https://www.freecodecamp.org/learn/information-security",
-      "status": "accepted",
-      "provider": "freeCodeCamp",
-      "kind": "Certificación",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/information-security/"
     },
@@ -2572,8 +2534,8 @@
       "title": "Link",
       "url": "https://academy.tigera.io/course/certified-calico-operator-azure-expert",
       "status": "rejected",
-      "reason": "inactive",
-      "httpStatus": 404
+      "reason": "unreachable",
+      "httpStatus": 0
     },
     {
       "sourceType": "community",
@@ -2590,8 +2552,9 @@
       "title": "Link",
       "url": "https://stepik.org/catalog/search?cert=true&free=true",
       "status": "rejected",
-      "reason": "unreachable",
-      "httpStatus": 0
+      "reason": "no-free-credential-evidence",
+      "httpStatus": 200,
+      "finalUrl": "https://stepik.org/catalog/search?cert=true&free=true"
     },
     {
       "sourceType": "community",
@@ -2622,7 +2585,7 @@
       "status": "rejected",
       "reason": "no-free-credential-evidence",
       "httpStatus": 200,
-      "finalUrl": "https://www.apollographql.com/tutorials/certifications/apollo-graph-associate/"
+      "finalUrl": "https://www.apollographql.com/tutorials/certifications/apollo-graph-associate"
     },
     {
       "sourceType": "community",
