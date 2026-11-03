@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-02T20:53:06.782Z",
+  "generatedAt": "2026-11-03T18:40:11.931Z",
   "seed": 54,
-  "officialDiscoveredRaw": 101,
-  "officialValidated": 96,
+  "officialDiscoveredRaw": 100,
+  "officialValidated": 95,
   "communityCandidates": 137,
-  "communityValidated": 79,
-  "published": 195,
+  "communityValidated": 76,
+  "published": 194,
   "audit": [
     {
       "id": "ibm-digital-credentials",
@@ -596,7 +596,8 @@
       "sourceType": "discovered",
       "url": "https://learn.mongodb.com/catalog?labels=%5B%22Free%2FPaid%22%5D&values=%5B%22Free%22%5D",
       "finalUrl": "https://learn.mongodb.com/catalog?labels=%5B%22Free%2FPaid%22%5D&values=%5B%22Free%22%5D",
-      "status": "active",
+      "status": "rejected",
+      "reason": "no-learning-evidence",
       "httpStatus": 200
     },
     {
@@ -608,7 +609,7 @@
       "httpStatus": 200
     },
     {
-      "id": "live-mongodb-skills-and-certificationsdevelop-in-demand-skills-and-earn-mongodb-certifications",
+      "id": "live-mongodb-courses-and-certificationlearn-for-free-from-mongodb",
       "sourceType": "discovered",
       "url": "https://learn.mongodb.com",
       "finalUrl": "https://learn.mongodb.com",
@@ -616,10 +617,10 @@
       "httpStatus": 200
     },
     {
-      "id": "live-mongodb-skills",
+      "id": "live-mongodb-lab-zone",
       "sourceType": "discovered",
-      "url": "https://learn.mongodb.com/skills",
-      "finalUrl": "https://learn.mongodb.com/skills",
+      "url": "https://learn.mongodb.com/pages/lab-zone",
+      "finalUrl": "https://learn.mongodb.com/pages/lab-zone",
       "status": "active",
       "httpStatus": 200
     },
@@ -636,8 +637,7 @@
       "sourceType": "discovered",
       "url": "https://learn.mongodb.com/catalog?labels=%5B%5D&page=1&values=%5B%5D",
       "finalUrl": "https://learn.mongodb.com/catalog?labels=%5B%5D&page=1&values=%5B%5D",
-      "status": "rejected",
-      "reason": "no-learning-evidence",
+      "status": "active",
       "httpStatus": 200
     },
     {
@@ -808,6 +808,14 @@
       "httpStatus": 200
     },
     {
+      "id": "live-sap-learning-journey-mastering-customer-conversations-about-financial-closing-assistant",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/learning-journeys/mastering-customer-conversations-about-financial-closing-assistant",
+      "finalUrl": "https://learning.sap.com/learning-journeys/mastering-customer-conversations-about-financial-closing-assistant",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
       "id": "live-sap-learning-journey-applying-supply-chain-business-scenarios-in-sap-s-4hana-cloud-public-edition",
       "sourceType": "discovered",
       "url": "https://learning.sap.com/learning-journeys/applying-supply-chain-business-scenarios-in-sap-s-4hana-cloud-public-edition",
@@ -876,30 +884,6 @@
       "sourceType": "discovered",
       "url": "https://learning.sap.com/courses/implementing-sap-service-cloud-version-2-essentials",
       "finalUrl": "https://learning.sap.com/courses/implementing-sap-service-cloud-version-2-essentials",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-sap-learning-journey-developing-a-universe-using-sap-businessobjects-information-design-tool",
-      "sourceType": "discovered",
-      "url": "https://learning.sap.com/learning-journeys/developing-a-universe-using-sap-businessobjects-information-design-tool",
-      "finalUrl": "https://learning.sap.com/learning-journeys/developing-a-universe-using-sap-businessobjects-information-design-tool",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-sap-course-positioning-sap-solutions-for-business-network-solutions",
-      "sourceType": "discovered",
-      "url": "https://learning.sap.com/courses/positioning-sap-solutions-for-business-network-solutions",
-      "finalUrl": "https://learning.sap.com/courses/positioning-sap-solutions-for-business-network-solutions",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-sap-course-positioning-sap-solutions-for-business-network-solutions-for-partners",
-      "sourceType": "discovered",
-      "url": "https://learning.sap.com/courses/positioning-sap-solutions-for-business-network-solutions-for-partners",
-      "finalUrl": "https://learning.sap.com/courses/positioning-sap-solutions-for-business-network-solutions-for-partners",
       "status": "active",
       "httpStatus": 200
     },
@@ -988,6 +972,22 @@
       "url": "https://learning.sap.com/service/catalog-download/xlsx",
       "status": "unreachable",
       "httpStatus": 0
+    },
+    {
+      "id": "live-sap-get-support",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/helpcenter",
+      "finalUrl": "https://learning.sap.com/helpcenter",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-sap-release-notes",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/release-notes",
+      "finalUrl": "https://learning.sap.com/release-notes",
+      "status": "active",
+      "httpStatus": 200
     },
     {
       "id": "live-microsoft-applied-ir-al-contenido-principal",
@@ -1199,18 +1199,10 @@
       "httpStatus": 200
     },
     {
-      "id": "live-fazt-ia-feat-minimax-m3-1-flash-una-suscripcion-barata-que-rinde-para-programar-con-ia",
+      "id": "live-fazt-ia-feat-hackean-binance-el-mayor-robo-cripto-de-la-historia-noticias-de-la-semana",
       "sourceType": "discovered",
-      "url": "https://fazt.dev/contenido/minimax-m3-1-flash-suscripcion-barata-programar-ia",
-      "finalUrl": "https://fazt.dev/contenido/minimax-m3-1-flash-suscripcion-barata-programar-ia",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-fazt-web-feat-react-aplicacion-de-series-y-peliculas-con-omdb",
-      "sourceType": "discovered",
-      "url": "https://fazt.dev/contenido/react-omdb-app-simple",
-      "finalUrl": "https://fazt.dev/contenido/react-omdb-app-simple",
+      "url": "https://fazt.dev/contenido/hackeo-binance-noticias-de-la-semana-1-nov-2026",
+      "finalUrl": "https://fazt.dev/contenido/hackeo-binance-noticias-de-la-semana-1-nov-2026",
       "status": "active",
       "httpStatus": 200
     },
@@ -1223,18 +1215,18 @@
       "httpStatus": 200
     },
     {
-      "id": "live-fazt-ia-feat-para-que-aprender-a-programar-si-claude-ya-lo-hace-todo",
+      "id": "live-fazt-ia-feat-openai-entrena-sin-internet-tras-un-fallo-de-dns-el-dia-mas-negro-de-la-ciberseguridad",
       "sourceType": "discovered",
-      "url": "https://fazt.dev/contenido/para-que-aprender-a-programar-si-la-ia-ya-lo-hace-todo",
-      "finalUrl": "https://fazt.dev/contenido/para-que-aprender-a-programar-si-la-ia-ya-lo-hace-todo",
+      "url": "https://fazt.dev/contenido/noticias-ia-kimi-k3-1-pro-openai-sin-internet-cobol",
+      "finalUrl": "https://fazt.dev/contenido/noticias-ia-kimi-k3-1-pro-openai-sin-internet-cobol",
       "status": "active",
       "httpStatus": 200
     },
     {
-      "id": "live-fazt-ia-feat-por-que-uso-go-para-el-backend-en-la-era-de-los-agentes-de-ia",
+      "id": "live-fazt-ia-feat-claude-en-chrome-deja-de-resumir-y-empieza-a-automatizar-de-verdad",
       "sourceType": "discovered",
-      "url": "https://fazt.dev/contenido/go-backend-era-agentes-ia",
-      "finalUrl": "https://fazt.dev/contenido/go-backend-era-agentes-ia",
+      "url": "https://fazt.dev/contenido/claude-en-chrome-mas-que-resumir",
+      "finalUrl": "https://fazt.dev/contenido/claude-en-chrome-mas-que-resumir",
       "status": "active",
       "httpStatus": 200
     },
@@ -1263,10 +1255,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Intro to Game AI and Reinforcement Learning",
       "url": "https://www.kaggle.com/learn/intro-to-game-ai-and-reinforcement-learning",
-      "status": "accepted",
-      "provider": "Kaggle",
-      "kind": "Curso con certificado",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.kaggle.com/learn/intro-to-game-ai-and-reinforcement-learning"
     },
@@ -1329,10 +1319,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Back End Development and APIs Certification",
       "url": "https://www.freecodecamp.org/learn/back-end-development-and-apis",
-      "status": "accepted",
-      "provider": "freeCodeCamp",
-      "kind": "Certificación",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/back-end-development-and-apis/"
     },
@@ -1873,8 +1861,10 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Data Visualization Certification",
       "url": "https://www.freecodecamp.org/learn/data-visualization",
-      "status": "rejected",
-      "reason": "no-free-credential-evidence",
+      "status": "accepted",
+      "provider": "freeCodeCamp",
+      "kind": "Certificación",
+      "language": "EN",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/data-visualization/"
     },
@@ -2023,8 +2013,10 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Responsive Web Design Certification",
       "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design",
-      "status": "rejected",
-      "reason": "no-free-credential-evidence",
+      "status": "accepted",
+      "provider": "freeCodeCamp",
+      "kind": "Certificación",
+      "language": "EN",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/2022/responsive-web-design/"
     },
@@ -2191,10 +2183,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Computer Vision",
       "url": "https://www.kaggle.com/learn/computer-vision",
-      "status": "accepted",
-      "provider": "Kaggle",
-      "kind": "Curso con certificado",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.kaggle.com/learn/computer-vision"
     },
@@ -2291,10 +2281,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "JavaScript Algorithms and Data Structures Certification",
       "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures",
-      "status": "accepted",
-      "provider": "freeCodeCamp",
-      "kind": "Certificación",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/"
     },
@@ -2343,10 +2331,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Python",
       "url": "https://www.kaggle.com/learn/python",
-      "status": "accepted",
-      "provider": "Kaggle",
-      "kind": "Curso con certificado",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.kaggle.com/learn/python"
     },
@@ -2599,8 +2585,8 @@
       "title": "Link",
       "url": "https://academy.tigera.io/course/certified-calico-operator-ebpf",
       "status": "rejected",
-      "reason": "unreachable",
-      "httpStatus": 0
+      "reason": "inactive",
+      "httpStatus": 404
     },
     {
       "sourceType": "community",
