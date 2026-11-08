@@ -3,1365 +3,1379 @@
     "src": "/certification-covers-v1/freecodecamp-spanish.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://cdn.freecodecamp.org/platform/universal/fcc_meta_1920X1080-indigo.png",
-    "generatedAt": "2026-11-07T17:03:44.643Z",
+    "generatedAt": "2026-11-08T17:17:10.470Z",
     "sha256": "1bce054a9652c6b79bc4bff41df0e2d7a6cd6ffaba49be5be549847120cdfdeb"
   },
   "google-ads-certifications": {
     "src": "/certification-covers-v1/google-ads-certifications.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://skillshop.withgoogle.com/src/static/images/skillshop_googleads.gif",
-    "generatedAt": "2026-11-07T17:03:46.584Z",
+    "generatedAt": "2026-11-08T17:17:12.276Z",
     "sha256": "e273663a089eca766a13c05e1e91761327f2213dfc330df72ad05ee18253415f"
   },
   "carlos-slim-capacitate": {
     "src": "/certification-covers-v1/carlos-slim-capacitate.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://capacitateparaelempleo.org/assets/images/logocpe.jpeg",
-    "generatedAt": "2026-11-07T17:03:46.808Z",
+    "generatedAt": "2026-11-08T17:17:12.310Z",
     "sha256": "0c35eecc0c3e9c59c0ab06f16d0e2a0e62465b8a37306098a82138b5069478a8"
   },
   "google-skillshop-live": {
     "src": "/certification-covers-v1/google-skillshop-live.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://skillshop.withgoogle.com/src/static/images/skillshop_home_1_new.png",
-    "generatedAt": "2026-11-07T17:03:48.047Z",
+    "generatedAt": "2026-11-08T17:17:13.850Z",
     "sha256": "b5420a37d39b770856058f8f3dc94d57a89695c6a66198f229e69cae8a226117"
   },
   "hp-ai-beginners": {
     "src": "/certification-covers-v1/hp-ai-beginners.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://hplife.blob.core.windows.net/learning/images/a31pCBZyPO1jL2oLy5V76AcGawSP2E3PiXZbJp9sQXE.png",
-    "generatedAt": "2026-11-07T17:03:49.015Z",
+    "generatedAt": "2026-11-08T17:17:14.383Z",
     "sha256": "12fa95d368428320e8e50cd8b23dc9ad6e6fe3bf3740a3bf7e4919e00410bbfc"
   },
   "hp-cybersecurity": {
     "src": "/certification-covers-v1/hp-cybersecurity.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://hplife.blob.core.windows.net/learning/images/F0nQ5_fGgr0EH6jM4SaZGyvyiUMPk-ZKGr55CxCcwDQ.png",
-    "generatedAt": "2026-11-07T17:03:49.088Z",
+    "generatedAt": "2026-11-08T17:17:14.434Z",
     "sha256": "955742be3109bc2d634df72d7a2bbcb29880242a87d7e96d873c311df683d97e"
-  },
-  "hubspot-digital-marketing": {
-    "src": "/certification-covers-v1/hubspot-digital-marketing.webp",
-    "source": "Imagen oficial / Open Graph",
-    "sourceUrl": "https://137828.fs1.hubspotusercontent-na1.net/hubfs/137828/migrated-thumbnails-from-s3/track-117-es-16_9-1676137625090.png",
-    "generatedAt": "2026-11-07T17:03:51.444Z",
-    "sha256": "02da6c6f0dc148de5d9ea12e917f9104adbaac475725d7ee375aa36ab71b99a5"
   },
   "hubspot-certifications-live": {
     "src": "/certification-covers-v1/hubspot-certifications-live.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://static.hsappstatic.net/academy-public-ui/static-1.13031/images/default-share-image.png",
-    "generatedAt": "2026-11-07T17:03:51.974Z",
+    "generatedAt": "2026-11-08T17:17:16.983Z",
     "sha256": "f74bdea5a671c061c74de9e84622227662cb0e88afa31efaf409cebc23d5d51e"
   },
   "ibm-digital-credentials": {
     "src": "/certification-covers-v1/ibm-digital-credentials.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://skillsbuild.wpengine.com/wp-content/uploads/2026/07/Linkedin_and_Facebook_1200x630.jpg",
-    "generatedAt": "2026-11-07T17:03:52.488Z",
+    "generatedAt": "2026-11-08T17:17:17.170Z",
     "sha256": "eb06c65722d093af52d0621791dcebb2fd6b53bebf79f397ac5130ba99873c88"
+  },
+  "hubspot-digital-marketing": {
+    "src": "/certification-covers-v1/hubspot-digital-marketing.webp",
+    "source": "Imagen oficial / Open Graph",
+    "sourceUrl": "https://137828.fs1.hubspotusercontent-na1.net/hubfs/137828/migrated-thumbnails-from-s3/track-117-es-16_9-1676137625090.png",
+    "generatedAt": "2026-11-08T17:17:17.637Z",
+    "sha256": "02da6c6f0dc148de5d9ea12e917f9104adbaac475725d7ee375aa36ab71b99a5"
   },
   "platzi-free-certificates": {
     "src": "/certification-covers-v1/platzi-free-certificates.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://static.platzi.com/media/blog/opengraph-cursos-gratis-5-326acaa8-7d1f-451b-973e-86efb4f9992b.jpg",
-    "generatedAt": "2026-11-07T17:03:54.417Z",
+    "generatedAt": "2026-11-08T17:17:19.451Z",
     "sha256": "828df2b4ba9e5c2a1f48dbb9d0ce3c5cbbfbdd4566c1b52c33cbaa0c03c64263"
   },
   "mtpe-capacita-t": {
     "src": "/certification-covers-v1/mtpe-capacita-t.webp",
     "source": "Captura de la fuente oficial",
     "sourceUrl": "https://capacitacionlaboral.trabajo.gob.pe/",
-    "generatedAt": "2026-11-07T17:03:56.179Z",
-    "sha256": "9acd67bdd570da7708856fbc15c90b9d2b3cda6e2233719f28453059b589a046"
-  },
-  "santander-tech-catalog": {
-    "src": "/certification-covers-v1/santander-tech-catalog.webp",
-    "source": "Imagen oficial / Open Graph",
-    "sourceUrl": "https://www.santanderopenacademy.com/content/dam/becasmicrosites/01-soa-share/SOA_share_0009.jpg",
-    "generatedAt": "2026-11-07T17:03:58.504Z",
-    "sha256": "0441b531c0862ca0aa5e4e117a4dd1f339033d513556c3b79b7ca698ba98a3df"
-  },
-  "santander-python-2026": {
-    "src": "/certification-covers-v1/santander-python-2026.webp",
-    "source": "Imagen oficial / Open Graph",
-    "sourceUrl": "https://www.santanderopenacademy.com/content/dam/becasmicrosites/01-soa-share/SOA_share_00015.jpg",
-    "generatedAt": "2026-11-07T17:03:59.799Z",
-    "sha256": "e6cd1749cc24b669652772cf7ac0d143abc57014025226284af405712e299556"
+    "generatedAt": "2026-11-08T17:17:21.426Z",
+    "sha256": "bd20693fa865cdeb07085438a16f872a7708aebb415220911b159b3fe56dcc66"
   },
   "aws-skill-builder-free": {
     "src": "/certification-covers-v1/aws-skill-builder-free.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://d1.awsstatic.com/onedam/marketing-channels/website/aws/en_US/training/approved/images/5ec795e2-f357-435b-8840-ddd277349182.322be7bcfbae97750b194a3bbd912707b4cd7f61.jpeg",
-    "generatedAt": "2026-11-07T17:04:00.582Z",
+    "generatedAt": "2026-11-08T17:17:23.777Z",
     "sha256": "2ef813b4434d7fc4286ec35296c5ff0e85994a8f869569ec0293a5c3c8fd0f5b"
+  },
+  "santander-tech-catalog": {
+    "src": "/certification-covers-v1/santander-tech-catalog.webp",
+    "source": "Imagen oficial / Open Graph",
+    "sourceUrl": "https://www.santanderopenacademy.com/content/dam/becasmicrosites/01-soa-share/SOA_share_0009.jpg",
+    "generatedAt": "2026-11-08T17:17:26.288Z",
+    "sha256": "0441b531c0862ca0aa5e4e117a4dd1f339033d513556c3b79b7ca698ba98a3df"
   },
   "cisco-netacad": {
     "src": "/certification-covers-v1/cisco-netacad.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://netacad.com/sfa-assets/images/png/landingBannerImage.png",
-    "generatedAt": "2026-11-07T17:04:01.331Z",
+    "generatedAt": "2026-11-08T17:17:26.956Z",
     "sha256": "6696960d8f19fa81841ebc9467c0f83774a7229b565757a0614104dfd89ac342"
+  },
+  "santander-python-2026": {
+    "src": "/certification-covers-v1/santander-python-2026.webp",
+    "source": "Imagen oficial / Open Graph",
+    "sourceUrl": "https://www.santanderopenacademy.com/content/dam/becasmicrosites/01-soa-share/SOA_share_00015.jpg",
+    "generatedAt": "2026-11-08T17:17:28.118Z",
+    "sha256": "e6cd1749cc24b669652772cf7ac0d143abc57014025226284af405712e299556"
   },
   "fazt-free-courses": {
     "src": "/certification-covers-v1/fazt-free-courses.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://fazt.dev/home/og-home.jpg",
-    "generatedAt": "2026-11-07T17:04:02.579Z",
+    "generatedAt": "2026-11-08T17:17:28.611Z",
     "sha256": "37b63c9938ec6a1dad71b41835a2866216f3e4dc3b43cfcda7f5ef317ca3ce32"
   },
   "microsoft-learn-free": {
     "src": "/certification-covers-v1/microsoft-learn-free.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://learn.microsoft.com/en-us/media/open-graph-image.png",
-    "generatedAt": "2026-11-07T17:04:02.755Z",
+    "generatedAt": "2026-11-08T17:17:28.965Z",
     "sha256": "dcfb278f7c8f80e30b782ae3efe945b398bda35d07ef44b5d5fcc6eac975f098"
   },
   "midudev-free-courses": {
     "src": "/certification-covers-v1/midudev-free-courses.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://avatars.githubusercontent.com/u/1561955?v=4?s=400",
-    "generatedAt": "2026-11-07T17:04:04.088Z",
+    "generatedAt": "2026-11-08T17:17:30.373Z",
     "sha256": "a49d69b673c6a3fd21272512ccaccbb9cb998d56b94c1bf125965a7be42783de"
-  },
-  "hp-data-science": {
-    "src": "/certification-covers-v1/hp-data-science.webp",
-    "source": "Imagen oficial / Open Graph",
-    "sourceUrl": "https://hplife.blob.core.windows.net/learning/images/LwFJLHKxG9NRHj1kFRJwXoJVAXiELPVBnmiZUok4vCo.png",
-    "generatedAt": "2026-11-07T17:04:05.263Z",
-    "sha256": "91e51fab3dda9efa3331bafc039f99c39b93550d8471da9f14f4dc0072026082"
   },
   "mouredev-free-courses": {
     "src": "/certification-covers-v1/mouredev-free-courses.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://avatars.githubusercontent.com/u/17043402?v=4?s=400",
-    "generatedAt": "2026-11-07T17:04:05.592Z",
+    "generatedAt": "2026-11-08T17:17:30.914Z",
     "sha256": "a3981c85a7a43ea813ce5650524057f452c22661e57dbee8821dcef1511882ec"
+  },
+  "hp-data-science": {
+    "src": "/certification-covers-v1/hp-data-science.webp",
+    "source": "Imagen oficial / Open Graph",
+    "sourceUrl": "https://hplife.blob.core.windows.net/learning/images/LwFJLHKxG9NRHj1kFRJwXoJVAXiELPVBnmiZUok4vCo.png",
+    "generatedAt": "2026-11-08T17:17:31.146Z",
+    "sha256": "91e51fab3dda9efa3331bafc039f99c39b93550d8471da9f14f4dc0072026082"
   },
   "hp-ai-business": {
     "src": "/certification-covers-v1/hp-ai-business.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://hplife.blob.core.windows.net/learning/images/8aOLLP1ZymsERaR0YsO7qUyBHu6igDvkv4xt-3LzzM4.png",
-    "generatedAt": "2026-11-07T17:04:06.391Z",
+    "generatedAt": "2026-11-08T17:17:32.397Z",
     "sha256": "61c673ebf91884e5a8589971af7c7161f4adc7a2672d5fcc90fd1af307738633"
   },
   "hp-digital-business": {
     "src": "/certification-covers-v1/hp-digital-business.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://hplife.blob.core.windows.net/learning/images/RgTXVRbyKXnW4ua6jxyhdDMsgQOvQnFU2tQS2SSgqQk.png",
-    "generatedAt": "2026-11-07T17:04:07.555Z",
+    "generatedAt": "2026-11-08T17:17:32.935Z",
     "sha256": "7911e7e84f029bdab1a08bd55ba4cfe2cb1aeec4dfdfe2fa469be7edc8c1fa29"
   },
   "hp-it-business": {
     "src": "/certification-covers-v1/hp-it-business.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://hplife.blob.core.windows.net/learning/images/evBGSdLlwNQ4HWWgZTvsjCZRfpcD-C9Cz-ahi0iqoDo.png",
-    "generatedAt": "2026-11-07T17:04:07.901Z",
+    "generatedAt": "2026-11-08T17:17:33.258Z",
     "sha256": "21021f679d853cbaed1664beccfd3eec0a425598d99ba0689a2accd8c2f54155"
   },
   "hubspot-content-marketing": {
     "src": "/certification-covers-v1/hubspot-content-marketing.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://137828.fs1.hubspotusercontent-na1.net/hubfs/137828/migrated-thumbnails-from-s3/track-15-es-16_9-1651245534446.png",
-    "generatedAt": "2026-11-07T17:04:11.056Z",
+    "generatedAt": "2026-11-08T17:17:35.228Z",
     "sha256": "0e7a27cda281bbc7eb7a9fb777fb5d61faaf4af42a231525d7ce7ace0fce462e"
-  },
-  "ibm-agile-explorer": {
-    "src": "/certification-covers-v1/ibm-agile-explorer.webp",
-    "source": "Imagen oficial / Open Graph",
-    "sourceUrl": "https://skillsbuild.org/api/social-image/2026/07/CourseCatalog_FB_LinkedIn.v3.jpg",
-    "generatedAt": "2026-11-07T17:04:11.293Z",
-    "sha256": "facc9b35acd39307ecfed97e01fe0f59e66aea6ff36dfe4bb23fd030b78e70f0"
   },
   "hubspot-social-media": {
     "src": "/certification-covers-v1/hubspot-social-media.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://137828.fs1.hubspotusercontent-na1.net/hubfs/137828/migrated-thumbnails-from-s3/track-29-es-16_9-1678751466873.png",
-    "generatedAt": "2026-11-07T17:04:12.022Z",
+    "generatedAt": "2026-11-08T17:17:35.780Z",
     "sha256": "b25c137a869184d09403c09ba61f599577f04c3c9a95521c4fd05688a032cdc6"
+  },
+  "ibm-agile-explorer": {
+    "src": "/certification-covers-v1/ibm-agile-explorer.webp",
+    "source": "Imagen oficial / Open Graph",
+    "sourceUrl": "https://skillsbuild.org/api/social-image/2026/07/CourseCatalog_FB_LinkedIn.v3.jpg",
+    "generatedAt": "2026-11-08T17:17:36.393Z",
+    "sha256": "facc9b35acd39307ecfed97e01fe0f59e66aea6ff36dfe4bb23fd030b78e70f0"
   },
   "microsoft-powerapps-applied-skill": {
     "src": "/certification-covers-v1/microsoft-powerapps-applied-skill.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://learn.microsoft.com/en-us/media/open-graph-image.png",
-    "generatedAt": "2026-11-07T17:04:13.961Z",
+    "generatedAt": "2026-11-08T17:17:37.532Z",
     "sha256": "dcfb278f7c8f80e30b782ae3efe945b398bda35d07ef44b5d5fcc6eac975f098"
   },
   "ibm-data-fundamentals": {
     "src": "/certification-covers-v1/ibm-data-fundamentals.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://skillsbuild.org/api/social-image/2026/07/HighSchool_FB_LinkedIn_v3.jpg",
-    "generatedAt": "2026-11-07T17:04:14.073Z",
+    "generatedAt": "2026-11-08T17:17:37.608Z",
     "sha256": "55ffc3a3d757f7c6f940b6b16b4ad998b5078dd26ac6b4e38f3fef1823c5a971"
   },
   "empleos-peru-certifica": {
     "src": "/certification-covers-v1/empleos-peru-certifica.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://www.gob.pe/assets/escudo-rojo-200-f4bf73f7.png",
-    "generatedAt": "2026-11-07T17:04:16.965Z",
+    "generatedAt": "2026-11-08T17:17:40.627Z",
     "sha256": "bab194fd51fb645a9ec6c3cf1f458edb6bb5475c4ca1326e62c2ddd6555da446"
-  },
-  "santander-tools-catalog": {
-    "src": "/certification-covers-v1/santander-tools-catalog.webp",
-    "source": "Imagen oficial / Open Graph",
-    "sourceUrl": "https://www.santanderopenacademy.com/content/dam/becasmicrosites/01-soa-share/SOA_share_0015.jpg",
-    "generatedAt": "2026-11-07T17:04:18.393Z",
-    "sha256": "eb3252091db93f75277c37ed926afa99261c0838407b2d3e8cde31fafe2e3a85"
-  },
-  "santander-marketing-automation-2026": {
-    "src": "/certification-covers-v1/santander-marketing-automation-2026.webp",
-    "source": "Imagen oficial / Open Graph",
-    "sourceUrl": "https://www.santanderopenacademy.com/content/dam/becasmicrosites/01-soa-lms/marketing-automation_001.jpg",
-    "generatedAt": "2026-11-07T17:04:18.524Z",
-    "sha256": "73386717ef9890f1ecae7c300a89efa9c9553318637bbda60ba777f4d5bb5068"
   },
   "live-mtpe-abc-digital": {
     "src": "/certification-covers-v1/live-mtpe-abc-digital.webp",
     "source": "Captura de la fuente oficial",
     "sourceUrl": "https://capacitacionlaboral.trabajo.gob.pe/cursos/abc-digital/",
-    "generatedAt": "2026-11-07T17:04:21.288Z",
+    "generatedAt": "2026-11-08T17:17:44.817Z",
     "sha256": "48bc21cac7d9bfc38d16ce75ea59d66138276fb15236b7e18d9f542f89b3af67"
   },
   "live-mtpe-administracion-de-amenazas-ciberneticas": {
     "src": "/certification-covers-v1/live-mtpe-administracion-de-amenazas-ciberneticas.webp",
     "source": "Captura de la fuente oficial",
     "sourceUrl": "https://capacitacionlaboral.trabajo.gob.pe/cursos/administracion-de-amenazas-ciberneticas/",
-    "generatedAt": "2026-11-07T17:04:22.761Z",
+    "generatedAt": "2026-11-08T17:17:48.882Z",
     "sha256": "058aa36a7d10ffe5d08642301a587e841ba618b8d3ec9fbfe034230b883de416"
+  },
+  "santander-tools-catalog": {
+    "src": "/certification-covers-v1/santander-tools-catalog.webp",
+    "source": "Captura de la fuente oficial",
+    "sourceUrl": "https://www.santanderopenacademy.com/es/sites/courses/tools.html",
+    "generatedAt": "2026-11-08T17:17:51.864Z",
+    "sha256": "bae26aceed6f90dcf142ccb627c0486b3f905708bfee8d4c2a0f189523b1556e"
   },
   "live-mtpe-analisis-de-datos-con-power-bi": {
     "src": "/certification-covers-v1/live-mtpe-analisis-de-datos-con-power-bi.webp",
     "source": "Captura de la fuente oficial",
     "sourceUrl": "https://capacitacionlaboral.trabajo.gob.pe/cursos/analisis-de-datos-con-power-bi/",
-    "generatedAt": "2026-11-07T17:04:23.003Z",
+    "generatedAt": "2026-11-08T17:17:53.262Z",
     "sha256": "6d62b2fd87cd31db220b6c0060a47fa6c66fd014aec9e71361526dd38b6da484"
+  },
+  "santander-marketing-automation-2026": {
+    "src": "/certification-covers-v1/santander-marketing-automation-2026.webp",
+    "source": "Captura de la fuente oficial",
+    "sourceUrl": "https://www.santanderopenacademy.com/es/courses/marketing-automation.html/index.html",
+    "generatedAt": "2026-11-08T17:17:53.710Z",
+    "sha256": "af554ae4ea27c498f06a24575fadc21bb0e7b89de73bdc347a4245168b74cd35"
   },
   "live-mtpe-analista-junior-en": {
     "src": "/certification-covers-v1/live-mtpe-analista-junior-en.webp",
     "source": "Captura de la fuente oficial",
     "sourceUrl": "https://capacitacionlaboral.trabajo.gob.pe/rutas/analista-junior-en-ciberseguridad/",
-    "generatedAt": "2026-11-07T17:04:25.620Z",
+    "generatedAt": "2026-11-08T17:17:56.009Z",
     "sha256": "983806c9ca1348d3d9292ab13c41c48d3cd9969ebbae08759c75e1ac06f38247"
   },
   "live-mtpe-competencias-digita": {
     "src": "/certification-covers-v1/live-mtpe-competencias-digita.webp",
     "source": "Captura de la fuente oficial",
     "sourceUrl": "https://capacitacionlaboral.trabajo.gob.pe/rutas/competencias-digitales-basicas-para-el-empleo/",
-    "generatedAt": "2026-11-07T17:04:27.222Z",
+    "generatedAt": "2026-11-08T17:17:57.567Z",
     "sha256": "da81218d9d6796d06a23da169ec0ae320c1525066a44d94d616085c9580e8cdb"
   },
   "live-mtpe-habilidades-digital": {
     "src": "/certification-covers-v1/live-mtpe-habilidades-digital.webp",
     "source": "Captura de la fuente oficial",
     "sourceUrl": "https://capacitacionlaboral.trabajo.gob.pe/rutas/habilidades-digitales-nivel-intermedio/",
-    "generatedAt": "2026-11-07T17:04:27.700Z",
+    "generatedAt": "2026-11-08T17:17:57.952Z",
     "sha256": "dd15a26fe2d09177c5844d6ef5924ac9052836385170200ac7256354fc6d2371"
   },
   "live-hubspot-certificacion-de-content-hub-para-marketers-certificacion-3-horas-marketing": {
     "src": "/certification-covers-v1/live-hubspot-certificacion-de-content-hub-para-marketers-certificacion-3-horas-marketing.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://137828.fs1.hubspotusercontent-na1.net/hubfs/137828/rectangle-hubspot-content-hub-for-marketers-2024-es.webp",
-    "generatedAt": "2026-11-07T17:04:30.066Z",
+    "generatedAt": "2026-11-08T17:17:59.935Z",
     "sha256": "324bb6cdc7c69fe4b44edfc09f4cb5fc710f8a520e2a22513956f0a756206ea0"
-  },
-  "live-hubspot-certificacion-en-optimizacion-para-motores-de-respuesta-aeo-certificacion-4-horas-marketing": {
-    "src": "/certification-covers-v1/live-hubspot-certificacion-en-optimizacion-para-motores-de-respuesta-aeo-certificacion-4-horas-marke.webp",
-    "source": "Imagen oficial / Open Graph",
-    "sourceUrl": "https://137828.fs1.hubspotusercontent-na1.net/hubfs/137828/rectangle-Thumbnail_AE-1.png",
-    "generatedAt": "2026-11-07T17:04:30.875Z",
-    "sha256": "f4df54eaf4aec2da571fb9c53d87722ebbd1dce0b2e6896f2493b8b59bfba4d8"
   },
   "live-hubspot-certificacion-en-implementacion-de-aeo-con-hubspot-certificacion-3-horas": {
     "src": "/certification-covers-v1/live-hubspot-certificacion-en-implementacion-de-aeo-con-hubspot-certificacion-3-horas.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://137828.fs1.hubspotusercontent-na1.net/hubfs/137828/rectangle-Thumbnail_Im-3.png",
-    "generatedAt": "2026-11-07T17:04:31.829Z",
-    "sha256": "c81150dbb7e9c774652dbfcce8426c02b3071d413201ce78798d80d0d8c76320"
+    "generatedAt": "2026-11-08T17:18:00.993Z",
+    "sha256": "c7a5d518c2f5371d280f036e95c9488fc0e07e355f6732f3fdfcdacd9bf492f2"
+  },
+  "live-hubspot-certificacion-en-optimizacion-para-motores-de-respuesta-aeo-certificacion-4-horas-marketing": {
+    "src": "/certification-covers-v1/live-hubspot-certificacion-en-optimizacion-para-motores-de-respuesta-aeo-certificacion-4-horas-marke.webp",
+    "source": "Imagen oficial / Open Graph",
+    "sourceUrl": "https://137828.fs1.hubspotusercontent-na1.net/hubfs/137828/rectangle-Thumbnail_AE-1.png",
+    "generatedAt": "2026-11-08T17:18:01.129Z",
+    "sha256": "f4df54eaf4aec2da571fb9c53d87722ebbd1dce0b2e6896f2493b8b59bfba4d8"
   },
   "live-hubspot-habilitacion-de-ventas-certificacion-5-horas-ventas": {
     "src": "/certification-covers-v1/live-hubspot-habilitacion-de-ventas-certificacion-5-horas-ventas.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://137828.fs1.hubspotusercontent-na1.net/hubfs/137828/standard-Sales%20Enablement%20Thumbnails.png",
-    "generatedAt": "2026-11-07T17:04:34.667Z",
-    "sha256": "8311747ce6b7d3e3428559a093a32b2a090330193e452bfb827b9efb297e2b93"
-  },
-  "live-hubspot-inbound-nuevo-certificacion-3-horas-marketing-ventas-service": {
-    "src": "/certification-covers-v1/live-hubspot-inbound-nuevo-certificacion-3-horas-marketing-ventas-service.webp",
-    "source": "Imagen oficial / Open Graph",
-    "sourceUrl": "https://137828.fs1.hubspotusercontent-na1.net/hubfs/137828/migrated-thumbnails-from-s3/track-24-es-16_9-1645179359274.png",
-    "generatedAt": "2026-11-07T17:04:35.054Z",
-    "sha256": "7333c423d17d5bf738ee200a4280d878f9366f6b1d702c3364b3b9e650154f3f"
+    "generatedAt": "2026-11-08T17:18:03.056Z",
+    "sha256": "3b7cc38ee32afba2acb07fdb87eb003fe9b4161c3a06a32a3618308ef62d9e28"
   },
   "live-hubspot-inbound-marketing-certificacion-5-horas-marketing": {
     "src": "/certification-covers-v1/live-hubspot-inbound-marketing-certificacion-5-horas-marketing.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://137828.fs1.hubspotusercontent-na1.net/hubfs/137828/migrated-thumbnails-from-s3/track-1028124-es-16_9-1670852689859.png",
-    "generatedAt": "2026-11-07T17:04:35.756Z",
+    "generatedAt": "2026-11-08T17:18:04.034Z",
     "sha256": "76906663e13e267fee370d91f2bd0db19be53f6911f0d93e34e96fca1607a306"
+  },
+  "live-hubspot-inbound-nuevo-certificacion-3-horas-marketing-ventas-service": {
+    "src": "/certification-covers-v1/live-hubspot-inbound-nuevo-certificacion-3-horas-marketing-ventas-service.webp",
+    "source": "Imagen oficial / Open Graph",
+    "sourceUrl": "https://137828.fs1.hubspotusercontent-na1.net/hubfs/137828/migrated-thumbnails-from-s3/track-24-es-16_9-1645179359274.png",
+    "generatedAt": "2026-11-08T17:18:04.137Z",
+    "sha256": "7333c423d17d5bf738ee200a4280d878f9366f6b1d702c3364b3b9e650154f3f"
   },
   "live-hubspot-optimizacion-del-inbound-marketing-certificacion-5-horas-marketing": {
     "src": "/certification-covers-v1/live-hubspot-optimizacion-del-inbound-marketing-certificacion-5-horas-marketing.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://137828.fs1.hubspotusercontent-na1.net/hubfs/137828/standard-Diapositiva1.png",
-    "generatedAt": "2026-11-07T17:04:39.246Z",
-    "sha256": "2c87bf4363a6d58901995a2a6226d2ca6a139cb4aced33649bd2684c6c1ae8dc"
-  },
-  "live-hubspot-ventas-inbound-certificacion-3-horas-ventas": {
-    "src": "/certification-covers-v1/live-hubspot-ventas-inbound-certificacion-3-horas-ventas.webp",
-    "source": "Imagen oficial / Open Graph",
-    "sourceUrl": "https://137828.fs1.hubspotusercontent-na1.net/hubfs/137828/migrated-thumbnails-from-s3/track-9-es-16_9-1650325563574.png",
-    "generatedAt": "2026-11-07T17:04:40.008Z",
-    "sha256": "683446be877aaef4164733c4ccd962d9253598e182703ab2679e732916e12088"
+    "generatedAt": "2026-11-08T17:18:05.867Z",
+    "sha256": "9d95d1c5dbb9353c04965549c241c4bfb6da998d67d860584e8918820c427bc1"
   },
   "live-hubspot-ventas-sin-friccion-certificacion-2-horas-ventas": {
     "src": "/certification-covers-v1/live-hubspot-ventas-sin-friccion-certificacion-2-horas-ventas.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://137828.fs1.hubspotusercontent-na1.net/hubfs/137828/migrated-thumbnails-from-s3/track-66-es-16_9-1651245177266.png",
-    "generatedAt": "2026-11-07T17:04:40.659Z",
+    "generatedAt": "2026-11-08T17:18:07.058Z",
     "sha256": "8e601952edb246b871c112c8a03cd3642466ec1e9f75d5ff15526258d329ccfc"
   },
-  "live-platzi-free-curso-gratis-de-estrategias-para-aprender-ingles-en-linea": {
-    "src": "/certification-covers-v1/live-platzi-free-curso-gratis-de-estrategias-para-aprender-ingles-en-linea.webp",
+  "live-hubspot-ventas-inbound-certificacion-3-horas-ventas": {
+    "src": "/certification-covers-v1/live-hubspot-ventas-inbound-certificacion-3-horas-ventas.webp",
     "source": "Imagen oficial / Open Graph",
-    "sourceUrl": "https://static.platzi.com/media/courses/Piezas-Curso-Gratis-de-Estrategias-2025_OG_1.jpg",
-    "generatedAt": "2026-11-07T17:04:43.331Z",
-    "sha256": "b5d5b9f23c4c64d125d407ec8dcfbaf21b719250ca0bba6ae082aa3ad3428a81"
+    "sourceUrl": "https://137828.fs1.hubspotusercontent-na1.net/hubfs/137828/migrated-thumbnails-from-s3/track-9-es-16_9-1650325563574.png",
+    "generatedAt": "2026-11-08T17:18:07.512Z",
+    "sha256": "683446be877aaef4164733c4ccd962d9253598e182703ab2679e732916e12088"
   },
   "live-platzi-free-curso-de-pagos-abiertos-con-interledger": {
     "src": "/certification-covers-v1/live-platzi-free-curso-de-pagos-abiertos-con-interledger.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://static.platzi.com/media/courses/Piezas-Curso-de-Pagos-Abiertos-con-Interledger_OG_lOePc64.jpg",
-    "generatedAt": "2026-11-07T17:04:43.487Z",
+    "generatedAt": "2026-11-08T17:18:08.545Z",
     "sha256": "130f167135a4c1fc9281c0921568c416916d59ebc5d728b2beb0b7f7fd6a18ce"
   },
   "live-platzi-free-curso-gratis-de-introduccion-a-la-inteligencia-artificial": {
     "src": "/certification-covers-v1/live-platzi-free-curso-gratis-de-introduccion-a-la-inteligencia-artificial.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://static.platzi.com/media/courses/dd44bfd8-f99f-45e5-8552-0d0e063380fc.jpg",
-    "generatedAt": "2026-11-07T17:04:43.667Z",
+    "generatedAt": "2026-11-08T17:18:10.449Z",
     "sha256": "d52f1b644aa3ff413d8888cbd15d7c4ea492831187a2606703a368018288100e"
   },
-  "live-platzi-free-curso-gratis-para-crear-agentes-de-ai-con-copilot-studio": {
-    "src": "/certification-covers-v1/live-platzi-free-curso-gratis-para-crear-agentes-de-ai-con-copilot-studio.webp",
+  "live-platzi-free-curso-gratis-de-estrategias-para-aprender-ingles-en-linea": {
+    "src": "/certification-covers-v1/live-platzi-free-curso-gratis-de-estrategias-para-aprender-ingles-en-linea.webp",
     "source": "Imagen oficial / Open Graph",
-    "sourceUrl": "https://static.platzi.com/media/courses/Piezas-Agente-AI-Copilot-Studio_OG_gLbweQp.jpg",
-    "generatedAt": "2026-11-07T17:04:46.338Z",
-    "sha256": "addb09d9bfc71198fd31fe60990381eb3cbb8db6a861a8f1470d3632f61a2615"
-  },
-  "live-platzi-free-curso-gratis-de-marca-personal": {
-    "src": "/certification-covers-v1/live-platzi-free-curso-gratis-de-marca-personal.webp",
-    "source": "Imagen oficial / Open Graph",
-    "sourceUrl": "https://static.platzi.com/media/courses/Piezas-marca-personal-2023_OG.png",
-    "generatedAt": "2026-11-07T17:04:46.577Z",
-    "sha256": "c2dcf9800f72983d231dc042d3b9aaef6c8ba26fcbbae74242653f1916cfc03d"
+    "sourceUrl": "https://static.platzi.com/media/courses/Piezas-Curso-Gratis-de-Estrategias-2025_OG_1.jpg",
+    "generatedAt": "2026-11-08T17:18:10.700Z",
+    "sha256": "b5d5b9f23c4c64d125d407ec8dcfbaf21b719250ca0bba6ae082aa3ad3428a81"
   },
   "live-platzi-free-curso-gratis-de-lovable": {
     "src": "/certification-covers-v1/live-platzi-free-curso-gratis-de-lovable.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://static.platzi.com/media/courses/Piezas-gratis-lovable-crear-paginas-web-sin-programar_OG-compressed.jpg",
-    "generatedAt": "2026-11-07T17:04:46.695Z",
+    "generatedAt": "2026-11-08T17:18:11.233Z",
     "sha256": "c3c4372b1c3bafde6f42633162d37f6a34108538b69ff0ad9296902ff4ec98ab"
   },
-  "live-platzi-free-toma-las-primeras-clases-gratis": {
-    "src": "/certification-covers-v1/live-platzi-free-toma-las-primeras-clases-gratis.webp",
+  "live-platzi-free-curso-gratis-de-marca-personal": {
+    "src": "/certification-covers-v1/live-platzi-free-curso-gratis-de-marca-personal.webp",
     "source": "Imagen oficial / Open Graph",
-    "sourceUrl": "https://static.platzi.com/media/courses/515dc5dc-4b93-4646-b70b-fed507c5e672.jpg",
-    "generatedAt": "2026-11-07T17:04:50.190Z",
-    "sha256": "47126879abf0abd93805cb88ae138e9b180cc317fe60d1166c947d863aca6a75"
+    "sourceUrl": "https://static.platzi.com/media/courses/Piezas-marca-personal-2023_OG.png",
+    "generatedAt": "2026-11-08T17:18:13.436Z",
+    "sha256": "c2dcf9800f72983d231dc042d3b9aaef6c8ba26fcbbae74242653f1916cfc03d"
+  },
+  "live-platzi-free-curso-gratis-para-crear-agentes-de-ai-con-copilot-studio": {
+    "src": "/certification-covers-v1/live-platzi-free-curso-gratis-para-crear-agentes-de-ai-con-copilot-studio.webp",
+    "source": "Imagen oficial / Open Graph",
+    "sourceUrl": "https://static.platzi.com/media/courses/Piezas-Agente-AI-Copilot-Studio_OG_gLbweQp.jpg",
+    "generatedAt": "2026-11-08T17:18:13.753Z",
+    "sha256": "addb09d9bfc71198fd31fe60990381eb3cbb8db6a861a8f1470d3632f61a2615"
   },
   "live-platzi-free-cursos": {
     "src": "/certification-covers-v1/live-platzi-free-cursos.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://static.platzi.com/media/meta_tags/og/opengraph_cursos_all.png",
-    "generatedAt": "2026-11-07T17:04:51.415Z",
+    "generatedAt": "2026-11-08T17:18:15.581Z",
     "sha256": "83bf28e904213fac61b35be8f785232d2e23742425e97813f353b6009d9624cf"
+  },
+  "live-platzi-free-toma-las-primeras-clases-gratis": {
+    "src": "/certification-covers-v1/live-platzi-free-toma-las-primeras-clases-gratis.webp",
+    "source": "Imagen oficial / Open Graph",
+    "sourceUrl": "https://static.platzi.com/media/courses/515dc5dc-4b93-4646-b70b-fed507c5e672.jpg",
+    "generatedAt": "2026-11-08T17:18:16.500Z",
+    "sha256": "47126879abf0abd93805cb88ae138e9b180cc317fe60d1166c947d863aca6a75"
   },
   "community-hubspot-academy-courses-lessons-hubspot-academy": {
     "src": "/certification-covers-v1/community-hubspot-academy-courses-lessons-hubspot-academy.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://static.hsappstatic.net/academy-public-ui/static-1.13031/images/default-share-image.png",
-    "generatedAt": "2026-11-07T17:04:53.984Z",
+    "generatedAt": "2026-11-08T17:18:18.311Z",
     "sha256": "f74bdea5a671c061c74de9e84622227662cb0e88afa31efaf409cebc23d5d51e"
   },
   "community-aws-aws-restart": {
     "src": "/certification-covers-v1/community-aws-aws-restart.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://d1.awsstatic.com/onedam/marketing-channels/website/aws/en_US/training/approved/images/academy/AWS_PhotoLibrary_People-613.11c514e752caca7f7a68657308c4bf74e7c0c696.jpg",
-    "generatedAt": "2026-11-07T17:04:54.185Z",
+    "generatedAt": "2026-11-08T17:18:18.956Z",
     "sha256": "2da587a72c3c822c9692456b4eb2815a2b37308efd81d1e63d114a75a267d8b4"
+  },
+  "community-hubspot-academy-service-hub-software-certification": {
+    "src": "/certification-covers-v1/community-hubspot-academy-service-hub-software-certification.webp",
+    "source": "Imagen oficial / Open Graph",
+    "sourceUrl": "https://137828.fs1.hubspotusercontent-na1.net/hubfs/137828/migrated-thumbnails-from-s3/track-97-en-16_9-1647381356416.png",
+    "generatedAt": "2026-11-08T17:18:19.506Z",
+    "sha256": "05b43490fb58ca81d49f65ae0f0aaf61e8190b0ec9782a7b6b474298f1dbd05f"
   },
   "community-ibm-skillsbuild-customer-engagement-fundamentals": {
     "src": "/certification-covers-v1/community-ibm-skillsbuild-customer-engagement-fundamentals.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://skillsbuild.org/api/social-image/2026/07/CourseCatalog_FB_LinkedIn.v3.jpg",
-    "generatedAt": "2026-11-07T17:04:54.749Z",
+    "generatedAt": "2026-11-08T17:18:21.334Z",
     "sha256": "facc9b35acd39307ecfed97e01fe0f59e66aea6ff36dfe4bb23fd030b78e70f0"
-  },
-  "live-fazt-ia-feat-como-aprender-machine-learning-desde-cero-ruta-practica-para-programadores": {
-    "src": "/certification-covers-v1/live-fazt-ia-feat-como-aprender-machine-learning-desde-cero-ruta-practica-para-programadores.webp",
-    "source": "Imagen oficial / Open Graph",
-    "sourceUrl": "https://faztdev-uploads.s3.us-east-1.amazonaws.com/content/6ac8540a1545eb605b3f116f/thumbnail-9d15784f-94c1-480c-9a4c-78afc682949d.webp",
-    "generatedAt": "2026-11-07T17:04:57.774Z",
-    "sha256": "4a3b7b699026e056f722d637d7861d8e9dec7f536d7be18744db68191d0c5288"
   },
   "holamundo-open-content": {
     "src": "/certification-covers-v1/holamundo-open-content.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://yt3.googleusercontent.com/mNbmN9qWmMpQ-XN37IejdhwF5rn2-WD6fjRY8ZKcYUFer6F5Y-2vQTCDs3HpCHmOBtpeeWgu6g=s900-c-k-c0x00ffffff-no-rj",
-    "generatedAt": "2026-11-07T17:04:59.097Z",
+    "generatedAt": "2026-11-08T17:18:23.198Z",
     "sha256": "f5dc990dcc07a8e8066cce2341e0ae0d5be3a756c1254a5f3088563876fa99d2"
   },
   "google-developer-badges": {
     "src": "/certification-covers-v1/google-developer-badges.webp",
     "source": "Captura de la fuente oficial",
     "sourceUrl": "https://developers.google.com/profile/badges?hl=es-419",
-    "generatedAt": "2026-11-07T17:04:59.922Z",
-    "sha256": "d2bb6249e34293f00e8d056294fb35c4c258ee09218bdd110eb16f144e27fb9a"
+    "generatedAt": "2026-11-08T17:18:23.466Z",
+    "sha256": "e61ef6d6274bfb37b24f98abd6a737c0e18be6fd6d3c93a334bdfb709b202c08"
+  },
+  "live-fazt-ia-feat-como-aprender-machine-learning-desde-cero-ruta-practica-para-programadores": {
+    "src": "/certification-covers-v1/live-fazt-ia-feat-como-aprender-machine-learning-desde-cero-ruta-practica-para-programadores.webp",
+    "source": "Imagen oficial / Open Graph",
+    "sourceUrl": "https://faztdev-uploads.s3.us-east-1.amazonaws.com/content/6ac8540a1545eb605b3f116f/thumbnail-9d15784f-94c1-480c-9a4c-78afc682949d.webp",
+    "generatedAt": "2026-11-08T17:18:23.946Z",
+    "sha256": "4a3b7b699026e056f722d637d7861d8e9dec7f536d7be18744db68191d0c5288"
   },
   "live-fazt-ia-feat-como-ser-ai-engineer-en-2026-roadmap-paso-a-paso": {
     "src": "/certification-covers-v1/live-fazt-ia-feat-como-ser-ai-engineer-en-2026-roadmap-paso-a-paso.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://faztdev-uploads.s3.us-east-1.amazonaws.com/content/6ac853e21545eb605b3f1154/thumbnail-cd0dad5f-4b6f-4ec1-88a6-8e44b96b2577.webp",
-    "generatedAt": "2026-11-07T17:05:00.527Z",
+    "generatedAt": "2026-11-08T17:18:25.312Z",
     "sha256": "c7bf343c2b0e61a90a162f3e35aad7cf5b2f52391e53d337a59984123c837d29"
-  },
-  "live-fazt-web-feat-rea-el-mcp-que-le-da-ingenieria-inversa-a-tu-agente-de-ia": {
-    "src": "/certification-covers-v1/live-fazt-web-feat-rea-el-mcp-que-le-da-ingenieria-inversa-a-tu-agente-de-ia.webp",
-    "source": "Imagen oficial / Open Graph",
-    "sourceUrl": "https://faztdev-uploads.s3.us-east-1.amazonaws.com/content/6ac9fbce63a4b87c78581bbf/thumbnail-52a4e4a0-9794-4bc1-bc4e-f157b29a51c5.webp",
-    "generatedAt": "2026-11-07T17:05:02.278Z",
-    "sha256": "d62a95d3712823cdbf367482138b6d31380232c3ec36ccaf5dcd67a6c2d1ebeb"
   },
   "live-fazt-ver-el-catalogo-gratis": {
     "src": "/certification-covers-v1/live-fazt-ver-el-catalogo-gratis.webp",
     "source": "Captura de la fuente oficial",
     "sourceUrl": "https://fazt.dev/contenido",
-    "generatedAt": "2026-11-07T17:05:02.737Z",
-    "sha256": "f5b5d09d351649d9e5c0f7eec0c0252076349dc6caf4f01b61b162015f2fa243"
+    "generatedAt": "2026-11-08T17:18:26.012Z",
+    "sha256": "86c2bb196d7b7d36aa6ab15a9657df6474dada49bbe6d6ef4852c67130c284b3"
+  },
+  "live-fazt-web-feat-rea-el-mcp-que-le-da-ingenieria-inversa-a-tu-agente-de-ia": {
+    "src": "/certification-covers-v1/live-fazt-web-feat-rea-el-mcp-que-le-da-ingenieria-inversa-a-tu-agente-de-ia.webp",
+    "source": "Imagen oficial / Open Graph",
+    "sourceUrl": "https://faztdev-uploads.s3.us-east-1.amazonaws.com/content/6ac9fbce63a4b87c78581bbf/thumbnail-52a4e4a0-9794-4bc1-bc4e-f157b29a51c5.webp",
+    "generatedAt": "2026-11-08T17:18:26.063Z",
+    "sha256": "d62a95d3712823cdbf367482138b6d31380232c3ec36ccaf5dcd67a6c2d1ebeb"
   },
   "microsoft-applied-skills": {
     "src": "/certification-covers-v1/microsoft-applied-skills.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://learn.microsoft.com/en-us/media/open-graph-image.png",
-    "generatedAt": "2026-11-07T17:05:02.869Z",
+    "generatedAt": "2026-11-08T17:18:27.348Z",
     "sha256": "dcfb278f7c8f80e30b782ae3efe945b398bda35d07ef44b5d5fcc6eac975f098"
-  },
-  "github-skills-free": {
-    "src": "/certification-covers-v1/github-skills-free.webp",
-    "source": "Imagen oficial / Open Graph",
-    "sourceUrl": "https://github.githubassets.com/assets/github-mark-57519b92ca4e.png",
-    "generatedAt": "2026-11-07T17:05:05.079Z",
-    "sha256": "6f89b8a0ba357ff4e53a22b81042cc9666941e8fece6aa16a8099b7966c2b40b"
   },
   "fortinet-free-training": {
     "src": "/certification-covers-v1/fortinet-free-training.webp",
     "source": "Captura de la fuente oficial",
     "sourceUrl": "https://training.fortinet.com/",
-    "generatedAt": "2026-11-07T17:05:05.267Z",
+    "generatedAt": "2026-11-08T17:18:28.029Z",
     "sha256": "bc854536e0005f60c9046a15656d8b3c4e4c3df5808ead3b9897105eb5187930"
+  },
+  "github-skills-free": {
+    "src": "/certification-covers-v1/github-skills-free.webp",
+    "source": "Imagen oficial / Open Graph",
+    "sourceUrl": "https://github.githubassets.com/assets/github-mark-57519b92ca4e.png",
+    "generatedAt": "2026-11-08T17:18:29.428Z",
+    "sha256": "6f89b8a0ba357ff4e53a22b81042cc9666941e8fece6aa16a8099b7966c2b40b"
   },
   "meta-blueprint-free-learning": {
     "src": "/certification-covers-v1/meta-blueprint-free-learning.webp",
     "source": "Captura de la fuente oficial",
     "sourceUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fbusiness%2Flearn",
-    "generatedAt": "2026-11-07T17:05:07.189Z",
+    "generatedAt": "2026-11-08T17:18:29.869Z",
     "sha256": "ee3adf1fe1b65ceb9edc3e7b25889331c8f6c0d9e9b7e9c9c674826ca6257c6b"
   },
   "mongodb-university-free": {
     "src": "/certification-covers-v1/mongodb-university-free.webp",
     "source": "Captura de la fuente oficial",
     "sourceUrl": "https://learn.mongodb.com/catalog?labels=%5B%22Free%2FPaid%22%5D&values=%5B%22Free%22%5D",
-    "generatedAt": "2026-11-07T17:05:07.984Z",
-    "sha256": "ef98deb5185540d150298ca16c04846fb6919b18958543e59900f6cfd055d3d3"
+    "generatedAt": "2026-11-08T17:18:30.535Z",
+    "sha256": "f1bb70989aa4d851987cdfe7540759fa23923b65a7aeedb1f7e6779f983f543a"
   },
   "sap-learning-free": {
     "src": "/certification-covers-v1/sap-learning-free.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://eu-images.contentstack.com/v3/assets/blt4e79a2501da5d16b/bltd2a626e2a2f8c0d6/6a4f6a05c736a160fa6bf716/og_default_image.png",
-    "generatedAt": "2026-11-07T17:05:08.453Z",
+    "generatedAt": "2026-11-08T17:18:32.028Z",
     "sha256": "8fe0fe0ff6a8fab3f2ccbdba6400bac764c1be77be0d028a3a8eb1f639088b4a"
-  },
-  "live-mongodb-free": {
-    "src": "/certification-covers-v1/live-mongodb-free.webp",
-    "source": "Captura de la fuente oficial",
-    "sourceUrl": "https://learn.mongodb.com/catalog?labels=%5B%5D&page=1&values=%5B%5D",
-    "generatedAt": "2026-11-07T17:05:12.630Z",
-    "sha256": "811bef9d808a8731f4f323d24417455cf5574520c62d51643d11f54c777ea45a"
-  },
-  "live-mongodb-courses-and-certificationlearn-for-free-from-mongodb": {
-    "src": "/certification-covers-v1/live-mongodb-courses-and-certificationlearn-for-free-from-mongodb.webp",
-    "source": "Captura de la fuente oficial",
-    "sourceUrl": "https://learn.mongodb.com/",
-    "generatedAt": "2026-11-07T17:05:13.233Z",
-    "sha256": "eb3639403435309da0e2f125a98ef26f62edec50bcca3a0e245e76d462c02779"
   },
   "live-mongodb-certification": {
     "src": "/certification-covers-v1/live-mongodb-certification.webp",
     "source": "Captura de la fuente oficial",
     "sourceUrl": "https://learn.mongodb.com/pages/certification-program",
-    "generatedAt": "2026-11-07T17:05:15.291Z",
+    "generatedAt": "2026-11-08T17:18:33.866Z",
     "sha256": "d4aab796868a52f546719a0c65a4758a660ebeebf00a1b5b9fec1da3137288b0"
   },
   "live-mongodb-list-of-self-paced-topics": {
     "src": "/certification-covers-v1/live-mongodb-list-of-self-paced-topics.webp",
     "source": "Captura de la fuente oficial",
     "sourceUrl": "https://learn.mongodb.com/self-paced-topics",
-    "generatedAt": "2026-11-07T17:05:16.966Z",
-    "sha256": "cf12cc1743188d865eb00a2494435a178f0f9a4d697df763a95e8af1a640d728"
+    "generatedAt": "2026-11-08T17:18:34.798Z",
+    "sha256": "a9a8af856c1de3c505a834ec7742f2e6ab69eebc98ba24e3f0f0603e2f94a677"
   },
-  "live-mongodb-lab-zone": {
-    "src": "/certification-covers-v1/live-mongodb-lab-zone.webp",
+  "live-mongodb-skills": {
+    "src": "/certification-covers-v1/live-mongodb-skills.webp",
     "source": "Captura de la fuente oficial",
-    "sourceUrl": "https://learn.mongodb.com/pages/lab-zone",
-    "generatedAt": "2026-11-07T17:05:18.762Z",
-    "sha256": "c56488e91e6e203bce92f2a401d00555438c8d246d8e6659d83a3b1ea71623bf"
+    "sourceUrl": "https://learn.mongodb.com/skills",
+    "generatedAt": "2026-11-08T17:18:35.906Z",
+    "sha256": "3bf613b905bde441e23bf671baa4bcf5f9fbe63a9284410428fccb5009dae36c"
   },
   "live-sap-artificial-intelligence-develop-practical-ai-skills-with-guided-learning-and-recognized-certifications": {
     "src": "/certification-covers-v1/live-sap-artificial-intelligence-develop-practical-ai-skills-with-guided-learning-and-recognized-cer.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://eu-images.contentstack.com/v3/assets/blt4e79a2501da5d16b/blt073f86ace7f61084/665705429418711205ca7f78/SAP-Learning-Socials_comprimida.png",
-    "generatedAt": "2026-11-07T17:05:19.034Z",
+    "generatedAt": "2026-11-08T17:18:37.783Z",
     "sha256": "b574015f34b2527b3b00b5a3259700cd3ce751169783181706fbb38c788f971c"
   },
   "live-sap-autonomous-enterprise-build-skills-for-ai-driven-transformations": {
     "src": "/certification-covers-v1/live-sap-autonomous-enterprise-build-skills-for-ai-driven-transformations.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://eu-images.contentstack.com/v3/assets/blt4e79a2501da5d16b/blt073f86ace7f61084/665705429418711205ca7f78/SAP-Learning-Socials_comprimida.png",
-    "generatedAt": "2026-11-07T17:05:20.906Z",
+    "generatedAt": "2026-11-08T17:18:38.752Z",
     "sha256": "b574015f34b2527b3b00b5a3259700cd3ce751169783181706fbb38c788f971c"
+  },
+  "live-mongodb-skills-and-certificationsdevelop-in-demand-skills-and-earn-mongodb-certifications": {
+    "src": "/certification-covers-v1/live-mongodb-skills-and-certificationsdevelop-in-demand-skills-and-earn-mongodb-certifications.webp",
+    "source": "Captura de la fuente oficial",
+    "sourceUrl": "https://learn.mongodb.com/",
+    "generatedAt": "2026-11-08T17:18:38.770Z",
+    "sha256": "7730a99776f84717f0530e8243441743220bb80ef1d4d7c5479c6c0cf4d6b679"
   },
   "live-sap-claim-your-exam-voucher": {
     "src": "/certification-covers-v1/live-sap-claim-your-exam-voucher.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://eu-images.contentstack.com/v3/assets/blt4e79a2501da5d16b/blt073f86ace7f61084/665705429418711205ca7f78/SAP-Learning-Socials_comprimida.png",
-    "generatedAt": "2026-11-07T17:05:21.453Z",
+    "generatedAt": "2026-11-08T17:18:40.554Z",
+    "sha256": "b574015f34b2527b3b00b5a3259700cd3ce751169783181706fbb38c788f971c"
+  },
+  "live-sap-dive-in": {
+    "src": "/certification-covers-v1/live-sap-dive-in.webp",
+    "source": "Imagen oficial / Open Graph",
+    "sourceUrl": "https://eu-images.contentstack.com/v3/assets/blt4e79a2501da5d16b/bltdd497fd6b6725611/665705055f4bfb6fa3061da3/SAP-Learning-Socials_comprimida.png",
+    "generatedAt": "2026-11-08T17:18:41.229Z",
     "sha256": "b574015f34b2527b3b00b5a3259700cd3ce751169783181706fbb38c788f971c"
   },
   "live-sap-course-implementing-sap-service-cloud-version-2-essentials": {
     "src": "/certification-covers-v1/live-sap-course-implementing-sap-service-cloud-version-2-essentials.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://eu-images.contentstack.com/v3/assets/blt4e79a2501da5d16b/bltd2a626e2a2f8c0d6/6a4f6a05c736a160fa6bf716/og_default_image.png",
-    "generatedAt": "2026-11-07T17:05:22.040Z",
+    "generatedAt": "2026-11-08T17:18:41.319Z",
     "sha256": "8fe0fe0ff6a8fab3f2ccbdba6400bac764c1be77be0d028a3a8eb1f639088b4a"
-  },
-  "live-sap-dive-in": {
-    "src": "/certification-covers-v1/live-sap-dive-in.webp",
-    "source": "Imagen oficial / Open Graph",
-    "sourceUrl": "https://eu-images.contentstack.com/v3/assets/blt4e79a2501da5d16b/bltdd497fd6b6725611/665705055f4bfb6fa3061da3/SAP-Learning-Socials_comprimida.png",
-    "generatedAt": "2026-11-07T17:05:23.595Z",
-    "sha256": "b574015f34b2527b3b00b5a3259700cd3ce751169783181706fbb38c788f971c"
   },
   "live-sap-get-support": {
     "src": "/certification-covers-v1/live-sap-get-support.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://eu-images.contentstack.com/v3/assets/blt4e79a2501da5d16b/blt073f86ace7f61084/665705429418711205ca7f78/SAP-Learning-Socials_comprimida.png",
-    "generatedAt": "2026-11-07T17:05:23.988Z",
+    "generatedAt": "2026-11-08T17:18:42.629Z",
     "sha256": "b574015f34b2527b3b00b5a3259700cd3ce751169783181706fbb38c788f971c"
   },
   "live-sap-learning-journey-applying-supply-chain-business-scenarios-in-sap-s-4hana-cloud-public-edition": {
     "src": "/certification-covers-v1/live-sap-learning-journey-applying-supply-chain-business-scenarios-in-sap-s-4hana-cloud-public-editi.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://eu-images.contentstack.com/v3/assets/blt4e79a2501da5d16b/bltd2a626e2a2f8c0d6/6a4f6a05c736a160fa6bf716/og_default_image.png",
-    "generatedAt": "2026-11-07T17:05:25.703Z",
+    "generatedAt": "2026-11-08T17:18:43.766Z",
     "sha256": "8fe0fe0ff6a8fab3f2ccbdba6400bac764c1be77be0d028a3a8eb1f639088b4a"
   },
   "live-sap-learning-journey-becoming-an-sap-business-ai-platform-solution-architect": {
     "src": "/certification-covers-v1/live-sap-learning-journey-becoming-an-sap-business-ai-platform-solution-architect.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://eu-images.contentstack.com/v3/assets/blt4e79a2501da5d16b/bltd2a626e2a2f8c0d6/6a4f6a05c736a160fa6bf716/og_default_image.png",
-    "generatedAt": "2026-11-07T17:05:26.595Z",
+    "generatedAt": "2026-11-08T17:18:44.136Z",
     "sha256": "8fe0fe0ff6a8fab3f2ccbdba6400bac764c1be77be0d028a3a8eb1f639088b4a"
   },
   "live-sap-learning-journey-configuring-and-administering-new-concur-travel-professional-edition": {
     "src": "/certification-covers-v1/live-sap-learning-journey-configuring-and-administering-new-concur-travel-professional-edition.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://eu-images.contentstack.com/v3/assets/blt4e79a2501da5d16b/bltd2a626e2a2f8c0d6/6a4f6a05c736a160fa6bf716/og_default_image.png",
-    "generatedAt": "2026-11-07T17:05:27.793Z",
+    "generatedAt": "2026-11-08T17:18:44.926Z",
     "sha256": "8fe0fe0ff6a8fab3f2ccbdba6400bac764c1be77be0d028a3a8eb1f639088b4a"
   },
   "live-sap-learning-journey-developing-with-joule-studio": {
     "src": "/certification-covers-v1/live-sap-learning-journey-developing-with-joule-studio.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://eu-images.contentstack.com/v3/assets/blt4e79a2501da5d16b/bltd2a626e2a2f8c0d6/6a4f6a05c736a160fa6bf716/og_default_image.png",
-    "generatedAt": "2026-11-07T17:05:28.432Z",
+    "generatedAt": "2026-11-08T17:18:46.308Z",
     "sha256": "8fe0fe0ff6a8fab3f2ccbdba6400bac764c1be77be0d028a3a8eb1f639088b4a"
   },
   "live-sap-learning-journey-exploring-sap-data-services": {
     "src": "/certification-covers-v1/live-sap-learning-journey-exploring-sap-data-services.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://eu-images.contentstack.com/v3/assets/blt4e79a2501da5d16b/bltd2a626e2a2f8c0d6/6a4f6a05c736a160fa6bf716/og_default_image.png",
-    "generatedAt": "2026-11-07T17:05:29.299Z",
+    "generatedAt": "2026-11-08T17:18:46.733Z",
     "sha256": "8fe0fe0ff6a8fab3f2ccbdba6400bac764c1be77be0d028a3a8eb1f639088b4a"
   },
   "live-sap-learning-journey-exploring-the-sap-autonomous-enterprise-for-manufacturing-operations-and-shopfloor-execution": {
     "src": "/certification-covers-v1/live-sap-learning-journey-exploring-the-sap-autonomous-enterprise-for-manufacturing-operations-and-s.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://eu-images.contentstack.com/v3/assets/blt4e79a2501da5d16b/bltd2a626e2a2f8c0d6/6a4f6a05c736a160fa6bf716/og_default_image.png",
-    "generatedAt": "2026-11-07T17:05:30.595Z",
+    "generatedAt": "2026-11-08T17:18:47.264Z",
     "sha256": "8fe0fe0ff6a8fab3f2ccbdba6400bac764c1be77be0d028a3a8eb1f639088b4a"
   },
   "live-sap-learning-journey-managing-company-administration-in-new-concur-travel": {
     "src": "/certification-covers-v1/live-sap-learning-journey-managing-company-administration-in-new-concur-travel.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://eu-images.contentstack.com/v3/assets/blt4e79a2501da5d16b/bltd2a626e2a2f8c0d6/6a4f6a05c736a160fa6bf716/og_default_image.png",
-    "generatedAt": "2026-11-07T17:05:31.235Z",
+    "generatedAt": "2026-11-08T17:18:48.482Z",
     "sha256": "8fe0fe0ff6a8fab3f2ccbdba6400bac764c1be77be0d028a3a8eb1f639088b4a"
   },
   "live-sap-learning-journey-mastering-ai-native-enterprise-architecture-with-sap-leanix": {
     "src": "/certification-covers-v1/live-sap-learning-journey-mastering-ai-native-enterprise-architecture-with-sap-leanix.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://eu-images.contentstack.com/v3/assets/blt4e79a2501da5d16b/bltd2a626e2a2f8c0d6/6a4f6a05c736a160fa6bf716/og_default_image.png",
-    "generatedAt": "2026-11-07T17:05:31.876Z",
+    "generatedAt": "2026-11-08T17:18:48.878Z",
     "sha256": "8fe0fe0ff6a8fab3f2ccbdba6400bac764c1be77be0d028a3a8eb1f639088b4a"
   },
   "live-sap-learning-journey-mastering-customer-conversations-about-financial-closing-assistant": {
     "src": "/certification-covers-v1/live-sap-learning-journey-mastering-customer-conversations-about-financial-closing-assistant.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://eu-images.contentstack.com/v3/assets/blt4e79a2501da5d16b/bltd2a626e2a2f8c0d6/6a4f6a05c736a160fa6bf716/og_default_image.png",
-    "generatedAt": "2026-11-07T17:05:33.023Z",
+    "generatedAt": "2026-11-08T17:18:49.781Z",
     "sha256": "8fe0fe0ff6a8fab3f2ccbdba6400bac764c1be77be0d028a3a8eb1f639088b4a"
   },
   "live-sap-learning-journeys": {
     "src": "/certification-covers-v1/live-sap-learning-journeys.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://eu-images.contentstack.com/v3/assets/blt4e79a2501da5d16b/bltd2a626e2a2f8c0d6/6a4f6a05c736a160fa6bf716/og_default_image.png",
-    "generatedAt": "2026-11-07T17:05:34.282Z",
+    "generatedAt": "2026-11-08T17:18:51.588Z",
     "sha256": "8fe0fe0ff6a8fab3f2ccbdba6400bac764c1be77be0d028a3a8eb1f639088b4a"
   },
   "live-sap-learning-journey-onboarding-for-sap-concur-certified-implementation-partner-cip": {
     "src": "/certification-covers-v1/live-sap-learning-journey-onboarding-for-sap-concur-certified-implementation-partner-cip.webp",
     "source": "Captura de la fuente oficial",
     "sourceUrl": "https://accounts.sap.com/saml2/idp/sso",
-    "generatedAt": "2026-11-07T17:05:34.534Z",
+    "generatedAt": "2026-11-08T17:18:51.938Z",
     "sha256": "f4d35ec3e057912fb772ec257bb0c08ed61a85c2da0d974d7beaf3e833dd5709"
   },
   "live-sap-learning-managers-enable-effective-sap-skills-development-empower-teams-with-smarter-sap-learning": {
     "src": "/certification-covers-v1/live-sap-learning-managers-enable-effective-sap-skills-development-empower-teams-with-smarter-sap-le.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://eu-images.contentstack.com/v3/assets/blt4e79a2501da5d16b/blt073f86ace7f61084/665705429418711205ca7f78/SAP-Learning-Socials_comprimida.png",
-    "generatedAt": "2026-11-07T17:05:36.392Z",
+    "generatedAt": "2026-11-08T17:18:52.036Z",
+    "sha256": "b574015f34b2527b3b00b5a3259700cd3ce751169783181706fbb38c788f971c"
+  },
+  "live-sap-sap-business-data-cloud-gain-data-and-analytics-skills-for-modern-enterprises": {
+    "src": "/certification-covers-v1/live-sap-sap-business-data-cloud-gain-data-and-analytics-skills-for-modern-enterprises.webp",
+    "source": "Imagen oficial / Open Graph",
+    "sourceUrl": "https://eu-images.contentstack.com/v3/assets/blt4e79a2501da5d16b/blt073f86ace7f61084/665705429418711205ca7f78/SAP-Learning-Socials_comprimida.png",
+    "generatedAt": "2026-11-08T17:18:54.172Z",
     "sha256": "b574015f34b2527b3b00b5a3259700cd3ce751169783181706fbb38c788f971c"
   },
   "live-sap-self-paced-courses": {
     "src": "/certification-covers-v1/live-sap-self-paced-courses.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://eu-images.contentstack.com/v3/assets/blt4e79a2501da5d16b/bltd2a626e2a2f8c0d6/6a4f6a05c736a160fa6bf716/og_default_image.png",
-    "generatedAt": "2026-11-07T17:05:37.424Z",
+    "generatedAt": "2026-11-08T17:18:54.589Z",
     "sha256": "8fe0fe0ff6a8fab3f2ccbdba6400bac764c1be77be0d028a3a8eb1f639088b4a"
-  },
-  "live-sap-sap-business-data-cloud-gain-data-and-analytics-skills-for-modern-enterprises": {
-    "src": "/certification-covers-v1/live-sap-sap-business-data-cloud-gain-data-and-analytics-skills-for-modern-enterprises.webp",
-    "source": "Imagen oficial / Open Graph",
-    "sourceUrl": "https://eu-images.contentstack.com/v3/assets/blt4e79a2501da5d16b/blt073f86ace7f61084/665705429418711205ca7f78/SAP-Learning-Socials_comprimida.png",
-    "generatedAt": "2026-11-07T17:05:37.779Z",
-    "sha256": "b574015f34b2527b3b00b5a3259700cd3ce751169783181706fbb38c788f971c"
   },
   "live-sap-technology-platform-learn-integration-data-and-app-development-with-sap-btp": {
     "src": "/certification-covers-v1/live-sap-technology-platform-learn-integration-data-and-app-development-with-sap-btp.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://eu-images.contentstack.com/v3/assets/blt4e79a2501da5d16b/blt073f86ace7f61084/665705429418711205ca7f78/SAP-Learning-Socials_comprimida.png",
-    "generatedAt": "2026-11-07T17:05:40.393Z",
-    "sha256": "b574015f34b2527b3b00b5a3259700cd3ce751169783181706fbb38c788f971c"
-  },
-  "aws-training-badges": {
-    "src": "/certification-covers-v1/aws-training-badges.webp",
-    "source": "Imagen oficial / Open Graph",
-    "sourceUrl": "https://d1.awsstatic.com/onedam/marketing-channels/website/aws/en_US/training/approved/images/456701ad-2b6a-4a5c-b1bb-4ca73e89a80b.1ae2593829e569c049110a017d9370df5e036a9b.png",
-    "generatedAt": "2026-11-07T17:05:41.247Z",
-    "sha256": "8ede08f226a93b5bcfa63907748533352463b67f5c60d73725873074ca8d2989"
-  },
-  "live-sap-watch-now": {
-    "src": "/certification-covers-v1/live-sap-watch-now.webp",
-    "source": "Imagen oficial / Open Graph",
-    "sourceUrl": "https://eu-images.contentstack.com/v3/assets/blt4e79a2501da5d16b/blt073f86ace7f61084/665705429418711205ca7f78/SAP-Learning-Socials_comprimida.png",
-    "generatedAt": "2026-11-07T17:05:41.836Z",
+    "generatedAt": "2026-11-08T17:18:54.722Z",
     "sha256": "b574015f34b2527b3b00b5a3259700cd3ce751169783181706fbb38c788f971c"
   },
   "hackerrank-skillup-certify": {
     "src": "/certification-covers-v1/hackerrank-skillup-certify.webp",
     "source": "Captura de la fuente oficial",
     "sourceUrl": "https://www.hackerrank.com/skills-verification",
-    "generatedAt": "2026-11-07T17:05:42.223Z",
-    "sha256": "ade6d613ad72600b61504aa54b59d44ece3586f1761147b47cd3a7c229d04ce7"
+    "generatedAt": "2026-11-08T17:18:56.351Z",
+    "sha256": "207d9982de19816e27d44498727426cdc59a6e48e0ffc3194aa8d31efc59a956"
   },
-  "microsoft-ai-agent-applied-skill": {
-    "src": "/certification-covers-v1/microsoft-ai-agent-applied-skill.webp",
+  "aws-training-badges": {
+    "src": "/certification-covers-v1/aws-training-badges.webp",
     "source": "Imagen oficial / Open Graph",
-    "sourceUrl": "https://learn.microsoft.com/en-us/media/open-graph-image.png",
-    "generatedAt": "2026-11-07T17:05:44.030Z",
-    "sha256": "dcfb278f7c8f80e30b782ae3efe945b398bda35d07ef44b5d5fcc6eac975f098"
+    "sourceUrl": "https://d1.awsstatic.com/onedam/marketing-channels/website/aws/en_US/training/approved/images/456701ad-2b6a-4a5c-b1bb-4ca73e89a80b.1ae2593829e569c049110a017d9370df5e036a9b.png",
+    "generatedAt": "2026-11-08T17:18:56.920Z",
+    "sha256": "8ede08f226a93b5bcfa63907748533352463b67f5c60d73725873074ca8d2989"
+  },
+  "live-sap-watch-now": {
+    "src": "/certification-covers-v1/live-sap-watch-now.webp",
+    "source": "Imagen oficial / Open Graph",
+    "sourceUrl": "https://eu-images.contentstack.com/v3/assets/blt4e79a2501da5d16b/blt073f86ace7f61084/665705429418711205ca7f78/SAP-Learning-Socials_comprimida.png",
+    "generatedAt": "2026-11-08T17:18:57.395Z",
+    "sha256": "b574015f34b2527b3b00b5a3259700cd3ce751169783181706fbb38c788f971c"
   },
   "kaggle-learn-certificates": {
     "src": "/certification-covers-v1/kaggle-learn-certificates.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://www.kaggle.com/static/images/kaggle-wordmark-gradient.png",
-    "generatedAt": "2026-11-07T17:05:44.065Z",
+    "generatedAt": "2026-11-08T17:18:58.761Z",
     "sha256": "3671f1e5748cc1096f119ac475d1af0387c4a981ca608c5c71f88d7810b1ff1e"
+  },
+  "microsoft-ai-agent-applied-skill": {
+    "src": "/certification-covers-v1/microsoft-ai-agent-applied-skill.webp",
+    "source": "Imagen oficial / Open Graph",
+    "sourceUrl": "https://learn.microsoft.com/en-us/media/open-graph-image.png",
+    "generatedAt": "2026-11-08T17:18:59.169Z",
+    "sha256": "dcfb278f7c8f80e30b782ae3efe945b398bda35d07ef44b5d5fcc6eac975f098"
   },
   "neo4j-graphacademy-certifications": {
     "src": "/certification-covers-v1/neo4j-graphacademy-certifications.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://graphacademy.neo4j.com/opengraph-image?07fcdf320c82c56b",
-    "generatedAt": "2026-11-07T17:05:44.258Z",
+    "generatedAt": "2026-11-08T17:18:59.414Z",
     "sha256": "ca700ba8142ac951e76c9410348fed7a4e5c0cb22e98fd7a37c43c980fef3e33"
-  },
-  "openlearn-catalog": {
-    "src": "/certification-covers-v1/openlearn-catalog.webp",
-    "source": "Captura de la fuente oficial",
-    "sourceUrl": "https://www.open.edu/openlearn/",
-    "generatedAt": "2026-11-07T17:05:46.213Z",
-    "sha256": "6014d27cf233b9d8d5c51026653e7f9f7b7d3e32dd560d667f9af28db5633a8e"
   },
   "saylor-free-certificates": {
     "src": "/certification-covers-v1/saylor-free-certificates.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://resources.saylor.org/og/default-1200x1200.png",
-    "generatedAt": "2026-11-07T17:05:46.250Z",
+    "generatedAt": "2026-11-08T17:19:00.585Z",
     "sha256": "21bfa7649bb827a209fa861afd925ee35a2e688310abc5c9b9564bd6399aeab5"
   },
   "microsoft-agents-foundry-applied-skill": {
     "src": "/certification-covers-v1/microsoft-agents-foundry-applied-skill.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://learn.microsoft.com/en-us/media/open-graph-image.png",
-    "generatedAt": "2026-11-07T17:05:46.321Z",
+    "generatedAt": "2026-11-08T17:19:01.105Z",
     "sha256": "dcfb278f7c8f80e30b782ae3efe945b398bda35d07ef44b5d5fcc6eac975f098"
+  },
+  "openlearn-catalog": {
+    "src": "/certification-covers-v1/openlearn-catalog.webp",
+    "source": "Captura de la fuente oficial",
+    "sourceUrl": "https://www.open.edu/openlearn/",
+    "generatedAt": "2026-11-08T17:19:01.226Z",
+    "sha256": "5ddc4519901ab5290e9c2bac225ac9f6a386fa1dfb95d315decb65e751187144"
   },
   "openlearn-digital-skills": {
     "src": "/certification-covers-v1/openlearn-digital-skills.webp",
     "source": "Captura de la fuente oficial",
     "sourceUrl": "https://www.open.edu/openlearn/mod/oucontent/view.php?id=105151",
-    "generatedAt": "2026-11-07T17:05:49.139Z",
-    "sha256": "57197a7142f11338c87e3408223cd75628a7f61d51b1bb41d1f37a39bbb5c3a5"
-  },
-  "live-kaggle-advanced-sql-take-your-sql-skills-to-the-next-level": {
-    "src": "/certification-covers-v1/live-kaggle-advanced-sql-take-your-sql-skills-to-the-next-level.webp",
-    "source": "Imagen oficial / Open Graph",
-    "sourceUrl": "https://www.kaggle.com/static/images/kaggle-wordmark-gradient.png",
-    "generatedAt": "2026-11-07T17:05:49.306Z",
-    "sha256": "3671f1e5748cc1096f119ac475d1af0387c4a981ca608c5c71f88d7810b1ff1e"
+    "generatedAt": "2026-11-08T17:19:02.552Z",
+    "sha256": "e697c66bd5a5e15f54c9374dd41d8335ff20502b1d2db057658e82b2205f13e9"
   },
   "live-kaggle-data-cleaning-master-efficient-workflows-for-cleaning-real-world-messy-data": {
     "src": "/certification-covers-v1/live-kaggle-data-cleaning-master-efficient-workflows-for-cleaning-real-world-messy-data.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://www.kaggle.com/static/images/kaggle-wordmark-gradient.png",
-    "generatedAt": "2026-11-07T17:05:49.551Z",
+    "generatedAt": "2026-11-08T17:19:03.662Z",
+    "sha256": "3671f1e5748cc1096f119ac475d1af0387c4a981ca608c5c71f88d7810b1ff1e"
+  },
+  "live-kaggle-advanced-sql-take-your-sql-skills-to-the-next-level": {
+    "src": "/certification-covers-v1/live-kaggle-advanced-sql-take-your-sql-skills-to-the-next-level.webp",
+    "source": "Imagen oficial / Open Graph",
+    "sourceUrl": "https://www.kaggle.com/static/images/kaggle-wordmark-gradient.png",
+    "generatedAt": "2026-11-08T17:19:03.691Z",
     "sha256": "3671f1e5748cc1096f119ac475d1af0387c4a981ca608c5c71f88d7810b1ff1e"
   },
   "live-kaggle-data-visualization-make-great-data-visualizations-a-great-way-to-see-the-power-of-coding": {
     "src": "/certification-covers-v1/live-kaggle-data-visualization-make-great-data-visualizations-a-great-way-to-see-the-power-of-coding.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://www.kaggle.com/static/images/kaggle-wordmark-gradient.png",
-    "generatedAt": "2026-11-07T17:05:52.179Z",
-    "sha256": "3671f1e5748cc1096f119ac475d1af0387c4a981ca608c5c71f88d7810b1ff1e"
-  },
-  "live-kaggle-feature-engineering-better-features-make-better-models-discover-how-to-get-the-most-out-of-your-data": {
-    "src": "/certification-covers-v1/live-kaggle-feature-engineering-better-features-make-better-models-discover-how-to-get-the-most-out-.webp",
-    "source": "Imagen oficial / Open Graph",
-    "sourceUrl": "https://www.kaggle.com/static/images/kaggle-wordmark-gradient.png",
-    "generatedAt": "2026-11-07T17:05:52.248Z",
+    "generatedAt": "2026-11-08T17:19:04.916Z",
     "sha256": "3671f1e5748cc1096f119ac475d1af0387c4a981ca608c5c71f88d7810b1ff1e"
   },
   "live-kaggle-geospatial-analysis-create-interactive-maps-and-discover-patterns-in-geospatial-data": {
     "src": "/certification-covers-v1/live-kaggle-geospatial-analysis-create-interactive-maps-and-discover-patterns-in-geospatial-data.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://www.kaggle.com/static/images/kaggle-wordmark-gradient.png",
-    "generatedAt": "2026-11-07T17:05:52.580Z",
+    "generatedAt": "2026-11-08T17:19:06.120Z",
+    "sha256": "3671f1e5748cc1096f119ac475d1af0387c4a981ca608c5c71f88d7810b1ff1e"
+  },
+  "live-kaggle-feature-engineering-better-features-make-better-models-discover-how-to-get-the-most-out-of-your-data": {
+    "src": "/certification-covers-v1/live-kaggle-feature-engineering-better-features-make-better-models-discover-how-to-get-the-most-out-.webp",
+    "source": "Imagen oficial / Open Graph",
+    "sourceUrl": "https://www.kaggle.com/static/images/kaggle-wordmark-gradient.png",
+    "generatedAt": "2026-11-08T17:19:06.137Z",
     "sha256": "3671f1e5748cc1096f119ac475d1af0387c4a981ca608c5c71f88d7810b1ff1e"
   },
   "live-kaggle-intermediate-machine-learning-handle-missing-values-non-numeric-values-data-leakage-and-more": {
     "src": "/certification-covers-v1/live-kaggle-intermediate-machine-learning-handle-missing-values-non-numeric-values-data-leakage-and-.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://www.kaggle.com/static/images/kaggle-wordmark-gradient.png",
-    "generatedAt": "2026-11-07T17:05:55.171Z",
-    "sha256": "3671f1e5748cc1096f119ac475d1af0387c4a981ca608c5c71f88d7810b1ff1e"
-  },
-  "live-kaggle-intro-to-ai-ethics-explore-practical-tools-to-guide-the-moral-design-of-ai-systems": {
-    "src": "/certification-covers-v1/live-kaggle-intro-to-ai-ethics-explore-practical-tools-to-guide-the-moral-design-of-ai-systems.webp",
-    "source": "Imagen oficial / Open Graph",
-    "sourceUrl": "https://www.kaggle.com/static/images/kaggle-wordmark-gradient.png",
-    "generatedAt": "2026-11-07T17:05:55.201Z",
+    "generatedAt": "2026-11-08T17:19:07.418Z",
     "sha256": "3671f1e5748cc1096f119ac475d1af0387c4a981ca608c5c71f88d7810b1ff1e"
   },
   "live-kaggle-intro-to-deep-learning-use-tensorflow-and-keras-to-build-and-train-neural-networks-for-structured-data": {
     "src": "/certification-covers-v1/live-kaggle-intro-to-deep-learning-use-tensorflow-and-keras-to-build-and-train-neural-networks-for-s.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://www.kaggle.com/static/images/kaggle-wordmark-gradient.png",
-    "generatedAt": "2026-11-07T17:05:55.683Z",
+    "generatedAt": "2026-11-08T17:19:08.539Z",
     "sha256": "3671f1e5748cc1096f119ac475d1af0387c4a981ca608c5c71f88d7810b1ff1e"
   },
-  "live-kaggle-intro-to-machine-learning-learn-the-core-ideas-in-machine-learning-and-build-your-first-models": {
-    "src": "/certification-covers-v1/live-kaggle-intro-to-machine-learning-learn-the-core-ideas-in-machine-learning-and-build-your-first-.webp",
+  "live-kaggle-intro-to-ai-ethics-explore-practical-tools-to-guide-the-moral-design-of-ai-systems": {
+    "src": "/certification-covers-v1/live-kaggle-intro-to-ai-ethics-explore-practical-tools-to-guide-the-moral-design-of-ai-systems.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://www.kaggle.com/static/images/kaggle-wordmark-gradient.png",
-    "generatedAt": "2026-11-07T17:05:58.048Z",
+    "generatedAt": "2026-11-08T17:19:08.546Z",
     "sha256": "3671f1e5748cc1096f119ac475d1af0387c4a981ca608c5c71f88d7810b1ff1e"
   },
   "live-kaggle-intro-to-game-ai-and-reinforcement-learning-build-your-own-video-game-bots-using-classic-and-cutting-edge-algo": {
     "src": "/certification-covers-v1/live-kaggle-intro-to-game-ai-and-reinforcement-learning-build-your-own-video-game-bots-using-classic.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://www.kaggle.com/static/images/kaggle-wordmark-gradient.png",
-    "generatedAt": "2026-11-07T17:05:58.114Z",
+    "generatedAt": "2026-11-08T17:19:09.914Z",
+    "sha256": "3671f1e5748cc1096f119ac475d1af0387c4a981ca608c5c71f88d7810b1ff1e"
+  },
+  "live-kaggle-intro-to-machine-learning-learn-the-core-ideas-in-machine-learning-and-build-your-first-models": {
+    "src": "/certification-covers-v1/live-kaggle-intro-to-machine-learning-learn-the-core-ideas-in-machine-learning-and-build-your-first-.webp",
+    "source": "Imagen oficial / Open Graph",
+    "sourceUrl": "https://www.kaggle.com/static/images/kaggle-wordmark-gradient.png",
+    "generatedAt": "2026-11-08T17:19:11.084Z",
     "sha256": "3671f1e5748cc1096f119ac475d1af0387c4a981ca608c5c71f88d7810b1ff1e"
   },
   "live-kaggle-intro-to-programming-get-started-with-python-if-you-have-no-coding-experience": {
     "src": "/certification-covers-v1/live-kaggle-intro-to-programming-get-started-with-python-if-you-have-no-coding-experience.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://www.kaggle.com/static/images/kaggle-wordmark-gradient.png",
-    "generatedAt": "2026-11-07T17:05:58.672Z",
+    "generatedAt": "2026-11-08T17:19:11.164Z",
     "sha256": "3671f1e5748cc1096f119ac475d1af0387c4a981ca608c5c71f88d7810b1ff1e"
   },
   "live-kaggle-intro-to-sql-learn-sql-for-working-with-databases-using-google-bigquery": {
     "src": "/certification-covers-v1/live-kaggle-intro-to-sql-learn-sql-for-working-with-databases-using-google-bigquery.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://www.kaggle.com/static/images/kaggle-wordmark-gradient.png",
-    "generatedAt": "2026-11-07T17:06:00.998Z",
+    "generatedAt": "2026-11-08T17:19:12.550Z",
     "sha256": "3671f1e5748cc1096f119ac475d1af0387c4a981ca608c5c71f88d7810b1ff1e"
   },
   "live-kaggle-machine-learning-explainability-extract-human-understandable-insights-from-any-model": {
     "src": "/certification-covers-v1/live-kaggle-machine-learning-explainability-extract-human-understandable-insights-from-any-model.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://www.kaggle.com/static/images/kaggle-wordmark-gradient.png",
-    "generatedAt": "2026-11-07T17:06:01.003Z",
+    "generatedAt": "2026-11-08T17:19:13.486Z",
     "sha256": "3671f1e5748cc1096f119ac475d1af0387c4a981ca608c5c71f88d7810b1ff1e"
   },
   "live-kaggle-pandas-solve-short-hands-on-challenges-to-perfect-your-data-manipulation-skills": {
     "src": "/certification-covers-v1/live-kaggle-pandas-solve-short-hands-on-challenges-to-perfect-your-data-manipulation-skills.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://www.kaggle.com/static/images/kaggle-wordmark-gradient.png",
-    "generatedAt": "2026-11-07T17:06:01.669Z",
-    "sha256": "3671f1e5748cc1096f119ac475d1af0387c4a981ca608c5c71f88d7810b1ff1e"
-  },
-  "live-kaggle-time-series-apply-machine-learning-to-real-world-forecasting-tasks": {
-    "src": "/certification-covers-v1/live-kaggle-time-series-apply-machine-learning-to-real-world-forecasting-tasks.webp",
-    "source": "Imagen oficial / Open Graph",
-    "sourceUrl": "https://www.kaggle.com/static/images/kaggle-wordmark-gradient.png",
-    "generatedAt": "2026-11-07T17:06:03.832Z",
+    "generatedAt": "2026-11-08T17:19:13.602Z",
     "sha256": "3671f1e5748cc1096f119ac475d1af0387c4a981ca608c5c71f88d7810b1ff1e"
   },
   "live-kaggle-python-learn-the-most-important-language-for-data-science": {
     "src": "/certification-covers-v1/live-kaggle-python-learn-the-most-important-language-for-data-science.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://www.kaggle.com/static/images/kaggle-wordmark-gradient.png",
-    "generatedAt": "2026-11-07T17:06:03.900Z",
+    "generatedAt": "2026-11-08T17:19:14.977Z",
+    "sha256": "3671f1e5748cc1096f119ac475d1af0387c4a981ca608c5c71f88d7810b1ff1e"
+  },
+  "live-kaggle-time-series-apply-machine-learning-to-real-world-forecasting-tasks": {
+    "src": "/certification-covers-v1/live-kaggle-time-series-apply-machine-learning-to-real-world-forecasting-tasks.webp",
+    "source": "Imagen oficial / Open Graph",
+    "sourceUrl": "https://www.kaggle.com/static/images/kaggle-wordmark-gradient.png",
+    "generatedAt": "2026-11-08T17:19:16.033Z",
     "sha256": "3671f1e5748cc1096f119ac475d1af0387c4a981ca608c5c71f88d7810b1ff1e"
   },
   "live-saylor-courses-programs": {
     "src": "/certification-covers-v1/live-saylor-courses-programs.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://resources.saylor.org/og/default-1200x1200.png",
-    "generatedAt": "2026-11-07T17:06:05.154Z",
+    "generatedAt": "2026-11-08T17:19:16.477Z",
     "sha256": "21bfa7649bb827a209fa861afd925ee35a2e688310abc5c9b9564bd6399aeab5"
   },
   "live-saylor-cs101-introduction-to-programming-i": {
     "src": "/certification-covers-v1/live-saylor-cs101-introduction-to-programming-i.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://resources.saylor.org/og/CS101-1200x1200.png",
-    "generatedAt": "2026-11-07T17:06:07.700Z",
-    "sha256": "6a79a1564ff25be8717548ca6a2e471d13701b703b9da72b363909c851161142"
+    "generatedAt": "2026-11-08T17:19:17.279Z",
+    "sha256": "c78efe1ff2c79f88fa39394b61c6f9edd6908da4528940f912320eec5489d076"
   },
   "live-saylor-cs102-introduction-to-programming-ii": {
     "src": "/certification-covers-v1/live-saylor-cs102-introduction-to-programming-ii.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://resources.saylor.org/og/CS102-1200x1200.png",
-    "generatedAt": "2026-11-07T17:06:07.873Z",
-    "sha256": "a487f5f15d82ddc430dd2525b0799ab37d5d8400b39fbb938e579c43f3495579"
+    "generatedAt": "2026-11-08T17:19:18.724Z",
+    "sha256": "54fb42f98a23da439eec06109007740cfa2028f0f82f3bb3364dfcdb930906ce"
   },
   "live-saylor-cs107-c-programming": {
     "src": "/certification-covers-v1/live-saylor-cs107-c-programming.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://resources.saylor.org/og/CS107-1200x1200.png",
-    "generatedAt": "2026-11-07T17:06:09.020Z",
+    "generatedAt": "2026-11-08T17:19:18.989Z",
     "sha256": "9336d2b3cea852ae61b911bd89959be13efdf53131ec094f5209803851ca23e7"
   },
   "live-saylor-cs201-elementary-data-structures": {
     "src": "/certification-covers-v1/live-saylor-cs201-elementary-data-structures.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://resources.saylor.org/og/CS201-1200x1200.png",
-    "generatedAt": "2026-11-07T17:06:11.105Z",
+    "generatedAt": "2026-11-08T17:19:20.147Z",
     "sha256": "ba8328a9a5689ec13d48af415399ce807698f537d2e1e27afcb89d91dd4980ff"
   },
   "live-saylor-cs250-python-for-data-science": {
     "src": "/certification-covers-v1/live-saylor-cs250-python-for-data-science.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://resources.saylor.org/og/CS250-1200x1200.png",
-    "generatedAt": "2026-11-07T17:06:11.754Z",
+    "generatedAt": "2026-11-08T17:19:21.170Z",
     "sha256": "1903a5434a0665e87e18ac976ed02dbc4595b4eee582ad5c4c6e17172f45949a"
   },
   "live-saylor-cs260-introduction-to-cryptography-and-network-security": {
     "src": "/certification-covers-v1/live-saylor-cs260-introduction-to-cryptography-and-network-security.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://resources.saylor.org/og/CS260-1200x1200.png",
-    "generatedAt": "2026-11-07T17:06:12.484Z",
-    "sha256": "a093e5375f7039b95abe8e6507fa0ac41fe47b345de8e934ae3ba442dff378ff"
+    "generatedAt": "2026-11-08T17:19:21.667Z",
+    "sha256": "d53bc2bf12b561886ec52fd3ba8aade6a74cb5b09eff6c4a597485fecb027ce9"
   },
   "live-saylor-cs301-computer-architecture": {
     "src": "/certification-covers-v1/live-saylor-cs301-computer-architecture.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://resources.saylor.org/og/CS301-1200x1200.png",
-    "generatedAt": "2026-11-07T17:06:14.213Z",
+    "generatedAt": "2026-11-08T17:19:22.857Z",
     "sha256": "0bb118815b4e44ba8815664e3bad5b0b244508ff70bde2035532af0eb69eb2bd"
   },
   "live-saylor-cs302-software-engineering": {
     "src": "/certification-covers-v1/live-saylor-cs302-software-engineering.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://resources.saylor.org/og/CS302-1200x1200.png",
-    "generatedAt": "2026-11-07T17:06:15.299Z",
+    "generatedAt": "2026-11-08T17:19:23.604Z",
     "sha256": "6cace6ae4822c8ea6f81251e2c11786ad784822cae40cea901b09002c80e6b7e"
   },
   "live-saylor-cs402-computer-communications-and-networks": {
     "src": "/certification-covers-v1/live-saylor-cs402-computer-communications-and-networks.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://resources.saylor.org/og/CS402-1200x1200.png",
-    "generatedAt": "2026-11-07T17:06:16.525Z",
+    "generatedAt": "2026-11-08T17:19:24.178Z",
     "sha256": "6c659c1d211b96643bc0889282b9288aad8cbbeab7c38be7c80d282db0009e55"
   },
   "live-saylor-cs403-introduction-to-modern-database-systems": {
     "src": "/certification-covers-v1/live-saylor-cs403-introduction-to-modern-database-systems.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://resources.saylor.org/og/CS403-1200x1200.png",
-    "generatedAt": "2026-11-07T17:06:17.561Z",
+    "generatedAt": "2026-11-08T17:19:25.403Z",
     "sha256": "98f93b640376f3a8e1f30512679eb33c96cfec5ac5fb289282577b733fe9d33c"
   },
   "live-saylor-cs406-information-security": {
     "src": "/certification-covers-v1/live-saylor-cs406-information-security.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://resources.saylor.org/og/CS406-1200x1200.png",
-    "generatedAt": "2026-11-07T17:06:18.798Z",
+    "generatedAt": "2026-11-08T17:19:26.212Z",
     "sha256": "9efd1f1e1d9f4c7380958db4f650d8bde3da9178c457671e50e0420255e6c1ea"
   },
   "live-saylor-degree-programs": {
     "src": "/certification-covers-v1/live-saylor-degree-programs.webp",
     "source": "Captura de la fuente oficial",
     "sourceUrl": "https://degrees.saylor.org/",
-    "generatedAt": "2026-11-07T17:06:19.049Z",
+    "generatedAt": "2026-11-08T17:19:26.449Z",
     "sha256": "6b5ce78aae185498b483fe45f12523c7c1b0956b9430d8f0a4024d8d195b8fb0"
   },
   "live-saylor-policies": {
     "src": "/certification-covers-v1/live-saylor-policies.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://resources.saylor.org/og/default-1200x1200.png",
-    "generatedAt": "2026-11-07T17:06:20.442Z",
+    "generatedAt": "2026-11-08T17:19:27.428Z",
     "sha256": "21bfa7649bb827a209fa861afd925ee35a2e688310abc5c9b9564bd6399aeab5"
   },
   "live-saylor-specialization-programs": {
     "src": "/certification-covers-v1/live-saylor-specialization-programs.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://resources.saylor.org/og/default-1200x1200.png",
-    "generatedAt": "2026-11-07T17:06:22.004Z",
+    "generatedAt": "2026-11-08T17:19:28.515Z",
     "sha256": "21bfa7649bb827a209fa861afd925ee35a2e688310abc5c9b9564bd6399aeab5"
   },
   "live-saylor-verify-certificate": {
     "src": "/certification-covers-v1/live-saylor-verify-certificate.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://resources.saylor.org/og/General%20Information-1200x1200.png",
-    "generatedAt": "2026-11-07T17:06:22.629Z",
+    "generatedAt": "2026-11-08T17:19:29.277Z",
     "sha256": "04fa3978ed32eb2c4eed984f179afb570b6155af62ef1efe61ad34886d636378"
   },
   "community-atlassian-university-learning-atlassian-community": {
     "src": "/certification-covers-v1/community-atlassian-university-learning-atlassian-community.webp",
     "source": "Captura de la fuente oficial",
     "sourceUrl": "https://community.atlassian.com/learning",
-    "generatedAt": "2026-11-07T17:06:24.643Z",
-    "sha256": "98a3fa39761e6b2d6bdb5769a049e2bdbdf07515784d7047216ffaf4b0f0e71f"
-  },
-  "community-cognitive-class-building-robots-with-tjbot": {
-    "src": "/certification-covers-v1/community-cognitive-class-building-robots-with-tjbot.webp",
-    "source": "Captura de la fuente oficial",
-    "sourceUrl": "https://cognitiveclass.ai/courses/build-robots-with-tjbot",
-    "generatedAt": "2026-11-07T17:06:25.695Z",
-    "sha256": "7bc206dd9726db60c6ba930a90d5fcbf0b34d45a15c4f283ccb313756d3de075"
+    "generatedAt": "2026-11-08T17:19:30.721Z",
+    "sha256": "be6cf5145d8c874749a72ce13d487dc748b01c973d10c37cef5169981ed64c18"
   },
   "community-cognitive-class-big-data-foundations-level-1": {
     "src": "/certification-covers-v1/community-cognitive-class-big-data-foundations-level-1.webp",
     "source": "Captura de la fuente oficial",
     "sourceUrl": "https://cognitiveclass.ai/courses/what-is-big-data",
-    "generatedAt": "2026-11-07T17:06:26.087Z",
-    "sha256": "8b40aefb7fb03e7a19a52a73df38f002dc1c1cbb7cdfc49b9057502822ed9991"
+    "generatedAt": "2026-11-08T17:19:31.766Z",
+    "sha256": "198effe72ffbf54eca17723f7cad0f0e37a9cc4000fccea769e9bb76b086a103"
   },
-  "community-cognitive-class-containers-k8s-and-istio-on-ibm-cloud": {
-    "src": "/certification-covers-v1/community-cognitive-class-containers-k8s-and-istio-on-ibm-cloud.webp",
+  "community-cognitive-class-building-robots-with-tjbot": {
+    "src": "/certification-covers-v1/community-cognitive-class-building-robots-with-tjbot.webp",
     "source": "Captura de la fuente oficial",
-    "sourceUrl": "https://cognitiveclass.ai/learn/containers-k8s-and-istio-on-ibm-cloud",
-    "generatedAt": "2026-11-07T17:06:28.834Z",
-    "sha256": "a81aa5c3033616715e3c6d94fc5de2bbf8103d24cafedd6409dcd6245a12188d"
+    "sourceUrl": "https://cognitiveclass.ai/courses/build-robots-with-tjbot",
+    "generatedAt": "2026-11-08T17:19:32.132Z",
+    "sha256": "de3d01901adc031433b53302e51e1e94f80687b79fcb6d00ad4e9a19b091a9c8"
   },
   "community-cognitive-class-data-analysis-with-python": {
     "src": "/certification-covers-v1/community-cognitive-class-data-analysis-with-python.webp",
     "source": "Captura de la fuente oficial",
     "sourceUrl": "https://cognitiveclass.ai/courses/data-analysis-python",
-    "generatedAt": "2026-11-07T17:06:29.253Z",
-    "sha256": "5ae71dab71d415e4487484ba4bdf1be9b008fc30dcdbca4effc6f617e25aff64"
+    "generatedAt": "2026-11-08T17:19:34.457Z",
+    "sha256": "ea88d63d28d20f433a9afdd4525fb5631d1ab1ab455b37e0d6758612ab51fa87"
   },
   "community-cognitive-class-data-science-101": {
     "src": "/certification-covers-v1/community-cognitive-class-data-science-101.webp",
     "source": "Captura de la fuente oficial",
     "sourceUrl": "https://cognitiveclass.ai/courses/data-science-101",
-    "generatedAt": "2026-11-07T17:06:29.806Z",
-    "sha256": "ef7b80ab2ac4e787961aa0affdf2126a98dd355bdac3214002b4b0e4943b5ebb"
+    "generatedAt": "2026-11-08T17:19:35.120Z",
+    "sha256": "9e8f94a2677a63dee94b811e36950a6d03eb592eda2fd8d729834419c916b03c"
+  },
+  "community-cognitive-class-containers-k8s-and-istio-on-ibm-cloud": {
+    "src": "/certification-covers-v1/community-cognitive-class-containers-k8s-and-istio-on-ibm-cloud.webp",
+    "source": "Captura de la fuente oficial",
+    "sourceUrl": "https://cognitiveclass.ai/learn/containers-k8s-and-istio-on-ibm-cloud",
+    "generatedAt": "2026-11-08T17:19:35.430Z",
+    "sha256": "a81aa5c3033616715e3c6d94fc5de2bbf8103d24cafedd6409dcd6245a12188d"
   },
   "community-cognitive-class-data-science-methodologies": {
     "src": "/certification-covers-v1/community-cognitive-class-data-science-methodologies.webp",
     "source": "Captura de la fuente oficial",
     "sourceUrl": "https://cognitiveclass.ai/courses/data-science-methodology-2",
-    "generatedAt": "2026-11-07T17:06:31.936Z",
-    "sha256": "fb089589f900f5f0b123174e4deef262f95ab788465558f7dbb961303b1a1c90"
-  },
-  "community-cognitive-class-data-science-tools": {
-    "src": "/certification-covers-v1/community-cognitive-class-data-science-tools.webp",
-    "source": "Captura de la fuente oficial",
-    "sourceUrl": "https://cognitiveclass.ai/courses/data-science-hands-open-source-tools-2",
-    "generatedAt": "2026-11-07T17:06:33.318Z",
-    "sha256": "197e5817e01678ea0be019cc146b0dee30e50da69cf76bdda4dc7a82582336cd"
+    "generatedAt": "2026-11-08T17:19:37.127Z",
+    "sha256": "47636957011a76de221fdb36e0c6138c57278d210fc1d73afbdf12384379f042"
   },
   "community-cognitive-class-data-visualization-with-r": {
     "src": "/certification-covers-v1/community-cognitive-class-data-visualization-with-r.webp",
     "source": "Captura de la fuente oficial",
     "sourceUrl": "https://cognitiveclass.ai/courses/data-visualization-with-r",
-    "generatedAt": "2026-11-07T17:06:33.329Z",
-    "sha256": "067b6e8c6dd5d5086b1266e2b6912e12e564bdf3df34321bd76a6902d4d0481e"
+    "generatedAt": "2026-11-08T17:19:38.167Z",
+    "sha256": "5036df2962eb66564f561181a878b53e25bf420b5d7447839accb08701d065bc"
+  },
+  "community-cognitive-class-data-science-tools": {
+    "src": "/certification-covers-v1/community-cognitive-class-data-science-tools.webp",
+    "source": "Captura de la fuente oficial",
+    "sourceUrl": "https://cognitiveclass.ai/courses/data-science-hands-open-source-tools-2",
+    "generatedAt": "2026-11-08T17:19:38.625Z",
+    "sha256": "57c42f34f0c108e564283efb4f2b6ec0fdadcb8f518651528b76e50d47e0f766"
   },
   "community-cognitive-class-deep-learning-fundamentals": {
     "src": "/certification-covers-v1/community-cognitive-class-deep-learning-fundamentals.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://courses.cognitiveclass.ai/asset-v1:DeepLearning.TV+ML0115EN+v2.0+type@asset+block@Logo.png",
-    "generatedAt": "2026-11-07T17:06:34.934Z",
+    "generatedAt": "2026-11-08T17:19:39.532Z",
     "sha256": "d4d99530bb12827ce85b03bd45f85d9cfba5410850b49f0a309f9ef5bcc2f33a"
   },
   "community-cognitive-class-docker-essentials": {
     "src": "/certification-covers-v1/community-cognitive-class-docker-essentials.webp",
     "source": "Captura de la fuente oficial",
     "sourceUrl": "https://cognitiveclass.ai/courses/docker-essentials",
-    "generatedAt": "2026-11-07T17:06:36.152Z",
-    "sha256": "0f95bb070fb2786bc61321945d517a5a14ac2cc1fd5e2232c5770b684bac69e7"
+    "generatedAt": "2026-11-08T17:19:40.905Z",
+    "sha256": "2a9be569e82de2e7f10e80198bc0a8067b12ebf01dafd5a086064650bcac0b2e"
   },
   "community-cognitive-class-hadoop-foundations-level-1": {
     "src": "/certification-covers-v1/community-cognitive-class-hadoop-foundations-level-1.webp",
     "source": "Captura de la fuente oficial",
     "sourceUrl": "https://cognitiveclass.ai/courses",
-    "generatedAt": "2026-11-07T17:06:37.333Z",
-    "sha256": "4a7330c1018d531a4ee9344a95131939530aaaede9b8a68fc16d6bcfc85db555"
+    "generatedAt": "2026-11-08T17:19:42.169Z",
+    "sha256": "0ada528cc97bf92d5a6c841034faa894056a4dc09231d847e0b9f3e3e060f44e"
   },
   "community-cognitive-class-how-to-build-chatbots": {
     "src": "/certification-covers-v1/community-cognitive-class-how-to-build-chatbots.webp",
     "source": "Captura de la fuente oficial",
     "sourceUrl": "https://cognitiveclass.ai/courses/chatbot-course",
-    "generatedAt": "2026-11-07T17:06:38.056Z",
-    "sha256": "75214dda94363b525297e2806f51f9926872e12d7c60474b01c9619552e452e7"
+    "generatedAt": "2026-11-08T17:19:42.442Z",
+    "sha256": "0ae4e9fd27dc860c57ceb4be572b78f2300e88719f6116e013168f40645651e5"
   },
   "community-cognitive-class-introduction-to-containers-kubernetes-and-openshift": {
     "src": "/certification-covers-v1/community-cognitive-class-introduction-to-containers-kubernetes-and-openshift.webp",
     "source": "Captura de la fuente oficial",
     "sourceUrl": "https://cognitiveclass.ai/courses/kubernetes-course",
-    "generatedAt": "2026-11-07T17:06:39.447Z",
-    "sha256": "f8495c2bac1b9ac8fd0a95735a5655adb2bb08e799032949c49ca802db50768f"
+    "generatedAt": "2026-11-08T17:19:43.668Z",
+    "sha256": "56df65ec4c3e21c07b406eab2a6164f27387f2ca7a48ff87e86152bf01fbaac6"
   },
   "community-cognitive-class-machine-learning-with-python": {
     "src": "/certification-covers-v1/community-cognitive-class-machine-learning-with-python.webp",
     "source": "Captura de la fuente oficial",
     "sourceUrl": "https://cognitiveclass.ai/courses/machine-learning-with-python",
-    "generatedAt": "2026-11-07T17:06:40.458Z",
-    "sha256": "43722fc1ceb0038d1f9c6e87daaf17186b02d81583248f1292d79ebc14bc4fbf"
+    "generatedAt": "2026-11-08T17:19:44.932Z",
+    "sha256": "d0ffa591f10333deff54cdbe2ca573e0a9ae290a01d4342265963a02a90f6198"
   },
   "community-cognitive-class-python-for-data-science": {
     "src": "/certification-covers-v1/community-cognitive-class-python-for-data-science.webp",
     "source": "Captura de la fuente oficial",
     "sourceUrl": "https://cognitiveclass.ai/courses/python-for-data-science",
-    "generatedAt": "2026-11-07T17:06:41.550Z",
-    "sha256": "7af180564967abb51306d9007f0bc17f65228524cb8186023abcecdd43551c4d"
+    "generatedAt": "2026-11-08T17:19:45.801Z",
+    "sha256": "a814c1b400ecd4589f2d06637504b4509175740ba2f63249b5ae2671da3f4256"
   },
   "community-cognitive-class-r-101": {
     "src": "/certification-covers-v1/community-cognitive-class-r-101.webp",
     "source": "Captura de la fuente oficial",
     "sourceUrl": "https://cognitiveclass.ai/courses/r-101",
-    "generatedAt": "2026-11-07T17:06:42.523Z",
-    "sha256": "b9e35aff6029faf56657e76b425261acfeff356f00efc9989a61ea5385040b6d"
+    "generatedAt": "2026-11-08T17:19:46.372Z",
+    "sha256": "253825731cac5c2aebd36240ff2d320912274509d6c84af162ef22d68853e4b7"
   },
   "community-cognitive-class-spark-fundamentals-i": {
     "src": "/certification-covers-v1/community-cognitive-class-spark-fundamentals-i.webp",
     "source": "Captura de la fuente oficial",
     "sourceUrl": "https://cognitiveclass.ai/courses/what-is-spark",
-    "generatedAt": "2026-11-07T17:06:43.724Z",
-    "sha256": "bba9094521d4e1962ce6d8c4c64759388d591185e87240b51e7847f1d940f1a8"
+    "generatedAt": "2026-11-08T17:19:47.796Z",
+    "sha256": "a8e295d5ff782da4351b5005badbc7b530e32d6357dcfc2bbdd67b6cf2d776f7"
   },
   "community-cognitive-class-statistics-101": {
     "src": "/certification-covers-v1/community-cognitive-class-statistics-101.webp",
     "source": "Captura de la fuente oficial",
     "sourceUrl": "https://cognitiveclass.ai/courses/statistics-101",
-    "generatedAt": "2026-11-07T17:06:44.400Z",
-    "sha256": "35c3e732348e61655bbfedf4bd099866f14aadbc7384b475406b4ede16dd238e"
-  },
-  "community-freecodecamp-data-analysis-with-python-certification": {
-    "src": "/certification-covers-v1/community-freecodecamp-data-analysis-with-python-certification.webp",
-    "source": "Imagen oficial / Open Graph",
-    "sourceUrl": "https://cdn.freecodecamp.org/platform/universal/fcc_meta_1920X1080-indigo.png",
-    "generatedAt": "2026-11-07T17:06:45.949Z",
-    "sha256": "1bce054a9652c6b79bc4bff41df0e2d7a6cd6ffaba49be5be549847120cdfdeb"
+    "generatedAt": "2026-11-08T17:19:48.496Z",
+    "sha256": "0b1c469f5ffc6d0eba138bc46b5816a6513e2d8bd3420b1c0ed365668b4a02d7"
   },
   "community-cognitive-class-using-r-with-databases": {
     "src": "/certification-covers-v1/community-cognitive-class-using-r-with-databases.webp",
     "source": "Captura de la fuente oficial",
     "sourceUrl": "https://cognitiveclass.ai/courses/using-r-with-databases",
-    "generatedAt": "2026-11-07T17:06:46.619Z",
-    "sha256": "0cdb49389bca77fc40279a1855b43c21af11da6ba2bc9240be658ec56ddc73d8"
+    "generatedAt": "2026-11-08T17:19:49.423Z",
+    "sha256": "19fa839f9250150f596809fd16eed8fa9ee9cc9934ee8776e6e3b40ba4bb413c"
+  },
+  "community-freecodecamp-back-end-development-and-apis-certification": {
+    "src": "/certification-covers-v1/community-freecodecamp-back-end-development-and-apis-certification.webp",
+    "source": "Imagen oficial / Open Graph",
+    "sourceUrl": "https://cdn.freecodecamp.org/platform/universal/fcc_meta_1920X1080-indigo.png",
+    "generatedAt": "2026-11-08T17:19:49.595Z",
+    "sha256": "1bce054a9652c6b79bc4bff41df0e2d7a6cd6ffaba49be5be549847120cdfdeb"
+  },
+  "community-freecodecamp-data-analysis-with-python-certification": {
+    "src": "/certification-covers-v1/community-freecodecamp-data-analysis-with-python-certification.webp",
+    "source": "Imagen oficial / Open Graph",
+    "sourceUrl": "https://cdn.freecodecamp.org/platform/universal/fcc_meta_1920X1080-indigo.png",
+    "generatedAt": "2026-11-08T17:19:50.224Z",
+    "sha256": "1bce054a9652c6b79bc4bff41df0e2d7a6cd6ffaba49be5be549847120cdfdeb"
   },
   "community-freecodecamp-foundational-c-with-microsoft": {
     "src": "/certification-covers-v1/community-freecodecamp-foundational-c-with-microsoft.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://cdn.freecodecamp.org/platform/universal/fcc_meta_1920X1080-indigo.png",
-    "generatedAt": "2026-11-07T17:06:46.648Z",
+    "generatedAt": "2026-11-08T17:19:51.253Z",
+    "sha256": "1bce054a9652c6b79bc4bff41df0e2d7a6cd6ffaba49be5be549847120cdfdeb"
+  },
+  "community-freecodecamp-front-end-libraries-certification": {
+    "src": "/certification-covers-v1/community-freecodecamp-front-end-libraries-certification.webp",
+    "source": "Imagen oficial / Open Graph",
+    "sourceUrl": "https://cdn.freecodecamp.org/platform/universal/fcc_meta_1920X1080-indigo.png",
+    "generatedAt": "2026-11-08T17:19:51.426Z",
     "sha256": "1bce054a9652c6b79bc4bff41df0e2d7a6cd6ffaba49be5be549847120cdfdeb"
   },
   "community-freecodecamp-information-security-certification": {
     "src": "/certification-covers-v1/community-freecodecamp-information-security-certification.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://cdn.freecodecamp.org/platform/universal/fcc_meta_1920X1080-indigo.png",
-    "generatedAt": "2026-11-07T17:06:48.378Z",
+    "generatedAt": "2026-11-08T17:19:52.034Z",
     "sha256": "1bce054a9652c6b79bc4bff41df0e2d7a6cd6ffaba49be5be549847120cdfdeb"
   },
   "community-freecodecamp-quality-assurance-certification": {
     "src": "/certification-covers-v1/community-freecodecamp-quality-assurance-certification.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://cdn.freecodecamp.org/platform/universal/fcc_meta_1920X1080-indigo.png",
-    "generatedAt": "2026-11-07T17:06:49.039Z",
+    "generatedAt": "2026-11-08T17:19:53.159Z",
+    "sha256": "1bce054a9652c6b79bc4bff41df0e2d7a6cd6ffaba49be5be549847120cdfdeb"
+  },
+  "community-freecodecamp-machine-learning-with-python-certification": {
+    "src": "/certification-covers-v1/community-freecodecamp-machine-learning-with-python-certification.webp",
+    "source": "Imagen oficial / Open Graph",
+    "sourceUrl": "https://cdn.freecodecamp.org/platform/universal/fcc_meta_1920X1080-indigo.png",
+    "generatedAt": "2026-11-08T17:19:53.266Z",
     "sha256": "1bce054a9652c6b79bc4bff41df0e2d7a6cd6ffaba49be5be549847120cdfdeb"
   },
   "community-freecodecamp-scientific-computing-with-python-certification": {
     "src": "/certification-covers-v1/community-freecodecamp-scientific-computing-with-python-certification.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://cdn.freecodecamp.org/platform/universal/fcc_meta_1920X1080-indigo.png",
-    "generatedAt": "2026-11-07T17:06:49.244Z",
+    "generatedAt": "2026-11-08T17:19:53.952Z",
     "sha256": "1bce054a9652c6b79bc4bff41df0e2d7a6cd6ffaba49be5be549847120cdfdeb"
   },
   "community-hp-life-agile-project-management": {
     "src": "/certification-covers-v1/community-hp-life-agile-project-management.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://hplife.blob.core.windows.net/learning/images/kaCr1VnN3l_M1oJdUfJe-GUkIey7FM6BjwlOODs-Gb4.png",
-    "generatedAt": "2026-11-07T17:06:51.109Z",
+    "generatedAt": "2026-11-08T17:19:55.375Z",
     "sha256": "9d851611c88c2aa53d3efda5169429928805e8b95d3cdc5e5ad0230b2d7675e5"
   },
   "community-hp-life-ai-for-beginners": {
     "src": "/certification-covers-v1/community-hp-life-ai-for-beginners.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://hplife.blob.core.windows.net/learning/images/KxMOKIsviVpQjBMsqG6qZFmbHvpZO6kJCYF8sCYR2jA.png",
-    "generatedAt": "2026-11-07T17:06:51.401Z",
+    "generatedAt": "2026-11-08T17:19:55.388Z",
     "sha256": "5af86d3c3f5a5a5cba54eea44a474d773854d1e5bbd0be287c5c540b333e85fc"
   },
   "community-hp-life-ai-for-business-professionals": {
     "src": "/certification-covers-v1/community-hp-life-ai-for-business-professionals.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://hplife.blob.core.windows.net/learning/images/QFpPfYsgNBidLriVG2lyMTCzNLCN32QS3HgzU6SPFAA.png",
-    "generatedAt": "2026-11-07T17:06:51.604Z",
+    "generatedAt": "2026-11-08T17:19:56.076Z",
     "sha256": "285d4d831777b8b4a1b4dcf8305991c5482153614b7d512ad9893fc177408ef4"
   },
   "community-hp-life-basics-of-finance": {
     "src": "/certification-covers-v1/community-hp-life-basics-of-finance.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://hplife.blob.core.windows.net/learning/images/yg7t95iCorh4eYXGwI6B2GY50zkcII_TcH5ieYQuxVU.png",
-    "generatedAt": "2026-11-07T17:06:53.563Z",
+    "generatedAt": "2026-11-08T17:19:57.403Z",
     "sha256": "e9a13011de133caf604478194ba3bf5c0c8177cfdc46057af78746d330b1d024"
   },
   "community-hp-life-business-email": {
     "src": "/certification-covers-v1/community-hp-life-business-email.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://hplife.blob.core.windows.net/learning/images/wN1Q_JDSgb8DB0z5vKGFFjOljwcS8nexNOT-Lv1NYgk.png",
-    "generatedAt": "2026-11-07T17:06:53.760Z",
+    "generatedAt": "2026-11-08T17:19:57.422Z",
     "sha256": "c8e2b0c3e2537327b95976cbe4951c32521131477fdbccbec3a72079e8798684"
   },
   "community-hp-life-cash-flow": {
     "src": "/certification-covers-v1/community-hp-life-cash-flow.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://hplife.blob.core.windows.net/learning/images/81LC21oPt7zBvZfXQnhdqzVT8kPgumQf-qO0tUavTE0.png",
-    "generatedAt": "2026-11-07T17:06:53.924Z",
+    "generatedAt": "2026-11-08T17:19:58.304Z",
     "sha256": "5b3844cf584d15e9609c6c82d33edbc9131fb0f3af401860a6533f92a057f036"
-  },
-  "community-hp-life-circular-economy": {
-    "src": "/certification-covers-v1/community-hp-life-circular-economy.webp",
-    "source": "Imagen oficial / Open Graph",
-    "sourceUrl": "https://hplife.blob.core.windows.net/learning/images/QBj9yYzO0BnTJm6eBASf191ETWRpLZKZQuxVcfHqDc0.png",
-    "generatedAt": "2026-11-07T17:06:56.030Z",
-    "sha256": "ac432c0df8c58bf00b3dfc4584bbdcf913626aedeaf077b1e2e51e11adea6306"
   },
   "community-hp-life-customer-experience-cx-for-business-success": {
     "src": "/certification-covers-v1/community-hp-life-customer-experience-cx-for-business-success.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://hplife.blob.core.windows.net/learning/images/LDOOzxZuuQkhZJSUo3pCKKUQEI_Xx6ib9xWygewbCaA.png",
-    "generatedAt": "2026-11-07T17:06:56.089Z",
+    "generatedAt": "2026-11-08T17:19:59.396Z",
     "sha256": "20d8518427ef54d83f4344d18311f35b9712f3ad197d19b0deed90920b13d425"
+  },
+  "community-hp-life-circular-economy": {
+    "src": "/certification-covers-v1/community-hp-life-circular-economy.webp",
+    "source": "Imagen oficial / Open Graph",
+    "sourceUrl": "https://hplife.blob.core.windows.net/learning/images/QBj9yYzO0BnTJm6eBASf191ETWRpLZKZQuxVcfHqDc0.png",
+    "generatedAt": "2026-11-08T17:19:59.433Z",
+    "sha256": "ac432c0df8c58bf00b3dfc4584bbdcf913626aedeaf077b1e2e51e11adea6306"
   },
   "community-hp-life-customer-relationship-management": {
     "src": "/certification-covers-v1/community-hp-life-customer-relationship-management.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://hplife.blob.core.windows.net/learning/images/nkG-9FSaH274SkZUnmNzd6LnHcg_bydh7uoruAkf-do.png",
-    "generatedAt": "2026-11-07T17:06:56.319Z",
+    "generatedAt": "2026-11-08T17:20:00.601Z",
     "sha256": "0817e8f996b1e596c16e6923977e071044501ed793cbcf5bb0645b909c9c6f97"
   },
   "community-hp-life-data-science-analytics": {
     "src": "/certification-covers-v1/community-hp-life-data-science-analytics.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://hplife.blob.core.windows.net/learning/images/LwFJLHKxG9NRHj1kFRJwXoJVAXiELPVBnmiZUok4vCo.png",
-    "generatedAt": "2026-11-07T17:06:58.539Z",
+    "generatedAt": "2026-11-08T17:20:01.382Z",
     "sha256": "91e51fab3dda9efa3331bafc039f99c39b93550d8471da9f14f4dc0072026082"
   },
   "community-hp-life-effective-business-websites": {
     "src": "/certification-covers-v1/community-hp-life-effective-business-websites.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://hplife.blob.core.windows.net/learning/images/u0VRJjWbF_tGaIb1ulJH1hFN25_4X2oxojylonAcgzA.png",
-    "generatedAt": "2026-11-07T17:06:58.558Z",
+    "generatedAt": "2026-11-08T17:20:01.497Z",
     "sha256": "175d996fd16c43f762e932f70ea376c915a2f866e2f059f3005ac8a62f664dd8"
   },
   "community-hp-life-effective-leadership": {
     "src": "/certification-covers-v1/community-hp-life-effective-leadership.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://hplife.blob.core.windows.net/learning/images/breuY_bDh-_dBp3xWzjlvgJkf-rllx1QyfzR1GB8aY8.png",
-    "generatedAt": "2026-11-07T17:06:58.686Z",
+    "generatedAt": "2026-11-08T17:20:02.702Z",
     "sha256": "767b51dfe6f405a1d0463355d94795a7dbf1b377c7c81bd0ee7bdf5c9afdf78b"
-  },
-  "community-hp-life-growth-engine-for-your-business": {
-    "src": "/certification-covers-v1/community-hp-life-growth-engine-for-your-business.webp",
-    "source": "Imagen oficial / Open Graph",
-    "sourceUrl": "https://hplife.blob.core.windows.net/learning/images/fdmncSP6pJeVrwJytAwbaZtR2_oOQjaVKJa0exXj5BM.png",
-    "generatedAt": "2026-11-07T17:07:00.985Z",
-    "sha256": "f61d74e33933b8586c943a3bb4405c5efe45dc96da13a48e608f86d1a0a331be"
   },
   "community-hp-life-effective-presentations": {
     "src": "/certification-covers-v1/community-hp-life-effective-presentations.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://hplife.blob.core.windows.net/learning/images/zeJQiKCEQQx5d1CG3jEF7-KFPkVrLHVauqJhgYLrJys.png",
-    "generatedAt": "2026-11-07T17:07:01.112Z",
+    "generatedAt": "2026-11-08T17:20:03.406Z",
     "sha256": "bc18a1ae154dd6c159507c1ea3731d6d86c81537c699df5f8e7290b5922d9eeb"
+  },
+  "community-hp-life-growth-engine-for-your-business": {
+    "src": "/certification-covers-v1/community-hp-life-growth-engine-for-your-business.webp",
+    "source": "Imagen oficial / Open Graph",
+    "sourceUrl": "https://hplife.blob.core.windows.net/learning/images/fdmncSP6pJeVrwJytAwbaZtR2_oOQjaVKJa0exXj5BM.png",
+    "generatedAt": "2026-11-08T17:20:03.698Z",
+    "sha256": "f61d74e33933b8586c943a3bb4405c5efe45dc96da13a48e608f86d1a0a331be"
   },
   "community-hp-life-introduction-to-cybersecurity-awareness": {
     "src": "/certification-covers-v1/community-hp-life-introduction-to-cybersecurity-awareness.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://hplife.blob.core.windows.net/learning/images/HzZVtnqmFCfLWfJTId-bABHsz5_kDMbGinyPF8wZs44.png",
-    "generatedAt": "2026-11-07T17:07:01.229Z",
+    "generatedAt": "2026-11-08T17:20:04.747Z",
     "sha256": "534b73d9b04399d55422b061589984f06085a762ef16526a9b2ad7aaaf2f9f7f"
   },
   "community-hp-life-introduction-to-digital-business-skills": {
     "src": "/certification-covers-v1/community-hp-life-introduction-to-digital-business-skills.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://hplife.blob.core.windows.net/learning/images/RgTXVRbyKXnW4ua6jxyhdDMsgQOvQnFU2tQS2SSgqQk.png",
-    "generatedAt": "2026-11-07T17:07:03.388Z",
+    "generatedAt": "2026-11-08T17:20:05.446Z",
     "sha256": "7911e7e84f029bdab1a08bd55ba4cfe2cb1aeec4dfdfe2fa469be7edc8c1fa29"
   },
   "community-hp-life-professional-networking-for-career-growth": {
     "src": "/certification-covers-v1/community-hp-life-professional-networking-for-career-growth.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://hplife.blob.core.windows.net/learning/images/16HvIfqId7fk5me6U_zcftNQlRgPb1CwNEj2M3z9nqY.png",
-    "generatedAt": "2026-11-07T17:07:03.501Z",
+    "generatedAt": "2026-11-08T17:20:05.805Z",
     "sha256": "b6d41a2c3e674a63b06632fdb8b02781bfb150c505beda7d80baa9a68fe13579"
   },
   "community-hp-life-profit-and-loss": {
     "src": "/certification-covers-v1/community-hp-life-profit-and-loss.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://hplife.blob.core.windows.net/learning/images/sNskjKyG79MmYNeT1xzJjni-OzGceg3RxpDJzqpB80Y.png",
-    "generatedAt": "2026-11-07T17:07:03.657Z",
+    "generatedAt": "2026-11-08T17:20:06.747Z",
     "sha256": "8d9ca96602688fcc9812dd3f139d512af23de36a39f043f5708352e157acbc20"
   },
   "community-hp-life-resume-writing-and-job-interviewing": {
     "src": "/certification-covers-v1/community-hp-life-resume-writing-and-job-interviewing.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://hplife.blob.core.windows.net/learning/images/_EVXQ-fJEckSkAQjbuePmR0vIMQATeQ2hd5oPp2Fblg.png",
-    "generatedAt": "2026-11-07T17:07:05.681Z",
+    "generatedAt": "2026-11-08T17:20:07.446Z",
     "sha256": "d510b567512553863bae94e8cfd378665945c2b6b95355404c8278278f78df11"
   },
   "community-hp-life-selling-online": {
     "src": "/certification-covers-v1/community-hp-life-selling-online.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://hplife.blob.core.windows.net/learning/images/1xLSdCB1wtnS3m0qFhP9NkcoRxMh9WryWHvWDdfi_0I.png",
-    "generatedAt": "2026-11-07T17:07:05.828Z",
+    "generatedAt": "2026-11-08T17:20:07.880Z",
     "sha256": "49fdef304202faf78494b37a293c35ec99f0191b8d6a51e1ae500af4d65532ab"
   },
   "community-hp-life-social-entrepreneurship": {
     "src": "/certification-covers-v1/community-hp-life-social-entrepreneurship.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://hplife.blob.core.windows.net/learning/images/2Mn-bAIHp1YsuSt0_BEeqN1mGZBYOS2LTGYuF85Aq_8.png",
-    "generatedAt": "2026-11-07T17:07:05.909Z",
+    "generatedAt": "2026-11-08T17:20:08.718Z",
     "sha256": "d39d614bd9003b78afe57f5b3d4e1418768ed3afe425361154c3a35d2dcdd257"
   },
   "community-hp-life-starting-a-small-business": {
     "src": "/certification-covers-v1/community-hp-life-starting-a-small-business.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://hplife.blob.core.windows.net/learning/images/ZRxK286ZgFtjFdOJMDgfBWuxLilMvGT73uhVcMokCls.png",
-    "generatedAt": "2026-11-07T17:07:08.135Z",
+    "generatedAt": "2026-11-08T17:20:09.538Z",
     "sha256": "cf4354faa7e68a2415efe65c2d1eeca226b9fb816d951ea769a9b62755c33f57"
   },
   "community-hp-life-unique-value-proposition": {
     "src": "/certification-covers-v1/community-hp-life-unique-value-proposition.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://hplife.blob.core.windows.net/learning/images/xoCjCfd_WXn28oLx_no1kMEp1WVkHG0CULtR3qaJ6xo.png",
-    "generatedAt": "2026-11-07T17:07:08.166Z",
+    "generatedAt": "2026-11-08T17:20:09.928Z",
     "sha256": "56b6767586fa83cdaa03b5e0c4ca175c845ba11d895b703324ad89ac18eb46c4"
   },
   "community-hp-life-your-target-audience": {
     "src": "/certification-covers-v1/community-hp-life-your-target-audience.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://hplife.blob.core.windows.net/learning/images/vZGHXGip5fohtWtSV5lyZu9-1trrX5EX5257_eGlrKM.png",
-    "generatedAt": "2026-11-07T17:07:08.309Z",
+    "generatedAt": "2026-11-08T17:20:10.821Z",
     "sha256": "a1a1cb6b3830217ed7c8cff441b69cf1e09d3529de7c34d6cc73f0024b2b48d8"
   },
   "community-knime-basic-proficiency-in-knime-analytics-platform-l1": {
     "src": "/certification-covers-v1/community-knime-basic-proficiency-in-knime-analytics-platform-l1.webp",
     "source": "Captura de la fuente oficial",
     "sourceUrl": "https://www.knime.com/certification-program",
-    "generatedAt": "2026-11-07T17:07:10.426Z",
+    "generatedAt": "2026-11-08T17:20:11.647Z",
     "sha256": "2cdfcecb2a441671599818183356d1aadaf8170399650add09c3539d9c10ff99"
   },
   "community-kaggle-computer-vision": {
     "src": "/certification-covers-v1/community-kaggle-computer-vision.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://www.kaggle.com/static/images/kaggle-wordmark-gradient.png",
-    "generatedAt": "2026-11-07T17:07:11.212Z",
+    "generatedAt": "2026-11-08T17:20:11.894Z",
     "sha256": "3671f1e5748cc1096f119ac475d1af0387c4a981ca608c5c71f88d7810b1ff1e"
-  },
-  "community-hubspot-academy-service-hub-software-certification": {
-    "src": "/certification-covers-v1/community-hubspot-academy-service-hub-software-certification.webp",
-    "source": "Imagen oficial / Open Graph",
-    "sourceUrl": "https://137828.fs1.hubspotusercontent-na1.net/hubfs/137828/migrated-thumbnails-from-s3/track-97-en-16_9-1647381356416.png",
-    "generatedAt": "2026-11-07T17:07:12.550Z",
-    "sha256": "05b43490fb58ca81d49f65ae0f0aaf61e8190b0ec9782a7b6b474298f1dbd05f"
   },
   "community-knime-knime-90-day-data-skills-certification-challenge": {
     "src": "/certification-covers-v1/community-knime-knime-90-day-data-skills-certification-challenge.webp",
     "source": "Captura de la fuente oficial",
     "sourceUrl": "https://www.knime.com/blog/the-90-day-certification-challenge",
-    "generatedAt": "2026-11-07T17:07:13.081Z",
+    "generatedAt": "2026-11-08T17:20:12.815Z",
     "sha256": "01f550acc1bc50e99def2d4f87866dc2307baac66f7d7d8909ac9a5c59c3ad49"
   },
   "community-saylor-university-bitcoin-for-developers": {
     "src": "/certification-covers-v1/community-saylor-university-bitcoin-for-developers.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://resources.saylor.org/og/CS120-1200x1200.png",
-    "generatedAt": "2026-11-07T17:07:14.792Z",
+    "generatedAt": "2026-11-08T17:20:14.338Z",
     "sha256": "ee86802dbe6a2ac25a615c89ef54f00b5aef9d754ab04a0c56e47e79fb93b572"
   },
   "community-saylor-university-cs202-discrete-structures": {
     "src": "/certification-covers-v1/community-saylor-university-cs202-discrete-structures.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://resources.saylor.org/og/CS202-1200x1200.png",
-    "generatedAt": "2026-11-07T17:07:16.103Z",
+    "generatedAt": "2026-11-08T17:20:14.600Z",
     "sha256": "474aa822e1a94f609653c67cf8494ff3fbb6aa30fbe5f38feddc17ea709b2a3a"
   },
   "community-saylor-university-cs401-operating-systems": {
     "src": "/certification-covers-v1/community-saylor-university-cs401-operating-systems.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://resources.saylor.org/og/CS401-1200x1200.png",
-    "generatedAt": "2026-11-07T17:07:16.341Z",
+    "generatedAt": "2026-11-08T17:20:15.728Z",
     "sha256": "25ead3fade68d0afbc7c99d2b3439a5ff17f4fe3945a0a677f4ef9a6f892bf15"
   },
   "gitlab-university-free": {
     "src": "/certification-covers-v1/gitlab-university-free.webp",
     "source": "Captura de la fuente oficial",
     "sourceUrl": "https://university.gitlab.com/",
-    "generatedAt": "2026-11-07T17:07:17.611Z",
-    "sha256": "e9b4fe85fa406d0f35cd681c23b1b7b5256cc5eada4b9324b1aaf92c97a6f564"
+    "generatedAt": "2026-11-08T17:20:16.951Z",
+    "sha256": "ade32d3264501b62698481b5735194ef513021dbfdd9a780efe978677567d5be"
   },
   "the-odin-project": {
     "src": "/certification-covers-v1/the-odin-project.webp",
     "source": "Imagen oficial / Open Graph",
     "sourceUrl": "https://www.theodinproject.com/assets/og-logo-2bdf3a30.png",
-    "generatedAt": "2026-11-07T17:07:19.074Z",
+    "generatedAt": "2026-11-08T17:20:17.287Z",
     "sha256": "2f17ddd57720d69cb104de970306b80d3d8fead8267b4a87db3ebfb38a686327"
   }
 }

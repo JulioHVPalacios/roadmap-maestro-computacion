@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-07T16:59:48.112Z",
+  "generatedAt": "2026-11-08T17:13:54.262Z",
   "seed": 54,
   "officialDiscoveredRaw": 99,
   "officialValidated": 94,
   "communityCandidates": 137,
-  "communityValidated": 79,
-  "published": 195,
+  "communityValidated": 83,
+  "published": 197,
   "audit": [
     {
       "id": "ibm-digital-credentials",
@@ -596,8 +596,7 @@
       "sourceType": "discovered",
       "url": "https://learn.mongodb.com/catalog?labels=%5B%22Free%2FPaid%22%5D&values=%5B%22Free%22%5D",
       "finalUrl": "https://learn.mongodb.com/catalog?labels=%5B%22Free%2FPaid%22%5D&values=%5B%22Free%22%5D",
-      "status": "rejected",
-      "reason": "no-learning-evidence",
+      "status": "active",
       "httpStatus": 200
     },
     {
@@ -609,7 +608,7 @@
       "httpStatus": 200
     },
     {
-      "id": "live-mongodb-courses-and-certificationlearn-for-free-from-mongodb",
+      "id": "live-mongodb-skills-and-certificationsdevelop-in-demand-skills-and-earn-mongodb-certifications",
       "sourceType": "discovered",
       "url": "https://learn.mongodb.com",
       "finalUrl": "https://learn.mongodb.com",
@@ -617,10 +616,10 @@
       "httpStatus": 200
     },
     {
-      "id": "live-mongodb-lab-zone",
+      "id": "live-mongodb-skills",
       "sourceType": "discovered",
-      "url": "https://learn.mongodb.com/pages/lab-zone",
-      "finalUrl": "https://learn.mongodb.com/pages/lab-zone",
+      "url": "https://learn.mongodb.com/skills",
+      "finalUrl": "https://learn.mongodb.com/skills",
       "status": "active",
       "httpStatus": 200
     },
@@ -637,7 +636,8 @@
       "sourceType": "discovered",
       "url": "https://learn.mongodb.com/catalog?labels=%5B%5D&page=1&values=%5B%5D",
       "finalUrl": "https://learn.mongodb.com/catalog?labels=%5B%5D&page=1&values=%5B%5D",
-      "status": "active",
+      "status": "rejected",
+      "reason": "no-learning-evidence",
       "httpStatus": 200
     },
     {
@@ -1313,8 +1313,10 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Back End Development and APIs Certification",
       "url": "https://www.freecodecamp.org/learn/back-end-development-and-apis",
-      "status": "rejected",
-      "reason": "no-free-credential-evidence",
+      "status": "accepted",
+      "provider": "freeCodeCamp",
+      "kind": "Certificación",
+      "language": "EN",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/back-end-development-and-apis/"
     },
@@ -1365,8 +1367,10 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Advanced SQL",
       "url": "https://www.kaggle.com/learn/advanced-sql",
-      "status": "rejected",
-      "reason": "no-free-credential-evidence",
+      "status": "accepted",
+      "provider": "Kaggle",
+      "kind": "Curso con certificado",
+      "language": "EN",
       "httpStatus": 200,
       "finalUrl": "https://www.kaggle.com/learn/advanced-sql"
     },
@@ -1642,7 +1646,7 @@
       "status": "accepted",
       "provider": "HubSpot Academy",
       "kind": "Certificación",
-      "language": "EN",
+      "language": "ES",
       "httpStatus": 200,
       "finalUrl": "https://academy.hubspot.com/courses/hubspot-service-software"
     },
@@ -2015,8 +2019,10 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Front-End Libraries Certification",
       "url": "https://www.freecodecamp.org/learn/front-end-development-libraries",
-      "status": "rejected",
-      "reason": "no-free-credential-evidence",
+      "status": "accepted",
+      "provider": "freeCodeCamp",
+      "kind": "Certificación",
+      "language": "EN",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/front-end-development-libraries/"
     },
@@ -2091,8 +2097,10 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Machine Learning with Python Certification",
       "url": "https://www.freecodecamp.org/learn/machine-learning-with-python",
-      "status": "rejected",
-      "reason": "no-free-credential-evidence",
+      "status": "accepted",
+      "provider": "freeCodeCamp",
+      "kind": "Certificación",
+      "language": "EN",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/machine-learning-with-python/"
     },
@@ -2574,8 +2582,8 @@
       "title": "Link",
       "url": "https://academy.tigera.io/course/certified-calico-operator-azure-expert",
       "status": "rejected",
-      "reason": "unreachable",
-      "httpStatus": 0
+      "reason": "inactive",
+      "httpStatus": 404
     },
     {
       "sourceType": "community",
