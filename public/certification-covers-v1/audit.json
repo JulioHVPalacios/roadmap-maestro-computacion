@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-09T21:45:38.886Z",
-  "total": 191,
-  "ok": 190,
-  "failed": 1,
+  "generatedAt": "2026-11-10T18:56:47.896Z",
+  "total": 171,
+  "ok": 171,
+  "failed": 0,
   "rows": [
     {
       "id": "freecodecamp-spanish",
@@ -19,15 +19,15 @@
       "status": 200
     },
     {
-      "id": "google-skillshop-live",
-      "title": "Google Skillshop · capacitación y certificaciones oficiales",
+      "id": "carlos-slim-capacitate",
+      "title": "Capacítate para el Empleo",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
-      "id": "carlos-slim-capacitate",
-      "title": "Capacítate para el Empleo",
+      "id": "google-skillshop-live",
+      "title": "Google Skillshop · capacitación y certificaciones oficiales",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -47,15 +47,15 @@
       "status": 200
     },
     {
-      "id": "hubspot-digital-marketing",
-      "title": "Certificación de Marketing Digital",
+      "id": "hubspot-certifications-live",
+      "title": "HubSpot Academy · certificaciones gratuitas actuales",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
-      "id": "hubspot-certifications-live",
-      "title": "HubSpot Academy · certificaciones gratuitas actuales",
+      "id": "hubspot-digital-marketing",
+      "title": "Certificación de Marketing Digital",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -82,13 +82,6 @@
       "status": 200
     },
     {
-      "id": "santander-tech-catalog",
-      "title": "Data, IA y Tecnología · catálogo vivo",
-      "ok": true,
-      "source": "Imagen oficial / Open Graph",
-      "status": 200
-    },
-    {
       "id": "santander-python-2026",
       "title": "Introducción a la programación con Python",
       "ok": true,
@@ -103,15 +96,15 @@
       "status": 200
     },
     {
-      "id": "fazt-free-courses",
-      "title": "Fazt · cursos gratuitos de programación y desarrollo web",
+      "id": "cisco-netacad",
+      "title": "Cisco Networking Academy · cursos gratuitos",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
-      "id": "cisco-netacad",
-      "title": "Cisco Networking Academy · cursos gratuitos",
+      "id": "fazt-free-courses",
+      "title": "Fazt · cursos gratuitos de programación y desarrollo web",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -131,15 +124,22 @@
       "status": 200
     },
     {
-      "id": "hp-data-science",
-      "title": "Ciencia y Análisis de Datos",
+      "id": "santander-tech-catalog",
+      "title": "Data, IA y Tecnología · catálogo vivo",
       "ok": true,
-      "source": "Imagen oficial / Open Graph",
+      "source": "Captura de la fuente oficial",
       "status": 200
     },
     {
       "id": "mouredev-free-courses",
       "title": "MoureDev · cursos gratuitos de programación",
+      "ok": true,
+      "source": "Imagen oficial / Open Graph",
+      "status": 200
+    },
+    {
+      "id": "hp-data-science",
+      "title": "Ciencia y Análisis de Datos",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -166,13 +166,6 @@
       "status": 200
     },
     {
-      "id": "ibm-agile-explorer",
-      "title": "Agile Explorer",
-      "ok": true,
-      "source": "Imagen oficial / Open Graph",
-      "status": 200
-    },
-    {
       "id": "hubspot-content-marketing",
       "title": "Certificación de Marketing de Contenidos",
       "ok": true,
@@ -182,6 +175,13 @@
     {
       "id": "hubspot-social-media",
       "title": "Certificación de Marketing en Redes Sociales",
+      "ok": true,
+      "source": "Imagen oficial / Open Graph",
+      "status": 200
+    },
+    {
+      "id": "ibm-agile-explorer",
+      "title": "Agile Explorer",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -201,8 +201,15 @@
       "status": 200
     },
     {
-      "id": "santander-marketing-automation-2026",
-      "title": "Fundamentos de Marketing Automation",
+      "id": "empleos-peru-certifica",
+      "title": "Empleos Perú · capacitación y certificación",
+      "ok": true,
+      "source": "Imagen oficial / Open Graph",
+      "status": 200
+    },
+    {
+      "id": "live-mtpe-abc-digital",
+      "title": "ABC Digital",
       "ok": true,
       "source": "Captura de la fuente oficial",
       "status": 200
@@ -215,15 +222,15 @@
       "status": 200
     },
     {
-      "id": "live-mtpe-abc-digital",
-      "title": "ABC Digital",
+      "id": "live-mtpe-administracion-de-amenazas-ciberneticas",
+      "title": "Administración de amenazas cibernéticas",
       "ok": true,
       "source": "Captura de la fuente oficial",
       "status": 200
     },
     {
-      "id": "live-mtpe-administracion-de-amenazas-ciberneticas",
-      "title": "Administración de amenazas cibernéticas",
+      "id": "santander-marketing-automation-2026",
+      "title": "Fundamentos de Marketing Automation",
       "ok": true,
       "source": "Captura de la fuente oficial",
       "status": 200
@@ -292,13 +299,6 @@
       "status": 200
     },
     {
-      "id": "live-hubspot-optimizacion-del-inbound-marketing-certificacion-5-horas-marketing",
-      "title": "Optimización del inbound marketing Certificación 5 horas Marketing",
-      "ok": true,
-      "source": "Imagen oficial / Open Graph",
-      "status": 200
-    },
-    {
       "id": "live-hubspot-inbound-marketing-certificacion-5-horas-marketing",
       "title": "Inbound marketing Certificación 5 horas Marketing",
       "ok": true,
@@ -308,6 +308,13 @@
     {
       "id": "live-hubspot-ventas-inbound-certificacion-3-horas-ventas",
       "title": "Ventas inbound Certificación 3 horas Ventas",
+      "ok": true,
+      "source": "Imagen oficial / Open Graph",
+      "status": 200
+    },
+    {
+      "id": "live-hubspot-optimizacion-del-inbound-marketing-certificacion-5-horas-marketing",
+      "title": "Optimización del inbound marketing Certificación 5 horas Marketing",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -362,15 +369,15 @@
       "status": 200
     },
     {
-      "id": "live-platzi-free-cursos",
-      "title": "Cursos",
+      "id": "live-platzi-free-toma-las-primeras-clases-gratis",
+      "title": "Toma las primeras clases gratis",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
-      "id": "live-platzi-free-toma-las-primeras-clases-gratis",
-      "title": "Toma las primeras clases gratis",
+      "id": "live-platzi-free-cursos",
+      "title": "Cursos",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -395,12 +402,6 @@
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
-    },
-    {
-      "id": "empleos-peru-certifica",
-      "title": "Empleos Perú · capacitación y certificación",
-      "ok": false,
-      "message": "page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://www.gob.pe/\", waiting until \"domcontentloaded\"\n"
     },
     {
       "id": "community-ibm-skillsbuild-customer-engagement-fundamentals",
@@ -431,13 +432,6 @@
       "status": 200
     },
     {
-      "id": "live-fazt-ia-feat-como-aprender-machine-learning-desde-cero-ruta-practica-para-programadores",
-      "title": "ia feat: Cómo aprender Machine Learning desde cero (ruta práctica para programadores)",
-      "ok": true,
-      "source": "Imagen oficial / Open Graph",
-      "status": 200
-    },
-    {
       "id": "microsoft-applied-skills",
       "title": "Microsoft Applied Skills · credenciales prácticas",
       "ok": true,
@@ -459,17 +453,17 @@
       "status": 200
     },
     {
-      "id": "github-skills-free",
-      "title": "GitHub Skills · cursos interactivos gratuitos",
-      "ok": true,
-      "source": "Imagen oficial / Open Graph",
-      "status": 200
-    },
-    {
       "id": "mongodb-university-free",
       "title": "MongoDB University · cursos y Skill Badges gratuitos",
       "ok": true,
       "source": "Captura de la fuente oficial",
+      "status": 200
+    },
+    {
+      "id": "github-skills-free",
+      "title": "GitHub Skills · cursos interactivos gratuitos",
+      "ok": true,
+      "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
@@ -494,24 +488,17 @@
       "status": 200
     },
     {
-      "id": "live-mongodb-list-of-self-paced-topics",
-      "title": "list of self-paced topics",
+      "id": "live-mongodb-courses-and-certificationlearn-for-free-from-mongodb",
+      "title": "Courses and CertificationLearn for free from MongoDB",
       "ok": true,
       "source": "Captura de la fuente oficial",
       "status": 200
     },
     {
-      "id": "live-mongodb-skills",
-      "title": "Skills",
+      "id": "live-mongodb-lab-zone",
+      "title": "Lab Zone",
       "ok": true,
       "source": "Captura de la fuente oficial",
-      "status": 200
-    },
-    {
-      "id": "live-sap-autonomous-enterprise-build-skills-for-ai-driven-transformations",
-      "title": "Autonomous Enterprise Build skills for AI‑driven transformations.",
-      "ok": true,
-      "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
@@ -522,24 +509,17 @@
       "status": 200
     },
     {
+      "id": "live-sap-autonomous-enterprise-build-skills-for-ai-driven-transformations",
+      "title": "Autonomous Enterprise Build skills for AI‑driven transformations.",
+      "ok": true,
+      "source": "Imagen oficial / Open Graph",
+      "status": 200
+    },
+    {
       "id": "live-sap-claim-your-exam-voucher",
       "title": "Claim your exam voucher",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
-      "status": 200
-    },
-    {
-      "id": "live-sap-course-implementing-sap-service-cloud-version-2-essentials",
-      "title": "COURSE Implementing SAP Service Cloud Version 2 – Essentials",
-      "ok": true,
-      "source": "Imagen oficial / Open Graph",
-      "status": 200
-    },
-    {
-      "id": "live-mongodb-skills-and-certificationsdevelop-in-demand-skills-and-earn-mongodb-certifications",
-      "title": "Skills and CertificationsDevelop in-demand skills and earn MongoDB certifications",
-      "ok": true,
-      "source": "Captura de la fuente oficial",
       "status": 200
     },
     {
@@ -571,15 +551,15 @@
       "status": 200
     },
     {
-      "id": "live-sap-learning-journey-developing-with-joule-studio",
-      "title": "LEARNING JOURNEY Developing with Joule Studio",
+      "id": "live-sap-learning-journey-exploring-sap-data-services",
+      "title": "LEARNING JOURNEY Exploring SAP Data Services",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
-      "id": "live-sap-learning-journey-exploring-sap-data-services",
-      "title": "LEARNING JOURNEY Exploring SAP Data Services",
+      "id": "live-sap-learning-journey-developing-with-joule-studio",
+      "title": "LEARNING JOURNEY Developing with Joule Studio",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -599,6 +579,13 @@
       "status": 200
     },
     {
+      "id": "live-sap-learning-journey-exploring-the-sap-autonomous-enterprise-for-production-planning-and-manufacturing-operations",
+      "title": "LEARNING JOURNEY Exploring the SAP Autonomous Enterprise for Production Planning and Manufacturing Operations",
+      "ok": true,
+      "source": "Imagen oficial / Open Graph",
+      "status": 200
+    },
+    {
       "id": "live-sap-learning-journey-implementing-next-gen-sap-ariba",
       "title": "LEARNING JOURNEY Implementing Next-Gen SAP Ariba",
       "ok": true,
@@ -606,15 +593,15 @@
       "status": 200
     },
     {
-      "id": "live-sap-learning-journey-managing-company-administration-in-new-concur-travel",
-      "title": "LEARNING JOURNEY Managing Company Administration in new Concur Travel",
+      "id": "live-sap-learning-journey-mastering-ai-native-enterprise-architecture-with-sap-leanix",
+      "title": "LEARNING JOURNEY Mastering AI-Native Enterprise Architecture with SAP LeanIX",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
-      "id": "live-sap-learning-journey-mastering-ai-native-enterprise-architecture-with-sap-leanix",
-      "title": "LEARNING JOURNEY Mastering AI-Native Enterprise Architecture with SAP LeanIX",
+      "id": "live-sap-learning-journey-managing-company-administration-in-new-concur-travel",
+      "title": "LEARNING JOURNEY Managing Company Administration in new Concur Travel",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -676,13 +663,6 @@
       "status": 200
     },
     {
-      "id": "hackerrank-skillup-certify",
-      "title": "HackerRank SkillUp · certificaciones y badges técnicos",
-      "ok": true,
-      "source": "Captura de la fuente oficial",
-      "status": 403
-    },
-    {
       "id": "live-sap-watch-now",
       "title": "Watch now",
       "ok": true,
@@ -690,8 +670,15 @@
       "status": 200
     },
     {
-      "id": "neo4j-graphacademy-certifications",
-      "title": "Neo4j GraphAcademy · certificaciones gratuitas",
+      "id": "hackerrank-skillup-certify",
+      "title": "HackerRank SkillUp · certificaciones y badges técnicos",
+      "ok": true,
+      "source": "Captura de la fuente oficial",
+      "status": 403
+    },
+    {
+      "id": "microsoft-ai-agent-applied-skill",
+      "title": "Microsoft Applied Skills · Create an AI agent",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -704,8 +691,8 @@
       "status": 200
     },
     {
-      "id": "microsoft-ai-agent-applied-skill",
-      "title": "Microsoft Applied Skills · Create an AI agent",
+      "id": "neo4j-graphacademy-certifications",
+      "title": "Neo4j GraphAcademy · certificaciones gratuitas",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -886,15 +873,15 @@
       "status": 200
     },
     {
-      "id": "live-saylor-cs260-introduction-to-cryptography-and-network-security",
-      "title": "CS260: Introduction to Cryptography and Network Security",
+      "id": "live-saylor-cs250-python-for-data-science",
+      "title": "CS250: Python for Data Science",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
-      "id": "live-saylor-cs250-python-for-data-science",
-      "title": "CS250: Python for Data Science",
+      "id": "live-saylor-cs260-introduction-to-cryptography-and-network-security",
+      "title": "CS260: Introduction to Cryptography and Network Security",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -928,17 +915,17 @@
       "status": 200
     },
     {
-      "id": "live-saylor-degree-programs",
-      "title": "Degree Programs",
-      "ok": true,
-      "source": "Captura de la fuente oficial",
-      "status": 200
-    },
-    {
       "id": "live-saylor-cs406-information-security",
       "title": "CS406: Information Security",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
+      "status": 200
+    },
+    {
+      "id": "live-saylor-degree-programs",
+      "title": "Degree Programs",
+      "ok": true,
+      "source": "Captura de la fuente oficial",
       "status": 200
     },
     {
@@ -970,139 +957,6 @@
       "status": 200
     },
     {
-      "id": "community-cognitive-class-big-data-foundations-level-1",
-      "title": "Big Data Foundations - Level 1",
-      "ok": true,
-      "source": "Captura de la fuente oficial",
-      "status": 200
-    },
-    {
-      "id": "community-cognitive-class-building-robots-with-tjbot",
-      "title": "Building Robots with TJBot",
-      "ok": true,
-      "source": "Captura de la fuente oficial",
-      "status": 200
-    },
-    {
-      "id": "community-cognitive-class-containers-k8s-and-istio-on-ibm-cloud",
-      "title": "Containers, K8s and Istio on IBM cloud",
-      "ok": true,
-      "source": "Captura de la fuente oficial",
-      "status": 200
-    },
-    {
-      "id": "community-cognitive-class-data-analysis-with-python",
-      "title": "Data Analysis with Python",
-      "ok": true,
-      "source": "Captura de la fuente oficial",
-      "status": 200
-    },
-    {
-      "id": "community-cognitive-class-data-science-101",
-      "title": "Data Science 101",
-      "ok": true,
-      "source": "Captura de la fuente oficial",
-      "status": 200
-    },
-    {
-      "id": "community-cognitive-class-data-science-methodologies",
-      "title": "Data Science Methodologies",
-      "ok": true,
-      "source": "Captura de la fuente oficial",
-      "status": 200
-    },
-    {
-      "id": "community-cognitive-class-data-science-tools",
-      "title": "Data Science Tools",
-      "ok": true,
-      "source": "Captura de la fuente oficial",
-      "status": 200
-    },
-    {
-      "id": "community-cognitive-class-data-visualization-with-r",
-      "title": "Data Visualization with R",
-      "ok": true,
-      "source": "Captura de la fuente oficial",
-      "status": 200
-    },
-    {
-      "id": "community-cognitive-class-deep-learning-fundamentals",
-      "title": "Deep Learning Fundamentals",
-      "ok": true,
-      "source": "Imagen oficial / Open Graph",
-      "status": 200
-    },
-    {
-      "id": "community-cognitive-class-docker-essentials",
-      "title": "Docker Essentials",
-      "ok": true,
-      "source": "Captura de la fuente oficial",
-      "status": 200
-    },
-    {
-      "id": "community-cognitive-class-hadoop-foundations-level-1",
-      "title": "Hadoop Foundations - Level 1",
-      "ok": true,
-      "source": "Captura de la fuente oficial",
-      "status": 200
-    },
-    {
-      "id": "community-cognitive-class-how-to-build-chatbots",
-      "title": "How to Build Chatbots",
-      "ok": true,
-      "source": "Captura de la fuente oficial",
-      "status": 200
-    },
-    {
-      "id": "community-cognitive-class-introduction-to-containers-kubernetes-and-openshift",
-      "title": "Introduction to Containers, Kubernetes, and OpenShift",
-      "ok": true,
-      "source": "Captura de la fuente oficial",
-      "status": 200
-    },
-    {
-      "id": "community-cognitive-class-machine-learning-with-python",
-      "title": "Machine Learning with Python",
-      "ok": true,
-      "source": "Captura de la fuente oficial",
-      "status": 200
-    },
-    {
-      "id": "community-cognitive-class-python-for-data-science",
-      "title": "Python for Data Science",
-      "ok": true,
-      "source": "Captura de la fuente oficial",
-      "status": 200
-    },
-    {
-      "id": "community-cognitive-class-r-101",
-      "title": "R 101",
-      "ok": true,
-      "source": "Captura de la fuente oficial",
-      "status": 200
-    },
-    {
-      "id": "community-cognitive-class-spark-fundamentals-i",
-      "title": "Spark Fundamentals I",
-      "ok": true,
-      "source": "Captura de la fuente oficial",
-      "status": 200
-    },
-    {
-      "id": "community-cognitive-class-statistics-101",
-      "title": "Statistics 101",
-      "ok": true,
-      "source": "Captura de la fuente oficial",
-      "status": 200
-    },
-    {
-      "id": "community-cognitive-class-using-r-with-databases",
-      "title": "Using R with Databases",
-      "ok": true,
-      "source": "Captura de la fuente oficial",
-      "status": 200
-    },
-    {
       "id": "community-freecodecamp-foundational-c-with-microsoft",
       "title": "Foundational C# with Microsoft",
       "ok": true,
@@ -1110,8 +964,15 @@
       "status": 200
     },
     {
-      "id": "community-freecodecamp-javascript-algorithms-and-data-structures-certification",
-      "title": "JavaScript Algorithms and Data Structures Certification",
+      "id": "community-freecodecamp-front-end-libraries-certification",
+      "title": "Front-End Libraries Certification",
+      "ok": true,
+      "source": "Imagen oficial / Open Graph",
+      "status": 200
+    },
+    {
+      "id": "community-freecodecamp-machine-learning-with-python-certification",
+      "title": "Machine Learning with Python Certification",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -1285,17 +1146,17 @@
       "status": 200
     },
     {
-      "id": "community-knime-basic-proficiency-in-knime-analytics-platform-l1",
-      "title": "Basic Proficiency in KNIME Analytics Platform (L1)",
-      "ok": true,
-      "source": "Captura de la fuente oficial",
-      "status": 200
-    },
-    {
       "id": "community-kaggle-computer-vision",
       "title": "Computer Vision",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
+      "status": 200
+    },
+    {
+      "id": "community-knime-basic-proficiency-in-knime-analytics-platform-l1",
+      "title": "Basic Proficiency in KNIME Analytics Platform (L1)",
+      "ok": true,
+      "source": "Captura de la fuente oficial",
       "status": 200
     },
     {
@@ -1306,15 +1167,15 @@
       "status": 200
     },
     {
-      "id": "community-saylor-university-cs202-discrete-structures",
-      "title": "CS202: Discrete Structures",
+      "id": "community-saylor-university-bitcoin-for-developers",
+      "title": "Bitcoin for Developers",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
-      "id": "community-saylor-university-bitcoin-for-developers",
-      "title": "Bitcoin for Developers",
+      "id": "community-saylor-university-cs202-discrete-structures",
+      "title": "CS202: Discrete Structures",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -1327,17 +1188,17 @@
       "status": 200
     },
     {
-      "id": "gitlab-university-free",
-      "title": "GitLab University · formación DevSecOps gratuita",
-      "ok": true,
-      "source": "Captura de la fuente oficial",
-      "status": 200
-    },
-    {
       "id": "the-odin-project",
       "title": "The Odin Project · currículo full-stack gratuito",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
+      "status": 200
+    },
+    {
+      "id": "gitlab-university-free",
+      "title": "GitLab University · formación DevSecOps gratuita",
+      "ok": true,
+      "source": "Captura de la fuente oficial",
       "status": 200
     }
   ]

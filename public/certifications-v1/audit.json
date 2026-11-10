@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-09T21:38:04.268Z",
+  "generatedAt": "2026-11-10T18:48:27.119Z",
   "seed": 54,
-  "officialDiscoveredRaw": 98,
-  "officialValidated": 93,
+  "officialDiscoveredRaw": 95,
+  "officialValidated": 91,
   "communityCandidates": 137,
-  "communityValidated": 77,
-  "published": 191,
+  "communityValidated": 56,
+  "published": 171,
   "audit": [
     {
       "id": "ibm-digital-credentials",
@@ -259,10 +259,9 @@
       "id": "empleos-peru-certifica",
       "sourceType": "seed",
       "url": "https://www.gob.pe/23794-obtener-capacitacion-y-certificacion-en-empleos-peru",
-      "httpStatus": 0,
+      "httpStatus": 200,
       "finalUrl": "https://www.gob.pe/23794-obtener-capacitacion-y-certificacion-en-empleos-peru",
-      "status": "unknown",
-      "error": "page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.gob.pe/23794-obtener-capacitacion-y-certificacion-en-empleos-peru\", waiting until \"domcontentloaded\"\n"
+      "status": "active"
     },
     {
       "id": "carlos-slim-capacitate",
@@ -610,7 +609,7 @@
       "httpStatus": 200
     },
     {
-      "id": "live-mongodb-skills-and-certificationsdevelop-in-demand-skills-and-earn-mongodb-certifications",
+      "id": "live-mongodb-courses-and-certificationlearn-for-free-from-mongodb",
       "sourceType": "discovered",
       "url": "https://learn.mongodb.com",
       "finalUrl": "https://learn.mongodb.com",
@@ -618,28 +617,11 @@
       "httpStatus": 200
     },
     {
-      "id": "live-mongodb-skills",
+      "id": "live-mongodb-lab-zone",
       "sourceType": "discovered",
-      "url": "https://learn.mongodb.com/skills",
-      "finalUrl": "https://learn.mongodb.com/skills",
+      "url": "https://learn.mongodb.com/pages/lab-zone",
+      "finalUrl": "https://learn.mongodb.com/pages/lab-zone",
       "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-mongodb-list-of-self-paced-topics",
-      "sourceType": "discovered",
-      "url": "https://learn.mongodb.com/self-paced-topics",
-      "finalUrl": "https://learn.mongodb.com/self-paced-topics",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-mongodb-free",
-      "sourceType": "discovered",
-      "url": "https://learn.mongodb.com/catalog?labels=%5B%5D&page=1&values=%5B%5D",
-      "finalUrl": "https://learn.mongodb.com/catalog?labels=%5B%5D&page=1&values=%5B%5D",
-      "status": "rejected",
-      "reason": "no-learning-evidence",
       "httpStatus": 200
     },
     {
@@ -810,6 +792,14 @@
       "httpStatus": 200
     },
     {
+      "id": "live-sap-learning-journey-exploring-the-sap-autonomous-enterprise-for-production-planning-and-manufacturing-operations",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/learning-journeys/exploring-the-sap-autonomous-enterprise-for-production-planning-and-manufacturing-operations",
+      "finalUrl": "https://learning.sap.com/learning-journeys/exploring-the-sap-autonomous-enterprise-for-production-planning-and-manufacturing-operations",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
       "id": "live-sap-learning-journey-exploring-the-sap-autonomous-enterprise-for-integrated-product-lifecycle-management",
       "sourceType": "discovered",
       "url": "https://learning.sap.com/learning-journeys/exploring-the-sap-autonomous-enterprise-for-integrated-product-lifecycle-management",
@@ -902,14 +892,6 @@
       "sourceType": "discovered",
       "url": "https://learning.sap.com/learning-journeys/configuring-and-administering-new-concur-travel-professional-edition",
       "finalUrl": "https://learning.sap.com/learning-journeys/configuring-and-administering-new-concur-travel-professional-edition",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-sap-course-implementing-sap-service-cloud-version-2-essentials",
-      "sourceType": "discovered",
-      "url": "https://learning.sap.com/courses/implementing-sap-service-cloud-version-2-essentials",
-      "finalUrl": "https://learning.sap.com/courses/implementing-sap-service-cloud-version-2-essentials",
       "status": "active",
       "httpStatus": 200
     },
@@ -1210,14 +1192,6 @@
       "httpStatus": 200
     },
     {
-      "id": "live-fazt-ia-feat-como-aprender-machine-learning-desde-cero-ruta-practica-para-programadores",
-      "sourceType": "discovered",
-      "url": "https://fazt.dev/contenido/aprender-machine-learning-desde-cero-programadores",
-      "finalUrl": "https://fazt.dev/contenido/aprender-machine-learning-desde-cero-programadores",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
       "id": "live-fazt-ver-el-catalogo-gratis",
       "sourceType": "discovered",
       "url": "https://fazt.dev/contenido",
@@ -1372,36 +1346,27 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Big Data Foundations - Level 1",
       "url": "https://cognitiveclass.ai/courses/what-is-big-data",
-      "status": "accepted",
-      "provider": "Cognitive Class",
-      "kind": "Insignia",
-      "language": "EN",
-      "httpStatus": 200,
-      "finalUrl": "https://cognitiveclass.ai/courses/what-is-big-data"
+      "status": "rejected",
+      "reason": "unreachable",
+      "httpStatus": 0
     },
     {
       "sourceType": "community",
       "source": "GitHub · Awesome Certificates",
       "title": "Hadoop Foundations - Level 1",
       "url": "https://cognitiveclass.ai/courses/course-v1:BigDataUniversity+BD0111EN+2016",
-      "status": "accepted",
-      "provider": "Cognitive Class",
-      "kind": "Insignia",
-      "language": "EN",
-      "httpStatus": 200,
-      "finalUrl": "https://cognitiveclass.ai/courses"
+      "status": "rejected",
+      "reason": "unreachable",
+      "httpStatus": 0
     },
     {
       "sourceType": "community",
       "source": "GitHub · Awesome Certificates",
       "title": "Spark Fundamentals I",
       "url": "https://cognitiveclass.ai/courses/what-is-spark",
-      "status": "accepted",
-      "provider": "Cognitive Class",
-      "kind": "Insignia",
-      "language": "EN",
-      "httpStatus": 200,
-      "finalUrl": "https://cognitiveclass.ai/courses/what-is-spark"
+      "status": "rejected",
+      "reason": "unreachable",
+      "httpStatus": 0
     },
     {
       "sourceType": "community",
@@ -1684,24 +1649,18 @@
       "source": "GitHub · Awesome Certificates",
       "title": "How to Build Chatbots",
       "url": "https://cognitiveclass.ai/courses/chatbot-course",
-      "status": "accepted",
-      "provider": "Cognitive Class",
-      "kind": "Insignia",
-      "language": "EN",
-      "httpStatus": 200,
-      "finalUrl": "https://cognitiveclass.ai/courses/chatbot-course"
+      "status": "rejected",
+      "reason": "unreachable",
+      "httpStatus": 0
     },
     {
       "sourceType": "community",
       "source": "GitHub · Awesome Certificates",
       "title": "IBM Cloud Essentials",
       "url": "https://cognitiveclass.ai/courses/ibm-cloud-essentials",
-      "status": "accepted",
-      "provider": "Cognitive Class",
-      "kind": "Insignia",
-      "language": "EN",
-      "httpStatus": 200,
-      "finalUrl": "https://cognitiveclass.ai/courses"
+      "status": "rejected",
+      "reason": "unreachable",
+      "httpStatus": 0
     },
     {
       "sourceType": "community",
@@ -1802,12 +1761,9 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Data Analysis with Python",
       "url": "https://cognitiveclass.ai/courses/data-analysis-python",
-      "status": "accepted",
-      "provider": "Cognitive Class",
-      "kind": "Insignia",
-      "language": "EN",
-      "httpStatus": 200,
-      "finalUrl": "https://cognitiveclass.ai/courses/data-analysis-python"
+      "status": "rejected",
+      "reason": "unreachable",
+      "httpStatus": 0
     },
     {
       "sourceType": "community",
@@ -1824,24 +1780,18 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Data Visualization with Python",
       "url": "https://cognitiveclass.ai/courses/data-visualization-with-python",
-      "status": "accepted",
-      "provider": "Cognitive Class",
-      "kind": "Insignia",
-      "language": "EN",
-      "httpStatus": 200,
-      "finalUrl": "https://cognitiveclass.ai/courses"
+      "status": "rejected",
+      "reason": "unreachable",
+      "httpStatus": 0
     },
     {
       "sourceType": "community",
       "source": "GitHub · Awesome Certificates",
       "title": "Data Visualization with R",
       "url": "https://cognitiveclass.ai/courses/data-visualization-with-r",
-      "status": "accepted",
-      "provider": "Cognitive Class",
-      "kind": "Insignia",
-      "language": "EN",
-      "httpStatus": 200,
-      "finalUrl": "https://cognitiveclass.ai/courses/data-visualization-with-r"
+      "status": "rejected",
+      "reason": "unreachable",
+      "httpStatus": 0
     },
     {
       "sourceType": "community",
@@ -1894,84 +1844,63 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Data Science Methodologies",
       "url": "https://cognitiveclass.ai/courses/data-science-methodology-2",
-      "status": "accepted",
-      "provider": "Cognitive Class",
-      "kind": "Insignia",
-      "language": "EN",
-      "httpStatus": 200,
-      "finalUrl": "https://cognitiveclass.ai/courses/data-science-methodology-2"
+      "status": "rejected",
+      "reason": "unreachable",
+      "httpStatus": 0
     },
     {
       "sourceType": "community",
       "source": "GitHub · Awesome Certificates",
       "title": "Data Science 101",
       "url": "https://cognitiveclass.ai/courses/data-science-101",
-      "status": "accepted",
-      "provider": "Cognitive Class",
-      "kind": "Insignia",
-      "language": "EN",
-      "httpStatus": 200,
-      "finalUrl": "https://cognitiveclass.ai/courses/data-science-101"
+      "status": "rejected",
+      "reason": "unreachable",
+      "httpStatus": 0
     },
     {
       "sourceType": "community",
       "source": "GitHub · Awesome Certificates",
       "title": "Data Science Tools",
       "url": "https://cognitiveclass.ai/courses/data-science-hands-open-source-tools-2",
-      "status": "accepted",
-      "provider": "Cognitive Class",
-      "kind": "Insignia",
-      "language": "EN",
-      "httpStatus": 200,
-      "finalUrl": "https://cognitiveclass.ai/courses/data-science-hands-open-source-tools-2"
+      "status": "rejected",
+      "reason": "unreachable",
+      "httpStatus": 0
     },
     {
       "sourceType": "community",
       "source": "GitHub · Awesome Certificates",
       "title": "Python for Data Science",
       "url": "https://cognitiveclass.ai/courses/python-for-data-science",
-      "status": "accepted",
-      "provider": "Cognitive Class",
-      "kind": "Insignia",
-      "language": "EN",
-      "httpStatus": 200,
-      "finalUrl": "https://cognitiveclass.ai/courses/python-for-data-science"
+      "status": "rejected",
+      "reason": "unreachable",
+      "httpStatus": 0
     },
     {
       "sourceType": "community",
       "source": "GitHub · Awesome Certificates",
       "title": "Containers, K8s and Istio on IBM cloud",
       "url": "https://cognitiveclass.ai/learn/containers-k8s-and-istio-on-ibm-cloud",
-      "status": "accepted",
-      "provider": "Cognitive Class",
-      "kind": "Insignia",
-      "language": "EN",
-      "httpStatus": 200,
-      "finalUrl": "https://cognitiveclass.ai/learn/containers-k8s-and-istio-on-ibm-cloud"
+      "status": "rejected",
+      "reason": "unreachable",
+      "httpStatus": 0
     },
     {
       "sourceType": "community",
       "source": "GitHub · Awesome Certificates",
       "title": "Docker Essentials",
       "url": "https://cognitiveclass.ai/courses/docker-essentials",
-      "status": "accepted",
-      "provider": "Cognitive Class",
-      "kind": "Insignia",
-      "language": "EN",
-      "httpStatus": 200,
-      "finalUrl": "https://cognitiveclass.ai/courses/docker-essentials"
+      "status": "rejected",
+      "reason": "unreachable",
+      "httpStatus": 0
     },
     {
       "sourceType": "community",
       "source": "GitHub · Awesome Certificates",
       "title": "Introduction to Containers, Kubernetes, and OpenShift",
       "url": "https://cognitiveclass.ai/courses/kubernetes-course",
-      "status": "accepted",
-      "provider": "Cognitive Class",
-      "kind": "Insignia",
-      "language": "EN",
-      "httpStatus": 200,
-      "finalUrl": "https://cognitiveclass.ai/courses/kubernetes-course"
+      "status": "rejected",
+      "reason": "unreachable",
+      "httpStatus": 0
     },
     {
       "sourceType": "community",
@@ -2008,8 +1937,10 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Front-End Libraries Certification",
       "url": "https://www.freecodecamp.org/learn/front-end-development-libraries",
-      "status": "rejected",
-      "reason": "no-free-credential-evidence",
+      "status": "accepted",
+      "provider": "freeCodeCamp",
+      "kind": "Certificación",
+      "language": "EN",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/front-end-development-libraries/"
     },
@@ -2048,44 +1979,37 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Deep Learning Fundamentals",
       "url": "https://cognitiveclass.ai/courses/introduction-deep-learning",
-      "status": "accepted",
-      "provider": "Cognitive Class",
-      "kind": "Insignia",
-      "language": "EN",
-      "httpStatus": 200,
-      "finalUrl": "https://cognitiveclass.ai/courses/introduction-deep-learning"
+      "status": "rejected",
+      "reason": "unreachable",
+      "httpStatus": 0
     },
     {
       "sourceType": "community",
       "source": "GitHub · Awesome Certificates",
       "title": "Deep Learning with TensorFlow",
       "url": "https://cognitiveclass.ai/courses/deep-learning-tensorflow",
-      "status": "accepted",
-      "provider": "Cognitive Class",
-      "kind": "Insignia",
-      "language": "EN",
-      "httpStatus": 200,
-      "finalUrl": "https://cognitiveclass.ai/courses"
+      "status": "rejected",
+      "reason": "unreachable",
+      "httpStatus": 0
     },
     {
       "sourceType": "community",
       "source": "GitHub · Awesome Certificates",
       "title": "Machine Learning with Python",
       "url": "https://cognitiveclass.ai/courses/machine-learning-with-python",
-      "status": "accepted",
-      "provider": "Cognitive Class",
-      "kind": "Insignia",
-      "language": "EN",
-      "httpStatus": 200,
-      "finalUrl": "https://cognitiveclass.ai/courses/machine-learning-with-python"
+      "status": "rejected",
+      "reason": "unreachable",
+      "httpStatus": 0
     },
     {
       "sourceType": "community",
       "source": "GitHub · Awesome Certificates",
       "title": "Machine Learning with Python Certification",
       "url": "https://www.freecodecamp.org/learn/machine-learning-with-python",
-      "status": "rejected",
-      "reason": "no-free-credential-evidence",
+      "status": "accepted",
+      "provider": "freeCodeCamp",
+      "kind": "Certificación",
+      "language": "EN",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/machine-learning-with-python/"
     },
@@ -2266,10 +2190,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "JavaScript Algorithms and Data Structures Certification",
       "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures",
-      "status": "accepted",
-      "provider": "freeCodeCamp",
-      "kind": "Certificación",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/"
     },
@@ -2354,24 +2276,18 @@
       "source": "GitHub · Awesome Certificates",
       "title": "R 101",
       "url": "https://cognitiveclass.ai/courses/r-101",
-      "status": "accepted",
-      "provider": "Cognitive Class",
-      "kind": "Insignia",
-      "language": "EN",
-      "httpStatus": 200,
-      "finalUrl": "https://cognitiveclass.ai/courses/r-101"
+      "status": "rejected",
+      "reason": "unreachable",
+      "httpStatus": 0
     },
     {
       "sourceType": "community",
       "source": "GitHub · Awesome Certificates",
       "title": "Using R with Databases",
       "url": "https://cognitiveclass.ai/courses/using-r-with-databases",
-      "status": "accepted",
-      "provider": "Cognitive Class",
-      "kind": "Insignia",
-      "language": "EN",
-      "httpStatus": 200,
-      "finalUrl": "https://cognitiveclass.ai/courses/using-r-with-databases"
+      "status": "rejected",
+      "reason": "unreachable",
+      "httpStatus": 0
     },
     {
       "sourceType": "community",
@@ -2388,12 +2304,9 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Building Robots with TJBot",
       "url": "https://cognitiveclass.ai/courses/build-robots-with-tjbot",
-      "status": "accepted",
-      "provider": "Cognitive Class",
-      "kind": "Insignia",
-      "language": "EN",
-      "httpStatus": 200,
-      "finalUrl": "https://cognitiveclass.ai/courses/build-robots-with-tjbot"
+      "status": "rejected",
+      "reason": "unreachable",
+      "httpStatus": 0
     },
     {
       "sourceType": "community",
@@ -2482,12 +2395,9 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Statistics 101",
       "url": "https://cognitiveclass.ai/courses/statistics-101",
-      "status": "accepted",
-      "provider": "Cognitive Class",
-      "kind": "Insignia",
-      "language": "EN",
-      "httpStatus": 200,
-      "finalUrl": "https://cognitiveclass.ai/courses/statistics-101"
+      "status": "rejected",
+      "reason": "unreachable",
+      "httpStatus": 0
     },
     {
       "sourceType": "community",
@@ -2515,9 +2425,8 @@
       "title": "Link",
       "url": "https://cognitiveclass.ai",
       "status": "rejected",
-      "reason": "no-free-credential-evidence",
-      "httpStatus": 200,
-      "finalUrl": "https://cognitiveclass.ai/"
+      "reason": "unreachable",
+      "httpStatus": 0
     },
     {
       "sourceType": "community",
@@ -2574,8 +2483,8 @@
       "title": "Link",
       "url": "https://academy.tigera.io/course/certified-calico-operator-ebpf",
       "status": "rejected",
-      "reason": "inactive",
-      "httpStatus": 404
+      "reason": "unreachable",
+      "httpStatus": 0
     },
     {
       "sourceType": "community",
