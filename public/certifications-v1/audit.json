@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-13T18:43:19.580Z",
+  "generatedAt": "2026-11-14T17:17:39.363Z",
   "seed": 54,
-  "officialDiscoveredRaw": 98,
-  "officialValidated": 94,
+  "officialDiscoveredRaw": 101,
+  "officialValidated": 99,
   "communityCandidates": 137,
-  "communityValidated": 81,
-  "published": 197,
+  "communityValidated": 83,
+  "published": 202,
   "audit": [
     {
       "id": "ibm-digital-credentials",
@@ -596,8 +596,7 @@
       "sourceType": "discovered",
       "url": "https://learn.mongodb.com/catalog?labels=%5B%22Free%2FPaid%22%5D&values=%5B%22Free%22%5D",
       "finalUrl": "https://learn.mongodb.com/catalog?labels=%5B%22Free%2FPaid%22%5D&values=%5B%22Free%22%5D",
-      "status": "rejected",
-      "reason": "no-learning-evidence",
+      "status": "active",
       "httpStatus": 200
     },
     {
@@ -637,8 +636,7 @@
       "sourceType": "discovered",
       "url": "https://learn.mongodb.com/catalog?labels=%5B%5D&page=1&values=%5B%5D",
       "finalUrl": "https://learn.mongodb.com/catalog?labels=%5B%5D&page=1&values=%5B%5D",
-      "status": "rejected",
-      "reason": "no-learning-evidence",
+      "status": "active",
       "httpStatus": 200
     },
     {
@@ -1202,18 +1200,42 @@
       "httpStatus": 200
     },
     {
-      "id": "live-fazt-web-feat-discord-deja-react-native-y-electron-por-rust-que-cambia-y-por-que-no-es-lo-mismo-que-shopify",
-      "sourceType": "discovered",
-      "url": "https://fazt.dev/contenido/discord-deja-react-native-electron-rust",
-      "finalUrl": "https://fazt.dev/contenido/discord-deja-react-native-electron-rust",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
       "id": "live-fazt-ia-feat-mi-setup-real-de-herdr-neovim-lazygit-yazi-y-claude-code-en-una-sola-terminal",
       "sourceType": "discovered",
       "url": "https://fazt.dev/contenido/setup-herdr-neovim-lazygit-yazi-claude-code",
       "finalUrl": "https://fazt.dev/contenido/setup-herdr-neovim-lazygit-yazi-claude-code",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-fazt-web-feat-github-copilot-desktop-la-app-que-quiere-cambiar-como-usamos-agentes-ia",
+      "sourceType": "discovered",
+      "url": "https://fazt.dev/contenido/github-copilot-desktop-review-demo",
+      "finalUrl": "https://fazt.dev/contenido/github-copilot-desktop-review-demo",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-fazt-ia-feat-impeccable-el-skill-que-elimina-el-ai-slop-de-tus-interfaces-y-es-gratis",
+      "sourceType": "discovered",
+      "url": "https://fazt.dev/contenido/impeccable-skill-diseno-ia-claude-cursor",
+      "finalUrl": "https://fazt.dev/contenido/impeccable-skill-diseno-ia-claude-cursor",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-fazt-ia-feat-antigravity-cli-subagentes-planning-mode-skills-y-todo-lo-nuevo",
+      "sourceType": "discovered",
+      "url": "https://fazt.dev/contenido/antigravity-cli-google-agente-ia",
+      "finalUrl": "https://fazt.dev/contenido/antigravity-cli-google-agente-ia",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-fazt-ia-feat-tips-de-chatgpt-para-productividad",
+      "sourceType": "discovered",
+      "url": "https://fazt.dev/contenido/tips-de-chatgpt-para-productividad",
+      "finalUrl": "https://fazt.dev/contenido/tips-de-chatgpt-para-productividad",
       "status": "active",
       "httpStatus": 200
     },
@@ -1308,10 +1330,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Back End Development and APIs Certification",
       "url": "https://www.freecodecamp.org/learn/back-end-development-and-apis",
-      "status": "accepted",
-      "provider": "freeCodeCamp",
-      "kind": "Certificación",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/back-end-development-and-apis/"
     },
@@ -1854,10 +1874,12 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Data Visualization Certification",
       "url": "https://www.freecodecamp.org/learn/data-visualization",
-      "status": "rejected",
-      "reason": "no-free-credential-evidence",
+      "status": "accepted",
+      "provider": "freeCodeCamp",
+      "kind": "Certificación",
+      "language": "EN",
       "httpStatus": 200,
-      "finalUrl": "https://www.freecodecamp.org/learn/data-visualization"
+      "finalUrl": "https://www.freecodecamp.org/learn/data-visualization/"
     },
     {
       "sourceType": "community",
@@ -2004,10 +2026,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Responsive Web Design Certification",
       "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design",
-      "status": "accepted",
-      "provider": "freeCodeCamp",
-      "kind": "Certificación",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/2022/responsive-web-design/"
     },
@@ -2016,8 +2036,10 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Front-End Libraries Certification",
       "url": "https://www.freecodecamp.org/learn/front-end-development-libraries",
-      "status": "rejected",
-      "reason": "no-free-credential-evidence",
+      "status": "accepted",
+      "provider": "freeCodeCamp",
+      "kind": "Certificación",
+      "language": "EN",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/front-end-development-libraries/"
     },
@@ -2128,8 +2150,10 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Machine Learning Explainability",
       "url": "https://www.kaggle.com/learn/machine-learning-explainability",
-      "status": "rejected",
-      "reason": "no-free-credential-evidence",
+      "status": "accepted",
+      "provider": "Kaggle",
+      "kind": "Curso con certificado",
+      "language": "EN",
       "httpStatus": 200,
       "finalUrl": "https://www.kaggle.com/learn/machine-learning-explainability"
     },
@@ -2252,8 +2276,10 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Foundational C# with Microsoft",
       "url": "https://www.freecodecamp.org/learn/foundational-c-sharp-with-microsoft",
-      "status": "rejected",
-      "reason": "no-free-credential-evidence",
+      "status": "accepted",
+      "provider": "freeCodeCamp",
+      "kind": "Certificación",
+      "language": "EN",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/foundational-c-sharp-with-microsoft/"
     },
@@ -2272,10 +2298,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "JavaScript Algorithms and Data Structures Certification",
       "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures",
-      "status": "accepted",
-      "provider": "freeCodeCamp",
-      "kind": "Certificación",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/"
     },
@@ -2304,8 +2328,10 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Scientific Computing with Python Certification",
       "url": "https://www.freecodecamp.org/learn/scientific-computing-with-python",
-      "status": "rejected",
-      "reason": "no-free-credential-evidence",
+      "status": "accepted",
+      "provider": "freeCodeCamp",
+      "kind": "Certificación",
+      "language": "EN",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/scientific-computing-with-python/"
     },
@@ -2582,8 +2608,8 @@
       "title": "Link",
       "url": "https://academy.tigera.io/course/certified-calico-operator-ebpf",
       "status": "rejected",
-      "reason": "unreachable",
-      "httpStatus": 0
+      "reason": "inactive",
+      "httpStatus": 404
     },
     {
       "sourceType": "community",
