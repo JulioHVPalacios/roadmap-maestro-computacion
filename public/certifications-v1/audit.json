@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-15T17:57:57.402Z",
+  "generatedAt": "2026-11-16T21:13:49.302Z",
   "seed": 54,
-  "officialDiscoveredRaw": 101,
-  "officialValidated": 98,
+  "officialDiscoveredRaw": 100,
+  "officialValidated": 97,
   "communityCandidates": 137,
-  "communityValidated": 77,
-  "published": 200,
+  "communityValidated": 75,
+  "published": 192,
   "audit": [
     {
       "id": "ibm-digital-credentials",
@@ -596,8 +596,7 @@
       "sourceType": "discovered",
       "url": "https://learn.mongodb.com/catalog?labels=%5B%22Free%2FPaid%22%5D&values=%5B%22Free%22%5D",
       "finalUrl": "https://learn.mongodb.com/catalog?labels=%5B%22Free%2FPaid%22%5D&values=%5B%22Free%22%5D",
-      "status": "rejected",
-      "reason": "no-learning-evidence",
+      "status": "active",
       "httpStatus": 200
     },
     {
@@ -609,7 +608,7 @@
       "httpStatus": 200
     },
     {
-      "id": "live-mongodb-courses-and-certificationlearn-for-free-from-mongodb",
+      "id": "live-mongodb-skills-and-certificationsdevelop-in-demand-skills-and-earn-mongodb-certifications",
       "sourceType": "discovered",
       "url": "https://learn.mongodb.com",
       "finalUrl": "https://learn.mongodb.com",
@@ -617,10 +616,10 @@
       "httpStatus": 200
     },
     {
-      "id": "live-mongodb-lab-zone",
+      "id": "live-mongodb-skills",
       "sourceType": "discovered",
-      "url": "https://learn.mongodb.com/pages/lab-zone",
-      "finalUrl": "https://learn.mongodb.com/pages/lab-zone",
+      "url": "https://learn.mongodb.com/skills",
+      "finalUrl": "https://learn.mongodb.com/skills",
       "status": "active",
       "httpStatus": 200
     },
@@ -637,7 +636,8 @@
       "sourceType": "discovered",
       "url": "https://learn.mongodb.com/catalog?labels=%5B%5D&page=1&values=%5B%5D",
       "finalUrl": "https://learn.mongodb.com/catalog?labels=%5B%5D&page=1&values=%5B%5D",
-      "status": "active",
+      "status": "rejected",
+      "reason": "no-learning-evidence",
       "httpStatus": 200
     },
     {
@@ -804,6 +804,14 @@
       "sourceType": "discovered",
       "url": "https://learning.sap.com/teched",
       "finalUrl": "https://learning.sap.com/teched",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-sap-learning-journey-exploring-the-sap-autonomous-enterprise-for-sap-integrated-business-planning",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/learning-journeys/exploring-the-sap-autonomous-enterprise-for-sap-integrated-business-planning",
+      "finalUrl": "https://learning.sap.com/learning-journeys/exploring-the-sap-autonomous-enterprise-for-sap-integrated-business-planning",
       "status": "active",
       "httpStatus": 200
     },
@@ -980,14 +988,6 @@
       "sourceType": "discovered",
       "url": "https://learning.sap.com/learning-managers",
       "finalUrl": "https://learning.sap.com/learning-managers",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-sap-watch-now",
-      "sourceType": "discovered",
-      "url": "https://learning.sap.com/onboarding-videos",
-      "finalUrl": "https://learning.sap.com/onboarding-videos",
       "status": "active",
       "httpStatus": 200
     },
@@ -1209,34 +1209,26 @@
       "httpStatus": 200
     },
     {
-      "id": "live-fazt-web-feat-github-copilot-desktop-la-app-que-quiere-cambiar-como-usamos-agentes-ia",
+      "id": "live-fazt-ia-feat-como-crear-un-proyecto-completo-con-higgsfield-supercomputer-saas-branding-web",
       "sourceType": "discovered",
-      "url": "https://fazt.dev/contenido/github-copilot-desktop-review-demo",
-      "finalUrl": "https://fazt.dev/contenido/github-copilot-desktop-review-demo",
+      "url": "https://fazt.dev/contenido/como-crear-proyecto-completo-higgsfield-supercomputer",
+      "finalUrl": "https://fazt.dev/contenido/como-crear-proyecto-completo-higgsfield-supercomputer",
       "status": "active",
       "httpStatus": 200
     },
     {
-      "id": "live-fazt-ia-feat-impeccable-el-skill-que-elimina-el-ai-slop-de-tus-interfaces-y-es-gratis",
+      "id": "live-fazt-ia-feat-apis-de-ia-gratis-para-desarrolladores-prueba-nemotron-llama-y-qwen-sin-pagar",
       "sourceType": "discovered",
-      "url": "https://fazt.dev/contenido/impeccable-skill-diseno-ia-claude-cursor",
-      "finalUrl": "https://fazt.dev/contenido/impeccable-skill-diseno-ia-claude-cursor",
+      "url": "https://fazt.dev/contenido/apis-llm-gratis-2026-openrouter-gemini-nvidia",
+      "finalUrl": "https://fazt.dev/contenido/apis-llm-gratis-2026-openrouter-gemini-nvidia",
       "status": "active",
       "httpStatus": 200
     },
     {
-      "id": "live-fazt-ia-feat-antigravity-cli-subagentes-planning-mode-skills-y-todo-lo-nuevo",
+      "id": "live-fazt-ia-feat-el-stream-de-ia-que-banearon-de-twitch-y-kick-minimax-h3",
       "sourceType": "discovered",
-      "url": "https://fazt.dev/contenido/antigravity-cli-google-agente-ia",
-      "finalUrl": "https://fazt.dev/contenido/antigravity-cli-google-agente-ia",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-fazt-ia-feat-tips-de-chatgpt-para-productividad",
-      "sourceType": "discovered",
-      "url": "https://fazt.dev/contenido/tips-de-chatgpt-para-productividad",
-      "finalUrl": "https://fazt.dev/contenido/tips-de-chatgpt-para-productividad",
+      "url": "https://fazt.dev/contenido/streaming-ia-minimax-h3-ban-twitch-kick-fal",
+      "finalUrl": "https://fazt.dev/contenido/streaming-ia-minimax-h3-ban-twitch-kick-fal",
       "status": "active",
       "httpStatus": 200
     },
@@ -1331,10 +1323,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Back End Development and APIs Certification",
       "url": "https://www.freecodecamp.org/learn/back-end-development-and-apis",
-      "status": "accepted",
-      "provider": "freeCodeCamp",
-      "kind": "Certificación",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/back-end-development-and-apis/"
     },
@@ -1873,10 +1863,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Data Visualization Certification",
       "url": "https://www.freecodecamp.org/learn/data-visualization",
-      "status": "accepted",
-      "provider": "freeCodeCamp",
-      "kind": "Certificación",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/data-visualization/"
     },
@@ -2111,10 +2099,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Machine Learning with Python Certification",
       "url": "https://www.freecodecamp.org/learn/machine-learning-with-python",
-      "status": "accepted",
-      "provider": "freeCodeCamp",
-      "kind": "Certificación",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/machine-learning-with-python/"
     },
@@ -2135,8 +2121,10 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Intermediate Machine Learning",
       "url": "https://www.kaggle.com/learn/intermediate-machine-learning",
-      "status": "rejected",
-      "reason": "no-free-credential-evidence",
+      "status": "accepted",
+      "provider": "Kaggle",
+      "kind": "Curso con certificado",
+      "language": "EN",
       "httpStatus": 200,
       "finalUrl": "https://www.kaggle.com/learn/intermediate-machine-learning"
     },
@@ -2157,8 +2145,10 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Intro to Deep Learning",
       "url": "https://www.kaggle.com/learn/intro-to-deep-learning",
-      "status": "rejected",
-      "reason": "no-free-credential-evidence",
+      "status": "accepted",
+      "provider": "Kaggle",
+      "kind": "Curso con certificado",
+      "language": "EN",
       "httpStatus": 200,
       "finalUrl": "https://www.kaggle.com/learn/intro-to-deep-learning"
     },
@@ -2179,8 +2169,10 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Feature Engineering",
       "url": "https://www.kaggle.com/learn/feature-engineering",
-      "status": "rejected",
-      "reason": "no-free-credential-evidence",
+      "status": "accepted",
+      "provider": "Kaggle",
+      "kind": "Curso con certificado",
+      "language": "EN",
       "httpStatus": 200,
       "finalUrl": "https://www.kaggle.com/learn/feature-engineering"
     },
@@ -2287,10 +2279,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "JavaScript Algorithms and Data Structures Certification",
       "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures",
-      "status": "accepted",
-      "provider": "freeCodeCamp",
-      "kind": "Certificación",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/"
     },
@@ -2319,10 +2309,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Scientific Computing with Python Certification",
       "url": "https://www.freecodecamp.org/learn/scientific-computing-with-python",
-      "status": "accepted",
-      "provider": "freeCodeCamp",
-      "kind": "Certificación",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/scientific-computing-with-python/"
     },
@@ -2353,8 +2341,10 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Pandas",
       "url": "https://www.kaggle.com/learn/pandas",
-      "status": "rejected",
-      "reason": "no-free-credential-evidence",
+      "status": "accepted",
+      "provider": "Kaggle",
+      "kind": "Curso con certificado",
+      "language": "EN",
       "httpStatus": 200,
       "finalUrl": "https://www.kaggle.com/learn/pandas"
     },
@@ -2461,10 +2451,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Information Security Certification",
       "url": "https://www.freecodecamp.org/learn/information-security",
-      "status": "accepted",
-      "provider": "freeCodeCamp",
-      "kind": "Certificación",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/information-security/"
     },
@@ -2588,8 +2576,8 @@
       "title": "Link",
       "url": "https://academy.tigera.io/course/certified-calico-operator-azure-expert",
       "status": "rejected",
-      "reason": "unreachable",
-      "httpStatus": 0
+      "reason": "inactive",
+      "httpStatus": 404
     },
     {
       "sourceType": "community",
