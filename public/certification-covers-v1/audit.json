@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-16T21:20:40.254Z",
-  "total": 192,
-  "ok": 192,
+  "generatedAt": "2026-11-17T20:07:42.355Z",
+  "total": 194,
+  "ok": 194,
   "failed": 0,
   "rows": [
     {
@@ -19,15 +19,15 @@
       "status": 200
     },
     {
-      "id": "carlos-slim-capacitate",
-      "title": "Capacítate para el Empleo",
+      "id": "google-skillshop-live",
+      "title": "Google Skillshop · capacitación y certificaciones oficiales",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
-      "id": "google-skillshop-live",
-      "title": "Google Skillshop · capacitación y certificaciones oficiales",
+      "id": "carlos-slim-capacitate",
+      "title": "Capacítate para el Empleo",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -89,15 +89,15 @@
       "status": 200
     },
     {
-      "id": "santander-python-2026",
-      "title": "Introducción a la programación con Python",
+      "id": "santander-tech-catalog",
+      "title": "Data, IA y Tecnología · catálogo vivo",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
-      "id": "santander-tech-catalog",
-      "title": "Data, IA y Tecnología · catálogo vivo",
+      "id": "santander-python-2026",
+      "title": "Introducción a la programación con Python",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -131,15 +131,15 @@
       "status": 200
     },
     {
-      "id": "mouredev-free-courses",
-      "title": "MoureDev · cursos gratuitos de programación",
+      "id": "hp-data-science",
+      "title": "Ciencia y Análisis de Datos",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
-      "id": "hp-data-science",
-      "title": "Ciencia y Análisis de Datos",
+      "id": "mouredev-free-courses",
+      "title": "MoureDev · cursos gratuitos de programación",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -166,15 +166,15 @@
       "status": 200
     },
     {
-      "id": "hubspot-content-marketing",
-      "title": "Certificación de Marketing de Contenidos",
+      "id": "hubspot-social-media",
+      "title": "Certificación de Marketing en Redes Sociales",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
-      "id": "hubspot-social-media",
-      "title": "Certificación de Marketing en Redes Sociales",
+      "id": "hubspot-content-marketing",
+      "title": "Certificación de Marketing de Contenidos",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -257,17 +257,17 @@
       "status": 200
     },
     {
-      "id": "live-mtpe-habilidades-digital",
-      "title": "Habilidades digital ...",
-      "ok": true,
-      "source": "Captura de la fuente oficial",
-      "status": 200
-    },
-    {
       "id": "live-hubspot-certificacion-de-content-hub-para-marketers-certificacion-3-horas-marketing",
       "title": "Certificación de Content Hub para marketers Certificación 3 horas Marketing",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
+      "status": 200
+    },
+    {
+      "id": "live-mtpe-habilidades-digital",
+      "title": "Habilidades digital ...",
+      "ok": true,
+      "source": "Captura de la fuente oficial",
       "status": 200
     },
     {
@@ -327,15 +327,15 @@
       "status": 200
     },
     {
-      "id": "live-platzi-free-curso-de-pagos-abiertos-con-interledger",
-      "title": "Curso de Pagos Abiertos con Interledger",
+      "id": "live-platzi-free-curso-gratis-de-estrategias-para-aprender-ingles-en-linea",
+      "title": "Curso Gratis de Estrategias para Aprender Inglés en Línea",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
-      "id": "live-platzi-free-curso-gratis-de-estrategias-para-aprender-ingles-en-linea",
-      "title": "Curso Gratis de Estrategias para Aprender Inglés en Línea",
+      "id": "live-platzi-free-curso-de-pagos-abiertos-con-interledger",
+      "title": "Curso de Pagos Abiertos con Interledger",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -404,13 +404,6 @@
       "status": 200
     },
     {
-      "id": "community-ibm-skillsbuild-customer-engagement-fundamentals",
-      "title": "Customer Engagement Fundamentals",
-      "ok": true,
-      "source": "Imagen oficial / Open Graph",
-      "status": 200
-    },
-    {
       "id": "google-developer-badges",
       "title": "Google Developer Program · distintivos",
       "ok": true,
@@ -418,15 +411,8 @@
       "status": 200
     },
     {
-      "id": "live-fazt-ia-feat-como-crear-un-proyecto-completo-con-higgsfield-supercomputer-saas-branding-web",
-      "title": "ia feat: Cómo Crear un Proyecto Completo con Higgsfield Supercomputer | SaaS + Branding + Web",
-      "ok": true,
-      "source": "Imagen oficial / Open Graph",
-      "status": 200
-    },
-    {
-      "id": "live-fazt-ia-feat-apis-de-ia-gratis-para-desarrolladores-prueba-nemotron-llama-y-qwen-sin-pagar",
-      "title": "ia feat: 🔑 APIs de IA Gratis para Desarrolladores: Prueba Nemotron, Llama y Qwen Sin Pagar",
+      "id": "live-fazt-ia-feat-claude-fable-5-2-el-mas-potente-de-anthropic-y-por-que-casi-nadie-lo-va-a-notar",
+      "title": "ia feat: Claude Fable 5.2: el más potente de Anthropic (y por qué casi nadie lo va a notar)",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -439,15 +425,22 @@
       "status": 200
     },
     {
-      "id": "live-fazt-ia-feat-el-stream-de-ia-que-banearon-de-twitch-y-kick-minimax-h3",
-      "title": "ia feat: El stream de IA que banearon de Twitch y Kick (Minimax H3)",
+      "id": "live-fazt-ia-feat-modelos-harnesses-y-orquestadores-lo-unico-que-importa-en-ia",
+      "title": "ia feat: Modelos, Harnesses y Orquestadores: Lo Único que Importa en IA",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
-      "id": "live-fazt-ia-feat-mi-setup-real-de-herdr-neovim-lazygit-yazi-y-claude-code-en-una-sola-terminal",
-      "title": "ia feat: Mi setup real de Herdr: Neovim, Lazygit, Yazi y Claude Code en una sola terminal",
+      "id": "live-fazt-ia-feat-que-son-los-agentes-de-ia-locales-y-por-que-deberias-tener-uno",
+      "title": "ia feat: Qué Son los Agentes de IA Locales y Por Qué Deberías Tener Uno",
+      "ok": true,
+      "source": "Imagen oficial / Open Graph",
+      "status": 200
+    },
+    {
+      "id": "live-fazt-web-feat-probe-todos-los-agentes-de-ia-para-codigo-esto-aprendi",
+      "title": "web feat: Probé TODOS los Agentes de IA para Código… Esto Aprendí",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -460,8 +453,8 @@
       "status": 200
     },
     {
-      "id": "live-fazt-ver-el-catalogo-gratis",
-      "title": "Ver el catálogo gratis",
+      "id": "fortinet-free-training",
+      "title": "Fortinet Training Institute · formación de ciberseguridad gratuita",
       "ok": true,
       "source": "Captura de la fuente oficial",
       "status": 200
@@ -474,8 +467,15 @@
       "status": 200
     },
     {
-      "id": "fortinet-free-training",
-      "title": "Fortinet Training Institute · formación de ciberseguridad gratuita",
+      "id": "github-skills-free",
+      "title": "GitHub Skills · cursos interactivos gratuitos",
+      "ok": true,
+      "source": "Imagen oficial / Open Graph",
+      "status": 200
+    },
+    {
+      "id": "live-fazt-ver-el-catalogo-gratis",
+      "title": "Ver el catálogo gratis",
       "ok": true,
       "source": "Captura de la fuente oficial",
       "status": 200
@@ -488,13 +488,6 @@
       "status": 200
     },
     {
-      "id": "github-skills-free",
-      "title": "GitHub Skills · cursos interactivos gratuitos",
-      "ok": true,
-      "source": "Imagen oficial / Open Graph",
-      "status": 200
-    },
-    {
       "id": "sap-learning-free",
       "title": "SAP Learning · cursos self-paced gratuitos",
       "ok": true,
@@ -502,8 +495,8 @@
       "status": 200
     },
     {
-      "id": "live-mongodb-list-of-self-paced-topics",
-      "title": "list of self-paced topics",
+      "id": "live-mongodb-certification",
+      "title": "Certification",
       "ok": true,
       "source": "Captura de la fuente oficial",
       "status": 200
@@ -516,20 +509,6 @@
       "status": 200
     },
     {
-      "id": "live-mongodb-skills-and-certificationsdevelop-in-demand-skills-and-earn-mongodb-certifications",
-      "title": "Skills and CertificationsDevelop in-demand skills and earn MongoDB certifications",
-      "ok": true,
-      "source": "Captura de la fuente oficial",
-      "status": 200
-    },
-    {
-      "id": "live-mongodb-certification",
-      "title": "Certification",
-      "ok": true,
-      "source": "Captura de la fuente oficial",
-      "status": 200
-    },
-    {
       "id": "live-sap-artificial-intelligence-develop-practical-ai-skills-with-guided-learning-and-recognized-certifications",
       "title": "Artificial Intelligence Develop practical AI skills with guided learning and recognized certifications.",
       "ok": true,
@@ -537,15 +516,22 @@
       "status": 200
     },
     {
-      "id": "live-sap-claim-your-exam-voucher",
-      "title": "Claim your exam voucher",
+      "id": "live-mongodb-skills-and-certificationsdevelop-in-demand-skills-and-earn-mongodb-certifications",
+      "title": "Skills and CertificationsDevelop in-demand skills and earn MongoDB certifications",
       "ok": true,
-      "source": "Imagen oficial / Open Graph",
+      "source": "Captura de la fuente oficial",
       "status": 200
     },
     {
       "id": "live-sap-autonomous-enterprise-build-skills-for-ai-driven-transformations",
       "title": "Autonomous Enterprise Build skills for AI‑driven transformations.",
+      "ok": true,
+      "source": "Imagen oficial / Open Graph",
+      "status": 200
+    },
+    {
+      "id": "live-sap-claim-your-exam-voucher",
+      "title": "Claim your exam voucher",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -588,6 +574,13 @@
     {
       "id": "live-sap-learning-journey-exploring-sap-data-services",
       "title": "LEARNING JOURNEY Exploring SAP Data Services",
+      "ok": true,
+      "source": "Imagen oficial / Open Graph",
+      "status": 200
+    },
+    {
+      "id": "live-sap-learning-journey-exploring-sap-integrated-product-development",
+      "title": "LEARNING JOURNEY Exploring SAP Integrated Product Development",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -642,15 +635,15 @@
       "status": 200
     },
     {
-      "id": "live-sap-learning-journey-mastering-customer-conversations-about-financial-closing-assistant",
-      "title": "LEARNING JOURNEY Mastering Customer Conversations about Financial Closing Assistant",
+      "id": "live-sap-learning-journey-winning-customer-conversations-mastering-the-sap-deal-qualification-assistant",
+      "title": "LEARNING JOURNEY Winning Customer Conversations — Mastering the SAP Deal Qualification Assistant",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
-      "id": "live-sap-learning-journey-winning-customer-conversations-mastering-the-sap-deal-qualification-assistant",
-      "title": "LEARNING JOURNEY Winning Customer Conversations — Mastering the SAP Deal Qualification Assistant",
+      "id": "live-sap-learning-journey-mastering-customer-conversations-about-financial-closing-assistant",
+      "title": "LEARNING JOURNEY Mastering Customer Conversations about Financial Closing Assistant",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -663,15 +656,8 @@
       "status": 400
     },
     {
-      "id": "live-sap-learning-journeys",
-      "title": "Learning journeys",
-      "ok": true,
-      "source": "Imagen oficial / Open Graph",
-      "status": 200
-    },
-    {
-      "id": "live-sap-learning-managers-enable-effective-sap-skills-development-empower-teams-with-smarter-sap-learning",
-      "title": "Learning managers Enable effective SAP skills development: Empower teams with smarter SAP learning.",
+      "id": "live-sap-self-paced-courses",
+      "title": "Self-paced courses",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -684,15 +670,15 @@
       "status": 200
     },
     {
-      "id": "live-sap-self-paced-courses",
-      "title": "Self-paced courses",
+      "id": "live-sap-learning-journeys",
+      "title": "Learning journeys",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
-      "id": "live-sap-technology-platform-learn-integration-data-and-app-development-with-sap-btp",
-      "title": "Technology platform Learn integration, data, and app development with SAP BTP.",
+      "id": "aws-training-badges",
+      "title": "AWS Training Badges",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -705,8 +691,15 @@
       "status": 403
     },
     {
-      "id": "aws-training-badges",
-      "title": "AWS Training Badges",
+      "id": "live-sap-technology-platform-learn-integration-data-and-app-development-with-sap-btp",
+      "title": "Technology platform Learn integration, data, and app development with SAP BTP.",
+      "ok": true,
+      "source": "Imagen oficial / Open Graph",
+      "status": 200
+    },
+    {
+      "id": "microsoft-ai-agent-applied-skill",
+      "title": "Microsoft Applied Skills · Create an AI agent",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -721,13 +714,6 @@
     {
       "id": "neo4j-graphacademy-certifications",
       "title": "Neo4j GraphAcademy · certificaciones gratuitas",
-      "ok": true,
-      "source": "Imagen oficial / Open Graph",
-      "status": 200
-    },
-    {
-      "id": "microsoft-ai-agent-applied-skill",
-      "title": "Microsoft Applied Skills · Create an AI agent",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -761,15 +747,15 @@
       "status": 403
     },
     {
-      "id": "live-kaggle-advanced-sql-take-your-sql-skills-to-the-next-level",
-      "title": "Advanced SQL Take your SQL skills to the next level.",
+      "id": "live-kaggle-data-cleaning-master-efficient-workflows-for-cleaning-real-world-messy-data",
+      "title": "Data Cleaning Master efficient workflows for cleaning real-world, messy data.",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
-      "id": "live-kaggle-data-cleaning-master-efficient-workflows-for-cleaning-real-world-messy-data",
-      "title": "Data Cleaning Master efficient workflows for cleaning real-world, messy data.",
+      "id": "live-kaggle-advanced-sql-take-your-sql-skills-to-the-next-level",
+      "title": "Advanced SQL Take your SQL skills to the next level.",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -782,15 +768,15 @@
       "status": 200
     },
     {
-      "id": "live-kaggle-feature-engineering-better-features-make-better-models-discover-how-to-get-the-most-out-of-your-data",
-      "title": "Feature Engineering Better features make better models. Discover how to get the most out of your data.",
+      "id": "live-kaggle-geospatial-analysis-create-interactive-maps-and-discover-patterns-in-geospatial-data",
+      "title": "Geospatial Analysis Create interactive maps, and discover patterns in geospatial data.",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
-      "id": "live-kaggle-geospatial-analysis-create-interactive-maps-and-discover-patterns-in-geospatial-data",
-      "title": "Geospatial Analysis Create interactive maps, and discover patterns in geospatial data.",
+      "id": "live-kaggle-feature-engineering-better-features-make-better-models-discover-how-to-get-the-most-out-of-your-data",
+      "title": "Feature Engineering Better features make better models. Discover how to get the most out of your data.",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -908,15 +894,15 @@
       "status": 200
     },
     {
-      "id": "live-saylor-cs250-python-for-data-science",
-      "title": "CS250: Python for Data Science",
+      "id": "live-saylor-cs260-introduction-to-cryptography-and-network-security",
+      "title": "CS260: Introduction to Cryptography and Network Security",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
-      "id": "live-saylor-cs260-introduction-to-cryptography-and-network-security",
-      "title": "CS260: Introduction to Cryptography and Network Security",
+      "id": "live-saylor-cs250-python-for-data-science",
+      "title": "CS250: Python for Data Science",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -929,15 +915,15 @@
       "status": 200
     },
     {
-      "id": "live-saylor-cs402-computer-communications-and-networks",
-      "title": "CS402: Computer Communications and Networks",
+      "id": "live-saylor-cs302-software-engineering",
+      "title": "CS302: Software Engineering",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
-      "id": "live-saylor-cs302-software-engineering",
-      "title": "CS302: Software Engineering",
+      "id": "live-saylor-cs402-computer-communications-and-networks",
+      "title": "CS402: Computer Communications and Networks",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -950,17 +936,17 @@
       "status": 200
     },
     {
-      "id": "live-saylor-cs406-information-security",
-      "title": "CS406: Information Security",
-      "ok": true,
-      "source": "Imagen oficial / Open Graph",
-      "status": 200
-    },
-    {
       "id": "live-saylor-degree-programs",
       "title": "Degree Programs",
       "ok": true,
       "source": "Captura de la fuente oficial",
+      "status": 200
+    },
+    {
+      "id": "live-saylor-cs406-information-security",
+      "title": "CS406: Information Security",
+      "ok": true,
+      "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
@@ -1090,15 +1076,15 @@
       "status": 200
     },
     {
-      "id": "community-cognitive-class-r-101",
-      "title": "R 101",
+      "id": "community-cognitive-class-python-for-data-science",
+      "title": "Python for Data Science",
       "ok": true,
       "source": "Captura de la fuente oficial",
       "status": 200
     },
     {
-      "id": "community-cognitive-class-python-for-data-science",
-      "title": "Python for Data Science",
+      "id": "community-cognitive-class-r-101",
+      "title": "R 101",
       "ok": true,
       "source": "Captura de la fuente oficial",
       "status": 200
@@ -1118,17 +1104,38 @@
       "status": 200
     },
     {
-      "id": "community-hp-life-agile-project-management",
-      "title": "Agile Project Management",
+      "id": "community-cognitive-class-using-r-with-databases",
+      "title": "Using R with Databases",
+      "ok": true,
+      "source": "Captura de la fuente oficial",
+      "status": 200
+    },
+    {
+      "id": "community-freecodecamp-machine-learning-with-python-certification",
+      "title": "Machine Learning with Python Certification",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
-      "id": "community-cognitive-class-using-r-with-databases",
-      "title": "Using R with Databases",
+      "id": "community-freecodecamp-responsive-web-design-certification",
+      "title": "Responsive Web Design Certification",
       "ok": true,
-      "source": "Captura de la fuente oficial",
+      "source": "Imagen oficial / Open Graph",
+      "status": 200
+    },
+    {
+      "id": "community-freecodecamp-scientific-computing-with-python-certification",
+      "title": "Scientific Computing with Python Certification",
+      "ok": true,
+      "source": "Imagen oficial / Open Graph",
+      "status": 200
+    },
+    {
+      "id": "community-hp-life-agile-project-management",
+      "title": "Agile Project Management",
+      "ok": true,
+      "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
@@ -1307,6 +1314,13 @@
       "status": 200
     },
     {
+      "id": "community-ibm-skillsbuild-customer-engagement-fundamentals",
+      "title": "Customer Engagement Fundamentals",
+      "ok": true,
+      "source": "Imagen oficial / Open Graph",
+      "status": 200
+    },
+    {
       "id": "community-knime-knime-90-day-data-skills-certification-challenge",
       "title": "KNIME 90-Day Data Skills Certification Challenge",
       "ok": true,
@@ -1314,15 +1328,15 @@
       "status": 200
     },
     {
-      "id": "community-saylor-university-bitcoin-for-developers",
-      "title": "Bitcoin for Developers",
+      "id": "community-saylor-university-cs202-discrete-structures",
+      "title": "CS202: Discrete Structures",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
-      "id": "community-saylor-university-cs202-discrete-structures",
-      "title": "CS202: Discrete Structures",
+      "id": "community-saylor-university-bitcoin-for-developers",
+      "title": "Bitcoin for Developers",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200

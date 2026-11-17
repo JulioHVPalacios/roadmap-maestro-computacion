@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-16T21:13:49.302Z",
-  "total": 192,
+  "generatedAt": "2026-11-17T20:00:54.666Z",
+  "total": 194,
   "spanishFirst": true,
   "discoveryEngines": {
     "officialCatalogs": 19,
@@ -34,7 +34,7 @@
       "featured": true,
       "level": "Todos",
       "sourceType": "seed",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -58,7 +58,7 @@
       "featured": true,
       "level": "Todos",
       "sourceType": "seed",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -81,7 +81,7 @@
       "featured": true,
       "level": "Todos",
       "sourceType": "seed",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -106,7 +106,7 @@
       "featured": true,
       "level": "Todos",
       "sourceType": "seed",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -131,7 +131,7 @@
       "duration": "~1 h",
       "level": "Inicial",
       "sourceType": "seed",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -155,7 +155,7 @@
       "duration": "~1 h",
       "level": "Inicial",
       "sourceType": "seed",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -179,7 +179,7 @@
       "duration": "6 h",
       "level": "Inicial",
       "sourceType": "seed",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -203,7 +203,7 @@
       "featured": true,
       "level": "Todos",
       "sourceType": "seed",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -228,7 +228,7 @@
       "featured": true,
       "level": "Todos",
       "sourceType": "seed",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -252,7 +252,7 @@
       "featured": true,
       "level": "Todos",
       "sourceType": "seed",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -277,7 +277,7 @@
       "featured": true,
       "level": "Todos",
       "sourceType": "seed",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -301,7 +301,7 @@
       "featured": true,
       "level": "Todos",
       "sourceType": "seed",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -327,7 +327,7 @@
       "expiresAt": "2026-12-31",
       "level": "Inicial",
       "sourceType": "seed",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -351,7 +351,7 @@
       "featured": true,
       "level": "Todos",
       "sourceType": "seed",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -375,7 +375,7 @@
       "featured": true,
       "level": "Todos",
       "sourceType": "seed",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -400,7 +400,7 @@
       "featured": true,
       "level": "Todos",
       "sourceType": "seed",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -424,7 +424,7 @@
       "featured": true,
       "level": "Todos",
       "sourceType": "seed",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -449,7 +449,7 @@
       "featured": true,
       "level": "Todos",
       "sourceType": "seed",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -474,7 +474,7 @@
       "featured": true,
       "level": "Todos",
       "sourceType": "seed",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -498,7 +498,7 @@
       "duration": "~1 h",
       "level": "Inicial",
       "sourceType": "seed",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -522,7 +522,7 @@
       "duration": "~1 h",
       "level": "Inicial",
       "sourceType": "seed",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -545,7 +545,7 @@
       "duration": "~1 h",
       "level": "Inicial",
       "sourceType": "seed",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -569,7 +569,7 @@
       "duration": "~1 h",
       "level": "Inicial",
       "sourceType": "seed",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -592,7 +592,7 @@
       "duration": "9 h",
       "level": "Inicial",
       "sourceType": "seed",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -615,7 +615,7 @@
       "duration": "6 h",
       "level": "Inicial",
       "sourceType": "seed",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -639,7 +639,7 @@
       "duration": "7 h",
       "level": "Inicial",
       "sourceType": "seed",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -663,7 +663,7 @@
       "duration": "7 h",
       "level": "Inicial",
       "sourceType": "seed",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -686,7 +686,7 @@
       "credentialLabel": "Applied Skills · evaluación práctica gratuita",
       "level": "Intermedio",
       "sourceType": "seed",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -709,7 +709,7 @@
       "credentialLabel": "Certificación gratuita",
       "level": "Todos",
       "sourceType": "seed",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -732,7 +732,7 @@
       "credentialLabel": "Certificados gratuitos",
       "level": "Todos",
       "sourceType": "seed",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -758,7 +758,7 @@
       "expiresAt": "2026-12-31",
       "level": "Inicial",
       "sourceType": "seed",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -780,7 +780,7 @@
       "credentialLabel": "Certificación gratuita",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -802,7 +802,7 @@
       "credentialLabel": "Certificación gratuita",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -824,7 +824,7 @@
       "credentialLabel": "Certificación gratuita",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -845,7 +845,7 @@
       "credentialLabel": "Certificación gratuita",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -867,7 +867,7 @@
       "credentialLabel": "Certificación gratuita",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -889,7 +889,7 @@
       "credentialLabel": "Certificación gratuita",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -912,7 +912,7 @@
       "credentialLabel": "Certificación gratuita",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -935,7 +935,7 @@
       "credentialLabel": "Certificación gratuita",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -959,7 +959,7 @@
       "credentialLabel": "Certificación gratuita",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -982,7 +982,7 @@
       "credentialLabel": "Certificación gratuita",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -1007,7 +1007,7 @@
       "credentialLabel": "Certificación gratuita",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -1031,7 +1031,7 @@
       "credentialLabel": "Certificación gratuita",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -1055,7 +1055,7 @@
       "credentialLabel": "Certificación gratuita",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -1079,7 +1079,7 @@
       "credentialLabel": "Certificación gratuita",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -1102,7 +1102,7 @@
       "credentialLabel": "Certificación gratuita",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -1125,7 +1125,7 @@
       "credentialLabel": "Curso gratuito con certificado",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -1150,7 +1150,7 @@
       "credentialLabel": "Curso gratuito con certificado",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -1174,7 +1174,7 @@
       "credentialLabel": "Curso gratuito con certificado",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -1197,7 +1197,7 @@
       "credentialLabel": "Curso gratuito con certificado",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -1220,7 +1220,7 @@
       "credentialLabel": "Curso gratuito con certificado",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -1243,7 +1243,7 @@
       "credentialLabel": "Curso gratuito con certificado",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -1265,7 +1265,7 @@
       "credentialLabel": "Curso gratuito con certificado",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -1286,14 +1286,14 @@
       "credentialLabel": "Curso gratuito con certificado",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
       "id": "community-aws-aws-restart",
       "title": "AWS restart",
       "provider": "AWS",
-      "description": "AWS: Saltar al contenido principal English Contáctenos AWS Marketplace Soporte Mi cuenta re:Invent Descubra AWS Productos Soluciones Precios Recursos Búsqueda Iniciar sesión en la consola Crear cuenta Formación y certificación Reciba f…",
+      "description": "AWS: Saltar al contenido principal Español Contáctenos AWS Marketplace Soporte Mi cuenta re:Invent Descubra AWS Productos Soluciones Precios Recursos Búsqueda Iniciar sesión en la consola Crear cuenta Formación y certificación Reciba f…",
       "category": "Programación y web",
       "language": "ES",
       "kind": "Certificación",
@@ -1309,7 +1309,7 @@
       "credentialLabel": "Credencial/certificado gratuito verificado",
       "level": "Todos",
       "sourceType": "community-verified",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -1332,7 +1332,7 @@
       "credentialLabel": "Credencial/certificado gratuito verificado",
       "level": "Todos",
       "sourceType": "community-verified",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -1355,30 +1355,7 @@
       "credentialLabel": "Credencial/certificado gratuito verificado",
       "level": "Todos",
       "sourceType": "community-verified",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
-      "status": "active"
-    },
-    {
-      "id": "community-ibm-skillsbuild-customer-engagement-fundamentals",
-      "title": "Customer Engagement Fundamentals",
-      "provider": "IBM SkillsBuild",
-      "description": "IBM SkillsBuild: Skip to main content SkillsBuild Adult learners University High school Learning catalog Events Log inSign up IBM SkillsBuild learning catalog Adult learners University High school Catalog filter Artificial Intelligence Business & …",
-      "category": "Programación y web",
-      "language": "ES",
-      "kind": "Credencial",
-      "url": "https://skillsbuild.org/learning-catalog",
-      "tags": [
-        "IBM SkillsBuild",
-        "verificado",
-        "gratis",
-        "Credencial"
-      ],
-      "courseFree": true,
-      "credentialFree": true,
-      "credentialLabel": "Credencial/certificado gratuito verificado",
-      "level": "Todos",
-      "sourceType": "community-verified",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -1402,7 +1379,7 @@
       "credentialLabel": "Distintivos digitales",
       "level": "Todos",
       "sourceType": "seed",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -1426,18 +1403,18 @@
       "credentialLabel": "Contenido abierto gratis · academia/certificado de pago",
       "level": "Todos",
       "sourceType": "seed",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
-      "id": "live-fazt-ia-feat-apis-de-ia-gratis-para-desarrolladores-prueba-nemotron-llama-y-qwen-sin-pagar",
-      "title": "ia feat: 🔑 APIs de IA Gratis para Desarrolladores: Prueba Nemotron, Llama y Qwen Sin Pagar",
+      "id": "live-fazt-ia-feat-claude-fable-5-2-el-mas-potente-de-anthropic-y-por-que-casi-nadie-lo-va-a-notar",
+      "title": "ia feat: Claude Fable 5.2: el más potente de Anthropic (y por qué casi nadie lo va a notar)",
       "provider": "Fazt",
       "description": "Opción detectada automáticamente en el catálogo oficial de Fazt. Campus Maestro comprueba el enlace antes de publicarlo.",
       "category": "Datos e IA",
       "language": "ES",
       "kind": "Curso gratuito",
-      "url": "https://fazt.dev/contenido/apis-llm-gratis-2026-openrouter-gemini-nvidia",
+      "url": "https://fazt.dev/contenido/claude-fable-5-2",
       "catalogUrl": "https://fazt.dev/",
       "tags": [
         "Fazt",
@@ -1448,40 +1425,18 @@
       "credentialLabel": "Curso/video gratuito",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
-      "id": "live-fazt-ia-feat-como-crear-un-proyecto-completo-con-higgsfield-supercomputer-saas-branding-web",
-      "title": "ia feat: Cómo Crear un Proyecto Completo con Higgsfield Supercomputer | SaaS + Branding + Web",
-      "provider": "Fazt",
-      "description": "Opción detectada automáticamente en el catálogo oficial de Fazt. Campus Maestro comprueba el enlace antes de publicarlo.",
-      "category": "Programación y web",
-      "language": "ES",
-      "kind": "Curso gratuito",
-      "url": "https://fazt.dev/contenido/como-crear-proyecto-completo-higgsfield-supercomputer",
-      "catalogUrl": "https://fazt.dev/",
-      "tags": [
-        "Fazt",
-        "ia"
-      ],
-      "courseFree": true,
-      "credentialFree": false,
-      "credentialLabel": "Curso/video gratuito",
-      "level": "Todos",
-      "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
-      "status": "active"
-    },
-    {
-      "id": "live-fazt-ia-feat-el-stream-de-ia-que-banearon-de-twitch-y-kick-minimax-h3",
-      "title": "ia feat: El stream de IA que banearon de Twitch y Kick (Minimax H3)",
+      "id": "live-fazt-ia-feat-modelos-harnesses-y-orquestadores-lo-unico-que-importa-en-ia",
+      "title": "ia feat: Modelos, Harnesses y Orquestadores: Lo Único que Importa en IA",
       "provider": "Fazt",
       "description": "Opción detectada automáticamente en el catálogo oficial de Fazt. Campus Maestro comprueba el enlace antes de publicarlo.",
       "category": "Datos e IA",
       "language": "ES",
       "kind": "Curso gratuito",
-      "url": "https://fazt.dev/contenido/streaming-ia-minimax-h3-ban-twitch-kick-fal",
+      "url": "https://fazt.dev/contenido/modelos-harnesses-orquestadores-piramide-ia",
       "catalogUrl": "https://fazt.dev/",
       "tags": [
         "Fazt",
@@ -1492,18 +1447,18 @@
       "credentialLabel": "Curso/video gratuito",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
-      "id": "live-fazt-ia-feat-mi-setup-real-de-herdr-neovim-lazygit-yazi-y-claude-code-en-una-sola-terminal",
-      "title": "ia feat: Mi setup real de Herdr: Neovim, Lazygit, Yazi y Claude Code en una sola terminal",
+      "id": "live-fazt-ia-feat-que-son-los-agentes-de-ia-locales-y-por-que-deberias-tener-uno",
+      "title": "ia feat: Qué Son los Agentes de IA Locales y Por Qué Deberías Tener Uno",
       "provider": "Fazt",
       "description": "Opción detectada automáticamente en el catálogo oficial de Fazt. Campus Maestro comprueba el enlace antes de publicarlo.",
       "category": "Datos e IA",
       "language": "ES",
       "kind": "Curso gratuito",
-      "url": "https://fazt.dev/contenido/setup-herdr-neovim-lazygit-yazi-claude-code",
+      "url": "https://fazt.dev/contenido/que-son-agentes-ia-locales-openclaw-hermes",
       "catalogUrl": "https://fazt.dev/",
       "tags": [
         "Fazt",
@@ -1514,7 +1469,7 @@
       "credentialLabel": "Curso/video gratuito",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -1535,7 +1490,29 @@
       "credentialLabel": "Curso/video gratuito",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
+      "status": "active"
+    },
+    {
+      "id": "live-fazt-web-feat-probe-todos-los-agentes-de-ia-para-codigo-esto-aprendi",
+      "title": "web feat: Probé TODOS los Agentes de IA para Código… Esto Aprendí",
+      "provider": "Fazt",
+      "description": "Opción detectada automáticamente en el catálogo oficial de Fazt. Campus Maestro comprueba el enlace antes de publicarlo.",
+      "category": "Programación y web",
+      "language": "ES",
+      "kind": "Curso gratuito",
+      "url": "https://fazt.dev/contenido/agentes-ia-programar-2026",
+      "catalogUrl": "https://fazt.dev/",
+      "tags": [
+        "Fazt",
+        "ia"
+      ],
+      "courseFree": true,
+      "credentialFree": false,
+      "credentialLabel": "Curso/video gratuito",
+      "level": "Todos",
+      "sourceType": "discovered",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -1560,7 +1537,7 @@
       "featured": true,
       "level": "Todos",
       "sourceType": "seed",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -1584,7 +1561,7 @@
       "featured": true,
       "level": "Todos",
       "sourceType": "seed",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -1607,7 +1584,7 @@
       "credentialLabel": "Formación gratuita · certificación profesional aparte",
       "level": "Todos",
       "sourceType": "seed",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -1631,7 +1608,7 @@
       "credentialLabel": "Cursos gratis · certificación profesional aparte",
       "level": "Todos",
       "sourceType": "seed",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -1655,7 +1632,7 @@
       "credentialLabel": "Formación gratis · examen de certificación aparte",
       "level": "Todos",
       "sourceType": "seed",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -1678,7 +1655,7 @@
       "credentialLabel": "Cursos gratuitos · certificación profesional aparte",
       "level": "Todos",
       "sourceType": "seed",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -1699,28 +1676,7 @@
       "credentialLabel": "Curso gratuito · Skill Badges en rutas seleccionadas",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
-      "status": "active"
-    },
-    {
-      "id": "live-mongodb-list-of-self-paced-topics",
-      "title": "list of self-paced topics",
-      "provider": "MongoDB University",
-      "description": "Opción detectada automáticamente en el catálogo oficial de MongoDB University. Campus Maestro comprueba el enlace antes de publicarlo.",
-      "category": "Datos e IA",
-      "language": "ES/EN",
-      "kind": "Curso gratuito",
-      "url": "https://learn.mongodb.com/self-paced-topics",
-      "catalogUrl": "https://learn.mongodb.com/catalog?labels=%5B%22Free%2FPaid%22%5D&values=%5B%22Free%22%5D",
-      "tags": [
-        "MongoDB University"
-      ],
-      "courseFree": true,
-      "credentialFree": false,
-      "credentialLabel": "Curso gratuito · Skill Badges en rutas seleccionadas",
-      "level": "Todos",
-      "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -1741,7 +1697,7 @@
       "credentialLabel": "Curso gratuito · Skill Badges en rutas seleccionadas",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -1763,7 +1719,7 @@
       "credentialLabel": "Curso gratuito · Skill Badges en rutas seleccionadas",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -1785,7 +1741,7 @@
       "credentialLabel": "Curso self-paced gratuito",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -1807,7 +1763,7 @@
       "credentialLabel": "Curso self-paced gratuito",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -1829,7 +1785,7 @@
       "credentialLabel": "Curso self-paced gratuito",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -1850,7 +1806,7 @@
       "credentialLabel": "Curso self-paced gratuito",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -1875,7 +1831,7 @@
       "credentialLabel": "Curso self-paced gratuito",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -1899,7 +1855,7 @@
       "credentialLabel": "Curso self-paced gratuito",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -1920,7 +1876,7 @@
       "credentialLabel": "Curso self-paced gratuito",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -1941,7 +1897,7 @@
       "credentialLabel": "Curso self-paced gratuito",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -1964,7 +1920,29 @@
       "credentialLabel": "Curso self-paced gratuito",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
+      "status": "active"
+    },
+    {
+      "id": "live-sap-learning-journey-exploring-sap-integrated-product-development",
+      "title": "LEARNING JOURNEY Exploring SAP Integrated Product Development",
+      "provider": "SAP Learning",
+      "description": "Opción detectada automáticamente en el catálogo oficial de SAP Learning. Campus Maestro comprueba el enlace antes de publicarlo.",
+      "category": "Cloud y DevOps",
+      "language": "ES/EN",
+      "kind": "Curso gratuito",
+      "url": "https://learning.sap.com/learning-journeys/exploring-sap-integrated-product-development",
+      "catalogUrl": "https://learning.sap.com/",
+      "tags": [
+        "SAP Learning",
+        "sap"
+      ],
+      "courseFree": true,
+      "credentialFree": false,
+      "credentialLabel": "Curso self-paced gratuito",
+      "level": "Todos",
+      "sourceType": "discovered",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -1986,7 +1964,7 @@
       "credentialLabel": "Curso self-paced gratuito",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -2008,7 +1986,7 @@
       "credentialLabel": "Curso self-paced gratuito",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -2030,7 +2008,7 @@
       "credentialLabel": "Curso self-paced gratuito",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -2053,7 +2031,7 @@
       "credentialLabel": "Curso self-paced gratuito",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -2075,7 +2053,7 @@
       "credentialLabel": "Curso self-paced gratuito",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -2096,7 +2074,7 @@
       "credentialLabel": "Curso self-paced gratuito",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -2119,7 +2097,7 @@
       "credentialLabel": "Curso self-paced gratuito",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -2140,7 +2118,7 @@
       "credentialLabel": "Curso self-paced gratuito",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -2162,7 +2140,7 @@
       "credentialLabel": "Curso self-paced gratuito",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -2184,7 +2162,7 @@
       "credentialLabel": "Curso self-paced gratuito",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -2205,29 +2183,7 @@
       "credentialLabel": "Curso self-paced gratuito",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
-      "status": "active"
-    },
-    {
-      "id": "live-sap-learning-managers-enable-effective-sap-skills-development-empower-teams-with-smarter-sap-learning",
-      "title": "Learning managers Enable effective SAP skills development: Empower teams with smarter SAP learning.",
-      "provider": "SAP Learning",
-      "description": "Opción detectada automáticamente en el catálogo oficial de SAP Learning. Campus Maestro comprueba el enlace antes de publicarlo.",
-      "category": "Cloud y DevOps",
-      "language": "ES/EN",
-      "kind": "Curso gratuito",
-      "url": "https://learning.sap.com/learning-managers",
-      "catalogUrl": "https://learning.sap.com/",
-      "tags": [
-        "SAP Learning",
-        "sap"
-      ],
-      "courseFree": true,
-      "credentialFree": false,
-      "credentialLabel": "Curso self-paced gratuito",
-      "level": "Todos",
-      "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -2252,7 +2208,7 @@
       "credentialLabel": "Curso self-paced gratuito",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -2273,7 +2229,7 @@
       "credentialLabel": "Curso self-paced gratuito",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -2298,7 +2254,7 @@
       "credentialLabel": "Curso self-paced gratuito",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -2322,7 +2278,7 @@
       "featured": true,
       "level": "Todos",
       "sourceType": "seed",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -2347,7 +2303,7 @@
       "featured": true,
       "level": "Todos",
       "sourceType": "seed",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -2372,7 +2328,7 @@
       "featured": true,
       "level": "Todos",
       "sourceType": "seed",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -2396,7 +2352,7 @@
       "featured": true,
       "level": "Inicial",
       "sourceType": "seed",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -2420,7 +2376,7 @@
       "featured": true,
       "level": "Todos",
       "sourceType": "seed",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -2444,7 +2400,7 @@
       "featured": true,
       "level": "Todos",
       "sourceType": "seed",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -2467,7 +2423,7 @@
       "credentialLabel": "Evaluación de credencial gratuita",
       "level": "Inicial",
       "sourceType": "seed",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -2489,7 +2445,7 @@
       "credentialLabel": "Declaración de participación gratuita",
       "level": "Todos",
       "sourceType": "seed",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -2511,7 +2467,7 @@
       "credentialLabel": "Badge + declaración de participación gratis",
       "level": "Inicial",
       "sourceType": "seed",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -2533,7 +2489,7 @@
       "credentialLabel": "Certificado gratuito",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -2555,7 +2511,7 @@
       "credentialLabel": "Certificado gratuito",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -2578,7 +2534,7 @@
       "credentialLabel": "Certificado gratuito",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -2600,7 +2556,7 @@
       "credentialLabel": "Certificado gratuito",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -2622,7 +2578,7 @@
       "credentialLabel": "Certificado gratuito",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -2645,7 +2601,7 @@
       "credentialLabel": "Certificado gratuito",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -2668,7 +2624,7 @@
       "credentialLabel": "Certificado gratuito",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -2692,7 +2648,7 @@
       "credentialLabel": "Certificado gratuito",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -2714,7 +2670,7 @@
       "credentialLabel": "Certificado gratuito",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -2736,7 +2692,7 @@
       "credentialLabel": "Certificado gratuito",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -2758,7 +2714,7 @@
       "credentialLabel": "Certificado gratuito",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -2781,7 +2737,7 @@
       "credentialLabel": "Certificado gratuito",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -2804,7 +2760,7 @@
       "credentialLabel": "Certificado gratuito",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -2827,7 +2783,7 @@
       "credentialLabel": "Certificado gratuito",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -2850,7 +2806,7 @@
       "credentialLabel": "Certificado gratuito",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -2872,7 +2828,7 @@
       "credentialLabel": "Certificado gratuito",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -2894,7 +2850,7 @@
       "credentialLabel": "Certificado gratuito",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -2916,7 +2872,7 @@
       "credentialLabel": "Certificado gratuito",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -2938,7 +2894,7 @@
       "credentialLabel": "Certificado gratuito",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -2960,7 +2916,7 @@
       "credentialLabel": "Certificado gratuito",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -2982,7 +2938,7 @@
       "credentialLabel": "Certificado gratuito",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -3004,7 +2960,7 @@
       "credentialLabel": "Certificado gratuito",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -3026,7 +2982,7 @@
       "credentialLabel": "Certificado gratuito",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -3048,7 +3004,7 @@
       "credentialLabel": "Certificado gratuito",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -3070,7 +3026,7 @@
       "credentialLabel": "Certificado gratuito",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -3093,7 +3049,7 @@
       "credentialLabel": "Certificado gratuito",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -3115,7 +3071,7 @@
       "credentialLabel": "Certificado gratuito",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -3137,7 +3093,7 @@
       "credentialLabel": "Certificado gratuito",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -3159,7 +3115,7 @@
       "credentialLabel": "Certificado gratuito",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -3180,7 +3136,7 @@
       "credentialLabel": "Certificado gratuito",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -3202,7 +3158,7 @@
       "credentialLabel": "Certificado gratuito",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -3223,7 +3179,7 @@
       "credentialLabel": "Certificado gratuito",
       "level": "Todos",
       "sourceType": "discovered",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -3246,7 +3202,7 @@
       "credentialLabel": "Credencial/certificado gratuito verificado",
       "level": "Todos",
       "sourceType": "community-verified",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -3269,7 +3225,7 @@
       "credentialLabel": "Insignia gratuita verificada",
       "level": "Todos",
       "sourceType": "community-verified",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -3292,7 +3248,7 @@
       "credentialLabel": "Insignia gratuita verificada",
       "level": "Todos",
       "sourceType": "community-verified",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -3315,7 +3271,7 @@
       "credentialLabel": "Insignia gratuita verificada",
       "level": "Todos",
       "sourceType": "community-verified",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -3338,7 +3294,7 @@
       "credentialLabel": "Insignia gratuita verificada",
       "level": "Todos",
       "sourceType": "community-verified",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -3361,7 +3317,7 @@
       "credentialLabel": "Insignia gratuita verificada",
       "level": "Todos",
       "sourceType": "community-verified",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -3384,7 +3340,7 @@
       "credentialLabel": "Insignia gratuita verificada",
       "level": "Todos",
       "sourceType": "community-verified",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -3407,7 +3363,7 @@
       "credentialLabel": "Insignia gratuita verificada",
       "level": "Todos",
       "sourceType": "community-verified",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -3430,7 +3386,7 @@
       "credentialLabel": "Insignia gratuita verificada",
       "level": "Todos",
       "sourceType": "community-verified",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -3453,7 +3409,7 @@
       "credentialLabel": "Insignia gratuita verificada",
       "level": "Todos",
       "sourceType": "community-verified",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -3476,7 +3432,7 @@
       "credentialLabel": "Insignia gratuita verificada",
       "level": "Todos",
       "sourceType": "community-verified",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -3499,7 +3455,7 @@
       "credentialLabel": "Insignia gratuita verificada",
       "level": "Todos",
       "sourceType": "community-verified",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -3522,7 +3478,7 @@
       "credentialLabel": "Insignia gratuita verificada",
       "level": "Todos",
       "sourceType": "community-verified",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -3545,7 +3501,7 @@
       "credentialLabel": "Insignia gratuita verificada",
       "level": "Todos",
       "sourceType": "community-verified",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -3568,7 +3524,7 @@
       "credentialLabel": "Insignia gratuita verificada",
       "level": "Todos",
       "sourceType": "community-verified",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -3591,7 +3547,7 @@
       "credentialLabel": "Insignia gratuita verificada",
       "level": "Todos",
       "sourceType": "community-verified",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -3614,7 +3570,7 @@
       "credentialLabel": "Insignia gratuita verificada",
       "level": "Todos",
       "sourceType": "community-verified",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -3637,7 +3593,7 @@
       "credentialLabel": "Insignia gratuita verificada",
       "level": "Todos",
       "sourceType": "community-verified",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -3660,7 +3616,7 @@
       "credentialLabel": "Insignia gratuita verificada",
       "level": "Todos",
       "sourceType": "community-verified",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -3683,7 +3639,76 @@
       "credentialLabel": "Insignia gratuita verificada",
       "level": "Todos",
       "sourceType": "community-verified",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
+      "status": "active"
+    },
+    {
+      "id": "community-freecodecamp-machine-learning-with-python-certification",
+      "title": "Machine Learning with Python Certification",
+      "provider": "freeCodeCamp",
+      "description": "freeCodeCamp: Skip to content Menu Sign in Note The content in this section is not being updated, but is still available for you to further your learning. We recommend trying our current curriculum. Machine Learning with Python Start Learning M…",
+      "category": "Programación y web",
+      "language": "EN",
+      "kind": "Certificación",
+      "url": "https://www.freecodecamp.org/learn/machine-learning-with-python",
+      "tags": [
+        "freeCodeCamp",
+        "verificado",
+        "gratis",
+        "Certificación"
+      ],
+      "courseFree": true,
+      "credentialFree": true,
+      "credentialLabel": "Credencial/certificado gratuito verificado",
+      "level": "Todos",
+      "sourceType": "community-verified",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
+      "status": "active"
+    },
+    {
+      "id": "community-freecodecamp-responsive-web-design-certification",
+      "title": "Responsive Web Design Certification",
+      "provider": "freeCodeCamp",
+      "description": "freeCodeCamp: Skip to content Menu Sign in Note The content in this section is not being updated, but is still available for you to further your learning. We recommend trying our current curriculum. Legacy Responsive Web Design V8 Start Learnin…",
+      "category": "Programación y web",
+      "language": "EN",
+      "kind": "Certificación",
+      "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design",
+      "tags": [
+        "freeCodeCamp",
+        "verificado",
+        "gratis",
+        "Certificación"
+      ],
+      "courseFree": true,
+      "credentialFree": true,
+      "credentialLabel": "Credencial/certificado gratuito verificado",
+      "level": "Todos",
+      "sourceType": "community-verified",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
+      "status": "active"
+    },
+    {
+      "id": "community-freecodecamp-scientific-computing-with-python-certification",
+      "title": "Scientific Computing with Python Certification",
+      "provider": "freeCodeCamp",
+      "description": "freeCodeCamp: Skip to content Menu Sign in Note The content in this section is not being updated, but is still available for you to further your learning. We recommend trying our current curriculum. Scientific Computing with Python Start Learni…",
+      "category": "Programación y web",
+      "language": "EN",
+      "kind": "Certificación",
+      "url": "https://www.freecodecamp.org/learn/scientific-computing-with-python",
+      "tags": [
+        "freeCodeCamp",
+        "verificado",
+        "gratis",
+        "Certificación"
+      ],
+      "courseFree": true,
+      "credentialFree": true,
+      "credentialLabel": "Credencial/certificado gratuito verificado",
+      "level": "Todos",
+      "sourceType": "community-verified",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -3706,7 +3731,7 @@
       "credentialLabel": "Credencial/certificado gratuito verificado",
       "level": "Todos",
       "sourceType": "community-verified",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -3729,7 +3754,7 @@
       "credentialLabel": "Credencial/certificado gratuito verificado",
       "level": "Todos",
       "sourceType": "community-verified",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -3752,7 +3777,7 @@
       "credentialLabel": "Credencial/certificado gratuito verificado",
       "level": "Todos",
       "sourceType": "community-verified",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -3775,7 +3800,7 @@
       "credentialLabel": "Credencial/certificado gratuito verificado",
       "level": "Todos",
       "sourceType": "community-verified",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -3798,7 +3823,7 @@
       "credentialLabel": "Credencial/certificado gratuito verificado",
       "level": "Todos",
       "sourceType": "community-verified",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -3821,7 +3846,7 @@
       "credentialLabel": "Credencial/certificado gratuito verificado",
       "level": "Todos",
       "sourceType": "community-verified",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -3844,7 +3869,7 @@
       "credentialLabel": "Credencial/certificado gratuito verificado",
       "level": "Todos",
       "sourceType": "community-verified",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -3867,7 +3892,7 @@
       "credentialLabel": "Credencial/certificado gratuito verificado",
       "level": "Todos",
       "sourceType": "community-verified",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -3890,7 +3915,7 @@
       "credentialLabel": "Credencial/certificado gratuito verificado",
       "level": "Todos",
       "sourceType": "community-verified",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -3913,7 +3938,7 @@
       "credentialLabel": "Credencial/certificado gratuito verificado",
       "level": "Todos",
       "sourceType": "community-verified",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -3936,7 +3961,7 @@
       "credentialLabel": "Credencial/certificado gratuito verificado",
       "level": "Todos",
       "sourceType": "community-verified",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -3959,7 +3984,7 @@
       "credentialLabel": "Credencial/certificado gratuito verificado",
       "level": "Todos",
       "sourceType": "community-verified",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -3982,7 +4007,7 @@
       "credentialLabel": "Credencial/certificado gratuito verificado",
       "level": "Todos",
       "sourceType": "community-verified",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -4005,7 +4030,7 @@
       "credentialLabel": "Credencial/certificado gratuito verificado",
       "level": "Todos",
       "sourceType": "community-verified",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -4028,7 +4053,7 @@
       "credentialLabel": "Credencial/certificado gratuito verificado",
       "level": "Todos",
       "sourceType": "community-verified",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -4051,7 +4076,7 @@
       "credentialLabel": "Credencial/certificado gratuito verificado",
       "level": "Todos",
       "sourceType": "community-verified",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -4074,7 +4099,7 @@
       "credentialLabel": "Credencial/certificado gratuito verificado",
       "level": "Todos",
       "sourceType": "community-verified",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -4097,7 +4122,7 @@
       "credentialLabel": "Credencial/certificado gratuito verificado",
       "level": "Todos",
       "sourceType": "community-verified",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -4120,7 +4145,7 @@
       "credentialLabel": "Credencial/certificado gratuito verificado",
       "level": "Todos",
       "sourceType": "community-verified",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -4143,7 +4168,7 @@
       "credentialLabel": "Credencial/certificado gratuito verificado",
       "level": "Todos",
       "sourceType": "community-verified",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -4166,7 +4191,7 @@
       "credentialLabel": "Credencial/certificado gratuito verificado",
       "level": "Todos",
       "sourceType": "community-verified",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -4189,7 +4214,7 @@
       "credentialLabel": "Credencial/certificado gratuito verificado",
       "level": "Todos",
       "sourceType": "community-verified",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -4212,7 +4237,7 @@
       "credentialLabel": "Credencial/certificado gratuito verificado",
       "level": "Todos",
       "sourceType": "community-verified",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -4235,7 +4260,30 @@
       "credentialLabel": "Credencial/certificado gratuito verificado",
       "level": "Todos",
       "sourceType": "community-verified",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
+      "status": "active"
+    },
+    {
+      "id": "community-ibm-skillsbuild-customer-engagement-fundamentals",
+      "title": "Customer Engagement Fundamentals",
+      "provider": "IBM SkillsBuild",
+      "description": "IBM SkillsBuild: Skip to main content SkillsBuild Adult learners University High school Learning catalog Events Log inSign up IBM SkillsBuild learning catalog Adult learners University High school Search Trending How IBM Bob and AI Tools Are Chang…",
+      "category": "Programación y web",
+      "language": "EN",
+      "kind": "Credencial",
+      "url": "https://skillsbuild.org/learning-catalog",
+      "tags": [
+        "IBM SkillsBuild",
+        "verificado",
+        "gratis",
+        "Credencial"
+      ],
+      "courseFree": true,
+      "credentialFree": true,
+      "credentialLabel": "Credencial/certificado gratuito verificado",
+      "level": "Todos",
+      "sourceType": "community-verified",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -4258,7 +4306,7 @@
       "credentialLabel": "Credencial/certificado gratuito verificado",
       "level": "Todos",
       "sourceType": "community-verified",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -4281,7 +4329,7 @@
       "credentialLabel": "Insignia gratuita verificada",
       "level": "Todos",
       "sourceType": "community-verified",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -4304,7 +4352,7 @@
       "credentialLabel": "Credencial/certificado gratuito verificado",
       "level": "Todos",
       "sourceType": "community-verified",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -4327,7 +4375,7 @@
       "credentialLabel": "Credencial/certificado gratuito verificado",
       "level": "Todos",
       "sourceType": "community-verified",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -4350,7 +4398,7 @@
       "credentialLabel": "Credencial/certificado gratuito verificado",
       "level": "Todos",
       "sourceType": "community-verified",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -4373,7 +4421,7 @@
       "credentialLabel": "Credencial/certificado gratuito verificado",
       "level": "Todos",
       "sourceType": "community-verified",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -4396,7 +4444,7 @@
       "credentialLabel": "Cursos self-paced gratis · certificación profesional aparte",
       "level": "Todos",
       "sourceType": "seed",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     },
     {
@@ -4419,7 +4467,7 @@
       "credentialLabel": "100% gratis · sin certificado",
       "level": "Todos",
       "sourceType": "seed",
-      "verifiedAt": "2026-11-16T21:13:49.302Z",
+      "verifiedAt": "2026-11-17T20:00:54.666Z",
       "status": "active"
     }
   ]
