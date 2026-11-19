@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-18T19:33:08.910Z",
+  "generatedAt": "2026-11-19T19:38:50.203Z",
   "seed": 54,
-  "officialDiscoveredRaw": 89,
-  "officialValidated": 85,
+  "officialDiscoveredRaw": 100,
+  "officialValidated": 97,
   "communityCandidates": 137,
-  "communityValidated": 72,
-  "published": 184,
+  "communityValidated": 75,
+  "published": 192,
   "audit": [
     {
       "id": "ibm-digital-credentials",
@@ -440,6 +440,102 @@
       "status": "active"
     },
     {
+      "id": "live-hubspot-inbound-nuevo-certificacion-3-horas-marketing-ventas-service",
+      "sourceType": "discovered",
+      "url": "https://academy.hubspot.com/es/courses/inbound",
+      "finalUrl": "https://academy.hubspot.com/es/courses/inbound",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-hubspot-curso-de-certificacion-de-marketing-en-redes-sociales-certificacion-6-horas-marketing",
+      "sourceType": "discovered",
+      "url": "https://academy.hubspot.com/es/courses/social-media",
+      "finalUrl": "https://academy.hubspot.com/es/courses/social-media",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-hubspot-marketing-digital-certificacion-6-horas-marketing",
+      "sourceType": "discovered",
+      "url": "https://academy.hubspot.com/es/courses/digital-marketing",
+      "finalUrl": "https://academy.hubspot.com/es/courses/digital-marketing",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-hubspot-inbound-marketing-certificacion-5-horas-marketing",
+      "sourceType": "discovered",
+      "url": "https://academy.hubspot.com/es/courses/inbound-marketing",
+      "finalUrl": "https://academy.hubspot.com/es/courses/inbound-marketing",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-hubspot-marketing-de-contenidos-certificacion-9-horas-marketing",
+      "sourceType": "discovered",
+      "url": "https://academy.hubspot.com/es/courses/content-marketing",
+      "finalUrl": "https://academy.hubspot.com/es/courses/content-marketing",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-hubspot-ventas-inbound-certificacion-3-horas-ventas",
+      "sourceType": "discovered",
+      "url": "https://academy.hubspot.com/es/courses/inbound-sales",
+      "finalUrl": "https://academy.hubspot.com/es/courses/inbound-sales",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-hubspot-ventas-sin-friccion-certificacion-2-horas-ventas",
+      "sourceType": "discovered",
+      "url": "https://academy.hubspot.com/es/courses/frictionless-sales",
+      "finalUrl": "https://academy.hubspot.com/es/courses/frictionless-sales",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-hubspot-habilitacion-de-ventas-certificacion-5-horas-ventas",
+      "sourceType": "discovered",
+      "url": "https://academy.hubspot.com/es/courses/sales-enablement",
+      "finalUrl": "https://academy.hubspot.com/es/courses/sales-enablement",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-hubspot-optimizacion-del-inbound-marketing-certificacion-5-horas-marketing",
+      "sourceType": "discovered",
+      "url": "https://academy.hubspot.com/es/courses/inbound-marketing-optimization",
+      "finalUrl": "https://academy.hubspot.com/es/courses/inbound-marketing-optimization",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-hubspot-certificacion-en-optimizacion-para-motores-de-respuesta-aeo-certificacion-4-horas-marketing",
+      "sourceType": "discovered",
+      "url": "https://academy.hubspot.com/es/courses/aeo-fundamentals-certification",
+      "finalUrl": "https://academy.hubspot.com/es/courses/aeo-fundamentals-certification",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-hubspot-certificacion-de-content-hub-para-marketers-certificacion-3-horas-marketing",
+      "sourceType": "discovered",
+      "url": "https://academy.hubspot.com/es/courses/hubspot-content-hub-software-es",
+      "finalUrl": "https://academy.hubspot.com/es/courses/hubspot-content-hub-software-es",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-hubspot-certificacion-en-implementacion-de-aeo-con-hubspot-certificacion-3-horas",
+      "sourceType": "discovered",
+      "url": "https://academy.hubspot.com/es/courses/implementing-aeo-with-hubspot-certification",
+      "finalUrl": "https://academy.hubspot.com/es/courses/implementing-aeo-with-hubspot-certification",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
       "id": "live-mtpe-competencias-digita",
       "sourceType": "discovered",
       "url": "https://capacitacionlaboral.trabajo.gob.pe/rutas/competencias-digitales-basicas-para-el-empleo",
@@ -500,8 +596,7 @@
       "sourceType": "discovered",
       "url": "https://learn.mongodb.com/catalog?labels=%5B%22Free%2FPaid%22%5D&values=%5B%22Free%22%5D",
       "finalUrl": "https://learn.mongodb.com/catalog?labels=%5B%22Free%2FPaid%22%5D&values=%5B%22Free%22%5D",
-      "status": "rejected",
-      "reason": "no-learning-evidence",
+      "status": "active",
       "httpStatus": 200
     },
     {
@@ -1106,42 +1201,34 @@
       "httpStatus": 200
     },
     {
-      "id": "live-fazt-ia-feat-mi-top-de-modelos-de-ia-claude-gpt-grok-chinos",
+      "id": "live-fazt-ia-feat-noticias-de-la-semana-18-nov-2026",
       "sourceType": "discovered",
-      "url": "https://fazt.dev/contenido/ai-tier-list-2026-gpt-claude-grok-kimi",
-      "finalUrl": "https://fazt.dev/contenido/ai-tier-list-2026-gpt-claude-grok-kimi",
+      "url": "https://fazt.dev/contenido/noticias-de-la-semana-18-nov-2026",
+      "finalUrl": "https://fazt.dev/contenido/noticias-de-la-semana-18-nov-2026",
       "status": "active",
       "httpStatus": 200
     },
     {
-      "id": "live-fazt-ia-feat-mi-setup-real-de-herdr-neovim-lazygit-yazi-y-claude-code-en-una-sola-terminal",
+      "id": "live-fazt-ia-feat-deje-de-pagar-4-suscripciones-de-ia-por-estos-10-repos-fazt",
       "sourceType": "discovered",
-      "url": "https://fazt.dev/contenido/setup-herdr-neovim-lazygit-yazi-claude-code",
-      "finalUrl": "https://fazt.dev/contenido/setup-herdr-neovim-lazygit-yazi-claude-code",
+      "url": "https://fazt.dev/contenido/deje-de-pagar-suscripciones-ia-10-repos-github",
+      "finalUrl": "https://fazt.dev/contenido/deje-de-pagar-suscripciones-ia-10-repos-github",
       "status": "active",
       "httpStatus": 200
     },
     {
-      "id": "live-fazt-ia-feat-vs-code-con-ia-guia-completa-para-programadores",
+      "id": "live-fazt-web-feat-opencode-web-la-interfaz-gratis-que-nadie-esta-usando-multiples-proyectos-a-la-par",
       "sourceType": "discovered",
-      "url": "https://fazt.dev/contenido/vscode-ia-agentes-mcp-skills",
-      "finalUrl": "https://fazt.dev/contenido/vscode-ia-agentes-mcp-skills",
+      "url": "https://fazt.dev/contenido/opencode-web-tutorial-interfaz-multiples-proyectos-ia",
+      "finalUrl": "https://fazt.dev/contenido/opencode-web-tutorial-interfaz-multiples-proyectos-ia",
       "status": "active",
       "httpStatus": 200
     },
     {
-      "id": "live-fazt-ia-feat-orquestacion-de-agentes-2026-combina-claude-codex-kimi-y-mas-sin-gastar-de-mas",
+      "id": "live-fazt-ia-feat-warp-la-terminal-que-escribe-codigo-por-ti",
       "sourceType": "discovered",
-      "url": "https://fazt.dev/contenido/orquestacion-de-agentes-claude-codex-orca-herder",
-      "finalUrl": "https://fazt.dev/contenido/orquestacion-de-agentes-claude-codex-orca-herder",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-fazt-ia-feat-loop-engineering-la-nueva-forma-de-usar-ia-que-esta-cambiando-todo-en-2026",
-      "sourceType": "discovered",
-      "url": "https://fazt.dev/contenido/loop-engineering-agentes-ia-2026",
-      "finalUrl": "https://fazt.dev/contenido/loop-engineering-agentes-ia-2026",
+      "url": "https://fazt.dev/contenido/warp-terminal-ia-tutorial-completo",
+      "finalUrl": "https://fazt.dev/contenido/warp-terminal-ia-tutorial-completo",
       "status": "active",
       "httpStatus": 200
     },
@@ -2022,8 +2109,10 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Intro to Machine Learning",
       "url": "https://www.kaggle.com/learn/intro-to-machine-learning",
-      "status": "rejected",
-      "reason": "no-free-credential-evidence",
+      "status": "accepted",
+      "provider": "Kaggle",
+      "kind": "Curso con certificado",
+      "language": "EN",
       "httpStatus": 200,
       "finalUrl": "https://www.kaggle.com/learn/intro-to-machine-learning"
     },
@@ -2032,8 +2121,10 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Intermediate Machine Learning",
       "url": "https://www.kaggle.com/learn/intermediate-machine-learning",
-      "status": "rejected",
-      "reason": "no-free-credential-evidence",
+      "status": "accepted",
+      "provider": "Kaggle",
+      "kind": "Curso con certificado",
+      "language": "EN",
       "httpStatus": 200,
       "finalUrl": "https://www.kaggle.com/learn/intermediate-machine-learning"
     },
@@ -2171,7 +2262,7 @@
       "status": "rejected",
       "reason": "no-free-credential-evidence",
       "httpStatus": 200,
-      "finalUrl": "https://www.freecodecamp.org/learn/foundational-c-sharp-with-microsoft"
+      "finalUrl": "https://www.freecodecamp.org/learn/foundational-c-sharp-with-microsoft/"
     },
     {
       "sourceType": "community",
@@ -2262,8 +2353,10 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Intro to Programming",
       "url": "https://www.kaggle.com/learn/intro-to-programming",
-      "status": "rejected",
-      "reason": "no-free-credential-evidence",
+      "status": "accepted",
+      "provider": "Kaggle",
+      "kind": "Curso con certificado",
+      "language": "EN",
       "httpStatus": 200,
       "finalUrl": "https://www.kaggle.com/learn/intro-to-programming"
     },
@@ -2492,8 +2585,8 @@
       "title": "Link",
       "url": "https://academy.tigera.io/course/certified-calico-operator-ebpf",
       "status": "rejected",
-      "reason": "unreachable",
-      "httpStatus": 0
+      "reason": "inactive",
+      "httpStatus": 404
     },
     {
       "sourceType": "community",
