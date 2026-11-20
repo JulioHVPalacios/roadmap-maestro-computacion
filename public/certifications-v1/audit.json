@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-19T19:38:50.203Z",
+  "generatedAt": "2026-11-20T19:15:49.059Z",
   "seed": 54,
-  "officialDiscoveredRaw": 100,
+  "officialDiscoveredRaw": 99,
   "officialValidated": 97,
   "communityCandidates": 137,
-  "communityValidated": 75,
-  "published": 192,
+  "communityValidated": 77,
+  "published": 194,
   "audit": [
     {
       "id": "ibm-digital-credentials",
@@ -171,9 +171,9 @@
       "id": "google-ads-certifications",
       "sourceType": "seed",
       "url": "https://skillshop.withgoogle.com/intl/es-419_ALL/googleads/",
-      "httpStatus": 200,
+      "httpStatus": 404,
       "finalUrl": "https://skillshop.withgoogle.com/intl/es-419_ALL/googleads/",
-      "status": "active"
+      "status": "inactive"
     },
     {
       "id": "google-developer-badges",
@@ -608,7 +608,7 @@
       "httpStatus": 200
     },
     {
-      "id": "live-mongodb-skills-and-certificationsdevelop-in-demand-skills-and-earn-mongodb-certifications",
+      "id": "live-mongodb-courses-and-certificationlearn-for-free-from-mongodb",
       "sourceType": "discovered",
       "url": "https://learn.mongodb.com",
       "finalUrl": "https://learn.mongodb.com",
@@ -616,10 +616,10 @@
       "httpStatus": 200
     },
     {
-      "id": "live-mongodb-skills",
+      "id": "live-mongodb-lab-zone",
       "sourceType": "discovered",
-      "url": "https://learn.mongodb.com/skills",
-      "finalUrl": "https://learn.mongodb.com/skills",
+      "url": "https://learn.mongodb.com/pages/lab-zone",
+      "finalUrl": "https://learn.mongodb.com/pages/lab-zone",
       "status": "active",
       "httpStatus": 200
     },
@@ -636,8 +636,7 @@
       "sourceType": "discovered",
       "url": "https://learn.mongodb.com/catalog?labels=%5B%5D&page=1&values=%5B%5D",
       "finalUrl": "https://learn.mongodb.com/catalog?labels=%5B%5D&page=1&values=%5B%5D",
-      "status": "rejected",
-      "reason": "no-learning-evidence",
+      "status": "active",
       "httpStatus": 200
     },
     {
@@ -896,14 +895,6 @@
       "httpStatus": 200
     },
     {
-      "id": "live-sap-learning-journey-onboarding-for-sap-concur-certified-implementation-partner-cip",
-      "sourceType": "discovered",
-      "url": "https://learning.sap.com/learning-journeys/onboarding-for-sap-concur-certified-implementation-partner-cip",
-      "finalUrl": "https://accounts.sap.com/saml2/idp/sso",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
       "id": "live-sap-learning-journey-managing-company-administration-in-new-concur-travel",
       "sourceType": "discovered",
       "url": "https://learning.sap.com/learning-journeys/managing-company-administration-in-new-concur-travel",
@@ -988,6 +979,14 @@
       "sourceType": "discovered",
       "url": "https://learning.sap.com",
       "finalUrl": "https://learning.sap.com",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-sap-learning-managers-enable-effective-sap-skills-development-empower-teams-with-smarter-sap-learning",
+      "sourceType": "discovered",
+      "url": "https://learning.sap.com/learning-managers",
+      "finalUrl": "https://learning.sap.com/learning-managers",
       "status": "active",
       "httpStatus": 200
     },
@@ -1201,34 +1200,26 @@
       "httpStatus": 200
     },
     {
-      "id": "live-fazt-ia-feat-noticias-de-la-semana-18-nov-2026",
+      "id": "live-fazt-ia-feat-apis-de-ia-gratis-para-desarrolladores-prueba-nemotron-llama-y-qwen-sin-pagar",
       "sourceType": "discovered",
-      "url": "https://fazt.dev/contenido/noticias-de-la-semana-18-nov-2026",
-      "finalUrl": "https://fazt.dev/contenido/noticias-de-la-semana-18-nov-2026",
+      "url": "https://fazt.dev/contenido/apis-llm-gratis-2026-openrouter-gemini-nvidia",
+      "finalUrl": "https://fazt.dev/contenido/apis-llm-gratis-2026-openrouter-gemini-nvidia",
       "status": "active",
       "httpStatus": 200
     },
     {
-      "id": "live-fazt-ia-feat-deje-de-pagar-4-suscripciones-de-ia-por-estos-10-repos-fazt",
+      "id": "live-fazt-ia-feat-orquestacion-de-agentes-en-claude-code-sin-herder-ni-orca",
       "sourceType": "discovered",
-      "url": "https://fazt.dev/contenido/deje-de-pagar-suscripciones-ia-10-repos-github",
-      "finalUrl": "https://fazt.dev/contenido/deje-de-pagar-suscripciones-ia-10-repos-github",
+      "url": "https://fazt.dev/contenido/orquestacion-agentes-claude-code-sin-herder-orca",
+      "finalUrl": "https://fazt.dev/contenido/orquestacion-agentes-claude-code-sin-herder-orca",
       "status": "active",
       "httpStatus": 200
     },
     {
-      "id": "live-fazt-web-feat-opencode-web-la-interfaz-gratis-que-nadie-esta-usando-multiples-proyectos-a-la-par",
+      "id": "live-fazt-ia-feat-cli-vs-mcp-hice-que-claude-y-codex-controlen-mi-app",
       "sourceType": "discovered",
-      "url": "https://fazt.dev/contenido/opencode-web-tutorial-interfaz-multiples-proyectos-ia",
-      "finalUrl": "https://fazt.dev/contenido/opencode-web-tutorial-interfaz-multiples-proyectos-ia",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-fazt-ia-feat-warp-la-terminal-que-escribe-codigo-por-ti",
-      "sourceType": "discovered",
-      "url": "https://fazt.dev/contenido/warp-terminal-ia-tutorial-completo",
-      "finalUrl": "https://fazt.dev/contenido/warp-terminal-ia-tutorial-completo",
+      "url": "https://fazt.dev/contenido/cli-vs-mcp-conecta-ia-a-tu-app",
+      "finalUrl": "https://fazt.dev/contenido/cli-vs-mcp-conecta-ia-a-tu-app",
       "status": "active",
       "httpStatus": 200
     },
@@ -1829,8 +1820,10 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Data Analysis with Python Certification",
       "url": "https://www.freecodecamp.org/learn/data-analysis-with-python",
-      "status": "rejected",
-      "reason": "no-free-credential-evidence",
+      "status": "accepted",
+      "provider": "freeCodeCamp",
+      "kind": "Certificación",
+      "language": "EN",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/data-analysis-with-python/"
     },
@@ -1885,10 +1878,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Data Cleaning",
       "url": "https://www.kaggle.com/learn/data-cleaning",
-      "status": "accepted",
-      "provider": "Kaggle",
-      "kind": "Curso con certificado",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.kaggle.com/learn/data-cleaning"
     },
@@ -2023,8 +2014,10 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Front-End Libraries Certification",
       "url": "https://www.freecodecamp.org/learn/front-end-development-libraries",
-      "status": "rejected",
-      "reason": "no-free-credential-evidence",
+      "status": "accepted",
+      "provider": "freeCodeCamp",
+      "kind": "Certificación",
+      "language": "EN",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/front-end-development-libraries/"
     },
@@ -2099,8 +2092,10 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Machine Learning with Python Certification",
       "url": "https://www.freecodecamp.org/learn/machine-learning-with-python",
-      "status": "rejected",
-      "reason": "no-free-credential-evidence",
+      "status": "accepted",
+      "provider": "freeCodeCamp",
+      "kind": "Certificación",
+      "language": "EN",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/machine-learning-with-python/"
     },
