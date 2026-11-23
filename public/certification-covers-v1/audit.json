@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-22T18:46:34.132Z",
-  "total": 221,
-  "ok": 221,
+  "generatedAt": "2026-11-23T23:00:10.390Z",
+  "total": 188,
+  "ok": 188,
   "failed": 0,
   "rows": [
     {
@@ -40,6 +40,13 @@
       "status": 200
     },
     {
+      "id": "hubspot-digital-marketing",
+      "title": "Certificación de Marketing Digital",
+      "ok": true,
+      "source": "Imagen oficial / Open Graph",
+      "status": 200
+    },
+    {
       "id": "hubspot-certifications-live",
       "title": "HubSpot Academy · certificaciones gratuitas actuales",
       "ok": true,
@@ -49,13 +56,6 @@
     {
       "id": "ibm-digital-credentials",
       "title": "IBM SkillsBuild · Credenciales digitales",
-      "ok": true,
-      "source": "Imagen oficial / Open Graph",
-      "status": 200
-    },
-    {
-      "id": "hubspot-digital-marketing",
-      "title": "Certificación de Marketing Digital",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -77,13 +77,6 @@
     {
       "id": "santander-tech-catalog",
       "title": "Data, IA y Tecnología · catálogo vivo",
-      "ok": true,
-      "source": "Imagen oficial / Open Graph",
-      "status": 200
-    },
-    {
-      "id": "santander-python-2026",
-      "title": "Introducción a la programación con Python",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -128,6 +121,13 @@
       "title": "MoureDev · cursos gratuitos de programación",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
+      "status": 200
+    },
+    {
+      "id": "santander-python-2026",
+      "title": "Introducción a la programación con Python",
+      "ok": true,
+      "source": "Captura de la fuente oficial",
       "status": 200
     },
     {
@@ -180,13 +180,6 @@
       "status": 200
     },
     {
-      "id": "ibm-data-fundamentals",
-      "title": "Conceptos básicos sobre datos",
-      "ok": true,
-      "source": "Imagen oficial / Open Graph",
-      "status": 200
-    },
-    {
       "id": "microsoft-powerapps-applied-skill",
       "title": "Microsoft Applied Skills · Crear y administrar canvas apps con Power Apps",
       "ok": true,
@@ -194,15 +187,15 @@
       "status": 200
     },
     {
-      "id": "empleos-peru-certifica",
-      "title": "Empleos Perú · capacitación y certificación",
+      "id": "ibm-data-fundamentals",
+      "title": "Conceptos básicos sobre datos",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
-      "id": "santander-tools-catalog",
-      "title": "Herramientas digitales e IA · catálogo vivo",
+      "id": "empleos-peru-certifica",
+      "title": "Empleos Perú · capacitación y certificación",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -222,24 +215,31 @@
       "status": 200
     },
     {
-      "id": "live-mtpe-marketing-digital-y-comercio-electronico",
-      "title": "Marketing Digital y Comercio Electrónico",
+      "id": "santander-tools-catalog",
+      "title": "Herramientas digitales e IA · catálogo vivo",
       "ok": true,
-      "source": "Captura de la fuente oficial",
+      "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
-      "id": "live-mtpe-teleoperador-ejecutivo-de-telemarketing",
-      "title": "Teleoperador: Ejecutivo de Telemarketing",
+      "id": "live-mtpe-administracion-de-amenazas-ciberneticas",
+      "title": "Administración de amenazas cibernéticas",
       "ok": true,
-      "source": "Captura de la fuente oficial",
+      "source": "Imagen oficial / Open Graph",
+      "status": 200
+    },
+    {
+      "id": "live-mtpe-analisis-de-datos-con-power-bi",
+      "title": "Análisis de datos con Power BI",
+      "ok": true,
+      "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
       "id": "live-mtpe-ver-curso",
       "title": "Ver curso",
       "ok": true,
-      "source": "Captura de la fuente oficial",
+      "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
@@ -257,15 +257,15 @@
       "status": 200
     },
     {
-      "id": "live-hubspot-habilitacion-de-ventas-certificacion-5-horas-ventas",
-      "title": "Habilitación de ventas Certificación 5 horas Ventas",
+      "id": "live-hubspot-certificacion-en-optimizacion-para-motores-de-respuesta-aeo-certificacion-4-horas-marketing",
+      "title": "Certificación en optimización para motores de respuesta (AEO) Certificación 4 horas Marketing",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
-      "id": "live-hubspot-certificacion-en-optimizacion-para-motores-de-respuesta-aeo-certificacion-4-horas-marketing",
-      "title": "Certificación en optimización para motores de respuesta (AEO) Certificación 4 horas Marketing",
+      "id": "live-hubspot-habilitacion-de-ventas-certificacion-5-horas-ventas",
+      "title": "Habilitación de ventas Certificación 5 horas Ventas",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -285,13 +285,6 @@
       "status": 200
     },
     {
-      "id": "live-hubspot-ventas-inbound-certificacion-3-horas-ventas",
-      "title": "Ventas inbound Certificación 3 horas Ventas",
-      "ok": true,
-      "source": "Imagen oficial / Open Graph",
-      "status": 200
-    },
-    {
       "id": "live-hubspot-optimizacion-del-inbound-marketing-certificacion-5-horas-marketing",
       "title": "Optimización del inbound marketing Certificación 5 horas Marketing",
       "ok": true,
@@ -299,15 +292,8 @@
       "status": 200
     },
     {
-      "id": "live-platzi-free-curso-gratis-de-estrategias-para-aprender-ingles-en-linea",
-      "title": "Curso Gratis de Estrategias para Aprender Inglés en Línea",
-      "ok": true,
-      "source": "Imagen oficial / Open Graph",
-      "status": 200
-    },
-    {
-      "id": "live-platzi-free-curso-de-pagos-abiertos-con-interledger",
-      "title": "Curso de Pagos Abiertos con Interledger",
+      "id": "live-hubspot-ventas-inbound-certificacion-3-horas-ventas",
+      "title": "Ventas inbound Certificación 3 horas Ventas",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -320,8 +306,22 @@
       "status": 200
     },
     {
+      "id": "live-platzi-free-curso-de-pagos-abiertos-con-interledger",
+      "title": "Curso de Pagos Abiertos con Interledger",
+      "ok": true,
+      "source": "Imagen oficial / Open Graph",
+      "status": 200
+    },
+    {
       "id": "live-platzi-free-curso-gratis-de-introduccion-a-la-inteligencia-artificial",
       "title": "Curso Gratis de Introducción a la Inteligencia Artificial",
+      "ok": true,
+      "source": "Imagen oficial / Open Graph",
+      "status": 200
+    },
+    {
+      "id": "live-platzi-free-curso-gratis-de-estrategias-para-aprender-ingles-en-linea",
+      "title": "Curso Gratis de Estrategias para Aprender Inglés en Línea",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -362,15 +362,15 @@
       "status": 200
     },
     {
-      "id": "community-hubspot-academy-courses-lessons-hubspot-academy",
-      "title": "Courses & Lessons | HubSpot Academy",
+      "id": "community-aws-aws-restart",
+      "title": "AWS restart",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
-      "id": "community-aws-aws-restart",
-      "title": "AWS restart",
+      "id": "community-hubspot-academy-courses-lessons-hubspot-academy",
+      "title": "Courses & Lessons | HubSpot Academy",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -383,15 +383,15 @@
       "status": 200
     },
     {
-      "id": "community-hubspot-academy-service-hub-software-certification",
-      "title": "Service Hub Software Certification",
+      "id": "google-developer-badges",
+      "title": "Google Developer Program · distintivos",
       "ok": true,
-      "source": "Imagen oficial / Open Graph",
+      "source": "Captura de la fuente oficial",
       "status": 200
     },
     {
-      "id": "live-fazt-ia-feat-apis-de-ia-gratis-para-desarrolladores-prueba-nemotron-llama-y-qwen-sin-pagar",
-      "title": "ia feat: 🔑 APIs de IA Gratis para Desarrolladores: Prueba Nemotron, Llama y Qwen Sin Pagar",
+      "id": "live-fazt-ia-feat-7-mcp-que-mejoran-tu-ia-para-programar",
+      "title": "ia feat: 7 MCP que mejoran tu IA para programar",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -404,22 +404,29 @@
       "status": 200
     },
     {
-      "id": "google-developer-badges",
-      "title": "Google Developer Program · distintivos",
-      "ok": true,
-      "source": "Captura de la fuente oficial",
-      "status": 200
-    },
-    {
-      "id": "live-fazt-ia-feat-estos-7-skills-convierten-a-tu-ia-en-un-programador-senior",
-      "title": "ia feat: Estos 7 Skills convierten a tu IA en un programador senior",
+      "id": "live-fazt-ia-feat-abacus-ai-supercomputer-el-mejor-entorno-cloud-para-agentes-ia-en-2026",
+      "title": "ia feat: Abacus AI Supercomputer: El Mejor Entorno Cloud para Agentes IA en 2026",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
-      "id": "live-fazt-ia-feat-los-mejores-design-skills-para-cursor-y-claude-en-2026",
-      "title": "ia feat: Los mejores Design Skills para Cursor y Claude en 2026",
+      "id": "live-fazt-ia-feat-mi-setup-real-de-herdr-neovim-lazygit-yazi-y-claude-code-en-una-sola-terminal",
+      "title": "ia feat: Mi setup real de Herdr: Neovim, Lazygit, Yazi y Claude Code en una sola terminal",
+      "ok": true,
+      "source": "Imagen oficial / Open Graph",
+      "status": 200
+    },
+    {
+      "id": "live-fazt-ia-feat-mis-agent-skills-mas-usados",
+      "title": "ia feat: Mis Agent Skills Más Usados",
+      "ok": true,
+      "source": "Imagen oficial / Open Graph",
+      "status": 200
+    },
+    {
+      "id": "microsoft-applied-skills",
+      "title": "Microsoft Applied Skills · credenciales prácticas",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -432,15 +439,15 @@
       "status": 200
     },
     {
-      "id": "microsoft-applied-skills",
-      "title": "Microsoft Applied Skills · credenciales prácticas",
+      "id": "fortinet-free-training",
+      "title": "Fortinet Training Institute · formación de ciberseguridad gratuita",
       "ok": true,
-      "source": "Imagen oficial / Open Graph",
+      "source": "Captura de la fuente oficial",
       "status": 200
     },
     {
-      "id": "fortinet-free-training",
-      "title": "Fortinet Training Institute · formación de ciberseguridad gratuita",
+      "id": "mongodb-university-free",
+      "title": "MongoDB University · cursos y Skill Badges gratuitos",
       "ok": true,
       "source": "Captura de la fuente oficial",
       "status": 200
@@ -450,13 +457,6 @@
       "title": "GitHub Skills · cursos interactivos gratuitos",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
-      "status": 200
-    },
-    {
-      "id": "mongodb-university-free",
-      "title": "MongoDB University · cursos y Skill Badges gratuitos",
-      "ok": true,
-      "source": "Captura de la fuente oficial",
       "status": 200
     },
     {
@@ -481,169 +481,8 @@
       "status": 200
     },
     {
-      "id": "live-mongodb-learning-path-building-genai-apps-learning-badge-path-learning-path-7-5-hours-in-this-learning-path-you-ll-bui",
-      "title": "LEARNING PATH Building GenAI Apps Learning Badge Path Learning Path | 7.5 Hours In this learning path, you'll build a GenAI application with MongoDB's Atla… View Details",
-      "ok": true,
-      "source": "Captura de la fuente oficial",
-      "status": 200
-    },
-    {
-      "id": "live-mongodb-learning-path-atlas-essentials-learning-path-12-5-hours-this-course-guides-you-through-the-foundational-knowle",
-      "title": "LEARNING PATH Atlas Essentials Learning Path | 12.5 Hours This course guides you through the foundational knowledge and skills needed… View Details",
-      "ok": true,
-      "source": "Captura de la fuente oficial",
-      "status": 200
-    },
-    {
-      "id": "live-mongodb-learning-path-mongodb-atlas-administrator-path-learning-path-13-hours-this-learning-path-guides-you-through-th",
-      "title": "LEARNING PATH MongoDB Atlas Administrator Path Learning Path | 13 Hours This learning path guides you through the foundations of MongoDB Atlas, the… View Details",
-      "ok": true,
-      "source": "Captura de la fuente oficial",
-      "status": 200
-    },
-    {
-      "id": "live-mongodb-learning-path-mongodb-c-developer-path-learning-path-20-hours-this-learning-path-contains-a-series-of-courses-",
-      "title": "LEARNING PATH MongoDB C# Developer Path Learning Path | 20 Hours This learning path contains a series of courses to teach you MongoDB skills… View Details",
-      "ok": true,
-      "source": "Captura de la fuente oficial",
-      "status": 200
-    },
-    {
-      "id": "live-mongodb-learning-path-mongodb-data-modeling-path-learning-path-8-hours-this-course-guides-you-through-the-foundational",
-      "title": "LEARNING PATH MongoDB Data Modeling Path Learning Path | 8 Hours This course guides you through the foundational steps of creating an effect… View Details",
-      "ok": true,
-      "source": "Captura de la fuente oficial",
-      "status": 200
-    },
-    {
-      "id": "live-mongodb-learning-path-mongodb-data-modeling-skills-for-developers-learning-path-4-25-hours-data-modeling-skills-view-d",
-      "title": "LEARNING PATH MongoDB Data Modeling Skills for Developers Learning Path | 4.25 Hours Data Modeling Skills View Details",
-      "ok": true,
-      "source": "Captura de la fuente oficial",
-      "status": 200
-    },
-    {
-      "id": "live-mongodb-learning-path-mongodb-database-admin-path-self-managed-learning-path-13-hours-this-learning-path-contains-a-se",
-      "title": "LEARNING PATH MongoDB Database Admin Path (Self-Managed) Learning Path | 13 Hours This learning path contains a series of units to help you, as a Database Ad… View Details",
-      "ok": true,
-      "source": "Captura de la fuente oficial",
-      "status": 200
-    },
-    {
-      "id": "live-mongodb-learning-path-mongodb-for-sql-professionals-learning-path-8-hours-this-course-guides-you-through-the-foundatio",
-      "title": "LEARNING PATH MongoDB for SQL Professionals Learning Path | 8 Hours This course guides you through the foundational knowledge and skills needed… View Details",
-      "ok": true,
-      "source": "Captura de la fuente oficial",
-      "status": 200
-    },
-    {
-      "id": "live-mongodb-learning-path-mongodb-genai-developer-learning-path-2-hours-genai-skills-view-details",
-      "title": "LEARNING PATH MongoDB GenAI Developer Learning Path | 2 Hours GenAI Skills View Details",
-      "ok": true,
-      "source": "Captura de la fuente oficial",
-      "status": 200
-    },
-    {
-      "id": "live-mongodb-learning-path-mongodb-java-developer-path-learning-path-20-hours-this-learning-path-contains-a-series-of-cours",
-      "title": "LEARNING PATH MongoDB Java Developer Path Learning Path | 20 Hours This learning path contains a series of courses to teach you MongoDB skills… View Details",
-      "ok": true,
-      "source": "Captura de la fuente oficial",
-      "status": 200
-    },
-    {
-      "id": "live-mongodb-learning-path-mongodb-node-js-developer-path-learning-path-20-hours-this-learning-path-contains-a-series-of-co",
-      "title": "LEARNING PATH MongoDB Node.js Developer Path Learning Path | 20 Hours This learning path contains a series of courses to teach you MongoDB skills… View Details",
-      "ok": true,
-      "source": "Captura de la fuente oficial",
-      "status": 200
-    },
-    {
-      "id": "live-mongodb-learning-path-mongodb-php-developer-path-learning-path-20-hours-this-learning-path-contains-a-series-of-units-",
-      "title": "LEARNING PATH MongoDB PHP Developer Path Learning Path | 20 Hours This learning path contains a series of units to teach you MongoDB skills. … View Details",
-      "ok": true,
-      "source": "Captura de la fuente oficial",
-      "status": 200
-    },
-    {
-      "id": "live-mongodb-learning-path-mongodb-python-developer-path-learning-path-20-hours-this-learning-path-contains-a-series-of-cou",
-      "title": "LEARNING PATH MongoDB Python Developer Path Learning Path | 20 Hours This learning path contains a series of courses to teach you MongoDB skills… View Details",
-      "ok": true,
-      "source": "Captura de la fuente oficial",
-      "status": 200
-    },
-    {
-      "id": "live-mongodb-learning-path-mongodb-search-learning-path-7-75-hours-learn-how-to-achieve-a-seamless-full-text-search-experie",
-      "title": "LEARNING PATH MongoDB Search Learning Path | 7.75 Hours Learn how to achieve a seamless full-text search experience with Atlas Sear… View Details",
-      "ok": true,
-      "source": "Captura de la fuente oficial",
-      "status": 200
-    },
-    {
-      "id": "live-mongodb-learning-path-onboarding-with-customer-success-learning-path-this-learning-path-contains-a-series-of-content-c",
-      "title": "LEARNING PATH Onboarding with Customer Success Learning Path This learning path contains a series of content curated by your Customer Su… View Details",
-      "ok": true,
-      "source": "Captura de la fuente oficial",
-      "status": 200
-    },
-    {
-      "id": "live-mongodb-learning-path-mongodb-vector-search-learning-path-6-hours-this-course-will-provide-you-with-an-introduction-to",
-      "title": "LEARNING PATH MongoDB Vector Search Learning Path | 6 Hours This course will provide you with an introduction to artificial intelligenc… View Details",
-      "ok": true,
-      "source": "Captura de la fuente oficial",
-      "status": 200
-    },
-    {
-      "id": "live-mongodb-learning-path-using-mongodb-with-c-learning-path-3-hours-this-course-guides-you-through-everything-you-need-to",
-      "title": "LEARNING PATH Using MongoDB with C# Learning Path | 3 Hours This course guides you through everything you need to get started with Mong… View Details",
-      "ok": true,
-      "source": "Captura de la fuente oficial",
-      "status": 200
-    },
-    {
-      "id": "live-mongodb-learning-path-using-mongodb-with-php-learning-path-4-hours-this-course-guides-you-through-everything-you-need-",
-      "title": "LEARNING PATH Using MongoDB with PHP Learning Path | 4 Hours This course guides you through everything you need to get started with Mong… View Details",
-      "ok": true,
-      "source": "Captura de la fuente oficial",
-      "status": 200
-    },
-    {
-      "id": "live-mongodb-learning-path-using-mongodb-with-node-js-learning-path-3-hours-this-course-guides-you-through-everything-you-n",
-      "title": "LEARNING PATH Using MongoDB with Node.js Learning Path | 3 Hours This course guides you through everything you need to get started with Mong… View Details",
-      "ok": true,
-      "source": "Captura de la fuente oficial",
-      "status": 200
-    },
-    {
-      "id": "live-mongodb-learning-path-using-mongodb-with-java-learning-path-3-hours-this-course-guides-you-through-everything-you-need",
-      "title": "LEARNING PATH Using MongoDB with Java Learning Path | 3 Hours This course guides you through everything you need to get started with Mong… View Details",
-      "ok": true,
-      "source": "Captura de la fuente oficial",
-      "status": 200
-    },
-    {
       "id": "live-mongodb-list-of-self-paced-topics",
       "title": "list of self-paced topics",
-      "ok": true,
-      "source": "Captura de la fuente oficial",
-      "status": 200
-    },
-    {
-      "id": "live-mongodb-learning-path-using-mongodb-with-python-learning-path-3-hours-this-course-guides-you-through-everything-you-ne",
-      "title": "LEARNING PATH Using MongoDB with Python Learning Path | 3 Hours This course guides you through everything you need to utilize MongoDB as yo… View Details",
-      "ok": true,
-      "source": "Captura de la fuente oficial",
-      "status": 200
-    },
-    {
-      "id": "live-mongodb-skill-evaluating-an-agentic-platform-skill-1-hour-discover-how-to-evaluate-agentic-ai-platforms-for-secure-rel",
-      "title": "SKILL Evaluating an Agentic Platform Skill | 1 Hour Discover how to evaluate agentic AI platforms for secure, reliable producti… View Details",
-      "ok": true,
-      "source": "Captura de la fuente oficial",
-      "status": 200
-    },
-    {
-      "id": "live-mongodb-skill-9-0-overview-skill-45-minutes-mongodb-9-0-is-the-next-major-long-term-support-release-available-across-m",
-      "title": "SKILL 9.0 Overview Skill | 45 Minutes MongoDB 9.0 is the next major long-term-support release, available across M… View Details",
       "ok": true,
       "source": "Captura de la fuente oficial",
       "status": 200
@@ -670,15 +509,15 @@
       "status": 200
     },
     {
-      "id": "live-sap-claim-your-exam-voucher",
-      "title": "Claim your exam voucher",
+      "id": "live-sap-autonomous-enterprise-build-skills-for-ai-driven-transformations",
+      "title": "Autonomous Enterprise Build skills for AI‑driven transformations.",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
-      "id": "live-sap-autonomous-enterprise-build-skills-for-ai-driven-transformations",
-      "title": "Autonomous Enterprise Build skills for AI‑driven transformations.",
+      "id": "live-sap-claim-your-exam-voucher",
+      "title": "Claim your exam voucher",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -691,13 +530,6 @@
       "status": 200
     },
     {
-      "id": "live-sap-learning-journey-becoming-an-sap-business-ai-platform-solution-architect",
-      "title": "LEARNING JOURNEY Becoming an SAP Business AI Platform Solution Architect",
-      "ok": true,
-      "source": "Imagen oficial / Open Graph",
-      "status": 200
-    },
-    {
       "id": "live-sap-learning-journey-applying-supply-chain-business-scenarios-in-sap-s-4hana-cloud-public-edition",
       "title": "LEARNING JOURNEY Applying Supply Chain Business Scenarios in SAP S/4HANA Cloud Public Edition",
       "ok": true,
@@ -705,8 +537,8 @@
       "status": 200
     },
     {
-      "id": "live-sap-learning-journey-configuring-and-administering-new-concur-travel-professional-edition",
-      "title": "LEARNING JOURNEY Configuring and Administering new Concur Travel, professional edition",
+      "id": "live-sap-learning-journey-becoming-an-sap-business-ai-platform-solution-architect",
+      "title": "LEARNING JOURNEY Becoming an SAP Business AI Platform Solution Architect",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -719,6 +551,13 @@
       "status": 200
     },
     {
+      "id": "live-sap-learning-journey-configuring-and-administering-new-concur-travel-professional-edition",
+      "title": "LEARNING JOURNEY Configuring and Administering new Concur Travel, professional edition",
+      "ok": true,
+      "source": "Imagen oficial / Open Graph",
+      "status": 200
+    },
+    {
       "id": "live-sap-learning-journey-exploring-sap-data-services",
       "title": "LEARNING JOURNEY Exploring SAP Data Services",
       "ok": true,
@@ -726,15 +565,15 @@
       "status": 200
     },
     {
-      "id": "live-sap-learning-journey-exploring-sap-integrated-product-development",
-      "title": "LEARNING JOURNEY Exploring SAP Integrated Product Development",
+      "id": "live-sap-learning-journey-exploring-the-sap-autonomous-enterprise-for-integrated-product-lifecycle-management",
+      "title": "LEARNING JOURNEY Exploring the SAP Autonomous Enterprise for Integrated Product Lifecycle Management",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
-      "id": "live-sap-learning-journey-exploring-the-sap-autonomous-enterprise-for-integrated-product-lifecycle-management",
-      "title": "LEARNING JOURNEY Exploring the SAP Autonomous Enterprise for Integrated Product Lifecycle Management",
+      "id": "live-sap-learning-journey-exploring-sap-integrated-product-development",
+      "title": "LEARNING JOURNEY Exploring SAP Integrated Product Development",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -852,15 +691,15 @@
       "status": 200
     },
     {
-      "id": "neo4j-graphacademy-certifications",
-      "title": "Neo4j GraphAcademy · certificaciones gratuitas",
+      "id": "microsoft-ai-agent-applied-skill",
+      "title": "Microsoft Applied Skills · Create an AI agent",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
-      "id": "microsoft-ai-agent-applied-skill",
-      "title": "Microsoft Applied Skills · Create an AI agent",
+      "id": "neo4j-graphacademy-certifications",
+      "title": "Neo4j GraphAcademy · certificaciones gratuitas",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -943,15 +782,15 @@
       "status": 200
     },
     {
-      "id": "live-kaggle-intro-to-game-ai-and-reinforcement-learning-build-your-own-video-game-bots-using-classic-and-cutting-edge-algo",
-      "title": "Intro to Game AI and Reinforcement Learning Build your own video game bots, using classic and cutting-edge algorithms.",
+      "id": "live-kaggle-intro-to-deep-learning-use-tensorflow-and-keras-to-build-and-train-neural-networks-for-structured-data",
+      "title": "Intro to Deep Learning Use TensorFlow and Keras to build and train neural networks for structured data.",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
-      "id": "live-kaggle-intro-to-deep-learning-use-tensorflow-and-keras-to-build-and-train-neural-networks-for-structured-data",
-      "title": "Intro to Deep Learning Use TensorFlow and Keras to build and train neural networks for structured data.",
+      "id": "live-kaggle-intro-to-game-ai-and-reinforcement-learning-build-your-own-video-game-bots-using-classic-and-cutting-edge-algo",
+      "title": "Intro to Game AI and Reinforcement Learning Build your own video game bots, using classic and cutting-edge algorithms.",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -964,15 +803,15 @@
       "status": 200
     },
     {
-      "id": "live-kaggle-intro-to-sql-learn-sql-for-working-with-databases-using-google-bigquery",
-      "title": "Intro to SQL Learn SQL for working with databases, using Google BigQuery.",
+      "id": "live-kaggle-intro-to-programming-get-started-with-python-if-you-have-no-coding-experience",
+      "title": "Intro to Programming Get started with Python, if you have no coding experience.",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
-      "id": "live-kaggle-intro-to-programming-get-started-with-python-if-you-have-no-coding-experience",
-      "title": "Intro to Programming Get started with Python, if you have no coding experience.",
+      "id": "live-kaggle-intro-to-sql-learn-sql-for-working-with-databases-using-google-bigquery",
+      "title": "Intro to SQL Learn SQL for working with databases, using Google BigQuery.",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -1090,17 +929,17 @@
       "status": 200
     },
     {
-      "id": "live-saylor-policies",
-      "title": "Policies",
-      "ok": true,
-      "source": "Imagen oficial / Open Graph",
-      "status": 200
-    },
-    {
       "id": "live-saylor-degree-programs",
       "title": "Degree Programs",
       "ok": true,
       "source": "Captura de la fuente oficial",
+      "status": 200
+    },
+    {
+      "id": "live-saylor-policies",
+      "title": "Policies",
+      "ok": true,
+      "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
@@ -1195,15 +1034,15 @@
       "status": 200
     },
     {
-      "id": "community-cognitive-class-how-to-build-chatbots",
-      "title": "How to Build Chatbots",
+      "id": "community-cognitive-class-hadoop-foundations-level-1",
+      "title": "Hadoop Foundations - Level 1",
       "ok": true,
       "source": "Captura de la fuente oficial",
       "status": 200
     },
     {
-      "id": "community-cognitive-class-hadoop-foundations-level-1",
-      "title": "Hadoop Foundations - Level 1",
+      "id": "community-cognitive-class-how-to-build-chatbots",
+      "title": "How to Build Chatbots",
       "ok": true,
       "source": "Captura de la fuente oficial",
       "status": 200
@@ -1237,15 +1076,15 @@
       "status": 200
     },
     {
-      "id": "community-cognitive-class-statistics-101",
-      "title": "Statistics 101",
+      "id": "community-cognitive-class-spark-fundamentals-i",
+      "title": "Spark Fundamentals I",
       "ok": true,
       "source": "Captura de la fuente oficial",
       "status": 200
     },
     {
-      "id": "community-cognitive-class-spark-fundamentals-i",
-      "title": "Spark Fundamentals I",
+      "id": "community-cognitive-class-statistics-101",
+      "title": "Statistics 101",
       "ok": true,
       "source": "Captura de la fuente oficial",
       "status": 200
@@ -1255,76 +1094,6 @@
       "title": "Using R with Databases",
       "ok": true,
       "source": "Captura de la fuente oficial",
-      "status": 200
-    },
-    {
-      "id": "community-freecodecamp-data-analysis-with-python-certification",
-      "title": "Data Analysis with Python Certification",
-      "ok": true,
-      "source": "Imagen oficial / Open Graph",
-      "status": 200
-    },
-    {
-      "id": "community-freecodecamp-back-end-development-and-apis-certification",
-      "title": "Back End Development and APIs Certification",
-      "ok": true,
-      "source": "Imagen oficial / Open Graph",
-      "status": 200
-    },
-    {
-      "id": "community-freecodecamp-data-visualization-certification",
-      "title": "Data Visualization Certification",
-      "ok": true,
-      "source": "Imagen oficial / Open Graph",
-      "status": 200
-    },
-    {
-      "id": "community-freecodecamp-information-security-certification",
-      "title": "Information Security Certification",
-      "ok": true,
-      "source": "Imagen oficial / Open Graph",
-      "status": 200
-    },
-    {
-      "id": "community-freecodecamp-front-end-libraries-certification",
-      "title": "Front-End Libraries Certification",
-      "ok": true,
-      "source": "Imagen oficial / Open Graph",
-      "status": 200
-    },
-    {
-      "id": "community-freecodecamp-javascript-algorithms-and-data-structures-certification",
-      "title": "JavaScript Algorithms and Data Structures Certification",
-      "ok": true,
-      "source": "Imagen oficial / Open Graph",
-      "status": 200
-    },
-    {
-      "id": "community-freecodecamp-quality-assurance-certification",
-      "title": "Quality Assurance Certification",
-      "ok": true,
-      "source": "Imagen oficial / Open Graph",
-      "status": 200
-    },
-    {
-      "id": "community-freecodecamp-machine-learning-with-python-certification",
-      "title": "Machine Learning with Python Certification",
-      "ok": true,
-      "source": "Imagen oficial / Open Graph",
-      "status": 200
-    },
-    {
-      "id": "community-freecodecamp-responsive-web-design-certification",
-      "title": "Responsive Web Design Certification",
-      "ok": true,
-      "source": "Imagen oficial / Open Graph",
-      "status": 200
-    },
-    {
-      "id": "community-freecodecamp-scientific-computing-with-python-certification",
-      "title": "Scientific Computing with Python Certification",
-      "ok": true,
-      "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
@@ -1426,13 +1195,6 @@
       "status": 200
     },
     {
-      "id": "community-hp-life-introduction-to-cybersecurity-awareness",
-      "title": "Introduction to Cybersecurity Awareness",
-      "ok": true,
-      "source": "Imagen oficial / Open Graph",
-      "status": 200
-    },
-    {
       "id": "community-hp-life-introduction-to-digital-business-skills",
       "title": "Introduction to Digital Business Skills",
       "ok": true,
@@ -1496,6 +1258,13 @@
       "status": 200
     },
     {
+      "id": "community-hubspot-academy-service-hub-software-certification",
+      "title": "Service Hub Software Certification",
+      "ok": true,
+      "source": "Imagen oficial / Open Graph",
+      "status": 200
+    },
+    {
       "id": "community-kaggle-computer-vision",
       "title": "Computer Vision",
       "ok": true,
@@ -1517,15 +1286,15 @@
       "status": 200
     },
     {
-      "id": "community-saylor-university-cs202-discrete-structures",
-      "title": "CS202: Discrete Structures",
+      "id": "community-saylor-university-bitcoin-for-developers",
+      "title": "Bitcoin for Developers",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
     },
     {
-      "id": "community-saylor-university-bitcoin-for-developers",
-      "title": "Bitcoin for Developers",
+      "id": "community-saylor-university-cs202-discrete-structures",
+      "title": "CS202: Discrete Structures",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
       "status": 200
@@ -1538,17 +1307,17 @@
       "status": 200
     },
     {
-      "id": "gitlab-university-free",
-      "title": "GitLab University · formación DevSecOps gratuita",
-      "ok": true,
-      "source": "Captura de la fuente oficial",
-      "status": 200
-    },
-    {
       "id": "the-odin-project",
       "title": "The Odin Project · currículo full-stack gratuito",
       "ok": true,
       "source": "Imagen oficial / Open Graph",
+      "status": 200
+    },
+    {
+      "id": "gitlab-university-free",
+      "title": "GitLab University · formación DevSecOps gratuita",
+      "ok": true,
+      "source": "Captura de la fuente oficial",
       "status": 200
     }
   ]

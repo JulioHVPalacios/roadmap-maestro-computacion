@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-22T18:39:08.354Z",
+  "generatedAt": "2026-11-23T22:53:53.002Z",
   "seed": 54,
-  "officialDiscoveredRaw": 121,
-  "officialValidated": 116,
+  "officialDiscoveredRaw": 98,
+  "officialValidated": 94,
   "communityCandidates": 137,
-  "communityValidated": 85,
-  "published": 221,
+  "communityValidated": 74,
+  "published": 188,
   "audit": [
     {
       "id": "ibm-digital-credentials",
@@ -536,34 +536,34 @@
       "httpStatus": 200
     },
     {
-      "id": "live-mtpe-ver-curso",
-      "sourceType": "discovered",
-      "url": "https://capacitacionlaboral.trabajo.gob.pe/cursos/caja-ventas-y-atencion-al-cliente",
-      "finalUrl": "https://capacitacionlaboral.trabajo.gob.pe/cursos/caja-ventas-y-atencion-al-cliente",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-mtpe-teleoperador-ejecutivo-de-telemarketing",
-      "sourceType": "discovered",
-      "url": "https://capacitacionlaboral.trabajo.gob.pe/cursos/teleoperador-ejecutivo-de-telemarketing",
-      "finalUrl": "https://capacitacionlaboral.trabajo.gob.pe/cursos/teleoperador-ejecutivo-de-telemarketing",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-mtpe-marketing-digital-y-comercio-electronico",
-      "sourceType": "discovered",
-      "url": "https://capacitacionlaboral.trabajo.gob.pe/cursos/marketing-digital-y-comercio-electronico",
-      "finalUrl": "https://capacitacionlaboral.trabajo.gob.pe/cursos/marketing-digital-y-comercio-electronico",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
       "id": "live-mtpe-abc-digital",
       "sourceType": "discovered",
       "url": "https://capacitacionlaboral.trabajo.gob.pe/cursos/abc-digital",
       "finalUrl": "https://capacitacionlaboral.trabajo.gob.pe/cursos/abc-digital",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-mtpe-ver-curso",
+      "sourceType": "discovered",
+      "url": "https://capacitacionlaboral.trabajo.gob.pe/cursos/adaptacion-al-cambio",
+      "finalUrl": "https://capacitacionlaboral.trabajo.gob.pe/cursos/adaptacion-al-cambio",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-mtpe-administracion-de-amenazas-ciberneticas",
+      "sourceType": "discovered",
+      "url": "https://capacitacionlaboral.trabajo.gob.pe/cursos/administracion-de-amenazas-ciberneticas",
+      "finalUrl": "https://capacitacionlaboral.trabajo.gob.pe/cursos/administracion-de-amenazas-ciberneticas",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-mtpe-analisis-de-datos-con-power-bi",
+      "sourceType": "discovered",
+      "url": "https://capacitacionlaboral.trabajo.gob.pe/cursos/analisis-de-datos-con-power-bi",
+      "finalUrl": "https://capacitacionlaboral.trabajo.gob.pe/cursos/analisis-de-datos-con-power-bi",
       "status": "active",
       "httpStatus": 200
     },
@@ -623,199 +623,6 @@
       "finalUrl": "https://learn.mongodb.com/catalog?labels=%5B%5D&page=1&values=%5B%5D",
       "status": "rejected",
       "reason": "no-learning-evidence",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-mongodb-learning-path-mongodb-vector-search-learning-path-6-hours-this-course-will-provide-you-with-an-introduction-to",
-      "sourceType": "discovered",
-      "url": "https://learn.mongodb.com/learning-paths/mongodb-vector-search?sessionFields=%5B%5B%22format%22%2C%22Free%22%5D%5D",
-      "finalUrl": "https://learn.mongodb.com/learning-paths/mongodb-vector-search?sessionFields=%5B%5B%22format%22%2C%22Free%22%5D%5D",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-mongodb-learning-path-building-genai-apps-learning-badge-path-learning-path-7-5-hours-in-this-learning-path-you-ll-bui",
-      "sourceType": "discovered",
-      "url": "https://learn.mongodb.com/learning-paths/building-genai-apps-learning-badge-path?sessionFields=%5B%5B%22format%22%2C%22Free%22%5D%5D",
-      "finalUrl": "https://learn.mongodb.com/learning-paths/building-genai-apps-learning-badge-path?sessionFields=%5B%5B%22format%22%2C%22Free%22%5D%5D",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-mongodb-learning-path-mongodb-atlas-administrator-path-learning-path-13-hours-this-learning-path-guides-you-through-th",
-      "sourceType": "discovered",
-      "url": "https://learn.mongodb.com/learning-paths/mongodb-atlas-admin-certification-learning-path?sessionFields=%5B%5B%22format%22%2C%22Free%22%5D%5D",
-      "finalUrl": "https://learn.mongodb.com/learning-paths/mongodb-atlas-admin-certification-learning-path?sessionFields=%5B%5B%22format%22%2C%22Free%22%5D%5D",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-mongodb-learning-path-mongodb-data-modeling-path-learning-path-8-hours-this-course-guides-you-through-the-foundational",
-      "sourceType": "discovered",
-      "url": "https://learn.mongodb.com/learning-paths/mongodb-data-modeling-certification-learning-path?sessionFields=%5B%5B%22format%22%2C%22Free%22%5D%5D",
-      "finalUrl": "https://learn.mongodb.com/learning-paths/mongodb-data-modeling-certification-learning-path?sessionFields=%5B%5B%22format%22%2C%22Free%22%5D%5D",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-mongodb-learning-path-mongodb-search-learning-path-7-75-hours-learn-how-to-achieve-a-seamless-full-text-search-experie",
-      "sourceType": "discovered",
-      "url": "https://learn.mongodb.com/learning-paths/mongodb-search?sessionFields=%5B%5B%22format%22%2C%22Free%22%5D%5D",
-      "finalUrl": "https://learn.mongodb.com/learning-paths/mongodb-search?sessionFields=%5B%5B%22format%22%2C%22Free%22%5D%5D",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-mongodb-learning-path-atlas-essentials-learning-path-12-5-hours-this-course-guides-you-through-the-foundational-knowle",
-      "sourceType": "discovered",
-      "url": "https://learn.mongodb.com/learning-paths/atlas-essentials?sessionFields=%5B%5B%22format%22%2C%22Free%22%5D%5D",
-      "finalUrl": "https://learn.mongodb.com/learning-paths/atlas-essentials?sessionFields=%5B%5B%22format%22%2C%22Free%22%5D%5D",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-mongodb-learning-path-mongodb-for-sql-professionals-learning-path-8-hours-this-course-guides-you-through-the-foundatio",
-      "sourceType": "discovered",
-      "url": "https://learn.mongodb.com/learning-paths/mongodb-for-sql-professionals?sessionFields=%5B%5B%22format%22%2C%22Free%22%5D%5D",
-      "finalUrl": "https://learn.mongodb.com/learning-paths/mongodb-for-sql-professionals?sessionFields=%5B%5B%22format%22%2C%22Free%22%5D%5D",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-mongodb-learning-path-using-mongodb-with-php-learning-path-4-hours-this-course-guides-you-through-everything-you-need-",
-      "sourceType": "discovered",
-      "url": "https://learn.mongodb.com/learning-paths/using-mongodb-with-php?sessionFields=%5B%5B%22format%22%2C%22Free%22%5D%5D",
-      "finalUrl": "https://learn.mongodb.com/learning-paths/using-mongodb-with-php?sessionFields=%5B%5B%22format%22%2C%22Free%22%5D%5D",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-mongodb-learning-path-using-mongodb-with-java-learning-path-3-hours-this-course-guides-you-through-everything-you-need",
-      "sourceType": "discovered",
-      "url": "https://learn.mongodb.com/learning-paths/using-mongodb-with-java?sessionFields=%5B%5B%22format%22%2C%22Free%22%5D%5D",
-      "finalUrl": "https://learn.mongodb.com/learning-paths/using-mongodb-with-java?sessionFields=%5B%5B%22format%22%2C%22Free%22%5D%5D",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-mongodb-learning-path-using-mongodb-with-python-learning-path-3-hours-this-course-guides-you-through-everything-you-ne",
-      "sourceType": "discovered",
-      "url": "https://learn.mongodb.com/learning-paths/using-mongodb-with-python?sessionFields=%5B%5B%22format%22%2C%22Free%22%5D%5D",
-      "finalUrl": "https://learn.mongodb.com/learning-paths/using-mongodb-with-python?sessionFields=%5B%5B%22format%22%2C%22Free%22%5D%5D",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-mongodb-learning-path-using-mongodb-with-c-learning-path-3-hours-this-course-guides-you-through-everything-you-need-to",
-      "sourceType": "discovered",
-      "url": "https://learn.mongodb.com/learning-paths/using-mongodb-with-csharp?sessionFields=%5B%5B%22format%22%2C%22Free%22%5D%5D",
-      "finalUrl": "https://learn.mongodb.com/learning-paths/using-mongodb-with-csharp?sessionFields=%5B%5B%22format%22%2C%22Free%22%5D%5D",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-mongodb-learning-path-using-mongodb-with-node-js-learning-path-3-hours-this-course-guides-you-through-everything-you-n",
-      "sourceType": "discovered",
-      "url": "https://learn.mongodb.com/learning-paths/using-mongodb-with-nodejs?sessionFields=%5B%5B%22format%22%2C%22Free%22%5D%5D",
-      "finalUrl": "https://learn.mongodb.com/learning-paths/using-mongodb-with-nodejs?sessionFields=%5B%5B%22format%22%2C%22Free%22%5D%5D",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-mongodb-learning-path-mongodb-node-js-developer-path-learning-path-20-hours-this-learning-path-contains-a-series-of-co",
-      "sourceType": "discovered",
-      "url": "https://learn.mongodb.com/learning-paths/mongodb-nodejs-developer-path?sessionFields=%5B%5B%22format%22%2C%22Free%22%5D%5D",
-      "finalUrl": "https://learn.mongodb.com/learning-paths/mongodb-nodejs-developer-path?sessionFields=%5B%5B%22format%22%2C%22Free%22%5D%5D",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-mongodb-learning-path-mongodb-python-developer-path-learning-path-20-hours-this-learning-path-contains-a-series-of-cou",
-      "sourceType": "discovered",
-      "url": "https://learn.mongodb.com/learning-paths/mongodb-python-developer-path?sessionFields=%5B%5B%22format%22%2C%22Free%22%5D%5D",
-      "finalUrl": "https://learn.mongodb.com/learning-paths/mongodb-python-developer-path?sessionFields=%5B%5B%22format%22%2C%22Free%22%5D%5D",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-mongodb-learning-path-mongodb-c-developer-path-learning-path-20-hours-this-learning-path-contains-a-series-of-courses-",
-      "sourceType": "discovered",
-      "url": "https://learn.mongodb.com/learning-paths/using-mongodb-with-c-sharp?sessionFields=%5B%5B%22format%22%2C%22Free%22%5D%5D",
-      "finalUrl": "https://learn.mongodb.com/learning-paths/using-mongodb-with-c-sharp?sessionFields=%5B%5B%22format%22%2C%22Free%22%5D%5D",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-mongodb-learning-path-mongodb-java-developer-path-learning-path-20-hours-this-learning-path-contains-a-series-of-cours",
-      "sourceType": "discovered",
-      "url": "https://learn.mongodb.com/learning-paths/mongodb-java-developer-path?sessionFields=%5B%5B%22format%22%2C%22Free%22%5D%5D",
-      "finalUrl": "https://learn.mongodb.com/learning-paths/mongodb-java-developer-path?sessionFields=%5B%5B%22format%22%2C%22Free%22%5D%5D",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-mongodb-learning-path-mongodb-genai-developer-learning-path-2-hours-genai-skills-view-details",
-      "sourceType": "discovered",
-      "url": "https://learn.mongodb.com/learning-paths/mongodb-genai-developer?sessionFields=%5B%5B%22format%22%2C%22Free%22%5D%5D",
-      "finalUrl": "https://learn.mongodb.com/learning-paths/mongodb-genai-developer?sessionFields=%5B%5B%22format%22%2C%22Free%22%5D%5D",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-mongodb-learning-path-mongodb-php-developer-path-learning-path-20-hours-this-learning-path-contains-a-series-of-units-",
-      "sourceType": "discovered",
-      "url": "https://learn.mongodb.com/learning-paths/mongodb-php-developer-path?sessionFields=%5B%5B%22format%22%2C%22Free%22%5D%5D",
-      "finalUrl": "https://learn.mongodb.com/learning-paths/mongodb-php-developer-path?sessionFields=%5B%5B%22format%22%2C%22Free%22%5D%5D",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-mongodb-learning-path-onboarding-with-customer-success-learning-path-this-learning-path-contains-a-series-of-content-c",
-      "sourceType": "discovered",
-      "url": "https://learn.mongodb.com/learning-paths/onboarding-with-customer-success?sessionFields=%5B%5B%22format%22%2C%22Free%22%5D%5D",
-      "finalUrl": "https://learn.mongodb.com/learning-paths/onboarding-with-customer-success?sessionFields=%5B%5B%22format%22%2C%22Free%22%5D%5D",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-mongodb-learning-path-mongodb-database-admin-path-self-managed-learning-path-13-hours-this-learning-path-contains-a-se",
-      "sourceType": "discovered",
-      "url": "https://learn.mongodb.com/learning-paths/mongodb-dba-certification-learning-path?sessionFields=%5B%5B%22format%22%2C%22Free%22%5D%5D",
-      "finalUrl": "https://learn.mongodb.com/learning-paths/mongodb-dba-certification-learning-path?sessionFields=%5B%5B%22format%22%2C%22Free%22%5D%5D",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-mongodb-learning-path-mongodb-data-modeling-skills-for-developers-learning-path-4-25-hours-data-modeling-skills-view-d",
-      "sourceType": "discovered",
-      "url": "https://learn.mongodb.com/learning-paths/mongodb-data-modeling-skills-for-developers?sessionFields=%5B%5B%22format%22%2C%22Free%22%5D%5D",
-      "finalUrl": "https://learn.mongodb.com/learning-paths/mongodb-data-modeling-skills-for-developers?sessionFields=%5B%5B%22format%22%2C%22Free%22%5D%5D",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-mongodb-skill-9-0-overview-skill-45-minutes-mongodb-9-0-is-the-next-major-long-term-support-release-available-across-m",
-      "sourceType": "discovered",
-      "url": "https://learn.mongodb.com/courses/90-overview?sessionFields=%5B%5B%22format%22%2C%22Free%22%5D%5D",
-      "finalUrl": "https://learn.mongodb.com/courses/90-overview?sessionFields=%5B%5B%22format%22%2C%22Free%22%5D%5D",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-mongodb-coming-soon-coming-soon-ephemeral-clusters-unit-coming-soon-learn-how-ephemeral-clusters-can-help-you-get-star",
-      "sourceType": "discovered",
-      "url": "https://learn.mongodb.com/courses/ephemeral-clusters?sessionFields=%5B%5B%22format%22%2C%22Free%22%5D%5D",
-      "finalUrl": "https://learn.mongodb.com/courses/ephemeral-clusters?sessionFields=%5B%5B%22format%22%2C%22Free%22%5D%5D",
-      "status": "rejected",
-      "reason": "no-learning-evidence",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-mongodb-skill-evaluating-an-agentic-platform-skill-1-hour-discover-how-to-evaluate-agentic-ai-platforms-for-secure-rel",
-      "sourceType": "discovered",
-      "url": "https://learn.mongodb.com/courses/evaluating-an-agentic-platform?sessionFields=%5B%5B%22format%22%2C%22Free%22%5D%5D",
-      "finalUrl": "https://learn.mongodb.com/courses/evaluating-an-agentic-platform?sessionFields=%5B%5B%22format%22%2C%22Free%22%5D%5D",
-      "status": "active",
       "httpStatus": 200
     },
     {
@@ -1379,26 +1186,34 @@
       "httpStatus": 200
     },
     {
-      "id": "live-fazt-ia-feat-apis-de-ia-gratis-para-desarrolladores-prueba-nemotron-llama-y-qwen-sin-pagar",
+      "id": "live-fazt-ia-feat-7-mcp-que-mejoran-tu-ia-para-programar",
       "sourceType": "discovered",
-      "url": "https://fazt.dev/contenido/apis-llm-gratis-2026-openrouter-gemini-nvidia",
-      "finalUrl": "https://fazt.dev/contenido/apis-llm-gratis-2026-openrouter-gemini-nvidia",
+      "url": "https://fazt.dev/contenido/mcp-que-mejoran-ia-para-programar",
+      "finalUrl": "https://fazt.dev/contenido/mcp-que-mejoran-ia-para-programar",
       "status": "active",
       "httpStatus": 200
     },
     {
-      "id": "live-fazt-ia-feat-los-mejores-design-skills-para-cursor-y-claude-en-2026",
+      "id": "live-fazt-ia-feat-abacus-ai-supercomputer-el-mejor-entorno-cloud-para-agentes-ia-en-2026",
       "sourceType": "discovered",
-      "url": "https://fazt.dev/contenido/mejores-design-skills-cursor-claude-2026",
-      "finalUrl": "https://fazt.dev/contenido/mejores-design-skills-cursor-claude-2026",
+      "url": "https://fazt.dev/contenido/abacus-ai-supercomputer-tutorial-nube-agentes-ia",
+      "finalUrl": "https://fazt.dev/contenido/abacus-ai-supercomputer-tutorial-nube-agentes-ia",
       "status": "active",
       "httpStatus": 200
     },
     {
-      "id": "live-fazt-ia-feat-estos-7-skills-convierten-a-tu-ia-en-un-programador-senior",
+      "id": "live-fazt-ia-feat-mi-setup-real-de-herdr-neovim-lazygit-yazi-y-claude-code-en-una-sola-terminal",
       "sourceType": "discovered",
-      "url": "https://fazt.dev/contenido/skills-ia-agentes-programador-senior",
-      "finalUrl": "https://fazt.dev/contenido/skills-ia-agentes-programador-senior",
+      "url": "https://fazt.dev/contenido/setup-herdr-neovim-lazygit-yazi-claude-code",
+      "finalUrl": "https://fazt.dev/contenido/setup-herdr-neovim-lazygit-yazi-claude-code",
+      "status": "active",
+      "httpStatus": 200
+    },
+    {
+      "id": "live-fazt-ia-feat-mis-agent-skills-mas-usados",
+      "sourceType": "discovered",
+      "url": "https://fazt.dev/contenido/mis-agent-skills-mas-usados",
+      "finalUrl": "https://fazt.dev/contenido/mis-agent-skills-mas-usados",
       "status": "active",
       "httpStatus": 200
     },
@@ -1493,10 +1308,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Back End Development and APIs Certification",
       "url": "https://www.freecodecamp.org/learn/back-end-development-and-apis",
-      "status": "accepted",
-      "provider": "freeCodeCamp",
-      "kind": "Certificación",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/back-end-development-and-apis/"
     },
@@ -1826,7 +1639,7 @@
       "status": "accepted",
       "provider": "HubSpot Academy",
       "kind": "Certificación",
-      "language": "ES",
+      "language": "EN",
       "httpStatus": 200,
       "finalUrl": "https://academy.hubspot.com/courses/hubspot-service-software"
     },
@@ -1905,10 +1718,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Quality Assurance Certification",
       "url": "https://www.freecodecamp.org/learn/quality-assurance",
-      "status": "accepted",
-      "provider": "freeCodeCamp",
-      "kind": "Certificación",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/quality-assurance/"
     },
@@ -2003,10 +1814,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Data Analysis with Python Certification",
       "url": "https://www.freecodecamp.org/learn/data-analysis-with-python",
-      "status": "accepted",
-      "provider": "freeCodeCamp",
-      "kind": "Certificación",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/data-analysis-with-python/"
     },
@@ -2039,10 +1848,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Data Visualization Certification",
       "url": "https://www.freecodecamp.org/learn/data-visualization",
-      "status": "accepted",
-      "provider": "freeCodeCamp",
-      "kind": "Certificación",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/data-visualization/"
     },
@@ -2191,10 +1998,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Responsive Web Design Certification",
       "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design",
-      "status": "accepted",
-      "provider": "freeCodeCamp",
-      "kind": "Certificación",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/2022/responsive-web-design/"
     },
@@ -2203,10 +2008,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Front-End Libraries Certification",
       "url": "https://www.freecodecamp.org/learn/front-end-development-libraries",
-      "status": "accepted",
-      "provider": "freeCodeCamp",
-      "kind": "Certificación",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/front-end-development-libraries/"
     },
@@ -2281,10 +2084,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Machine Learning with Python Certification",
       "url": "https://www.freecodecamp.org/learn/machine-learning-with-python",
-      "status": "accepted",
-      "provider": "freeCodeCamp",
-      "kind": "Certificación",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/machine-learning-with-python/"
     },
@@ -2463,10 +2264,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "JavaScript Algorithms and Data Structures Certification",
       "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures",
-      "status": "accepted",
-      "provider": "freeCodeCamp",
-      "kind": "Certificación",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/"
     },
@@ -2495,10 +2294,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Scientific Computing with Python Certification",
       "url": "https://www.freecodecamp.org/learn/scientific-computing-with-python",
-      "status": "accepted",
-      "provider": "freeCodeCamp",
-      "kind": "Certificación",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/scientific-computing-with-python/"
     },
@@ -2639,10 +2436,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Information Security Certification",
       "url": "https://www.freecodecamp.org/learn/information-security",
-      "status": "accepted",
-      "provider": "freeCodeCamp",
-      "kind": "Certificación",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/information-security/"
     },
@@ -2671,10 +2466,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Introduction to Cybersecurity Awareness",
       "url": "https://www.life-global.org/course/346-introduction-to-cybersecurity-awareness",
-      "status": "accepted",
-      "provider": "HP LIFE",
-      "kind": "Certificación",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.life-global.org/course/346-introduction-to-cybersecurity-awareness"
     },
