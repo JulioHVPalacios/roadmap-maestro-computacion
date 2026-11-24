@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-23T22:53:53.002Z",
+  "generatedAt": "2026-11-24T21:29:23.106Z",
   "seed": 54,
   "officialDiscoveredRaw": 98,
-  "officialValidated": 94,
+  "officialValidated": 95,
   "communityCandidates": 137,
-  "communityValidated": 74,
-  "published": 188,
+  "communityValidated": 77,
+  "published": 191,
   "audit": [
     {
       "id": "ibm-digital-credentials",
@@ -436,7 +436,7 @@
       "sourceType": "seed",
       "url": "https://www.facebook.com/business/learn",
       "httpStatus": 200,
-      "finalUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fbusiness%2Flearn",
+      "finalUrl": "https://www.facebook.com/business/learn",
       "status": "active"
     },
     {
@@ -580,8 +580,7 @@
       "sourceType": "discovered",
       "url": "https://learn.mongodb.com/catalog?labels=%5B%22Free%2FPaid%22%5D&values=%5B%22Free%22%5D",
       "finalUrl": "https://learn.mongodb.com/catalog?labels=%5B%22Free%2FPaid%22%5D&values=%5B%22Free%22%5D",
-      "status": "rejected",
-      "reason": "no-learning-evidence",
+      "status": "active",
       "httpStatus": 200
     },
     {
@@ -1186,34 +1185,34 @@
       "httpStatus": 200
     },
     {
-      "id": "live-fazt-ia-feat-7-mcp-que-mejoran-tu-ia-para-programar",
+      "id": "live-fazt-ia-feat-orquestadores-de-ia-2026-cual-vale-la-pena-codex-claude-orca-y-herder",
       "sourceType": "discovered",
-      "url": "https://fazt.dev/contenido/mcp-que-mejoran-ia-para-programar",
-      "finalUrl": "https://fazt.dev/contenido/mcp-que-mejoran-ia-para-programar",
+      "url": "https://fazt.dev/contenido/orquestadores-ia-2026-codex-claude-orca-herder",
+      "finalUrl": "https://fazt.dev/contenido/orquestadores-ia-2026-codex-claude-orca-herder",
       "status": "active",
       "httpStatus": 200
     },
     {
-      "id": "live-fazt-ia-feat-abacus-ai-supercomputer-el-mejor-entorno-cloud-para-agentes-ia-en-2026",
+      "id": "live-fazt-web-feat-discord-deja-react-native-y-electron-por-rust-que-cambia-y-por-que-no-es-lo-mismo-que-shopify",
       "sourceType": "discovered",
-      "url": "https://fazt.dev/contenido/abacus-ai-supercomputer-tutorial-nube-agentes-ia",
-      "finalUrl": "https://fazt.dev/contenido/abacus-ai-supercomputer-tutorial-nube-agentes-ia",
+      "url": "https://fazt.dev/contenido/discord-deja-react-native-electron-rust",
+      "finalUrl": "https://fazt.dev/contenido/discord-deja-react-native-electron-rust",
       "status": "active",
       "httpStatus": 200
     },
     {
-      "id": "live-fazt-ia-feat-mi-setup-real-de-herdr-neovim-lazygit-yazi-y-claude-code-en-una-sola-terminal",
+      "id": "live-fazt-ia-feat-herdr-ui-nativa-explorador-de-archivos-git-y-agentes-en-paralelo",
       "sourceType": "discovered",
-      "url": "https://fazt.dev/contenido/setup-herdr-neovim-lazygit-yazi-claude-code",
-      "finalUrl": "https://fazt.dev/contenido/setup-herdr-neovim-lazygit-yazi-claude-code",
+      "url": "https://fazt.dev/contenido/herdr-app-escritorio-nativa",
+      "finalUrl": "https://fazt.dev/contenido/herdr-app-escritorio-nativa",
       "status": "active",
       "httpStatus": 200
     },
     {
-      "id": "live-fazt-ia-feat-mis-agent-skills-mas-usados",
+      "id": "live-fazt-ia-feat-tus-agentes-de-ia-tienen-una-puerta-trasera",
       "sourceType": "discovered",
-      "url": "https://fazt.dev/contenido/mis-agent-skills-mas-usados",
-      "finalUrl": "https://fazt.dev/contenido/mis-agent-skills-mas-usados",
+      "url": "https://fazt.dev/contenido/tus-agentes-de-ia-tienen-una-puerta-trasera",
+      "finalUrl": "https://fazt.dev/contenido/tus-agentes-de-ia-tienen-una-puerta-trasera",
       "status": "active",
       "httpStatus": 200
     },
@@ -1639,7 +1638,7 @@
       "status": "accepted",
       "provider": "HubSpot Academy",
       "kind": "Certificación",
-      "language": "EN",
+      "language": "ES",
       "httpStatus": 200,
       "finalUrl": "https://academy.hubspot.com/courses/hubspot-service-software"
     },
@@ -1651,7 +1650,7 @@
       "status": "accepted",
       "provider": "IBM SkillsBuild",
       "kind": "Credencial",
-      "language": "ES",
+      "language": "EN",
       "httpStatus": 200,
       "finalUrl": "https://skillsbuild.org/learning-catalog"
     },
@@ -2084,8 +2083,10 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Machine Learning with Python Certification",
       "url": "https://www.freecodecamp.org/learn/machine-learning-with-python",
-      "status": "rejected",
-      "reason": "no-free-credential-evidence",
+      "status": "accepted",
+      "provider": "freeCodeCamp",
+      "kind": "Certificación",
+      "language": "EN",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/machine-learning-with-python/"
     },
@@ -2436,8 +2437,10 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Information Security Certification",
       "url": "https://www.freecodecamp.org/learn/information-security",
-      "status": "rejected",
-      "reason": "no-free-credential-evidence",
+      "status": "accepted",
+      "provider": "freeCodeCamp",
+      "kind": "Certificación",
+      "language": "EN",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/information-security/"
     },
@@ -2466,8 +2469,10 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Introduction to Cybersecurity Awareness",
       "url": "https://www.life-global.org/course/346-introduction-to-cybersecurity-awareness",
-      "status": "rejected",
-      "reason": "no-free-credential-evidence",
+      "status": "accepted",
+      "provider": "HP LIFE",
+      "kind": "Certificación",
+      "language": "EN",
       "httpStatus": 200,
       "finalUrl": "https://www.life-global.org/course/346-introduction-to-cybersecurity-awareness"
     },
@@ -2559,8 +2564,8 @@
       "title": "Link",
       "url": "https://academy.tigera.io/course/certified-calico-operator-azure-expert",
       "status": "rejected",
-      "reason": "inactive",
-      "httpStatus": 404
+      "reason": "unreachable",
+      "httpStatus": 0
     },
     {
       "sourceType": "community",
@@ -2568,8 +2573,8 @@
       "title": "Link",
       "url": "https://academy.tigera.io/course/certified-calico-operator-ebpf",
       "status": "rejected",
-      "reason": "inactive",
-      "httpStatus": 404
+      "reason": "unreachable",
+      "httpStatus": 0
     },
     {
       "sourceType": "community",
