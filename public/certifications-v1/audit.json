@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-24T21:29:23.106Z",
+  "generatedAt": "2026-11-25T20:38:25.696Z",
   "seed": 54,
-  "officialDiscoveredRaw": 98,
-  "officialValidated": 95,
+  "officialDiscoveredRaw": 93,
+  "officialValidated": 90,
   "communityCandidates": 137,
-  "communityValidated": 77,
-  "published": 191,
+  "communityValidated": 75,
+  "published": 188,
   "audit": [
     {
       "id": "ibm-digital-credentials",
@@ -536,34 +536,18 @@
       "httpStatus": 200
     },
     {
-      "id": "live-mtpe-abc-digital",
+      "id": "live-mtpe-marketing-y-ventas",
       "sourceType": "discovered",
-      "url": "https://capacitacionlaboral.trabajo.gob.pe/cursos/abc-digital",
-      "finalUrl": "https://capacitacionlaboral.trabajo.gob.pe/cursos/abc-digital",
+      "url": "https://capacitacionlaboral.trabajo.gob.pe/cursos/marketing-y-ventas",
+      "finalUrl": "https://capacitacionlaboral.trabajo.gob.pe/cursos/marketing-y-ventas",
       "status": "active",
       "httpStatus": 200
     },
     {
       "id": "live-mtpe-ver-curso",
       "sourceType": "discovered",
-      "url": "https://capacitacionlaboral.trabajo.gob.pe/cursos/adaptacion-al-cambio",
-      "finalUrl": "https://capacitacionlaboral.trabajo.gob.pe/cursos/adaptacion-al-cambio",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-mtpe-administracion-de-amenazas-ciberneticas",
-      "sourceType": "discovered",
-      "url": "https://capacitacionlaboral.trabajo.gob.pe/cursos/administracion-de-amenazas-ciberneticas",
-      "finalUrl": "https://capacitacionlaboral.trabajo.gob.pe/cursos/administracion-de-amenazas-ciberneticas",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-mtpe-analisis-de-datos-con-power-bi",
-      "sourceType": "discovered",
-      "url": "https://capacitacionlaboral.trabajo.gob.pe/cursos/analisis-de-datos-con-power-bi",
-      "finalUrl": "https://capacitacionlaboral.trabajo.gob.pe/cursos/analisis-de-datos-con-power-bi",
+      "url": "https://capacitacionlaboral.trabajo.gob.pe/cursos/empleabilidad-y-mercado-laboral",
+      "finalUrl": "https://capacitacionlaboral.trabajo.gob.pe/cursos/empleabilidad-y-mercado-laboral",
       "status": "active",
       "httpStatus": 200
     },
@@ -580,7 +564,8 @@
       "sourceType": "discovered",
       "url": "https://learn.mongodb.com/catalog?labels=%5B%22Free%2FPaid%22%5D&values=%5B%22Free%22%5D",
       "finalUrl": "https://learn.mongodb.com/catalog?labels=%5B%22Free%2FPaid%22%5D&values=%5B%22Free%22%5D",
-      "status": "active",
+      "status": "rejected",
+      "reason": "no-learning-evidence",
       "httpStatus": 200
     },
     {
@@ -592,7 +577,7 @@
       "httpStatus": 200
     },
     {
-      "id": "live-mongodb-skills-and-certificationsdevelop-in-demand-skills-and-earn-mongodb-certifications",
+      "id": "live-mongodb-courses-and-certificationlearn-for-free-from-mongodb",
       "sourceType": "discovered",
       "url": "https://learn.mongodb.com",
       "finalUrl": "https://learn.mongodb.com",
@@ -600,28 +585,11 @@
       "httpStatus": 200
     },
     {
-      "id": "live-mongodb-skills",
+      "id": "live-mongodb-lab-zone",
       "sourceType": "discovered",
-      "url": "https://learn.mongodb.com/skills",
-      "finalUrl": "https://learn.mongodb.com/skills",
+      "url": "https://learn.mongodb.com/pages/lab-zone",
+      "finalUrl": "https://learn.mongodb.com/pages/lab-zone",
       "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-mongodb-list-of-self-paced-topics",
-      "sourceType": "discovered",
-      "url": "https://learn.mongodb.com/self-paced-topics",
-      "finalUrl": "https://learn.mongodb.com/self-paced-topics",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-mongodb-free",
-      "sourceType": "discovered",
-      "url": "https://learn.mongodb.com/catalog?labels=%5B%5D&page=1&values=%5B%5D",
-      "finalUrl": "https://learn.mongodb.com/catalog?labels=%5B%5D&page=1&values=%5B%5D",
-      "status": "rejected",
-      "reason": "no-learning-evidence",
       "httpStatus": 200
     },
     {
@@ -989,7 +957,7 @@
       "url": "https://platzi.com/cursos",
       "finalUrl": "https://platzi.com/cursos",
       "status": "active",
-      "httpStatus": 200
+      "httpStatus": 403
     },
     {
       "id": "live-platzi-free-toma-las-primeras-clases-gratis",
@@ -997,7 +965,7 @@
       "url": "https://platzi.com/cursos/programacion-basica",
       "finalUrl": "https://platzi.com/cursos/programacion-basica",
       "status": "active",
-      "httpStatus": 200
+      "httpStatus": 403
     },
     {
       "id": "live-platzi-free-curso-gratis-de-marca-personal",
@@ -1005,7 +973,7 @@
       "url": "https://platzi.com/cursos/marca-personal",
       "finalUrl": "https://platzi.com/cursos/marca-personal",
       "status": "active",
-      "httpStatus": 200
+      "httpStatus": 403
     },
     {
       "id": "live-platzi-free-curso-gratis-de-estrategias-para-aprender-ingles-en-linea",
@@ -1013,7 +981,7 @@
       "url": "https://platzi.com/cursos/estrategias-ingles",
       "finalUrl": "https://platzi.com/cursos/estrategias-ingles",
       "status": "active",
-      "httpStatus": 200
+      "httpStatus": 403
     },
     {
       "id": "live-platzi-free-curso-gratis-de-introduccion-a-la-inteligencia-artificial",
@@ -1021,7 +989,7 @@
       "url": "https://platzi.com/cursos/intro-ai",
       "finalUrl": "https://platzi.com/cursos/intro-ai",
       "status": "active",
-      "httpStatus": 200
+      "httpStatus": 403
     },
     {
       "id": "live-platzi-free-curso-gratis-de-lovable",
@@ -1029,7 +997,7 @@
       "url": "https://platzi.com/cursos/lovable",
       "finalUrl": "https://platzi.com/cursos/lovable",
       "status": "active",
-      "httpStatus": 200
+      "httpStatus": 403
     },
     {
       "id": "live-platzi-free-curso-gratis-para-crear-agentes-de-ai-con-copilot-studio",
@@ -1037,7 +1005,7 @@
       "url": "https://platzi.com/cursos/copilot-studio",
       "finalUrl": "https://platzi.com/cursos/copilot-studio",
       "status": "active",
-      "httpStatus": 200
+      "httpStatus": 403
     },
     {
       "id": "live-platzi-free-curso-de-pagos-abiertos-con-interledger",
@@ -1045,7 +1013,7 @@
       "url": "https://platzi.com/cursos/interledger-openpayments",
       "finalUrl": "https://platzi.com/cursos/interledger-openpayments",
       "status": "active",
-      "httpStatus": 200
+      "httpStatus": 403
     },
     {
       "id": "live-kaggle-intro-to-programming-get-started-with-python-if-you-have-no-coding-experience",
@@ -1185,34 +1153,26 @@
       "httpStatus": 200
     },
     {
-      "id": "live-fazt-ia-feat-orquestadores-de-ia-2026-cual-vale-la-pena-codex-claude-orca-y-herder",
+      "id": "live-fazt-ia-feat-google-ai-studio-ya-no-es-solo-un-playground-ahora-te-da-apps-reales",
       "sourceType": "discovered",
-      "url": "https://fazt.dev/contenido/orquestadores-ia-2026-codex-claude-orca-herder",
-      "finalUrl": "https://fazt.dev/contenido/orquestadores-ia-2026-codex-claude-orca-herder",
+      "url": "https://fazt.dev/contenido/google-ai-studio-apps-proyectos-reales",
+      "finalUrl": "https://fazt.dev/contenido/google-ai-studio-apps-proyectos-reales",
       "status": "active",
       "httpStatus": 200
     },
     {
-      "id": "live-fazt-web-feat-discord-deja-react-native-y-electron-por-rust-que-cambia-y-por-que-no-es-lo-mismo-que-shopify",
+      "id": "live-fazt-ia-feat-la-reescritura-de-bun-a-rust-como-usaron-agentes-adversariales-y-workflows",
       "sourceType": "discovered",
-      "url": "https://fazt.dev/contenido/discord-deja-react-native-electron-rust",
-      "finalUrl": "https://fazt.dev/contenido/discord-deja-react-native-electron-rust",
+      "url": "https://fazt.dev/contenido/bun-zig-a-rust-ia-claude",
+      "finalUrl": "https://fazt.dev/contenido/bun-zig-a-rust-ia-claude",
       "status": "active",
       "httpStatus": 200
     },
     {
-      "id": "live-fazt-ia-feat-herdr-ui-nativa-explorador-de-archivos-git-y-agentes-en-paralelo",
+      "id": "live-fazt-ia-feat-deepseek-v4-flash-es-tan-bueno-como-opus-4-8-y-cuesta-casi-nada",
       "sourceType": "discovered",
-      "url": "https://fazt.dev/contenido/herdr-app-escritorio-nativa",
-      "finalUrl": "https://fazt.dev/contenido/herdr-app-escritorio-nativa",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-fazt-ia-feat-tus-agentes-de-ia-tienen-una-puerta-trasera",
-      "sourceType": "discovered",
-      "url": "https://fazt.dev/contenido/tus-agentes-de-ia-tienen-una-puerta-trasera",
-      "finalUrl": "https://fazt.dev/contenido/tus-agentes-de-ia-tienen-una-puerta-trasera",
+      "url": "https://fazt.dev/contenido/deepseek-v4-flash-vs-opus-codigo-barato",
+      "finalUrl": "https://fazt.dev/contenido/deepseek-v4-flash-vs-opus-codigo-barato",
       "status": "active",
       "httpStatus": 200
     },
@@ -1241,10 +1201,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Intro to Game AI and Reinforcement Learning",
       "url": "https://www.kaggle.com/learn/intro-to-game-ai-and-reinforcement-learning",
-      "status": "accepted",
-      "provider": "Kaggle",
-      "kind": "Curso con certificado",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.kaggle.com/learn/intro-to-game-ai-and-reinforcement-learning"
     },
@@ -1650,7 +1608,7 @@
       "status": "accepted",
       "provider": "IBM SkillsBuild",
       "kind": "Credencial",
-      "language": "EN",
+      "language": "ES",
       "httpStatus": 200,
       "finalUrl": "https://skillsbuild.org/learning-catalog"
     },
@@ -1997,8 +1955,10 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Responsive Web Design Certification",
       "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design",
-      "status": "rejected",
-      "reason": "no-free-credential-evidence",
+      "status": "accepted",
+      "provider": "freeCodeCamp",
+      "kind": "Certificación",
+      "language": "EN",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/2022/responsive-web-design/"
     },
@@ -2083,10 +2043,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Machine Learning with Python Certification",
       "url": "https://www.freecodecamp.org/learn/machine-learning-with-python",
-      "status": "accepted",
-      "provider": "freeCodeCamp",
-      "kind": "Certificación",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/machine-learning-with-python/"
     },
@@ -2119,10 +2077,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Machine Learning Explainability",
       "url": "https://www.kaggle.com/learn/machine-learning-explainability",
-      "status": "accepted",
-      "provider": "Kaggle",
-      "kind": "Curso con certificado",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.kaggle.com/learn/machine-learning-explainability"
     },
@@ -2131,10 +2087,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Intro to Deep Learning",
       "url": "https://www.kaggle.com/learn/intro-to-deep-learning",
-      "status": "accepted",
-      "provider": "Kaggle",
-      "kind": "Curso con certificado",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.kaggle.com/learn/intro-to-deep-learning"
     },
@@ -2245,8 +2199,10 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Foundational C# with Microsoft",
       "url": "https://www.freecodecamp.org/learn/foundational-c-sharp-with-microsoft",
-      "status": "rejected",
-      "reason": "no-free-credential-evidence",
+      "status": "accepted",
+      "provider": "freeCodeCamp",
+      "kind": "Certificación",
+      "language": "EN",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/foundational-c-sharp-with-microsoft/"
     },
@@ -2295,8 +2251,10 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Scientific Computing with Python Certification",
       "url": "https://www.freecodecamp.org/learn/scientific-computing-with-python",
-      "status": "rejected",
-      "reason": "no-free-credential-evidence",
+      "status": "accepted",
+      "provider": "freeCodeCamp",
+      "kind": "Certificación",
+      "language": "EN",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/scientific-computing-with-python/"
     },
@@ -2437,10 +2395,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Information Security Certification",
       "url": "https://www.freecodecamp.org/learn/information-security",
-      "status": "accepted",
-      "provider": "freeCodeCamp",
-      "kind": "Certificación",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/information-security/"
     },
@@ -2564,8 +2520,8 @@
       "title": "Link",
       "url": "https://academy.tigera.io/course/certified-calico-operator-azure-expert",
       "status": "rejected",
-      "reason": "unreachable",
-      "httpStatus": 0
+      "reason": "inactive",
+      "httpStatus": 404
     },
     {
       "sourceType": "community",
@@ -2573,8 +2529,8 @@
       "title": "Link",
       "url": "https://academy.tigera.io/course/certified-calico-operator-ebpf",
       "status": "rejected",
-      "reason": "unreachable",
-      "httpStatus": 0
+      "reason": "inactive",
+      "httpStatus": 404
     },
     {
       "sourceType": "community",
