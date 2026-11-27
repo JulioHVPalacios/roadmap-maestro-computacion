@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-26T20:30:36.609Z",
+  "generatedAt": "2026-11-27T20:16:11.077Z",
   "seed": 54,
-  "officialDiscoveredRaw": 97,
-  "officialValidated": 94,
+  "officialDiscoveredRaw": 81,
+  "officialValidated": 80,
   "communityCandidates": 137,
-  "communityValidated": 86,
-  "published": 199,
+  "communityValidated": 82,
+  "published": 182,
   "audit": [
     {
       "id": "ibm-digital-credentials",
@@ -291,9 +291,9 @@
       "id": "mongodb-university-free",
       "sourceType": "seed",
       "url": "https://learn.mongodb.com/catalog?labels=%5B%22Free%2FPaid%22%5D&values=%5B%22Free%22%5D",
-      "httpStatus": 200,
+      "httpStatus": 521,
       "finalUrl": "https://learn.mongodb.com/catalog?labels=%5B%22Free%2FPaid%22%5D&values=%5B%22Free%22%5D",
-      "status": "active"
+      "status": "unknown"
     },
     {
       "id": "saylor-free-certificates",
@@ -387,9 +387,9 @@
       "id": "gitlab-university-free",
       "sourceType": "seed",
       "url": "https://university.gitlab.com/",
-      "httpStatus": 200,
+      "httpStatus": 521,
       "finalUrl": "https://university.gitlab.com/",
-      "status": "active"
+      "status": "unknown"
     },
     {
       "id": "the-odin-project",
@@ -557,55 +557,6 @@
       "url": "https://skillsbuild.org/es/digital-credentials",
       "finalUrl": "https://skillsbuild.org/es/digital-credentials",
       "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-mongodb-skip-to-main-content",
-      "sourceType": "discovered",
-      "url": "https://learn.mongodb.com/catalog?labels=%5B%22Free%2FPaid%22%5D&values=%5B%22Free%22%5D",
-      "finalUrl": "https://learn.mongodb.com/catalog?labels=%5B%22Free%2FPaid%22%5D&values=%5B%22Free%22%5D",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-mongodb-certification",
-      "sourceType": "discovered",
-      "url": "https://learn.mongodb.com/pages/certification-program",
-      "finalUrl": "https://learn.mongodb.com/pages/certification-program",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-mongodb-skills-and-certificationsdevelop-in-demand-skills-and-earn-mongodb-certifications",
-      "sourceType": "discovered",
-      "url": "https://learn.mongodb.com",
-      "finalUrl": "https://learn.mongodb.com",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-mongodb-skills",
-      "sourceType": "discovered",
-      "url": "https://learn.mongodb.com/skills",
-      "finalUrl": "https://learn.mongodb.com/skills",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-mongodb-list-of-self-paced-topics",
-      "sourceType": "discovered",
-      "url": "https://learn.mongodb.com/self-paced-topics",
-      "finalUrl": "https://learn.mongodb.com/self-paced-topics",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-mongodb-free",
-      "sourceType": "discovered",
-      "url": "https://learn.mongodb.com/catalog?labels=%5B%5D&page=1&values=%5B%5D",
-      "finalUrl": "https://learn.mongodb.com/catalog?labels=%5B%5D&page=1&values=%5B%5D",
-      "status": "rejected",
-      "reason": "no-learning-evidence",
       "httpStatus": 200
     },
     {
@@ -976,58 +927,10 @@
       "httpStatus": 403
     },
     {
-      "id": "live-platzi-free-toma-las-primeras-clases-gratis",
+      "id": "live-platzi-free-tutorial",
       "sourceType": "discovered",
-      "url": "https://platzi.com/cursos/programacion-basica",
-      "finalUrl": "https://platzi.com/cursos/programacion-basica",
-      "status": "active",
-      "httpStatus": 403
-    },
-    {
-      "id": "live-platzi-free-curso-gratis-de-marca-personal",
-      "sourceType": "discovered",
-      "url": "https://platzi.com/cursos/marca-personal",
-      "finalUrl": "https://platzi.com/cursos/marca-personal",
-      "status": "active",
-      "httpStatus": 403
-    },
-    {
-      "id": "live-platzi-free-curso-gratis-de-estrategias-para-aprender-ingles-en-linea",
-      "sourceType": "discovered",
-      "url": "https://platzi.com/cursos/estrategias-ingles",
-      "finalUrl": "https://platzi.com/cursos/estrategias-ingles",
-      "status": "active",
-      "httpStatus": 403
-    },
-    {
-      "id": "live-platzi-free-curso-gratis-de-introduccion-a-la-inteligencia-artificial",
-      "sourceType": "discovered",
-      "url": "https://platzi.com/cursos/intro-ai",
-      "finalUrl": "https://platzi.com/cursos/intro-ai",
-      "status": "active",
-      "httpStatus": 403
-    },
-    {
-      "id": "live-platzi-free-curso-gratis-de-lovable",
-      "sourceType": "discovered",
-      "url": "https://platzi.com/cursos/lovable",
-      "finalUrl": "https://platzi.com/cursos/lovable",
-      "status": "active",
-      "httpStatus": 403
-    },
-    {
-      "id": "live-platzi-free-curso-gratis-para-crear-agentes-de-ai-con-copilot-studio",
-      "sourceType": "discovered",
-      "url": "https://platzi.com/cursos/copilot-studio",
-      "finalUrl": "https://platzi.com/cursos/copilot-studio",
-      "status": "active",
-      "httpStatus": 403
-    },
-    {
-      "id": "live-platzi-free-curso-de-pagos-abiertos-con-interledger",
-      "sourceType": "discovered",
-      "url": "https://platzi.com/cursos/interledger-openpayments",
-      "finalUrl": "https://platzi.com/cursos/interledger-openpayments",
+      "url": "https://platzi.com/cursos/backend-nodejs",
+      "finalUrl": "https://platzi.com/cursos/backend-nodejs",
       "status": "active",
       "httpStatus": 403
     },
@@ -1160,51 +1063,18 @@
       "httpStatus": 200
     },
     {
-      "id": "live-gitlab-university-skip-to-main-content",
+      "id": "live-fazt-ia-feat-que-son-los-skills-en-ia-y-como-instalarlos",
       "sourceType": "discovered",
-      "url": "https://university.gitlab.com",
-      "finalUrl": "https://university.gitlab.com",
-      "status": "rejected",
-      "reason": "no-learning-evidence",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-fazt-ia-feat-mcp-ya-no-es-solo-tools-ahora-trae-skills-tasks-y-elicitation",
-      "sourceType": "discovered",
-      "url": "https://fazt.dev/contenido/mcp-ya-no-es-solo-tools-skills-tasks-elicitation",
-      "finalUrl": "https://fazt.dev/contenido/mcp-ya-no-es-solo-tools-skills-tasks-elicitation",
+      "url": "https://fazt.dev/contenido/que-son-los-skills-en-ia",
+      "finalUrl": "https://fazt.dev/contenido/que-son-los-skills-en-ia",
       "status": "active",
       "httpStatus": 200
     },
     {
-      "id": "live-fazt-ia-feat-impeccable-el-skill-que-elimina-el-ai-slop-de-tus-interfaces-y-es-gratis",
+      "id": "live-fazt-ia-feat-los-mcp-estan-muriendo-la-verdad-sobre-skills",
       "sourceType": "discovered",
-      "url": "https://fazt.dev/contenido/impeccable-skill-diseno-ia-claude-cursor",
-      "finalUrl": "https://fazt.dev/contenido/impeccable-skill-diseno-ia-claude-cursor",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-fazt-ia-feat-hermes-agent-hermes-desktop-el-asistente-de-ia-que-instalas-en-2-minutos-mejor-que-openclaw",
-      "sourceType": "discovered",
-      "url": "https://fazt.dev/contenido/hermes-desktop-agente-ia-facil-instalacion-review",
-      "finalUrl": "https://fazt.dev/contenido/hermes-desktop-agente-ia-facil-instalacion-review",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-fazt-ia-feat-curso-de-opencode-2026-v1",
-      "sourceType": "discovered",
-      "url": "https://fazt.dev/contenido/opencode-programar-con-ia-terminal",
-      "finalUrl": "https://fazt.dev/contenido/opencode-programar-con-ia-terminal",
-      "status": "active",
-      "httpStatus": 200
-    },
-    {
-      "id": "live-fazt-ia-feat-para-que-sirve-sonnet-5-5-si-ya-tienes-opus-5-5",
-      "sourceType": "discovered",
-      "url": "https://fazt.dev/contenido/claude-sonnet-5-5-vs-opus-5-5",
-      "finalUrl": "https://fazt.dev/contenido/claude-sonnet-5-5-vs-opus-5-5",
+      "url": "https://fazt.dev/contenido/mcp-vs-skills-estan-muriendo",
+      "finalUrl": "https://fazt.dev/contenido/mcp-vs-skills-estan-muriendo",
       "status": "active",
       "httpStatus": 200
     },
@@ -1711,10 +1581,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Quality Assurance Certification",
       "url": "https://www.freecodecamp.org/learn/quality-assurance",
-      "status": "accepted",
-      "provider": "freeCodeCamp",
-      "kind": "Certificación",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/quality-assurance/"
     },
@@ -1845,10 +1713,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Data Visualization Certification",
       "url": "https://www.freecodecamp.org/learn/data-visualization",
-      "status": "accepted",
-      "provider": "freeCodeCamp",
-      "kind": "Certificación",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/data-visualization/"
     },
@@ -2271,10 +2137,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "JavaScript Algorithms and Data Structures Certification",
       "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures",
-      "status": "accepted",
-      "provider": "freeCodeCamp",
-      "kind": "Certificación",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/"
     },
@@ -2303,10 +2167,8 @@
       "source": "GitHub · Awesome Certificates",
       "title": "Scientific Computing with Python Certification",
       "url": "https://www.freecodecamp.org/learn/scientific-computing-with-python",
-      "status": "accepted",
-      "provider": "freeCodeCamp",
-      "kind": "Certificación",
-      "language": "EN",
+      "status": "rejected",
+      "reason": "no-free-credential-evidence",
       "httpStatus": 200,
       "finalUrl": "https://www.freecodecamp.org/learn/scientific-computing-with-python/"
     },
